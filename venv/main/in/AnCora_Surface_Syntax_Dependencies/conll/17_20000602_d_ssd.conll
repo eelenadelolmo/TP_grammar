@@ -1,0 +1,32 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	carril-bici	carril-bici	ncms000	ncms000	_	3	nsubj
+3	es	ser	vsip3s0	vsip3s0	_	0	root
+4	un	uno	di0ms0	di0ms0	_	5	det
+5	chollo	chollo	ncms000	ncms000	_	3	attr
+6	para	para	sps00	sps00	_	3	prepv
+7	ellos	él	pp3mp000	pp3mp000	_	6	pobj
+8	si	si	cs	cs	_	3	advcl
+9	tenemos	tener	vmn0000	vmn0000	_	17	coord
+10	en	en	spcms	spcms	_	9	iobj
+11	cuenta	cuenta	ncms000	ncms000	_	10	pobj
+12	que	que	cs	cs	_	8	cobj
+13	se	se	p0000000	p0000000	_	14	reflec
+14	está	estar	vmip3s0	vmip3s0	_	17	coord
+15	haciendo	hacer	vmg0000	vmg0000	_	14	attr
+16	poco	poco	pi0ms000	pi0ms000	_	17	coord
+17	o	o	cc	cc	_	12	cobj
+18	nada	nada	pi0cs000	pi0cs000	_	17	coord
+19	para	para	sps00	sps00	_	14	prepv
+20	que	que	cs	cs	_	19	pobj
+21	esos	ese	dd0mp0	dd0mp0	_	22	det
+22	carriles	carril	ncmp000	ncmp000	_	23	nsubj
+23	sean	ser	vssp3p0	vssp3p0	_	20	cobj
+24	realmente	realmente	rg	rg	_	25	advmod
+25	respetados	respetado	aq0mpp	aq0mpp	_	23	attr
+26	.	.	fp	fp	_	3	punct

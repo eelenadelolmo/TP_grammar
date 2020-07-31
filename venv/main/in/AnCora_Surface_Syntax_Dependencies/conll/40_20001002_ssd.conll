@@ -1,0 +1,73 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	colectivo	colectivo	ncms000	ncms000	_	4	nsubj
+3	inmigrante	inmigrante	aq0cs0	aq0cs0	_	2	amod
+4	tiene	tener	vmip3s0	vmip3s0	_	0	root
+5	un	uno	di0ms0	di0ms0	_	7	det
+6	serio	serio	aq0ms0	aq0ms0	_	7	amod
+7	problema	problema	ncms000	ncms000	_	4	dobj
+8	,	,	fc	fc	_	4	punct
+9	porque	porque	cs	cs	_	4	advcl
+10	no	no	rn	rn	_	11	neg
+11	ha	haber	vaip3s0	vaip3s0	_	9	cobj
+12	sabido	saber	vmp00sm	vmp00sm	_	11	vobj
+13	organizarse	organizar	vmn0000	vmn0000	_	12	dobj
+14	para	para	sps00	sps00	_	13	prepv
+15	entablar	entablar	vmn0000	vmn0000	_	14	pobj
+16	un	uno	di0ms0	di0ms0	_	17	det
+17	diálogo	diálogo	ncms000	ncms000	_	15	dobj
+18	fluido	fluido	aq0msp	aq0msp	_	17	amod
+19	con	con	sps00	sps00	_	15	prepv
+20	la	el	da0fs0	da0fs0	_	21	det
+21	Administración	Administración	np00000	np00000	_	19	pobj
+22	.	.	fp	fp	_	4	punct
+
+1	Eso	ese	pd0ns000	pd0ns000	_	6	nsubj
+2	,	,	fc	fc	_	6	punct
+3	desde	desde	sps00	sps00	_	6	advmod
+4	luego	luego	rg	rg	_	3	advmod
+5	,	,	fc	fc	_	6	punct
+6	es	ser	vsip3s0	vsip3s0	_	10	coord
+7	un	uno	di0ms0	di0ms0	_	8	det
+8	obstáculo	obstáculo	ncms000	ncms000	_	6	attr
+9	,	,	fc	fc	_	12	punct
+10	pero	pero	cc	cc	_	0	root
+11	no	no	rn	rn	_	12	neg
+12	debe	deber	vmip3s0	vmip3s0	_	10	coord
+13	servir	servir	vmn0000	vmn0000	_	12	dobj
+14	de	de	sps00	sps00	_	13	oobj
+15	excusa	excusa	ncfs000	ncfs000	_	14	pobj
+16	para	para	sps00	sps00	_	15	prepn
+17	no	no	rn	rn	_	18	neg
+18	hacer	hacer	vmn0000	vmn0000	_	16	pobj
+19	nada	nada	pi0cs000	pi0cs000	_	18	dobj
+20	.	.	fp	fp	_	10	punct
+
+1	Pintadas	pintada	ncfp000	ncfp000	_	9	coord
+2	,	,	fc	fc	_	9	punct
+3	insultos	insulto	ncmp000	ncmp000	_	9	coord
+4	,	,	fc	fc	_	9	punct
+5	desidia	desidia	ncfs000	ncfs000	_	9	coord
+6	institucional	institucional	aq0cs0	aq0cs0	_	5	amod
+7	,	,	fc	fc	_	9	punct
+8	agresiones	agresión	ncfp000	ncfp000	_	9	coord
+9	y	y	cc	cc	_	0	root
+10	homicidios	homicidio	ncmp000	ncmp000	_	9	coord
+11	.	.	fp	fp	_	9	punct
+
+1	No	no	rn	rn	_	2	neg
+2	son	ser	vsip3p0	vsip3p0	_	0	root
+3	pocos	poco	di0mp0	di0mp0	_	4	det
+4	avisos	aviso	ncmp000	ncmp000	_	2	attr
+5	para	para	sps00	sps00	_	4	prepn
+6	que	que	cs	cs	_	5	pobj
+7	nadie	nadie	pi0cs000	pi0cs000	_	8	nsubj
+8	baje	bajar	vmsp3s0	vmsp3s0	_	6	cobj
+9	la	el	da0fs0	da0fs0	_	10	det
+10	guardia	guardia	nccs000	nccs000	_	8	dobj
+11	.	.	fp	fp	_	2	punct

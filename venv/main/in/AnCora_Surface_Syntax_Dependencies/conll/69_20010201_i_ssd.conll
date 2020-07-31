@@ -1,0 +1,47 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	Inem	Inem	np00000	np00000	_	3	nsubj
+3	contrata	contratar	vmip3s0	vmip3s0	_	0	root
+4	los	el	da0mp0	da0mp0	_	5	det
+5	servicios	servicio	ncmp000	ncmp000	_	3	dobj
+6	de	de	sps00	sps00	_	5	prepn
+7	BT	BT	np00000	np00000	_	6	pobj
+8	.	.	fp	fp	_	3	punct
+
+1	La	el	da0fs0	da0fs0	_	2	det
+2	operadora	operadora	ncfs000	ncfs000	_	4	nsubj
+3	británica	británico	aq0fs0	aq0fs0	_	2	amod
+4	dará	dar	vmif3s0	vmif3s0	_	11	coord
+5	servicios	servicio	ncmp000	ncmp000	_	4	dobj
+6	de	de	sps00	sps00	_	5	prepn
+7	telecomunicaciones	telecomunicación	ncfp000	ncfp000	_	6	pobj
+8	a	a	sps00	sps00	_	4	iobj
+9	704	704	z	z	_	10	num
+10	oficinas	oficina	ncfp000	ncfp000	_	8	pobj
+11	y	y	cc	cc	_	0	root
+12	cobrará	cobrar	vmif3s0	vmif3s0	_	11	coord
+13	por	por	sps00	sps00	_	12	prepv
+14	ello	él	pp3ns000	pp3ns000	_	13	pobj
+15	3.178	3178	z	z	_	16	num
+16	millones	millón	ncmp000	ncmp000	_	12	dobj
+17	de	de	sps00	sps00	_	16	prepn
+18	pesetas	peseta	zm	zm	_	17	pobj
+19	hasta	hasta	sps00	sps00	_	12	prepv
+20	el	el	da0ms0	da0ms0	_	21	det
+21	año	año	ncmp000	ncmp000	_	19	pobj
+22	2004	2004	zm	zm	_	21	num
+23	.	.	fp	fp	_	11	punct
+
+1	La	el	da0fs0	da0fs0	_	2	det
+2	adjudicación	adjudicación	ncfs000	ncfs000	_	3	nsubj
+3	ha	haber	vaip3s0	vaip3s0	_	0	root
+4	suscitado	suscitar	vmp00sm	vmp00sm	_	3	vobj
+5	reticencias	reticencia	ncfp000	ncfp000	_	4	dobj
+6	en	en	sps00	sps00	_	5	prepn
+7	Telefónica	Telefónica	np00000	np00000	_	6	pobj
+8	.	.	fp	fp	_	3	punct

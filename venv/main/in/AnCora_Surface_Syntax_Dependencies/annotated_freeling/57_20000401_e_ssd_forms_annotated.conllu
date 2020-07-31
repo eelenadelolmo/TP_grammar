@@ -1,0 +1,79 @@
+1	Nuevo	nuevo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+2	secretario	secretario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	0	top	_	_
+3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
+4	política	política	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+5	parlamentaria	parlamentario	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
+7	ERC	erc	NC00000	NC	matched=no|pos=noun|type=common	6	comp	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
+2	alcalde	alcalde	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	coor	_	_
+3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
+4	Ribes	ribes	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
+6	Fresser	fresser	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+8	diputado	diputado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	coor	_	_
+9	republicano	republicano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	en	en	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	Parlament	parlament	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+14	Pere	p_ere	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	subj	_	_
+15	Vigo	vigo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	14	mod	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	14	punc	_	_
+17	será	ser	VSIF3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=semiauxiliary	18	aux	_	_
+18	confirmado	confirmar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	7	modnomatch	_	_
+19	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	18	adjt	_	_
+20	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	18	adjt	_	_
+21	nuevo	nuevo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	22	mod	_	_
+22	secretario	secretario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+23	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+24	política	política	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
+25	parlamentaria	parlamentario	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	24	mod	_	_
+26	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+27	Esquerra	esquerra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
+28	Republicana	republicano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	27	mod	_	_
+29	por	por	SP	SP	matched=no|pos=adposition|type=preposition	18	agnt	_	_
+30	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	31	spec	_	_
+31	consejo	consejo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	29	comp	_	_
+32	nacional	nacional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	31	mod	_	_
+33	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+34	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	35	spec	_	_
+35	partido	partido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	33	comp	_	_
+36	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	18	punc	_	_
+
+1	Vigo	vigo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	4	subj	_	_
+4	pasa	pasar	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	mod	_	_
+5	así	así	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	4	adjt	_	_
+6	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	pobj	_	_
+7	formar_parte	formar_parte	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	6	comp	_	_
+8	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	adjt	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	10	spec	_	_
+10	comisión	comisión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	comp	_	_
+11	política	político	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	10	mod	_	_
+12	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	adjt	_	_
+13	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	14	spec	_	_
+14	formación	formación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	comp	_	_
+15	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+16	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	17	aux	_	_
+17	sustituido	sustituir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	Parlament	parlament	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+21	a	a	SP	SP	matched=no|pos=adposition|type=preposition	17	modnomatch	_	_
+22	Joan	joan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	17	modnomatch	_	_
+23	Puigcercós	puigcercós	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	dobj	_	_
+24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	22	punc	_	_
+25	diputado	diputado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	modnomatch	_	_
+26	electo	electo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	25	mod	_	_
+27	de	de	SP	SP	matched=no|pos=adposition|type=preposition	25	mod	_	_
+28	ERC	erc	NC00000	NC	matched=no|pos=noun|type=common	27	comp	_	_
+29	en	en	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
+30	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	31	spec	_	_
+31	Congreso	congreso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	29	comp	_	_
+32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
+

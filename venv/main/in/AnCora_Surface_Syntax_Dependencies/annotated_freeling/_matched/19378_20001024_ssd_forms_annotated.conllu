@@ -1,0 +1,111 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Príncipe	príncipe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Asturias	asturias	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+5	recibió	recibir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+6	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
+7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
+9	Palacio	palacio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	Zarzuela	zarzuela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+14	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	16	spec	_	_
+15	nutrida	nutrir	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	16	mod	_	_
+16	representación	representación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+18	estudiantes	estudiante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	17	comp	_	_
+19	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	mod	_	_
+20	Derecho	derecho	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
+21	de	de	SP	SP	matched=no|pos=adposition|type=preposition	20	mod	_	_
+22	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	Universidad	universidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
+24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	23	mod	_	_
+25	Deusto	deusto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+26	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+27	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+28	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	29	spec	_	_
+29	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	30	subj	_	_
+30	explicó	explicar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	27	comp	_	_
+31	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	32	spec	_	_
+32	desempeño	desempeño	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	30	dobj	_	_
+33	diario	diario	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	32	mod	_	_
+34	de	de	SP	SP	matched=no|pos=adposition|type=preposition	32	mod	_	_
+35	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	36	spec	_	_
+36	funciones	función	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	34	comp	_	_
+37	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_
+38	quienes	quien	PR0CP00	PR	gen=common|matched=no|num=plural|pos=pronoun|type=relative	5	modnomatch	_	_
+39	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+40	por	por	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+41	invitación	invitación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	40	comp	_	_
+42	suya	suyo	AP0FS3N	AP	gen=feminine|matched=no|num=singular|pos=adjective|possessornum=invariable|possessorpers=3|type=possessive	5	modnomatch	_	_
+43	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+44	visitaron	visitar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	5	modnomatch	_	_
+45	a	a	SP	SP	matched=no|pos=adposition|type=preposition	44	adjt	_	_
+46	continuación	continuación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	45	comp	_	_
+47	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	48	spec	_	_
+48	Palacio	palacio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	44	dobj	_	_
+49	Real	real	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	48	mod	_	_
+50	de	de	SP	SP	matched=no|pos=adposition|type=preposition	48	mod	_	_
+51	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	50	comp	_	_
+52	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	44	punc	_	_
+
+1	Además	además	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
+2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+3	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	4	spec	_	_
+4	estudiantes	estudiante	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
+5	fueron	ser	VSIS3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=semiauxiliary	6	aux	_	_
+6	invitados	invitar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	0	top	_	_
+7	por	por	SP	SP	matched=no|pos=adposition|type=preposition	6	agnt	_	_
+8	Don	don	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+9	Felipe	felipe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	mod	_	_
+10	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+11	visitar	visitar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	10	comp	_	_
+12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+13	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+14	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
+15	término	término	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+17	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
+18	audiencia	audiencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	16	punc	_	_
+20	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
+21	Palacio	palacio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
+22	Real	real	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	21	mod	_	_
+23	de	de	SP	SP	matched=no|pos=adposition|type=preposition	21	mod	_	_
+24	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
+25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	estudiantes	estudiante	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	18	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Deusto	deusto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+6	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	8	subj	_	_
+7	han	haber	VAIP3P0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	8	aux	_	_
+8	organizado	organizar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+9	esta	este	DD0FS0	DD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	10	spec	_	_
+10	visita	visita	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	dobj	_	_
+11	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	adjt	_	_
+12	Madrid	madrid	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	comp	_	_
+13	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	adjt	_	_
+14	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	16	spec	_	_
+15	propia	propio	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+16	iniciativa	iniciativa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	comp	_	_
+17	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+18	permanecerán	permanecer	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	0	top	_	_
+19	en	en	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+20	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
+21	hasta	hasta	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+22	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	Jueves	[J:??/??/??:??.??:??]	W	W	matched=no|pos=date	21	comp	_	_
+24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	18	punc	_	_
+25	visitando	visitar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	18	adjt	_	_
+26	otras	otro	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	27	spec	_	_
+27	instituciones	institución	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	25	dobj	_	_
+28	de	de	SP	SP	matched=no|pos=adposition|type=preposition	27	mod	_	_
+29	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	30	spec	_	_
+30	Estado	estado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	28	comp	_	_
+31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	18	punc	_	_
+

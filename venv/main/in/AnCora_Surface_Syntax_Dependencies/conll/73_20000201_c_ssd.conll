@@ -1,0 +1,93 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	Un	uno	di0ms0	di0ms0	_	2	det
+2	encapuchado	encapuchado	aq0msp	aq0msp	_	3	cpred
+3	mata	matar	vmip3s0	vmip3s0	_	0	root
+4	a	a	sps00	sps00	_	3	advmod
+5	tiros	tiro	ncmp000	ncmp000	_	4	pobj
+6	a	a	sps00	sps00	_	3	dobj
+7	un	uno	di0ms0	di0ms0	_	8	det
+8	colombiano	colombiano	ncms000	ncms000	_	6	pobj
+9	en	en	sps00	sps00	_	3	prepv
+10	Madrid	Madrid	np00000	np00000	_	9	pobj
+11	.	.	fp	fp	_	3	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	crimen	crimen	ncms000	ncms000	_	3	nsubj
+3	ocurrió	ocurrir	vmis3s0	vmis3s0	_	0	root
+4	pasadas	pasado	aq0fpp	aq0fpp	_	6	amod
+5	las	el	da0fp0	da0fp0	_	6	det
+6	once	once	pn0cp000	pn0cp000	_	3	dobj
+7	de	de	sps00	sps00	_	6	prepn
+8	la	el	da0fs0	da0fs0	_	9	det
+9	noche	noche	ncfs000	ncfs000	_	7	pobj
+10	de	de	sps00	sps00	_	9	prepn
+11	ayer	ayer	rg	rg	_	10	advmod
+12	cuando	cuando	cs	cs	_	3	advcl
+13	la	el	da0fs0	da0fs0	_	14	det
+14	víctima	víctima	ncfs000	ncfs000	_	29	nsubj
+15	,	,	fc	fc	_	14	punct
+16	José	José	ncms000	ncms000	_	14	appos
+17	Raúl	Raúl	np0000o	np0000o	_	16	appos
+18	Sánchez	Sánchez	ncms000	ncms000	_	16	appos
+19	Hernández	Hernández	np0000a	np0000a	_	18	appos
+20	,	,	fc	fc	_	14	punct
+21	de	de	sps00	sps00	_	24	coord
+22	31	31	z	z	_	23	num
+23	años	año	ncmp000	ncmp000	_	21	pobj
+24	y	y	cc	cc	_	14	dep
+25	sin	sin	sps00	sps00	_	24	coord
+26	antecedentes	antecedente	ncmp000	ncmp000	_	25	pobj
+27	,	,	fc	fc	_	12	punct
+28	se	él	p0300000	p0300000	_	29	reflec
+29	encontraba	encontrar	vmii3s0	vmii3s0	_	12	cobj
+30	en	en	sps00	sps00	_	29	prepv
+31	una	uno	di0fs0	di0fs0	_	32	det
+32	cabina	cabina	ncfs000	ncfs000	_	30	pobj
+33	hablando	hablar	vmg0000	vmg0000	_	29	advcl
+34	por	por	sps00	sps00	_	33	prepv
+35	teléfono	teléfono	ncms000	ncms000	_	34	pobj
+36	en	en	sps00	sps00	_	33	prepv
+37	la	el	da0fs0	da0fs0	_	38	det
+38	calle	calle	ncfs000	ncfs000	_	36	pobj
+39	de	de	sps00	sps00	_	38	prepn
+40	Los	el	da0ms0	da0ms0	_	41	det
+41	Monegros	Monegros	np0000o	np0000o	_	39	pobj
+42	,	,	fc	fc	_	38	punct
+43	cerca	cerca	rg	rg	_	38	advmod
+44	de	de	sps00	sps00	_	43	prep
+45	la	el	da0fs0	da0fs0	_	46	det
+46	vivienda	vivienda	ncfs000	ncfs000	_	44	pobj
+47	que	que	pr0cn000	pr0cn000	_	48	dobj
+48	compartía	compartir	vmii3s0	vmii3s0	_	46	rcmod
+49	con	con	sps00	sps00	_	48	prepv
+50	unos	uno	di0mp0	di0mp0	_	51	det
+51	compatriotas	compatriota	nccp000	nccp000	_	49	pobj
+52	.	.	fp	fp	_	3	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	agresor	agresor	ncms000	ncms000	_	3	nsubj
+3	actuó	actuar	vmis3s0	vmis3s0	_	6	coord
+4	con	con	sps00	sps00	_	3	prepv
+5	rapidez	rapidez	ncfs000	ncfs000	_	4	pobj
+6	y	y	cc	cc	_	0	root
+7	salió	salir	vmis3s0	vmis3s0	_	6	coord
+8	corriendo	correr	vmg0000	vmg0000	_	7	dobj
+9	del	del	spcms	spcms	_	7	prepv
+10	lugar	lugar	ncms000	ncms000	_	9	pobj
+11	,	,	fc	fc	_	7	punct
+12	sin	sin	sps00	sps00	_	7	prepv
+13	que	que	cs	cs	_	12	pobj
+14	los	el	da0mp0	da0mp0	_	15	det
+15	amigos	amigo	ncmp000	ncmp000	_	20	nsubj
+16	que	que	pr0cn000	pr0cn000	_	17	nsubj
+17	acompañaban	acompañar	vmii3p0	vmii3p0	_	15	rcmod
+18	al	al	spcms	spcms	_	17	dobj
+19	fallecido	fallecido	aq0msp	aq0msp	_	18	pobj
+20	pudieran	poder	vmsi3p0	vmsi3p0	_	13	cobj
+21	capturarle	capturar	vmn0000	vmn0000	_	20	dobj
+22	.	.	fp	fp	_	6	punct

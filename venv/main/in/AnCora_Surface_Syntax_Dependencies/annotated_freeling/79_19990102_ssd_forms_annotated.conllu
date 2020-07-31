@@ -1,0 +1,55 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	impuesto	impuesto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+3	sobre	sobre	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+4	hidrocarburos	hidrocarburo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+6	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	7	subj	_	_
+7	grava	gravar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	11	modnomatch	_	_
+8	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
+9	carburantes	carburante	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	dobj	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+11	experimenta	experimentar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+12	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	13	spec	_	_
+13	actualización	actualización	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	dobj	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+15	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	17	subj	_	_
+17	significa	significar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	11	modnomatch	_	_
+18	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	11	modnomatch	_	_
+19	sube	subir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	18	comp	_	_
+20	igual	igual	RG	RG	matched=no|pos=adverb|type=general	19	adjt	_	_
+21	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	11	modnomatch	_	_
+22	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	inflación	inflación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	28	subj	_	_
+24	prevista	prever	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	23	mod	_	_
+25	en	en	SP	SP	matched=no|pos=adposition|type=preposition	28	adjt	_	_
+26	1999	1999	Z	Z	matched=no|pos=number	25	comp	_	_
+27	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	25	punc	_	_
+28	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	21	comp	_	_
+29	decir	decir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	28	attr	_	_
+30	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+31	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	32	spec	_	_
+32	1,8_%	1.8/100	Zp	Zp	matched=no|pos=number|type=percentage	11	modnomatch	_	_
+33	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	De	de	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+2	esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	3	spec	_	_
+3	forma	forma	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+5	este	este	DD0MS0	DD	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	6	spec	_	_
+6	gravamen	gravamen	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	subj	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	6	punc	_	_
+8	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	mod	_	_
+9	elevado	elevar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	10	mod	_	_
+10	poder	poder	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	comp	_	_
+11	recaudatorio	recaudatorio	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	10	mod	_	_
+12	dentro_de	dentro_de	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+13	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	14	spec	_	_
+14	impuestos	impuesto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
+15	indirectos	indirecto	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	14	mod	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
+17	no	no	RN	RN	matched=no|pos=adverb|type=negative	18	spec	_	_
+18	pierde	perder	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+19	ingresos	ingreso	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	18	dobj	_	_
+20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	18	punc	_	_
+

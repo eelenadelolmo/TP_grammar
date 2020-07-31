@@ -1,0 +1,74 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	Los	el	da0mp0	da0mp0	_	2	det
+2	Timberwolves	Timberwolves	np00000	np00000	_	16	nsubj
+3	,	,	fc	fc	_	2	punct
+4	que	que	pr0cn000	pr0cn000	_	5	nsubj
+5	llevan	llevar	vmip3p0	vmip3p0	_	2	rcmod
+6	ya	ya	rg	rg	_	7	advmod
+7	ocho	ocho	dn0cp0	dn0cp0	_	8	det
+8	victorias	victoria	ncfp000	ncfp000	_	5	dobj
+9	consecutivas	consecutivo	aq0fp0	aq0fp0	_	8	amod
+10	(	(	fpa	fpa	_	11	punct
+11	récord	récord	ncms000	ncms000	_	8	appos
+12	del	del	spcms	spcms	_	11	prepn
+13	equipo	equipo	ncms000	ncms000	_	12	pobj
+14	)	)	fpt	fpt	_	11	punct
+15	,	,	fc	fc	_	2	punct
+16	superaron	superar	vmis3p0	vmis3p0	_	0	root
+17	por	por	sps00	sps00	_	16	prepv
+18	96-83	96-83	z	z	_	17	pobj
+19	a	a	sps00	sps00	_	16	dobj
+20	los	el	da0mp0	da0mp0	_	21	det
+21	californianos	californiano	ncmp000	ncmp000	_	19	pobj
+22	,	,	fc	fc	_	21	punct
+23	que	que	pr0cn000	pr0cn000	_	24	nsubj
+24	siguen	seguir	vmip3p0	vmip3p0	_	21	rcmod
+25	sin	sin	sps00	sps00	_	24	prepv
+26	poder	poder	vmn0000	vmn0000	_	25	pobj
+27	contar	contar	vmn0000	vmn0000	_	26	dobj
+28	con	con	sps00	sps00	_	27	oobj
+29	Shaquille	Shaquille	np0000l	np0000l	_	28	pobj
+30	O'Neal	O'Neal	np0000l	np0000l	_	29	appos
+31	,	,	fc	fc	_	29	punct
+32	lesionado	lesionado	aq0msp	aq0msp	_	29	amod
+33	.	.	fp	fp	_	16	punct
+
+1	Sin	sin	sps00	sps00	_	12	prepv
+2	el	el	da0ms0	da0ms0	_	3	det
+3	pívot	pívot	nccs000	nccs000	_	4	coord
+4	y	y	cc	cc	_	1	pobj
+5	estrella	estrella	nccs000	nccs000	_	4	coord
+6	del	del	spcms	spcms	_	5	prepn
+7	equipo	equipo	ncms000	ncms000	_	6	pobj
+8	,	,	fc	fc	_	11	punct
+9	los	el	da0mp0	da0mp0	_	10	det
+10	Lakers	Lakers	np00000	np00000	_	11	nsubj
+11	han	haber	vaip3p0	vaip3p0	_	19	coord
+12	perdido	perder	vmp00sm	vmp00sm	_	11	vobj
+13	dos	dos	pn0cp000	pn0cp000	_	12	dobj
+14	de	de	sps00	sps00	_	13	prepn
+15	sus	su	dp3cp0	dp3cp0	_	18	poss
+16	tres	tres	dn0cp0	dn0cp0	_	18	det
+17	últimos	último	ao0mp0	ao0mp0	_	18	amod
+18	partidos	partido	ncmp000	ncmp000	_	14	pobj
+19	y	y	cc	cc	_	0	root
+20	están	estar	vmip3p0	vmip3p0	_	19	coord
+21	lejos	lejos	rg	rg	_	20	advmod
+22	de	de	sps00	sps00	_	21	prep
+23	ser	ser	vsn0000	vsn0000	_	22	pobj
+24	el	el	da0ms0	da0ms0	_	25	det
+25	equipo	equipo	ncms000	ncms000	_	23	attr
+26	que	que	pr0cn000	pr0cn000	_	27	nsubj
+27	dominó	dominar	vmis3s0	vmis3s0	_	25	rcmod
+28	la	el	da0fs0	da0fs0	_	30	det
+29	pasada	pasado	aq0fsp	aq0fsp	_	30	amod
+30	temporada	temporada	ncfs000	ncfs000	_	27	tmod
+31	en	en	sps00	sps00	_	27	prepv
+32	la	el	da0fs0	da0fs0	_	33	det
+33	NBA	NBA	np00000	np00000	_	31	pobj
+34	.	.	fp	fp	_	19	punct

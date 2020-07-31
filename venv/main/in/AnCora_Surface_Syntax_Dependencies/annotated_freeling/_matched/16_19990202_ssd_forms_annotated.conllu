@@ -1,0 +1,81 @@
+1	Cucharada	cucharada	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+2	a	a	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+3	cucharada	cucharada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	chaval	chaval	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	modnomatch	_	_
+7	asimila	asimilar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
+9	consomé	consomé	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	coor	_	_
+10	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	7	dobj	_	_
+11	sopicaldo	sopicaldo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	coor	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	mod	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	día	día	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+15	junto_a	junto_a	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+16	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	18	spec	_	_
+17	paradójica	paradójico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	18	mod	_	_
+18	educación	educación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+19	familiar	familiar	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	18	mod	_	_
+20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	pater	pater	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	familias	familia	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	mod	_	_
+4	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	6	mphes	_	_
+5	está	estar	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	6	prt	_	_
+6	desahogando	desahogar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	0	top	_	_
+7	contra	contra	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+8	compañeros	compañero	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	comp	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	6	dobj	_	_
+10	vecinos	vecino	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	coor	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+12	emigrantes	emigrante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	13	coor	_	_
+13	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	6	modnomatch	_	_
+14	minorías	minoría	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	13	coor	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+16	contra	contra	SP	SP	matched=no|pos=adposition|type=preposition	6	modnomatch	_	_
+17	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	6	punc	_	_
+18	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
+19	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	6	punc	_	_
+20	esos	ese	DD0MP0	DD	gen=masculine|matched=no|num=plural|pos=determiner|type=demonstrative	6	modnomatch	_	_
+21	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	6	punc	_	_
+22	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
+23	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	6	punc	_	_
+24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+25	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	26	subj	_	_
+26	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	6	modnomatch	_	_
+27	culpables	culpable	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	26	attr	_	_
+28	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	modnomatch	_	_
+29	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	6	punc	_	_
+30	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
+31	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	6	punc	_	_
+32	todo	todo	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	6	modnomatch	_	_
+33	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	6	punc	_	_
+34	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
+35	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	6	punc	_	_
+36	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	ministro	ministro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Interior	interior	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	francés	francés	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+8	Jean-Pierre	jean-pierre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	modnomatch	_	_
+9	Chevènement	chevènement	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	mod	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+11	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	12	aux	_	_
+12	provocado	provocar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	escándalo	escándalo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	dobj	_	_
+15	a	a	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+16	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
+17	acusar	acusar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	15	modnomatch	_	_
+18	a	a	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+19	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
+20	sacrosanta	sacrosanto	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	21	mod	_	_
+21	institución	institución	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
+

@@ -1,0 +1,60 @@
+1	Paso	paso	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+2	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+3	paso	paso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+5	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	6	mphes	_	_
+6	asoma	asomar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+7	orgulloso	orgulloso	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	6	modnomatch	_	_
+8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	élite	élite	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+12	sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
+13	preguntar	preguntar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	12	comp	_	_
+14	por	por	SP	SP	matched=no|pos=adposition|type=preposition	13	pobj	_	_
+15	quién	quién	PT0CS00	PT	gen=common|matched=no|num=singular|pos=pronoun|type=interrogative	14	comp	_	_
+16	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	6	modnomatch	_	_
+17	delante	delante	RG	RG	matched=no|pos=adverb|type=general	16	adjt	_	_
+18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
+
+1	Francia	francia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+2	también	también	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+3	estaba	estar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+4	hundida	hundir	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	attr	_	_
+5	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	3	adjt	_	_
+6	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	7	spec	_	_
+7	grandeur	grandeur	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	9	subj	_	_
+8	había	haber	VAII3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=auxiliary	9	aux	_	_
+9	caído	caer	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	5	comp	_	_
+10	por	por	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+11	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	12	spec	_	_
+12	suelos	suelo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	tipo	tipo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	subj	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+4	no	no	RN	RN	matched=yes: subj child of top deprel|pos=adverb|type=negative	5	spec	_	_
+5	tiene	tener	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	mod	_	_
+6	aspecto	aspecto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	dobj	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	mod	_	_
+8	estudioso	estudioso	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	mod	_	_
+10	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	11	spec	_	_
+11	fútbol	fútbol	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	comp	_	_
+12	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+13	más	más	RG	RG	matched=no|pos=adverb|type=general	14	modnomatch	_	_
+14	bien	bien	RG	RG	matched=no|pos=adverb|type=general	15	adjt	_	_
+15	parece	parecer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+16	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	17	spec	_	_
+17	bonvivant	bonvivant	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	attr	_	_
+18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	19	punc	_	_
+19	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	15	modnomatch	_	_
+20	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	22	subj	_	_
+21	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	22	aux	_	_
+22	armado	armar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	19	coor	_	_
+23	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	15	modnomatch	_	_
+24	Senegal	senega_l	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	modnomatch	_	_
+25	competitivo	competitivo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	24	mod	_	_
+26	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
+

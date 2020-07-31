@@ -1,0 +1,65 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	EL	el	da0ms0	da0ms0	_	3	det
+2	'	'	fz	fz	_	3	punct
+3	CONSELLER	CONSELLER	nc00000	nc00000	_	12	nsubj
+4	'	'	fz	fz	_	3	punct
+5	de	de	sps00	sps00	_	3	prepn
+6	Sanitat	Sanitat	np00000	np00000	_	5	pobj
+7	,	,	fc	fc	_	3	punct
+8	Eduard	Eduard	np0000l	np0000l	_	3	appos
+9	Rius	Rius	np0000l	np0000l	_	8	appos
+10	,	,	fc	fc	_	3	punct
+11	se	él	p0300000	p0300000	_	12	reflec
+12	comprometió	comprometer	vmis3s0	vmis3s0	_	0	root
+13	anoche	anoche	rg	rg	_	12	advmod
+14	ante	ante	sps00	sps00	_	12	prepv
+15	los	el	da0mp0	da0mp0	_	16	det
+16	sindicatos	sindicato	ncmp000	ncmp000	_	14	pobj
+17	de	de	sps00	sps00	_	16	prepn
+18	la	el	da0fs0	da0fs0	_	19	det
+19	red	red	ncfs000	ncfs000	_	17	pobj
+20	de	de	sps00	sps00	_	19	prepn
+21	hospitales	hospital	ncmp000	ncmp000	_	20	pobj
+22	de	de	sps00	sps00	_	21	prepn
+23	uso	uso	ncms000	ncms000	_	22	pobj
+24	público	público	aq0ms0	aq0ms0	_	23	amod
+25	de	de	sps00	sps00	_	19	prepn
+26	Catalunya	Catalunya	np00000	np00000	_	25	pobj
+27	(	(	fpa	fpa	_	28	punct
+28	XHUP	XHUP	np00000	np00000	_	19	appos
+29	)	)	fpt	fpt	_	28	punct
+30	a	a	sps00	sps00	_	12	oobj
+31	convocar	convocar	vmn0000	vmn0000	_	30	pobj
+32	a	a	sps00	sps00	_	31	dobj
+33	la	el	da0fs0	da0fs0	_	34	det
+34	patronal	patronal	ncfs000	ncfs000	_	32	pobj
+35	para	para	sps00	sps00	_	31	prepv
+36	negociar	negociar	vmn0000	vmn0000	_	35	pobj
+37	las	el	da0fp0	da0fp0	_	38	det
+38	reivindicaciones	reivindicación	ncfp000	ncfp000	_	36	dobj
+39	del	del	spcms	spcms	_	38	prepn
+40	personal	personal	ncms000	ncms000	_	39	pobj
+41	sanitario	sanitario	aq0ms0	aq0ms0	_	40	amod
+42	.	.	fp	fp	_	12	punct
+
+1	Los	el	da0mp0	da0mp0	_	2	det
+2	trabajadores	trabajador	ncmp000	ncmp000	_	3	nsubj
+3	aceptaron	aceptar	vmis3p0	vmis3p0	_	6	coord
+4	la	el	da0fs0	da0fs0	_	5	det
+5	mediación	mediación	ncfs000	ncfs000	_	3	dobj
+6	y	y	cc	cc	_	0	root
+7	abandonaron	abandonar	vmis3p0	vmis3p0	_	6	coord
+8	el	el	da0ms0	da0ms0	_	9	det
+9	encierro	encierro	ncms000	ncms000	_	7	dobj
+10	en	en	sps00	sps00	_	9	prepn
+11	la	el	da0fs0	da0fs0	_	12	det
+12	sede	sede	ncfs000	ncfs000	_	10	pobj
+13	de	de	sps00	sps00	_	12	prepn
+14	la	el	da0fs0	da0fs0	_	15	det
+15	conselleria	conselleria	ncfs000	ncfs000	_	13	pobj
+16	.	.	fp	fp	_	6	punct

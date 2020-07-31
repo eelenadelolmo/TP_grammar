@@ -1,0 +1,42 @@
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	3	spec	_	_
+2	animalistas	animalista	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	3	mod	_	_
+3	españoles	español	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
+4	venimos	venir	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+5	denunciando	denunciar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	4	adjt	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	maltrato	maltrato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
+9	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	10	spec	_	_
+10	animales	animal	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
+11	destinados	destinar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	10	mod	_	_
+12	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	consumo	consumo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+15	desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+16	hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	15	comp	_	_
+17	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	16	modnomatch	_	_
+18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	19	punc	_	_
+19	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	4	modnomatch	_	_
+20	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	21	spec	_	_
+21	administraciones	administración	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	19	coor	_	_
+22	no	no	RN	RN	matched=no|pos=adverb|type=negative	24	spec	_	_
+23	nos	nos	PP1CP00	PP	gen=common|matched=no|num=plural|person=1|pos=pronoun|type=personal	24	mphes	_	_
+24	toman	tomar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+25	en	en	SP	SP	matched=no|pos=adposition|type=preposition	24	adjt	_	_
+26	cuenta	cuenta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	25	comp	_	_
+27	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	4	punc	_	_
+28	a	a	SP	SP	matched=no|pos=adposition|type=preposition	32	adjt	_	_
+29	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	30	spec	_	_
+30	contrario	contrario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	28	comp	_	_
+31	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	28	punc	_	_
+32	resultamos	resultar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	4	modnomatch	_	_
+33	molestos	molesto	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	32	pred	_	_
+34	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	32	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	silencio	silencio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	respuesta	respuesta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	attr	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+

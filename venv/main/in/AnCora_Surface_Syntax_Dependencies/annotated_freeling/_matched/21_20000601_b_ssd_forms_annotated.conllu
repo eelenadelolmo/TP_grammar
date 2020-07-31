@@ -1,0 +1,69 @@
+1	Señores	señor	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+3	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	5	modnomatch	_	_
+4	me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	5	mphes	_	_
+5	pregunto	preguntar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+6	si	si	CS	CS	matched=no|pos=conjunction|type=subordinating	5	dobj	_	_
+7	volver	volver	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	9	prt	_	_
+8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	prt	_	_
+9	implantar	implantar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	21	subj	_	_
+10	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	11	spec	_	_
+11	tranvía	tranvía	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_
+12	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	21	adjt	_	_
+13	en	en	SP	SP	matched=no|pos=adposition|type=preposition	21	adjt	_	_
+14	día	día	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+15	por	por	SP	SP	matched=no|pos=adposition|type=preposition	21	adjt	_	_
+16	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
+17	centro	centro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	21	adjt	_	_
+19	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+21	será	ser	VSIF3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=semiauxiliary	6	comp	_	_
+22	práctico	práctico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	21	attr	_	_
+23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+
+1	¿	¿	Fia	Fia	matched=no|pos=punctuation|punctenclose=open|type=questionmark	5	punc	_	_
+2	Qué	qué	DT0CN0	DT	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=determiner|type=interrogative	3	spec	_	_
+3	servicio	servicio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+4	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	5	mphes	_	_
+5	quiere	querer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+6	prestar	prestar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	5	dobj	_	_
+7	?	?	Fit	Fit	matched=no|pos=punctuation|punctenclose=close|type=questionmark	5	punc	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	creo	creer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	dobj	_	_
+4	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	8	subj	_	_
+6	tendríamos	tener	VMIC1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=conditional|type=main	8	prt	_	_
+7	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	8	modnomatch	_	_
+8	tener	tener	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	10	subj	_	_
+9	ya	ya	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_
+10	sería	ser	VSIC1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=conditional|type=semiauxiliary	3	comp	_	_
+11	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	12	spec	_	_
+12	red	red	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	attr	_	_
+13	más	más	RG	RG	matched=no|pos=adverb|type=general	14	spec	_	_
+14	extensa	extenso	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	12	mod	_	_
+15	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+16	amplia	amplio	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	15	coor	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+18	metros	metro	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	17	comp	_	_
+19	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	2	punc	_	_
+20	Creo	creer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	2	modnomatch	_	_
+21	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	20	dobj	_	_
+22	llevamos	llevar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	21	comp	_	_
+23	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	24	spec	_	_
+24	retraso	retraso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	dobj	_	_
+25	comparado	comparar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	24	mod	_	_
+26	con	con	SP	SP	matched=no|pos=adposition|type=preposition	22	pobj	_	_
+27	otras	otro	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	28	spec	_	_
+28	ciudades	ciudad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	26	comp	_	_
+29	europeas	europeo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	28	mod	_	_
+30	de	de	SP	SP	matched=no|pos=adposition|type=preposition	28	mod	_	_
+31	unos	uno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	33	spec	_	_
+32	20	20	Z	Z	matched=no|pos=number	33	spec	_	_
+33	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	30	comp	_	_
+34	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	2	punc	_	_
+35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+

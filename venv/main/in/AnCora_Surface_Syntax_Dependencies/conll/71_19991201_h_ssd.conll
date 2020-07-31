@@ -1,0 +1,73 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	Detenido	detenido	aq0msp	aq0msp	_	0	root
+2	por	por	sps00	sps00	_	1	prepa
+3	robos	robo	ncmp000	ncmp000	_	2	pobj
+4	en	en	sps00	sps00	_	3	prepn
+5	autopistas	autopista	ncfp000	ncfp000	_	4	pobj
+6	tras	tras	sps00	sps00	_	1	prepa
+7	una	uno	di0fs0	di0fs0	_	8	det
+8	persecución	persecución	ncfs000	ncfs000	_	6	pobj
+9	de	de	sps00	sps00	_	8	prepn
+10	100	100	z	z	_	11	num
+11	kilómetros	kilómetro	ncmp000	ncmp000	_	9	pobj
+12	.	.	fp	fp	_	1	punct
+
+1	Mohamed	Mohamed	np0000l	np0000l	_	11	nsubj
+2	A.	A.	np0000l	np0000l	_	1	appos
+3	,	,	fc	fc	_	1	punct
+4	de	de	sps00	sps00	_	1	prepn
+5	38	38	z	z	_	6	num
+6	años	año	ncmp000	ncmp000	_	7	coord
+7	y	y	cc	cc	_	4	pobj
+8	nacionalidad	nacionalidad	ncfs000	ncfs000	_	7	coord
+9	argelina	argelino	aq0fs0	aq0fs0	_	8	amod
+10	,	,	fc	fc	_	1	punct
+11	fue	ser	vsis3s0	vsis3s0	_	0	root
+12	sorprendido	sorprender	vmp00sm	vmp00sm	_	11	attr
+13	por	por	sps00	sps00	_	12	agent
+14	una	uno	di0fs0	di0fs0	_	15	det
+15	patrulla	patrulla	ncfs000	ncfs000	_	13	pobj
+16	de	de	sps00	sps00	_	15	prepn
+17	Tráfico	Tráfico	np00000	np00000	_	16	pobj
+18	cuando	cuando	cs	cs	_	12	advcl
+19	sustraía	sustraer	vmii3s0	vmii3s0	_	18	cobj
+20	objetos	objeto	ncmp000	ncmp000	_	19	dobj
+21	de	de	sps00	sps00	_	19	prepv
+22	coches	coche	ncmp000	ncmp000	_	21	pobj
+23	.	.	fp	fp	_	11	punct
+
+1	La	el	da0fs0	da0fs0	_	2	det
+2	Guardia	guardia	ncms000	ncms000	_	4	nsubj
+3	Civil	civil	aq0ms0	aq0ms0	_	2	amod
+4	logró	lograr	vmis3s0	vmis3s0	_	0	root
+5	arrestarlo	arrestar	vmn0000	vmn0000	_	4	dobj
+6	en	en	sps00	sps00	_	5	prepv
+7	Vandellòs-L'Hospitalet	Vandellòs-L'Hospitalet	np0000o	np0000o	_	6	pobj
+8	de	de	sps00	sps00	_	7	prepn
+9	l'Infant	l'Infant	np0000l	np0000l	_	8	pobj
+10	(	(	fpa	fpa	_	7	punct
+11	Baix	Baix	np0000l	np0000l	_	7	appos
+12	Camp	camp	np0000l	np0000l	_	11	appos
+13	)	)	fpt	fpt	_	7	punct
+14	.	.	fp	fp	_	4	punct
+
+1	Se	se	p0000000	p0000000	_	3	reflec
+2	le	él	pp3csd00	pp3csd00	_	3	iobj
+3	imputan	imputar	vmip3p0	vmip3p0	_	0	root
+4	,	,	fc	fc	_	8	punct
+5	entre	entre	sps00	sps00	_	8	prepn
+6	otros	otro	pi0mp000	pi0mp000	_	5	pobj
+7	,	,	fc	fc	_	8	punct
+8	delitos	delito	ncmp000	ncmp000	_	3	nsubj
+9	de	de	sps00	sps00	_	8	prepn
+10	robo	robo	ncms000	ncms000	_	11	coord
+11	y	y	cc	cc	_	9	pobj
+12	falsificación	falsificación	ncfs000	ncfs000	_	11	coord
+13	de	de	sps00	sps00	_	12	prepn
+14	documentos	documento	ncmp000	ncmp000	_	13	pobj
+15	.	.	fp	fp	_	3	punct

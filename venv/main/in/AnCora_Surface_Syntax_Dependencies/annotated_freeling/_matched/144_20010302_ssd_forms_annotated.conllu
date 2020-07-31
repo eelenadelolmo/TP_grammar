@@ -1,0 +1,64 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	fútbol	fútbol	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	sala	sala	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+4	vive	vivir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+5	tiempos	tiempo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	dobj	_	_
+6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
+7	esplendor	esplendor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+9	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	televisión	televisión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	4	aux	_	_
+4	ayudado	ayudar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+6	por_supuesto	por_supuesto	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	deporte	deporte	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	26	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	moda	moda	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+6	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	7	subj	_	_
+7	captó	captar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	2	mod	_	_
+8	a_mediados_de	a_mediados_de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	adjt	_	_
+9	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	10	spec	_	_
+10	70	70	Z	Z	matched=yes: subj child of top deprel|pos=number	8	comp	_	_
+11	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+12	&	&	Fz	Fz	matched=yes: subj child of top deprel|pos=punctuation|type=other	2	punc	_	_
+13	quot	quot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+14	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	2	punc	_	_
+15	quienes	quien	PR0CP00	PR	gen=common|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=relative	18	subj	_	_
+16	no	no	RN	RN	matched=yes: subj child of top deprel|pos=adverb|type=negative	18	spec	_	_
+17	podían	poder	VMII3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	18	prt	_	_
+18	jugar	jugar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	2	mod	_	_
+19	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	18	pobj	_	_
+20	fútbol	fútbol	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	19	comp	_	_
+21	&	&	Fz	Fz	matched=yes: subj child of top deprel|pos=punctuation|type=other	2	punc	_	_
+22	quot	quot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+23	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	2	punc	_	_
+24	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+25	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	26	aux	_	_
+26	acabado	acabar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+27	ganándose	ganándose	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	26	modnomatch	_	_
+28	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	30	spec	_	_
+29	propio	propio	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	30	mod	_	_
+30	espacio	espacio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	27	dobj	_	_
+31	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	27	adjt	_	_
+32	también	también	RG	RG	matched=no|pos=adverb|type=general	31	coor	_	_
+33	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	34	spec	_	_
+34	respeto	respeto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	27	modnomatch	_	_
+35	a	a	SP	SP	matched=no|pos=adposition|type=preposition	27	adjt	_	_
+36	golpe	golpe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	35	comp	_	_
+37	de	de	SP	SP	matched=no|pos=adposition|type=preposition	36	mod	_	_
+38	títulos	título	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	37	comp	_	_
+39	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	27	punc	_	_
+40	hasta	hasta	SP	SP	matched=no|pos=adposition|type=preposition	27	adjt	_	_
+41	alcanzar	alcanzar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	40	comp	_	_
+42	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	43	spec	_	_
+43	cima	cima	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	41	dobj	_	_
+44	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	27	punc	_	_
+

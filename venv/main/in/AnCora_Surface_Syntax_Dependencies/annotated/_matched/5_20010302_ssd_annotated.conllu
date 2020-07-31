@@ -1,0 +1,43 @@
+1	BBVA	BBVA	np00000	np00000	matched=yes: nsubj child of root deprel	2	coord	_	_
+2	y	y	cc	cc	matched=yes: nsubj child of root deprel	4	nsubj	_	_
+3	BSCH	BSCH	np00000	np00000	matched=yes: nsubj child of root deprel	2	coord	_	_
+4	han	haber	vaip3p0	vaip3p0	matched=no	0	root	_	_
+5	integrado	integrar	vmp00sm	vmp00sm	matched=no	4	vobj	_	_
+6	en	en	sps00	sps00	matched=no	5	prepv	_	_
+7	sus	su	dp3cp0	dp3cp0	matched=no	8	poss	_	_
+8	estructuras	estructura	ncfp000	ncfp000	matched=no	6	pobj	_	_
+9	bancos	banco	ncmp000	ncmp000	matched=no	5	dobj	_	_
+10	de	de	sps00	sps00	matched=no	9	prepn	_	_
+11	la	el	da0fs0	da0fs0	matched=no	12	det	_	_
+12	región	región	ncfs000	ncfs000	matched=no	10	pobj	_	_
+13	.	.	fp	fp	matched=no	4	punct	_	_
+
+1	Ambas	ambos	dn0fp0	dn0fp0	matched=yes: nsubj child of root deprel	2	det	_	_
+2	adquisiciones	adquisición	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	3	nsubj	_	_
+3	tuvieron	tener	vmis3p0	vmis3p0	matched=no	0	root	_	_
+4	un	uno	di0ms0	di0ms0	matched=no	5	det	_	_
+5	coste	coste	ncms000	ncms000	matched=no	3	dobj	_	_
+6	elevado	elevado	aq0msp	aq0msp	matched=no	5	amod	_	_
+7	.	.	fp	fp	matched=no	3	punct	_	_
+
+1	&quot;	&quot;	fe	fe	matched=no	11	punct	_	_
+2	Cuando	cuando	cs	cs	matched=no	11	advcl	_	_
+3	necesitan	necesitar	vmip3p0	vmip3p0	matched=no	2	cobj	_	_
+4	plusvalías	plusvalía	ncfp000	ncfp000	matched=no	3	vobj	_	_
+5	,	,	fc	fc	matched=no	11	punct	_	_
+6	venden	vender	vmip3p0	vmip3p0	matched=no	11	coord	_	_
+7	alguno	alguno	pi0ms000	pi0ms000	matched=no	6	dobj	_	_
+8	de	de	sps00	sps00	matched=no	7	prepn	_	_
+9	sus	su	dp3cp0	dp3cp0	matched=no	10	poss	_	_
+10	activos	activo	ncmp000	ncmp000	matched=no	8	pobj	_	_
+11	y	y	cc	cc	matched=no	17	dobj	_	_
+12	cumplen	cumplir	vmip3p0	vmip3p0	matched=no	11	coord	_	_
+13	sus	su	dp3cp0	dp3cp0	matched=no	14	poss	_	_
+14	previsiones	previsión	ncfp000	ncfp000	matched=no	12	dobj	_	_
+15	&quot;	&quot;	fe	fe	matched=no	11	punct	_	_
+16	,	,	fc	fc	matched=no	17	punct	_	_
+17	señala	señalar	vmip3s0	vmip3s0	matched=no	0	root	_	_
+18	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	19	det	_	_
+19	analista	analista	nccs000	nccs000	matched=yes: nsubj child of root deprel	17	nsubj	_	_
+20	.	.	fp	fp	matched=no	17	punct	_	_
+

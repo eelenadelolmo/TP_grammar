@@ -1,0 +1,59 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	filme	filme	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	26	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	cineasta	cineasta	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	francés	francés	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	Bruno	bruno	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+8	Dumont	dumont	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	modnomatch	_	_
+9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+10	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	11	subj	_	_
+11	obtuvo	obtener	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	8	mod	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+13	Gran	gran	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	14	mod	_	_
+14	Premio	premio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	dobj	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	mod	_	_
+16	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
+17	Jurado	jurado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
+20	último	último	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	21	mod	_	_
+21	festival	festival	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+22	de	de	SP	SP	matched=no|pos=adposition|type=preposition	21	mod	_	_
+23	Cannes	cannes	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	22	comp	_	_
+24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+25	será	ser	VSIF3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=semiauxiliary	26	aux	_	_
+26	retirada	retirar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+27	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	26	adjt	_	_
+28	de	de	SP	SP	matched=no|pos=adposition|type=preposition	34	coor	_	_
+29	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	30	spec	_	_
+30	salas	sala	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	28	comp	_	_
+31	a_petición_de	a_petición_de	SP	SP	matched=no|pos=adposition|type=preposition	34	coor	_	_
+32	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	33	spec	_	_
+33	realizador	realizador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	31	comp	_	_
+34	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	26	modnomatch	_	_
+35	de	de	SP	SP	matched=no|pos=adposition|type=preposition	34	coor	_	_
+36	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	37	spec	_	_
+37	distribuidora	distribuidor	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	35	comp	_	_
+38	italiana	italiano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	37	mod	_	_
+39	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	26	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	cinta	cinta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	estrenada	estrenar	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	modnomatch	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	viernes	[V:??/??/??:??.??:??]	W	W	matched=yes: subj child of top deprel|pos=date	2	modnomatch	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+8	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	9	aux	_	_
+9	sufrido	sufrir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+10	cortes	corte	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	9	dobj	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+12	más	más	RG	RG	matched=no|pos=adverb|type=general	11	comp	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	modnomatch	_	_
+14	dos	2	Z	Z	matched=no|pos=number	15	spec	_	_
+15	minutos	minuto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	modnomatch	_	_
+16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	15	mod	_	_
+17	metraje	metraje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+

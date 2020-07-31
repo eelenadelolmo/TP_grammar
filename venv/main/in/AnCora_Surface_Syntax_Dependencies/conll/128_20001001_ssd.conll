@@ -1,0 +1,69 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	consejo	consejo	ncms000	ncms000	_	7	nsubj
+3	de	de	sps00	sps00	_	2	prepn
+4	administración	administración	ncfs000	ncfs000	_	3	pobj
+5	de	de	sps00	sps00	_	4	prepn
+6	Enagás	Enagás	np00000	np00000	_	5	pobj
+7	ha	haber	vaip3s0	vaip3s0	_	0	root
+8	nombrado	nombrar	vmp00sm	vmp00sm	_	7	vobj
+9	a	a	sps00	sps00	_	8	dobj
+10	Guzmán	Guzmán	np00000	np00000	_	9	pobj
+11	Solana	solana	ncms000	ncms000	_	10	appos
+12	presidente	presidente	ncms000	ncms000	_	8	cpred
+13	ejecutivo	ejecutivo	aq0ms0	aq0ms0	_	12	amod
+14	de	de	sps00	sps00	_	12	prepn
+15	la	el	da0fs0	da0fs0	_	16	det
+16	compañía	compañía	ncfs000	ncfs000	_	14	pobj
+17	en	en	sps00	sps00	_	8	prepv
+18	sustitución	sustitución	ncfs000	ncfs000	_	17	pobj
+19	de	de	sps00	sps00	_	18	prepn
+20	Antoni	Antoni	np0000l	np0000l	_	17	pobj
+21	Brufau	Brufau	np0000l	np0000l	_	20	appos
+22	,	,	fc	fc	_	24	punct
+23	que	que	pr0cn000	pr0cn000	_	24	nsubj
+24	ha	haber	vaip3s0	vaip3s0	_	17	rcmod
+25	renunciado	renunciar	vmp00sm	vmp00sm	_	24	vobj
+26	al	al	spcms	spcms	_	25	oobj
+27	cargo	cargo	ncms000	ncms000	_	26	pobj
+28	.	.	fp	fp	_	7	punct
+
+1	Solana	Solana	np00000	np00000	_	2	nsubj
+2	abandonará	abandonar	vmif3s0	vmif3s0	_	0	root
+3	el	el	da0ms0	da0ms0	_	4	det
+4	puesto	puesto	ncms000	ncms000	_	2	dobj
+5	de	de	sps00	sps00	_	4	prepn
+6	consejero	consejero	ncms000	ncms000	_	5	pobj
+7	que	que	pr0cn000	pr0cn000	_	8	dobj
+8	tenía	tener	vmii3s0	vmii3s0	_	4	rcmod
+9	hasta	hasta	sps00	sps00	_	8	prepv
+10	ahora	ahora	rg	rg	_	9	advmod
+11	.	.	fp	fp	_	2	punct
+
+1	La	el	da0fs0	da0fs0	_	2	det
+2	compañía	compañía	ncfs000	ncfs000	_	6	nsubj
+3	,	,	fc	fc	_	6	punct
+4	además	además	rg	rg	_	7	advmod
+5	,	,	fc	fc	_	6	punct
+6	ha	haber	vaip3s0	vaip3s0	_	0	root
+7	nombrado	nombrar	vmp00sm	vmp00sm	_	6	vobj
+8	consejero	consejero	ncms000	ncms000	_	7	cpred
+9	a	a	sps00	sps00	_	7	dobj
+10	Antonio	Antonio	np0000l	np0000l	_	9	pobj
+11	González-Adalid	González-Adalid	np0000l	np0000l	_	10	appos
+12	,	,	fc	fc	_	10	punct
+13	vicepresidente	vicepresidente	ncms000	ncms000	_	10	appos
+14	ejecutivo	ejecutivo	aq0ms0	aq0ms0	_	13	amod
+15	de	de	sps00	sps00	_	13	prepn
+16	Gas	gas	ncfs000	ncfs000	_	17	coord
+17	y	y	cc	cc	_	15	pobj
+18	Electricidad	electricidad	ncms000	ncms000	_	17	coord
+19	de	de	spcms	spcms	_	17	coord
+20	Repsol	Repsol	ncms000	ncms000	_	19	pobj
+21	YPF	YPF	np00000	np00000	_	20	appos
+22	.	.	fp	fp	_	6	punct

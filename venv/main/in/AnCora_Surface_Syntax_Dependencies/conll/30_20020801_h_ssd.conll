@@ -1,0 +1,61 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	Expedientada	expedientado	aq0fsp	aq0fsp	_	3	amod
+2	una	uno	di0fs0	di0fs0	_	3	det
+3	disco	disco	ncms000	ncms000	_	0	root
+4	de	de	sps00	sps00	_	3	prepn
+5	Sant	Sant	np0000l	np0000l	_	4	pobj
+6	Joan	Joan	np0000l	np0000l	_	5	appos
+7	por	por	sps00	sps00	_	3	prepn
+8	drogas	droga	ncfp000	ncfp000	_	7	pobj
+9	.	.	fp	fp	_	3	punct
+
+1	Los	el	da0fs0	da0fs0	_	2	det
+2	Mossos	Mossos	np0000l	np0000l	_	4	nsubj
+3	d'Esquadra	d'Esquadra	np0000l	np0000l	_	2	appos
+4	localizaron	localizar	vmis3p0	vmis3p0	_	14	coord
+5	en	en	sps00	sps00	_	4	prepv
+6	el	el	da0ms0	da0ms0	_	7	det
+7	local	local	ncms000	ncms000	_	5	pobj
+8	a	a	sps00	sps00	_	4	dobj
+9	10	10	z	z	_	10	num
+10	menores	menor	aq0cp0	aq0cp0	_	8	pobj
+11	que	que	pr0cn000	pr0cn000	_	12	nsubj
+12	consumían	consumir	vmii3p0	vmii3p0	_	10	rcmod
+13	alcohol	alcohol	ncms000	ncms000	_	12	dobj
+14	y	y	cc	cc	_	0	root
+15	en	en	sps00	sps00	_	18	prepv
+16	el	el	da0ms0	da0ms0	_	17	det
+17	suelo	suelo	ncms000	ncms000	_	15	pobj
+18	encontraron	encontrar	vmis3p0	vmis3p0	_	14	coord
+19	además	además	rg	rg	_	18	advmod
+20	hachís	hachís	ncmn000	ncmn000	_	21	coord
+21	y	y	cc	cc	_	18	dobj
+22	tres	tres	dn0cp0	dn0cp0	_	23	det
+23	bolas	bola	ncfp000	ncfp000	_	21	coord
+24	de	de	sps00	sps00	_	23	prepn
+25	cocaína	cocaína	ncfs000	ncfs000	_	24	pobj
+26	.	.	fp	fp	_	14	punct
+
+1	Este	este	dd0ms0	dd0ms0	_	2	det
+2	local	local	ncms000	ncms000	_	3	coord
+3	y	y	cc	cc	_	8	nsubj
+4	un	uno	di0ms0	di0ms0	_	5	det
+5	bar	bar	ncms000	ncms000	_	3	coord
+6	de	de	sps00	sps00	_	5	prepn
+7	Ripoll	Ripoll	np00000	np00000	_	6	pobj
+8	tenían	tener	vmii3p0	vmii3p0	_	0	root
+9	también	también	rg	rg	_	10	advmod
+10	obstruidas	obstruido	aq0fpp	aq0fpp	_	8	cpred
+11	las	el	da0fp0	da0fp0	_	12	det
+12	salidas	salida	ncfp000	ncfp000	_	8	dobj
+13	de	de	sps00	sps00	_	12	prepn
+14	emergencia	emergencia	ncfs000	ncfs000	_	13	pobj
+15	.	.	fp	fp	_	8	punct
+
+1	A.P.	A.P.	np00000	np00000	_	0	root
+2	.	.	fp	fp	_	1	punct

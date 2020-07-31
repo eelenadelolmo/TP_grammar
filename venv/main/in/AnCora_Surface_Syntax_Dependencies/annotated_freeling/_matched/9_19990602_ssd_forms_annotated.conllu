@@ -1,0 +1,72 @@
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	mundo	mundo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	22	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	ciertamente	ciertamente	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	2	modnomatch	_	_
+5	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+6	muy	muy	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	7	spec	_	_
+7	machista	machista	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+9	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	11	subj	_	_
+10	ha	haber	VAIP3S0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	11	aux	_	_
+11	removido	remover	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+12	Sara	s_ara	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	dobj	_	_
+13	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	11	adjt	_	_
+14	plan	plan	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	comp	_	_
+15	vendaval	vendaval	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	mod	_	_
+16	:	:	Fd	Fd	matched=yes: subj child of top deprel|pos=punctuation|type=colon	2	punc	_	_
+17	&	&	Fz	Fz	matched=yes: subj child of top deprel|pos=punctuation|type=other	2	punc	_	_
+18	quot	quot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+19	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	2	punc	_	_
+20	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
+21	flamenco	flamenco	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	modnomatch	_	_
+22	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+23	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	24	spec	_	_
+24	cosa	cosa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	attr	_	_
+25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	24	mod	_	_
+26	hombres	hombre	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	25	comp	_	_
+27	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	22	punc	_	_
+28	ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	29	adjt	_	_
+29	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	22	modnomatch	_	_
+30	de	de	SP	SP	matched=no|pos=adposition|type=preposition	29	attr	_	_
+31	todos	todo	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	30	comp	_	_
+32	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	29	punc	_	_
+33	de	de	SP	SP	matched=no|pos=adposition|type=preposition	29	adjt	_	_
+34	hombres	hombre	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	33	comp	_	_
+35	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	29	modnomatch	_	_
+36	mujeres	mujer	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	35	coor	_	_
+37	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	22	punc	_	_
+38	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	22	modnomatch	_	_
+39	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	22	punc	_	_
+40	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
+
+1	Por	por	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+2	eso	ese	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	ella	él	PP3FS00	PP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	5	subj	_	_
+5	baila	bailar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+6	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
+7	farruca	farruco	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
+8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+9	pantalones	pantalón	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
+10	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	adjt	_	_
+11	metiendo	meter	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	10	coor	_	_
+12	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	13	spec	_	_
+13	tacones	tacón	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	11	dobj	_	_
+14	con	con	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+15	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	fuerza	fuerza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+17	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	19	subj	_	_
+18	los	lo	PP3MPA0	PP	case=accusative|gen=masculine|matched=no|num=plural|person=3|pos=pronoun|type=personal	19	dobj	_	_
+19	metía	meter	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	16	mod	_	_
+20	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
+21	legendaria	legendario	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	19	modnomatch	_	_
+22	Carmen	carmen	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	modnomatch	_	_
+23	Amaya	a_maya	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	mod	_	_
+24	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+
+1	Sara	s_ara	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	musha	mu_sha	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	attr	_	_
+4	Sara	s_ara	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	mod	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+

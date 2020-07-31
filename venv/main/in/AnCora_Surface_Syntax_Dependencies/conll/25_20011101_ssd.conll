@@ -1,0 +1,58 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	Grupo	grupo	ncfs000	ncfs000	_	10	nsubj
+3	de	de	sps00	sps00	_	2	prepn
+4	Acción	Acción	ncfs000	ncfs000	_	3	pobj
+5	Financiera	financiero	aq0fs0	aq0fs0	_	2	amod
+6	Internacional	internacional	np00000	np00000	_	2	appos
+7	(	(	fpa	fpa	_	8	punct
+8	GAFI	GAFI	np00000	np00000	_	2	appos
+9	)	)	fpt	fpt	_	8	punct
+10	ha	haber	vaip3s0	vaip3s0	_	0	root
+11	anunciado	anunciar	vmp00sm	vmp00sm	_	10	vobj
+12	que	que	cs	cs	_	11	dobj
+13	extenderá	extender	vmif3s0	vmif3s0	_	12	cobj
+14	sus	su	dp3cp0	dp3cp0	_	15	poss
+15	acciones	acción	ncfp000	ncfp000	_	13	dobj
+16	para	para	sps00	sps00	_	15	prepn
+17	perseguir	perseguir	vmn0000	vmn0000	_	16	pobj
+18	las	el	da0fp0	da0fp0	_	19	det
+19	fuentes	fuente	ncfp000	ncfp000	_	17	dobj
+20	de	de	sps00	sps00	_	19	prepn
+21	financiación	financiación	ncfs000	ncfs000	_	20	pobj
+22	del	del	spcms	spcms	_	19	prepn
+23	terrorismo	terrorismo	ncms000	ncms000	_	22	pobj
+24	internacional	internacional	aq0cs0	aq0cs0	_	23	amod
+25	,	,	fc	fc	_	13	punct
+26	precisando	precisar	vmg0000	vmg0000	_	15	dep
+27	que	que	cs	cs	_	15	dobj
+28	prestará	prestar	vmif3s0	vmif3s0	_	27	cobj
+29	especial	especial	aq0cs0	aq0cs0	_	30	amod
+30	vigilancia	vigilancia	ncfs000	ncfs000	_	28	dobj
+31	a	a	sps00	sps00	_	28	oobj
+32	las	el	da0fp0	da0fp0	_	33	det
+33	cuentas	cuenta	ncfp000	ncfp000	_	31	pobj
+34	bancarias	bancario	aq0fp0	aq0fp0	_	33	amod
+35	de	de	sps00	sps00	_	33	prepn
+36	las	el	da0fp0	da0fp0	_	37	det
+37	ONG	ONG	nc00000	nc00000	_	35	pobj
+38	.	.	fp	fp	_	10	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	GAFI	GAFI	np00000	np00000	_	3	nsubj
+3	ha	haber	vaip3s0	vaip3s0	_	0	root
+4	indicado	indicar	vmp00sm	vmp00sm	_	3	vobj
+5	que	que	cs	cs	_	4	dobj
+6	estas	este	dd0fp0	dd0fp0	_	7	det
+7	organizaciones	organización	ncfp000	ncfp000	_	8	nsubj
+8	son	ser	vsip3p0	vsip3p0	_	5	cobj
+9	&quot;	&quot;	fe	fe	_	11	punct
+10	especialmente	especialmente	rg	rg	_	11	advmod
+11	vulnerables	vulnerable	aq0cp0	aq0cp0	_	8	attr
+12	&quot;	&quot;	fe	fe	_	11	punct
+13	.	.	fp	fp	_	3	punct

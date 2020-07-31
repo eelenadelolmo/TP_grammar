@@ -1,0 +1,36 @@
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	ciclistas	ciclista	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
+3	finalizaron	finalizar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
+4	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+6	Barcelona	barcelona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	8	spec	_	_
+8	tour	tour	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+9	particular	particular	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	a_favor_de	a_favor_de	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	entendimiento	entendimiento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+14	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+15	buena	bueno	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+16	convivencia	convivencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	coor	_	_
+17	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+18	Europa	europa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	27	punc	_	_
+20	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	21	subj	_	_
+21	dio	dar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	27	coor	_	_
+22	comienzo	comienzo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	dobj	_	_
+23	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
+24	pasado_día_13_de_julio	[??:13/7/??:??.??:??]	W	W	matched=no|pos=date	21	adjt	_	_
+25	en	en	SP	SP	matched=no|pos=adposition|type=preposition	21	pobj	_	_
+26	Berlín	berlín	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	25	comp	_	_
+27	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+28	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	31	subj	_	_
+29	les	le	PP3CPD0	PP	case=dative|gen=common|matched=no|num=plural|person=3|pos=pronoun|type=personal	31	iobj	_	_
+30	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	31	aux	_	_
+31	llevado	llevar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	27	coor	_	_
+32	también	también	RG	RG	matched=no|pos=adverb|type=general	31	adjt	_	_
+33	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
+34	París	parir	VMIP2P0	VMI	matched=no|mood=indicative|num=plural|person=2|pos=verb|tense=present|type=main	3	modnomatch	_	_
+35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	34	punc	_	_
+

@@ -1,0 +1,54 @@
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	problemas	problema	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	este	este	PD0MS00	PD	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	3	comp	_	_
+5	programita	programita	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	nostra	n_ostra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+9	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	5	punc	_	_
+10	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	5	punc	_	_
+11	sépalo	sépalo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	modnomatch	_	_
+13	PP	p_p	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	modnomatch	_	_
+14	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	5	punc	_	_
+15	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	5	punc	_	_
+16	no	no	RN	RN	matched=no|pos=adverb|type=negative	17	spec	_	_
+17	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	5	modnomatch	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	attr	_	_
+19	ciscarse	ciscarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	18	comp	_	_
+20	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	17	modnomatch	_	_
+21	no	no	RN	RN	matched=no|pos=adverb|type=negative	22	spec	_	_
+22	ciscarse	ciscarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	20	coor	_	_
+23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
+
+1	Sus	su	DP3CPN	DP	gen=common|matched=yes: subj child of top deprel|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	problemas	problema	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
+3	les	le	PP3CPD0	PP	case=dative|gen=common|matched=no|num=plural|person=3|pos=pronoun|type=personal	4	iobj	_	_
+4	vienen	venir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+6	ese	ese	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	7	spec	_	_
+7	aire	aire	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
+9	patio	patio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
+11	colegio	colegio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+12	pequeñito	pequeñito	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
+13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	22	punc	_	_
+14	ese	ese	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	15	spec	_	_
+15	ambiente	ambiente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	coor	_	_
+16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	15	mod	_	_
+17	foc	foc	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	15	mod	_	_
+19	camp	camp	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+20	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	22	punc	_	_
+21	chirucas	chirucas	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	22	coor	_	_
+22	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	modnomatch	_	_
+23	Club	club	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	coor	_	_
+24	Super	super	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	23	mod	_	_
+25	3	3	Z	Z	matched=no|pos=number	4	modnomatch	_	_
+26	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	28	subj	_	_
+27	les	le	PP3CPD0	PP	case=dative|gen=common|matched=no|num=plural|person=3|pos=pronoun|type=personal	28	iobj	_	_
+28	caracteriza	caracterizar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	25	mod	_	_
+29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+

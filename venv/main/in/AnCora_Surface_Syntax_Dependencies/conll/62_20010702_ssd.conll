@@ -1,0 +1,71 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	EL	el	da0ms0	da0ms0	_	3	det
+2	MASIVO	masivo	aq0ms0	aq0ms0	_	3	amod
+3	enfrentamiento	enfrentamiento	ncms000	ncms000	_	4	nsubj
+4	sucedió	suceder	vmis3s0	vmis3s0	_	0	root
+5	ayer	ayer	rg	rg	_	4	advmod
+6	por	por	sps00	sps00	_	5	prep
+7	la	el	da0fs0	da0fs0	_	8	det
+8	madrugada	madrugada	ncfs000	ncfs000	_	6	pobj
+9	en	en	sps00	sps00	_	4	prepv
+10	la	el	da0fs0	da0fs0	_	11	det
+11	plaza	plaza	ncfs000	ncfs000	_	9	pobj
+12	de	de	sps00	sps00	_	11	prepn
+13	España	España	np00000	np00000	_	12	pobj
+14	.	.	fp	fp	_	4	punct
+
+1	Los	el	da0mp0	da0mp0	_	3	det
+2	cuatro	cuatro	dn0cp0	dn0cp0	_	3	det
+3	jóvenes	joven	nccp000	nccp000	_	13	nsubj
+4	,	,	fc	fc	_	3	punct
+5	con	con	sps00	sps00	_	3	prepn
+6	heridas	herida	ncfp000	ncfp000	_	10	coord
+7	de	de	sps00	sps00	_	6	prepn
+8	arma	arma	ncms000	ncms000	_	7	pobj
+9	blanca	blanco	aq0ms0	aq0ms0	_	8	amod
+10	y	y	cc	cc	_	5	pobj
+11	contusiones	contusión	ncfp000	ncfp000	_	10	coord
+12	,	,	fc	fc	_	3	punct
+13	tuvieron	tener	vmis3p0	vmis3p0	_	0	root
+14	que	que	cs	cs	_	13	conj
+15	ser	ser	vsn0000	vsn0000	_	14	cobj
+16	atendidos	atender	vmp00pm	vmp00pm	_	15	attr
+17	en	en	sps00	sps00	_	15	prepv
+18	el	el	da0ms0	da0ms0	_	19	det
+19	Hospital	hospital	ncms000	ncms000	_	17	pobj
+20	12	12	z	z	_	19	num
+21	de	de	sps00	sps00	_	20	prep
+22	Octubre	octubre	ncms000	ncms000	_	21	pobj
+23	.	.	fp	fp	_	13	punct
+
+1	En	en	sps00	sps00	_	19	prepv
+2	otra	otro	di0fs0	di0fs0	_	3	det
+3	reyerta	reyerta	ncfs000	ncfs000	_	1	pobj
+4	,	,	fc	fc	_	3	punct
+5	librada	librado	aq0fsp	aq0fsp	_	3	amod
+6	en	en	sps00	sps00	_	5	prepa
+7	el	el	da0ms0	da0ms0	_	8	det
+8	distrito	distrito	ncms000	ncms000	_	6	pobj
+9	Moncloa-Aravaca	Moncloa-Aravaca	np00000	np00000	_	8	appos
+10	,	,	fc	fc	_	3	punct
+11	dos	dos	dn0cp0	dn0cp0	_	12	det
+12	jóvenes	joven	nccp000	nccp000	_	18	nsubj
+13	de	de	sps00	sps00	_	12	prepn
+14	19	19	z	z	_	15	coord
+15	y	y	cc	cc	_	17	dep
+16	20	20	z	z	_	15	coord
+17	años	año	ncmp000	ncmp000	_	13	pobj
+18	fueron	ser	vsis3p0	vsis3p0	_	0	root
+19	agredidos	agredir	vmp00pm	vmp00pm	_	18	attr
+20	por	por	sps00	sps00	_	19	agent
+21	un	uno	di0ms0	di0ms0	_	22	det
+22	grupo	grupo	ncms000	ncms000	_	20	pobj
+23	de	de	sps00	sps00	_	22	prepn
+24	cabezas	cabeza	ncms000	ncms000	_	25	nsubj
+25	rapadas	rapar	vmsp3s0	vmsp3s0	_	23	pobj
+26	.	.	fp	fp	_	18	punct

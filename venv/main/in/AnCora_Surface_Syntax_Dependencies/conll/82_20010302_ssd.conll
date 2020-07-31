@@ -1,0 +1,93 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	EL	el	da0ms0	da0ms0	_	3	det
+2	JOVEN	joven	aq0cs0	aq0cs0	_	3	amod
+3	ARGELINO	argelino	ncms000	ncms000	_	10	nsubj
+4	,	,	fc	fc	_	3	punct
+5	de	de	sps00	sps00	_	3	prepn
+6	17	17	z	z	_	7	num
+7	años	año	ncmp000	ncmp000	_	5	pobj
+8	,	,	fc	fc	_	3	punct
+9	se	él	p0300000	p0300000	_	10	reflec
+10	encontraba	encontrar	vmii3s0	vmii3s0	_	0	root
+11	tirado	tirado	aq0msp	aq0msp	_	10	cpred
+12	en	en	sps00	sps00	_	11	prepa
+13	uno	uno	pi0ms000	pi0ms000	_	12	pobj
+14	de	de	sps00	sps00	_	13	prepn
+15	los	el	da0mp0	da0mp0	_	16	det
+16	márgenes	margen	nccp000	nccp000	_	14	pobj
+17	de	de	sps00	sps00	_	16	prepn
+18	la	el	da0fs0	da0fs0	_	19	det
+19	autovía	autovía	ncfs000	ncfs000	_	17	pobj
+20	del	del	spcms	spcms	_	19	prepn
+21	92	92	z	z	_	20	pobj
+22	,	,	fc	fc	_	19	punct
+23	en	en	sps00	sps00	_	19	prepn
+24	Baza	Baza	np00000	np00000	_	23	pobj
+25	(	(	fpa	fpa	_	24	punct
+26	Granada	Granada	np00000	np00000	_	24	appos
+27	)	)	fpt	fpt	_	24	punct
+28	.	.	fp	fp	_	10	punct
+
+1	Estaba	estar	vmii3s0	vmii3s0	_	0	root
+2	en	en	sps00	sps00	_	6	prepa
+3	posición	posición	ncfs000	ncfs000	_	2	pobj
+4	fetal	fetal	aq0cs0	aq0cs0	_	3	amod
+5	,	,	fc	fc	_	6	punct
+6	descalzo	descalzo	aq0ms0	aq0ms0	_	1	attr
+7	,	,	fc	fc	_	6	punct
+8	con	con	sps00	sps00	_	6	prepa
+9	síntomas	síntoma	ncmp000	ncmp000	_	8	pobj
+10	de	de	sps00	sps00	_	9	prepn
+11	hipotermia	hipotermia	ncfs000	ncfs000	_	12	coord
+12	y	y	cc	cc	_	10	pobj
+13	desnutrición	desnutrición	ncfs000	ncfs000	_	12	coord
+14	,	,	fc	fc	_	1	punct
+15	tras	tras	sps00	sps00	_	1	prepv
+16	haber	haber	van0000	van0000	_	15	pobj
+17	pasado	pasar	vmp00sm	vmp00sm	_	16	vobj
+18	cuatro	cuatro	dn0cp0	dn0cp0	_	19	det
+19	días	día	ncmp000	ncmp000	_	17	dobj
+20	andando	andar	vmg0000	vmg0000	_	17	vobj
+21	sin	sin	sps00	sps00	_	20	prepv
+22	comer	comer	vmn0000	vmn0000	_	23	coord
+23	ni	ni	cc	cc	_	21	pobj
+24	beber	beber	vmn0000	vmn0000	_	23	coord
+25	.	.	fp	fp	_	1	punct
+
+1	La	el	da0fs0	da0fs0	_	2	det
+2	Guardia	guardia	ncms000	ncms000	_	5	nsubj
+3	Civil	civil	aq0ms0	aq0ms0	_	2	amod
+4	lo	él	pp3msa00	pp3msa00	_	5	dobj
+5	llevó	llevar	vmis3s0	vmis3s0	_	0	root
+6	al	al	spcms	spcms	_	5	prepv
+7	hospital	hospital	ncms000	ncms000	_	6	pobj
+8	,	,	fc	fc	_	7	punct
+9	donde	donde	pr000000	pr000000	_	10	dobj
+10	explicó	explicar	vmis3s0	vmis3s0	_	7	rcmod
+11	que	que	cs	cs	_	10	dobj
+12	le	él	pp3csd00	pp3csd00	_	13	iobj
+13	fallaron	fallar	vmis3p0	vmis3p0	_	16	coord
+14	las	el	da0fp0	da0fp0	_	15	det
+15	fuerzas	fuerza	ncfp000	ncfp000	_	13	nsubj
+16	y	y	cc	cc	_	11	cobj
+17	se	él	p0300000	p0300000	_	18	reflec
+18	desplomó	desplomar	vmis3s0	vmis3s0	_	16	coord
+19	.	.	fp	fp	_	5	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	chico	chico	ncms000	ncms000	_	3	nsubj
+3	fue	ser	vsis3s0	vsis3s0	_	0	root
+4	entregado	entregar	vmp00sm	vmp00sm	_	3	attr
+5	al	al	spcms	spcms	_	4	prepv
+6	Grupo	grupo	ncfs000	ncfs000	_	5	pobj
+7	de	de	sps00	sps00	_	6	prepn
+8	Menores	menor	nccp000	nccp000	_	7	pobj
+9	de	de	sps00	sps00	_	8	prepn
+10	la	el	da0fs0	da0fs0	_	11	det
+11	Policía	Policía	np00000	np00000	_	9	pobj
+12	.	.	fp	fp	_	3	punct

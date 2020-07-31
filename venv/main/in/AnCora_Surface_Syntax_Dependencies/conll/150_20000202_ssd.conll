@@ -1,0 +1,45 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	Sergi	Sergi	np0000l	np0000l	_	3	coord
+2	Mateu	Mateu	np0000l	np0000l	_	1	appos
+3	y	y	cc	cc	_	9	nsubj
+4	Alex	Alex	np00000	np00000	_	3	coord
+5	Casanovas	casanova	ncms000	ncms000	_	4	appos
+6	(	(	fpa	fpa	_	7	punct
+7	foto	foto	ncfs000	ncfs000	_	9	dep
+8	)	)	fpt	fpt	_	7	punct
+9	son	ser	vsip3p0	vsip3p0	_	0	root
+10	los	el	da0mp0	da0mp0	_	11	det
+11	protagonistas	protagonista	nccp000	nccp000	_	9	attr
+12	de	de	sps00	sps00	_	11	prepn
+13	L'enfonsament	L'enfonsament	np0000o	np0000o	_	12	pobj
+14	del	del	sps00	sps00	_	13	prepn
+15	Titànic	Titànic	np0000l	np0000l	_	14	pobj
+16	(	(	fpa	fpa	_	20	punct
+17	Canal	canal	ncmp000	ncmp000	_	13	appos
+18	33	33	zm	zm	_	17	num
+19	,	,	fc	fc	_	20	punct
+20	23.15	23.15	z	z	_	13	dep
+21	)	)	fpt	fpt	_	20	punct
+22	,	,	fc	fc	_	9	punct
+23	comedia	comedia	ncfs000	ncfs000	_	9	dep
+24	centrada	centrado	aq0fsp	aq0fsp	_	23	amod
+25	en	en	sps00	sps00	_	24	oobj
+26	las	el	da0fp0	da0fp0	_	27	det
+27	relaciones	relación	ncfp000	ncfp000	_	25	pobj
+28	laborales	laboral	aq0cp0	aq0cp0	_	29	coord
+29	y	y	cc	cc	_	27	prepn
+30	sentimentales	sentimental	aq0cp0	aq0cp0	_	29	coord
+31	de	de	sps00	sps00	_	27	prepn
+32	un	uno	di0ms0	di0ms0	_	33	det
+33	grupo	grupo	ncms000	ncms000	_	31	pobj
+34	de	de	sps00	sps00	_	33	prepn
+35	profesionales	profesional	nccp000	nccp000	_	34	pobj
+36	de	de	sps00	sps00	_	33	prepn
+37	una	uno	di0fs0	di0fs0	_	38	det
+38	emisora	emisora	ncfs000	ncfs000	_	36	pobj
+39	.	.	fp	fp	_	9	punct

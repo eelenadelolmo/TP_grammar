@@ -1,0 +1,27 @@
+1	Unos	uno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	0	top	_	_
+2	dos_millones	2000000	Zd	Zd	matched=no|pos=number|type=partitive	4	spec	_	_
+3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
+4	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	subj	_	_
+5	participaron	participar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	1	modnomatch	_	_
+6	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
+7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	pobj	_	_
+8	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
+9	manifestaciones	manifestación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	comp	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	Primero	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	10	comp	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+14	Mayo	[??:??/5/??:??.??:??]	W	W	matched=no|pos=date	13	comp	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+16	día	día	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	adjt	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+18	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
+19	Trabajo	trabajo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+20	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	16	punc	_	_
+21	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	23	subj	_	_
+22	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	23	mphes	_	_
+23	celebraron	celebrar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	16	mod	_	_
+24	en	en	SP	SP	matched=no|pos=adposition|type=preposition	23	adjt	_	_
+25	Japón	japón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+26	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+

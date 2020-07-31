@@ -1,0 +1,66 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	Deteriorar	deteriorar	vmn0000	vmn0000	_	3	dep
+2	un	uno	di0ms0	di0ms0	_	3	det
+3	barrio	barrio	ncms000	ncms000	_	0	root
+4	.	.	fp	fp	_	3	punct
+
+1	Irán	ir	vmif3p0	vmif3p0	_	15	coord
+2	a	a	sps00	sps00	_	1	prepv
+3	los	el	da0mp0	da0mp0	_	4	det
+4	aparcamientos	aparcamiento	ncmp000	ncmp000	_	2	pobj
+5	,	,	fc	fc	_	1	punct
+6	al	al	spcms	spcms	_	1	prepv
+7	ser	ser	vsn0000	vsn0000	_	6	pobj
+8	de	de	sps00	sps00	_	7	prepv
+9	pago	pago	ncms000	ncms000	_	8	pobj
+10	;	;	fx	fx	_	15	punct
+11	que	que	cs	cs	_	15	coord
+12	se	se	p0000000	p0000000	_	13	reflec
+13	escuchen	escuchar	vmsp3p0	vmsp3p0	_	11	cobj
+14	ruidos	ruido	ncmp000	ncmp000	_	13	nsubj
+15	;	;	fx	fx	_	0	root
+16	y	y	cc	cc	_	15	coord
+17	algún	alguno	di0ms0	di0ms0	_	18	det
+18	caco	caco	ncms000	ncms000	_	16	coord
+19	como	como	cs	cs	_	18	dep
+20	símbolo	símbolo	ncms000	ncms000	_	19	cobj
+21	del	del	spcms	spcms	_	20	prepn
+22	posible	posible	aq0cs0	aq0cs0	_	23	amod
+23	aumento	aumento	ncms000	ncms000	_	21	pobj
+24	de	de	sps00	sps00	_	23	prepn
+25	la	el	da0fs0	da0fs0	_	26	det
+26	inseguridad	inseguridad	ncfs000	ncfs000	_	24	pobj
+27	ciudadana	ciudadano	aq0fs0	aq0fs0	_	26	amod
+28	.	.	fp	fp	_	15	punct
+
+1	Comprobará	comprobar	vmif3s0	vmif3s0	_	0	root
+2	que	que	cs	cs	_	1	dobj
+3	el	el	da0ms0	da0ms0	_	4	det
+4	proyecto	proyecto	ncms000	ncms000	_	5	nsubj
+5	traerá	traer	vmif3s0	vmif3s0	_	2	cobj
+6	problemas	problema	ncmp000	ncmp000	_	5	dobj
+7	al	al	spcms	spcms	_	5	prepv
+8	barrio	barrio	ncms000	ncms000	_	7	pobj
+9	.	.	fp	fp	_	1	punct
+
+1	Todo	todo	pi0ms000	pi0ms000	_	8	dobj
+2	,	,	fc	fc	_	1	punct
+3	por	por	sps00	sps00	_	1	prepn
+4	dinamizar	dinamizar	vmn0000	vmn0000	_	3	pobj
+5	el	el	da0ms0	da0ms0	_	6	det
+6	barrio	barrio	ncms000	ncms000	_	4	dobj
+7	,	,	fc	fc	_	1	punct
+8	dicen	decir	vmip3p0	vmip3p0	_	0	root
+9	los	el	da0mp0	da0mp0	_	13	det
+10	que	que	pr0cn000	pr0cn000	_	12	nsubj
+11	lo	él	pp3msa00	pp3msa00	_	13	dobj
+12	han	haber	vaip3p0	vaip3p0	_	8	rcmod
+13	admitido	admitir	vmp00sm	vmp00sm	_	12	vobj
+14	a	a	sps00	sps00	_	13	prepv
+15	trámite	trámite	ncms000	ncms000	_	14	pobj
+16	.	.	fp	fp	_	8	punct

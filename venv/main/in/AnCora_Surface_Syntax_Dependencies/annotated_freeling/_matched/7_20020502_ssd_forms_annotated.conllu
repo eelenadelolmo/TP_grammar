@@ -1,0 +1,78 @@
+1	ETA	eta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+2	HA	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	3	aux	_	_
+3	COLOCADO	colocar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+4	12	12	Z	Z	matched=no|pos=number	5	spec	_	_
+5	COCHES	coche	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	dobj	_	_
+6	BOMBA	bomba	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	mod	_	_
+7	EN	en	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
+8	MADRID	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+9	DESDE	desde	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+10	EL	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	FINAL	final	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	DE	de	SP	SP	matched=no|pos=adposition|type=preposition	11	mod	_	_
+13	LA	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	TREGUA	tregua	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+15	QUE	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	17	subj	_	_
+16	HAN	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	17	aux	_	_
+17	CAUSADO	causar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	14	mod	_	_
+18	SEIS	6	Z	Z	matched=no|pos=number	19	spec	_	_
+19	MUERTOS	muerto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	20	coor	_	_
+20	Y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+21	DECENAS	decena	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	20	coor	_	_
+22	DE	de	SP	SP	matched=no|pos=adposition|type=preposition	21	mod	_	_
+23	HERIDOS	herido	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	22	comp	_	_
+24	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
+2	12_de_octubre_del_2001	[??:12/10/2001:??.??:??]	W	W	matched=no|pos=date	7	adjt	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+4	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	5	spec	_	_
+5	coche	coche	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+6	bomba	bomba	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	mod	_	_
+7	explotó	explotar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+9	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	10	spec	_	_
+10	párking	párking	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+11	a	a	SP	SP	matched=no|pos=adposition|type=preposition	15	pobj	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+13	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	11	comp	_	_
+14	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	15	dobj	_	_
+15	llevó	llevar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	10	mod	_	_
+16	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
+17	Guardia	guardia	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	7	dobj	_	_
+18	Urbana	urbano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	17	mod	_	_
+19	por	por	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+20	estar	estar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	19	comp	_	_
+21	mal	mal	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
+22	aparcado	aparcar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	7	adjt	_	_
+23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	atentado	atentado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	más	más	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	4	spec	_	_
+4	sangriento	sangriento	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+5	ocurrió	ocurrir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	30_de_octubre_del_2000	[??:30/10/2000:??.??:??]	W	W	matched=no|pos=date	5	adjt	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	último	último	AO0MS00	AO	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	atentado	atentado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+5	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+6	ocurrió	ocurrir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	22_de_abril	[??:22/4/??:??.??:??]	W	W	matched=no|pos=date	6	adjt	_	_
+9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+10	cuando	cuando	CS	CS	matched=no|pos=conjunction|type=subordinating	6	adjt	_	_
+11	estalló	estallar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	10	comp	_	_
+12	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	13	spec	_	_
+13	coche	coche	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	dobj	_	_
+14	ante	ante	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+15	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	sede	sede	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+18	Repsol-YPF	repsol-ypf	NC00000	NC	matched=no|pos=noun|type=common	17	comp	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+

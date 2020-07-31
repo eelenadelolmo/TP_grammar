@@ -1,0 +1,80 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	primer	1	AO0MS00	AO	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	secretario	secretario	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	PSC	psc	NC00000	NC	matched=yes: subj child of top deprel|pos=noun|type=common	4	comp	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	modnomatch	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+9	Vallès	vallès	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	modnomatch	_	_
+10	Oriental	oriental	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+12	Jordi	jordi	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	0	top	_	_
+13	Terrades	terrades	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	12	dobj	_	_
+14	i	i	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	mod	_	_
+15	Santacreu	santacreu	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	12	modnomatch	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
+17	anunció	anunciar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	12	modnomatch	_	_
+18	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	17	adjt	_	_
+19	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	17	dobj	_	_
+20	no	no	RN	RN	matched=no|pos=adverb|type=negative	22	spec	_	_
+21	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	22	mphes	_	_
+22	presentará	presentar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	19	comp	_	_
+23	a	a	SP	SP	matched=no|pos=adposition|type=preposition	22	pobj	_	_
+24	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	25	spec	_	_
+25	reelección	reelección	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
+26	en	en	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
+27	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	28	spec	_	_
+28	congreso	congreso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
+29	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	33	subj	_	_
+30	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	31	spec	_	_
+31	federación	federación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	33	modnomatch	_	_
+32	comarcal	comarcal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	31	mod	_	_
+33	celebrará	celebrar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	28	mod	_	_
+34	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	35	spec	_	_
+35	próximo_23_de_septiembre	[??:23/9/??:??.??:??]	W	W	matched=no|pos=date	33	adjt	_	_
+36	en	en	SP	SP	matched=no|pos=adposition|type=preposition	33	adjt	_	_
+37	Granollers	granollers	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	36	comp	_	_
+38	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
+
+1	Terrades	terrades	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	subj	_	_
+2	ejerce	ejercer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+4	adjunto	adjunto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	Secretaría	secretaría	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
+9	Política	política	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+10	Local	local	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+13	PSC	psc	NC00000	NC	matched=no|pos=noun|type=common	11	comp	_	_
+14	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+16	siguiendo	seguir	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	30	adjt	_	_
+17	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
+18	línea	línea	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	dobj	_	_
+19	marcada	marcar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	18	mod	_	_
+20	en	en	SP	SP	matched=no|pos=adposition|type=preposition	16	pobj	_	_
+21	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+22	último	último	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	23	mod	_	_
+23	congreso	congreso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
+25	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	26	spec	_	_
+26	socialistas	socialista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	24	comp	_	_
+27	catalanes	catalán	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	26	mod	_	_
+28	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	16	punc	_	_
+29	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	30	aux	_	_
+30	preferido	preferir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	modnomatch	_	_
+31	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	2	punc	_	_
+32	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
+33	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	2	punc	_	_
+34	no	no	RN	RN	matched=no|pos=adverb|type=negative	35	spec	_	_
+35	acumular	acumular	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	modnomatch	_	_
+36	cargos	cargo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	35	dobj	_	_
+37	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	2	punc	_	_
+38	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	modnomatch	_	_
+39	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	2	punc	_	_
+40	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+

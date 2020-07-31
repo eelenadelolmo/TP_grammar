@@ -1,0 +1,26 @@
+1	La	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	2	det	_	_
+2	división	división	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	13	nsubj	_	_
+3	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	2	prepn	_	_
+4	consultoría	consultoría	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	3	pobj	_	_
+5	estratégica	estratégico	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	4	amod	_	_
+6	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	2	prepn	_	_
+7	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	8	det	_	_
+8	firma	firma	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	6	pobj	_	_
+9	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	8	prepn	_	_
+10	servicios	servicio	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	9	pobj	_	_
+11	profesionales	profesional	aq0cp0	aq0cp0	matched=yes: nsubj child of root deprel	10	amod	_	_
+12	Mazars	Mazars	np00000	np00000	matched=yes: nsubj child of root deprel	8	appos	_	_
+13	ha	haber	vaip3s0	vaip3s0	matched=no	0	root	_	_
+14	incorporado	incorporar	vmp00sm	vmp00sm	matched=no	13	vobj	_	_
+15	a	a	sps00	sps00	matched=no	14	dobj	_	_
+16	Luis	luis	ncms000	ncms000	matched=no	15	pobj	_	_
+17	Ramallo	Ramallo	np00000	np00000	matched=no	16	appos	_	_
+18	como	como	cs	cs	matched=no	14	cpred	_	_
+19	miembro	miembro	ncms000	ncms000	matched=no	18	cobj	_	_
+20	independiente	independiente	aq0cs0	aq0cs0	matched=no	19	amod	_	_
+21	de	de	sps00	sps00	matched=no	19	prepn	_	_
+22	su	su	dp3cs0	dp3cs0	matched=no	23	poss	_	_
+23	consejo	consejo	ncms000	ncms000	matched=no	21	pobj	_	_
+24	asesor	asesor	aq0ms0	aq0ms0	matched=no	23	amod	_	_
+25	.	.	fp	fp	matched=no	13	punct	_	_
+

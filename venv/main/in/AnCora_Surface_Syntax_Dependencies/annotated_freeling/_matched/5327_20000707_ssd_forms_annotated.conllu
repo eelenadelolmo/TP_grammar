@@ -1,0 +1,194 @@
+1	Estados	estado	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
+2	Unidos	unir	VMP00PM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	1	mod	_	_
+3	expresó	expresar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+4	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+5	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	6	spec	_	_
+6	satisfacción	satisfacción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+7	por	por	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
+9	decisión	decisión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	español	español	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	12	mod	_	_
+14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+15	aportar	aportar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	14	comp	_	_
+16	100_millones_de_dólares	$_USD:100000000	Zm	Zm	matched=no|pos=number|type=currency	15	dobj	_	_
+17	a	a	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
+18	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
+19	plan	plan	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
+21	paz	paz	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+22	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
+23	Colombia	colombia	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	3	modnomatch	_	_
+24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	23	punc	_	_
+25	a_el_igual_que	al_igual_que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	modnomatch	_	_
+26	por	por	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+27	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	28	spec	_	_
+28	de	de	SP	SP	matched=no|pos=adposition|type=preposition	26	comp	_	_
+29	otros	otro	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	30	spec	_	_
+30	países	país	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	28	mod	_	_
+31	europeos	europeo	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	30	mod	_	_
+32	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	34	subj	_	_
+33	también	también	RG	RG	matched=no|pos=adverb|type=general	34	adjt	_	_
+34	asistirán	asistir	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	30	mod	_	_
+35	a	a	SP	SP	matched=no|pos=adposition|type=preposition	34	adjt	_	_
+36	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	37	spec	_	_
+37	autoridades	autoridad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	35	comp	_	_
+38	colombianas	colombiano	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	37	mod	_	_
+39	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	34	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+2	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	comunidad	comunidad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+6	internacional	internacional	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	concedió	conceder	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+8	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
+9	871_millones_de_dólares	$_USD:871000000	Zm	Zm	matched=no|pos=number|type=currency	7	dobj	_	_
+10	para	para	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	Plan	plan	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	Colombia	colombia	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	7	modnomatch	_	_
+14	durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+15	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	reunión	reunión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+17	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	7	modnomatch	_	_
+18	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	modnomatch	_	_
+19	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	7	punc	_	_
+20	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	7	modnomatch	_	_
+21	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	7	punc	_	_
+22	mesa	mesa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	modnomatch	_	_
+23	de	de	SP	SP	matched=no|pos=adposition|type=preposition	22	mod	_	_
+24	donantes	donante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	23	comp	_	_
+25	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	7	punc	_	_
+26	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	7	modnomatch	_	_
+27	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	7	punc	_	_
+28	celebró	celebrar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	7	modnomatch	_	_
+29	allí	allí	RG	RG	matched=no|pos=adverb|type=general	28	adjt	_	_
+30	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	28	punc	_	_
+31	bajo	bajo	SP	SP	matched=no|pos=adposition|type=preposition	39	coor	_	_
+32	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	33	spec	_	_
+33	patrocinio	patrocinio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	31	comp	_	_
+34	conjunto	conjunto	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	33	mod	_	_
+35	de	de	SP	SP	matched=no|pos=adposition|type=preposition	39	coor	_	_
+36	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	37	spec	_	_
+37	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	35	comp	_	_
+38	español	español	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	37	mod	_	_
+39	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	28	modnomatch	_	_
+40	de	de	SP	SP	matched=no|pos=adposition|type=preposition	39	coor	_	_
+41	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	42	spec	_	_
+42	Banco	banco	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	40	comp	_	_
+43	Interamericano	interamericano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	42	mod	_	_
+44	de	de	SP	SP	matched=no|pos=adposition|type=preposition	28	adjt	_	_
+45	Desarrollo	desarrollo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	44	comp	_	_
+46	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	47	modnomatch	_	_
+47	BID	bid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	28	dobj	_	_
+48	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	47	modnomatch	_	_
+49	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	28	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	portavoz	portavoz	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Departamento	departamento	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	Estado	estado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+8	manifestó	manifestar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+9	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	8	modnomatch	_	_
+10	EEUU	eeuu	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
+11	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	8	punc	_	_
+12	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
+13	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	8	punc	_	_
+14	está	estar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	8	modnomatch	_	_
+15	especialmente	especialmente	RG	RG	matched=no|pos=adverb|type=general	14	adjt	_	_
+16	agradecido	agradecer	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	14	attr	_	_
+17	a	a	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
+18	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+19	por	por	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
+20	facilitar	facilitar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	19	comp	_	_
+21	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
+22	conferencia	conferencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	dobj	_	_
+23	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	14	pred	_	_
+24	por	por	SP	SP	matched=no|pos=adposition|type=preposition	23	coor	_	_
+25	contribuir	contribuir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	24	comp	_	_
+26	con	con	SP	SP	matched=no|pos=adposition|type=preposition	25	adjt	_	_
+27	100_millones_de_dólares	$_USD:100000000	Zm	Zm	matched=no|pos=number|type=currency	26	comp	_	_
+28	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	8	punc	_	_
+29	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
+30	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	8	punc	_	_
+31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	delegación	delegación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+3	estadounidense	estadounidense	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	Conferencia	conferencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+8	Donantes	donante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	7	comp	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+10	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+11	está	estar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+12	dirigida	dirigir	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	11	attr	_	_
+13	por	por	SP	SP	matched=no|pos=adposition|type=preposition	12	agnt	_	_
+14	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	15	spec	_	_
+15	secretarios	secretario	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	13	comp	_	_
+16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	pobj	_	_
+17	Estado	estado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+18	adjuntos	adjunto	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	12	modnomatch	_	_
+19	para	para	SP	SP	matched=no|pos=adposition|type=preposition	12	pobj	_	_
+20	Asuntos	asunto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	19	comp	_	_
+21	Globales	global	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	20	mod	_	_
+22	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+23	Thomas	thomas	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	11	pred	_	_
+24	Pickering	pickering	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	modnomatch	_	_
+25	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	24	punc	_	_
+26	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	11	pred	_	_
+27	para	para	SP	SP	matched=no|pos=adposition|type=preposition	26	coor	_	_
+28	Asuntos	asunto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	27	comp	_	_
+29	Interamericanos	interamericano	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	28	mod	_	_
+30	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+31	Peter	peter	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	11	modnomatch	_	_
+32	Romero	romero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	31	dobj	_	_
+33	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	colombiano	colombiano	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	explicó	explicar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+5	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+7	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	7	modnomatch	_	_
+9	Plan	plan	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+10	Colombia	colombia	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+12	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	13	spec	_	_
+13	proyecto	proyecto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	dobj	_	_
+14	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	15	subj	_	_
+15	prevé	prever	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	13	mod	_	_
+16	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
+17	recaudación	recaudación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	dobj	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	mod	_	_
+19	7.500_millones_de_dólares	$_USD:7500000000	Zm	Zm	matched=no|pos=number|type=currency	18	comp	_	_
+20	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+21	4.000_millones	4000000000	Zd	Zd	matched=no|pos=number|type=partitive	4	modnomatch	_	_
+22	de	de	SP	SP	matched=no|pos=adposition|type=preposition	21	modnorule	_	_
+23	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	24	spec	_	_
+24	cuales	cual	PR0CP00	PR	gen=common|matched=no|num=plural|pos=pronoun|type=relative	25	subj	_	_
+25	proceden	proceder	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+26	de	de	SP	SP	matched=no|pos=adposition|type=preposition	25	pobj	_	_
+27	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	28	spec	_	_
+28	presupuesto	presupuesto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
+29	nacional	nacional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	28	mod	_	_
+30	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	modnomatch	_	_
+31	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	32	spec	_	_
+32	resto	resto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	30	coor	_	_
+33	de	de	SP	SP	matched=no|pos=adposition|type=preposition	32	mod	_	_
+34	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	35	spec	_	_
+35	comunidad	comunidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	33	comp	_	_
+36	internacional	internacional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	35	mod	_	_
+37	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+

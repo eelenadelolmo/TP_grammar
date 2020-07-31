@@ -1,0 +1,64 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	secretario	secretario	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	general	general	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	PSPV-PSOE	pspv-psoe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+8	Joan	joan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+9	Ignasi	ignasi	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_
+10	Pla	p_la	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+12	dijo	decir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	8	modnomatch	_	_
+13	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	12	adjt	_	_
+14	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	8	modnomatch	_	_
+15	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	modnomatch	_	_
+18	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	modnomatch	_	_
+19	Generalitat	generalitat	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	25	subj	_	_
+20	Valenciana	valenciano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	19	mod	_	_
+21	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	19	punc	_	_
+22	Eduardo	eduardo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	25	modnomatch	_	_
+23	Zaplana	zaplana	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	22	mod	_	_
+24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	22	punc	_	_
+25	pretende	pretender	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	8	modnomatch	_	_
+26	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	8	punc	_	_
+27	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
+28	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	8	punc	_	_
+29	quedar	quedar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	8	modnomatch	_	_
+30	bien	bien	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_
+31	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	8	modnomatch	_	_
+32	aparentar	aparentar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	31	coor	_	_
+33	ante	ante	SP	SP	matched=no|pos=adposition|type=preposition	32	adjt	_	_
+34	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	35	spec	_	_
+35	ciudadanos	ciudadano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	33	comp	_	_
+36	valencianos	valenciano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	35	mod	_	_
+37	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	8	punc	_	_
+38	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
+39	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	8	punc	_	_
+40	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+41	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	42	spec	_	_
+42	Plan	plan	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	40	comp	_	_
+43	Hidrológico	hidrológico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	42	mod	_	_
+44	Nacional	nacional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	modnomatch	_	_
+45	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	46	modnomatch	_	_
+46	PHN	phn	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
+47	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	46	modnomatch	_	_
+48	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	46	punc	_	_
+49	a_la_vez_que	a_la_vez_que	CS	CS	matched=no|pos=conjunction|type=subordinating	8	modnomatch	_	_
+50	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	8	punc	_	_
+51	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
+52	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	8	punc	_	_
+53	intenta	intentar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	8	modnomatch	_	_
+54	enfrentar	enfrentar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	53	dobj	_	_
+55	a	a	SP	SP	matched=no|pos=adposition|type=preposition	54	adjt	_	_
+56	unas	uno	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	57	spec	_	_
+57	Comunidades	comunidad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	55	comp	_	_
+58	con	con	SP	SP	matched=no|pos=adposition|type=preposition	8	modnomatch	_	_
+59	otras	otro	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	8	modnomatch	_	_
+60	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	8	punc	_	_
+61	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
+62	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	8	punc	_	_
+63	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+

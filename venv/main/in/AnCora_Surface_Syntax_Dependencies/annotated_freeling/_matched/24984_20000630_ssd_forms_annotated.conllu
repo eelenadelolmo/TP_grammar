@@ -1,0 +1,240 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	británico	británico	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	David	dar_vid	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	6	subj	_	_
+4	Coulthard	coulthard	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	mod	_	_
+5	(	(	Fpa	Fpa	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=open|type=parenthesis	3	punc	_	_
+6	McLaren	mclaren	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+7	MP4/15	MP4/15	Z	Z	matched=no|pos=number	8	spec	_	_
+8	Mercedes	merced	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	dobj	_	_
+9	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	6	punc	_	_
+10	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	11	aux	_	_
+11	dominado	dominar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	6	modnomatch	_	_
+12	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	13	spec	_	_
+13	jornada	jornada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	dobj	_	_
+14	anodina	anodino	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	13	mod	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	mod	_	_
+16	entrenamientos	entrenamiento	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	15	comp	_	_
+17	libres	libre	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	16	mod	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	mod	_	_
+19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
+20	Gran	gran	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	21	mod	_	_
+21	Premio	premio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+22	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	mod	_	_
+23	Francia	francia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
+24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+25	en	en	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+26	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	27	spec	_	_
+27	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	31	subj	_	_
+28	tan	tan	RG	RG	matched=no|pos=adverb|type=general	31	adjt	_	_
+29	solo	solo	RG	RG	matched=no|pos=adverb|type=general	31	adjt	_	_
+30	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	31	aux	_	_
+31	rodado	rodar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	25	comp	_	_
+32	nueve	9	Z	Z	matched=no|pos=number	33	spec	_	_
+33	vueltas	vuelta	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	31	dobj	_	_
+34	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	25	punc	_	_
+35	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	38	subj	_	_
+36	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	38	iobj	_	_
+37	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	38	aux	_	_
+38	sido	ser	VSP00SM	VSP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=semiauxiliary	11	modnomatch	_	_
+39	suficientes	suficiente	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	38	attr	_	_
+40	para	para	SP	SP	matched=no|pos=adposition|type=preposition	38	adjt	_	_
+41	dejar	dejar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	40	comp	_	_
+42	a	a	SP	SP	matched=no|pos=adposition|type=preposition	41	adjt	_	_
+43	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	45	spec	_	_
+44	alemán	alemán	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	45	mod	_	_
+45	Michael	michael	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	42	comp	_	_
+46	Schumacher	schumacher	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	45	mod	_	_
+47	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	6	punc	_	_
+48	Ferrari	ferrari	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
+49	F1-2000	F1-2000	Z	Z	matched=no|pos=number	6	modnomatch	_	_
+50	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	6	punc	_	_
+51	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+52	dos	2	Z	Z	matched=no|pos=number	53	spec	_	_
+53	décimas	décima	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	51	comp	_	_
+54	de	de	SP	SP	matched=no|pos=adposition|type=preposition	53	mod	_	_
+55	segundo	segundo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	54	comp	_	_
+56	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	54	punc	_	_
+
+1	Pedro	pedro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	4	spec	_	_
+4	Rosa	rosa	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	comp	_	_
+5	(	(	Fpa	Fpa	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=open|type=parenthesis	1	punc	_	_
+6	Arrows	arrows	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	1	mod	_	_
+7	A21	A21	Z	Z	matched=yes: subj child of top deprel|pos=number	8	spec	_	_
+8	Supertec	supertec	NC00000	NC	matched=yes: subj child of top deprel|pos=noun|type=common	1	mod	_	_
+9	)	)	Fpt	Fpt	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=close|type=parenthesis	1	punc	_	_
+10	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	11	aux	_	_
+11	finalizado	finalizar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+12	en	en	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+13	decimosexta	16	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	14	mod	_	_
+14	posición	posición	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+15	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	11	dobj	_	_
+16	Marc	mar_c	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	15	coor	_	_
+17	Gené	gené	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	11	modnomatch	_	_
+18	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	11	punc	_	_
+19	Minardi	minardi	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	11	modnomatch	_	_
+20	M02	M02	Z	Z	matched=no|pos=number	21	spec	_	_
+21	Fondmetal	fondmetal	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	modnomatch	_	_
+22	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	11	punc	_	_
+23	en	en	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+24	vigésima	20	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	23	comp	_	_
+25	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	23	punc	_	_
+26	después	después	RG	RG	matched=no|pos=adverb|type=general	11	adjt	_	_
+27	haber	haber	VAN0000	VAN	matched=no|mood=infinitive|pos=verb|type=auxiliary	28	aux	_	_
+28	sido	ser	VSP00SM	VSP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=semiauxiliary	11	modnomatch	_	_
+29	de	de	SP	SP	matched=no|pos=adposition|type=preposition	28	attr	_	_
+30	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	31	spec	_	_
+31	pilotos	piloto	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	29	comp	_	_
+32	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	35	subj	_	_
+33	más	más	RG	RG	matched=no|pos=adverb|type=general	35	adjt	_	_
+34	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	35	aux	_	_
+35	rodado	rodar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	31	mod	_	_
+36	para	para	SP	SP	matched=no|pos=adposition|type=preposition	35	adjt	_	_
+37	poner	poner	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	36	comp	_	_
+38	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	39	spec	_	_
+39	coches	coche	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	37	dobj	_	_
+40	a	a	SP	SP	matched=no|pos=adposition|type=preposition	37	pobj	_	_
+41	punto	punto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	40	comp	_	_
+42	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	28	punc	_	_
+
+1	Hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+2	Marc	mar_c	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	Gené	gené	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	0	top	_	_
+4	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	7	aux	_	_
+5	tenido	tener	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	7	prt	_	_
+6	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	7	prt	_	_
+7	utilizar	utilizar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	3	modnomatch	_	_
+8	dos	2	Z	Z	matched=no|pos=number	9	spec	_	_
+9	juegos	juego	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	dobj	_	_
+10	para	para	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+11	hacer	hacer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	10	comp	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+13	trabajo	trabajo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	dobj	_	_
+14	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	18	subj	_	_
+15	otras	otro	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	16	spec	_	_
+16	escuderías	escudería	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	18	modnomatch	_	_
+17	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	18	aux	_	_
+18	hecho	hacer	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	13	mod	_	_
+19	en	en	SP	SP	matched=no|pos=adposition|type=preposition	21	coor	_	_
+20	tres_días	TM_d:3	Zu	Zu	matched=no|pos=number|type=unit	19	comp	_	_
+21	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	7	adjt	_	_
+22	con	con	SP	SP	matched=no|pos=adposition|type=preposition	21	coor	_	_
+23	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
+24	posibilidad	posibilidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
+25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+26	cambiar	cambiar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	25	comp	_	_
+27	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	28	spec	_	_
+28	ruedas	rueda	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	26	dobj	_	_
+29	cada	cada	DI0CS0	DI	gen=common|matched=no|num=singular|pos=determiner|type=indefinite	30	spec	_	_
+30	quince	15	Z	Z	matched=no|pos=number	26	modnomatch	_	_
+31	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	7	modnomatch	_	_
+32	veinte	20	Z	Z	matched=no|pos=number	33	spec	_	_
+33	vueltas	vuelta	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	31	coor	_	_
+34	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	Ferrari	ferrari	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+2	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	3	aux	_	_
+3	probado	probar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+4	unas	uno	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	5	spec	_	_
+5	chimeneas	chimenea	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	dobj	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+7	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	8	spec	_	_
+8	pontones	pontón	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+9	laterales	lateral	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	8	mod	_	_
+10	para	para	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+11	canalizar	canalizar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	10	comp	_	_
+12	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+13	salida	salida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	dobj	_	_
+14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+15	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	aire	aire	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+17	caliente	caliente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+19	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	20	spec	_	_
+20	radiadores	radiador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	18	comp	_	_
+21	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+22	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	estilo	estilo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
+24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
+25	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	modnomatch	_	_
+26	Mclaren	mclaren	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	3	modnomatch	_	_
+27	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	26	punc	_	_
+28	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	31	subj	_	_
+29	seguramente	seguramente	RG	RG	matched=no|pos=adverb|type=general	31	adjt	_	_
+30	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	31	mphes	_	_
+31	utilizarán	utilizar	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	26	modnomatch	_	_
+32	para	para	SP	SP	matched=no|pos=adposition|type=preposition	31	adjt	_	_
+33	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	34	spec	_	_
+34	carrera	carrera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	32	comp	_	_
+35	de	de	SP	SP	matched=no|pos=adposition|type=preposition	31	adjt	_	_
+36	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	37	spec	_	_
+37	domingo	[G:??/??/??:??.??:??]	W	W	matched=no|pos=date	35	comp	_	_
+38	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	26	punc	_	_
+39	junto_con	junto_con	SP	SP	matched=no|pos=adposition|type=preposition	26	adjt	_	_
+40	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	42	spec	_	_
+41	nuevo	nuevo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	42	mod	_	_
+42	alerón	alerón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	39	comp	_	_
+43	trasero	trasero	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	42	mod	_	_
+44	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	26	dobj	_	_
+45	otros	otro	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	46	spec	_	_
+46	retoques	retoque	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	44	coor	_	_
+47	aerodinámicos	aerodinámico	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	46	mod	_	_
+48	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	26	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+2	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+3	jornada	jornada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	libre	libre	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+6	problemas	problema	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	finlandés	finlandés	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	10	subj	_	_
+9	Mika	mika	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	modnomatch	_	_
+10	Hakkinen	hakkinen	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+11	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	12	aux	_	_
+12	marcado	marcar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	10	modnomatch	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+14	tercer	3	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	16	mod	_	_
+15	mejor	mejor	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+16	tiempo	tiempo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	coor	_	_
+17	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	12	dobj	_	_
+18	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
+19	brasileño	brasileño	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	17	coor	_	_
+20	Rubens	rubens	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	12	modnomatch	_	_
+21	Barrichello	barrichello	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	mod	_	_
+22	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	10	punc	_	_
+23	Ferrari	ferrari	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	10	dobj	_	_
+24	F1-2000	F1-2000	Z	Z	matched=no|pos=number	10	modnomatch	_	_
+25	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	10	punc	_	_
+26	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+27	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	33	subj	_	_
+28	por	por	SP	SP	matched=no|pos=adposition|type=preposition	33	adjt	_	_
+29	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	30	spec	_	_
+30	mañana	mañana	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	28	comp	_	_
+31	no	no	RN	RN	matched=no|pos=adverb|type=negative	33	spec	_	_
+32	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	33	aux	_	_
+33	salido	salir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	39	subj	_	_
+34	a	a	SP	SP	matched=no|pos=adposition|type=preposition	33	pobj	_	_
+35	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	36	spec	_	_
+36	pista	pista	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	34	comp	_	_
+37	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	33	punc	_	_
+38	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	39	aux	_	_
+39	sido	ser	VSP00SM	VSP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=semiauxiliary	10	modnomatch	_	_
+40	cuarto	cuarto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	39	attr	_	_
+41	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	39	punc	_	_
+42	completando	completar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	39	adjt	_	_
+43	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	45	spec	_	_
+44	habitual	habitual	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	45	mod	_	_
+45	dominio	dominio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	42	dobj	_	_
+46	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	modnomatch	_	_
+47	Mclaren	mclaren	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	10	modnomatch	_	_
+48	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	47	dobj	_	_
+49	Ferrari	ferrari	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	48	coor	_	_
+50	en	en	SP	SP	matched=no|pos=adposition|type=preposition	47	adjt	_	_
+51	todos	todo	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	52	spec	_	_
+52	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	54	spec	_	_
+53	Grandes	grande	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	54	mod	_	_
+54	Premios	premio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	50	comp	_	_
+55	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	47	punc	_	_
+

@@ -1,0 +1,17 @@
+1	También	también	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+2	prevé	prever	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	vender	vender	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	dobj	_	_
+4	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	5	spec	_	_
+5	0,5_%	0.5/100	Zp	Zp	matched=no|pos=number|type=percentage	3	dobj	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+7	Suez	suez	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	Lyonnais	lyonnais	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	7	mod	_	_
+9	des	d	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	modnomatch	_	_
+10	Eaux	eaux	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	9	mod	_	_
+11	por	por	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+12	22.000_millones	22000000000	Zd	Zd	matched=no|pos=number|type=partitive	11	comp	_	_
+13	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+14	10	10	Z	Z	matched=no|pos=number	15	spec	_	_
+15	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	13	comp	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+

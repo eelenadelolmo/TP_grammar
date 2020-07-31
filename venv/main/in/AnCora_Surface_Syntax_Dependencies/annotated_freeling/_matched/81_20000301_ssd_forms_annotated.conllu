@@ -1,0 +1,92 @@
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	madre	madre	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Simeón	si_meón	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	será	ser	VSIF3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=semiauxiliary	6	aux	_	_
+6	enterrada	enterrar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	Sábado	[S:??/??/??:??.??:??]	W	W	matched=no|pos=date	6	adjt	_	_
+9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	capilla	capilla	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+13	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	14	spec	_	_
+14	franciscanos	franciscano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+16	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
+17	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+18	italiana	italiano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	17	mod	_	_
+19	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	modnomatch	_	_
+20	Asís	asir	VMIP2P0	VMI	matched=no|mood=indicative|num=plural|person=2|pos=verb|tense=present|type=main	6	modnomatch	_	_
+21	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	20	punc	_	_
+22	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	25	adjt	_	_
+23	Juana	juana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	25	subj	_	_
+24	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	25	mphes	_	_
+25	casó	casar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	20	modnomatch	_	_
+26	en	en	SP	SP	matched=no|pos=adposition|type=preposition	25	adjt	_	_
+27	1930	1930	Z	Z	matched=no|pos=number	26	comp	_	_
+28	con	con	SP	SP	matched=no|pos=adposition|type=preposition	25	adjt	_	_
+29	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	30	spec	_	_
+30	rey	rey	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	28	comp	_	_
+31	Boris	boris	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	30	mod	_	_
+32	de	de	SP	SP	matched=no|pos=adposition|type=preposition	30	mod	_	_
+33	Bulgaria	bulgaria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	32	comp	_	_
+34	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	20	punc	_	_
+35	muerto	morir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	20	adjt	_	_
+36	en	en	SP	SP	matched=no|pos=adposition|type=preposition	35	adjt	_	_
+37	1943	1943	Z	Z	matched=no|pos=number	36	comp	_	_
+38	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	fallecida	fallecer	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	3	subj	_	_
+3	dispuso	disponer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+4	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	5	aux	_	_
+5	enterrada	enterrar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	dobj	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
+7	Asís	asir	VMIP2P0	VMI	matched=no|mood=indicative|num=plural|person=2|pos=verb|tense=present|type=main	3	modnomatch	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+9	ya_que	ya_que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	modnomatch	_	_
+10	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	11	spec	_	_
+11	restos	resto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	modnomatch	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	mod	_	_
+13	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	14	spec	_	_
+14	marido	marido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+16	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	3	modnomatch	_	_
+17	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	18	aux	_	_
+18	enterrado	enterrar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	modnomatch	_	_
+19	en	en	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+20	Sofía	sofí_a	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
+21	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	22	modnomatch	_	_
+22	Bulgaria	bulgaria	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	20	mod	_	_
+23	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	22	modnomatch	_	_
+24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	18	punc	_	_
+25	desaparecieron	desaparecer	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	3	modnomatch	_	_
+26	durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	25	adjt	_	_
+27	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	29	spec	_	_
+28	Segunda	2	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	29	mod	_	_
+29	guerra	guerra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
+30	mundial	mundial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	29	mod	_	_
+31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+2	1991	1991	Z	Z	matched=no|pos=number	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	familia	familia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+6	real	real	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	búlgara	búlgaro	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+8	recuperó	recuperar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	corazón	corazón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
+12	Boris	boris	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	11	comp	_	_
+13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+14	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	8	modnomatch	_	_
+15	había	haber	VAII3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=auxiliary	17	aux	_	_
+16	sido	ser	VSP00SM	VSP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=semiauxiliary	17	aux	_	_
+17	conservado	conservar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	8	modnomatch	_	_
+18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+19	formol	formol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
+

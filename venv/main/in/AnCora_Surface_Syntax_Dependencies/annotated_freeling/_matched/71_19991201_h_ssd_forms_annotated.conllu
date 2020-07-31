@@ -1,0 +1,15 @@
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Guardia	guardia	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	Civil	civil	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	logró	lograr	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+5	arrestarlo	arrestarlo	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+7	Vandellòs-L'Hospitalet	vandellòs-l'hospitalet	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
+9	l'Infant	l'infant	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+10	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	12	modnomatch	_	_
+11	Baix	baix	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	12	mod	_	_
+12	Camp	camp	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+13	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	12	modnomatch	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+

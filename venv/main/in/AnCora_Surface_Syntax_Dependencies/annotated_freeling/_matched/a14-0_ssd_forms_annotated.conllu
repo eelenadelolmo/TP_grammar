@@ -1,0 +1,62 @@
+1	Alguno	alguno	PI0MS00	PI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	2	subj	_	_
+2	consigue	conseguir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	escapar	escapar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	dobj	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+5	allí	allí	RG	RG	matched=no|pos=adverb|type=general	4	comp	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+7	muy	muy	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+8	de_tarde_en_tarde	de_tarde_en_tarde	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+9	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	2	punc	_	_
+10	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+11	para	para	SP	SP	matched=no|pos=adposition|type=preposition	10	coor	_	_
+12	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+13	inmensa	inmenso	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	14	mod	_	_
+14	mayoría	mayoría	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+15	no	no	RN	RN	matched=no|pos=adverb|type=negative	16	spec	_	_
+16	hay	haber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	modnomatch	_	_
+17	ni	ni	CC	CC	matched=no|pos=conjunction|type=coordinating	16	dobj	_	_
+18	salida	salida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	mod	_	_
+19	ni	ni	CC	CC	matched=no|pos=conjunction|type=coordinating	17	modnomatch	_	_
+20	retorno	retorno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	mod	_	_
+21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	quería	querer	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+3	conocer	conocer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	dobj	_	_
+4	aquello	aquel	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	3	dobj	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+6	hacer	hacer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	modnomatch	_	_
+7	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	8	spec	_	_
+8	reportaje	reportaje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	coor	_	_
+9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+10	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+11	él	él	PP3MS00	PP	gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	10	coor	_	_
+12	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	13	mphes	_	_
+13	ofreció	ofrecer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	2	modnomatch	_	_
+14	a	a	SP	SP	matched=no|pos=adposition|type=preposition	13	pobj	_	_
+15	servirme	servirme	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	15	mod	_	_
+17	guía	guía	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	villa	villa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	había	haber	VAII3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=auxiliary	4	aux	_	_
+4	nacido	nacer	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+5	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	4	pobj	_	_
+6	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
+7	excrescencia	excrescencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+8	cancerosa	canceroso	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	7	mod	_	_
+9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+10	desordenadamente	desordenadamente	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+12	allí	allí	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
+13	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	14	adjt	_	_
+14	termina	terminar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+15	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	asfalto	asfalto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	coor	_	_
+17	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	modnomatch	_	_
+18	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
+19	esperanza	esperanza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	coor	_	_
+20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+

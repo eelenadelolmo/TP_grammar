@@ -1,0 +1,72 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	perro	perro	ncms000	ncms000	_	9	nsubj
+3	que	que	pr0cn000	pr0cn000	_	4	nsubj
+4	mató	matar	vmis3s0	vmis3s0	_	2	rcmod
+5	al	al	spcms	spcms	_	4	dobj
+6	niño	niño	ncms000	ncms000	_	5	pobj
+7	de	de	sps00	sps00	_	6	prepn
+8	Mallorca	Mallorca	np00000	np00000	_	7	pobj
+9	era	ser	vsii3s0	vsii3s0	_	0	root
+10	especialmente	especialmente	rg	rg	_	11	advmod
+11	peligroso	peligroso	aq0ms0	aq0ms0	_	9	attr
+12	,	,	fc	fc	_	9	punct
+13	según	según	sps00	sps00	_	9	advcl
+14	el	el	da0ms0	da0ms0	_	15	det
+15	veterinario	veterinario	ncms000	ncms000	_	13	pobj
+16	.	.	fp	fp	_	9	punct
+
+1	La	el	da0fs0	da0fs0	_	2	det
+2	declaración	declaración	ncfs000	ncfs000	_	4	nsubj
+3	se	él	p0300000	p0300000	_	4	reflec
+4	produjo	producir	vmis3s0	vmis3s0	_	0	root
+5	en	en	sps00	sps00	_	4	prepv
+6	la	el	da0fs0	da0fs0	_	8	det
+7	segunda	segundo	ao0fs0	ao0fs0	_	8	amod
+8	jornada	jornada	ncfs000	ncfs000	_	5	pobj
+9	del	del	spcms	spcms	_	8	prepn
+10	juicio	juicio	ncms000	ncms000	_	9	pobj
+11	por	por	sps00	sps00	_	10	prepn
+12	homicidio	homicidio	ncms000	ncms000	_	11	pobj
+13	imprudente	imprudente	aq0cs0	aq0cs0	_	12	amod
+14	contra	contra	sps00	sps00	_	10	prepn
+15	su	su	dp3cs0	dp3cs0	_	16	poss
+16	dueño	dueño	ncms000	ncms000	_	14	pobj
+17	,	,	fc	fc	_	16	punct
+18	que	que	pr0cn000	pr0cn000	_	19	nsubj
+19	aparece	aparecer	vmip3s0	vmip3s0	_	16	rcmod
+20	a	a	sps00	sps00	_	19	prepv
+21	la	el	da0fs0	da0fs0	_	22	det
+22	izquierda	izquierda	ncfs000	ncfs000	_	20	pobj
+23	de	de	sps00	sps00	_	22	prepn
+24	la	el	da0fs0	da0fs0	_	25	det
+25	foto	foto	ncfs000	ncfs000	_	23	pobj
+26	.	.	fp	fp	_	4	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	veterinario	veterinario	ncms000	ncms000	_	3	nsubj
+3	concluyó	concluir	vmis3s0	vmis3s0	_	0	root
+4	de	de	sps00	sps00	_	3	prepv
+5	sus	su	dp3cp0	dp3cp0	_	6	poss
+6	observaciones	observación	ncfp000	ncfp000	_	4	pobj
+7	que	que	cs	cs	_	3	dobj
+8	el	el	da0ms0	da0ms0	_	9	det
+9	perro	perro	ncms000	ncms000	_	10	nsubj
+10	había	haber	vaii3s0	vaii3s0	_	7	cobj
+11	sido	ser	vsp00sm	vsp00sm	_	10	vobj
+12	adiestrado	adiestrar	vmp00sm	vmp00sm	_	11	attr
+13	para	para	sps00	sps00	_	10	prepv
+14	ser	ser	vsn0000	vsn0000	_	13	pobj
+15	agresivo	agresivo	aq0ms0	aq0ms0	_	14	attr
+16	,	,	fc	fc	_	14	punct
+17	aunque	aunque	cs	cs	_	14	advcl
+18	de	de	sps00	sps00	_	17	cobj
+19	una	uno	di0fs0	di0fs0	_	20	det
+20	manera	manera	ncfs000	ncfs000	_	18	pobj
+21	inconsciente	inconsciente	aq0cs0	aq0cs0	_	20	amod
+22	.	.	fp	fp	_	3	punct

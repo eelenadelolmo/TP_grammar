@@ -1,0 +1,206 @@
+1	Telia	telia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+2	Iberia	iberio	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	1	mod	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+4	subsidiaria	subsidiario	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	1	mod	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	consorcio	consorcio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+8	telefónico	telefónico	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	7	mod	_	_
+9	estatal	estatal	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	1	mod	_	_
+10	sueco	sueco	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	1	mod	_	_
+11	Telia	telia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+13	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+14	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+15	primera	1	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	16	mod	_	_
+16	compañía	compañía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	attr	_	_
+17	en	en	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+18	lanzar	lanzar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	17	comp	_	_
+19	a	a	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+20	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
+21	mercado	mercado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
+22	español	español	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	21	mod	_	_
+23	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
+24	gama	gama	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	dobj	_	_
+25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+26	servicios	servicio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	25	comp	_	_
+27	ASP	as_p	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	mod	_	_
+28	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	13	punc	_	_
+29	Application	application	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	30	subj	_	_
+30	Service	service	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	13	modnomatch	_	_
+31	Provider	provider	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	30	dobj	_	_
+32	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	13	punc	_	_
+33	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	34	subj	_	_
+34	suministrará	suministrar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	13	modnomatch	_	_
+35	soluciones	solución	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	34	dobj	_	_
+36	informáticas	informático	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	35	mod	_	_
+37	para	para	SP	SP	matched=no|pos=adposition|type=preposition	34	adjt	_	_
+38	empresas	empresa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	37	comp	_	_
+39	medianas	mediano	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	38	mod	_	_
+40	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	13	modnomatch	_	_
+41	grandes	grande	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	40	coor	_	_
+42	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+43	informó	informar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	13	modnomatch	_	_
+44	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	43	adjt	_	_
+45	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	46	spec	_	_
+46	compañía	compañía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	43	dobj	_	_
+47	en	en	SP	SP	matched=no|pos=adposition|type=preposition	43	adjt	_	_
+48	Estocolmo	estoc_olmo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	47	comp	_	_
+49	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	43	punc	_	_
+
+1	Desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+2	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	3	spec	_	_
+3	filial	filial	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+5	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+7	Telia	telia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+8	Iberia	iberio	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	7	mod	_	_
+9	ofrecerá	ofrecer	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
+10	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	dobj	_	_
+11	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	12	spec	_	_
+12	empresas	empresa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
+13	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	12	modnomatch	_	_
+14	servicios	servicio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	modnomatch	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	mod	_	_
+16	conexión	conexión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+17	con	con	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+18	internet	internet	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	17	comp	_	_
+19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	20	punc	_	_
+20	así_como	así_como	CC	CC	matched=no|pos=conjunction|type=coordinating	9	modnomatch	_	_
+21	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
+22	venta	venta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	coor	_	_
+23	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+24	operadores	operador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	23	comp	_	_
+25	privados	privar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	24	mod	_	_
+26	de	de	SP	SP	matched=no|pos=adposition|type=preposition	24	mod	_	_
+27	espacios	espacio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	26	comp	_	_
+28	para	para	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+29	trasmisión	trasmisión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	28	comp	_	_
+30	de	de	SP	SP	matched=no|pos=adposition|type=preposition	29	mod	_	_
+31	datos	dato	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	30	comp	_	_
+32	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	9	modnomatch	_	_
+33	voz	voz	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	32	coor	_	_
+34	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	programas	programa	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
+3	informáticos	informático	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+4	están	estar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+5	elaborados	elaborar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	4	attr	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+7	colaboración	colaboración	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	con	con	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+9	proveedores	proveedor	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
+10	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	modnomatch	_	_
+11	socios	socio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	coor	_	_
+12	estratégicos	estratégico	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	11	mod	_	_
+13	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	4	adjt	_	_
+14	Andersen	andersen	VMSI3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=imperfect|type=main	13	comp	_	_
+15	Consulting	consulting	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	dobj	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+17	Baan	baan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+18	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	17	adjt	_	_
+19	Sun	sun	RG	RG	matched=no|pos=adverb|type=general	18	coor	_	_
+20	Microsystems	microsystems	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	17	dobj	_	_
+21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
+
+1	Como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	5	adjt	_	_
+2	mercado	mercado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	España	españa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+5	forma_parte	formar_parte	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	área	área	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+9	estratégica	estratégico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	5	modnomatch	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	compañía	compañía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	para	para	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+14	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	15	spec	_	_
+15	actividad	actividad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+16	internacional	internacional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	15	mod	_	_
+17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+18	mientras_que	mientras_que	CS	CS	matched=no|pos=conjunction|type=subordinating	5	dobj	_	_
+19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	mercado	mercado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	subj	_	_
+21	nacional	nacional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	20	mod	_	_
+22	de	de	SP	SP	matched=no|pos=adposition|type=preposition	20	mod	_	_
+23	Telia	telia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
+24	está	estar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	18	comp	_	_
+25	formado	formar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	24	attr	_	_
+26	por	por	SP	SP	matched=no|pos=adposition|type=preposition	25	agnt	_	_
+27	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	29	spec	_	_
+28	cinco	5	Z	Z	matched=no|pos=number	29	spec	_	_
+29	países	país	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	26	comp	_	_
+30	nórdicos	nórdico	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	29	mod	_	_
+31	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	37	punc	_	_
+32	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	34	spec	_	_
+33	tres	3	Z	Z	matched=no|pos=number	34	spec	_	_
+34	estados	estado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	37	coor	_	_
+35	bálticos	báltico	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	34	mod	_	_
+36	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	37	punc	_	_
+37	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_
+38	Polonia	polonia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	37	coor	_	_
+39	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+40	señaló	señalar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	5	modnomatch	_	_
+41	Gunterberg	gunterberg	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	40	dobj	_	_
+42	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	40	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	estructura	estructura	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Telia	telia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	Iberia	iberio	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+6	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	7	aux	_	_
+7	creada	crear	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+8	por	por	SP	SP	matched=no|pos=adposition|type=preposition	7	agnt	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	alianza	alianza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+11	Unisource	unisource	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	7	modnomatch	_	_
+12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+13	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	11	adjt	_	_
+14	disuelta	disolver	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	11	adjt	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	16	punc	_	_
+16	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	11	adjt	_	_
+17	anteriormente	anteriormente	RG	RG	matched=no|pos=adverb|type=general	16	coor	_	_
+18	integrada	integrar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	11	adjt	_	_
+19	por	por	SP	SP	matched=no|pos=adposition|type=preposition	18	agnt	_	_
+20	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
+21	holandesa	holandés	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	22	mod	_	_
+22	KPN	kpn	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
+23	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	27	punc	_	_
+24	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	26	spec	_	_
+25	sueca	sueco	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	26	mod	_	_
+26	Telia	telia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	27	coor	_	_
+27	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	11	dobj	_	_
+28	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	30	spec	_	_
+29	suiza	suizo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	30	mod	_	_
+30	Swisscom	swisscom	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	27	coor	_	_
+31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	consorcio	consorcio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	Telia	telia	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	facturó	facturar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+6	1999	1999	Z	Z	matched=no|pos=number	5	comp	_	_
+7	por	por	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+8	52.100_millones_de_coronas	$_DKK:52100000000	Zm	Zm	matched=no|pos=number|type=currency	7	comp	_	_
+9	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	10	modnomatch	_	_
+10	5.788_millones_de_dólares	$_USD:5788000000	Zm	Zm	matched=no|pos=number|type=currency	13	coor	_	_
+11	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	10	modnomatch	_	_
+12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+13	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	dobj	_	_
+14	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	15	spec	_	_
+15	beneficios	beneficio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	13	coor	_	_
+16	brutos	bruto	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	15	mod	_	_
+17	ascendieron	ascender	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	4	modnomatch	_	_
+18	a	a	SP	SP	matched=no|pos=adposition|type=preposition	17	pobj	_	_
+19	6.000_millones_de_coronas	$_DKK:6000000000	Zm	Zm	matched=no|pos=number|type=currency	18	comp	_	_
+20	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	21	modnomatch	_	_
+21	666_millones_de_dólares	$_USD:666000000	Zm	Zm	matched=no|pos=number|type=currency	17	dobj	_	_
+22	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	21	modnomatch	_	_
+23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
+

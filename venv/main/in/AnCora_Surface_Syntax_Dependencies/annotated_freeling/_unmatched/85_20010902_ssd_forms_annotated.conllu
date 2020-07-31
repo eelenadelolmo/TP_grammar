@@ -1,0 +1,19 @@
+1	Quiebra	quiebra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	0	top	_	_
+2	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	Juzgado	juzgado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+5	número	número	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	mod	_	_
+6	5	5	Z	Z	matched=no|pos=number	1	mod	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
+8	Palma	palma	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
+10	Mallorca	mallorca	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Nombrado	nombrar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	4	adjt	_	_
+2	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	1	adjt	_	_
+3	comisario	comisario	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+4	Bartolomé	bartolomé	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	0	top	_	_
+5	Caldentey	caldentey	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+

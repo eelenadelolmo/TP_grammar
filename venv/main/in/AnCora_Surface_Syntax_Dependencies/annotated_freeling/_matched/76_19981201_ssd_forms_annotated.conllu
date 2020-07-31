@@ -1,0 +1,186 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	ente	ente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	promoverá	promover	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
+4	acciones	acción	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	dobj	_	_
+5	conjuntas	conjunto	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	4	mod	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+7	8.245	8245	Z	Z	matched=no|pos=number	8	spec	_	_
+8	puntos	punto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	mod	_	_
+10	atraque	atraque	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
+12	todo	todo	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	13	spec	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	litoral	litoral	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	De	de	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
+2	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	4	spec	_	_
+3	22.800	22800	Z	Z	matched=no|pos=number	4	spec	_	_
+4	amarres	amarre	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
+5	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	6	subj	_	_
+6	hay	haber	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	15	subj	_	_
+7	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	adjt	_	_
+8	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	costa	costa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+10	catalana	catalán	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+11	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	6	punc	_	_
+12	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+13	nueva	nuevo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	14	mod	_	_
+14	empresa	empresa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	modnomatch	_	_
+15	tendrá	tener	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
+16	bajo	bajo	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
+17	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	18	spec	_	_
+18	control	control	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+19	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	15	dobj	_	_
+20	promoción	promoción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	19	coor	_	_
+21	8.245	8245	Z	Z	matched=no|pos=number	22	spec	_	_
+22	puntos	punto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	15	modnomatch	_	_
+23	de	de	SP	SP	matched=no|pos=adposition|type=preposition	22	mod	_	_
+24	atraque	atraque	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
+25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	15	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+2	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	práctica	práctica	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	ámbito	ámbito	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
+8	actuación	actuación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
+10	Ports	ports	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	comp	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+12	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	1	comp	_	_
+13	Generalitat	generalitat	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
+14	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+15	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	attr	_	_
+17	todos	todo	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	18	spec	_	_
+18	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	19	spec	_	_
+19	puertos	puerto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	16	mod	_	_
+20	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	24	punc	_	_
+21	pesqueros	pesquero	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	24	coor	_	_
+22	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	24	punc	_	_
+23	industriales	industrial	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	24	coor	_	_
+24	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	14	modnomatch	_	_
+25	deportivos	deportivo	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	24	coor	_	_
+26	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	14	punc	_	_
+27	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	28	subj	_	_
+28	existen	existir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	14	modnomatch	_	_
+29	en	en	SP	SP	matched=no|pos=adposition|type=preposition	28	pobj	_	_
+30	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	31	spec	_	_
+31	litoral	litoral	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	29	comp	_	_
+32	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	28	punc	_	_
+33	a_excepción_de	a_excepción_de	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+34	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	35	spec	_	_
+35	puertos	puerto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	33	comp	_	_
+36	autónomos	autónomo	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	35	mod	_	_
+37	de	de	SP	SP	matched=no|pos=adposition|type=preposition	35	mod	_	_
+38	Barcelona	barcelona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	37	comp	_	_
+39	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	14	modnomatch	_	_
+40	Tarragona	tarragona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	39	coor	_	_
+41	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	14	modnomatch	_	_
+42	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	modnomatch	_	_
+43	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	modnomatch	_	_
+44	Mataró	mataró	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	14	modnomatch	_	_
+45	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	44	punc	_	_
+46	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	47	subj	_	_
+47	gestiona	gestionar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	44	modnomatch	_	_
+48	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	49	spec	_	_
+49	consorcio	consorcio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	47	modnomatch	_	_
+50	integrado	integrar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	49	mod	_	_
+51	por	por	SP	SP	matched=no|pos=adposition|type=preposition	57	coor	_	_
+52	representantes	representante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	51	comp	_	_
+53	de	de	SP	SP	matched=no|pos=adposition|type=preposition	57	coor	_	_
+54	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	55	spec	_	_
+55	Administración	administración	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	53	comp	_	_
+56	autonómica	autonómico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	55	mod	_	_
+57	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	44	modnomatch	_	_
+58	de	de	SP	SP	matched=no|pos=adposition|type=preposition	57	coor	_	_
+59	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	60	spec	_	_
+60	municipal	municipal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	58	comp	_	_
+61	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	44	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	nueva	nuevo	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	empresa	empresa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+4	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+5	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	4	adjt	_	_
+6	objetivos	objetivo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
+7	fundamentales	fundamental	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	6	mod	_	_
+8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
+9	creación	creación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
+11	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	12	spec	_	_
+12	frente	frente	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	portuario	portuario	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	12	mod	_	_
+14	catalán	catalán	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+15	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	16	subj	_	_
+16	sirva	servir	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	9	mod	_	_
+17	para	para	SP	SP	matched=no|pos=adposition|type=preposition	16	pobj	_	_
+18	desarrollar	desarrollar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	17	comp	_	_
+19	actuaciones	actuación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	18	dobj	_	_
+20	comerciales	comercial	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	19	mod	_	_
+21	e	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	pred	_	_
+22	industriales	industrial	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	21	coor	_	_
+23	coordinadas	coordinar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	4	pred	_	_
+24	entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	23	adjt	_	_
+25	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	27	spec	_	_
+26	distintos	distinto	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	27	mod	_	_
+27	puertos	puerto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	24	comp	_	_
+28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	organismo	organismo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	también	también	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
+4	servirá	servir	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
+5	para	para	SP	SP	matched=no|pos=adposition|type=preposition	11	coor	_	_
+6	optimizar	optimizar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	5	comp	_	_
+7	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	8	spec	_	_
+8	campañas	campaña	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	dobj	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+10	promoción	promoción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+11	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	pobj	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	coor	_	_
+13	desarrollo	desarrollo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+14	ante	ante	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+15	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	16	spec	_	_
+16	potenciales	potencial	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	14	comp	_	_
+17	usuarios	usuario	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	16	mod	_	_
+18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Otra	otro	PI0FS00	PI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	11	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	4	spec	_	_
+4	cuestiones	cuestión	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	comp	_	_
+5	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	pobj	_	_
+6	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	7	spec	_	_
+7	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	comp	_	_
+8	dedicará	dedicar	VMIF3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	1	mod	_	_
+9	especial	especial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	10	mod	_	_
+10	atención	atención	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	modnomatch	_	_
+11	será	ser	VSIF3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=semiauxiliary	0	top	_	_
+12	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+13	mejora	mejora	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	19	coor	_	_
+14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	mod	_	_
+15	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	16	spec	_	_
+16	infraestructuras	infraestructura	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	14	comp	_	_
+17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	19	punc	_	_
+18	instalaciones	instalación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	19	coor	_	_
+19	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	11	attr	_	_
+20	servicios	servicio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	19	coor	_	_
+21	portuarios	portuario	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	20	mod	_	_
+22	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+23	para	para	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+24	rentabilizar	rentabilizar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	23	comp	_	_
+25	mejor	mejor	RG	RG	matched=no|pos=adverb|type=general	11	adjt	_	_
+26	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	27	spec	_	_
+27	inversiones	inversión	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	11	modnomatch	_	_
+28	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	11	modnomatch	_	_
+29	para	para	SP	SP	matched=no|pos=adposition|type=preposition	28	coor	_	_
+30	capitalizar	capitalizar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	29	comp	_	_
+31	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	32	spec	_	_
+32	beneficios	beneficio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	30	dobj	_	_
+33	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+

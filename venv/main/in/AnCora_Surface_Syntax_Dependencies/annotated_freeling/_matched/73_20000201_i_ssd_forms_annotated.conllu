@@ -1,0 +1,25 @@
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	campaña	campaña	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	excavación	excavación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+6	Atapuerca	atar_puerca	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	5	comp	_	_
+7	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	8	mphes	_	_
+8	alarga	alargar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+9	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	10	spec	_	_
+10	año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	adjt	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	Bermúdez	bermúdez	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	espera	esperar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	dobj	_	_
+4	Atapuerca	atar_puerca	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	5	subj	_	_
+5	disponga	disponer	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	3	comp	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+7	breve	breve	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	comp	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	pobj	_	_
+9	cinco	5	Z	Z	matched=no|pos=number	10	spec	_	_
+10	excavaciones	excavación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
+11	simultáneas	simultáneo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	10	mod	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+

@@ -1,0 +1,285 @@
+1	DESALOJOS	desalojo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	0	top	_	_
+2	EN	en	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
+3	ARAGÓN	aragón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+4	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+2	virulento	virulento	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	incendio	incendio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	25	coor	_	_
+4	registrado	registrar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	mod	_	_
+5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+6	última	último	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	7	mod	_	_
+7	hora	hora	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+9	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	8	comp	_	_
+10	entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+11	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	12	spec	_	_
+12	municipios	municipio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
+13	oscenses	oscense	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	12	mod	_	_
+14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+15	Linás	linás	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	14	comp	_	_
+16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+17	Marcuello	mar_cuello	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+18	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	3	punc	_	_
+19	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	3	punc	_	_
+20	pedáneo	pedáneo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+21	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+22	Loarre	loarre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
+23	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	3	punc	_	_
+24	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	3	punc	_	_
+25	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+26	Riglos	riglos	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	25	coor	_	_
+27	obligó	obligar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	25	modnomatch	_	_
+28	a	a	SP	SP	matched=no|pos=adposition|type=preposition	27	pobj	_	_
+29	evacuar	evacuar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	28	comp	_	_
+30	a	a	SP	SP	matched=no|pos=adposition|type=preposition	29	adjt	_	_
+31	varias	varios	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	32	spec	_	_
+32	decenas	decena	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	30	comp	_	_
+33	de	de	SP	SP	matched=no|pos=adposition|type=preposition	29	adjt	_	_
+34	vecinos	vecino	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	33	comp	_	_
+35	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	27	punc	_	_
+36	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	38	subj	_	_
+37	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	38	aux	_	_
+38	pasado	pasar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	27	modnomatch	_	_
+39	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	40	spec	_	_
+40	noche	noche	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	38	adjt	_	_
+41	en	en	SP	SP	matched=no|pos=adposition|type=preposition	46	coor	_	_
+42	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	43	spec	_	_
+43	polideportivo	polideportivo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	41	comp	_	_
+44	de	de	SP	SP	matched=no|pos=adposition|type=preposition	46	coor	_	_
+45	Ayerbe	ayer_be	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	44	comp	_	_
+46	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	27	modnomatch	_	_
+47	en	en	SP	SP	matched=no|pos=adposition|type=preposition	46	coor	_	_
+48	casas	casa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	47	comp	_	_
+49	particulares	particular	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	48	mod	_	_
+50	de	de	SP	SP	matched=no|pos=adposition|type=preposition	27	adjt	_	_
+51	Loarre	loarre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	50	comp	_	_
+52	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	27	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	fuego	fuego	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	23	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+5	comenzó	comenzar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	2	mod	_	_
+6	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	adjt	_	_
+7	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	8	spec	_	_
+8	20.00_horas	TM_h:20.00	Zu	Zu	matched=yes: subj child of top deprel|pos=number|type=unit	6	comp	_	_
+9	a_consecuencia_de	a_consecuencia_de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	adjt	_	_
+10	una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	11	spec	_	_
+11	tormenta	tormenta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	comp	_	_
+12	seca	seco	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	11	mod	_	_
+13	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	14	subj	_	_
+14	descargó	descargar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	11	mod	_	_
+15	rayos	rayo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	14	dobj	_	_
+16	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	14	adjt	_	_
+17	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	18	spec	_	_
+18	sierra	sierra	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	comp	_	_
+19	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	18	mod	_	_
+20	Sarsa	sarsa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	19	comp	_	_
+21	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+22	había	haber	VAII3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=auxiliary	23	aux	_	_
+23	calcinado	calcinar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+24	cerca	cerca	RG	RG	matched=no|pos=adverb|type=general	23	adjt	_	_
+25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	24	modnomatch	_	_
+26	500_hectáreas	AR_hA:500	Zu	Zu	matched=no|pos=number|type=unit	24	modnomatch	_	_
+27	de	de	SP	SP	matched=no|pos=adposition|type=preposition	23	adjt	_	_
+28	monte	monte	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	27	comp	_	_
+29	bajo	bajo	SP	SP	matched=no|pos=adposition|type=preposition	23	modnomatch	_	_
+30	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	23	modnomatch	_	_
+31	de	de	SP	SP	matched=no|pos=adposition|type=preposition	30	coor	_	_
+32	pinos	pino	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	31	comp	_	_
+33	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	23	punc	_	_
+
+1	Otro	otro	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+2	gran	gran	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	incendio	incendio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+4	arrasó	arrasar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+5	2.130_hectáreas	AR_hA:2130	Zu	Zu	matched=no|pos=number|type=unit	4	dobj	_	_
+6	desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	martes	[M:??/??/??:??.??:??]	W	W	matched=no|pos=date	6	comp	_	_
+9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	modnomatch	_	_
+10	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	4	modnomatch	_	_
+11	Arribes	arribar	VMSP2S0	VMS	matched=no|mood=subjunctive|num=singular|person=2|pos=verb|tense=present|type=main	4	modnomatch	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	Duero	duero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+15	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	16	modnomatch	_	_
+16	Salamanca	sala_manco	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	dobj	_	_
+17	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	16	modnomatch	_	_
+18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	Fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	2	aux	_	_
+2	controlado	controlar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+3	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	madrugada	madrugada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+6	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	5	comp	_	_
+7	después_de	después_de	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+8	amenazar	amenazar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	7	comp	_	_
+9	a	a	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+10	cuatro	4	Z	Z	matched=no|pos=number	11	spec	_	_
+11	pueblos	pueblo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	comp	_	_
+12	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+13	arrasar	arrasar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	12	coor	_	_
+14	unas	uno	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	15	spec	_	_
+15	mil_hectáreas	AR_hA:1000	Zu	Zu	matched=no|pos=number|type=unit	20	coor	_	_
+16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	15	mod	_	_
+17	pasto	pasto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	20	punc	_	_
+19	matorral	matorral	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	coor	_	_
+20	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+21	monte	monte	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	coor	_	_
+22	bajo	bajo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	21	mod	_	_
+23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	A	a	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	parecer	parecer	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	incendio	incendio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+7	pudo	poder	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	8	prt	_	_
+8	deberse	deberse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
+9	a	a	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	chispa	chispa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	mod	_	_
+13	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	14	spec	_	_
+14	camión	camión	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+15	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	8	modnomatch	_	_
+16	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	18	subj	_	_
+17	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	18	mphes	_	_
+18	propagó	propagar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	15	coor	_	_
+19	debido_a	debido_a	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+20	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
+21	fuerte	fuerte	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	22	mod	_	_
+22	viento	viento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
+23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	fuego	fuego	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	arrasó	arrasar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+4	fincas	finca	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	dobj	_	_
+5	enteras	entero	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	4	mod	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+7	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	3	adjt	_	_
+8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	comp	_	_
+10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	alcalde	alcalde	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	mod	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	mod	_	_
+13	Barruecopardo	barrueco_pardo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
+15	Aurelio	aurelio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+16	Casado	casar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	15	mod	_	_
+17	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	18	modnomatch	_	_
+18	PP	p_p	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+19	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	18	modnomatch	_	_
+20	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	18	punc	_	_
+21	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	mod	_	_
+22	102_hectáreas	AR_hA:102	Zu	Zu	matched=no|pos=number|type=unit	21	comp	_	_
+23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+2	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+3	misma	mismo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+4	comunidad	comunidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+5	autónoma	autónomo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	comp	_	_
+8	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
+9	inmediaciones	inmediación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	comp	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	comp	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	localidad	localidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	comp	_	_
+14	Manzanal	manzanal	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	comp	_	_
+16	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	17	spec	_	_
+17	Infantes	infante	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	15	comp	_	_
+18	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	1	punc	_	_
+19	Zamora	zamora	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+20	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	19	punc	_	_
+21	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	19	punc	_	_
+22	unas	uno	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	23	spec	_	_
+23	436_hectáreas	AR_hA:436	Zu	Zu	matched=no|pos=number|type=unit	25	subj	_	_
+24	también	también	RG	RG	matched=no|pos=adverb|type=general	25	adjt	_	_
+25	resultaron	resultar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	19	modnomatch	_	_
+26	carbonizadas	carbonizar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	25	pred	_	_
+27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
+
+1	Por_otro_lado	por_otro_lado	RG	RG	matched=no|pos=adverb|type=general	13	adjt	_	_
+2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+3	dos	2	Z	Z	matched=yes: subj child of top deprel|pos=number	4	spec	_	_
+4	incendios	incendio	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	13	subj	_	_
+5	registrados	registrar	VMP00PM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	4	mod	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+7	Viana	viana	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	6	comp	_	_
+8	do	do	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+9	Bolo	bolo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+10	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	11	modnomatch	_	_
+11	Orense	orense	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+12	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	11	modnomatch	_	_
+13	seguían	seguir	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+14	anoche	anoche	RG	RG	matched=no|pos=adverb|type=general	15	spec	_	_
+15	activos	activo	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	13	pred	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+17	aunque	aunque	CC	CC	matched=no|pos=conjunction|type=coordinating	13	modnomatch	_	_
+18	controlados	controlar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	13	pred	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+2	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	Comunidad	comunidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+5	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+7	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	8	spec	_	_
+8	bomberos	bombero	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	subj	_	_
+9	continuaban	continuar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+10	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	9	adjt	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	extinción	extinción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
+14	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
+15	fuego	fuego	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+16	originado	originar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	15	mod	_	_
+17	en	en	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+18	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
+19	término	término	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+20	municipal	municipal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	19	mod	_	_
+21	de	de	SP	SP	matched=no|pos=adposition|type=preposition	19	mod	_	_
+22	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	23	spec	_	_
+23	Molinos	molino	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	21	comp	_	_
+24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	25	punc	_	_
+25	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	9	modnomatch	_	_
+26	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	28	subj	_	_
+27	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	28	aux	_	_
+28	afectado	afectar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	25	coor	_	_
+29	a	a	SP	SP	matched=no|pos=adposition|type=preposition	28	adjt	_	_
+30	64_hectáreas	AR_hA:64	Zu	Zu	matched=no|pos=number|type=unit	29	comp	_	_
+31	de	de	SP	SP	matched=no|pos=adposition|type=preposition	30	mod	_	_
+32	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	33	spec	_	_
+33	sierra	sierra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	31	comp	_	_
+34	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	modnomatch	_	_
+35	Guadarrama	guadarrama	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	9	modnomatch	_	_
+36	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	35	punc	_	_
+
+1	Por	por	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+2	último	último	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	5	spec	_	_
+5	fuego	fuego	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
+6	declarado	declarar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	5	mod	_	_
+7	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	14	adjt	_	_
+8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	municipio	municipio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+11	toledano	toledano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	10	mod	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+13	Ocaña	o_caña	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+14	arrasó	arrasar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+15	200_hectáreas	AR_hA:200	Zu	Zu	matched=no|pos=number|type=unit	14	dobj	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
+

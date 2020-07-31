@@ -1,0 +1,124 @@
+1	Por	por	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+2	otra	otro	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+3	parte	parte	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	síntesis	síntesis	NCFN000	NC	gen=feminine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	14	subj	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	mod	_	_
+8	nuevas	nuevo	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	9	mod	_	_
+9	moléculas	molécula	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	comp	_	_
+10	aceptoras	aceptor	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	9	mod	_	_
+11	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	14	aux	_	_
+12	tenido	tener	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	14	prt	_	_
+13	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	14	prt	_	_
+14	superar	superar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
+15	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	16	spec	_	_
+16	dificultades	dificultad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	14	dobj	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+18	obtención	obtención	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+19	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+20	derivados	derivado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	19	comp	_	_
+21	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+22	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	TCNQ	tcnq	NC00000	NC	matched=no|pos=noun|type=common	21	comp	_	_
+24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	14	punc	_	_
+25	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	14	modnomatch	_	_
+26	durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	25	coor	_	_
+27	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	29	spec	_	_
+28	últimos	último	AO0MP00	AO	gen=masculine|matched=no|num=plural|pos=adjective|type=ordinal	29	mod	_	_
+29	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	26	comp	_	_
+30	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	33	mphes	_	_
+31	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	33	aux	_	_
+32	podido	poder	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	33	prt	_	_
+33	sintetizar	sintetizar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	14	modnomatch	_	_
+34	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	36	spec	_	_
+35	elevado	elevar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	36	mod	_	_
+36	número	número	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	33	dobj	_	_
+37	de	de	SP	SP	matched=no|pos=adposition|type=preposition	36	mod	_	_
+38	moléculas	molécula	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	37	comp	_	_
+39	aceptoras	aceptor	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	38	mod	_	_
+40	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	14	punc	_	_
+41	fig.	fig.	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	modnomatch	_	_
+42	5	5	Z	Z	matched=no|pos=number	14	modnomatch	_	_
+43	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	14	punc	_	_
+44	con	con	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+45	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	47	spec	_	_
+46	amplia	amplio	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	47	mod	_	_
+47	gama	gama	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	44	comp	_	_
+48	de	de	SP	SP	matched=no|pos=adposition|type=preposition	47	mod	_	_
+49	valores	valor	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	48	comp	_	_
+50	de	de	SP	SP	matched=no|pos=adposition|type=preposition	49	mod	_	_
+51	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	52	spec	_	_
+52	afinidad	afinidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	50	comp	_	_
+53	electrónica	electrónico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	52	mod	_	_
+54	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	50	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+2	general	general	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	sustitución	sustitución	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	esqueleto	esqueleto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+9	monocíclico	monocíclico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+11	TCNQ	tcnq	NC00000	NC	matched=no|pos=noun|type=common	10	comp	_	_
+12	da	dar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+13	lugar	lugar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	dobj	_	_
+14	a	a	SP	SP	matched=no|pos=adposition|type=preposition	12	pobj	_	_
+15	complejos	complejo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	14	comp	_	_
+16	con	con	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+17	propiedades	propiedad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	16	comp	_	_
+18	conductoras	conductor	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	17	mod	_	_
+19	inferiores	inferior	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	12	pred	_	_
+20	a	a	SP	SP	matched=no|pos=adposition|type=preposition	12	pobj	_	_
+21	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	22	spec	_	_
+22	de	de	SP	SP	matched=no|pos=adposition|type=preposition	20	comp	_	_
+23	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
+24	TCNQ	tcnq	NC00000	NC	matched=no|pos=noun|type=common	22	mod	_	_
+25	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
+26	por	por	SP	SP	matched=no|pos=adposition|type=preposition	12	pobj	_	_
+27	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	28	spec	_	_
+28	menor	menor	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	26	comp	_	_
+29	planaridad	plan_aridad	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	modnomatch	_	_
+30	de	de	SP	SP	matched=no|pos=adposition|type=preposition	29	mod	_	_
+31	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	32	spec	_	_
+32	molécula	molécula	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	30	comp	_	_
+33	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	29	punc	_	_
+34	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	35	spec	_	_
+35	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	36	subj	_	_
+36	dificulta	dificultar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	29	mod	_	_
+37	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	39	spec	_	_
+38	apretado	apretar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	39	mod	_	_
+39	apilamiento	apilamiento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	36	dobj	_	_
+40	necesario	necesario	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	39	mod	_	_
+41	para	para	SP	SP	matched=no|pos=adposition|type=preposition	36	adjt	_	_
+42	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	43	spec	_	_
+43	solapamiento	solapamiento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	41	comp	_	_
+44	n	n	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	43	mod	_	_
+45	responsable	responsable	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	36	modnomatch	_	_
+46	de	de	SP	SP	matched=no|pos=adposition|type=preposition	36	adjt	_	_
+47	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	48	spec	_	_
+48	conductividad	conductividad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	46	comp	_	_
+49	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
+
+1	Esta	este	DD0FS0	DD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	distorsión	distorsión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	molecular	molecular	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	ejerce	ejercer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+5	probablemente	probablemente	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
+6	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	8	spec	_	_
+7	mayor	mayor	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+8	influencia	influencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+9	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	4	modnomatch	_	_
+10	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	11	spec	_	_
+11	efectos	efecto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	modnomatch	_	_
+12	electrónicos	electrónico	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	11	mod	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	mod	_	_
+14	extensión	extensión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	mod	_	_
+16	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
+17	sistema	sistema	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+

@@ -1,0 +1,73 @@
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	estupenda	estupendo	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	vis	vis	NCFN000	NC	gen=feminine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	37	subj	_	_
+4	cómica	cómico	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+6	Txema	txema	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+7	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	3	modnomatch	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	savoir	savoir	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	7	coor	_	_
+10	faire	f_aire	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	dobj	_	_
+11	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	3	modnomatch	_	_
+12	ambos	ambos	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	13	spec	_	_
+13	intérpretes	intérprete	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	14	subj	_	_
+14	demuestran	demostrar	VMIP3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	11	comp	_	_
+15	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	14	dobj	_	_
+16	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	17	spec	_	_
+17	hora	hora	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	comp	_	_
+18	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	14	adjt	_	_
+19	involucrar	involucrar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	18	comp	_	_
+20	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	19	adjt	_	_
+21	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	22	spec	_	_
+22	público	público	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	comp	_	_
+23	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	19	adjt	_	_
+24	veces	vez	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	23	comp	_	_
+25	demasiado	demasiado	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	26	spec	_	_
+26	tímido	tímido	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	14	modnomatch	_	_
+27	sin	sin	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	14	adjt	_	_
+28	ejercer	ejercer	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	27	comp	_	_
+29	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	30	spec	_	_
+30	violencia	violencia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	28	dobj	_	_
+31	psicológica	psicológico	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	30	mod	_	_
+32	ni	ni	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	3	modnomatch	_	_
+33	llegar	llegar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	32	coor	_	_
+34	a	a	SP	SP	matched=no|pos=adposition|type=preposition	37	adjt	_	_
+35	incomodarlo	incomodarlo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	34	comp	_	_
+36	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	34	punc	_	_
+37	constituyen	constituir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+38	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	37	punc	_	_
+39	sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	37	adjt	_	_
+40	duda	duda	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	39	comp	_	_
+41	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	39	punc	_	_
+42	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	44	spec	_	_
+43	gran	gran	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	44	mod	_	_
+44	atractivo	atractivo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	37	dobj	_	_
+45	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	37	punc	_	_
+46	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	37	punc	_	_
+47	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	37	adjt	_	_
+48	también	también	RG	RG	matched=no|pos=adverb|type=general	47	coor	_	_
+49	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	51	spec	_	_
+50	gran	gran	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	51	mod	_	_
+51	riesgo	riesgo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	37	modnomatch	_	_
+52	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	37	punc	_	_
+53	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	37	punc	_	_
+54	de	de	SP	SP	matched=no|pos=adposition|type=preposition	37	adjt	_	_
+55	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	56	spec	_	_
+56	espectáculo	espectáculo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	54	comp	_	_
+57	cuyo	cuyo	PR0MS00	PR	gen=masculine|matched=no|num=singular|pos=pronoun|type=relative	58	spec	_	_
+58	grado	grado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	61	subj	_	_
+59	de	de	SP	SP	matched=no|pos=adposition|type=preposition	61	adjt	_	_
+60	diversión	diversión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	59	comp	_	_
+61	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	56	mod	_	_
+62	proporcional	proporcional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	61	attr	_	_
+63	a	a	SP	SP	matched=no|pos=adposition|type=preposition	61	adjt	_	_
+64	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	65	spec	_	_
+65	de	de	SP	SP	matched=no|pos=adposition|type=preposition	63	comp	_	_
+66	imaginación	imaginación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	65	mod	_	_
+67	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	37	modnomatch	_	_
+68	participación	participación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	67	coor	_	_
+69	de	de	SP	SP	matched=no|pos=adposition|type=preposition	68	mod	_	_
+70	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	71	spec	_	_
+71	espectadores	espectador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	69	comp	_	_
+72	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	37	punc	_	_
+

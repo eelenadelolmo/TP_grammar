@@ -1,0 +1,27 @@
+1	Los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	2	det	_	_
+2	dirigentes	dirigente	nccp000	nccp000	matched=yes: nsubj child of root deprel	15	nsubj	_	_
+3	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	2	prepn	_	_
+4	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	5	det	_	_
+5	organización	organización	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	3	pobj	_	_
+6	terrorista	terrorista	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	5	amod	_	_
+7	vascofrancesa	vascofrancés	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	5	amod	_	_
+8	Iparretarrak	Iparretarrak	np00000	np00000	matched=yes: nsubj child of root deprel	5	appos	_	_
+9	Philippe	Philippe	np0000l	np0000l	matched=yes: nsubj child of root deprel	11	coord	_	_
+10	Bidart	Bidart	np0000l	np0000l	matched=yes: nsubj child of root deprel	9	appos	_	_
+11	y	y	cc	cc	matched=yes: nsubj child of root deprel	2	dep	_	_
+12	Jean	jean	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	11	coord	_	_
+13	Gabriel	Gabriel	np0000l	np0000l	matched=yes: nsubj child of root deprel	12	appos	_	_
+14	Mouesca	Mouesca	np0000l	np0000l	matched=yes: nsubj child of root deprel	12	appos	_	_
+15	fueron	ser	vsis3p0	vsis3p0	matched=no	0	root	_	_
+16	también	también	rg	rg	matched=no	15	advmod	_	_
+17	ayer	ayer	rg	rg	matched=no	15	advmod	_	_
+18	condenados	condenar	vmp00pm	vmp00pm	matched=no	15	attr	_	_
+19	a	a	sps00	sps00	matched=no	15	oobj	_	_
+20	20	20	z	z	matched=no	21	coord	_	_
+21	y	y	cc	cc	matched=no	23	dep	_	_
+22	15	15	z	z	matched=no	21	coord	_	_
+23	años	año	ncmp000	ncmp000	matched=no	19	pobj	_	_
+24	de	de	sps00	sps00	matched=no	23	prepn	_	_
+25	prisión	prisión	ncfs000	ncfs000	matched=no	24	pobj	_	_
+26	.	.	fp	fp	matched=no	15	punct	_	_
+

@@ -1,0 +1,117 @@
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	dirección	dirección	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Televisión	televisión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	Catalunya	catalunya	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+8	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	9	modnomatch	_	_
+9	TV3	TV3	Z	Z	matched=no|pos=number	12	modnomatch	_	_
+10	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	9	modnomatch	_	_
+11	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	12	aux	_	_
+12	asegurado	asegurar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+13	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	12	adjt	_	_
+14	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	12	dobj	_	_
+15	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	16	aux	_	_
+16	puesto	poner	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	14	comp	_	_
+17	todos	todo	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	18	spec	_	_
+18	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	19	spec	_	_
+19	medios	medio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	16	dobj	_	_
+20	para	para	SP	SP	matched=no|pos=adposition|type=preposition	12	modnomatch	_	_
+21	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	12	modnomatch	_	_
+22	toda	todo	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	12	modnomatch	_	_
+23	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
+24	audiencia	audiencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	27	subj	_	_
+25	española	español	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	24	mod	_	_
+26	pueda	poder	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	27	prt	_	_
+27	seguir	seguir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	12	modnomatch	_	_
+28	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	30	spec	_	_
+29	Gran	gran	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	30	mod	_	_
+30	Premio	premio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	37	coor	_	_
+31	de	de	SP	SP	matched=no|pos=adposition|type=preposition	30	mod	_	_
+32	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	31	comp	_	_
+33	de	de	SP	SP	matched=no|pos=adposition|type=preposition	30	mod	_	_
+34	Fórmula	fórmula	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	33	comp	_	_
+35	Uno	uno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	37	coor	_	_
+36	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	37	punc	_	_
+37	así_como	así_como	CC	CC	matched=no|pos=conjunction|type=coordinating	27	dobj	_	_
+38	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	39	spec	_	_
+39	resto	resto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	37	coor	_	_
+40	de	de	SP	SP	matched=no|pos=adposition|type=preposition	39	mod	_	_
+41	carreras	carrera	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	40	comp	_	_
+42	de	de	SP	SP	matched=no|pos=adposition|type=preposition	39	mod	_	_
+43	esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	44	spec	_	_
+44	temporada	temporada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	42	comp	_	_
+45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	27	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	director	director	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	TV3	TV3	Z	Z	matched=yes: subj child of top deprel|pos=number	3	comp	_	_
+5	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+6	Lluís	lluís	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+7	Oliva	oliva	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	modnomatch	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+9	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	10	aux	_	_
+10	explicado	explicar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+11	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	10	adjt	_	_
+12	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	10	modnomatch	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	canal	canal	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	dobj	_	_
+15	catalán	catalán	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	mod	_	_
+16	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	10	punc	_	_
+17	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	10	modnomatch	_	_
+18	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	10	punc	_	_
+19	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	20	aux	_	_
+20	alargado	alargar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	10	modnomatch	_	_
+21	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
+22	mano	mano	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	dobj	_	_
+23	todo	todo	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	24	spec	_	_
+24	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	25	spec	_	_
+25	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	27	subj	_	_
+26	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	27	aux	_	_
+27	podido	poder	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	22	mod	_	_
+28	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	10	punc	_	_
+29	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	10	modnomatch	_	_
+30	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	10	punc	_	_
+31	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+32	con	con	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+33	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	34	spec	_	_
+34	objetivo	objetivo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	32	comp	_	_
+35	de	de	SP	SP	matched=no|pos=adposition|type=preposition	34	mod	_	_
+36	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	35	comp	_	_
+37	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	38	spec	_	_
+38	resto	resto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	44	subj	_	_
+39	de	de	SP	SP	matched=no|pos=adposition|type=preposition	38	mod	_	_
+40	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	41	spec	_	_
+41	estado	estado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	39	comp	_	_
+42	español	español	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	41	mod	_	_
+43	pueda	poder	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	44	prt	_	_
+44	ver	ver	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	36	comp	_	_
+45	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	47	spec	_	_
+46	primer	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	47	mod	_	_
+47	fin	fin	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	44	dobj	_	_
+48	de	de	SP	SP	matched=no|pos=adposition|type=preposition	47	mod	_	_
+49	semana	semana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	48	comp	_	_
+50	de	de	SP	SP	matched=no|pos=adposition|type=preposition	44	adjt	_	_
+51	mayo	[??:??/5/??:??.??:??]	W	W	matched=no|pos=date	50	comp	_	_
+52	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	54	spec	_	_
+53	quinta	5	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	54	mod	_	_
+54	prueba	prueba	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	44	modnomatch	_	_
+55	de	de	SP	SP	matched=no|pos=adposition|type=preposition	54	mod	_	_
+56	Fórmula	fórmula	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	55	comp	_	_
+57	Uno	uno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	44	modnomatch	_	_
+58	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	35	punc	_	_
+59	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	61	subj	_	_
+60	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	61	mphes	_	_
+61	celebrará	celebrar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	10	modnomatch	_	_
+62	en	en	SP	SP	matched=no|pos=adposition|type=preposition	61	adjt	_	_
+63	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	64	spec	_	_
+64	circuito	circuito	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	62	comp	_	_
+65	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	modnomatch	_	_
+66	Montmeló	montmeló	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	10	modnomatch	_	_
+67	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	66	punc	_	_
+68	en	en	SP	SP	matched=no|pos=adposition|type=preposition	66	adjt	_	_
+69	Barcelona	barcelona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	68	comp	_	_
+70	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	66	punc	_	_
+

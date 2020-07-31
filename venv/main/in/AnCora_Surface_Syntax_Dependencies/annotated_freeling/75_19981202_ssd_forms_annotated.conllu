@@ -1,0 +1,85 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Ayuntamiento	ayuntamiento	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	tendrá	tener	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
+4	nuevas	nuevo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	5	mod	_	_
+5	competencias	competencia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	dobj	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+7	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	8	spec	_	_
+8	terrenos	terreno	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	mod	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	enseñanza	enseñanza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	22	punc	_	_
+13	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	14	spec	_	_
+14	servicios	servicio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	22	coor	_	_
+15	sociales	social	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	14	mod	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	22	punc	_	_
+17	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
+18	vivienda	vivienda	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	coor	_	_
+19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	22	punc	_	_
+20	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
+21	sanidad	sanidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	coor	_	_
+22	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+23	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
+24	cultura	cultura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	coor	_	_
+25	gracias_a	gracias_a	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+26	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	27	spec	_	_
+27	creación	creación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	25	comp	_	_
+28	de	de	SP	SP	matched=no|pos=adposition|type=preposition	27	mod	_	_
+29	consorcios	consorcio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	28	comp	_	_
+30	en	en	SP	SP	matched=no|pos=adposition|type=preposition	34	pobj	_	_
+31	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	32	spec	_	_
+32	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	30	comp	_	_
+33	también	también	RG	RG	matched=no|pos=adverb|type=general	34	adjt	_	_
+34	participará	participar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	29	mod	_	_
+35	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	modnomatch	_	_
+36	Generalitat	generalitat	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+37	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	38	subj	_	_
+38	gestionarán	gestionar	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	36	mod	_	_
+39	estas	este	DD0FP0	DD	gen=feminine|matched=no|num=plural|pos=determiner|type=demonstrative	40	spec	_	_
+40	áreas	área	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	38	modnomatch	_	_
+41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	36	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
+2	puesta	puesta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
+3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+4	marcha	marcha	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+6	estas	este	DD0FP0	DD	gen=feminine|matched=no|num=plural|pos=determiner|type=demonstrative	8	spec	_	_
+7	nuevas	nuevo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	8	mod	_	_
+8	entidades	entidad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
+9	no	no	RN	RN	matched=no|pos=adverb|type=negative	10	spec	_	_
+10	será	ser	VSIF3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=semiauxiliary	13	coor	_	_
+11	inmediata	inmediato	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	10	attr	_	_
+12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+13	sino_que	sino_que	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+14	estará	estar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	13	coor	_	_
+15	sometida	someter	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	14	attr	_	_
+16	a	a	SP	SP	matched=no|pos=adposition|type=preposition	15	pobj	_	_
+17	nuevas	nuevo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	18	mod	_	_
+18	negociaciones	negociación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	16	comp	_	_
+19	con	con	SP	SP	matched=no|pos=adposition|type=preposition	13	modnomatch	_	_
+20	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	13	modnomatch	_	_
+21	Generalitat	generalitat	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	21	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Carta	carta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	también	también	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
+4	abre	abrir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	posibilidad	posibilidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
+8	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	7	comp	_	_
+9	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	10	mphes	_	_
+10	asuman	asumir	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	8	comp	_	_
+11	todas	todo	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	12	spec	_	_
+12	aquellas	aquel	DD0FP0	DD	gen=feminine|matched=no|num=plural|pos=determiner|type=demonstrative	13	spec	_	_
+13	competencias	competencia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	dobj	_	_
+14	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	16	subj	_	_
+15	no	no	RN	RN	matched=no|pos=adverb|type=negative	16	spec	_	_
+16	detenten	detentar	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	13	mod	_	_
+17	administraciones	administración	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	16	dobj	_	_
+18	superiores	superior	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	17	mod	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+

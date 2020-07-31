@@ -1,0 +1,26 @@
+1	Hace	hacer	vmip3s0	vmip3s0	matched=no	9	dobj	_	_
+2	unos	uno	di0mp0	di0mp0	matched=no	1	det	_	_
+3	25	25	z	z	matched=no	1	dobj	_	_
+4	años	año	ncmp000	ncmp000	matched=no	1	dobj	_	_
+5	,	,	fc	fc	matched=no	9	punct	_	_
+6	John	John	np0000o	np0000o	matched=yes: nsubj child of root deprel	9	nsubj	_	_
+7	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	6	prepn	_	_
+8	Mol	Mol	np0000l	np0000l	matched=yes: nsubj child of root deprel	7	pobj	_	_
+9	empezó	empezar	vmis3s0	vmis3s0	matched=no	0	root	_	_
+10	en	en	sps00	sps00	matched=no	9	prepv	_	_
+11	el	el	da0ms0	da0ms0	matched=no	12	det	_	_
+12	mundo	mundo	ncms000	ncms000	matched=no	10	pobj	_	_
+13	de	de	sps00	sps00	matched=no	12	prepn	_	_
+14	la	el	da0fs0	da0fs0	matched=no	15	det	_	_
+15	televisión	televisión	ncfs000	ncfs000	matched=no	13	pobj	_	_
+16	holandesa	holandés	aq0fs0	aq0fs0	matched=no	15	amod	_	_
+17	como	como	cs	cs	matched=no	9	dep	_	_
+18	ayudante	ayudante	nccs000	nccs000	matched=no	17	cobj	_	_
+19	de	de	sps00	sps00	matched=no	18	prepn	_	_
+20	producción	producción	ncfs000	ncfs000	matched=no	19	pobj	_	_
+21	de	de	sps00	sps00	matched=no	18	prepn	_	_
+22	un	uno	di0ms0	di0ms0	matched=no	23	det	_	_
+23	programa	programa	ncms000	ncms000	matched=no	21	pobj	_	_
+24	deportivo	deportivo	aq0ms0	aq0ms0	matched=no	23	amod	_	_
+25	.	.	fp	fp	matched=no	9	punct	_	_
+

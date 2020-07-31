@@ -1,0 +1,76 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	paro	paro	ncms000	ncms000	_	5	nsubj
+3	en	en	sps00	sps00	_	2	prepn
+4	Francia	Francia	np00000	np00000	_	3	pobj
+5	cayó	caer	vmis3s0	vmis3s0	_	0	root
+6	en	en	sps00	sps00	_	5	prepv
+7	abril	abril	ncms000	ncms000	_	6	pobj
+8	por	por	sps00	sps00	_	5	prepv
+9	debajo	debajo	rg	rg	_	8	advmod
+10	del	del	spcms	spcms	_	9	prep
+11	10%	10/100	zp	zp	_	10	pobj
+12	por	por	sps00	sps00	_	5	prepv
+13	primera	primero	ao0fs0	ao0fs0	_	14	amod
+14	vez	vez	ncfs000	ncfs000	_	12	pobj
+15	en	en	sps00	sps00	_	14	prepn
+16	10	10	z	z	_	17	num
+17	años	año	ncmp000	ncmp000	_	15	pobj
+18	.	.	fp	fp	_	5	punct
+
+1	La	el	da0fs0	da0fs0	_	2	det
+2	tasa	tasa	ncfs000	ncfs000	_	6	nsubj
+3	de	de	sps00	sps00	_	2	prepn
+4	desempleo	desempleo	ncms000	ncms000	_	3	pobj
+5	se	él	p0300000	p0300000	_	6	reflec
+6	situó	situar	vmis3s0	vmis3s0	_	0	root
+7	en	en	sps00	sps00	_	6	oobj
+8	el	el	da0ms0	da0ms0	_	9	det
+9	9,8%	9.8	z	z	_	7	pobj
+10	.	.	fp	fp	_	6	punct
+
+1	En	en	sps00	sps00	_	10	prepv
+2	abril	abril	ncms000	ncms000	_	1	pobj
+3	,	,	fc	fc	_	10	punct
+4	el	el	da0ms0	da0ms0	_	5	det
+5	número	número	ncms000	ncms000	_	10	nsubj
+6	de	de	sps00	sps00	_	5	prepn
+7	demandantes	demandante	nccp000	nccp000	_	6	pobj
+8	de	de	sps00	sps00	_	7	prepn
+9	empleo	empleo	ncms000	ncms000	_	8	pobj
+10	disminuyó	disminuir	vmis3s0	vmis3s0	_	0	root
+11	un	uno	di0ms0	di0ms0	_	12	det
+12	3,1%	3.1	z	z	_	10	dobj
+13	en	en	sps00	sps00	_	10	prepv
+14	relación	relación	ncfs000	ncfs000	_	13	pobj
+15	con	con	sps00	sps00	_	14	prepn
+16	marzo	marzo	ncms000	ncms000	_	15	pobj
+17	,	,	fc	fc	_	10	punct
+18	hasta	hasta	sps00	sps00	_	10	prepv
+19	situarse	situar	vmn0000	vmn0000	_	18	pobj
+20	en	en	sps00	sps00	_	19	oobj
+21	un	uno	di0ms0	di0ms0	_	22	det
+22	total	total	ncms000	ncms000	_	20	pobj
+23	de	de	sps00	sps00	_	22	prepn
+24	2.371.300	2371300	z	z	_	25	num
+25	parados	parado	ncmp000	ncmp000	_	23	pobj
+26	.	.	fp	fp	_	10	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	Gobierno	Gobierno	np00000	np00000	_	3	nsubj
+3	explicó	explicar	vmis3s0	vmis3s0	_	0	root
+4	esta	este	dd0fs0	dd0fs0	_	5	det
+5	caída	caída	ncfs000	ncfs000	_	3	dobj
+6	por	por	sps00	sps00	_	3	prepv
+7	el	el	da0ms0	da0ms0	_	9	det
+8	favorable	favorable	aq0cs0	aq0cs0	_	9	amod
+9	contexto	contexto	ncms000	ncms000	_	6	pobj
+10	de	de	sps00	sps00	_	9	prepn
+11	la	el	da0fs0	da0fs0	_	12	det
+12	economía	economía	ncfs000	ncfs000	_	10	pobj
+13	.	.	fp	fp	_	3	punct

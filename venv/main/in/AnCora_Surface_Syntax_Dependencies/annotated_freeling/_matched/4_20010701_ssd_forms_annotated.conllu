@@ -1,0 +1,22 @@
+1	Endemol	endemol	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	6	subj	_	_
+4	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	adjt	_	_
+5	1999	1999	Z	Z	matched=yes: subj child of top deprel|pos=number	4	comp	_	_
+6	facturó	facturar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	mod	_	_
+7	casi	casi	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	8	spec	_	_
+8	73.000_millones_de_pesetas	$_ESP:73000000000	Zm	Zm	matched=yes: subj child of top deprel|pos=number|type=currency	6	dobj	_	_
+9	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+10	despertó	despertar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	interés	interés	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	dobj	_	_
+13	mundial	mundial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	12	mod	_	_
+14	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	10	modnomatch	_	_
+15	Telefónica	telefónico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	14	coor	_	_
+16	decidió	decidir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	10	modnomatch	_	_
+17	comprarla	comprarla	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	dobj	_	_
+18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	16	pobj	_	_
+19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	2000	2000	Z	Z	matched=no|pos=number	18	comp	_	_
+21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
+

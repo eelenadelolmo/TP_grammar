@@ -1,0 +1,30 @@
+1	Ella	él	pp3fs000	pp3fs000	matched=yes: nsubj child of root deprel	3	nsubj	_	_
+2	se	él	p0300000	p0300000	matched=no	3	reflec	_	_
+3	iba	ir	vmii3s0	vmii3s0	matched=no	0	root	_	_
+4	con	con	sps00	sps00	matched=no	3	prepv	_	_
+5	genios	genio	ncmp000	ncmp000	matched=no	4	pobj	_	_
+6	.	.	fp	fp	matched=no	3	punct	_	_
+
+1	Y	y	cc	cc	matched=no	13	te	_	_
+2	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	3	det	_	_
+3	duquesa	duquesa	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	13	nsubj	_	_
+4	,	,	fc	fc	matched=yes: nsubj child of root deprel	3	punct	_	_
+5	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	9	nsubj	_	_
+6	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	9	prepv	_	_
+7	tonta	tonta	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	6	pobj	_	_
+8	sólo	sólo	rg	rg	matched=yes: nsubj child of root deprel	9	advmod	_	_
+9	tiene	tener	vmip3s0	vmip3s0	matched=yes: nsubj child of root deprel	3	rcmod	_	_
+10	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	11	det	_	_
+11	voz	voz	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	9	dobj	_	_
+12	,	,	fc	fc	matched=yes: nsubj child of root deprel	3	punct	_	_
+13	contestó	contestar	vmis3s0	vmis3s0	matched=no	0	root	_	_
+14	:	:	fd	fd	matched=no	16	punct	_	_
+15	-	-	fg	fg	matched=no	16	punct	_	_
+16	Es	ser	vsip3s0	vsip3s0	matched=no	13	dobj	_	_
+17	que	que	cs	cs	matched=no	16	attr	_	_
+18	ahora	ahora	rg	rg	matched=no	20	advmod	_	_
+19	no	no	rn	rn	matched=no	20	neg	_	_
+20	hay	haber	vaip3s0	vaip3s0	matched=no	17	cobj	_	_
+21	genios	genio	ncmp000	ncmp000	matched=no	20	dobj	_	_
+22	.	.	fp	fp	matched=no	13	punct	_	_
+

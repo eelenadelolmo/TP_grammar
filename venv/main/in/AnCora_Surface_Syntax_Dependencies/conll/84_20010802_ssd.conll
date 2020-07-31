@@ -1,0 +1,46 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	Los	el	da0mp0	da0mp0	_	2	det
+2	ciclistas	ciclista	nccp000	nccp000	_	3	nsubj
+3	finalizaron	finalizar	vmis3p0	vmis3p0	_	0	root
+4	ayer	ayer	rg	rg	_	3	advmod
+5	en	en	sps00	sps00	_	3	prepv
+6	Barcelona	Barcelona	np00000	np00000	_	5	pobj
+7	su	su	dp3cs0	dp3cs0	_	8	poss
+8	tour	tour	ncms000	ncms000	_	3	dobj
+9	particular	particular	aq0cs0	aq0cs0	_	8	amod
+10	a	a	sps00	sps00	_	8	prepn
+11	favor	favor	ncfs000	ncfs000	_	10	pobj
+12	del	del	sps00	sps00	_	11	prepn
+13	entendimiento	entendimiento	ncms000	ncms000	_	14	coord
+14	y	y	cc	cc	_	12	pobj
+15	la	el	da0fs0	da0fs0	_	17	det
+16	buena	buen	aq0fs0	aq0fs0	_	17	amod
+17	convivencia	convivencia	ncfs000	ncfs000	_	14	coord
+18	en	en	sps00	sps00	_	14	coord
+19	Europa	Europa	np00000	np00000	_	18	pobj
+20	,	,	fc	fc	_	8	punct
+21	que	que	pr0cn000	pr0cn000	_	22	nsubj
+22	dio	dar	vmp00sm	vmp00sm	_	32	rcmod
+23	comienzo	comienzo	ncfp000	ncfp000	_	22	dobj
+24	el	el	da0ms0	da0ms0	_	26	det
+25	pasado	pasado	aq0msp	aq0msp	_	26	amod
+26	día	día	ncfp000	ncfp000	_	22	dobj
+27	13	13	z	z	_	26	num
+28	de	de	sps00	sps00	_	27	prep
+29	julio	julio	ncfp000	ncfp000	_	28	pobj
+30	en	en	sps00	sps00	_	22	prepv
+31	Berlín	Berlín	np00000	np00000	_	30	pobj
+32	y	y	cc	cc	_	8	dep
+33	que	que	pr0cn000	pr0cn000	_	35	nsubj
+34	les	él	pp3cpd00	pp3cpd00	_	36	dobj
+35	ha	haber	vaip3s0	vaip3s0	_	32	rcmod
+36	llevado	llevar	vmp00sm	vmp00sm	_	35	vobj
+37	también	también	rg	rg	_	36	advmod
+38	a	a	sps00	sps00	_	36	prepv
+39	París	París	np00000	np00000	_	38	pobj
+40	.	.	fp	fp	_	3	punct

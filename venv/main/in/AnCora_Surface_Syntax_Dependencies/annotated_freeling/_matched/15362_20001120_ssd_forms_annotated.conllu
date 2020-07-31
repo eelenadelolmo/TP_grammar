@@ -1,0 +1,140 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	canal	canal	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	televisivo	televisivo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	brasileño	brasileño	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+5	Globo	globo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
+6	producirá	producir	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
+7	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	8	spec	_	_
+8	telenovela	telenovela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	dobj	_	_
+9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	17	coor	_	_
+10	español	español	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+11	para	para	SP	SP	matched=no|pos=adposition|type=preposition	17	coor	_	_
+12	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	13	spec	_	_
+13	mercados	mercado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	11	comp	_	_
+14	hispanos	hispano	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	13	mod	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	coor	_	_
+16	EEUU	eeuu	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+17	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	6	modnomatch	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	coor	_	_
+19	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	20	spec	_	_
+20	países	país	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	18	comp	_	_
+21	latinoamericanos	latinoamericano	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	20	mod	_	_
+22	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+23	informó	informar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	6	modnomatch	_	_
+24	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	23	adjt	_	_
+25	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	26	spec	_	_
+26	prensa	prensa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	23	dobj	_	_
+27	local	local	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	26	mod	_	_
+28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	23	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	producción	producción	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	será	ser	VSIF3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=semiauxiliary	0	top	_	_
+4	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	6	spec	_	_
+5	nueva	nuevo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+6	versión	versión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	attr	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
+8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
+9	telenovela	telenovela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+10	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	3	punc	_	_
+11	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+12	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	3	punc	_	_
+13	Vale	valer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	3	modnomatch	_	_
+14	Todo	todo	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	3	modnomatch	_	_
+15	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	3	punc	_	_
+16	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+17	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	3	punc	_	_
+18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+19	de	de	SP	SP	matched=no|pos=adposition|type=preposition	26	coor	_	_
+20	gran	gran	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	21	mod	_	_
+21	éxito	éxito	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
+22	en	en	SP	SP	matched=no|pos=adposition|type=preposition	26	coor	_	_
+23	1988	1988	Z	Z	matched=no|pos=number	22	comp	_	_
+24	en	en	SP	SP	matched=no|pos=adposition|type=preposition	26	coor	_	_
+25	Brasil	brasil	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+26	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	adjt	_	_
+27	en	en	SP	SP	matched=no|pos=adposition|type=preposition	26	coor	_	_
+28	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	30	spec	_	_
+29	diferentes	diferente	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	30	mod	_	_
+30	países	país	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	27	comp	_	_
+31	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
+32	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	33	spec	_	_
+33	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	3	modnomatch	_	_
+34	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	35	aux	_	_
+35	emitida	emitir	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	modnomatch	_	_
+36	con	con	SP	SP	matched=no|pos=adposition|type=preposition	35	adjt	_	_
+37	traducciones	traducción	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	36	comp	_	_
+38	a	a	SP	SP	matched=no|pos=adposition|type=preposition	35	adjt	_	_
+39	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	40	spec	_	_
+40	español	español	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	38	comp	_	_
+41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	35	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	red	red	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	hispánica	hispánico	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	Telemundo	tele_mundo	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	modnomatch	_	_
+5	exhibirá	exhibir	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+7	EEUU	eeuu	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	10	spec	_	_
+9	150	150	Z	Z	matched=no|pos=number	10	spec	_	_
+10	capítulos	capítulo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	dobj	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
+12	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+13	nueva	nuevo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	14	mod	_	_
+14	producción	producción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	director	director	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	central	central	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	producciones	producción	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	comp	_	_
+8	internacionales	internacional	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	7	mod	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+10	TV	t_v	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	comp	_	_
+11	Globo	globo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	mod	_	_
+12	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+13	José	josé	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+14	Valone	valone	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	13	modnomatch	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	14	punc	_	_
+16	manifestó	manifestar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	13	modnomatch	_	_
+17	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	13	modnomatch	_	_
+18	si	si	CS	CS	matched=no|pos=conjunction|type=subordinating	13	modnomatch	_	_
+19	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	13	punc	_	_
+20	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	13	dobj	_	_
+21	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	13	punc	_	_
+22	Vale	valer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	13	modnomatch	_	_
+23	Todo	todo	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	13	modnomatch	_	_
+24	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	13	punc	_	_
+25	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+26	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	13	punc	_	_
+27	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	13	modnomatch	_	_
+28	éxito	éxito	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	27	dobj	_	_
+29	en	en	SP	SP	matched=no|pos=adposition|type=preposition	27	adjt	_	_
+30	EEUU	eeuu	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	29	comp	_	_
+31	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	43	punc	_	_
+32	primer	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	33	mod	_	_
+33	país	país	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	43	coor	_	_
+34	en	en	SP	SP	matched=no|pos=adposition|type=preposition	38	subj	_	_
+35	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	36	spec	_	_
+36	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	34	modnomatch	_	_
+37	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	38	mphes	_	_
+38	estrenará	estrenar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	33	mod	_	_
+39	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	43	punc	_	_
+40	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	41	spec	_	_
+41	canal	canal	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	43	coor	_	_
+42	brasileño	brasileño	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	41	mod	_	_
+43	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	27	modnomatch	_	_
+44	Telemundo	tele_mundo	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	43	coor	_	_
+45	acordarán	acordar	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	13	modnomatch	_	_
+46	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	47	spec	_	_
+47	producción	producción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	45	dobj	_	_
+48	de	de	SP	SP	matched=no|pos=adposition|type=preposition	47	mod	_	_
+49	otras	otro	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	51	spec	_	_
+50	tres	3	Z	Z	matched=no|pos=number	51	spec	_	_
+51	telenovelas	telenovela	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	48	comp	_	_
+52	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	45	punc	_	_
+

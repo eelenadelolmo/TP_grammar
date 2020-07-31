@@ -1,0 +1,97 @@
+1	Calafell	calafell	I	I	matched=no|pos=interjection	3	adjt	_	_
+2	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	3	mphes	_	_
+3	queja	quejar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
+5	Fecsa	fecsa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+6	por	por	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
+7	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	8	spec	_	_
+8	cortes	corte	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	mod	_	_
+10	luz	luz	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	asociación	asociación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	empresarios	empresario	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+5	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	mod	_	_
+6	profesionales	profesional	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	5	coor	_	_
+7	Fòrum	fòrum	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
+8	Calafell	calafell	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	mod	_	_
+9	anunció	anunciar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+10	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	9	adjt	_	_
+11	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	9	dobj	_	_
+12	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	13	aux	_	_
+13	enviado	enviar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	11	comp	_	_
+14	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	15	spec	_	_
+15	carta	carta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	dobj	_	_
+16	a	a	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+17	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
+18	compañía	compañía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+19	eléctrica	eléctrico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	18	mod	_	_
+20	Fecsa-Enher	fecsa-enher	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+21	para	para	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+22	protestar	protestar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	21	comp	_	_
+23	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	9	punc	_	_
+24	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
+25	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	9	punc	_	_
+26	por	por	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+27	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	29	spec	_	_
+28	reiterados	reiterar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	29	mod	_	_
+29	cortes	corte	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	26	comp	_	_
+30	de	de	SP	SP	matched=no|pos=adposition|type=preposition	29	mod	_	_
+31	fluido	fluido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	30	comp	_	_
+32	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	35	subj	_	_
+33	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	35	mphes	_	_
+34	están	estar	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	35	prt	_	_
+35	produciendo	producir	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	31	mod	_	_
+36	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	37	spec	_	_
+37	verano	verano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	35	dobj	_	_
+38	en	en	SP	SP	matched=no|pos=adposition|type=preposition	35	adjt	_	_
+39	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	40	spec	_	_
+40	localidad	localidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	38	comp	_	_
+41	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	9	punc	_	_
+42	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
+43	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	9	punc	_	_
+44	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
+2	entidad	entidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+3	argumenta	argumentar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	15	coor	_	_
+4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	dobj	_	_
+5	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	7	spec	_	_
+6	frecuentes	frecuente	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	7	mod	_	_
+7	interrupciones	interrupción	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	11	subj	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	suministro	suministro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+11	provocan	provocar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	4	comp	_	_
+12	importantes	importante	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	13	mod	_	_
+13	pérdidas	pérdida	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	11	dobj	_	_
+14	económicas	económico	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	13	mod	_	_
+15	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+16	dan	dar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	15	coor	_	_
+17	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	19	spec	_	_
+18	mala	malo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	19	mod	_	_
+19	imagen	imagen	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	dobj	_	_
+20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	19	mod	_	_
+21	esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	22	spec	_	_
+22	zona	zona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+23	turística	turístico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	22	mod	_	_
+24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
+25	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	26	subj	_	_
+26	registra	registrar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	15	modnomatch	_	_
+27	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	29	spec	_	_
+28	importante	importante	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	29	mod	_	_
+29	aumento	aumento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	32	coor	_	_
+30	de	de	SP	SP	matched=no|pos=adposition|type=preposition	29	mod	_	_
+31	población	población	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	30	comp	_	_
+32	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	15	modnomatch	_	_
+33	actividad	actividad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	32	coor	_	_
+34	durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	15	modnomatch	_	_
+35	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	36	spec	_	_
+36	meses	mes	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	34	comp	_	_
+37	de	de	SP	SP	matched=no|pos=adposition|type=preposition	15	modnomatch	_	_
+38	verano	verano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	37	comp	_	_
+39	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	37	punc	_	_
+

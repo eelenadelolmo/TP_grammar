@@ -1,0 +1,66 @@
+1	Inesperadamente	inesperadamente	RG	RG	matched=no|pos=adverb|type=general	10	adjt	_	_
+2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+3	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	4	spec	_	_
+4	límites	límite	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	subj	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	mod	_	_
+6	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	7	spec	_	_
+7	vida	vida	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+8	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	10	mphes	_	_
+9	habían	haber	VAII3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=auxiliary	10	aux	_	_
+10	reducido	reducir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+11	a	a	SP	SP	matched=no|pos=adposition|type=preposition	10	pobj	_	_
+12	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+13	mínima	mínimo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	14	mod	_	_
+14	expresión	expresión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+
+1	Allí	allí	RG	RG	matched=no|pos=adverb|type=general	35	spec	_	_
+2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+3	rodeado	rodear	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	1	modnomatch	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
+5	páginas	página	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
+6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
+7	programación	programación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+9	provisto	proveer	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	1	modnomatch	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+11	alimentos	alimento	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
+12	suficientes	suficiente	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	11	mod	_	_
+13	para	para	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+14	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	16	spec	_	_
+15	larga	largo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+16	travesía	travesía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+18	armado	armar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	1	modnomatch	_	_
+19	con	con	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+20	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
+21	mando	mando	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
+22	a	a	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+23	distancia	distancia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
+24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+25	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	26	spec	_	_
+26	televisor	televisor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+27	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	18	punc	_	_
+28	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	29	spec	_	_
+29	mando	mando	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
+30	a	a	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
+31	distancia	distancia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	30	comp	_	_
+32	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
+33	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	34	spec	_	_
+34	vídeo	vídeo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	32	comp	_	_
+35	VHS	vhs	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	44	modnomatch	_	_
+36	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	35	modnomatch	_	_
+37	mando	mando	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	36	coor	_	_
+38	a	a	SP	SP	matched=no|pos=adposition|type=preposition	35	mod	_	_
+39	distancia	distancia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	38	comp	_	_
+40	de	de	SP	SP	matched=no|pos=adposition|type=preposition	35	modnomatch	_	_
+41	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	35	spec	_	_
+42	Beta	beta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	44	subj	_	_
+43	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	42	punc	_	_
+44	decidió	decidir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+45	construir	construir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	44	dobj	_	_
+46	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	48	spec	_	_
+47	particular	particular	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	48	mod	_	_
+48	trinchera	trinchera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	45	dobj	_	_
+49	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	44	punc	_	_
+

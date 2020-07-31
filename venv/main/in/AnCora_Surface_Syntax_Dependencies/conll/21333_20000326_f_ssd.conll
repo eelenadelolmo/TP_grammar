@@ -1,0 +1,88 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	EL	el	da0ms0	da0ms0	_	2	det
+2	BETIS	Betis	np00000	np00000	_	4	nsubj
+3	SE	se	p0000000	p0000000	_	4	reflec
+4	OLVIDA	olvidar	vmip3s0	vmip3s0	_	0	root
+5	DE	de	sps00	sps00	_	4	oobj
+6	GANAR	ganar	vmn0000	vmn0000	_	5	pobj
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	Betis	Betis	np00000	np00000	_	7	nsubj
+3	de	de	sps00	sps00	_	2	prepn
+4	Guus	Guus	np0000l	np0000l	_	3	pobj
+5	Hiddink	Hiddink	np0000l	np0000l	_	4	appos
+6	no	no	rn	rn	_	7	neg
+7	pudo	poder	vmis3s0	vmis3s0	_	19	coord
+8	pasar	pasar	vmn0000	vmn0000	_	7	dobj
+9	del	del	spcms	spcms	_	8	prepv
+10	empate	empate	ncms000	ncms000	_	9	pobj
+11	en	en	sps00	sps00	_	10	prepn
+12	casa	casa	ncfs000	ncfs000	_	11	pobj
+13	ante	ante	sps00	sps00	_	10	prepn
+14	el	el	da0ms0	da0ms0	_	15	det
+15	Celta	Celta	np00000	np00000	_	13	pobj
+16	(	(	fpa	fpa	_	17	punct
+17	0-0	0-0	z	z	_	10	prepn
+18	)	)	fpt	fpt	_	17	punct
+19	y	y	cc	cc	_	0	root
+20	aumentó	aumentar	vmis3s0	vmis3s0	_	19	coord
+21	a	a	sps00	sps00	_	20	prepv
+22	seis	seis	pn0cp000	pn0cp000	_	21	pobj
+23	el	el	da0ms0	da0ms0	_	24	det
+24	número	número	ncms000	ncms000	_	20	dobj
+25	de	de	sps00	sps00	_	24	prepn
+26	jornadas	jornada	ncfp000	ncfp000	_	25	pobj
+27	consecutivas	consecutivo	aq0fp0	aq0fp0	_	26	amod
+28	que	que	pr0cn000	pr0cn000	_	29	dobj
+29	lleva	llevar	vmip3s0	vmip3s0	_	26	rcmod
+30	sin	sin	sps00	sps00	_	29	prepv
+31	ganar	ganar	vmn0000	vmn0000	_	30	pobj
+32	.	.	fp	fp	_	19	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	equipo	equipo	ncms000	ncms000	_	5	nsubj
+3	verdiblanco	verdiblanco	aq0ms0	aq0ms0	_	2	amod
+4	sólo	sólo	rg	rg	_	6	advmod
+5	ha	haber	vaip3s0	vaip3s0	_	0	root
+6	conseguido	conseguir	vmp00sm	vmp00sm	_	5	vobj
+7	un	uno	di0ms0	di0ms0	_	8	det
+8	triunfo	triunfo	ncms000	ncms000	_	6	dobj
+9	con	con	sps00	sps00	_	6	prepv
+10	Hiddink	Hiddink	np00000	np00000	_	9	pobj
+11	en	en	sps00	sps00	_	10	prepn
+12	el	el	da0ms0	da0ms0	_	13	det
+13	banquillo	banquillo	ncms000	ncms000	_	11	pobj
+14	,	,	fc	fc	_	5	punct
+15	sobre	sobre	sps00	sps00	_	6	prepv
+16	el	el	da0ms0	da0ms0	_	17	det
+17	FC	fc	y	y	_	15	pobj
+18	Barcelona	Barcelona	np00000	np00000	_	17	dep
+19	(	(	fpa	fpa	_	20	punct
+20	2-1	2-1	z	z	_	6	num
+21	)	)	fpt	fpt	_	20	punct
+22	en	en	sps00	sps00	_	6	prepv
+23	la	el	da0fs0	da0fs0	_	26	det
+24	vigésima	vigésimo	z	z	_	25	num
+25	cuarta	cuarto	zm	zm	_	26	amod
+26	jornada	jornada	ncfs000	ncfs000	_	22	pobj
+27	de	de	sps00	sps00	_	26	prepn
+28	Liga	Liga	np00000	np00000	_	27	pobj
+29	.	.	fp	fp	_	5	punct
+
+1	Desde	desde	sps00	sps00	_	6	prepv
+2	entonces	entonces	rg	rg	_	1	advmod
+3	,	,	fc	fc	_	5	punct
+4	sólo	sólo	rg	rg	_	6	advmod
+5	ha	haber	vaip3s0	vaip3s0	_	0	root
+6	sumado	sumar	vmp00sm	vmp00sm	_	5	vobj
+7	cinco	cinco	dn0cp0	dn0cp0	_	8	det
+8	puntos	punto	ncmp000	ncmp000	_	6	dobj
+9	de	de	sps00	sps00	_	8	prepn
+10	18	18	z	z	_	11	num
+11	posibles	posible	aq0cp0	aq0cp0	_	9	pobj
+12	.	.	fp	fp	_	5	punct

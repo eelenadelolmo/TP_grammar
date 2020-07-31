@@ -1,0 +1,130 @@
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	eliminación	eliminación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	candidatura	candidatura	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	española	español	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	7	attr	_	_
+10	opinión	opinión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+13	Consejero	consejero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+15	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	7	punc	_	_
+16	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	7	modnomatch	_	_
+17	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	7	punc	_	_
+18	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	19	spec	_	_
+19	decisión	decisión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	modnomatch	_	_
+20	previsible	previsible	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	19	mod	_	_
+21	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	7	punc	_	_
+22	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	7	modnomatch	_	_
+23	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	7	punc	_	_
+24	después	después	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
+25	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	7	punc	_	_
+26	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	7	modnomatch	_	_
+27	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	7	punc	_	_
+28	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+29	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	30	spec	_	_
+30	manifestaciones	manifestación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	28	comp	_	_
+31	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	modnomatch	_	_
+32	Juan	juan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	7	modnomatch	_	_
+33	Antonio	antonio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	32	dobj	_	_
+34	Samaranch	samaranch	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	33	mod	_	_
+35	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	36	subj	_	_
+36	calificaba	calificar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	33	mod	_	_
+37	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	38	spec	_	_
+38	candidatura	candidatura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	36	dobj	_	_
+39	técnicamente	técnica_mente	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	38	mod	_	_
+40	muy	muy	RG	RG	matched=no|pos=adverb|type=general	41	spec	_	_
+41	buena	bueno	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	38	mod	_	_
+42	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	32	punc	_	_
+43	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	32	adjt	_	_
+44	con	con	SP	SP	matched=no|pos=adposition|type=preposition	43	coor	_	_
+45	muchas	mucho	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	46	spec	_	_
+46	dificultades	dificultad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	44	comp	_	_
+47	para	para	SP	SP	matched=no|pos=adposition|type=preposition	32	adjt	_	_
+48	pasar	pasar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	47	comp	_	_
+49	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	50	spec	_	_
+50	corte	corte	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	48	dobj	_	_
+51	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	7	punc	_	_
+52	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	7	modnomatch	_	_
+53	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	7	punc	_	_
+54	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	eliminación	eliminación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	45	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	candidatura	candidatura	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	española	español	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+8	según	según	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+9	Hurtado	hurtar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	8	comp	_	_
+10	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	8	punc	_	_
+11	&	&	Fz	Fz	matched=yes: subj child of top deprel|pos=punctuation|type=other	2	punc	_	_
+12	quot	quot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+13	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	2	punc	_	_
+14	nos	nos	PP1CP00	PP	gen=common|matched=yes: subj child of top deprel|num=plural|person=1|pos=pronoun|type=personal	15	mphes	_	_
+15	debe	deber	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	28	coor	_	_
+16	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	15	adjt	_	_
+17	servir	servir	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	16	comp	_	_
+18	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	17	pobj	_	_
+19	acicate	acicate	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	comp	_	_
+20	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	15	punc	_	_
+21	porque	porque	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	15	adjt	_	_
+22	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	23	spec	_	_
+23	Juegos	juego	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	25	subj	_	_
+24	Olímpicos	olímpico	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	23	mod	_	_
+25	son	ser	VSIP3P0	VSI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	21	comp	_	_
+26	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	27	spec	_	_
+27	deporte	deporte	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	25	attr	_	_
+28	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+29	tenemos	tener	VMIP1P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	31	prt	_	_
+30	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	31	prt	_	_
+31	ser	ser	VSN0000	VSN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=semiauxiliary	28	coor	_	_
+32	deportistas	deportista	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	31	attr	_	_
+33	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	31	adjt	_	_
+34	pleno	pleno	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	33	comp	_	_
+35	sentido	sentido	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	34	mod	_	_
+36	&	&	Fz	Fz	matched=yes: subj child of top deprel|pos=punctuation|type=other	2	punc	_	_
+37	quot	quot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+38	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	2	punc	_	_
+39	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+40	lo	el	DA00S0	DA	matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	41	spec	_	_
+41	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	39	comp	_	_
+42	&	&	Fz	Fz	matched=yes: subj child of top deprel|pos=punctuation|type=other	2	punc	_	_
+43	quot	quot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+44	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	2	punc	_	_
+45	debemos	deber	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+46	de	de	SP	SP	matched=no|pos=adposition|type=preposition	45	modnomatch	_	_
+47	plantearnos	plantearnos	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	45	modnomatch	_	_
+48	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	49	spec	_	_
+49	reto	reto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	47	dobj	_	_
+50	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	47	adjt	_	_
+51	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	52	spec	_	_
+52	carrera	carrera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	50	comp	_	_
+53	de	de	SP	SP	matched=no|pos=adposition|type=preposition	52	mod	_	_
+54	fondo	fondo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	53	comp	_	_
+55	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	47	punc	_	_
+56	en	en	SP	SP	matched=no|pos=adposition|type=preposition	45	modnomatch	_	_
+57	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	58	spec	_	_
+58	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	45	modnomatch	_	_
+59	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	60	spec	_	_
+60	constancia	constancia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	64	coor	_	_
+61	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	64	punc	_	_
+62	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	63	spec	_	_
+63	perseverancia	perseverancia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	64	coor	_	_
+64	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	45	dobj	_	_
+65	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	67	spec	_	_
+66	buen	bueno	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	67	mod	_	_
+67	fondo	fondo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	64	coor	_	_
+68	físico	físico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	67	mod	_	_
+69	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	45	modnomatch	_	_
+70	fundamental	fundamental	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	69	attr	_	_
+71	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	45	punc	_	_
+72	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	45	modnomatch	_	_
+73	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	45	punc	_	_
+74	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	45	punc	_	_
+

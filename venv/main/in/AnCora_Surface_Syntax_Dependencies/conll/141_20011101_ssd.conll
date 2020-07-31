@@ -1,0 +1,76 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	Kobe	Kobe	np0000l	np0000l	_	3	nsubj
+2	Bryant	Bryant	np0000l	np0000l	_	1	appos
+3	puso	poner	vmis3s0	vmis3s0	_	0	root
+4	su	su	dp3cs0	dp3cs0	_	5	poss
+5	aportación	aportación	ncfs000	ncfs000	_	3	dobj
+6	,	,	fc	fc	_	5	punct
+7	no	no	rn	rn	_	8	neg
+8	exenta	exento	aq0fs0	aq0fs0	_	5	amod
+9	de	de	sps00	sps00	_	8	prepa
+10	márketing	márketing	ncms000	ncms000	_	9	pobj
+11	,	,	fc	fc	_	5	punct
+12	al	al	spcms	spcms	_	3	prepv
+13	patriotismo	patriotismo	ncms000	ncms000	_	12	pobj
+14	que	que	pr0cn000	pr0cn000	_	15	nsubj
+15	invade	invadir	vmip3s0	vmip3s0	_	13	rcmod
+16	EEUU	EEUU	np00000	np00000	_	15	dobj
+17	desde	desde	sps00	sps00	_	15	prepv
+18	el	el	da0ms0	da0ms0	_	19	det
+19	11	11	zp	zp	_	17	pobj
+20	de	de	spcms	spcms	_	19	prep
+21	septiembre	septiembre	ncms000	ncms000	_	20	pobj
+22	.	.	fp	fp	_	3	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	escolta	escolta	nccs000	nccs000	_	6	nsubj
+3	de	de	sps00	sps00	_	2	prepn
+4	los	el	da0mp0	da0mp0	_	5	det
+5	Lakers	Lakers	np00000	np00000	_	3	pobj
+6	pidió	pedir	vmis3s0	vmis3s0	_	0	root
+7	permiso	permiso	ncms000	ncms000	_	6	dobj
+8	a	a	sps00	sps00	_	6	iobj
+9	la	el	da0fs0	da0fs0	_	10	det
+10	NBA	NBA	np00000	np00000	_	8	pobj
+11	para	para	sps00	sps00	_	6	prepv
+12	lucir	lucir	vmn0000	vmn0000	_	11	pobj
+13	unas	uno	di0fp0	di0fp0	_	14	det
+14	zapatillas	zapatilla	ncfp000	ncfp000	_	12	dobj
+15	con	con	sps00	sps00	_	14	prepn
+16	la	el	da0fs0	da0fs0	_	17	det
+17	bandera	bandera	ncfs000	ncfs000	_	15	pobj
+18	de	de	sps00	sps00	_	17	prepn
+19	EEUU	EEUU	np00000	np00000	_	18	pobj
+20	.	.	fp	fp	_	6	punct
+
+1	Se	él	pp3cn000	pp3cn000	_	3	reflec
+2	lo	él	pp3msa00	pp3msa00	_	3	dobj
+3	dieron	dar	vmis3p0	vmis3p0	_	0	root
+4	para	para	sps00	sps00	_	3	prepv
+5	un	uno	di0ms0	di0ms0	_	6	det
+6	partido	partido	ncms000	ncms000	_	4	pobj
+7	,	,	fc	fc	_	6	punct
+8	el	el	da0ms0	da0ms0	_	9	pobj
+9	del	del	spcms	spcms	_	6	prepn
+10	debut	debut	ncms000	ncms000	_	9	pobj
+11	ante	ante	sps00	sps00	_	10	prepn
+12	Portland	Portland	np00000	np00000	_	11	pobj
+13	.	.	fp	fp	_	3	punct
+
+1	Ganaron	ganar	vmis3p0	vmis3p0	_	0	root
+2	los	el	da0mp0	da0mp0	_	3	det
+3	Lakers	Lakers	np00000	np00000	_	1	nsubj
+4	(	(	fpa	fpa	_	5	punct
+5	98-87	98-87	z	z	_	1	dobj
+6	)	)	fpt	fpt	_	5	punct
+7	con	con	sps00	sps00	_	1	prepv
+8	29	29	z	z	_	9	num
+9	puntos	punto	ncmp000	ncmp000	_	7	pobj
+10	de	de	sps00	sps00	_	9	prepn
+11	Bryant	Bryant	np00000	np00000	_	10	pobj
+12	.	.	fp	fp	_	1	punct

@@ -1,0 +1,84 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	Un	uno	di0ms0	di0ms0	_	2	det
+2	estudio	estudio	ncms000	ncms000	_	3	nsubj
+3	afirma	afirmar	vmip3s0	vmip3s0	_	0	root
+4	que	que	cs	cs	_	3	dobj
+5	el	el	da0ms0	da0ms0	_	6	det
+6	buque	buque	ncms000	ncms000	_	10	nsubj
+7	'	'	fz	fz	_	8	punct
+8	Erika	Erika	np00000	np00000	_	6	appos
+9	'	'	fz	fz	_	8	punct
+10	transportaba	transportar	vmii3s0	vmii3s0	_	4	cobj
+11	aceite	aceite	ncms000	ncms000	_	10	dobj
+12	tóxico	tóxico	aq0ms0	aq0ms0	_	11	amod
+13	.	.	fp	fp	_	3	punct
+
+1	La	el	da0fs0	da0fs0	_	2	det
+2	investigación	investigación	ncfs000	ncfs000	_	9	nsubj
+3	,	,	fc	fc	_	2	punct
+4	realizada	realizado	aq0fsp	aq0fsp	_	2	amod
+5	por	por	sps00	sps00	_	4	agent
+6	técnicos	técnico	ncmp000	ncmp000	_	5	pobj
+7	independientes	independiente	aq0cp0	aq0cp0	_	6	amod
+8	,	,	fc	fc	_	2	punct
+9	indica	indicar	vmip3s0	vmip3s0	_	0	root
+10	que	que	cs	cs	_	9	dobj
+11	la	el	da0fs0	da0fs0	_	12	det
+12	carga	carga	ncfs000	ncfs000	_	22	nsubj
+13	del	del	spcms	spcms	_	12	prepn
+14	buque	buque	ncms000	ncms000	_	13	pobj
+15	siniestrado	siniestrado	aq0ms0	aq0ms0	_	14	amod
+16	frente	frente	rg	rg	_	15	prepa
+17	a	a	sps00	sps00	_	16	prep
+18	las	el	da0fp0	da0fp0	_	19	det
+19	costas	costa	ncfp000	ncfp000	_	17	pobj
+20	francesas	francés	aq0fp0	aq0fp0	_	19	amod
+21	no	no	rn	rn	_	22	neg
+22	era	ser	vsii3s0	vsii3s0	_	25	cobj
+23	fuel	fuel	ncms000	ncms000	_	22	attr
+24	,	,	fc	fc	_	22	punct
+25	sino	sino	cc	cc	_	10	cobj
+26	una	uno	di0fs0	di0fs0	_	27	det
+27	mezcla	mezcla	ncfs000	ncfs000	_	22	dep
+28	tóxica	tóxico	aq0fs0	aq0fs0	_	29	coord
+29	y	y	cc	cc	_	27	prepn
+30	cancerígena	cancerígeno	aq0fs0	aq0fs0	_	29	coord
+31	de	de	sps00	sps00	_	27	prepn
+32	aceites	aceite	ncmp000	ncmp000	_	31	pobj
+33	minerales	mineral	aq0cp0	aq0cp0	_	32	amod
+34	.	.	fp	fp	_	9	punct
+
+1	La	el	da0fs0	da0fs0	_	2	det
+2	empresa	empresa	ncfs000	ncfs000	_	10	nsubj
+3	que	que	pr0cn000	pr0cn000	_	4	nsubj
+4	fletó	fletar	vmis3s0	vmis3s0	_	2	rcmod
+5	el	el	da0ms0	da0ms0	_	6	det
+6	buque	buque	ncms000	ncms000	_	4	dobj
+7	,	,	fc	fc	_	2	punct
+8	Totalfina	Totalfina	np00000	np00000	_	2	appos
+9	,	,	fc	fc	_	2	punct
+10	calificó	calificar	vmis3s0	vmis3s0	_	17	coord
+11	de	de	sps00	sps00	_	10	prepv
+12	&quot;	&quot;	fe	fe	_	13	punct
+13	mentira	mentira	ncfs000	ncfs000	_	11	pobj
+14	&quot;	&quot;	fe	fe	_	13	punct
+15	dicha	dicho	aq0fsp	aq0fsp	_	16	amod
+16	información	información	ncfs000	ncfs000	_	10	dobj
+17	y	y	cc	cc	_	0	root
+18	añadió	añadir	vmis3s0	vmis3s0	_	17	coord
+19	que	que	cs	cs	_	18	dobj
+20	el	el	da0ms0	da0ms0	_	21	det
+21	combustible	combustible	ncms000	ncms000	_	22	nsubj
+22	era	ser	vsii3s0	vsii3s0	_	19	cobj
+23	para	para	sps00	sps00	_	22	prepv
+24	la	el	da0fs0	da0fs0	_	25	det
+25	compañía	compañía	ncfs000	ncfs000	_	23	pobj
+26	eléctrica	eléctrico	aq0fs0	aq0fs0	_	25	amod
+27	italiana	italiano	aq0fs0	aq0fs0	_	25	amod
+28	Enel	Enel	np00000	np00000	_	25	appos
+29	.	.	fp	fp	_	17	punct

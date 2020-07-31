@@ -1,0 +1,123 @@
+1	Según	según	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+2	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
+3	sindicatos	sindicato	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+5	Juan	juan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+6	Jiménez	jiménez	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
+7	Aguilar	aguilar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	5	dobj	_	_
+8	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	9	aux	_	_
+9	fracasado	fracasar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	5	modnomatch	_	_
+10	en	en	SP	SP	matched=no|pos=adposition|type=preposition	9	pobj	_	_
+11	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	12	spec	_	_
+12	intento	intento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+14	meter	meter	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	13	comp	_	_
+15	cizaña	cizaña	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	dobj	_	_
+16	entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+17	CCOO	ccoo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+18	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	16	modnomatch	_	_
+19	UGT	ugt	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	Parece	parecer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+2	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	1	modnomatch	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	secretario	secretario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	subj	_	_
+5	general	general	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	1	modnomatch	_	_
+8	CEOE	ceoe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
+9	había	haber	VAII3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=auxiliary	10	aux	_	_
+10	expresado	expresar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	1	modnomatch	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	intención	intención	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	dobj	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
+14	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
+15	patronal	patronal	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+17	negociar	negociar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	16	comp	_	_
+18	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	1	punc	_	_
+19	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	attr	_	_
+20	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
+21	con	con	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+22	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
+23	más	más	RG	RG	matched=no|pos=adverb|type=general	24	spec	_	_
+24	receptivo	receptivo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	1	pred	_	_
+25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
+26	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	28	spec	_	_
+27	dos	2	Z	Z	matched=no|pos=number	28	spec	_	_
+28	sindicatos	sindicato	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	25	comp	_	_
+29	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	1	punc	_	_
+30	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
+31	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
+32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	dirigente	dirigente	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	CCOO	ccoo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	replicó	replicar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+6	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	5	dobj	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	autor	autor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	subj	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	mod	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	estrategia	estrategia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	empresarial	empresarial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
+13	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	14	mphes	_	_
+14	llama	llamar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	6	comp	_	_
+15	Rodrigo	rodrigar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	5	modnomatch	_	_
+16	Rato	rato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	dobj	_	_
+17	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	15	punc	_	_
+
+1	Sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+2	embargo	embargo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	otro	otro	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	5	spec	_	_
+5	dirigente	dirigente	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+6	sindicalista	sindicalista	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	confesó	confesar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+9	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	10	spec	_	_
+10	conversación	conversación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+11	privada	privar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	10	mod	_	_
+12	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	7	dobj	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	culpable	culpable	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	22	subj	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	mod	_	_
+16	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	17	spec	_	_
+17	dificultades	dificultad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	15	comp	_	_
+18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
+19	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	negociación	negociación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+21	no	no	RN	RN	matched=no|pos=adverb|type=negative	22	spec	_	_
+22	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	12	comp	_	_
+23	ni	ni	CC	CC	matched=no|pos=conjunction|type=coordinating	22	attr	_	_
+24	Cuevas	cueva	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	23	coor	_	_
+25	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	26	punc	_	_
+26	ni	ni	CC	CC	matched=no|pos=conjunction|type=coordinating	22	adjt	_	_
+27	Jiménez	jiménez	RG	RG	matched=no|pos=adverb|type=general	26	coor	_	_
+28	Aguilar	aguilar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	22	modnomatch	_	_
+29	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	7	modnomatch	_	_
+30	ni	ni	RN	RN	matched=no|pos=adverb|type=negative	7	spec	_	_
+31	siquiera	siquiera	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
+32	Rato	rato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	34	coor	_	_
+33	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	34	punc	_	_
+34	sino	sino	CC	CC	matched=no|pos=conjunction|type=coordinating	7	modnomatch	_	_
+35	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	36	spec	_	_
+36	chatarreros	chatarrero	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	34	coor	_	_
+37	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+38	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	7	adjt	_	_
+39	llaman	llamar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	38	comp	_	_
+40	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	41	spec	_	_
+41	sindicalistas	sindicalista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	39	dobj	_	_
+42	a	a	SP	SP	matched=no|pos=adposition|type=preposition	39	pobj	_	_
+43	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	45	spec	_	_
+44	pequeños	pequeño	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	45	mod	_	_
+45	empresarios	empresario	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	42	comp	_	_
+46	ligados	ligar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	45	mod	_	_
+47	a	a	SP	SP	matched=no|pos=adposition|type=preposition	7	modnomatch	_	_
+48	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	modnomatch	_	_
+49	CEOE	ceoe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	modnomatch	_	_
+50	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	49	punc	_	_
+

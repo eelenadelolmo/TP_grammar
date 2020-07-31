@@ -1,0 +1,44 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	La	el	da0fs0	da0fs0	_	2	det
+2	inversión	inversión	ncfs000	ncfs000	_	4	nsubj
+3	se	se	p0000000	p0000000	_	4	reflec
+4	incluye	incluir	vmip3s0	vmip3s0	_	0	root
+5	en	en	sps00	sps00	_	4	prepv
+6	un	uno	di0ms0	di0ms0	_	7	det
+7	plan	plan	ncms000	ncms000	_	5	pobj
+8	de	de	sps00	sps00	_	7	prepn
+9	choque	choque	ncms000	ncms000	_	8	pobj
+10	de	de	sps00	sps00	_	7	prepn
+11	la	el	da0fs0	da0fs0	_	12	det
+12	Generalitat	Generalitat	np00000	np00000	_	10	pobj
+13	que	que	pr0cn000	pr0cn000	_	14	nsubj
+14	prevé	prever	vmip3s0	vmip3s0	_	31	rcmod
+15	habilitar	habilitar	vmn0000	vmn0000	_	14	dobj
+16	96	96	z	z	_	17	num
+17	hectáreas	hectárea	ncfp000	ncfp000	_	15	dobj
+18	de	de	sps00	sps00	_	17	prepn
+19	terrenos	terreno	ncmp000	ncmp000	_	18	pobj
+20	para	para	sps00	sps00	_	14	prepv
+21	fomentar	fomentar	vmn0000	vmn0000	_	20	pobj
+22	la	el	da0fs0	da0fs0	_	23	det
+23	implantación	implantación	ncfs000	ncfs000	_	21	dobj
+24	de	de	sps00	sps00	_	23	prepn
+25	industrias	industria	ncfp000	ncfp000	_	24	pobj
+26	en	en	sps00	sps00	_	23	prepn
+27	las	el	da0fp0	da0fp0	_	29	det
+28	seis	seis	dn0cp0	dn0cp0	_	29	det
+29	comarcas	comarca	ncfp000	ncfp000	_	26	pobj
+30	pirenaicas	pirenaico	aq0fp0	aq0fp0	_	29	amod
+31	y	y	cc	cc	_	7	dep
+32	que	que	pr0cn000	pr0cn000	_	33	nsubj
+33	creará	crear	vmif3s0	vmif3s0	_	31	rcmod
+34	15.000	15000	z	z	_	35	num
+35	puestos	puesto	ncmp000	ncmp000	_	33	dobj
+36	de	de	sps00	sps00	_	35	prepn
+37	trabajo	trabajo	ncms000	ncms000	_	36	pobj
+38	.	.	fp	fp	_	4	punct

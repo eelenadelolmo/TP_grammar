@@ -1,0 +1,98 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	Ramón	Ramón	np0000l	np0000l	_	3	nsubj
+2	Jáuregui	Jáuregui	np0000l	np0000l	_	1	appos
+3	avisó	avisar	vmis3s0	vmis3s0	_	0	root
+4	ayer	ayer	rg	rg	_	3	advmod
+5	en	en	sps00	sps00	_	3	prepv
+6	una	uno	di0fs0	di0fs0	_	7	det
+7	conferencia	conferencia	ncfs000	ncfs000	_	5	pobj
+8	pronunciada	pronunciado	aq0fsp	aq0fsp	_	7	amod
+9	en	en	sps00	sps00	_	8	prepa
+10	Lleida	Lleida	np00000	np00000	_	9	pobj
+11	que	que	cs	cs	_	3	dobj
+12	&quot;	&quot;	fe	fe	_	14	punct
+13	Euskadi	Euskadi	np00000	np00000	_	14	nsubj
+14	camina	caminar	vmip3s0	vmip3s0	_	11	cobj
+15	irreversiblemente	irreversiblemente	rg	rg	_	14	advmod
+16	hacia	hacia	sps00	sps00	_	14	prepv
+17	las	el	da0fp0	da0fp0	_	18	det
+18	trincheras	trinchera	ncfp000	ncfp000	_	16	pobj
+19	&quot;	&quot;	fe	fe	_	14	punct
+20	.	.	fp	fp	_	3	punct
+
+1	El	el	da0ms0	da0ms0	_	3	det
+2	ex	ex	aq0cn0	aq0cn0	_	3	amod
+3	vicelehendakari	vicelehendakari	nccs000	nccs000	_	5	nsubj
+4	socialista	socialista	aq0cs0	aq0cs0	_	3	amod
+5	señaló	señalar	vmis3s0	vmis3s0	_	0	root
+6	que	que	cs	cs	_	5	dobj
+7	el	el	da0ms0	da0ms0	_	9	det
+8	actual	actual	aq0cs0	aq0cs0	_	9	amod
+9	enfrentamiento	enfrentamiento	ncms000	ncms000	_	14	nsubj
+10	político	político	aq0ms0	aq0ms0	_	11	coord
+11	y	y	cc	cc	_	9	prepn
+12	social	social	aq0cs0	aq0cs0	_	11	coord
+13	se	se	p0300000	p0300000	_	14	reflec
+14	traduce	traducir	vmip3s0	vmip3s0	_	6	cobj
+15	&quot;	&quot;	fe	fe	_	16	punct
+16	en	en	sps00	sps00	_	14	oobj
+17	un	uno	di0ms0	di0ms0	_	19	det
+18	progresivo	progresivo	aq0ms0	aq0ms0	_	19	amod
+19	rearme	rearme	ncms000	ncms000	_	16	pobj
+20	de	de	sps00	sps00	_	19	prepn
+21	los	el	da0mp0	da0mp0	_	22	det
+22	polos	polo	ncmp000	ncmp000	_	20	pobj
+23	opuestos	opuesto	aq0mpp	aq0mpp	_	22	amod
+24	&quot;	&quot;	fe	fe	_	16	punct
+25	.	.	fp	fp	_	5	punct
+
+1	Síntoma	síntoma	ncms000	ncms000	_	8	nsubj
+2	de	de	sps00	sps00	_	1	prepn
+3	esta	este	dd0fs0	dd0fs0	_	4	det
+4	situación	situación	ncfs000	ncfs000	_	2	pobj
+5	,	,	fc	fc	_	8	punct
+6	añadió	añadir	vmis3s0	vmis3s0	_	8	attr
+7	,	,	fc	fc	_	8	punct
+8	es	ser	vsip3s0	vsip3s0	_	0	root
+9	que	que	cs	cs	_	8	attr
+10	&quot;	&quot;	fe	fe	_	15	punct
+11	en	en	sps00	sps00	_	15	prepv
+12	la	el	da0fs0	da0fs0	_	13	det
+13	sociedad	sociedad	ncfs000	ncfs000	_	11	pobj
+14	vasca	vasco	aq0fs0	aq0fs0	_	13	amod
+15	hay	haber	vaip3s0	vaip3s0	_	19	coord
+16	una	uno	di0fs0	di0fs0	_	18	det
+17	enorme	enorme	aq0cs0	aq0cs0	_	18	amod
+18	desesperanza	desesperanza	ncfs000	ncfs000	_	19	coord
+19	y	y	cc	cc	_	9	cobj
+20	una	uno	di0fs0	di0fs0	_	21	det
+21	tristeza	tristeza	ncfs000	ncfs000	_	19	coord
+22	desgarradora	desgarrador	aq0fs0	aq0fs0	_	21	amod
+23	&quot;	&quot;	fe	fe	_	15	punct
+24	.	.	fp	fp	_	8	punct
+
+1	También	también	rg	rg	_	2	advmod
+2	pidió	pedir	vmis3s0	vmis3s0	_	0	root
+3	que	que	cs	cs	_	2	dobj
+4	PP	PP	np00000	np00000	_	5	coord
+5	y	y	cc	cc	_	3	cobj
+6	PNV	PNV	np00000	np00000	_	5	coord
+7	acaben	acabar	vmsp3p0	vmsp3p0	_	5	coord
+8	con	con	sps00	sps00	_	7	oobj
+9	la	el	da0fs0	da0fs0	_	13	det
+10	&quot;	&quot;	fe	fe	_	11	punct
+11	repugnante	repugnante	aq0cs0	aq0cs0	_	13	amod
+12	&quot;	&quot;	fe	fe	_	11	punct
+13	utilización	utilización	ncfs000	ncfs000	_	8	pobj
+14	partidista	partidista	aq0cs0	aq0cs0	_	13	amod
+15	del	del	spcms	spcms	_	13	prepn
+16	asesinato	asesinato	ncms000	ncms000	_	15	pobj
+17	de	de	sps00	sps00	_	16	prepn
+18	Fernando	Fernando	np0000l	np0000l	_	17	pobj
+19	Buesa	Buesa	np0000l	np0000l	_	18	appos
+20	.	.	fp	fp	_	2	punct

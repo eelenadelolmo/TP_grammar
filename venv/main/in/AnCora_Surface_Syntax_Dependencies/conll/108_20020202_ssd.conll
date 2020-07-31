@@ -1,0 +1,78 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	La	el	da0fs0	da0fs0	_	2	det
+2	Comisión	Comisión	np0000o	np0000o	_	12	nsubj
+3	de	de	sps00	sps00	_	2	prepn
+4	Apelación	Apelación	np0000l	np0000l	_	3	pobj
+5	de	de	sps00	sps00	_	2	prepn
+6	la	el	da0fs0	da0fs0	_	7	det
+7	Federación	Federación	ncms000	ncms000	_	5	pobj
+8	Italiana	italiano	ncms000	ncms000	_	7	appos
+9	de	de	sps00	sps00	_	7	prepn
+10	Fútbol	Fútbol	ncms000	ncms000	_	9	pobj
+11	se	él	p0300000	p0300000	_	12	reflec
+12	pronunciará	pronunciar	vmif3s0	vmif3s0	_	0	root
+13	ese	ese	dd0ms0	dd0ms0	_	14	det
+14	día	día	ncms000	ncms000	_	12	tmod
+15	sobre	sobre	sps00	sps00	_	12	oobj
+16	los	el	da0mp0	da0mp0	_	17	det
+17	casos	caso	ncmp000	ncmp000	_	15	pobj
+18	de	de	sps00	sps00	_	17	prepn
+19	dopaje	dopaje	ncms000	ncms000	_	18	pobj
+20	por	por	sps00	sps00	_	19	prepn
+21	nandrolona	nandrolona	nc00000	nc00000	_	20	pobj
+22	del	del	spcms	spcms	_	29	coord
+23	español	español	ncms000	ncms000	_	22	pobj
+24	Josep	Josep	np0000l	np0000l	_	23	appos
+25	Guardiola	guardiolo	np0000l	np0000l	_	24	appos
+26	(	(	fpa	fpa	_	27	punct
+27	Brescia	Brescia	np00000	np00000	_	23	appos
+28	)	)	fpt	fpt	_	27	punct
+29	y	y	cc	cc	_	19	prepn
+30	del	del	spcms	spcms	_	29	coord
+31	defensa	defensa	nccs000	nccs000	_	30	pobj
+32	holandés	holandés	aq0ms0	aq0ms0	_	31	amod
+33	Jaap	Jaap	np0000l	np0000l	_	31	appos
+34	Stam	Stam	np0000l	np0000l	_	33	appos
+35	(	(	fpa	fpa	_	33	punct
+36	Lazio	Lazio	np00000	np00000	_	33	appos
+37	)	)	fpt	fpt	_	33	punct
+38	.	.	fp	fp	_	12	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	Comité	Comité	np0000o	np0000o	_	5	nsubj
+3	de	de	sps00	sps00	_	2	prepn
+4	Apelación	Apelación	np0000l	np0000l	_	3	pobj
+5	estudiará	estudiar	vmif3s0	vmif3s0	_	0	root
+6	el	el	da0ms0	da0ms0	_	7	det
+7	recurso	recurso	ncms000	ncms000	_	5	dobj
+8	contra	contra	sps00	sps00	_	7	prepn
+9	la	el	da0fs0	da0fs0	_	10	det
+10	decisión	decisión	ncfs000	ncfs000	_	8	pobj
+11	de	de	sps00	sps00	_	10	prepn
+12	la	el	da0fs0	da0fs0	_	13	det
+13	Comisión	Comisión	np0000l	np0000l	_	11	pobj
+14	Disciplinaria	Disciplinaria	np0000l	np0000l	_	13	appos
+15	,	,	fc	fc	_	13	punct
+16	que	que	pr0cn000	pr0cn000	_	19	nsubj
+17	el	el	da0ms0	da0ms0	_	19	det
+18	pasado	pasado	aq0msp	aq0msp	_	19	amod
+19	24	24	zp	zp	_	13	dep
+20	de	de	spcms	spcms	_	19	prep
+21	enero	enero	ncms000	ncms000	_	20	pobj
+22	suspendió	suspender	vmis3s0	vmis3s0	_	28	coord
+23	con	con	sps00	sps00	_	22	prepv
+24	cuatro	cuatro	dn0cp0	dn0cp0	_	25	det
+25	meses	mes	ncmp000	ncmp000	_	23	pobj
+26	a	a	sps00	sps00	_	22	dobj
+27	Guardiola	Guardiola	np00000	np00000	_	26	pobj
+28	y	y	cc	cc	_	19	dep
+29	con	con	sps00	sps00	_	28	coord
+30	cinco	cinco	pn0cp000	pn0cp000	_	29	pobj
+31	a	a	sps00	sps00	_	28	coord
+32	Stam	Stam	np00000	np00000	_	31	pobj
+33	.	.	fp	fp	_	5	punct

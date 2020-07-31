@@ -1,0 +1,49 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	La	el	da0fs0	da0fs0	_	2	det
+2	ONG	ONG	np00000	np00000	_	5	nsubj
+3	ecologista	ecologista	aq0cs0	aq0cs0	_	2	amod
+4	Mediterrània	Mediterrània	np00000	np00000	_	2	appos
+5	anunció	anunciar	vmis3s0	vmis3s0	_	0	root
+6	ayer	ayer	rg	rg	_	5	advmod
+7	que	que	cs	cs	_	5	dobj
+8	se	él	p0300000	p0300000	_	9	reflec
+9	movilizará	movilizar	vmif3s0	vmif3s0	_	7	cobj
+10	si	si	cs	cs	_	9	advcl
+11	las	el	da0fp0	da0fp0	_	12	det
+12	administraciones	administración	ncfp000	ncfp000	_	15	nsubj
+13	públicas	público	aq0fp0	aq0fp0	_	12	amod
+14	no	no	rn	rn	_	15	neg
+15	garantizan	garantizar	vmip3p0	vmip3p0	_	10	cobj
+16	la	el	da0fs0	da0fs0	_	17	det
+17	conservación	conservación	ncfs000	ncfs000	_	15	dobj
+18	de	de	sps00	sps00	_	17	prepn
+19	la	el	da0fs0	da0fs0	_	20	det
+20	desembocadura	desembocadura	ncfs000	ncfs000	_	18	pobj
+21	del	del	spcms	spcms	_	20	prepn
+22	Francolí	Francolí	np00000	np00000	_	21	pobj
+23	en	en	sps00	sps00	_	20	prepn
+24	Tarragona	Tarragona	np00000	np00000	_	23	pobj
+25	.	.	fp	fp	_	5	punct
+
+1	La	el	da0fs0	da0fs0	_	2	det
+2	entidad	entidad	ncfs000	ncfs000	_	3	nsubj
+3	ha	haber	vaip3s0	vaip3s0	_	0	root
+4	indicado	indicar	vmp00sm	vmp00sm	_	3	vobj
+5	que	que	cs	cs	_	4	dobj
+6	el	el	da0ms0	da0ms0	_	7	det
+7	proyecto	proyecto	ncms000	ncms000	_	12	nsubj
+8	de	de	sps00	sps00	_	7	prepn
+9	dragar	dragar	vmn0000	vmn0000	_	8	pobj
+10	la	el	da0fs0	da0fs0	_	11	det
+11	zona	zona	ncfs000	ncfs000	_	9	dobj
+12	acabará	acabar	vmif3s0	vmif3s0	_	5	cobj
+13	con	con	sps00	sps00	_	12	oobj
+14	el	el	da0ms0	da0ms0	_	15	det
+15	paraje	paraje	ncms000	ncms000	_	13	pobj
+16	natural	natural	aq0cs0	aq0cs0	_	15	amod
+17	.	.	fp	fp	_	3	punct

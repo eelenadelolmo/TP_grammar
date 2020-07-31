@@ -1,0 +1,49 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	Anthony	Anthony	np0000l	np0000l	_	4	nsubj
+2	Hopkins	Hopkins	np0000l	np0000l	_	1	appos
+3	se	él	p0300000	p0300000	_	4	reflec
+4	atrevió	atreverse	vmis3s0	vmis3s0	_	0	root
+5	a	a	sps00	sps00	_	4	oobj
+6	encarnar	encarnar	vmn0000	vmn0000	_	5	pobj
+7	al	al	spcms	spcms	_	6	dobj
+8	pintor	pintor	ncms000	ncms000	_	7	pobj
+9	malagueño	malagueño	aq0ms0	aq0ms0	_	8	amod
+10	en	en	sps00	sps00	_	6	prepv
+11	Sobrevivir	sobrevivir	np0000o	np0000o	_	10	pobj
+12	a	a	sps00	sps00	_	11	prepn
+13	Picasso	Picasso	np0000l	np0000l	_	12	pobj
+14	(	(	fpa	fpa	_	18	punct
+15	La	el	da0ms0	da0ms0	_	16	det
+16	2	2	zp	zp	_	4	dobj
+17	,	,	fc	fc	_	4	punct
+18	23.05	23.05	z	z	_	4	dobj
+19	)	)	fpt	fpt	_	18	punct
+20	.	.	fp	fp	_	4	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	filme	filme	ncms000	ncms000	_	3	nsubj
+3	deja	dejar	vmip3s0	vmip3s0	_	0	root
+4	de	de	sps00	sps00	_	3	advmod
+5	lado	lado	ncmp000	ncmp000	_	4	pobj
+6	su	su	dp3cs0	dp3cs0	_	7	poss
+7	trayectoria	trayectoria	ncfs000	ncfs000	_	3	dobj
+8	artística	artístico	aq0fs0	aq0fs0	_	7	amod
+9	,	,	fc	fc	_	3	punct
+10	ya	ya	rg	rg	_	11	advmod
+11	que	que	pi0ms000	pi0ms000	_	3	advcl
+12	sus	su	dp3cp0	dp3cp0	_	13	poss
+13	herederos	heredero	ncmp000	ncmp000	_	15	nsubj
+14	se	él	p0300000	p0300000	_	15	reflec
+15	opusieron	oponer	vmis3p0	vmis3p0	_	11	cobj
+16	a	a	sps00	sps00	_	15	oobj
+17	que	que	cs	cs	_	16	pobj
+18	se	se	p0000000	p0000000	_	19	reflec
+19	mostraran	mostrar	vmsi3p0	vmsi3p0	_	17	cobj
+20	sus	su	dp3cp0	dp3cp0	_	21	poss
+21	obras	obra	ncfp000	ncfp000	_	19	nsubj
+22	.	.	fp	fp	_	3	punct

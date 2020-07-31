@@ -1,0 +1,252 @@
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	3	spec	_	_
+2	fuertes	fuerte	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	3	mod	_	_
+3	tormentas	tormenta	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
+4	dejaron	dejar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
+5	desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	madrugada	madrugada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+9	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	8	comp	_	_
+10	más	más	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	modnomatch	_	_
+12	60_litros	VL_l:60	Zu	Zu	matched=no|pos=number|type=unit	10	modnomatch	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+14	agua	agua	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+15	por	por	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+16	metro	metro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+17	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+18	algunos	alguno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	19	spec	_	_
+19	puntos	punto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	17	comp	_	_
+20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	tráfico	tráfico	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
+4	normalizó	normalizar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+5	por	por	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	tarde	tarde	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+9	pese_a	pese_a	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
+10	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	9	comp	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	nieve	nieve	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	subj	_	_
+13	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	14	mphes	_	_
+14	mantenía	mantener	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	10	comp	_	_
+15	en	en	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+16	puntos	punto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	15	comp	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+18	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
+19	Vall	val_l	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+20	d'Aran	d'aran	VMSI3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=imperfect|type=main	4	modnomatch	_	_
+21	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	24	punc	_	_
+22	Alta	alto	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	23	mod	_	_
+23	Ribagorça	ribagorça	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	coor	_	_
+24	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	20	dobj	_	_
+25	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	27	spec	_	_
+26	dos	2	Z	Z	matched=no|pos=number	27	spec	_	_
+27	Pallars	pallars	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	24	coor	_	_
+28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	sindicato	sindicato	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	Unió	unir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+5	Pagesos	pagesos	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
+6	auguró	augurar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	3	modnomatch	_	_
+7	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
+8	pérdidas	pérdida	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	dobj	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	mod	_	_
+10	9.000_millones_de_pesetas	$_ESP:9000000000	Zm	Zm	matched=no|pos=number|type=currency	9	comp	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+12	por	por	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+13	quinto	5	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	14	mod	_	_
+14	año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+15	consecutivo	consecutivo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	14	mod	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
+17	para	para	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+18	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
+19	sector	sector	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	19	mod	_	_
+21	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	22	spec	_	_
+22	cereales	cereal	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	20	comp	_	_
+23	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	20	punc	_	_
+24	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	25	subj	_	_
+25	perderá	perder	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	6	modnomatch	_	_
+26	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	27	spec	_	_
+27	50_%	50/100	Zp	Zp	matched=no|pos=number|type=percentage	25	dobj	_	_
+28	de	de	SP	SP	matched=no|pos=adposition|type=preposition	27	mod	_	_
+29	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	30	spec	_	_
+30	cosecha	cosecha	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	28	comp	_	_
+31	por	por	SP	SP	matched=no|pos=adposition|type=preposition	25	adjt	_	_
+32	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	33	spec	_	_
+33	sequía	sequía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	31	comp	_	_
+34	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+35	primero	primero	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
+36	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	37	punc	_	_
+37	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	6	modnomatch	_	_
+38	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	39	spec	_	_
+39	viento	viento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	37	coor	_	_
+40	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+41	después	después	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
+42	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
+2	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
+3	comarcas	comarca	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
+4	tarraconenses	tarraconense	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	3	mod	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	comp	_	_
+6	Ribera	ribera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	d'Ebre	d'ebre	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+9	Terra	terra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	coor	_	_
+10	Alta	alto	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+11	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	comp	_	_
+12	Priorat	prior_t	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	coor	_	_
+13	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	14	spec	_	_
+14	lluvia	lluvia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	subj	_	_
+15	dañó	dañar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+16	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	17	spec	_	_
+17	cerezas	cereza	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	15	dobj	_	_
+18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
+19	plena	pleno	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	20	mod	_	_
+20	recolección	recolección	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	15	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	agua	agua	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	afectó	afectar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	piel	piel	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
+9	fruto	fruto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+11	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	3	modnomatch	_	_
+13	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	3	punc	_	_
+14	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+15	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	3	punc	_	_
+16	supone	suponer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	3	modnomatch	_	_
+17	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	18	spec	_	_
+18	devaluación	devaluación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	dobj	_	_
+19	en	en	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
+20	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
+21	mercado	mercado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
+22	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	3	punc	_	_
+23	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+24	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	3	punc	_	_
+25	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+26	dijo	decir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	3	modnomatch	_	_
+27	Julio	[??:??/7/??:??.??:??]	W	W	matched=no|pos=date	26	adjt	_	_
+28	Montfort	montfort	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	dobj	_	_
+29	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	26	punc	_	_
+30	de	de	SP	SP	matched=no|pos=adposition|type=preposition	26	adjt	_	_
+31	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	32	spec	_	_
+32	oficina	oficina	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	30	comp	_	_
+33	de	de	SP	SP	matched=no|pos=adposition|type=preposition	32	mod	_	_
+34	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	35	spec	_	_
+35	Conselleria	conselleria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	33	comp	_	_
+36	d'Agricultura	d'agricultura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	35	mod	_	_
+37	en	en	SP	SP	matched=no|pos=adposition|type=preposition	26	adjt	_	_
+38	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	39	spec	_	_
+39	Ribera	ribera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	37	comp	_	_
+40	d'Ebre	d'ebre	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	39	mod	_	_
+41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	26	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Servei	servei	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	Català	català	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	Trànsit	trànsit	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	4	comp	_	_
+7	censó	censar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+8	múltiples	múltiple	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	9	mod	_	_
+9	salidas	salida	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	dobj	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
+11	vía	vía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+12	a_causa_de	a_causa_de	SP	SP	matched=no|pos=adposition|type=preposition	17	coor	_	_
+13	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	14	spec	_	_
+14	problemas	problema	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	coor	_	_
+16	visibilidad	visibilidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+17	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	7	modnomatch	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	coor	_	_
+19	seguridad	seguridad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+20	generados	generar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	7	adjt	_	_
+21	por	por	SP	SP	matched=no|pos=adposition|type=preposition	20	agnt	_	_
+22	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	lluvia	lluvia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
+24	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	accidente	accidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	más	más	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	4	spec	_	_
+4	grave	grave	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+5	tuvo_lugar	tener_lugar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	modnomatch	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	modnomatch	_	_
+8	A-7	A-7	Z	Z	matched=no|pos=number	5	dobj	_	_
+9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+10	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+11	Mont-roig	mont-roig	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	mod	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	Camp	camp	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	coche	coche	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+3	oficial	oficial	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	conseller	conseller	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+8	Treball	treball	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+9	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+10	Lluís	lluís	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+11	Franco	franco	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+13	sufrió	sufrir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+14	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	15	spec	_	_
+15	derrapaje	derrapaje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	dobj	_	_
+16	en	en	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+17	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
+18	autopista	autopista	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+19	A-2	A-2	Z	Z	matched=no|pos=number	13	modnomatch	_	_
+20	a	a	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+21	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
+22	altura	altura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+23	de	de	SP	SP	matched=no|pos=adposition|type=preposition	22	mod	_	_
+24	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	25	spec	_	_
+25	término	término	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
+26	de	de	SP	SP	matched=no|pos=adposition|type=preposition	25	mod	_	_
+27	Alfés	alfés	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	26	comp	_	_
+28	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	29	modnomatch	_	_
+29	Segrià	segrià	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+30	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	29	modnomatch	_	_
+31	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+32	cuando	cuando	CS	CS	matched=no|pos=conjunction|type=subordinating	13	adjt	_	_
+33	junto_a	junto_a	SP	SP	matched=no|pos=adposition|type=preposition	38	adjt	_	_
+34	otros	otro	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	36	spec	_	_
+35	tres	3	Z	Z	matched=no|pos=number	36	spec	_	_
+36	ocupantes	ocupante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	33	comp	_	_
+37	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	38	mphes	_	_
+38	dirigía	dirigir	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	32	comp	_	_
+39	a	a	SP	SP	matched=no|pos=adposition|type=preposition	38	pobj	_	_
+40	Lleida	lleida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	39	comp	_	_
+41	para	para	SP	SP	matched=no|pos=adposition|type=preposition	38	pobj	_	_
+42	reunirse	reunirse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	41	comp	_	_
+43	con	con	SP	SP	matched=no|pos=adposition|type=preposition	42	adjt	_	_
+44	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	45	spec	_	_
+45	hosteleros	hostelero	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	43	comp	_	_
+46	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+
+1	Todos	todo	PI0MP00	PI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=indefinite	2	subj	_	_
+2	fueron	ser	VSIS3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+3	dados_de_alta	dar_de_alta	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+4	poco	poco	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+5	después	después	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+

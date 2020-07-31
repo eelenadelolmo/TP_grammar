@@ -1,0 +1,77 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	partido	partido	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	subj	_	_
+3	aplazado	aplazar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+6	vigésima	20	AO0FS00	AO	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	8	mod	_	_
+7	tercera	3	AO0FS00	AO	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	8	mod	_	_
+8	jornada	jornada	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	11	spec	_	_
+11	Liga	liga	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	comp	_	_
+12	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+13	División	división	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	comp	_	_
+14	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+15	Honor	honor	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	comp	_	_
+16	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+17	fútbol	fútbol	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	comp	_	_
+18	sala	salar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+19	Playas	playa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	18	dobj	_	_
+20	Castellón-Caja	castellón-caja	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	19	mod	_	_
+21	San	san	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	19	mod	_	_
+22	Fernando	fernando	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	18	adjt	_	_
+23	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	24	mphes	_	_
+24	disputará	disputar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	18	modnomatch	_	_
+25	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	26	spec	_	_
+26	martes_29_de_febrero_a_las_20.45_horas	[M:29/2/??:8.00:pm]	W	W	matched=no|pos=date	24	adjt	_	_
+27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
+
+1	Ambos	ambos	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+2	clubes	club	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
+3	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	4	aux	_	_
+4	llegado	llegar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+6	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
+7	acuerdo	acuerdo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+8	para	para	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+9	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	8	comp	_	_
+10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	encuentro	encuentro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	subj	_	_
+12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+13	previsto	prever	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	21	adjt	_	_
+14	en	en	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+15	principio	principio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+16	para	para	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+17	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
+18	29_de_enero	[??:29/1/??:??.??:??]	W	W	matched=no|pos=date	16	comp	_	_
+19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+20	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	21	mphes	_	_
+21	juegue	jugar	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	9	comp	_	_
+22	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
+23	último	último	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	24	mod	_	_
+24	día	día	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	adjt	_	_
+25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	21	adjt	_	_
+26	Febrero	[??:??/2/??:??.??:??]	W	W	matched=no|pos=date	25	comp	_	_
+27	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	21	punc	_	_
+28	después_de	después_de	SP	SP	matched=no|pos=adposition|type=preposition	21	adjt	_	_
+29	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	28	comp	_	_
+30	tuviera	tener	VMSI3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	33	prt	_	_
+31	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	33	prt	_	_
+32	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	33	aux	_	_
+33	aplazado	aplazar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	29	comp	_	_
+34	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	21	adjt	_	_
+35	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	36	spec	_	_
+36	mayoría	mayoría	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	44	subj	_	_
+37	de	de	SP	SP	matched=no|pos=adposition|type=preposition	36	mod	_	_
+38	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	39	spec	_	_
+39	plantilla	plantilla	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	37	comp	_	_
+40	de	de	SP	SP	matched=no|pos=adposition|type=preposition	36	mod	_	_
+41	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	42	spec	_	_
+42	equipo	equipo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	40	comp	_	_
+43	jerezano	jerezano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	42	mod	_	_
+44	estaba	estar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	34	comp	_	_
+45	afectada	afectar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	44	attr	_	_
+46	de	de	SP	SP	matched=no|pos=adposition|type=preposition	45	adjt	_	_
+47	gastroenteritis	gastroenteritis	NCFN000	NC	gen=feminine|matched=no|num=invariable|pos=noun|type=common	46	comp	_	_
+48	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	21	punc	_	_
+

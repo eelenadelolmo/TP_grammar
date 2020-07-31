@@ -1,0 +1,115 @@
+1	A	a	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	siguiente	siguiente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	compañía	compañía	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+8	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	mod	_	_
+9	Madrid	madrid	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	comp	_	_
+10	volvió	volver	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+11	a	a	SP	SP	matched=no|pos=adposition|type=preposition	10	pobj	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+13	teatro	teatro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	mod	_	_
+15	Montjuïc	montjuïc	NC00000	NC	matched=no|pos=noun|type=common	14	comp	_	_
+16	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	10	punc	_	_
+17	Festivales	festival	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	dobj	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	mod	_	_
+19	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+20	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	10	punc	_	_
+21	con	con	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+22	dos	2	Z	Z	matched=no|pos=number	23	spec	_	_
+23	obras	obra	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	21	comp	_	_
+24	:	:	Fd	Fd	matched=no|pos=punctuation|type=colon	10	punc	_	_
+25	Medida	medida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	modnomatch	_	_
+26	por	por	SP	SP	matched=no|pos=adposition|type=preposition	10	pobj	_	_
+27	Medida	medida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
+28	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	26	punc	_	_
+29	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	pobj	_	_
+30	Shakespeare	shakespeare	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	29	comp	_	_
+31	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	32	punc	_	_
+32	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	10	modnomatch	_	_
+33	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	34	spec	_	_
+34	mocedades	mocedad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	32	coor	_	_
+35	de	de	SP	SP	matched=no|pos=adposition|type=preposition	34	mod	_	_
+36	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	37	spec	_	_
+37	Cid	cid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	35	comp	_	_
+38	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+39	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	pobj	_	_
+40	Guillén	guillén	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	39	comp	_	_
+41	de	de	SP	SP	matched=no|pos=adposition|type=preposition	40	mod	_	_
+42	Castro	castro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	41	comp	_	_
+43	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	41	punc	_	_
+44	con	con	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+45	Ana	ana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	44	comp	_	_
+46	Belén	belén	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	45	mod	_	_
+47	en	en	SP	SP	matched=no|pos=adposition|type=preposition	10	pobj	_	_
+48	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	49	spec	_	_
+49	reparto	reparto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	47	comp	_	_
+50	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	47	punc	_	_
+
+1	Su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	3	spec	_	_
+2	última	último	AO0FS00	AO	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	interpretación	interpretación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+5	Barcelona	barcelona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+6	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+8	octubre_de_1969	[??:??/10/1969:??.??:??]	W	W	matched=no|pos=date	7	comp	_	_
+9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+10	en	en	SP	SP	matched=no|pos=adposition|type=preposition	6	attr	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+12	desaparecido	desaparecer	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	13	mod	_	_
+13	Teatro	teatro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+14	Nacional	nacional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	13	mod	_	_
+15	Calderón	calderón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
+16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	15	mod	_	_
+17	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
+18	Barca	barca	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Miguel	miguel	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+2	Narros	narros	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	1	mod	_	_
+3	la	lo	PP3FSA0	PP	case=accusative|gen=feminine|matched=no|num=singular|person=3|pos=pronoun|type=personal	4	dobj	_	_
+4	dirigió	dirigir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	modnomatch	_	_
+6	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	modnomatch	_	_
+7	sí	sí	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+9	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	10	spec	_	_
+10	niñas	niño	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+13	Moratín	moratín	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
+15	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	modnomatch	_	_
+16	Lluís	lluís	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	15	coor	_	_
+17	Pasqual	pasqual	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+19	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	hija	hijo	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+21	de	de	SP	SP	matched=no|pos=adposition|type=preposition	20	mod	_	_
+22	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	aire	aire	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
+24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	21	punc	_	_
+25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+26	Calderón	calderón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	25	comp	_	_
+27	de	de	SP	SP	matched=no|pos=adposition|type=preposition	26	mod	_	_
+28	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	29	spec	_	_
+29	Barca	barca	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	27	comp	_	_
+30	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	27	punc	_	_
+31	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	32	spec	_	_
+32	montaje	montaje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+33	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	38	subj	_	_
+34	no	no	RN	RN	matched=no|pos=adverb|type=negative	38	spec	_	_
+35	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	38	mphes	_	_
+36	llegó	llegar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	38	prt	_	_
+37	a	a	SP	SP	matched=no|pos=adposition|type=preposition	38	prt	_	_
+38	ver	ver	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	32	mod	_	_
+39	en	en	SP	SP	matched=no|pos=adposition|type=preposition	38	adjt	_	_
+40	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	41	spec	_	_
+41	capital	capital	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	39	comp	_	_
+42	catalana	catalán	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	41	mod	_	_
+43	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	32	punc	_	_
+

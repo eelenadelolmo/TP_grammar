@@ -1,0 +1,226 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	Sí	sí	rg	rg	_	3	advmod
+2	,	,	fc	fc	_	3	punct
+3	hay	haber	vaip3s0	vaip3s0	_	0	root
+4	muchos	mucho	di0mp0	di0mp0	_	5	det
+5	equipos	equipo	ncmp000	ncmp000	_	3	dobj
+6	de	de	sps00	sps00	_	5	prepn
+7	ésos	ese	pd0mp000	pd0mp000	_	6	pobj
+8	pequeñitos	pequeñito	aq0mp0	aq0mp0	_	7	amod
+9	.	.	fp	fp	_	3	punct
+
+1	Pero	pero	cc	cc	_	4	te
+2	nadie	nadie	pi0cs000	pi0cs000	_	4	nsubj
+3	los	él	pp3mpa00	pp3mpa00	_	4	dobj
+4	confundirá	confundir	vmif3s0	vmif3s0	_	0	root
+5	con	con	sps00	sps00	_	4	oobj
+6	el	el	da0ms0	da0ms0	_	7	det
+7	Real	real	ncms000	ncms000	_	5	pobj
+8	Madrid	Madrid	np00000	np00000	_	7	appos
+9	.	.	fp	fp	_	4	punct
+
+1	Ayer	ayer	rg	rg	_	6	advmod
+2	murió	morir	vmis3s0	vmis3s0	_	6	coord
+3	el	el	da0ms0	da0ms0	_	5	det
+4	séptimo	séptimo	ao0ms0	ao0ms0	_	5	amod
+5	proyecto	proyecto	ncms000	ncms000	_	2	nsubj
+6	y	y	cc	cc	_	0	root
+7	nació	nacer	vmis3s0	vmis3s0	_	6	coord
+8	el	el	da0ms0	da0ms0	_	9	det
+9	octavo	octavo	ao0ms0	ao0ms0	_	7	cpred
+10	.	.	fp	fp	_	6	punct
+
+1	Bebé	bebé	ncms000	ncms000	_	0	root
+2	prematuro	prematuro	aq0ms0	aq0ms0	_	1	amod
+3	.	.	fp	fp	_	1	punct
+
+1	Ni	ni	cc	cc	_	4	advmod
+2	siquiera	siquiera	rg	rg	_	1	advmod
+3	ha	haber	vaip3s0	vaip3s0	_	0	root
+4	llegado	llegar	vmp00sm	vmp00sm	_	3	vobj
+5	a	a	sps00	sps00	_	4	oobj
+6	sietemesino	sietemesino	aq0ms0	aq0ms0	_	5	pobj
+7	.	.	fp	fp	_	3	punct
+
+1	Ya	ya	rg	rg	_	6	advmod
+2	en	en	sps00	sps00	_	6	prepv
+3	enero	enero	ncms000	ncms000	_	2	pobj
+4	se	él	p0300000	p0300000	_	6	reflec
+5	ha	haber	vaip3s0	vaip3s0	_	9	coord
+6	acabado	acabar	vmp00sm	vmp00sm	_	5	vobj
+7	todo	todo	pi0ms000	pi0ms000	_	5	nsubj
+8	,	,	fc	fc	_	5	punct
+9	y	y	cc	cc	_	0	root
+10	todo	todo	pi0ms000	pi0ms000	_	11	nsubj
+11	vuelve	volver	vmip3s0	vmip3s0	_	9	coord
+12	a	a	sps00	sps00	_	11	prepv
+13	empezar	empezar	vmn0000	vmn0000	_	11	dobj
+14	,	,	fc	fc	_	11	punct
+15	en	en	sps00	sps00	_	11	prepv
+16	ese	ese	dd0ms0	dd0ms0	_	17	det
+17	ciclo	ciclo	ncms000	ncms000	_	15	pobj
+18	ininterrumpido	ininterrumpido	aq0ms0	aq0ms0	_	17	amod
+19	de	de	sps00	sps00	_	17	prepn
+20	la	el	da0fs0	da0fs0	_	22	det
+21	-	-	fg	fg	_	22	punct
+22	era	era	ncfs000	ncfs000	_	19	pobj
+23	Gil	Gil	np0000p	np0000p	_	22	appos
+24	-	-	fg	fg	_	22	punct
+25	.	.	fp	fp	_	9	punct
+
+1	Adiós	adiós	ncms000	ncms000	_	3	dep
+2	,	,	fc	fc	_	3	punct
+3	Copa	copa	ncfs000	ncfs000	_	0	root
+4	de	de	sps00	sps00	_	3	prepn
+5	la	el	da0fs0	da0fs0	_	6	det
+6	UEFA	UEFA	np00000	np00000	_	4	pobj
+7	.	.	fp	fp	_	3	punct
+
+1	Adiós	adiós	ncms000	ncms000	_	3	dep
+2	,	,	fc	fc	_	3	punct
+3	Liga	Liga	np0000a	np0000a	_	0	root
+4	.	.	fp	fp	_	3	punct
+
+1	Adiós	adiós	ncms000	ncms000	_	3	dep
+2	,	,	fc	fc	_	3	punct
+3	Copa	copa	ncms000	ncms000	_	0	root
+4	del	del	spcms	spcms	_	3	prepn
+5	Rey	rey	ncms000	ncms000	_	4	pobj
+6	.	.	fp	fp	_	3	punct
+
+1	Hasta	hasta	sps00	sps00	_	0	root
+2	el	el	da0ms0	da0ms0	_	3	det
+3	año	año	ncms000	ncms000	_	1	pobj
+4	que	que	pr0cn000	pr0cn000	_	5	nsubj
+5	viene	venir	vmip3s0	vmip3s0	_	3	rcmod
+6	.	.	fp	fp	_	1	punct
+
+1	Siempre	siempre	rg	rg	_	11	advmod
+2	hasta	hasta	sps00	sps00	_	11	prepv
+3	la	el	da0fs0	da0fs0	_	4	det
+4	temporada	temporada	ncfs000	ncfs000	_	2	pobj
+5	que	que	pr0cn000	pr0cn000	_	6	nsubj
+6	viene	venir	vmip3s0	vmip3s0	_	4	rcmod
+7	mientras	mientras	cs	cs	_	0	root
+8	ésta	este	pd0fs000	pd0fs000	_	11	nsubj
+9	todavía	todavía	rg	rg	_	11	advmod
+10	no	no	rn	rn	_	11	neg
+11	ha	haber	vaip3s0	vaip3s0	_	7	cobj
+12	alcanzado	alcanzar	vmp00sm	vmp00sm	_	11	vobj
+13	su	su	dp3cs0	dp3cs0	_	14	poss
+14	ecuador	ecuador	ncms000	ncms000	_	11	dobj
+15	.	.	fp	fp	_	7	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	Atleti	Atleti	np0000o	np0000o	_	11	nsubj
+3	,	,	fc	fc	_	11	punct
+4	en	en	sps00	sps00	_	11	prepv
+5	su	su	dp3cs0	dp3cs0	_	6	poss
+6	viaje	viaje	ncms000	ncms000	_	4	pobj
+7	a	a	sps00	sps00	_	6	prepn
+8	ninguna	ninguno	di0fs0	di0fs0	_	9	det
+9	parte	parte	ncfs000	ncfs000	_	7	pobj
+10	,	,	fc	fc	_	11	punct
+11	sigue	seguir	vmip3s0	vmip3s0	_	0	root
+12	inmerso	inmerso	aq0ms0	aq0ms0	_	11	cpred
+13	en	en	sps00	sps00	_	12	prepa
+14	su	su	dp3cs0	dp3cs0	_	16	poss
+15	eterno	eterno	aq0ms0	aq0ms0	_	16	amod
+16	retorno	retorno	ncms000	ncms000	_	13	pobj
+17	.	.	fp	fp	_	11	punct
+
+1	-	-	fg	fg	_	3	punct
+2	Qué	qué	pt0cs000	pt0cs000	_	4	dobj
+3	pueden	poder	vmip3p0	vmip3p0	_	0	root
+4	pensar	pensar	vmn0000	vmn0000	_	3	dobj
+5	sus	su	dp3cp0	dp3cp0	_	6	poss
+6	aficionados	aficionado	ncmp000	ncmp000	_	3	nsubj
+7	?	?	fit	fit	_	3	punct
+
+1	-	-	fg	fg	_	4	punct
+2	A	a	sps00	sps00	_	5	oobj
+3	qué	qué	pt0cs000	pt0cs000	_	2	pobj
+4	pueden	poder	vmip3p0	vmip3p0	_	0	root
+5	agarrarse	agarrar	vmn0000	vmn0000	_	4	dobj
+6	?	?	fit	fit	_	4	punct
+
+1	-	-	fg	fg	_	5	punct
+2	Qué	qué	dt0cn0	dt0cn0	_	3	det
+3	esperanza	esperanza	ncfs000	ncfs000	_	5	nsubj
+4	les	él	pp3cpd00	pp3cpd00	_	5	iobj
+5	cabe	caber	vmip3s0	vmip3s0	_	0	root
+6	?	?	fit	fit	_	5	punct
+
+1	Son	ser	vsip3p0	vsip3p0	_	0	root
+2	como	como	cs	cs	_	1	attr
+3	esos	ese	dd0mp0	dd0mp0	_	4	det
+4	campesinos	campesino	ncmp000	ncmp000	_	2	cobj
+5	de	de	sps00	sps00	_	4	prepn
+6	Chiapas	Chiapas	np0000l	np0000l	_	5	pobj
+7	que	que	pr0cn000	pr0cn000	_	14	nsubj
+8	,	,	fc	fc	_	14	punct
+9	secularmente	secularmente	rg	rg	_	10	advmod
+10	desheredados	desheredado	aq0mpp	aq0mpp	_	14	cpred
+11	,	,	fc	fc	_	14	punct
+12	ya	ya	rg	rg	_	14	advmod
+13	no	no	rn	rn	_	14	neg
+14	creen	creer	vmip3p0	vmip3p0	_	4	rcmod
+15	en	en	sps00	sps00	_	14	oobj
+16	la	el	da0fs0	da0fs0	_	17	det
+17	modificación	modificación	ncfs000	ncfs000	_	15	pobj
+18	del	del	spcms	spcms	_	17	prepn
+19	sistema	sistema	ncms000	ncms000	_	18	pobj
+20	,	,	fc	fc	_	14	punct
+21	aunque	aunque	cs	cs	_	14	advcl
+22	,	,	fc	fc	_	28	punct
+23	en	en	sps00	sps00	_	28	prepv
+24	su	su	dp3cs0	dp3cs0	_	25	poss
+25	desesperación	desesperación	ncfs000	ncfs000	_	23	pobj
+26	,	,	fc	fc	_	28	punct
+27	se	él	p0300000	p0300000	_	28	reflec
+28	vean	ver	vmsp3p0	vmsp3p0	_	21	cobj
+29	obligados	obligado	aq0mpp	aq0mpp	_	28	cpred
+30	a	a	sps00	sps00	_	29	oobj
+31	combatirlo	combatir	vmn0000	vmn0000	_	30	pobj
+32	con	con	sps00	sps00	_	31	prepv
+33	las	el	da0fp0	da0fp0	_	34	det
+34	armas	arma	ncfp000	ncfp000	_	32	pobj
+35	.	.	fp	fp	_	1	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	Atleti	Atleti	np0000o	np0000o	_	3	nsubj
+3	fue	ser	vsis3s0	vsis3s0	_	8	coord
+4	zapatista	zapatista	aq0cs0	aq0cs0	_	3	attr
+5	en	en	sps00	sps00	_	3	prepv
+6	el	el	da0ms0	da0ms0	_	7	det
+7	Bernabéu	Bernabéu	np0000p	np0000p	_	5	pobj
+8	y	y	cc	cc	_	0	root
+9	no	no	rn	rn	_	10	neg
+10	consiguió	conseguir	vmis3s0	vmis3s0	_	8	coord
+11	acabar	acabar	vmn0000	vmn0000	_	10	dobj
+12	con	con	sps00	sps00	_	11	oobj
+13	ese	ese	dd0ms0	dd0ms0	_	14	det
+14	poder	poder	ncms000	ncms000	_	12	pobj
+15	oficialista	oficialista	aq0cs0	aq0cs0	_	14	amod
+16	que	que	pr0cn000	pr0cn000	_	18	nsubj
+17	todavía	todavía	rg	rg	_	18	advmod
+18	es	ser	vsip3s0	vsip3s0	_	14	rcmod
+19	el	el	da0ms0	da0ms0	_	20	det
+20	Real	real	ncms000	ncms000	_	18	nsubj
+21	Madrid	Madrid	np00000	np00000	_	20	appos
+22	de	de	sps00	sps00	_	20	prepn
+23	las	el	da0fp0	da0fp0	_	24	det
+24	arcas	arca	ncfp000	ncfp000	_	26	coord
+25	vacías	vacío	aq0fp0	aq0fp0	_	24	amod
+26	y	y	cc	cc	_	22	pobj
+27	la	el	da0fs0	da0fs0	_	28	det
+28	caja	caja	ncfs000	ncfs000	_	26	coord
+29	de	de	sps00	sps00	_	28	prepn
+30	Pandora	Pandora	np0000p	np0000p	_	29	pobj
+31	llena	lleno	aq0fs0	aq0fs0	_	30	amod
+32	.	.	fp	fp	_	8	punct

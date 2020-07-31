@@ -1,0 +1,75 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	Chaves	Chaves	np00000	np00000	_	2	nsubj
+2	estuvo	estar	vmis3s0	vmis3s0	_	0	root
+3	ayer	ayer	rg	rg	_	2	advmod
+4	convincente	convincente	aq0cs0	aq0cs0	_	2	attr
+5	en	en	sps00	sps00	_	2	prepv
+6	Tribuna	Tribuna	np0000l	np0000l	_	5	pobj
+7	Barcelona	Barcelona	np0000l	np0000l	_	6	appos
+8	al	al	spcms	spcms	_	2	prepv
+9	lamentar	lamentar	vmn0000	vmn0000	_	8	pobj
+10	las	el	da0fp0	da0fp0	_	11	det
+11	resistencias	resistencia	ncfp000	ncfp000	_	9	dobj
+12	a	a	sps00	sps00	_	11	prepn
+13	la	el	da0fs0	da0fs0	_	14	det
+14	multilateralidad	multilateralidad	ncfs000	ncfs000	_	12	pobj
+15	cuando	cuando	cs	cs	_	9	advcl
+16	se	se	p0000000	p0000000	_	17	reflec
+17	trata	tratar	vmip3s0	vmip3s0	_	15	cobj
+18	de	de	sps00	sps00	_	17	cobj
+19	resolver	resolver	vmn0000	vmn0000	_	18	pobj
+20	problemas	problema	ncmp000	ncmp000	_	19	dobj
+21	generales	general	aq0cp0	aq0cp0	_	20	amod
+22	.	.	fp	fp	_	2	punct
+
+1	Para	para	sps00	sps00	_	19	prepv
+2	cuestiones	cuestión	ncfp000	ncfp000	_	1	pobj
+3	que	que	pr0cn000	pr0cn000	_	4	nsubj
+4	afectan	afectar	vmip3p0	vmip3p0	_	2	rcmod
+5	a	a	sps00	sps00	_	4	dobj
+6	más	más	rg	rg	_	8	advmod
+7	de	de	sps00	sps00	_	8	prep
+8	una	uno	di0fs0	di0fs0	_	9	det
+9	autonomía	autonomía	ncfs000	ncfs000	_	5	pobj
+10	(	(	fpa	fpa	_	11	punct
+11	como	como	cs	cs	_	4	dep
+12	la	el	da0fs0	da0fs0	_	13	det
+13	financiación	financiación	ncfs000	ncfs000	_	11	cobj
+14	)	)	fpt	fpt	_	11	punct
+15	,	,	fc	fc	_	19	punct
+16	el	el	da0ms0	da0ms0	_	17	det
+17	presidente	presidente	ncms000	ncms000	_	19	nsubj
+18	andaluz	andaluz	aq0ms0	aq0ms0	_	17	amod
+19	pide	pedir	vmip3s0	vmip3s0	_	0	root
+20	menos	menos	rg	rg	_	21	advmod
+21	reuniones	reunión	ncfp000	ncfp000	_	23	coord
+22	bilaterales	bilateral	aq0cp0	aq0cp0	_	21	amod
+23	y	y	cc	cc	_	19	dobj
+24	más	más	rg	rg	_	25	advmod
+25	discusión	discusión	ncfs000	ncfs000	_	23	coord
+26	de	de	sps00	sps00	_	25	prepn
+27	todos	todo	pi0mp000	pi0mp000	_	26	pobj
+28	en	en	sps00	sps00	_	19	prepv
+29	búsqueda	búsqueda	ncfs000	ncfs000	_	28	pobj
+30	de	de	sps00	sps00	_	29	prepn
+31	amplios	amplio	aq0mp0	aq0mp0	_	32	amod
+32	consensos	consenso	ncmp000	ncmp000	_	30	pobj
+33	.	.	fp	fp	_	19	punct
+
+1	En	en	sps00	sps00	_	5	prepv
+2	esa	ese	dd0fs0	dd0fs0	_	3	det
+3	línea	línea	ncfs000	ncfs000	_	1	pobj
+4	,	,	fc	fc	_	5	punct
+5	reiteró	reiterar	vmis3s0	vmis3s0	_	0	root
+6	la	el	da0fs0	da0fs0	_	7	det
+7	necesidad	necesidad	ncfs000	ncfs000	_	5	dobj
+8	de	de	sps00	sps00	_	7	prepn
+9	replantear	replantear	vmn0000	vmn0000	_	8	pobj
+10	el	el	da0ms0	da0ms0	_	11	det
+11	Senado	Senado	np00000	np00000	_	9	dobj
+12	.	.	fp	fp	_	5	punct

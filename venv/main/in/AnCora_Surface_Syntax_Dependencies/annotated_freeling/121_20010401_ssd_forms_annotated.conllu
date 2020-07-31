@@ -1,0 +1,75 @@
+1	EL	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	JURADO	jurado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	presidido	presidir	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+5	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	agnt	_	_
+6	Miguel	miguel	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+7	García	garcía	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	mod	_	_
+8	Posada	posar	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	modnomatch	_	_
+9	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+10	concedió	conceder	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	premio	premio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	dobj	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
+14	novela	novela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+15	a	a	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+16	Juan	juan	RG	RG	matched=no|pos=adverb|type=general	15	comp	_	_
+17	Marsé	marsé	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	10	modnomatch	_	_
+18	por	por	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+19	Rabos	rabo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	18	comp	_	_
+20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	19	mod	_	_
+21	lagartija	lagartija	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+22	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	17	dobj	_	_
+23	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
+24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	22	coor	_	_
+25	poesía	poesía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	mod	_	_
+26	a	a	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+27	Antonio	antonio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
+28	Cabrera	cabrero	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	27	mod	_	_
+29	por	por	SP	SP	matched=no|pos=adposition|type=preposition	10	modnomatch	_	_
+30	En	en	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+31	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	32	spec	_	_
+32	estación	estación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	30	comp	_	_
+33	perpetua	perpetuo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	32	mod	_	_
+34	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	30	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	0	top	_	_
+2	catalán	catalán	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	17	punc	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	galardón	galardón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+6	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	17	coor	_	_
+7	para	para	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+8	Baltasar	baltasar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	7	comp	_	_
+9	Porcel	porcel	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
+10	por	por	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+11	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	cor	cor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+14	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
+15	porc	porc	NC00000	NC	matched=no|pos=noun|type=common	13	comp	_	_
+16	senglar	senglar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	6	attr	_	_
+17	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
+18	Jaume	jaume	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	17	coor	_	_
+19	Pont	pont	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	dobj	_	_
+20	por	por	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+21	Llibre	l_libre	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+22	de	de	SP	SP	matched=no|pos=adposition|type=preposition	21	mod	_	_
+23	frontera	frontera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
+24	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+2	gallego	gallego	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	1	comp	_	_
+3	ganó	ganar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+4	Suso	suso	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+6	Toro	toro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+8	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	coor	_	_
+10	euskera	euskera	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+12	Ramon	ramo_n	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+13	Saizarbitoria	saizarbitoria	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	12	mod	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+

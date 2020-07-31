@@ -1,0 +1,63 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	LA	el	da0fs0	da0fs0	_	2	det
+2	POLICÍA	policía	ncfs000	ncfs000	_	6	nsubj
+3	COSTERA	costero	aq0fs0	aq0fs0	_	2	amod
+4	de	de	sps00	sps00	_	2	prepn
+5	Grecia	Grecia	np00000	np00000	_	4	pobj
+6	recibió	recibir	vmis3s0	vmis3s0	_	0	root
+7	ayer	ayer	rg	rg	_	8	advmod
+8	una	uno	di0fs0	di0fs0	_	9	det
+9	llamada	llamada	ncfs000	ncfs000	_	6	dobj
+10	de	de	sps00	sps00	_	9	prepn
+11	auxilio	auxilio	ncms000	ncms000	_	10	pobj
+12	de	de	sps00	sps00	_	9	prepn
+13	una	uno	di0fs0	di0fs0	_	14	det
+14	nave	nave	ncfs000	ncfs000	_	12	pobj
+15	que	que	pr0cn000	pr0cn000	_	16	nsubj
+16	pasaba	pasar	vmii3s0	vmii3s0	_	21	rcmod
+17	delante	delante	rg	rg	_	16	advmod
+18	de	de	sps00	sps00	_	17	prep
+19	sus	su	dp3cp0	dp3cp0	_	20	poss
+20	costas	costa	ncfp000	ncfp000	_	18	pobj
+21	y	y	cc	cc	_	14	dep
+22	que	que	pr0cn000	pr0cn000	_	24	nsubj
+23	se	él	p0300000	p0300000	_	24	reflec
+24	dirigía	dirigir	vmii3s0	vmii3s0	_	21	rcmod
+25	presuntamente	presuntamente	rg	rg	_	24	advmod
+26	hacia	hacia	sps00	sps00	_	24	prepv
+27	la	el	da0fs0	da0fs0	_	28	det
+28	isla	isla	ncfs000	ncfs000	_	26	pobj
+29	de	de	sps00	sps00	_	28	prepn
+30	Creta	Creta	np00000	np00000	_	29	pobj
+31	.	.	fp	fp	_	6	punct
+
+1	Según	según	sps00	sps00	_	9	advcl
+2	las	el	da0fp0	da0fp0	_	3	det
+3	autoridades	autoridad	ncfp000	ncfp000	_	1	pobj
+4	griegas	griego	aq0fp0	aq0fp0	_	3	amod
+5	,	,	fc	fc	_	9	punct
+6	en	en	sps00	sps00	_	9	prepv
+7	el	el	da0ms0	da0ms0	_	8	det
+8	barco	barco	ncms000	ncms000	_	6	pobj
+9	viajan	viajar	vmip3p0	vmip3p0	_	0	root
+10	cerca	cerca	rg	rg	_	13	advmod
+11	de	de	sps00	sps00	_	10	prep
+12	230	230	z	z	_	10	num
+13	inmigrantes	inmigrante	nccp000	nccp000	_	9	nsubj
+14	,	,	fc	fc	_	13	punct
+15	la	el	da0fs0	da0fs0	_	16	det
+16	mayoría	mayoría	ncfs000	ncfs000	_	17	dep
+17	procedentes	procedente	aq0cp0	aq0cp0	_	13	amod
+18	de	de	sps00	sps00	_	21	coord
+19	Asia	Asia	np00000	np00000	_	18	pobj
+20	Central	central	ncms000	ncms000	_	19	appos
+21	y	y	cc	cc	_	17	dep
+22	de	de	sps00	sps00	_	21	coord
+23	Oriente	Oriente	np0000l	np0000l	_	22	pobj
+24	Próximo	Próximo	np0000l	np0000l	_	23	appos
+25	.	.	fp	fp	_	9	punct

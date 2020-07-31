@@ -1,0 +1,38 @@
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	empresa	empresa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	espectáculos	espectáculo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+5	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+6	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	5	adjt	_	_
+7	administrador	administrador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+9	Miguel	miguel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+10	Ferrer	ferrer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	5	dobj	_	_
+11	Perelló	perelló	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	5	modnomatch	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	volumen	volumen	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	facturación	facturación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	ascendió	ascender	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	pobj	_	_
+7	139_millones_de_pesetas	$_ESP:139000000	Zm	Zm	matched=no|pos=number|type=currency	6	comp	_	_
+8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+9	1998	1998	Z	Z	matched=no|pos=number	8	comp	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+11	año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	adjt	_	_
+12	en	en	SP	SP	matched=no|pos=adposition|type=preposition	15	modnomatch	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	12	comp	_	_
+15	perdió	perder	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	11	mod	_	_
+16	más	más	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	modnomatch	_	_
+18	seis_millones_de_pesetas	$_ESP:6000000	Zm	Zm	matched=no|pos=number|type=currency	16	modnomatch	_	_
+19	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	21	modnomatch	_	_
+20	últimos	último	AO0MP00	AO	gen=masculine|matched=no|num=plural|pos=adjective|type=ordinal	21	mod	_	_
+21	datos	dato	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	dobj	_	_
+22	conocidos	conocer	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	21	mod	_	_
+23	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	21	modnomatch	_	_
+24	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+

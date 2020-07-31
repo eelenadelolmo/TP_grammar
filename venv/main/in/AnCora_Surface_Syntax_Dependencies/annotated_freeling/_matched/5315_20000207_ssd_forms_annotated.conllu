@@ -1,0 +1,127 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	asturiano	asturiano	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	Yago	yacer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+4	Lamela	lame_la	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+6	subcampeón	subcampeón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+7	mundial	mundial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
+9	salto	salto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
+11	longitud	longitud	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+12	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	3	punc	_	_
+13	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+14	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
+15	aire	aire	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+16	libre	libre	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	15	mod	_	_
+17	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	3	punc	_	_
+18	Sevilla	sevilla	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+19	`	`	Fe	Fe	matched=no|pos=punctuation|type=quotation	3	punc	_	_
+20	99	99	Z	Z	matched=no|pos=number	3	modnomatch	_	_
+21	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	3	punc	_	_
+22	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	pobj	_	_
+23	en	en	SP	SP	matched=no|pos=adposition|type=preposition	22	coor	_	_
+24	pista	pista	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
+25	cubierta	cubrir	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	24	mod	_	_
+26	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	3	punc	_	_
+27	Maebeashi	maebeashi	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+28	`	`	Fe	Fe	matched=no|pos=punctuation|type=quotation	3	punc	_	_
+29	99	99	Z	Z	matched=no|pos=number	3	modnomatch	_	_
+30	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	3	punc	_	_
+31	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	3	punc	_	_
+32	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+33	manifestó	manifestar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	3	modnomatch	_	_
+34	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	33	adjt	_	_
+35	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	33	punc	_	_
+36	lunes	[L:??/??/??:??.??:??]	W	W	matched=no|pos=date	33	adjt	_	_
+37	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	33	punc	_	_
+38	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	33	dobj	_	_
+39	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	40	spec	_	_
+40	deseo	deseo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	44	subj	_	_
+41	para	para	SP	SP	matched=no|pos=adposition|type=preposition	44	adjt	_	_
+42	esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	43	spec	_	_
+43	temporada	temporada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	41	comp	_	_
+44	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	38	comp	_	_
+45	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	modnomatch	_	_
+46	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
+47	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	3	punc	_	_
+48	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+49	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	3	punc	_	_
+50	batir	batir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	3	modnomatch	_	_
+51	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	52	spec	_	_
+52	récord	récord	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	50	dobj	_	_
+53	de	de	SP	SP	matched=no|pos=adposition|type=preposition	52	mod	_	_
+54	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	53	comp	_	_
+55	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	3	punc	_	_
+56	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+57	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	3	punc	_	_
+58	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	modnomatch	_	_
+59	él	él	PP3MS00	PP	gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	61	subj	_	_
+60	mismo	mismo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	59	mod	_	_
+61	posee	poseer	VMM02S0	VMM	matched=no|mood=imperative|num=singular|person=2|pos=verb|type=main	58	comp	_	_
+62	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	63	modnomatch	_	_
+63	8,56_metros	LN_m:8.56	Zu	Zu	matched=no|pos=number|type=unit	61	dobj	_	_
+64	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	63	modnomatch	_	_
+65	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+66	acercarse	acercarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	65	coor	_	_
+67	a	a	SP	SP	matched=no|pos=adposition|type=preposition	66	adjt	_	_
+68	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	69	spec	_	_
+69	plusmarca	plusmarca	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	67	comp	_	_
+70	mundial	mundial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	69	mod	_	_
+71	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	67	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	récord	récord	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	subj	_	_
+3	mundial	mundial	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+5	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+6	posesión	posesión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+9	estadounidense	estadounidense	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	10	mod	_	_
+10	Mike	mike	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	modnomatch	_	_
+11	Powell	powell	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	mod	_	_
+12	con	con	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+13	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	14	spec	_	_
+14	marca	marca	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+16	8,95_metros	LN_m:8.95	Zu	Zu	matched=no|pos=number|type=unit	15	comp	_	_
+17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
+18	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+19	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	18	punc	_	_
+20	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	18	attr	_	_
+21	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	18	punc	_	_
+22	a_medio_plazo	a_medio_plazo	RG	RG	matched=no|pos=adverb|type=general	18	adjt	_	_
+23	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	18	punc	_	_
+24	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	26	spec	_	_
+25	principal	principal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	26	mod	_	_
+26	objetivo	objetivo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	modnomatch	_	_
+27	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	18	punc	_	_
+28	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	18	modnomatch	_	_
+29	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	18	punc	_	_
+30	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+31	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	32	spec	_	_
+32	carrera	carrera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	30	comp	_	_
+33	deportiva	deportivo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	32	mod	_	_
+34	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	30	punc	_	_
+35	según	según	CS	CS	matched=no|pos=conjunction|type=subordinating	18	adjt	_	_
+36	indicó	indicar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	35	comp	_	_
+37	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	36	adjt	_	_
+38	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	40	spec	_	_
+39	propio	propio	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	40	mod	_	_
+40	Lamela	lame_la	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	36	dobj	_	_
+41	en	en	SP	SP	matched=no|pos=adposition|type=preposition	36	adjt	_	_
+42	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	41	comp	_	_
+43	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	35	punc	_	_
+44	en	en	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+45	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	46	spec	_	_
+46	sede	sede	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	44	comp	_	_
+47	central	central	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	46	mod	_	_
+48	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+49	Telefónica	telefónico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	48	comp	_	_
+50	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	48	punc	_	_
+51	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	53	spec	_	_
+52	nuevo	nuevo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	53	mod	_	_
+53	patrocinador	patrocinador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	modnomatch	_	_
+54	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	53	punc	_	_
+

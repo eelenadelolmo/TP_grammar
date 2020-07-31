@@ -1,0 +1,16 @@
+1	Perros	perro	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	12	subj	_	_
+2	'	'	Fe	Fe	matched=yes: subj child of top deprel|pos=punctuation|type=quotation	3	modnomatch	_	_
+3	civilizados	civilizar	VMP00PM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	1	mod	_	_
+4	'	'	Fe	Fe	matched=yes: subj child of top deprel|pos=punctuation|type=quotation	3	modnomatch	_	_
+5	con	con	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	hombre	hombre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+9	¡	¡	Faa	Faa	matched=no|pos=punctuation|punctenclose=open|type=exclamationmark	12	punc	_	_
+10	aún	aun	RG	RG	matched=no|pos=adverb|type=general	12	adjt	_	_
+11	no	no	RN	RN	matched=no|pos=adverb|type=negative	12	spec	_	_
+12	saben	saber	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+13	escupir	escupir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	12	dobj	_	_
+14	!	!	Fat	Fat	matched=no|pos=punctuation|punctenclose=close|type=exclamationmark	12	punc	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
+

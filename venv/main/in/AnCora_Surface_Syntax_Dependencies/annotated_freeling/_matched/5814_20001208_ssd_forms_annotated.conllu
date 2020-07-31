@@ -1,0 +1,251 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	gobernador	gobernador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	22	subj	_	_
+3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
+4	Florida	florido	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	3	comp	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	republicano	republicano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	modnomatch	_	_
+8	Jeb	jeb	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	7	mod	_	_
+9	Bush	bus_h	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	modnomatch	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+11	a	a	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+13	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	15	subj	_	_
+14	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	15	mphes	_	_
+15	consideraba	considerar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	11	comp	_	_
+16	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	17	spec	_	_
+17	estrella	estrella	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	dobj	_	_
+18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
+19	ascendencia	ascendencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+20	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+21	puede	poder	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	22	prt	_	_
+22	resultar	resultar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
+23	uno	uno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	22	dobj	_	_
+24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	23	mod	_	_
+25	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	27	spec	_	_
+26	grandes	grande	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	27	mod	_	_
+27	perdedores	perdedor	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	24	comp	_	_
+28	de	de	SP	SP	matched=no|pos=adposition|type=preposition	23	mod	_	_
+29	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	30	spec	_	_
+30	elecciones	elección	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	28	comp	_	_
+31	de	de	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
+32	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	33	spec	_	_
+33	7_de_noviembre	[??:7/11/??:??.??:??]	W	W	matched=no|pos=date	31	comp	_	_
+34	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	22	punc	_	_
+35	coincidieron	coincidir	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	22	modnomatch	_	_
+36	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	35	adjt	_	_
+37	fuentes	fuente	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	35	subj	_	_
+38	políticas	político	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	37	mod	_	_
+39	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	35	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	menor	menor	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	8	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+4	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+5	Bush	bus_h	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
+6	no	no	RN	RN	matched=no|pos=adverb|type=negative	8	spec	_	_
+7	pudo	poder	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	8	prt	_	_
+8	garantizar	garantizar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
+9	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	10	spec	_	_
+10	victoria	victoria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
+11	cómoda	cómodo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	10	mod	_	_
+12	a	a	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+13	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	14	spec	_	_
+14	hermano	hermano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+15	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	8	modnomatch	_	_
+16	candidato	candidato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	coor	_	_
+17	presidencial	presidencial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+19	George	george	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	8	modnomatch	_	_
+20	W.	w.	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	19	dobj	_	_
+21	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	19	punc	_	_
+22	en	en	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+23	Florida	florido	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	22	comp	_	_
+24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	25	punc	_	_
+25	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	19	modnomatch	_	_
+26	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	27	spec	_	_
+27	imagen	imagen	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	25	coor	_	_
+28	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	30	mphes	_	_
+29	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	30	aux	_	_
+30	deteriorado	deteriorar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	8	modnomatch	_	_
+31	en_medio_de	en_medio_de	SP	SP	matched=no|pos=adposition|type=preposition	30	adjt	_	_
+32	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	34	spec	_	_
+33	alto	alto	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	34	mod	_	_
+34	voltaje	voltaje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	31	comp	_	_
+35	partidista	partidista	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	34	mod	_	_
+36	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	38	subj	_	_
+37	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	38	aux	_	_
+38	suscitado	suscitar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	34	mod	_	_
+39	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	41	spec	_	_
+40	reñidos	reñir	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	41	mod	_	_
+41	comicios	comicio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	38	dobj	_	_
+42	en	en	SP	SP	matched=no|pos=adposition|type=preposition	38	adjt	_	_
+43	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	44	spec	_	_
+44	estado	estado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	42	comp	_	_
+45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	30	punc	_	_
+
+1	Jeb	jeb	AQ0CN00	AQ	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=adjective|type=qualificative	2	mod	_	_
+2	Bush	bus_h	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	4	aux	_	_
+4	derrotado	derrotar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+6	1994	1994	Z	Z	matched=no|pos=number	5	comp	_	_
+7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+8	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	10	spec	_	_
+9	primer	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	10	mod	_	_
+10	esfuerzo	esfuerzo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+11	por	por	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+12	alcanzar	alcanzar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	11	comp	_	_
+13	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	gobernación	gobernación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	dobj	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+16	Florida	florido	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	15	comp	_	_
+17	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+2	esa	ese	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	3	spec	_	_
+3	ocasión	ocasión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+5	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	6	spec	_	_
+6	compañero	compañero	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	mod	_	_
+8	candidatura	candidatura	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+9	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+10	Tom	tom	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	attr	_	_
+11	Feeney	feeney	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	mod	_	_
+12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	modnomatch	_	_
+14	ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	9	adjt	_	_
+15	también	también	RG	RG	matched=no|pos=adverb|type=general	9	adjt	_	_
+16	controvertido	controvertir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	17	mod	_	_
+17	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	mod	_	_
+19	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	Cámara	cámara	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+21	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	mod	_	_
+22	Representantes	representante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	21	comp	_	_
+23	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+24	Florida	florido	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	23	comp	_	_
+25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	23	punc	_	_
+
+1	Según	según	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	diario	diario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	The	the	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	mod	_	_
+5	New	new	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+6	York	york	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	mod	_	_
+7	Times	timar	VMSP2S0	VMS	matched=no|mood=subjunctive|num=singular|person=2|pos=verb|tense=present|type=main	0	top	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+9	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	10	spec	_	_
+10	republicanos	republicano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	11	subj	_	_
+11	saben	saber	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	7	modnomatch	_	_
+12	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	11	dobj	_	_
+13	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	14	spec	_	_
+14	próximos	próximo	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	17	subj	_	_
+15	dos	2	Z	Z	matched=no|pos=number	16	spec	_	_
+16	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	17	adjt	_	_
+17	serán	ser	VSIF3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=semiauxiliary	12	comp	_	_
+18	muy	muy	RG	RG	matched=no|pos=adverb|type=general	19	spec	_	_
+19	duros	duro	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	17	attr	_	_
+20	en	en	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+21	Florida	florido	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	20	comp	_	_
+22	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	32	punc	_	_
+23	pues	pues	CS	CS	matched=no|pos=conjunction|type=subordinating	32	coor	_	_
+24	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	25	spec	_	_
+25	demócratas	demócrata	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	26	subj	_	_
+26	saben	saber	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	23	comp	_	_
+27	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	32	coor	_	_
+28	Jeb	jeb	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	29	mod	_	_
+29	Bush	bus_h	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	30	subj	_	_
+30	está	estar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	27	comp	_	_
+31	debilitado	debilitar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	30	attr	_	_
+32	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	17	adjt	_	_
+33	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	32	coor	_	_
+34	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	35	spec	_	_
+35	partidismo	partidismo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	39	subj	_	_
+36	electoral	electoral	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	35	mod	_	_
+37	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	39	iobj	_	_
+38	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	39	aux	_	_
+39	hecho	hacer	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	33	comp	_	_
+40	perder	perder	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	39	dobj	_	_
+41	apoyo	apoyo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	40	dobj	_	_
+42	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	demócratas	demócrata	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
+3	acusan	acusar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	gobernador	gobernador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
+8	orquestar	orquestar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	7	comp	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	convocatoria	convocatoria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+12	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+13	sesión	sesión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+14	especial	especial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	13	mod	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+16	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
+17	Legislativo	legislativo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+19	Florida	florido	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	18	comp	_	_
+20	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	21	subj	_	_
+21	comenzará	comenzar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	3	modnomatch	_	_
+22	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	21	adjt	_	_
+23	con	con	SP	SP	matched=no|pos=adposition|type=preposition	21	adjt	_	_
+24	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	25	spec	_	_
+25	propósito	propósito	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
+26	de	de	SP	SP	matched=no|pos=adposition|type=preposition	21	adjt	_	_
+27	seleccionar	seleccionar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	26	comp	_	_
+28	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	29	spec	_	_
+29	delegados	delegado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	27	dobj	_	_
+30	presidenciales	presidencial	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	29	mod	_	_
+31	de	de	SP	SP	matched=no|pos=adposition|type=preposition	27	adjt	_	_
+32	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	33	spec	_	_
+33	estado	estado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	31	comp	_	_
+34	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	intervención	intervención	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Legislativo	legislativo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	estatal	estatal	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+8	dominado	dominar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	14	pred	_	_
+9	por	por	SP	SP	matched=no|pos=adposition|type=preposition	8	agnt	_	_
+10	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	11	spec	_	_
+11	republicanos	republicano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	comp	_	_
+12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+13	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	14	mphes	_	_
+14	interpreta	interpretar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+15	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	14	adjt	_	_
+16	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	17	spec	_	_
+17	esfuerzo	esfuerzo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+18	por	por	SP	SP	matched=no|pos=adposition|type=preposition	14	modnomatch	_	_
+19	asegurarle	asegurarle	VMSI3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	14	modnomatch	_	_
+20	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	22	spec	_	_
+21	veinticinco	25	Z	Z	matched=no|pos=number	22	spec	_	_
+22	votos	voto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	19	dobj	_	_
+23	de	de	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+24	Florida	florido	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	23	comp	_	_
+25	a	a	SP	SP	matched=no|pos=adposition|type=preposition	14	modnomatch	_	_
+26	George	george	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	14	modnomatch	_	_
+27	W.	w.	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	dobj	_	_
+28	Bush	bus_h	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	27	mod	_	_
+29	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	26	punc	_	_
+30	por	por	SP	SP	matched=no|pos=adposition|type=preposition	41	adjt	_	_
+31	si	si	CS	CS	matched=no|pos=conjunction|type=subordinating	30	comp	_	_
+32	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	33	spec	_	_
+33	tribunales	tribunal	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	34	subj	_	_
+34	propician	propiciar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	31	comp	_	_
+35	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	36	spec	_	_
+36	victoria	victoria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	34	dobj	_	_
+37	de	de	SP	SP	matched=no|pos=adposition|type=preposition	36	mod	_	_
+38	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	40	spec	_	_
+39	demócrata	demócrata	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	40	mod	_	_
+40	Albert	albert	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	37	comp	_	_
+41	Gore	gore	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	14	modnomatch	_	_
+42	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	41	punc	_	_
+

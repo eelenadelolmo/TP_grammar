@@ -1,0 +1,34 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	Por	por	sps00	sps00	_	0	root
+2	la	el	da0fs0	da0fs0	_	4	det
+3	sencilla	sencillo	aq0fs0	aq0fs0	_	4	amod
+4	razón	razón	ncfs000	ncfs000	_	1	pobj
+5	de	de	sps00	sps00	_	4	prepn
+6	que	que	cs	cs	_	5	pobj
+7	es	ser	vsip3s0	vsip3s0	_	16	cobj
+8	casi	casi	rg	rg	_	9	advmod
+9	seguro	seguro	aq0ms0	aq0ms0	_	7	attr
+10	que	que	cs	cs	_	6	cobj
+11	no	no	rn	rn	_	12	neg
+12	bastará	bastar	vmif3s0	vmif3s0	_	16	cobj
+13	su	su	dp3cs0	dp3cs0	_	15	poss
+14	noble	noble	aq0cs0	aq0cs0	_	15	amod
+15	intención	intención	ncfs000	ncfs000	_	12	nsubj
+16	para	para	sps00	sps00	_	10	cobj
+17	que	que	pr000000	pr000000	_	16	pobj
+18	le	él	pp3csd00	pp3csd00	_	17	iobj
+19	permitan	permitir	vmsp3p0	vmsp3p0	_	17	cobj
+20	cumplir	cumplir	vmn0000	vmn0000	_	17	cobj
+21	el	el	da0ms0	da0ms0	_	22	det
+22	precepto	precepto	ncms000	ncms000	_	20	dobj
+23	cristiano	cristiano	aq0ms0	aq0ms0	_	22	amod
+24	de	de	sps00	sps00	_	22	prepn
+25	ayudar	ayudar	vmn0000	vmn0000	_	24	pobj
+26	al	al	spcms	spcms	_	25	dobj
+27	prójimo	prójimo	ncms000	ncms000	_	26	pobj
+28	.	.	fp	fp	_	1	punct

@@ -1,0 +1,79 @@
+1	Temer	temer	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	6	subj	_	_
+2	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	adjt	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	4	spec	_	_
+4	Camp	camp	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	comp	_	_
+5	Nou	no_u	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	mod	_	_
+6	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+7	temer	temer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	6	attr	_	_
+8	algo	algo	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	7	dobj	_	_
+9	más	más	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
+10	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	6	modnomatch	_	_
+11	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+13	entorno	entorno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	mayor	mayor	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	demostración	demostración	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	subj	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	attr	_	_
+5	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	4	comp	_	_
+6	están	estar	VMIP3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	3	mod	_	_
+7	inquietos	inquieto	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	3	mod	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+10	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	9	comp	_	_
+11	Domingo	[G:??/??/??:??.??:??]	W	W	matched=yes: subj child of top deprel|pos=date	15	adjt	_	_
+12	García	garcía	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	subj	_	_
+13	no	no	RN	RN	matched=yes: subj child of top deprel|pos=adverb|type=negative	15	spec	_	_
+14	las	lo	PP3FPA0	PP	case=accusative|gen=feminine|matched=yes: subj child of top deprel|num=plural|person=3|pos=pronoun|type=personal	15	dobj	_	_
+15	tiene	tener	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	10	comp	_	_
+16	todas	todo	DI0FP0	DI	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	3	spec	_	_
+17	consigo	conseguir	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	17	punc	_	_
+19	no	no	RN	RN	matched=no|pos=adverb|type=negative	20	spec	_	_
+20	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	17	modnomatch	_	_
+21	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	22	subj	_	_
+22	Van	ir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	20	attr	_	_
+23	Gaal	gaal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	22	pred	_	_
+24	diga	decir	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	17	modnomatch	_	_
+25	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	24	dobj	_	_
+26	hay	haber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	25	comp	_	_
+27	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	28	spec	_	_
+28	campaña	campaña	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	dobj	_	_
+29	mediática	mediático	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	28	mod	_	_
+30	contra	contra	SP	SP	matched=no|pos=adposition|type=preposition	26	adjt	_	_
+31	él	él	PP3MS00	PP	gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	30	comp	_	_
+32	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	17	punc	_	_
+33	no	no	RN	RN	matched=no|pos=adverb|type=negative	34	spec	_	_
+34	hay	haber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	17	modnomatch	_	_
+35	peor	peor	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	36	mod	_	_
+36	campaña	campaña	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	34	dobj	_	_
+37	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	17	modnomatch	_	_
+38	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	40	spec	_	_
+39	cuatro	4	Z	Z	matched=no|pos=number	40	spec	_	_
+40	derrotas	derrota	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	17	dobj	_	_
+41	consecutivas	consecutivo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	40	mod	_	_
+42	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	17	punc	_	_
+43	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	44	punc	_	_
+44	sino	sino	CC	CC	matched=no|pos=conjunction|type=coordinating	17	modnomatch	_	_
+45	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	46	spec	_	_
+46	hecho	hecho	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	44	coor	_	_
+47	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+48	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	51	subj	_	_
+49	ya	ya	RG	RG	matched=no|pos=adverb|type=general	51	adjt	_	_
+50	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	51	aux	_	_
+51	conseguido	conseguir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	47	comp	_	_
+52	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	53	spec	_	_
+53	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	54	subj	_	_
+54	querían	querer	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	51	modnomatch	_	_
+55	:	:	Fd	Fd	matched=no|pos=punctuation|type=colon	17	punc	_	_
+56	redactar	redactar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	17	modnomatch	_	_
+57	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	58	spec	_	_
+58	preguntas	pregunta	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	56	dobj	_	_
+59	de	de	SP	SP	matched=no|pos=adposition|type=preposition	58	mod	_	_
+60	Gol	gol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	59	comp	_	_
+61	a	a	SP	SP	matched=no|pos=adposition|type=preposition	56	adjt	_	_
+62	Gol	gol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	61	comp	_	_
+63	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	56	punc	_	_
+

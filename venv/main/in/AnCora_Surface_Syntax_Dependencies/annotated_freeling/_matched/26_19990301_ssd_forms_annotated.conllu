@@ -1,0 +1,59 @@
+1	Que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	34	subj	_	_
+2	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+3	crisis	crisis	NCFN000	NC	gen=feminine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	7	subj	_	_
+4	institucional	institucional	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+6	Asturias	asturias	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	comp	_	_
+7	tiene	tener	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	comp	_	_
+8	sus	su	DP3CPN	DP	gen=common|matched=yes: subj child of top deprel|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	9	spec	_	_
+9	orígenes	origen	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	dobj	_	_
+10	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	adjt	_	_
+11	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	12	spec	_	_
+12	manejos	manejo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	comp	_	_
+13	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	12	mod	_	_
+14	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	15	spec	_	_
+15	vicepresidente	vicepresidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	comp	_	_
+16	primero	primero	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	7	adjt	_	_
+17	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	adjt	_	_
+18	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	19	spec	_	_
+19	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	comp	_	_
+20	central	central	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	19	mod	_	_
+21	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	1	modnomatch	_	_
+22	ex	ex	AQ0CN00	AQ	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=adjective|type=qualificative	23	mod	_	_
+23	secretario	secretario	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	21	coor	_	_
+24	general	general	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	23	mod	_	_
+25	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	modnomatch	_	_
+26	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	1	spec	_	_
+27	PP	p_p	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	34	modnomatch	_	_
+28	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	27	punc	_	_
+29	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	31	spec	_	_
+30	asturiano	asturiano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	31	mod	_	_
+31	Francisco	francisco	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	34	modnomatch	_	_
+32	Alvarez-Cascos	alvarez-cascos	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	31	mod	_	_
+33	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	31	punc	_	_
+34	quedó	quedar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+35	meridianamente	meridianamente	RG	RG	matched=no|pos=adverb|type=general	36	spec	_	_
+36	claro	claro	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	34	pred	_	_
+37	durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	34	pobj	_	_
+38	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	39	spec	_	_
+39	congreso	congreso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	37	comp	_	_
+40	de	de	SP	SP	matched=no|pos=adposition|type=preposition	39	mod	_	_
+41	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	42	spec	_	_
+42	Uras	u_ras	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	40	comp	_	_
+43	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	34	punc	_	_
+44	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	46	spec	_	_
+45	nuevo	nuevo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	46	mod	_	_
+46	partido	partido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	34	modnomatch	_	_
+47	creado	crear	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	46	mod	_	_
+48	por	por	SP	SP	matched=no|pos=adposition|type=preposition	34	pobj	_	_
+49	Marqués	marqués	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	48	comp	_	_
+50	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	34	modnomatch	_	_
+51	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	52	spec	_	_
+52	seguidores	seguidor	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	50	coor	_	_
+53	escindidos	escindir	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	52	mod	_	_
+54	de	de	SP	SP	matched=no|pos=adposition|type=preposition	52	mod	_	_
+55	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	56	spec	_	_
+56	Partido	partido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	54	comp	_	_
+57	Popular	popular	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	56	mod	_	_
+58	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	34	punc	_	_
+

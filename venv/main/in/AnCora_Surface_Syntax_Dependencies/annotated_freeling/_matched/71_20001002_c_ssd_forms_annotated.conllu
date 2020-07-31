@@ -1,0 +1,40 @@
+1	Desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+2	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	país	país	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+6	árabe	árabe	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	8	aux	_	_
+8	incrementado	incrementar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	extracción	extracción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
+12	crudo	crudo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+13	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+14	116.800	116800	Z	Z	matched=no|pos=number	15	spec	_	_
+15	barriles	barril	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	13	comp	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+17	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+18	aplicación	aplicación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+19	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	mod	_	_
+20	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	22	spec	_	_
+21	recientes	reciente	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	22	mod	_	_
+22	decisiones	decisión	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	19	comp	_	_
+23	de	de	SP	SP	matched=no|pos=adposition|type=preposition	22	mod	_	_
+24	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	25	spec	_	_
+25	Organización	organización	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
+26	de	de	SP	SP	matched=no|pos=adposition|type=preposition	25	mod	_	_
+27	Países	país	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	26	comp	_	_
+28	Exportadores	exportador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	27	mod	_	_
+29	de	de	SP	SP	matched=no|pos=adposition|type=preposition	27	mod	_	_
+30	Petróleo	petróleo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	29	comp	_	_
+31	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	32	modnomatch	_	_
+32	OPEP	opep	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
+33	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	32	modnomatch	_	_
+34	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	32	punc	_	_
+35	según	según	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+36	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	37	spec	_	_
+37	diario	diario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	35	comp	_	_
+38	Entejob	ente_job	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	37	mod	_	_
+39	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+

@@ -1,0 +1,263 @@
+1	Por_segundo_año_consecutivo	por_segundo_año_consecutivo	RG	RG	matched=no|pos=adverb|type=general	13	adjt	_	_
+2	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	mod	_	_
+3	con	con	SP	SP	matched=no|pos=adposition|type=preposition	2	coor	_	_
+4	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
+5	mismas	mismo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	6	mod	_	_
+6	perspectivas	perspectiva	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+8	éxito	éxito	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+9	indiscutible	indiscutible	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+11	Heiner	heiner	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	13	subj	_	_
+12	Goebbels	goebbels	NC00000	NC	matched=yes: subj child of top deprel|pos=noun|type=common	11	dobj	_	_
+13	presenta	presentar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+14	en	en	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+15	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	TNC	tnc	NC00000	NC	matched=no|pos=noun|type=common	14	comp	_	_
+17	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	16	modnomatch	_	_
+18	último	último	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	19	mod	_	_
+19	espectáculo	espectáculo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	dobj	_	_
+20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+
+1	Max	max	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	3	subj	_	_
+2	Black	black	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	5	spec	_	_
+5	pieza	pieza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	attr	_	_
+6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
+7	teatro	teatro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	musical	musical	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	7	mod	_	_
+9	confeccionada	confeccionar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	adjt	_	_
+10	a_partir_de	a_partir_de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+11	textos	texto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+13	diversos	diverso	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	14	spec	_	_
+14	autores	autor	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
+15	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	3	punc	_	_
+16	Litchtenberg	litchtenberg	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	coor	_	_
+17	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+18	Valery	valer_y	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	coor	_	_
+19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+20	entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+21	otros	otro	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	20	comp	_	_
+22	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	3	punc	_	_
+23	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+24	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	24	coor	_	_
+26	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	27	spec	_	_
+27	música	música	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	25	comp	_	_
+28	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	29	subj	_	_
+29	André	andré	VMIF1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=future|type=main	31	subj	_	_
+30	Wilms	wilms	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	29	dobj	_	_
+31	crea	creer	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	3	modnomatch	_	_
+32	en	en	SP	SP	matched=no|pos=adposition|type=preposition	31	pobj	_	_
+33	escena	escena	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	32	comp	_	_
+34	a_partir_de	a_partir_de	SP	SP	matched=no|pos=adposition|type=preposition	31	adjt	_	_
+35	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	36	spec	_	_
+36	objetos	objeto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	34	comp	_	_
+37	más	más	RG	RG	matched=no|pos=adverb|type=general	38	spec	_	_
+38	cotidianos	cotidiano	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	31	modnomatch	_	_
+39	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	31	punc	_	_
+
+1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
+2	textos	texto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	coor	_	_
+3	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	interpretación	interpretación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	coor	_	_
+6	no	no	RN	RN	matched=no|pos=adverb|type=negative	7	spec	_	_
+7	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	15	coor	_	_
+8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+9	única	único	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	10	mod	_	_
+10	base	base	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	7	attr	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
+12	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	13	spec	_	_
+13	espectáculo	espectáculo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
+15	sino_que	sino_que	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+16	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	17	mphes	_	_
+17	convierten	convertir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	15	coor	_	_
+18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	17	pobj	_	_
+19	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	20	spec	_	_
+20	elemento	elemento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+21	más	más	RG	RG	matched=no|pos=adverb|type=general	17	adjt	_	_
+22	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+23	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	24	spec	_	_
+24	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	25	subj	_	_
+25	componen	componer	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	22	comp	_	_
+26	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	27	spec	_	_
+27	acto	acto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	25	dobj	_	_
+28	teatral	teatral	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	27	mod	_	_
+29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Ruidos	ruido	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	coor	_	_
+2	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+3	sonidos	sonido	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	coor	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+5	reverberan	reverberar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	8	subj	_	_
+6	electrónicamente	electrónica_mente	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
+7	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	8	mphes	_	_
+8	funden	fundir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	9	coor	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+10	confunden	confundir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	9	coor	_	_
+11	en	en	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+12	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	13	spec	_	_
+13	sinfonía	sinfonía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+14	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	16	subj	_	_
+15	no	no	RN	RN	matched=no|pos=adverb|type=negative	16	spec	_	_
+16	olvida	olvidar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	13	mod	_	_
+17	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
+18	palabra	palabra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	dobj	_	_
+19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+20	magníficamente	magníficamente	RG	RG	matched=no|pos=adverb|type=general	2	modnomatch	_	_
+21	salida	salida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	28	coor	_	_
+22	de	de	SP	SP	matched=no|pos=adposition|type=preposition	21	mod	_	_
+23	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
+24	voz	voz	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
+25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	21	mod	_	_
+26	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	27	spec	_	_
+27	único	único	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	25	comp	_	_
+28	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+29	excepcional	excepcional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	30	mod	_	_
+30	actor	actor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	28	coor	_	_
+31	:	:	Fd	Fd	matched=no|pos=punctuation|type=colon	2	punc	_	_
+32	André	andré	VMIF1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=future|type=main	2	modnomatch	_	_
+33	Wilms	wilms	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	32	dobj	_	_
+34	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	32	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
+2	personaje	personaje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	coor	_	_
+3	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	2	punc	_	_
+4	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	2	punc	_	_
+5	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
+6	moderno	moderno	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	7	mod	_	_
+7	alquimista	alquimista	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
+8	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	2	punc	_	_
+9	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	2	punc	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+11	atareado	atarear	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	modnomatch	_	_
+12	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+13	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	14	spec	_	_
+14	peculiar	peculiar	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+15	e	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+16	intemporal	intemporal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	17	mod	_	_
+17	laboratorio	laboratorio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	coor	_	_
+18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	20	punc	_	_
+19	investiga	investigar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	20	coor	_	_
+20	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	15	modnomatch	_	_
+21	explora	explorar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	20	coor	_	_
+22	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	23	spec	_	_
+23	mecanismos	mecanismo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	21	dobj	_	_
+24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	23	mod	_	_
+25	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	26	spec	_	_
+26	pensamiento	pensamiento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+27	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	21	modnomatch	_	_
+28	de	de	SP	SP	matched=no|pos=adposition|type=preposition	27	coor	_	_
+29	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	30	spec	_	_
+30	creación	creación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	28	comp	_	_
+31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	15	punc	_	_
+
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	efectos	efecto	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	subj	_	_
+3	sonoros	sonoro	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+4	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	6	punc	_	_
+5	visuales	visual	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	6	coor	_	_
+6	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	mod	_	_
+7	pirotécnicos	pirotécnico	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	6	coor	_	_
+8	producen	producir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+9	así	así	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_
+10	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	12	spec	_	_
+11	frenética	frenético	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	12	mod	_	_
+12	reacción	reacción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
+13	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+14	cadena	cadena	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+16	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+17	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	18	spec	_	_
+18	espectáculo	espectáculo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+19	en	en	SP	SP	matched=no|pos=adposition|type=preposition	22	pobj	_	_
+20	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
+21	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	19	comp	_	_
+22	están	estar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	18	mod	_	_
+23	todas	todo	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	8	modnomatch	_	_
+24	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	25	spec	_	_
+25	disciplinas	disciplina	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	8	modnomatch	_	_
+26	creativas	creativo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	25	mod	_	_
+27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
+
+1	Fuego	fuego	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	coor	_	_
+2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+3	imagen	imagen	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	coor	_	_
+4	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+5	sonido	sonido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	coor	_	_
+6	aparecen	aparecer	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+7	interconectados	interconectar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	6	pred	_	_
+8	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	6	subj	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	espectador	espectador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	coor	_	_
+11	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	12	mphes	_	_
+12	siente	sentir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+13	gratificado	gratificar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	12	pred	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
+
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	espectáculo	espectáculo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	definitiva	definitivo	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	comp	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	4	punc	_	_
+7	difícil	difícil	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+8	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	coor	_	_
+9	ubicar	ubicar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	8	comp	_	_
+10	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	mod	_	_
+11	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	coor	_	_
+12	clasificar	clasificar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	11	comp	_	_
+13	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	14	punc	_	_
+14	pero	pero	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	mod	_	_
+15	fácil	fácil	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	14	coor	_	_
+16	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+17	disfrutar	disfrutar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	16	comp	_	_
+18	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	2	punc	_	_
+19	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	2	punc	_	_
+20	estará	estar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
+21	en	en	SP	SP	matched=no|pos=adposition|type=preposition	20	pobj	_	_
+22	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	TNC	tnc	NC00000	NC	matched=no|pos=noun|type=common	21	comp	_	_
+24	hasta	hasta	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
+25	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	26	spec	_	_
+26	domingo	[G:??/??/??:??.??:??]	W	W	matched=no|pos=date	24	comp	_	_
+27	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	20	punc	_	_
+28	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	20	punc	_	_
+29	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	35	adjt	_	_
+30	invita	invitar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	29	comp	_	_
+31	a	a	SP	SP	matched=no|pos=adposition|type=preposition	30	adjt	_	_
+32	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	33	spec	_	_
+33	juego	juego	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	31	comp	_	_
+34	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	29	punc	_	_
+35	explora	explorar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	20	modnomatch	_	_
+36	en	en	SP	SP	matched=no|pos=adposition|type=preposition	35	adjt	_	_
+37	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	38	spec	_	_
+38	sensaciones	sensación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	36	comp	_	_
+39	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	20	modnomatch	_	_
+40	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	20	punc	_	_
+41	sobre	sobre	SP	SP	matched=no|pos=adposition|type=preposition	20	attr	_	_
+42	todo	todo	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	41	comp	_	_
+43	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	41	punc	_	_
+44	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	20	modnomatch	_	_
+45	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	20	punc	_	_
+46	incluyendo	incluir	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	20	adjt	_	_
+47	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	48	spec	_	_
+48	humor	humor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	49	coor	_	_
+49	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	20	modnomatch	_	_
+50	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	51	spec	_	_
+51	sorpresa	sorpresa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	49	coor	_	_
+52	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	20	punc	_	_
+53	sabe	saber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	20	modnomatch	_	_
+54	combinar	combinar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	53	dobj	_	_
+55	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	56	spec	_	_
+56	poesía	poesía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	54	dobj	_	_
+57	con	con	SP	SP	matched=no|pos=adposition|type=preposition	54	adjt	_	_
+58	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	59	spec	_	_
+59	fórmulas	fórmula	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	57	comp	_	_
+60	matemáticas	matemático	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	59	mod	_	_
+61	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	53	punc	_	_
+

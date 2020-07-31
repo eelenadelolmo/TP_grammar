@@ -1,0 +1,105 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	jefe	jefe	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Estado	estado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	aseguró	asegurar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+7	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	6	dobj	_	_
+8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
+9	Fuerza	fuerza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
+10	Aérea	aéreo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+11	Venezolana	venezolano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+12	cuenta	contar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	7	comp	_	_
+13	con	con	SP	SP	matched=no|pos=adposition|type=preposition	12	pobj	_	_
+14	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	15	spec	_	_
+15	estrategias	estrategia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	13	comp	_	_
+16	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	6	modnomatch	_	_
+17	medios	medio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	16	coor	_	_
+18	necesarios	necesario	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	17	mod	_	_
+19	para	para	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+20	combatir	combatir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	19	comp	_	_
+21	con	con	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
+22	eficiencia	eficiencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
+23	a	a	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
+24	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	25	spec	_	_
+25	narcotráfico	narcotráfico	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
+26	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	6	modnomatch	_	_
+27	frustrar	frustrar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	26	coor	_	_
+28	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	29	spec	_	_
+29	intentos	intento	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	27	dobj	_	_
+30	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+31	navegar	navegar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	30	comp	_	_
+32	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	33	spec	_	_
+33	espacio	espacio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	31	dobj	_	_
+34	aéreo	aéreo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	33	mod	_	_
+35	nacional	nacional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	modnomatch	_	_
+36	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	medios	medio	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
+3	locales	local	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+4	divulgaron	divulgar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
+5	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+7	martes	[M:??/??/??:??.??:??]	W	W	matched=no|pos=date	4	adjt	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+9	unas	uno	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	10	spec	_	_
+10	declaraciones	declaración	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	dobj	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+13	zar	zar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+14	antidrogas	antidrogas	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	16	mod	_	_
+15	estadounidense	estadounidense	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+16	Barry	barry	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+17	McCaffrey	mccaffrey	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	mod	_	_
+18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	16	punc	_	_
+19	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+20	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	21	spec	_	_
+21	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	22	subj	_	_
+22	calificó	calificar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	19	comp	_	_
+23	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	4	modnomatch	_	_
+24	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	4	modnomatch	_	_
+25	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	4	punc	_	_
+26	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+27	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	4	punc	_	_
+28	problema	problema	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+29	inmenso	inmenso	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	28	mod	_	_
+30	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	4	punc	_	_
+31	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+32	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	4	punc	_	_
+33	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	34	spec	_	_
+34	prohibición	prohibición	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+35	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	modnomatch	_	_
+36	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	modnomatch	_	_
+37	sobrevuelo	sobrevolar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	4	modnomatch	_	_
+38	norteamericano	norteamericano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	37	modnomatch	_	_
+39	a	a	SP	SP	matched=no|pos=adposition|type=preposition	37	adjt	_	_
+40	territorio	territorio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	39	comp	_	_
+41	venezolano	venezolano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	40	mod	_	_
+42	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	37	punc	_	_
+43	decisión	decisión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	37	dobj	_	_
+44	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	4	modnomatch	_	_
+45	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+46	aseguró	asegurar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	4	modnomatch	_	_
+47	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	46	punc	_	_
+48	habría	haber	VAIC1S0	VAI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=conditional|type=auxiliary	49	aux	_	_
+49	creado	crear	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	4	modnomatch	_	_
+50	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	4	modnomatch	_	_
+51	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	4	punc	_	_
+52	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+53	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	4	punc	_	_
+54	agujero	agujero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+55	negro	negro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	54	mod	_	_
+56	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	4	punc	_	_
+57	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+58	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	4	punc	_	_
+59	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+60	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	61	spec	_	_
+61	vigilancia	vigilancia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	59	comp	_	_
+62	regional	regional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	61	mod	_	_
+63	para	para	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+64	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	65	spec	_	_
+65	lucha	lucha	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	63	comp	_	_
+66	antidrogas	antidrogas	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	65	mod	_	_
+67	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	63	punc	_	_
+

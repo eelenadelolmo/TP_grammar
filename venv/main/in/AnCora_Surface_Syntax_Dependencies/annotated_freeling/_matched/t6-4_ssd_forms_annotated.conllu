@@ -1,0 +1,24 @@
+1	Allí	allí	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
+2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+3	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	4	spec	_	_
+4	huerto	huerto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+5	auténtico	auténtico	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+6	había	haber	VAII3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=auxiliary	7	aux	_	_
+7	envejecido	envejecer	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+9	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	10	spec	_	_
+10	paso	paso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+12	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	13	spec	_	_
+13	día	día	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	adjt	_	_
+14	tras	tras	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+15	otro	otro	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	14	comp	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	17	punc	_	_
+17	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	7	adjt	_	_
+18	ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	17	coor	_	_
+19	moría	morir	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	7	modnomatch	_	_
+20	antes	antes	RG	RG	matched=no|pos=adverb|type=general	19	adjt	_	_
+21	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	7	modnomatch	_	_
+22	él	él	PP3MS00	PP	gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	7	dobj	_	_
+23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
+

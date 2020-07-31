@@ -1,0 +1,94 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	presidente	presidente	ncms000	ncms000	_	11	nsubj
+3	del	del	spcms	spcms	_	2	prepn
+4	Banco	banco	ncms000	ncms000	_	3	pobj
+5	Central	central	ncms000	ncms000	_	4	appos
+6	Europeo	europeo	ncfs000	ncfs000	_	5	appos
+7	,	,	fc	fc	_	2	punct
+8	Wim	Wim	np0000l	np0000l	_	2	appos
+9	Duisenberg	Duisenberg	np0000l	np0000l	_	8	appos
+10	,	,	fc	fc	_	2	punct
+11	presentó	presentar	vmis3s0	vmis3s0	_	0	root
+12	el	el	da0ms0	da0ms0	_	13	det
+13	jueves	jueves	ncms000	ncms000	_	11	dobj
+14	los	el	da0mp0	da0mp0	_	16	det
+15	nuevos	nuevo	aq0mp0	aq0mp0	_	16	amod
+16	billetes	billete	ncmp000	ncmp000	_	11	dobj
+17	que	que	pr0cn000	pr0cn000	_	18	nsubj
+18	entrarán	entrar	vmif3p0	vmif3p0	_	16	rcmod
+19	en	en	sps00	sps00	_	18	prepv
+20	circulación	circulación	ncfs000	ncfs000	_	19	pobj
+21	el	el	da0ms0	da0ms0	_	22	det
+22	1	1	z	z	_	18	dobj
+23	de	de	sps00	sps00	_	22	prep
+24	enero	enero	ncfp000	ncfp000	_	23	pobj
+25	del	del	sps00	sps00	_	24	prepn
+26	2002	2002	z	z	_	25	pobj
+27	.	.	fp	fp	_	11	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	papel	papel	ncfs000	ncfs000	_	4	nsubj
+3	moneda	moneda	nc00000	nc00000	_	2	appos
+4	ha	haber	vaip3s0	vaip3s0	_	0	root
+5	sido	ser	vsp00sm	vsp00sm	_	4	vobj
+6	fabricado	fabricar	vmp00sm	vmp00sm	_	5	attr
+7	con	con	sps00	sps00	_	6	prepv
+8	modernas	moderno	aq0fp0	aq0fp0	_	9	amod
+9	medidas	medida	ncfp000	ncfp000	_	7	pobj
+10	de	de	sps00	sps00	_	9	prepn
+11	seguridad	seguridad	ncfs000	ncfs000	_	10	pobj
+12	para	para	sps00	sps00	_	6	prepv
+13	evitar	evitar	vmn0000	vmn0000	_	12	pobj
+14	las	el	da0fp0	da0fp0	_	15	det
+15	falsificaciones	falsificación	ncfp000	ncfp000	_	16	coord
+16	y	y	cc	cc	_	13	dobj
+17	el	el	da0ms0	da0ms0	_	18	det
+18	fraude	fraude	ncms000	ncms000	_	16	coord
+19	.	.	fp	fp	_	4	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	BCE	BCE	np00000	np00000	_	3	nsubj
+3	aprovechó	aprovechar	vmis3s0	vmis3s0	_	0	root
+4	la	el	da0fs0	da0fs0	_	5	det
+5	reunión	reunión	ncfs000	ncfs000	_	3	dobj
+6	de	de	sps00	sps00	_	5	prepn
+7	su	su	dp3cs0	dp3cs0	_	8	poss
+8	consejo	consejo	ncms000	ncms000	_	6	pobj
+9	de	de	sps00	sps00	_	8	prepn
+10	gobierno	gobierno	ncms000	ncms000	_	9	pobj
+11	para	para	sps00	sps00	_	3	prepv
+12	reducir	reducir	vmn0000	vmn0000	_	11	pobj
+13	el	el	da0ms0	da0ms0	_	14	det
+14	tipo	tipo	ncms000	ncms000	_	12	dobj
+15	de	de	sps00	sps00	_	14	prepn
+16	interés	interés	ncms000	ncms000	_	15	pobj
+17	oficial	oficial	aq0cs0	aq0cs0	_	16	amod
+18	en	en	sps00	sps00	_	12	prepv
+19	la	el	da0fs0	da0fs0	_	20	det
+20	zona	zona	ncfs000	ncfs000	_	18	pobj
+21	euro	euro	ncms000	ncms000	_	20	appos
+22	del	del	spcms	spcms	_	12	prepv
+23	4,5%	4.5/100	zp	zp	_	22	pobj
+24	al	al	spcms	spcms	_	12	prepv
+25	4,25%	4.25/100	zp	zp	_	24	pobj
+26	.	.	fp	fp	_	3	punct
+
+1	Duisenberg	Duisenberg	np00000	np00000	_	2	nsubj
+2	admitió	admitir	vmis3s0	vmis3s0	_	0	root
+3	que	que	cs	cs	_	2	dobj
+4	juzgó	juzgar	vmis3s0	vmis3s0	_	3	cobj
+5	mal	mal	rg	rg	_	4	advmod
+6	el	el	da0ms0	da0ms0	_	7	det
+7	alcance	alcance	ncms000	ncms000	_	4	dobj
+8	de	de	sps00	sps00	_	7	prepn
+9	la	el	da0fs0	da0fs0	_	10	det
+10	crisis	crisis	ncfn000	ncfn000	_	8	pobj
+11	de	de	sps00	sps00	_	10	prepn
+12	EEUU	EEUU	np00000	np00000	_	11	pobj
+13	.	.	fp	fp	_	2	punct

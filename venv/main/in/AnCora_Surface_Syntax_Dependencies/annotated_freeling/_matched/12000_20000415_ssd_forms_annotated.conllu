@@ -1,0 +1,56 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	director	director	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	general	general	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	acusó	acusar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+5	también	también	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
+6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+7	Acedo	acedo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	modnomatch	_	_
+9	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	4	punc	_	_
+10	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+11	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	4	punc	_	_
+12	confundir	confundir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	modnomatch	_	_
+13	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	14	spec	_	_
+14	churras	churro	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	12	dobj	_	_
+15	con	con	SP	SP	matched=no|pos=adposition|type=preposition	12	pobj	_	_
+16	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	17	spec	_	_
+17	merinas	merino	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	15	comp	_	_
+18	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	4	punc	_	_
+19	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+20	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	4	punc	_	_
+21	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+22	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	afirmar	afirmar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	21	modnomatch	_	_
+24	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	4	modnomatch	_	_
+25	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	24	comp	_	_
+26	objeto	objeto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	25	attr	_	_
+27	de	de	SP	SP	matched=no|pos=adposition|type=preposition	26	mod	_	_
+28	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	29	spec	_	_
+29	persecución	persecución	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	27	comp	_	_
+30	política	político	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	29	mod	_	_
+31	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	modnomatch	_	_
+32	personal	personal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	31	coor	_	_
+33	por	por	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+34	parte	parte	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	33	comp	_	_
+35	de	de	SP	SP	matched=no|pos=adposition|type=preposition	34	mod	_	_
+36	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	37	spec	_	_
+37	Junta	junta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	35	comp	_	_
+38	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	35	punc	_	_
+39	ya_que	ya_que	CS	CS	matched=no|pos=conjunction|type=subordinating	4	adjt	_	_
+40	insistió	insistir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	39	comp	_	_
+41	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+42	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	41	comp	_	_
+43	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	44	spec	_	_
+44	decisión	decisión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	50	subj	_	_
+45	de	de	SP	SP	matched=no|pos=adposition|type=preposition	44	mod	_	_
+46	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	47	spec	_	_
+47	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	45	comp	_	_
+48	extremeño	extremeño	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	47	mod	_	_
+49	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	50	aux	_	_
+50	respondido	responder	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	42	comp	_	_
+51	exclusivamente	exclusiva_mente	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	50	dobj	_	_
+52	a	a	SP	SP	matched=no|pos=adposition|type=preposition	50	pobj	_	_
+53	criterios	criterio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	52	comp	_	_
+54	jurídicos	jurídico	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	53	mod	_	_
+55	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	41	punc	_	_
+

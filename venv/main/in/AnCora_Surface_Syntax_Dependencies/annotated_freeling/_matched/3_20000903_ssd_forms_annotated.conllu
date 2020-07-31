@@ -1,0 +1,97 @@
+1	A	a	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
+2	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+3	hora	hora	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	temprana	temprano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+6	1965	1965	Z	Z	matched=yes: subj child of top deprel|pos=number	16	subj	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	6	punc	_	_
+8	sólo	sólo	RG	RG	matched=no|pos=adverb|type=general	16	adjt	_	_
+9	dos	2	Z	Z	matched=no|pos=number	10	spec	_	_
+10	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	16	adjt	_	_
+11	después_de	después_de	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
+12	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	13	spec	_	_
+13	muerte	muerte	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+15	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	16	mphes	_	_
+16	puso	poner	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+17	en	en	SP	SP	matched=no|pos=adposition|type=preposition	16	pobj	_	_
+18	marcha	marcha	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+19	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	maquinaria	maquinaria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	dobj	_	_
+21	para	para	SP	SP	matched=no|pos=adposition|type=preposition	16	pobj	_	_
+22	santificar	santificar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	21	comp	_	_
+23	a	a	SP	SP	matched=no|pos=adposition|type=preposition	16	modnomatch	_	_
+24	Juan	juan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	16	modnomatch	_	_
+25	XXIII	xxiii	RG	RG	matched=no|pos=adverb|type=general	24	adjt	_	_
+26	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	16	modnomatch	_	_
+27	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	16	punc	_	_
+28	a	a	SP	SP	matched=no|pos=adposition|type=preposition	40	adjt	_	_
+29	comienzos	comienzo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	28	comp	_	_
+30	de	de	SP	SP	matched=no|pos=adposition|type=preposition	40	adjt	_	_
+31	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	32	spec	_	_
+32	década	década	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	30	comp	_	_
+33	de	de	SP	SP	matched=no|pos=adposition|type=preposition	40	adjt	_	_
+34	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	35	spec	_	_
+35	70	70	Z	Z	matched=no|pos=number	33	comp	_	_
+36	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	33	punc	_	_
+37	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	38	spec	_	_
+38	prensa	prensa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	40	subj	_	_
+39	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	40	dobj	_	_
+40	anunciaba	anunciar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	16	modnomatch	_	_
+41	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	40	adjt	_	_
+42	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	43	spec	_	_
+43	realidad	realidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	41	comp	_	_
+44	muy	muy	RG	RG	matched=no|pos=adverb|type=general	45	spec	_	_
+45	próxima	próximo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	40	modnomatch	_	_
+46	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	40	punc	_	_
+
+1	Sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+2	embargo	embargo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	beatificación	beatificación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	papa	papa	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	bueno	bueno	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	13	aux	_	_
+11	tenido	tener	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	13	prt	_	_
+12	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	13	prt	_	_
+13	esperar	esperar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
+14	tres	3	Z	Z	matched=no|pos=number	15	spec	_	_
+15	décadas	década	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	13	dobj	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	último	último	AO0MS00	AO	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	postulador	postulador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	causa	causa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
+8	Luca	luca	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	mod	_	_
+10	Rosa	rosa	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+12	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	13	aux	_	_
+13	reconocido	reconocer	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+14	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	13	modnomatch	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	16	punc	_	_
+16	aunque	aunque	CC	CC	matched=no|pos=conjunction|type=coordinating	13	dobj	_	_
+17	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
+18	causa	causa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	coor	_	_
+19	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	mod	_	_
+20	beatificación	beatificación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
+21	no	no	RN	RN	matched=no|pos=adverb|type=negative	24	spec	_	_
+22	llegó	llegar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	24	prt	_	_
+23	a	a	SP	SP	matched=no|pos=adposition|type=preposition	24	prt	_	_
+24	detenerse	detenerse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	13	modnomatch	_	_
+25	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	24	punc	_	_
+26	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	27	aux	_	_
+27	estado	estar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	13	modnomatch	_	_
+28	plagada	plagar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	27	attr	_	_
+29	de	de	SP	SP	matched=no|pos=adposition|type=preposition	28	pobj	_	_
+30	tiempos	tiempo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	29	comp	_	_
+31	muertos	morir	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	30	mod	_	_
+32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	27	punc	_	_
+

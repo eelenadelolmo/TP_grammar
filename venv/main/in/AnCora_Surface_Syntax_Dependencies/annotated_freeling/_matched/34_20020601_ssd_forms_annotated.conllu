@@ -1,0 +1,39 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	grupo	grupo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	socio	socio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	modnomatch	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
+6	gobierno	gobierno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
+8	ICV	icv	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	7	comp	_	_
+9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+10	desautorizó	desautorizar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+11	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	10	adjt	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+13	trabajo	trabajo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	dobj	_	_
+14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	mod	_	_
+15	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	empresa	empresa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+17	Taller	taller	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	mod	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	mod	_	_
+19	Ideas	idea	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	18	comp	_	_
+20	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+21	a	a	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+22	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	26	subj	_	_
+24	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	26	mphes	_	_
+25	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	26	iobj	_	_
+26	adjudicó	adjudicar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	21	comp	_	_
+27	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	28	spec	_	_
+28	revisión	revisión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	dobj	_	_
+29	de	de	SP	SP	matched=no|pos=adposition|type=preposition	28	mod	_	_
+30	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	31	spec	_	_
+31	Plan	plan	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	29	comp	_	_
+32	General	general	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	31	mod	_	_
+33	de	de	SP	SP	matched=no|pos=adposition|type=preposition	28	mod	_	_
+34	Ordenación	ordenación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	33	comp	_	_
+35	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	36	modnomatch	_	_
+36	PGO	pgo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	modnomatch	_	_
+37	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	36	modnomatch	_	_
+38	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+

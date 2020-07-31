@@ -1,0 +1,40 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	magistrado	magistrado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Tribunal	tribunal	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	Supremo	supremo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+8	José	josé	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+9	Antonio	antonio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
+10	Somalo	soma_lo	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	mod	_	_
+11	Giménez	giménez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
+12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+13	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	15	aux	_	_
+14	sido	ser	VSP00SM	VSP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=semiauxiliary	15	aux	_	_
+15	nombrado	nombrar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	8	modnomatch	_	_
+16	defensor	defensor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	subj	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+18	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
+19	cliente	cliente	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+21	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
+22	Federación	federación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+23	Catalana	catalán	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	22	mod	_	_
+24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+25	Cajas	caja	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	24	comp	_	_
+26	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+27	Ahorro	ahorro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
+28	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
+29	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	30	subj	_	_
+30	agrupa	agrupar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	15	modnomatch	_	_
+31	a	a	SP	SP	matched=no|pos=adposition|type=preposition	30	adjt	_	_
+32	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	34	spec	_	_
+33	10	10	Z	Z	matched=no|pos=number	34	spec	_	_
+34	entidades	entidad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	31	comp	_	_
+35	de	de	SP	SP	matched=no|pos=adposition|type=preposition	34	mod	_	_
+36	ahorros	ahorro	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	35	comp	_	_
+37	de	de	SP	SP	matched=no|pos=adposition|type=preposition	30	adjt	_	_
+38	Catalunya	catalunya	RG	RG	matched=no|pos=adverb|type=general	37	comp	_	_
+39	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	15	punc	_	_
+

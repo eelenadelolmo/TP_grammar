@@ -1,0 +1,29 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
+2	pragmatismo	pragmatismo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+3	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	4	iobj	_	_
+4	lleva	llevar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	17	coor	_	_
+5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+6	no	no	RN	RN	matched=no|pos=adverb|type=negative	7	spec	_	_
+7	romper	romper	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	5	modnomatch	_	_
+8	con	con	SP	SP	matched=no|pos=adposition|type=preposition	4	modnomatch	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	modnomatch	_	_
+10	PP	p_p	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+11	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	pobj	_	_
+12	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	coor	_	_
+13	rehuir	rehuir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	12	comp	_	_
+14	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
+15	radicalismo	radicalismo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	dobj	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	17	punc	_	_
+17	aunque	aunque	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+18	deba	deber	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	19	prt	_	_
+19	hacer	hacer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	17	coor	_	_
+20	malabarismos	malabarismo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	19	dobj	_	_
+21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
+
+1	Ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+2	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	3	dobj	_	_
+3	dejó	dejar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+4	bien	bien	RG	RG	matched=no|pos=adverb|type=general	5	spec	_	_
+5	claro	claro	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	pred	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+

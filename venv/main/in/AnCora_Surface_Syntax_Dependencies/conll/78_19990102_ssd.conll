@@ -1,0 +1,69 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	recibo	recibo	ncms000	ncms000	_	6	nsubj
+3	de	de	sps00	sps00	_	2	prepn
+4	la	el	da0fs0	da0fs0	_	5	det
+5	luz	luz	ncfs000	ncfs000	_	3	pobj
+6	baja	bajar	vmip3s0	vmip3s0	_	0	root
+7	con	con	sps00	sps00	_	6	prepv
+8	la	el	da0fs0	da0fs0	_	9	det
+9	entrada	entrada	ncfs000	ncfs000	_	7	pobj
+10	del	del	spcms	spcms	_	9	prepn
+11	nuevo	nuevo	aq0ms0	aq0ms0	_	12	amod
+12	año	año	ncms000	ncms000	_	10	pobj
+13	una	uno	di0fs0	di0fs0	_	14	det
+14	media	media	ncfs000	ncfs000	_	6	dobj
+15	del	del	spcms	spcms	_	14	prepn
+16	4,9%	4.9/100	zp	zp	_	15	pobj
+17	que	que	pr0cn000	pr0cn000	_	18	nsubj
+18	será	ser	vsif3s0	vsif3s0	_	14	rcmod
+19	del	del	spcms	spcms	_	18	prepv
+20	2,5%	2.5/100	zp	zp	_	19	pobj
+21	para	para	sps00	sps00	_	18	prepv
+22	los	el	da0mp0	da0mp0	_	23	det
+23	particulares	particular	aq0cp0	aq0cp0	_	24	coord
+24	y	y	cc	cc	_	21	pobj
+25	las	el	da0fp0	da0fp0	_	29	det
+26	pequeñas	pequeño	aq0fp0	aq0fp0	_	27	coord
+27	y	y	cc	cc	_	29	dep
+28	medianas	mediano	aq0fp0	aq0fp0	_	27	coord
+29	empresas	empresa	ncfp000	ncfp000	_	24	coord
+30	.	.	fp	fp	_	6	punct
+
+1	La	el	da0fs0	da0fs0	_	2	det
+2	Comisión	Comisión	nccs000	nccs000	_	14	nsubj
+3	del	del	spcms	spcms	_	2	prepn
+4	Sistema	sistema	ncms000	ncms000	_	3	pobj
+5	Eléctrico	Eléctrico	ncms000	ncms000	_	4	appos
+6	Nacional	nacional	aq0cs0	aq0cs0	_	4	amod
+7	(	(	fpa	fpa	_	8	punct
+8	CSEN	CSEN	np00000	np00000	_	2	appos
+9	)	)	fpt	fpt	_	8	punct
+10	,	,	fc	fc	_	14	punct
+11	sin	sin	sps00	sps00	_	14	advmod
+12	embargo	embargo	ncmp000	ncmp000	_	11	pobj
+13	,	,	fc	fc	_	14	punct
+14	considera	considerar	vmip3s0	vmip3s0	_	26	coord
+15	que	que	cs	cs	_	14	dobj
+16	la	el	da0fs0	da0fs0	_	17	det
+17	rebaja	rebaja	ncfs000	ncfs000	_	18	nsubj
+18	es	ser	vsip3s0	vsip3s0	_	15	cobj
+19	inferior	inferior	aq0cs0	aq0cs0	_	18	attr
+20	a	a	sps00	sps00	_	19	prepa
+21	la	el	da0fs0	da0fs0	_	22	det
+22	anunciada	anunciado	aq0fsp	aq0fsp	_	20	pobj
+23	por	por	sps00	sps00	_	22	agent
+24	el	el	da0ms0	da0ms0	_	25	det
+25	Gobierno	Gobierno	np00000	np00000	_	23	pobj
+26	y	y	cc	cc	_	0	root
+27	la	él	pp3fsa00	pp3fsa00	_	28	dobj
+28	sitúa	situar	vmip3s0	vmip3s0	_	26	coord
+29	en	en	sps00	sps00	_	28	oobj
+30	el	el	da0ms0	da0ms0	_	31	det
+31	2,1%	2.1/100	zp	zp	_	29	pobj
+32	.	.	fp	fp	_	26	punct

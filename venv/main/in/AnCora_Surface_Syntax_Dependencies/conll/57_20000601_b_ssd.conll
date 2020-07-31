@@ -1,0 +1,47 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	Defensa	Defensa	np00000	np00000	_	2	nsubj
+2	quiere	querer	vmip3s0	vmip3s0	_	0	root
+3	tropas	tropa	ncfp000	ncfp000	_	2	dobj
+4	europeas	europeo	aq0fp0	aq0fp0	_	3	amod
+5	en	en	sps00	sps00	_	2	prepv
+6	el	el	da0ms0	da0ms0	_	7	det
+7	desfile	desfile	ncms000	ncms000	_	5	pobj
+8	del	del	spcms	spcms	_	7	prepn
+9	12	12	zp	zp	_	8	pobj
+10	de	de	spcms	spcms	_	9	prep
+11	Octubre	Octubre	ncms000	ncms000	_	10	pobj
+12	.	.	fp	fp	_	2	punct
+
+1	Federico	Federico	np0000l	np0000l	_	3	nsubj
+2	Trillo	trillar	np0000l	np0000l	_	1	appos
+3	explicó	explicar	vmis3s0	vmis3s0	_	0	root
+4	que	que	cs	cs	_	3	dobj
+5	su	su	dp3cs0	dp3cs0	_	6	poss
+6	departamento	departamento	ncms000	ncms000	_	7	nsubj
+7	intentará	intentar	vmif3s0	vmif3s0	_	8	cobj
+8	que	que	cs	cs	_	4	cobj
+9	en	en	sps00	sps00	_	13	oobj
+10	esa	ese	dd0fs0	dd0fs0	_	11	det
+11	parada	parada	ncfs000	ncfs000	_	9	pobj
+12	militar	militar	aq0cs0	aq0cs0	_	11	amod
+13	tomen	tomar	vmp00sm	vmp00sm	_	8	cobj
+14	parte	parte	ncfp000	ncfp000	_	13	dobj
+15	tropas	tropa	ncfp000	ncfp000	_	13	nsubj
+16	europeas	europeo	aq0fp0	aq0fp0	_	15	amod
+17	que	que	pr0cn000	pr0cn000	_	18	nsubj
+18	han	haber	vaip3p0	vaip3p0	_	15	rcmod
+19	participado	participar	vmp00sm	vmp00sm	_	18	vobj
+20	con	con	sps00	sps00	_	19	prepv
+21	los	el	da0mp0	da0mp0	_	22	det
+22	soldados	soldado	ncmp000	ncmp000	_	20	pobj
+23	españoles	español	aq0mp0	aq0mp0	_	22	amod
+24	en	en	sps00	sps00	_	19	oobj
+25	misiones	misión	ncfp000	ncfp000	_	24	pobj
+26	de	de	sps00	sps00	_	25	prepn
+27	paz	paz	ncfs000	ncfs000	_	26	pobj
+28	.	.	fp	fp	_	3	punct

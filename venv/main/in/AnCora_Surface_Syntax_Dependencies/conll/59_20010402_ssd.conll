@@ -1,0 +1,66 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	LA	el	da0fs0	da0fs0	_	2	det
+2	MANIFESTACIÓN	manifestación	ncfs000	ncfs000	_	8	nsubj
+3	,	,	fc	fc	_	2	punct
+4	celebrada	celebrado	aq0fsp	aq0fsp	_	2	amod
+5	en	en	sps00	sps00	_	4	prepa
+6	Barcelona	Barcelona	np00000	np00000	_	5	pobj
+7	,	,	fc	fc	_	2	punct
+8	reunió	reunir	vmis3s0	vmis3s0	_	0	root
+9	a	a	sps00	sps00	_	8	dobj
+10	unas	uno	di0fp0	di0fp0	_	12	det
+11	2.500	2500	z	z	_	10	num
+12	personas	persona	ncfp000	ncfp000	_	9	pobj
+13	,	,	fc	fc	_	12	punct
+14	que	que	pr0cn000	pr0cn000	_	15	nsubj
+15	demandan	demandar	vmip3p0	vmip3p0	_	12	rcmod
+16	que	que	cs	cs	_	15	dobj
+17	no	no	rn	rn	_	19	neg
+18	se	se	p0000000	p0000000	_	19	reflec
+19	incluyan	incluir	vmsp3p0	vmsp3p0	_	16	cobj
+20	en	en	sps00	sps00	_	19	prepv
+21	el	el	da0ms0	da0ms0	_	22	det
+22	recibo	recibo	ncms000	ncms000	_	20	pobj
+23	otras	otro	di0fp0	di0fp0	_	24	det
+24	tasas	tasa	ncfp000	ncfp000	_	19	nsubj
+25	,	,	fc	fc	_	24	punct
+26	como	como	cs	cs	_	24	prepn
+27	la	el	da0fs0	da0fs0	_	28	pobj
+28	de	de	sps00	sps00	_	26	cobj
+29	recogida	recogida	ncfs000	ncfs000	_	28	pobj
+30	de	de	sps00	sps00	_	29	prepn
+31	basuras	basura	ncfp000	ncfp000	_	30	pobj
+32	.	.	fp	fp	_	8	punct
+
+1	Los	el	da0mp0	da0mp0	_	2	det
+2	manifestantes	manifestante	nccp000	nccp000	_	3	nsubj
+3	aprovecharon	aprovechar	vmis3p0	vmis3p0	_	0	root
+4	para	para	sps00	sps00	_	3	prepv
+5	criticar	criticar	vmn0000	vmn0000	_	4	pobj
+6	el	el	da0ms0	da0ms0	_	7	det
+7	proyecto	proyecto	ncms000	ncms000	_	5	dobj
+8	de	de	sps00	sps00	_	7	prepn
+9	rascacielos	rascacielos	ncmn000	ncmn000	_	8	pobj
+10	de	de	sps00	sps00	_	7	prepn
+11	Aguas	agua	ncfs000	ncfs000	_	10	pobj
+12	de	de	sps00	sps00	_	11	prepn
+13	Barcelona	Barcelona	np00000	np00000	_	12	pobj
+14	,	,	fc	fc	_	7	punct
+15	prueba	prueba	ncfs000	ncfs000	_	7	appos
+16	,	,	fc	fc	_	15	punct
+17	en	en	sps00	sps00	_	15	prepn
+18	su	su	dp3cs0	dp3cs0	_	19	poss
+19	opinión	opinión	ncfs000	ncfs000	_	17	pobj
+20	,	,	fc	fc	_	15	punct
+21	de	de	sps00	sps00	_	15	prepn
+22	que	que	cs	cs	_	21	pobj
+23	el	el	da0ms0	da0ms0	_	24	det
+24	recibo	recibo	ncms000	ncms000	_	25	nsubj
+25	es	ser	vsip3s0	vsip3s0	_	22	cobj
+26	abusivo	abusivo	aq0ms0	aq0ms0	_	25	attr
+27	.	.	fp	fp	_	3	punct

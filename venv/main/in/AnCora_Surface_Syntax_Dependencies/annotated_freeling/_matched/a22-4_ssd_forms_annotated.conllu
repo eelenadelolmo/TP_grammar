@@ -1,0 +1,54 @@
+1	Hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	18	adjt	_	_
+2	tiempos	tiempo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	modnomatch	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	cuando	cuando	PR00000	PR	matched=no|pos=pronoun|type=relative	6	subj	_	_
+5	Cristo	cristo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
+6	andaba	andar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	1	mod	_	_
+7	suelto	suelto	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	6	modnomatch	_	_
+8	por	por	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+9	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	10	spec	_	_
+10	campos	campo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
+12	Palestina	palestino	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+13	repartiendo	repartir	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	6	adjt	_	_
+14	milagros	milagro	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	13	dobj	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+16	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	17	spec	_	_
+17	caridad	caridad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	subj	_	_
+18	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+19	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	20	spec	_	_
+20	don	don	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	attr	_	_
+21	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	23	subj	_	_
+22	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	23	mphes	_	_
+23	dispensaba	dispensar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	20	mod	_	_
+24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	23	adjt	_	_
+25	manera	manera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+26	espontánea	espontáneo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	25	mod	_	_
+27	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	18	modnomatch	_	_
+28	generosa	generoso	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	27	coor	_	_
+29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	18	punc	_	_
+
+1	Todos	todo	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+2	ellos	ellos	PP3MP00	PP	gen=masculine|matched=yes: subj child of top deprel|num=plural|person=3|pos=pronoun|type=personal	5	subj	_	_
+3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	5	mphes	_	_
+4	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	5	aux	_	_
+5	dedicado	dedicar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	pobj	_	_
+7	legislar	legislar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	6	comp	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+9	reglamentar	reglamentar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	10	coor	_	_
+10	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	dobj	_	_
+11	coordinar	coordinar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	10	coor	_	_
+12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+13	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_
+14	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
+15	resultado	resultado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	coor	_	_
+16	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	5	modnomatch	_	_
+17	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	16	attr	_	_
+18	ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	19	adjt	_	_
+19	resulta	resultar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	17	comp	_	_
+20	dificilísimo	dificilísimo	AQSMS00	AQ	degree=superlative|gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	19	pred	_	_
+21	hacer	hacer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	19	dobj	_	_
+22	caridad	caridad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	21	dobj	_	_
+23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
+

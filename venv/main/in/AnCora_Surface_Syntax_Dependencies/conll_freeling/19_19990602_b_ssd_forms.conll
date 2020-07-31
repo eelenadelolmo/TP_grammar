@@ -1,0 +1,43 @@
+1 Polémica polémica NCFS000 NC pos=noun|type=common|gen=feminine|num=singular - - (sn:1(grup-nom-fs:1(n-fs:1)) 0 top  - -
+2 .        .        Fp      Fp pos=punctuation|type=period                    - - (F-term:2))                  1 punc - -
+
+1  Perros      perro     NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                        - - (grup-verb:12(sn:1(grup-nom-mp:1(n-mp:1)               12 subj       - -
+2  '           '         Fe      Fe  pos=punctuation|type=quotation                                       - - (s-a-mp:3                                              3  modnomatch - -
+3  civilizados civilizar VMP00PM VMP pos=verb|type=main|mood=participle|num=plural|gen=masculine          - - (s-a-mp:3(parti-mp:3))                                 1  mod        - -
+4  '           '         Fe      Fe  pos=punctuation|type=quotation                                       - - )))                                                    3  modnomatch - -
+5  con         con       SP      SP  pos=adposition|type=preposition                                      - - (grup-sp:5(prep:5)                                     12 adjt       - -
+6  el          el        DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular               - - (sn:7(espec-ms:6(j-ms:6))                              7  spec       - -
+7  hombre      hombre    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                      - - (grup-nom-ms:7(n-ms:7)))                               5  comp       - -
+8  ,           ,         Fc      Fc  pos=punctuation|type=comma                                           - - (Fc:8))                                                5  punc       - -
+9  ¡           ¡         Faa     Faa pos=punctuation|type=exclamationmark|punctenclose=open               - - (F-no-c:9)                                             12 punc       - -
+10 aún         aun       RG      RG  pos=adverb|type=general                                              - - (sadv:10)                                              12 adjt       - -
+11 no          no        RN      RN  pos=adverb|type=negative                                             - - (neg:11)                                               12 spec       - -
+12 saben       saber     VMIP3P0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=plural - - (verb:12)                                              0  top        - -
+13 escupir     escupir   VMN0000 VMN pos=verb|type=main|mood=infinitive                                   - - (grup-verb-inf:13(infinitiu:13(inf:13(forma-inf:13)))) 12 dobj       - -
+14 !           !         Fat     Fat pos=punctuation|type=exclamationmark|punctenclose=close              - - (F-term:14)                                            12 punc       - -
+15 .           .         Fp      Fp  pos=punctuation|type=period                                          - - (F-term:15))                                           12 punc       - -
+
+1 De    de     SP      SP  pos=adposition|type=preposition                                        - - (grup-verb:6(sp-de:1           6 adjt  - -
+2 todo  todo   DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular              - - (sn:3(indef-ms:2)              3 spec  - -
+3 eso   ese    PD00S00 PD  pos=pronoun|type=demonstrative|num=singular                            - - (pdem-ms:3)))                  1 comp  - -
+4 no    no     RN      RN  pos=adverb|type=negative                                               - - (neg:4)                        6 spec  - -
+5 se    se     P00CN00 P0  pos=pronoun|gen=common|num=invariable                                  - - (morfema-verbal:5)             6 mphes - -
+6 queja quejar VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:6(verb:6))          0 top   - -
+7 nadie nadie  PI0CS00 PI  pos=pronoun|type=indefinite|gen=common|num=singular                    - - (sn:7(pron-ms:7(pindef-ms:7))) 6 subj  - -
+8 .     .      Fp      Fp  pos=punctuation|type=period                                            - - (F-term:8))                    6 punc  - -
+
+1  Será           ser             VSIF3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=future|person=3|num=singular - - (grup-verb:1(verb:1)                  0  top        - -
+2  porque         porque          CS      CS  pos=conjunction|type=subordinating                                             - - (conj-subord:2)                       1  modnomatch - -
+3  eso            ese             PD00S00 PD  pos=pronoun|type=demonstrative|num=singular                                    - - (coor-n:4(sn:3(pron-ms:3(pdem-ms:3))) 4  coor       - -
+4  y              y               CC      CC  pos=conjunction|type=coordinating                                              - - -                                     1  attr       - -
+5  cosas          cosa            NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural                                   - - (sn:5(grup-nom-fp:5(n-fp:5))          4  coor       - -
+6  bastante       bastante        RG      RG  pos=adverb|type=general                                                        - - (s-adj:7(sadv:6)                      7  spec       - -
+7  peores         peor            AQ0CP00 AQ  pos=adjective|type=qualificative|gen=common|num=plural                         - - (s-a-mp:7(a-mp:7)))))                 5  mod        - -
+8  las            lo              PP3FPA0 PP  pos=pronoun|type=personal|person=3|gen=feminine|num=plural|case=accusative     - - (grup-verb:9(patons:8(paton-fp:8))    9  dobj       - -
+9  hacemos        hacer           VMIP1P0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=plural           - - (grup-verb:9(verb:9))                 1  modnomatch - -
+10 exclusivamente exclusiva_mente NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                 - - (sn:10(grup-nom-fs:10(n-fs:10)))      9  modnomatch - -
+11 los            el              DA0MP0  DA  pos=determiner|type=article|gen=masculine|num=plural                           - - (sn:12(espec-mp:11(j-mp:11))          12 spec       - -
+12 seres          ser             NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                                  - - (grup-nom-mp:12(n-mp:12)              9  modnomatch - -
+13 humanos        humano          AQ0MP00 AQ  pos=adjective|type=qualificative|gen=masculine|num=plural                      - - (s-a-mp:13(a-mp:13))))                12 mod        - -
+14 .              .               Fp      Fp  pos=punctuation|type=period                                                    - - (F-term:14)))                         9  punc       - -
+

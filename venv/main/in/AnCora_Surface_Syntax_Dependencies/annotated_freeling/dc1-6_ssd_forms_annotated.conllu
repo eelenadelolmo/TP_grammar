@@ -1,0 +1,281 @@
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	necesidad	necesidad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	poliandria	poliandria	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+7	aún	aun	RG	RG	matched=no|pos=adverb|type=general	9	spec	_	_
+8	más	más	RG	RG	matched=no|pos=adverb|type=general	9	spec	_	_
+9	imperiosa	imperioso	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	6	attr	_	_
+10	por	por	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+11	otra	otro	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	12	spec	_	_
+12	razón	razón	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Para	para	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+2	compensar	compensar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	comp	_	_
+3	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	4	spec	_	_
+4	pérdidas	pérdida	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
+5	ante	ante	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+6	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	7	spec	_	_
+7	depredadores	depredador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+9	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	10	spec	_	_
+10	titíes	tití	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	12	subj	_	_
+11	generalmente	general_mente	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	mod	_	_
+12	traen	traer	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+13	a	a	SP	SP	matched=no|pos=adposition|type=preposition	12	dobj	_	_
+14	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
+15	mundo	mundo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+16	gemelos	gemelo	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	12	modnomatch	_	_
+17	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	12	punc	_	_
+18	a	a	SP	SP	matched=no|pos=adposition|type=preposition	27	adjt	_	_
+19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	18	modnomatch	_	_
+21	primates	primate	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	20	attr	_	_
+22	de	de	SP	SP	matched=no|pos=adposition|type=preposition	21	mod	_	_
+23	doble	doble	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	24	mod	_	_
+24	mama	mama	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
+25	no	no	RN	RN	matched=no|pos=adverb|type=negative	27	spec	_	_
+26	pueden	poder	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	27	prt	_	_
+27	permitirse	permitirse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	12	modnomatch	_	_
+28	camadas	camada	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	27	dobj	_	_
+29	más	más	RG	RG	matched=no|pos=adverb|type=general	30	spec	_	_
+30	grandes	grande	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	28	mod	_	_
+31	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	12	punc	_	_
+32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	momento	momento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	nacimiento	nacimiento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+8	cada	cada	DI0CS0	DI	gen=common|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	9	spec	_	_
+9	gemelo	gemelo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+10	pesa	pesar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+11	ya	ya	RG	RG	matched=no|pos=adverb|type=general	10	adjt	_	_
+12	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	14	spec	_	_
+13	décima	10	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	14	mod	_	_
+14	parte	parte	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	10	dobj	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	mod	_	_
+16	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
+17	peso	peso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	mod	_	_
+19	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	20	spec	_	_
+20	madre	madre	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+21	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+22	tanto	tanto	RG	RG	matched=no|pos=adverb|type=general	10	adjt	_	_
+23	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	10	modnomatch	_	_
+24	si	si	CS	CS	matched=no|pos=conjunction|type=subordinating	10	adjt	_	_
+25	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	26	spec	_	_
+26	mujer	mujer	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	27	subj	_	_
+27	diera	dar	VMSI3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	24	comp	_	_
+28	a	a	SP	SP	matched=no|pos=adposition|type=preposition	27	pobj	_	_
+29	luz	luz	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	28	comp	_	_
+30	bebés	bebé	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	29	mod	_	_
+31	de	de	SP	SP	matched=no|pos=adposition|type=preposition	29	mod	_	_
+32	6	6	Z	Z	matched=no|pos=number	33	spec	_	_
+33	kilos	kilo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	31	comp	_	_
+34	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
+
+1	A	a	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	llegar	llegar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	modnomatch	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	destete	destete	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+7	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	8	spec	_	_
+8	gemelos	gemelo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	subj	_	_
+9	pesan	pesar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+10	entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+11	ambos	ambos	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	10	comp	_	_
+12	casi	casi	RG	RG	matched=no|pos=adverb|type=general	9	adjt	_	_
+13	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	mitad	mitad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_
+15	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	9	modnomatch	_	_
+16	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	17	spec	_	_
+17	madre	madre	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
+18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
+
+1	dado_que	dado_que	CS	CS	matched=no|pos=conjunction|type=subordinating	12	adjt	_	_
+2	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
+3	titíes	tití	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
+4	viven	vivir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	1	comp	_	_
+5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+6	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	7	spec	_	_
+7	árboles	árbol	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+9	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	10	spec	_	_
+10	hembras	hembra	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	12	subj	_	_
+11	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	12	mphes	_	_
+12	ven	ver	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+13	obligadas	obligar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	12	pred	_	_
+14	a	a	SP	SP	matched=no|pos=adposition|type=preposition	13	pobj	_	_
+15	acarrear	acarrear	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	14	comp	_	_
+16	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	17	spec	_	_
+17	gemelos	gemelo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	15	dobj	_	_
+18	constantemente	constante_mente	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	mod	_	_
+19	mientras	mientras	CS	CS	matched=no|pos=conjunction|type=subordinating	12	dobj	_	_
+20	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	19	comp	_	_
+21	pequeños	pequeño	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	20	attr	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
+
+1	De	de	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+2	hecho	hecho	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	llevar	llevar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	8	subj	_	_
+5	una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	7	spec	_	_
+6	sola	solo	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	7	mod	_	_
+7	cría	cría	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	dobj	_	_
+8	comporta	comportar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+9	ya	ya	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_
+10	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	11	spec	_	_
+11	carga	carga	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
+12	significativa	significativo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
+13	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	8	punc	_	_
+14	tanto	tanto	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+16	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	8	modnomatch	_	_
+17	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
+18	mono	mono	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	23	subj	_	_
+19	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	21	subj	_	_
+20	la	lo	PP3FSA0	PP	case=accusative|gen=feminine|matched=no|num=singular|person=3|pos=pronoun|type=personal	21	dobj	_	_
+21	traslada	trasladar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	18	mod	_	_
+22	rara_vez	rara_vez	RG	RG	matched=no|pos=adverb|type=general	21	adjt	_	_
+23	puede	poder	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	16	comp	_	_
+24	alimentarla	alimentarla	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	23	dobj	_	_
+25	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	8	modnomatch	_	_
+26	buscar	buscar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	25	coor	_	_
+27	comida	comida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	dobj	_	_
+28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	Además	además	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
+2	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+3	madre	madre	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+4	no	no	RN	RN	matched=no|pos=adverb|type=negative	6	spec	_	_
+5	puede	poder	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	6	prt	_	_
+6	hacer	hacer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
+7	mucho	mucho	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
+8	en_cuanto_a	en_cuanto_a	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	transporte	transporte	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+12	pues	pues	CS	CS	matched=no|pos=conjunction|type=subordinating	6	dobj	_	_
+13	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	15	prt	_	_
+14	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	15	prt	_	_
+15	comer	comer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	12	comp	_	_
+16	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
+17	doble	doble	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	15	dobj	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	mod	_	_
+19	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	normal	normal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	18	comp	_	_
+21	para	para	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
+22	producir	producir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	21	comp	_	_
+23	suficiente	suficiente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	24	mod	_	_
+24	leche	leche	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	dobj	_	_
+25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+2	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	protección	protección	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	nieve	nieve	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+8	tendrían	tener	VMIC3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=conditional|type=main	10	prt	_	_
+9	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	10	prt	_	_
+10	pasar	pasar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
+11	semanas	semana	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	adjt	_	_
+12	antes_de	antes_de	SP	SP	matched=no|pos=adposition|type=preposition	10	pobj	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	brote	brote	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	mod	_	_
+16	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	17	spec	_	_
+17	plantas	planta	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	15	comp	_	_
+18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	19	punc	_	_
+19	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	10	dobj	_	_
+20	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	21	spec	_	_
+21	animales	animal	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	19	coor	_	_
+22	salvajes	salvaje	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	21	mod	_	_
+23	e	y	CC	CC	matched=no|pos=conjunction|type=coordinating	10	modnomatch	_	_
+24	insectos	insecto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	23	coor	_	_
+25	carecerían	carecer	VMIC3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=conditional|type=main	10	modnomatch	_	_
+26	de	de	SP	SP	matched=no|pos=adposition|type=preposition	25	pobj	_	_
+27	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	29	spec	_	_
+28	primera	1	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	29	mod	_	_
+29	alimentación	alimentación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
+30	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	25	punc	_	_
+31	vital	vital	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	25	modnomatch	_	_
+32	tras	tras	SP	SP	matched=no|pos=adposition|type=preposition	25	adjt	_	_
+33	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	35	spec	_	_
+34	largo	largo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	35	mod	_	_
+35	sueño	sueño	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	32	comp	_	_
+36	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
+
+1	Una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+2	buena	bueno	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	nevada	nevada	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+4	conserva	conservar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+5	asimismo	asimismo	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	tierra	tierra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+8	cultivable	cultivable	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	7	mod	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
+10	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	12	spec	_	_
+11	temibles	temible	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	12	mod	_	_
+12	efectos	efecto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	comp	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
+14	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
+15	hielo	hielo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+17	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	modnomatch	_	_
+18	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	modnomatch	_	_
+19	mantiene	mantener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+20	en	en	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+21	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	23	spec	_	_
+22	justas	justo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	23	mod	_	_
+23	proporciones	proporción	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	20	comp	_	_
+24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	23	mod	_	_
+25	humedad	humedad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+26	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	19	dobj	_	_
+27	temperatura	temperatura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	coor	_	_
+28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	19	punc	_	_
+
+1	De	de	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+2	ahí	ahí	RG	RG	matched=no|pos=adverb|type=general	1	comp	_	_
+3	viene	venir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+5	sabio	sabio	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+6	refrán	refrán	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+7	popular	popular	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
+9	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	3	punc	_	_
+10	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+11	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	3	punc	_	_
+12	año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	adjt	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
+14	nieves	nieve	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	13	comp	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
+16	año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	adjt	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+18	bienes	bien	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	17	comp	_	_
+19	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	3	punc	_	_
+20	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+21	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	3	punc	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+2	embargo	embargo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	exceso	exceso	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+7	precipitaciones	precipitación	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	comp	_	_
+8	puede	poder	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	9	prt	_	_
+9	acarrear	acarrear	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
+10	consecuencias	consecuencia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	9	dobj	_	_
+11	catastróficas	catastrófico	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	10	mod	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+

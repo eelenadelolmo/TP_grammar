@@ -1,0 +1,93 @@
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	segunda	2	AO0FS00	AO	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	parte	parte	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+4	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	5	mphes	_	_
+5	ofrecerá	ofrecer	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	próximo_domingo	[G:??/??/??:??.??:??]	W	W	matched=no|pos=date	5	adjt	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+
+1	Según	según	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+2	Jesús	jesús	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	González	gonzález	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+5	productor	productor	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+6	ejecutivo	ejecutivo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+8	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	9	spec	_	_
+9	documentales	documental	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	comp	_	_
+10	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	5	punc	_	_
+11	no	no	RN	RN	matched=no|pos=adverb|type=negative	13	spec	_	_
+12	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	13	mphes	_	_
+13	trata	tratar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+14	sólo	sólo	RG	RG	matched=no|pos=adverb|type=general	13	adjt	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	20	coor	_	_
+16	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	17	spec	_	_
+17	biografía	biografía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	20	coor	_	_
+19	Buñuel	buñuel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+20	ni	ni	CC	CC	matched=no|pos=conjunction|type=coordinating	13	pobj	_	_
+21	de	de	SP	SP	matched=no|pos=adposition|type=preposition	20	coor	_	_
+22	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	24	spec	_	_
+23	mero	mero	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	24	mod	_	_
+24	estudio	estudio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
+25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	pobj	_	_
+26	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	27	spec	_	_
+27	filmografía	filmografía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	25	comp	_	_
+28	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	29	punc	_	_
+29	sino	sino	CC	CC	matched=no|pos=conjunction|type=coordinating	13	adjt	_	_
+30	también	también	RG	RG	matched=no|pos=adverb|type=general	29	coor	_	_
+31	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	modnomatch	_	_
+32	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	13	punc	_	_
+33	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	13	dobj	_	_
+34	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	13	punc	_	_
+35	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	36	spec	_	_
+36	visión	visión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+37	especial	especial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	36	mod	_	_
+38	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	13	punc	_	_
+39	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+40	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	13	punc	_	_
+41	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	pobj	_	_
+42	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	43	spec	_	_
+43	cineasta	cineasta	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	41	comp	_	_
+44	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	41	punc	_	_
+45	centrada	centrar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	13	adjt	_	_
+46	en	en	SP	SP	matched=no|pos=adposition|type=preposition	13	modnomatch	_	_
+47	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	13	punc	_	_
+48	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+49	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	13	punc	_	_
+50	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	51	spec	_	_
+51	obsesión	obsesión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+52	por	por	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+53	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	54	spec	_	_
+54	sueños	sueño	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	52	comp	_	_
+55	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	13	punc	_	_
+56	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+57	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	13	punc	_	_
+58	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+
+1	Antonio	antonio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+2	Drove	drove	AQ00000	AQ	matched=yes: subj child of top deprel|pos=adjective|type=qualificative	1	mod	_	_
+3	muestra	mostrar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	documental	documental	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+8	titulado	titular	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	pred	_	_
+9	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	memoria	memoria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	coor	_	_
+11	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	dobj	_	_
+12	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	13	spec	_	_
+13	sueños	sueño	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	11	coor	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+15	algunas	alguno	PI0FP00	PI	gen=feminine|matched=no|num=plural|pos=pronoun|type=indefinite	3	modnomatch	_	_
+16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	15	mod	_	_
+17	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	19	spec	_	_
+18	personales	personal	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	19	mod	_	_
+19	opiniones	opinión	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	16	comp	_	_
+20	sobre	sobre	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+21	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
+22	director	director	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+23	aragonés	aragonés	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	22	mod	_	_
+24	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+

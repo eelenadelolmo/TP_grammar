@@ -1,0 +1,20 @@
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+2	muy	muy	RG	RG	matched=no|pos=adverb|type=general	3	spec	_	_
+3	poco	poco	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
+4	tiempo	tiempo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+6	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	7	aux	_	_
+7	conseguido	conseguir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	9	coor	_	_
+8	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	7	modnomatch	_	_
+9	no_sólo	no_sólo	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+10	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	11	mphes	_	_
+11	hable	hablar	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	9	coor	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	pobj	_	_
+13	Joaquín	joaquín	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	12	comp	_	_
+14	Cortés	cortés	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	11	dobj	_	_
+15	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	11	pobj	_	_
+16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	15	coor	_	_
+17	Antonio	antonio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+18	Canales	canal	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	17	mod	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+

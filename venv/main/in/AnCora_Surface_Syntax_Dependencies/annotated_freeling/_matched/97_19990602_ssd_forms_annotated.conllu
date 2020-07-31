@@ -1,0 +1,104 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	ministro	ministro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Industria	industria	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+6	Josep	josep	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	7	mod	_	_
+7	Piqué	piqué	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+9	criticó	criticar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+10	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	9	adjt	_	_
+11	en	en	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+12	Melilla	melilla	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+13	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	convocatoria	convocatoria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	mod	_	_
+16	dos	2	Z	Z	matched=no|pos=number	17	spec	_	_
+17	jornadas	jornada	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	15	comp	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	mod	_	_
+19	huelga	huelga	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+20	en	en	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+21	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
+22	minería	minería	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+23	durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+24	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	25	spec	_	_
+25	campaña	campaña	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
+26	electoral	electoral	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	25	mod	_	_
+27	para	para	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+28	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	29	spec	_	_
+29	comicios	comicio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	27	comp	_	_
+30	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+31	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	32	spec	_	_
+32	próximo_13_de_junio	[??:13/6/??:??.??:??]	W	W	matched=no|pos=date	30	comp	_	_
+33	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+34	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	9	modnomatch	_	_
+35	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	9	modnomatch	_	_
+36	atribuyó	atribuir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	9	modnomatch	_	_
+37	a	a	SP	SP	matched=no|pos=adposition|type=preposition	36	pobj	_	_
+38	posibles	posible	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	39	mod	_	_
+39	razones	razón	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	37	comp	_	_
+40	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	9	punc	_	_
+41	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
+42	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	9	punc	_	_
+43	no	no	RN	RN	matched=no|pos=adverb|type=negative	44	spec	_	_
+44	estrictamente	estrictamente	RG	RG	matched=no|pos=adverb|type=general	9	adjt	_	_
+45	ligadas	ligar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	9	adjt	_	_
+46	a	a	SP	SP	matched=no|pos=adposition|type=preposition	45	pobj	_	_
+47	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	48	spec	_	_
+48	Plan	plan	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	46	comp	_	_
+49	de	de	SP	SP	matched=no|pos=adposition|type=preposition	45	adjt	_	_
+50	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	51	spec	_	_
+51	Carbón	carbón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	49	comp	_	_
+52	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	9	punc	_	_
+53	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
+54	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	9	punc	_	_
+55	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	ministerio	ministerio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	informó	informar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+4	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
+6	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	5	comp	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	plan	plan	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
+9	supone	suponer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	6	comp	_	_
+10	unas	uno	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	11	spec	_	_
+11	aportaciones	aportación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	9	dobj	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+13	más	más	RG	RG	matched=no|pos=adverb|type=general	12	comp	_	_
+14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	modnomatch	_	_
+15	150.000_millones	150000000000	Zd	Zd	matched=no|pos=number|type=partitive	13	modnomatch	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Según	según	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+2	Industria	industria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	5	spec	_	_
+5	ayudas	ayuda	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	12	subj	_	_
+6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	funcionamiento	funcionamiento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+10	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	11	spec	_	_
+11	minas	mina	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	9	comp	_	_
+12	superan	superar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+13	anualmente	anualmente	RG	RG	matched=no|pos=adverb|type=general	12	adjt	_	_
+14	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	15	spec	_	_
+15	80.000_millones	80000000000	Zd	Zd	matched=no|pos=number|type=partitive	12	dobj	_	_
+16	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	12	modnomatch	_	_
+17	en	en	SP	SP	matched=no|pos=adposition|type=preposition	16	coor	_	_
+18	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	19	spec	_	_
+19	año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+20	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	12	adjt	_	_
+21	medio	medio	RG	RG	matched=no|pos=adverb|type=general	20	coor	_	_
+22	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	24	mphes	_	_
+23	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	24	aux	_	_
+24	aprobado	aprobar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	12	modnomatch	_	_
+25	proyectos	proyecto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	24	dobj	_	_
+26	de	de	SP	SP	matched=no|pos=adposition|type=preposition	25	mod	_	_
+27	infraestructuras	infraestructura	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	26	comp	_	_
+28	por	por	SP	SP	matched=no|pos=adposition|type=preposition	24	adjt	_	_
+29	125.000_millones	125000000000	Zd	Zd	matched=no|pos=number|type=partitive	28	comp	_	_
+30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
+

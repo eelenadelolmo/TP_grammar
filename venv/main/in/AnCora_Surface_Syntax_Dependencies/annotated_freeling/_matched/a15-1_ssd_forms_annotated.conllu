@@ -1,0 +1,38 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	amarillismo	amarillismo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	imparcial	imparcial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	investigador	investigador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	26	subj	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+4	nunca	nunca	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	5	adjt	_	_
+5	descubre	descubrir	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	mod	_	_
+6	nada	nada	PI0CS00	PI	gen=common|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	5	dobj	_	_
+7	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	10	subj	_	_
+8	no	no	RN	RN	matched=yes: subj child of top deprel|pos=adverb|type=negative	10	spec	_	_
+9	se	se	P00CN00	P0	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun	10	mphes	_	_
+10	populariza	popularizar	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	6	mod	_	_
+11	gracias_a	gracias_a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	adjt	_	_
+12	algún	alguno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	13	spec	_	_
+13	descubrimiento	descubrimiento	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	comp	_	_
+14	suficientemente	suficientemente	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	15	spec	_	_
+15	espectacular	espectacular	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	10	modnomatch	_	_
+16	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	5	modnomatch	_	_
+17	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	18	dobj	_	_
+18	haga	hacer	VMSP3S0	VMS	matched=yes: subj child of top deprel|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	16	comp	_	_
+19	aparecer	aparecer	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	18	modnomatch	_	_
+20	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	19	pobj	_	_
+21	algún	alguno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	22	spec	_	_
+22	magazine	magazine	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	comp	_	_
+23	televisivo	televisivo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	22	mod	_	_
+24	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+25	va	ir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	26	prt	_	_
+26	perdiendo	perder	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	0	top	_	_
+27	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	28	spec	_	_
+28	fuentes	fuente	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	26	dobj	_	_
+29	de	de	SP	SP	matched=no|pos=adposition|type=preposition	28	mod	_	_
+30	financiación	financiación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	29	comp	_	_
+31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	26	punc	_	_
+

@@ -1,0 +1,47 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	diputado	diputado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	Joan	joan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+4	Boada	boada	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	adjt	_	_
+5	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	6	modnomatch	_	_
+6	IC-V	ic-v	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	4	dobj	_	_
+7	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	6	modnomatch	_	_
+8	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	9	aux	_	_
+9	pedido	pedir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	modnomatch	_	_
+10	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	Conselleria	conselleria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
+14	Justícia	justícia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+15	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	16	subj	_	_
+16	instale	instalar	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	14	mod	_	_
+17	medidas	medida	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	16	dobj	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	mod	_	_
+19	seguridad	seguridad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+20	contra	contra	SP	SP	matched=no|pos=adposition|type=preposition	16	pobj	_	_
+21	incendios	incendio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	20	comp	_	_
+22	en	en	SP	SP	matched=no|pos=adposition|type=preposition	16	pobj	_	_
+23	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
+24	edificio	edificio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
+25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	24	mod	_	_
+26	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	27	spec	_	_
+27	juzgados	juzgado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	25	comp	_	_
+28	de	de	SP	SP	matched=no|pos=adposition|type=preposition	27	mod	_	_
+29	Mollet	molle_t	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	28	comp	_	_
+30	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+31	tras	tras	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+32	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	34	spec	_	_
+33	reciente	reciente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	34	mod	_	_
+34	fuego	fuego	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	31	comp	_	_
+35	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	36	subj	_	_
+36	destruyó	destruir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	34	mod	_	_
+37	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	38	spec	_	_
+38	oficinas	oficina	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	36	dobj	_	_
+39	de	de	SP	SP	matched=no|pos=adposition|type=preposition	38	mod	_	_
+40	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	41	spec	_	_
+41	empresa	empresa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	39	comp	_	_
+42	de	de	SP	SP	matched=no|pos=adposition|type=preposition	38	mod	_	_
+43	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	45	spec	_	_
+44	primera	1	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	45	mod	_	_
+45	planta	planta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	42	comp	_	_
+46	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+

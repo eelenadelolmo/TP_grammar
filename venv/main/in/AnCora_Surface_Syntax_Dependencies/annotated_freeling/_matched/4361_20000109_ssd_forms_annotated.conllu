@@ -1,0 +1,142 @@
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	negociaciones	negociación	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	subj	_	_
+3	entre	entre	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	ambos	ambos	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	5	spec	_	_
+5	países	país	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
+7	enemigos	enemigo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	mod	_	_
+8	desde	desde	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+9	hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+10	más	más	RG	RG	matched=no|pos=adverb|type=general	9	adjt	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	modnomatch	_	_
+12	50	50	Z	Z	matched=no|pos=number	13	spec	_	_
+13	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	modnomatch	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+15	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	16	mphes	_	_
+16	interrumpieron	interrumpir	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	9	modnomatch	_	_
+17	durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	9	modnomatch	_	_
+18	toda	todo	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	9	modnomatch	_	_
+19	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	jornada	jornada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_
+21	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+22	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	21	comp	_	_
+23	debido_a	debido_a	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+24	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	25	spec	_	_
+25	celebraciones	celebración	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	23	comp	_	_
+26	religiosas	religioso	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	25	mod	_	_
+27	de	de	SP	SP	matched=no|pos=adposition|type=preposition	25	mod	_	_
+28	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	29	spec	_	_
+29	Ramadán	ramadán	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	27	comp	_	_
+30	árabe	árabe	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	29	mod	_	_
+31	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	9	modnomatch	_	_
+32	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	33	spec	_	_
+33	Sabbath	sabbath	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	31	coor	_	_
+34	judío	judío	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	33	mod	_	_
+35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	secretaria	secretario	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Estado	estado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+6	Madeleine	madeleine	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
+7	Albright	albright	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	mod	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+9	almorzó	almorzar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+10	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	9	adjt	_	_
+11	con	con	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+13	jefe	jefe	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	mod	_	_
+15	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	delegación	delegación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+17	siria	sirio	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+19	Faruk	faruk	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_
+20	A	a	SP	SP	matched=no|pos=adposition|type=preposition	9	modnomatch	_	_
+21	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	modnomatch	_	_
+22	Chará	chará	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	9	modnomatch	_	_
+23	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	22	punc	_	_
+24	en	en	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
+25	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	26	spec	_	_
+26	hotel	hotel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+27	de	de	SP	SP	matched=no|pos=adposition|type=preposition	26	mod	_	_
+28	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	30	spec	_	_
+29	histórica	histórico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	30	mod	_	_
+30	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	27	comp	_	_
+31	de	de	SP	SP	matched=no|pos=adposition|type=preposition	30	mod	_	_
+32	Virginia	virginia	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	31	comp	_	_
+33	Occidental	occidental	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	32	mod	_	_
+34	en	en	SP	SP	matched=no|pos=adposition|type=preposition	38	modnomatch	_	_
+35	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	36	spec	_	_
+36	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	34	comp	_	_
+37	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	38	mphes	_	_
+38	celebran	celebrar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	32	mod	_	_
+39	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	40	spec	_	_
+40	negociaciones	negociación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	22	dobj	_	_
+41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
+
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	conversaciones	conversación	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
+3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
+4	encuentran	encontrar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+5	estancadas	estancar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	4	pred	_	_
+6	desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	jueves	[J:??/??/??:??.??:??]	W	W	matched=no|pos=date	6	comp	_	_
+9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+10	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	4	adjt	_	_
+11	ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	10	coor	_	_
+12	ambas	ambos	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	13	spec	_	_
+13	partes	parte	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	4	dobj	_	_
+14	deben	deber	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	15	prt	_	_
+15	analizar	analizar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	modnomatch	_	_
+16	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	17	spec	_	_
+17	documento	documento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	dobj	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	mod	_	_
+19	trabajo	trabajo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+20	presentado	presentar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	19	mod	_	_
+21	por	por	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
+22	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
+24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	23	mod	_	_
+25	EEUU	eeuu	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+26	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
+27	Bill	bill	I	I	matched=no|pos=interjection	15	adjt	_	_
+28	Clinton	clin_ton	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	modnomatch	_	_
+29	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	28	punc	_	_
+30	en	en	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
+31	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	32	spec	_	_
+32	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	34	subj	_	_
+33	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	34	mphes	_	_
+34	pretende	pretender	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	30	comp	_	_
+35	identificar	identificar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	34	dobj	_	_
+36	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	37	spec	_	_
+37	acuerdos	acuerdo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	38	coor	_	_
+38	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	15	modnomatch	_	_
+39	desacuerdos	desacuerdo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	38	coor	_	_
+40	entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
+41	Siria	sirio	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	40	comp	_	_
+42	e	y	CC	CC	matched=no|pos=conjunction|type=coordinating	15	modnomatch	_	_
+43	Israel	israel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	42	coor	_	_
+44	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	15	punc	_	_
+
+1	Según	según	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+2	fuentes	fuente	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
+3	israelíes	israelí	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+6	primer	1	AO0MS00	AO	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	7	mod	_	_
+7	ministro	ministro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+8	Ehud	ehud	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	mod	_	_
+9	Barak	barak	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	modnomatch	_	_
+10	abandonará	abandonar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	lunes	[L:??/??/??:??.??:??]	W	W	matched=no|pos=date	10	adjt	_	_
+13	Shepherdstown	shepherdstown	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	dobj	_	_
+14	para	para	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+15	regresar	regresar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	14	comp	_	_
+16	a	a	SP	SP	matched=no|pos=adposition|type=preposition	15	pobj	_	_
+17	Israel	israel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+

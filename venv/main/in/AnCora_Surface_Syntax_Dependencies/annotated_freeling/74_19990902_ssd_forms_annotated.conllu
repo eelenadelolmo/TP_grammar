@@ -1,0 +1,46 @@
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	32	adjt	_	_
+2	homenaje	homenaje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	1	comp	_	_
+4	McCartney	mccartney	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+5	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	6	modnomatch	_	_
+6	foto	foto	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	coor	_	_
+7	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	6	modnomatch	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+9	Lennon	len_non	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+10	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	comp	_	_
+11	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	13	spec	_	_
+12	otros	otro	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	13	spec	_	_
+13	Beatles	beatles	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	coor	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+15	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	16	spec	_	_
+16	Hotel	hotel	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	32	subj	_	_
+17	Cabana	cabana	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	mod	_	_
+18	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	16	punc	_	_
+19	en	en	SP	SP	matched=no|pos=adposition|type=preposition	32	adjt	_	_
+20	Palo	palo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
+21	Alto	alto	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	20	mod	_	_
+22	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	23	modnomatch	_	_
+23	California	california	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	32	modnomatch	_	_
+24	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	23	modnomatch	_	_
+25	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	23	punc	_	_
+26	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	27	adjt	_	_
+27	pernoctaron	pernoctar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	23	mod	_	_
+28	en	en	SP	SP	matched=no|pos=adposition|type=preposition	27	adjt	_	_
+29	1965	1965	Z	Z	matched=no|pos=number	28	comp	_	_
+30	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	23	punc	_	_
+31	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	32	aux	_	_
+32	inaugurado	inaugurar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+33	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	34	spec	_	_
+34	habitación	habitación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	32	dobj	_	_
+35	especial	especial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	34	mod	_	_
+36	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	32	punc	_	_
+37	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	32	modnomatch	_	_
+38	810	810	Z	Z	matched=no|pos=number	32	modnomatch	_	_
+39	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	38	punc	_	_
+40	con	con	SP	SP	matched=no|pos=adposition|type=preposition	32	adjt	_	_
+41	recuerdos	recuerdo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	40	comp	_	_
+42	de	de	SP	SP	matched=no|pos=adposition|type=preposition	41	mod	_	_
+43	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	44	spec	_	_
+44	grupo	grupo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	42	comp	_	_
+45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	42	punc	_	_
+

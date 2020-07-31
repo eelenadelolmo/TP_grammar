@@ -1,0 +1,121 @@
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	total	total	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	134	134	Z	Z	matched=yes: subj child of top deprel|pos=number	5	spec	_	_
+5	bienes	bien	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+7	Jorge	jorge	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+8	Eliécer	eliécer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	7	dobj	_	_
+9	Rodríguez	rodríguez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
+10	Orejuela	orejuela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	mod	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+12	hermano	hermano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	28	subj	_	_
+13	menor	menor	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	12	mod	_	_
+14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
+15	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	16	spec	_	_
+16	jefes	jefe	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	14	comp	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
+18	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+19	desarticulado	desarticular	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	20	mod	_	_
+20	cartel	cartel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+21	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
+22	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	cocaína	cocaína	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
+24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
+25	Cali	cal_i	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+26	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
+27	fueron	ser	VSIS3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=semiauxiliary	28	aux	_	_
+28	ocupados	ocupar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	7	modnomatch	_	_
+29	por	por	SP	SP	matched=no|pos=adposition|type=preposition	28	agnt	_	_
+30	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	31	spec	_	_
+31	autoridades	autoridad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	29	comp	_	_
+32	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	modnomatch	_	_
+33	Colombia	colombia	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	7	modnomatch	_	_
+34	en	en	SP	SP	matched=no|pos=adposition|type=preposition	33	adjt	_	_
+35	cumplimiento	cumplimiento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	34	comp	_	_
+36	de	de	SP	SP	matched=no|pos=adposition|type=preposition	35	mod	_	_
+37	órdenes	orden	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	36	comp	_	_
+38	de	de	SP	SP	matched=no|pos=adposition|type=preposition	37	mod	_	_
+39	confiscación	confiscación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	38	comp	_	_
+40	definitiva	definitivo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	39	mod	_	_
+41	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	33	punc	_	_
+42	informaron	informar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	7	modnomatch	_	_
+43	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	42	adjt	_	_
+44	fuentes	fuente	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	42	dobj	_	_
+45	judiciales	judicial	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	44	mod	_	_
+46	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	42	punc	_	_
+
+1	Una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	fuente	fuente	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	judicial	judicial	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	calculó	calcular	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	4	modnomatch	_	_
+6	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	7	spec	_	_
+7	bienes	bien	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	dobj	_	_
+8	decomisados	decomisar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	7	mod	_	_
+9	por	por	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+10	orden	orden	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
+12	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+13	Fiscalía	fiscalía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+14	General	general	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	13	mod	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+16	en_virtud_de	en_virtud_de	SP	SP	matched=no|pos=adposition|type=preposition	4	modnomatch	_	_
+17	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	modnomatch	_	_
+18	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	4	punc	_	_
+19	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+20	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	4	punc	_	_
+21	ley	ley	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+22	de	de	SP	SP	matched=no|pos=adposition|type=preposition	21	mod	_	_
+23	extinción	extinción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
+24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	21	mod	_	_
+25	dominio	dominio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+26	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	4	punc	_	_
+27	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+28	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	4	punc	_	_
+29	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	4	modnomatch	_	_
+30	confiscación	confiscación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	29	coor	_	_
+31	definitiva	definitivo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	30	mod	_	_
+32	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+33	pueden	poder	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	34	prt	_	_
+34	tener	tener	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	modnomatch	_	_
+35	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	36	spec	_	_
+36	valor	valor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	34	dobj	_	_
+37	de	de	SP	SP	matched=no|pos=adposition|type=preposition	36	mod	_	_
+38	unos	uno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	39	spec	_	_
+39	10.000_millones_de_pesos	$_CUP:10000000000	Zm	Zm	matched=no|pos=number|type=currency	37	comp	_	_
+40	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	4	punc	_	_
+41	alrededor_de	alrededor_de	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+42	cinco_millones_de_dólares	$_USD:5000000	Zm	Zm	matched=no|pos=number|type=currency	41	comp	_	_
+43	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	4	punc	_	_
+44	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+2	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
+3	propiedades	propiedad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	comp	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	menor	menor	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	4	comp	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+8	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	1	comp	_	_
+9	Rodríguez	rodríguez	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+10	Orejuela	orejuela	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	mod	_	_
+11	confiscadas	confiscar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	12	adjt	_	_
+12	hay	haber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+13	también	también	RG	RG	matched=no|pos=adverb|type=general	12	adjt	_	_
+14	acciones	acción	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	12	dobj	_	_
+15	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+16	sociedades	sociedad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	15	comp	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+18	inversiones	inversión	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	17	comp	_	_
+19	e	y	CC	CC	matched=no|pos=conjunction|type=coordinating	12	adjt	_	_
+20	incluso	incluso	RG	RG	matched=no|pos=adverb|type=general	19	coor	_	_
+21	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	22	spec	_	_
+22	centro	centro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	coor	_	_
+23	médico	médico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	22	mod	_	_
+24	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	12	modnomatch	_	_
+25	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	26	spec	_	_
+26	laboratorio	laboratorio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	coor	_	_
+27	clínico	clínico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	26	mod	_	_
+28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
+

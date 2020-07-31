@@ -1,0 +1,67 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	MÁS	más	rg	rg	_	6	advmod
+2	de	de	sps00	sps00	_	6	prep
+3	UN	uno	di0ms0	di0ms0	_	7	det
+4	85%	85/100	zp	zp	_	6	num
+5	de	de	sps00	sps00	_	6	prep
+6	los	el	da0mp0	da0mp0	_	7	det
+7	trabajadores	trabajador	ncmp000	ncmp000	_	16	nsubj
+8	del	del	spcms	spcms	_	7	prepn
+9	sector	sector	ncms000	ncms000	_	8	pobj
+10	del	del	spcms	spcms	_	9	prepn
+11	metal	metal	ncms000	ncms000	_	10	pobj
+12	de	de	sps00	sps00	_	11	prepn
+13	Berlín	Berlín	np00000	np00000	_	14	coord
+14	y	y	cc	cc	_	12	pobj
+15	Brandeburgo	Brandeburgo	np00000	np00000	_	14	coord
+16	apoyaron	apoyar	vmis3p0	vmis3p0	_	0	root
+17	ayer	ayer	rg	rg	_	18	advmod
+18	una	uno	di0fs0	di0fs0	_	19	det
+19	convocatoria	convocatoria	ncfs000	ncfs000	_	16	dobj
+20	de	de	sps00	sps00	_	19	prepn
+21	huelga	huelga	ncfs000	ncfs000	_	20	pobj
+22	para	para	sps00	sps00	_	16	prepv
+23	defender	defender	vmn0000	vmn0000	_	22	pobj
+24	un	uno	di0ms0	di0ms0	_	25	det
+25	aumento	aumento	ncms000	ncms000	_	23	dobj
+26	de	de	sps00	sps00	_	25	prepn
+27	los	el	da0mp0	da0mp0	_	28	det
+28	salarios	salario	ncmp000	ncmp000	_	26	pobj
+29	del	del	spcms	spcms	_	25	prepn
+30	6,5%	6.5/100	zp	zp	_	29	pobj
+31	.	.	fp	fp	_	16	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	paro	paro	ncms000	ncms000	_	15	nsubj
+3	,	,	fc	fc	_	2	punct
+4	propuesto	propuesto	aq0msp	aq0msp	_	2	amod
+5	por	por	sps00	sps00	_	4	agent
+6	el	el	da0ms0	da0ms0	_	7	det
+7	sindicato	sindicato	ncms000	ncms000	_	5	pobj
+8	IG	IG	np0000l	np0000l	_	7	appos
+9	Metall	Metall	np0000l	np0000l	_	8	appos
+10	para	para	sps00	sps00	_	4	prepa
+11	el	el	da0ms0	da0ms0	_	13	det
+12	próximo	próximo	aq0ms0	aq0ms0	_	13	amod
+13	lunes	lunes	ncms000	ncms000	_	10	pobj
+14	,	,	fc	fc	_	2	punct
+15	es	ser	vsip3s0	vsip3s0	_	0	root
+16	el	el	da0ms0	da0ms0	_	17	det
+17	primero	primero	ao0ms0	ao0ms0	_	15	attr
+18	que	que	pr0cn000	pr0cn000	_	19	dobj
+19	organizan	organizar	vmip3p0	vmip3p0	_	17	rcmod
+20	los	el	da0mp0	da0mp0	_	21	det
+21	metalúrgicos	metalúrgico	ncmp000	ncmp000	_	19	nsubj
+22	de	de	sps00	sps00	_	21	prepn
+23	esta	este	dd0fs0	dd0fs0	_	24	det
+24	región	región	ncfs000	ncfs000	_	22	pobj
+25	alemana	alemán	aq0fs0	aq0fs0	_	24	amod
+26	desde	desde	sps00	sps00	_	19	prepv
+27	la	el	da0fs0	da0fs0	_	28	det
+28	posguerra	posguerra	ncfs000	ncfs000	_	26	pobj
+29	.	.	fp	fp	_	15	punct

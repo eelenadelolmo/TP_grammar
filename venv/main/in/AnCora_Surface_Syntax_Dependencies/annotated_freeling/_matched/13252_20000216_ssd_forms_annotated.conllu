@@ -1,0 +1,187 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	grupo	grupo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	socialista	socialista	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
+9	Parlamento	parlamento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+10	catalán	catalán	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+12	Pasqual	pasqual	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	13	mod	_	_
+13	Maragall	maragall	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	modnomatch	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+15	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	17	mphes	_	_
+16	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	17	aux	_	_
+17	felicitado	felicitar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+18	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	17	adjt	_	_
+19	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+20	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	19	comp	_	_
+21	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
+22	Caixa	caixa	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	24	subj	_	_
+23	no	no	RN	RN	matched=no|pos=adverb|type=negative	24	spec	_	_
+24	participe	participar	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	20	comp	_	_
+25	en	en	SP	SP	matched=no|pos=adposition|type=preposition	24	pobj	_	_
+26	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	27	spec	_	_
+27	programa	programa	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	25	comp	_	_
+28	de	de	SP	SP	matched=no|pos=adposition|type=preposition	27	mod	_	_
+29	Stock	stock	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	28	comp	_	_
+30	Options	options	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	29	mod	_	_
+31	de	de	SP	SP	matched=no|pos=adposition|type=preposition	24	pobj	_	_
+32	Telefónica	telefónico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	31	comp	_	_
+33	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	17	punc	_	_
+34	después_de	después_de	SP	SP	matched=no|pos=adposition|type=preposition	38	adjt	_	_
+35	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	36	subj	_	_
+36	hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	34	comp	_	_
+37	dos_días	TM_d:2	Zu	Zu	matched=no|pos=number|type=unit	36	dobj	_	_
+38	acusara	acusar	VMSI3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	17	modnomatch	_	_
+39	erróneamente	erróneamente	RG	RG	matched=no|pos=adverb|type=general	38	adjt	_	_
+40	a	a	SP	SP	matched=no|pos=adposition|type=preposition	38	adjt	_	_
+41	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	42	spec	_	_
+42	vicepresidente	vicepresidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	40	comp	_	_
+43	de	de	SP	SP	matched=no|pos=adposition|type=preposition	42	mod	_	_
+44	esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	45	spec	_	_
+45	entidad	entidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	43	comp	_	_
+46	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	38	punc	_	_
+47	Isidre	isidre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	38	dobj	_	_
+48	Fainé	fainé	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	47	mod	_	_
+49	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	47	punc	_	_
+50	de	de	SP	SP	matched=no|pos=adposition|type=preposition	38	pobj	_	_
+51	recibir	recibir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	50	comp	_	_
+52	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	53	spec	_	_
+53	incentivo	incentivo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	51	dobj	_	_
+54	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	38	punc	_	_
+
+1	Durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
+2	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+3	acto	acto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	electoral	electoral	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+5	con	con	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
+6	empresarios	empresario	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	13	subj	_	_
+11	también	también	RG	RG	matched=no|pos=adverb|type=general	13	adjt	_	_
+12	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	13	aux	_	_
+13	participado	participar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	8	comp	_	_
+14	Joaquín	joaquín	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	13	modnomatch	_	_
+15	Almunia	almunia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	coor	_	_
+16	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	13	modnomatch	_	_
+17	Narcís	narcís	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	coor	_	_
+18	Serra	serra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	mod	_	_
+19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+20	Maragall	maragall	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	22	subj	_	_
+21	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	22	aux	_	_
+22	rectificado	rectificar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+23	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	24	spec	_	_
+24	acusación	acusación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	dobj	_	_
+25	después_de	después_de	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
+26	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	25	comp	_	_
+27	Telefónica	telefónico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	28	pred	_	_
+28	hiciera	hacer	VMSI3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	26	comp	_	_
+29	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	30	spec	_	_
+30	público	público	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	28	pred	_	_
+31	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	32	spec	_	_
+32	comunicado	comunicado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	28	dobj	_	_
+33	en	en	SP	SP	matched=no|pos=adposition|type=preposition	36	subj	_	_
+34	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	35	spec	_	_
+35	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	33	modnomatch	_	_
+36	asegura	asegurar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	32	mod	_	_
+37	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	22	modnomatch	_	_
+38	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	39	spec	_	_
+39	vicepresidente	vicepresidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	53	subj	_	_
+40	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	39	punc	_	_
+41	Isidre	isidre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	53	modnomatch	_	_
+42	Fainé	fainé	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	41	mod	_	_
+43	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	41	punc	_	_
+44	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	46	subj	_	_
+45	también	también	RG	RG	matched=no|pos=adverb|type=general	46	adjt	_	_
+46	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	41	mod	_	_
+47	consejero	consejero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	46	attr	_	_
+48	en_representación_de	en_representación_de	SP	SP	matched=no|pos=adposition|type=preposition	46	adjt	_	_
+49	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	50	spec	_	_
+50	Caixa	caixa	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	48	comp	_	_
+51	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	41	punc	_	_
+52	no	no	RN	RN	matched=no|pos=adverb|type=negative	53	spec	_	_
+53	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	37	comp	_	_
+54	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	22	punc	_	_
+55	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	22	modnomatch	_	_
+56	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	22	punc	_	_
+57	Stock	stock	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	modnomatch	_	_
+58	Options	options	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	57	mod	_	_
+59	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	22	punc	_	_
+60	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	22	modnomatch	_	_
+61	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	22	punc	_	_
+62	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+2	declaraciones	declaración	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
+3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
+5	periodistas	periodista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+7	Maragall	maragall	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+8	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	9	aux	_	_
+9	explicado	explicar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+10	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	9	dobj	_	_
+11	lanzó	lanzar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	10	comp	_	_
+12	esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	13	spec	_	_
+13	acusación	acusación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	dobj	_	_
+14	contra	contra	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+15	Fainé	fainé	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+16	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	11	adjt	_	_
+17	todo	todo	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	18	spec	_	_
+18	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
+19	mundo	mundo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	subj	_	_
+20	pensaba	pensar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	16	comp	_	_
+21	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	9	modnomatch	_	_
+22	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+23	en	en	SP	SP	matched=no|pos=adposition|type=preposition	31	adjt	_	_
+24	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	25	spec	_	_
+25	calidad	calidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
+26	de	de	SP	SP	matched=no|pos=adposition|type=preposition	31	adjt	_	_
+27	vicepresidente	vicepresidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
+28	de	de	SP	SP	matched=no|pos=adposition|type=preposition	31	adjt	_	_
+29	Telefónica	telefónico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	28	comp	_	_
+30	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	28	punc	_	_
+31	participaba	participar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	9	modnomatch	_	_
+32	en	en	SP	SP	matched=no|pos=adposition|type=preposition	31	pobj	_	_
+33	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	34	spec	_	_
+34	programa	programa	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	32	comp	_	_
+35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	31	punc	_	_
+
+1	Tras	tras	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
+2	recordar	recordar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	comp	_	_
+3	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	20	subj	_	_
+4	nunca	nunca	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	7	adjt	_	_
+5	se	se	P00CN00	P0	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun	7	mphes	_	_
+6	ha	haber	VAIP3S0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	7	aux	_	_
+7	hecho	hacer	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	3	comp	_	_
+8	pública	público	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	7	pred	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	10	spec	_	_
+10	lista	lista	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	dobj	_	_
+11	completa	completo	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	10	mod	_	_
+12	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	mod	_	_
+13	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	14	spec	_	_
+14	beneficiarios	beneficiario	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	12	comp	_	_
+15	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	mod	_	_
+16	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	17	spec	_	_
+17	programa	programa	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	comp	_	_
+18	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
+19	Maragall	maragall	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	modnomatch	_	_
+20	explicó	explicar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+21	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	20	dobj	_	_
+22	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	24	adjt	_	_
+23	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	24	mphes	_	_
+24	vio	ver	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	21	comp	_	_
+25	con	con	SP	SP	matched=no|pos=adposition|type=preposition	24	adjt	_	_
+26	Fainé	fainé	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	25	comp	_	_
+27	para	para	SP	SP	matched=no|pos=adposition|type=preposition	24	adjt	_	_
+28	tratar	tratar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	27	comp	_	_
+29	de	de	SP	SP	matched=no|pos=adposition|type=preposition	28	pobj	_	_
+30	esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	31	spec	_	_
+31	cuestión	cuestión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	29	comp	_	_
+32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
+

@@ -1,0 +1,152 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	Allí	allí	rg	rg	_	4	advmod
+2	se	él	p0300000	p0300000	_	4	reflec
+3	han	haber	vaip3p0	vaip3p0	_	0	root
+4	ido	ir	vmp00sm	vmp00sm	_	3	vobj
+5	los	el	da0mp0	da0mp0	_	6	det
+6	dos	dos	pn0cp000	pn0cp000	_	3	nsubj
+7	,	,	fc	fc	_	6	punct
+8	la	el	da0fs0	da0fs0	_	9	det
+9	persona	persona	ncfs000	ncfs000	_	10	coord
+10	y	y	cc	cc	_	6	appos
+11	la	el	da0fs0	da0fs0	_	12	det
+12	imagen	imagen	ncfs000	ncfs000	_	10	coord
+13	.	.	fp	fp	_	3	punct
+
+1	Dijo	decir	vmis3s0	vmis3s0	_	7	coord
+2	la	el	da0fs0	da0fs0	_	3	det
+3	palabra	palabra	ncfs000	ncfs000	_	1	dobj
+4	fea	feo	aq0fs0	aq0fs0	_	3	amod
+5	en	en	sps00	sps00	_	1	prepv
+6	francés	francés	ncms000	ncms000	_	5	pobj
+7	y	y	cc	cc	_	0	root
+8	era	ser	vsii3s0	vsii3s0	_	7	coord
+9	lo	el	da0ns0	da0ns0	_	11	det
+10	menos	menos	rg	rg	_	8	advmod
+11	que	que	pr0cn000	pr0cn000	_	13	dobj
+12	podía	poder	vmii3s0	vmii3s0	_	10	rcmod
+13	hacer	hacer	vmn0000	vmn0000	_	12	dobj
+14	un	uno	di0ms0	di0ms0	_	15	det
+15	hombre	hombre	ncms000	ncms000	_	12	nsubj
+16	con	con	sps00	sps00	_	13	prepv
+17	su	su	dp3cs0	dp3cs0	_	18	poss
+18	apellido	apellido	ncms000	ncms000	_	16	pobj
+19	.	.	fp	fp	_	7	punct
+
+1	Mi	mi	dp1css	dp1css	_	2	poss
+2	vecino	vecino	ncms000	ncms000	_	3	nsubj
+3	es	ser	vsip3s0	vsip3s0	_	0	root
+4	un	uno	di0ms0	di0ms0	_	5	det
+5	psiquiatra	psiquiatra	nccs000	nccs000	_	3	attr
+6	un	uno	di0mp0	di0mp0	_	7	det
+7	poco	poco	rg	rg	_	8	advmod
+8	loco	loco	aq0ms0	aq0ms0	_	5	amod
+9	.	.	fp	fp	_	3	punct
+
+1	Casi	casi	rg	rg	_	2	advmod
+2	todos	todo	pi0mp000	pi0mp000	_	4	nsubj
+3	lo	él	pp3cna00	pp3cna00	_	4	dobj
+4	están	estar	vmip3p0	vmip3p0	_	5	coord
+5	y	y	cc	cc	_	0	root
+6	el	el	da0ms0	da0ms0	_	7	det
+7	hecho	hecho	ncms000	ncms000	_	13	nsubj
+8	de	de	sps00	sps00	_	7	prepn
+9	haber	haber	van0000	van0000	_	8	pobj
+10	elegido	elegir	vmp00sm	vmp00sm	_	9	vobj
+11	esa	ese	dd0fs0	dd0fs0	_	12	det
+12	profesión	profesión	ncfs000	ncfs000	_	10	dobj
+13	parece	parecer	vmip3s0	vmip3s0	_	5	coord
+14	ser	ser	vsn0000	vsn0000	_	13	attr
+15	un	uno	di0ms0	di0ms0	_	16	det
+16	síntoma	síntoma	ncms000	ncms000	_	14	dobj
+17	.	.	fp	fp	_	5	punct
+
+1	En	en	sps00	sps00	_	4	prepv
+2	su	su	dp3cs0	dp3cs0	_	3	poss
+3	jardín	jardín	ncms000	ncms000	_	1	pobj
+4	vive	vivir	vmip3s0	vmip3s0	_	0	root
+5	un	uno	di0ms0	di0ms0	_	6	det
+6	búho	búho	ncms000	ncms000	_	4	nsubj
+7	.	.	fp	fp	_	4	punct
+
+1	Aquí	aquí	rg	rg	_	4	advmod
+2	los	el	da0mp0	da0mp0	_	3	det
+3	búhos	búho	ncmp000	ncmp000	_	4	nsubj
+4	son	ser	vsip3p0	vsip3p0	_	8	cobj
+5	pequeños	pequeño	aq0mp0	aq0mp0	_	6	coord
+6	y	y	cc	cc	_	4	attr
+7	panzudos	panzudo	aq0mp0	aq0mp0	_	6	coord
+8	es	ser	vsis3p0	vsis3p0	_	0	root
+9	decir	decir	vmp00pm	vmp00pm	_	8	attr
+10	mi	mi	dp1css	dp1css	_	11	poss
+11	amiga	amiga	ncfs000	ncfs000	_	14	nsubj
+12	la	el	da0fs0	da0fs0	_	13	det
+13	náyade	náyade	ncfs000	ncfs000	_	11	appos
+14	dice	decir	vmip3s0	vmip3s0	_	8	cobj
+15	piponcitos	piponcito	aq0mp0	aq0mp0	_	14	cpred
+16	.	.	fp	fp	_	8	punct
+
+1	Eso	ese	pd0ns000	pd0ns000	_	2	nsubj
+2	acaba	acabar	vmip3s0	vmip3s0	_	8	coord
+3	por	por	sps00	sps00	_	2	prepv
+4	quitarles	quitar	vmn0000	vmn0000	_	3	pobj
+5	la	el	da0fs0	da0fs0	_	6	det
+6	dimensión	dimensión	ncfs000	ncfs000	_	4	dobj
+7	supersticiosa	supersticioso	aq0fs0	aq0fs0	_	6	amod
+8	y	y	cc	cc	_	18	cobj
+9	querría	querer	vmic1s0	vmic1s0	_	8	coord
+10	tener	tener	vmn0000	vmn0000	_	9	dobj
+11	uno	uno	pi0ms000	pi0ms000	_	10	dobj
+12	como	como	cs	cs	_	10	dep
+13	pisapapel	pisapapel	ncms000	ncms000	_	12	cobj
+14	en	en	sps00	sps00	_	10	prepv
+15	mi	mi	dp1css	dp1css	_	16	poss
+16	mesa	mesa	ncfs000	ncfs000	_	14	pobj
+17	,	,	fc	fc	_	28	punct
+18	pero	pero	cc	cc	_	0	root
+19	ese	ese	dd0ms0	dd0ms0	_	20	det
+20	uh	uh	ncms00	ncms00	_	28	nsubj
+21	!	!	fat	fat	_	20	punct
+22	adulatorio	adulatorio	aq0ms0	aq0ms0	_	20	amod
+23	del	del	spcms	spcms	_	25	oobj
+24	que	que	pr0cn000	pr0cn000	_	23	pobj
+25	hablaba	hablar	vmii3s0	vmii3s0	_	20	dep
+26	antes	antes	rg	rg	_	25	advmod
+27	me	yo	pp1cs000	pp1cs000	_	28	dobj
+28	intimida	intimidar	vmip3s0	vmip3s0	_	8	coord
+29	.	.	fp	fp	_	18	punct
+
+1	Me	yo	pp1cs000	pp1cs000	_	2	iobj
+2	gusta	gustar	vmip3s0	vmip3s0	_	5	cobj
+3	impresionar	impresionar	vmn0000	vmn0000	_	2	dobj
+4	,	,	fc	fc	_	2	punct
+5	pero	pero	cc	cc	_	0	root
+6	no	no	rn	rn	_	2	neg
+7	tanto	tanto	rg	rg	_	6	advmod
+8	.	.	fp	fp	_	5	punct
+
+1	Todos	todo	pi0mp000	pi0mp000	_	2	nsubj
+2	sabemos	saber	vmip1p0	vmip1p0	_	0	root
+3	que	que	cs	cs	_	2	dobj
+4	el	el	da0ms0	da0ms0	_	5	det
+5	día	día	ncms000	ncms000	_	11	nsubj
+6	más	más	rg	rg	_	7	advmod
+7	importante	importante	aq0cs0	aq0cs0	_	5	amod
+8	para	para	sps00	sps00	_	5	prepn
+9	cada	cada	di0cs0	di0cs0	_	10	det
+10	cual	cual	pr0cs000	pr0cs000	_	8	pobj
+11	es	ser	vsip3s0	vsip3s0	_	3	cobj
+12	mañana	mañana	ncms000	ncms000	_	11	attr
+13	.	.	fp	fp	_	2	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	peor	peor	aq0cs0	aq0cs0	_	4	attr
+3	mío	mío	dp1mss	dp1mss	_	2	poss
+4	es	ser	vsip3s0	vsip3s0	_	0	root
+5	ayer	ayer	ncms000	ncms000	_	4	attr
+6	.	.	fp	fp	_	4	punct

@@ -1,0 +1,133 @@
+1	Vincet	vincet	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	Spadea	spadea	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	será	ser	VSIF3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=semiauxiliary	2	modnomatch	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	sustituto	sustituto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	attr	_	_
+6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
+7	Andre	andre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	Agassi	aga_si	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	mod	_	_
+9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	equipo	equipo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	olímpico	olímpico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
+13	estadounidense	estadounidense	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	modnomatch	_	_
+14	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+15	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	16	spec	_	_
+16	Juegos	juego	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	14	comp	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+18	Sydney	sydney	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+20	después_de	después_de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+21	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	modnomatch	_	_
+22	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	campeón	campeón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
+24	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+25	Atlanta	atlanta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+26	`	`	Fe	Fe	matched=no|pos=punctuation|type=quotation	2	punc	_	_
+27	96	96	Z	Z	matched=no|pos=number	28	subj	_	_
+28	renunciara	renunciar	VMSI3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	2	modnomatch	_	_
+29	esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	30	spec	_	_
+30	semana	semana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	28	adjt	_	_
+31	a	a	SP	SP	matched=no|pos=adposition|type=preposition	28	adjt	_	_
+32	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	33	spec	_	_
+33	cita	cita	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	31	comp	_	_
+34	olímpica	olímpico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	33	mod	_	_
+35	por	por	SP	SP	matched=no|pos=adposition|type=preposition	28	adjt	_	_
+36	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	38	spec	_	_
+37	mal	mal	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	38	mod	_	_
+38	estado	estado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	35	comp	_	_
+39	de	de	SP	SP	matched=no|pos=adposition|type=preposition	38	mod	_	_
+40	salud	salud	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	39	comp	_	_
+41	de	de	SP	SP	matched=no|pos=adposition|type=preposition	40	mod	_	_
+42	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	43	spec	_	_
+43	madre	madre	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	41	comp	_	_
+44	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	28	dobj	_	_
+45	hermana	hermano	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	44	coor	_	_
+46	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	28	punc	_	_
+47	aquejadas	aquejar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	28	adjt	_	_
+48	de	de	SP	SP	matched=no|pos=adposition|type=preposition	47	adjt	_	_
+49	cáncer	cáncer	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	48	comp	_	_
+50	de	de	SP	SP	matched=no|pos=adposition|type=preposition	47	adjt	_	_
+51	mama	mama	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	50	comp	_	_
+52	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	28	punc	_	_
+
+1	Alex	ale_x	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+2	O	o	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	1	modnomatch	_	_
+3	`	`	Fe	Fe	matched=yes: subj child of top deprel|pos=punctuation|type=quotation	1	punc	_	_
+4	Brien	brien	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	5	coor	_	_
+5	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	1	modnomatch	_	_
+6	Jared	jared	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	5	coor	_	_
+7	Palmer	palmer	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
+8	serán	ser	VSIF3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=semiauxiliary	0	top	_	_
+9	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	10	spec	_	_
+10	representantes	representante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	8	attr	_	_
+11	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+12	dobles	doble	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	11	comp	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	tenista	tenista	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	estadounidense	estadounidense	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	tuvo	tener	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+5	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	7	spec	_	_
+6	primera	1	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	7	mod	_	_
+7	victoria	victoria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+8	frente_a	frente_a	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+10	británico	británico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
+11	Greg	greg	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+12	Rusedski	rusedski	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	mod	_	_
+13	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+14	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+15	primera	1	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	16	mod	_	_
+16	ronda	ronda	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+18	Wimbledon	wimbledon	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+19	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	modnomatch	_	_
+20	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
+21	segunda	2	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	19	coor	_	_
+22	ante	ante	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+23	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	25	spec	_	_
+24	español	español	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	25	mod	_	_
+25	Sergi	sergi	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
+26	Bruguera	bruguera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	25	mod	_	_
+27	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+28	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	29	spec	_	_
+29	torneo	torneo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	27	comp	_	_
+30	de	de	SP	SP	matched=no|pos=adposition|type=preposition	29	mod	_	_
+31	Gstaad	gstaad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	30	comp	_	_
+32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Tarango	tarango	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+2	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	3	aux	_	_
+3	incluido	incluir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	equipo	equipo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+8	Estados	estado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	comp	_	_
+9	Unidos	unir	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	8	mod	_	_
+10	tras	tras	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	renuncia	renuncia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
+14	Pete	petar	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	23	coor	_	_
+15	Sampras	sampras	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	14	dobj	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	14	punc	_	_
+17	siete	7	Z	Z	matched=no|pos=number	18	spec	_	_
+18	veces	vez	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	14	adjt	_	_
+19	campeón	campeón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	mod	_	_
+20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	mod	_	_
+21	Wimbledon	wimbledon	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+22	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	23	punc	_	_
+23	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+24	Jean	jean	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	23	coor	_	_
+25	Michael	michael	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	dobj	_	_
+26	Gambill	gambill	I	I	matched=no|pos=interjection	24	adjt	_	_
+27	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+28	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	29	subj	_	_
+29	declinaron	declinar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	3	modnomatch	_	_
+30	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	31	spec	_	_
+31	invitación	invitación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	29	dobj	_	_
+32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	29	punc	_	_
+

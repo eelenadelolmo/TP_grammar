@@ -1,0 +1,69 @@
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Audiencia	audiencia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	Nacional	nacional	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	condenó	condenar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+5	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
+6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+7	32	32	Z	Z	matched=no|pos=number	8	spec	_	_
+8	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	mod	_	_
+10	prisión	prisión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+11	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	modnomatch	_	_
+12	José	josé	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	4	modnomatch	_	_
+13	Luis	luis	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	dobj	_	_
+14	Barrios	barrio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	13	mod	_	_
+15	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	12	modnomatch	_	_
+16	a	a	SP	SP	matched=no|pos=adposition|type=preposition	15	coor	_	_
+17	34	34	Z	Z	matched=no|pos=number	18	spec	_	_
+18	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	16	comp	_	_
+19	a	a	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+20	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	21	spec	_	_
+21	compañeros	compañero	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	19	comp	_	_
+22	de	de	SP	SP	matched=no|pos=adposition|type=preposition	21	mod	_	_
+23	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
+24	comando	comando	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
+25	Andalucía	andalucía	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	4	modnomatch	_	_
+26	de	de	SP	SP	matched=no|pos=adposition|type=preposition	25	adjt	_	_
+27	ETA	eta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
+28	Maite	maite	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	27	mod	_	_
+29	Pedrosa	pedrosa	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	25	modnomatch	_	_
+30	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	25	dobj	_	_
+31	Mikel	mikel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	30	coor	_	_
+32	Azurmendi	azurmendi	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	31	mod	_	_
+33	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	25	punc	_	_
+34	por	por	SP	SP	matched=no|pos=adposition|type=preposition	25	adjt	_	_
+35	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	36	spec	_	_
+36	intento	intento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	34	comp	_	_
+37	de	de	SP	SP	matched=no|pos=adposition|type=preposition	36	mod	_	_
+38	atentado	atentado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	37	comp	_	_
+39	en	en	SP	SP	matched=no|pos=adposition|type=preposition	25	adjt	_	_
+40	Granada	granada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	39	comp	_	_
+41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
+
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	dirigentes	dirigente	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	15	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	organización	organización	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	terrorista	terrorista	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	vascofrancesa	vasco_francés	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+8	Iparretarrak	iparretarrak	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+9	Philippe	philippe	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	Bidart	bidart	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+11	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+12	Jean	jean	VMIP3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	11	coor	_	_
+13	Gabriel	gabriel	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	14	mod	_	_
+14	Mouesca	mouesca	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	dobj	_	_
+15	fueron	ser	VSIS3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+16	también	también	RG	RG	matched=no|pos=adverb|type=general	15	adjt	_	_
+17	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	15	adjt	_	_
+18	condenados	condenar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	15	attr	_	_
+19	a	a	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+20	20	20	Z	Z	matched=no|pos=number	19	comp	_	_
+21	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	15	modnomatch	_	_
+22	15	15	Z	Z	matched=no|pos=number	23	spec	_	_
+23	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	21	coor	_	_
+24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	23	mod	_	_
+25	prisión	prisión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+26	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	15	punc	_	_
+

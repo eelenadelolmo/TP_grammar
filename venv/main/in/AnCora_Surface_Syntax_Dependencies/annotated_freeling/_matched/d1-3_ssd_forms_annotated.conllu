@@ -1,0 +1,40 @@
+1	Sus	su	DP3CPN	DP	gen=common|matched=yes: subj child of top deprel|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	rivales	rival	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
+3	deben	deber	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	4	prt	_	_
+4	salir	salir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	modnomatch	_	_
+6	entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+7	equipos	equipo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+8	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	9	subj	_	_
+9	cuenten	contar	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	7	mod	_	_
+10	con	con	SP	SP	matched=no|pos=adposition|type=preposition	9	pobj	_	_
+11	similares	similar	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	12	mod	_	_
+12	ingredientes	ingrediente	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	Tú	tú	PP2CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=2|pos=pronoun|type=personal	3	subj	_	_
+2	no	no	RN	RN	matched=no|pos=adverb|type=negative	3	spec	_	_
+3	eras	erar	VMIP2S0	VMI	matched=no|mood=indicative|num=singular|person=2|pos=verb|tense=present|type=main	0	top	_	_
+4	más	más	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	modnomatch	_	_
+6	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
+7	relleno	relleno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	coor	_	_
+8	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	3	dobj	_	_
+9	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	10	spec	_	_
+10	respiro	respiro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	coor	_	_
+11	para	para	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+12	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	13	spec	_	_
+13	demás	demás	PI0CP00	PI	gen=common|matched=no|num=plural|pos=pronoun|type=indefinite	11	comp	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+15	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	16	subj	_	_
+16	señalaban	señalar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	3	modnomatch	_	_
+17	con	con	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
+18	malicia	malicia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	domingo	[G:??/??/??:??.??:??]	W	W	matched=no|pos=date	16	adjt	_	_
+21	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	22	subj	_	_
+22	tocaba	tocar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	3	modnomatch	_	_
+23	estar	estar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	22	dobj	_	_
+24	contigo	contigo	PP2CSO0	PP	case=oblique|gen=common|matched=no|num=singular|person=2|pos=pronoun|type=personal	23	modnomatch	_	_
+25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
+

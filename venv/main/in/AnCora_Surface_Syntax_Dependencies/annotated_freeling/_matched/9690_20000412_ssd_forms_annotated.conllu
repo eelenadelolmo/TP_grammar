@@ -1,0 +1,282 @@
+1	MEXICO	mexico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	10	modnomatch	_	_
+2	(	(	Fpa	Fpa	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=open|type=parenthesis	3	modnomatch	_	_
+3	-3,01	-3,01	Z	Z	matched=yes: subj child of top deprel|pos=number	10	subj	_	_
+4	)	)	Fpt	Fpt	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=close|type=parenthesis	3	modnomatch	_	_
+5	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	Bolsa	bolsa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	modnomatch	_	_
+7	Mexicana	mexicano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
+9	Valores	valor	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
+10	cerró	cerrar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+11	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	12	spec	_	_
+12	operaciones	operación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	dobj	_	_
+13	con	con	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+14	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	15	spec	_	_
+15	pérdida	pérdida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	15	mod	_	_
+17	3,01	3.01	Z	Z	matched=no|pos=number	16	comp	_	_
+18	por	por	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+19	ciento	100	Z	Z	matched=no|pos=number	18	comp	_	_
+20	tras	tras	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+21	retroceder	retroceder	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	20	comp	_	_
+22	218,02	218.02	Z	Z	matched=no|pos=number	23	spec	_	_
+23	puntos	punto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	21	dobj	_	_
+24	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	10	modnomatch	_	_
+25	situarse	situarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	24	coor	_	_
+26	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	28	spec	_	_
+27	principal	principal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	28	mod	_	_
+28	indicador	indicador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	25	dobj	_	_
+29	en	en	SP	SP	matched=no|pos=adposition|type=preposition	25	adjt	_	_
+30	7.016,69	7016.69	Z	Z	matched=no|pos=number	31	spec	_	_
+31	unidades	unidad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	29	comp	_	_
+32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	acciones	acción	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	subj	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	4	subj	_	_
+4	acumularon	acumular	VMIS3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	2	mod	_	_
+5	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	7	spec	_	_
+6	principales	principal	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	7	mod	_	_
+7	ganancias	ganancia	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	dobj	_	_
+8	fueron	ser	VSIS3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+9	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	10	spec	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	attr	_	_
+11	GINSEG	ginseg	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	mod	_	_
+12	A	a	SP	SP	matched=no|pos=adposition|type=preposition	8	modnomatch	_	_
+13	con	con	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+14	6,25	6.25	Z	Z	matched=no|pos=number	13	comp	_	_
+15	por	por	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+16	ciento	100	Z	Z	matched=no|pos=number	15	comp	_	_
+17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
+18	BACHOCO	bachoco	RG	RG	matched=no|pos=adverb|type=general	19	spec	_	_
+19	UBL	ubl	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	modnomatch	_	_
+20	con	con	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+21	3,51	3.51	Z	Z	matched=no|pos=number	20	comp	_	_
+22	por	por	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+23	ciento	100	Z	Z	matched=no|pos=number	22	comp	_	_
+24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	25	punc	_	_
+25	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	8	adjt	_	_
+26	DUTY	duty	RG	RG	matched=no|pos=adverb|type=general	25	coor	_	_
+27	con	con	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+28	2,56	2.56	Z	Z	matched=no|pos=number	27	comp	_	_
+29	por	por	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+30	ciento	100	Z	Z	matched=no|pos=number	29	comp	_	_
+31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	29	punc	_	_
+
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	títulos	título	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	subj	_	_
+3	con	con	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+4	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
+5	principales	principal	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	6	mod	_	_
+6	pérdidas	pérdida	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+7	fueron	ser	VSIS3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+8	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	attr	_	_
+10	BANACCI	banacci	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	mod	_	_
+11	O	o	CC	CC	matched=no|pos=conjunction|type=coordinating	7	adjt	_	_
+12	con	con	SP	SP	matched=no|pos=adposition|type=preposition	11	coor	_	_
+13	9,57	9.57	Z	Z	matched=no|pos=number	12	comp	_	_
+14	por	por	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+15	ciento	100	Z	Z	matched=no|pos=number	14	comp	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+17	CEL	ce_l	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	modnomatch	_	_
+18	V	v	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	mod	_	_
+19	con	con	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+20	9,53	9.53	Z	Z	matched=no|pos=number	19	comp	_	_
+21	por	por	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+22	ciento	100	Z	Z	matched=no|pos=number	21	comp	_	_
+23	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	24	punc	_	_
+24	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	7	modnomatch	_	_
+25	GFB	gfb	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	coor	_	_
+26	O	o	CC	CC	matched=no|pos=conjunction|type=coordinating	7	adjt	_	_
+27	con	con	SP	SP	matched=no|pos=adposition|type=preposition	26	coor	_	_
+28	8,37	8.37	Z	Z	matched=no|pos=number	27	comp	_	_
+29	por	por	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+30	ciento	100	Z	Z	matched=no|pos=number	29	comp	_	_
+31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	A	a	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	término	término	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	sesión	sesión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+8	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	7	comp	_	_
+9	todos	todo	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	10	spec	_	_
+10	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	11	spec	_	_
+11	sectores	sector	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	12	subj	_	_
+12	tuvieron	tener	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
+13	pérdidas	pérdida	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	12	dobj	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
+15	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	principal	principal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	17	subj	_	_
+17	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	12	modnomatch	_	_
+18	para	para	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+19	servicios	servicio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	18	comp	_	_
+20	con	con	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+21	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
+22	5,32	5.32	Z	Z	matched=no|pos=number	20	comp	_	_
+23	por	por	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+24	ciento	100	Z	Z	matched=no|pos=number	23	comp	_	_
+25	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	17	punc	_	_
+26	seguido	seguir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	17	attr	_	_
+27	de	de	SP	SP	matched=no|pos=adposition|type=preposition	26	adjt	_	_
+28	comunicaciones	comunicación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	27	comp	_	_
+29	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	17	modnomatch	_	_
+30	transportes	transporte	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	29	coor	_	_
+31	con	con	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+32	4,20	4.2	Z	Z	matched=no|pos=number	31	comp	_	_
+33	por	por	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+34	ciento	100	Z	Z	matched=no|pos=number	33	comp	_	_
+35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
+
+1	LIMA	lima	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	subj	_	_
+2	(	(	Fpa	Fpa	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=open|type=parenthesis	1	punc	_	_
+3	No	no	RN	RN	matched=yes: subj child of top deprel|pos=adverb|type=negative	1	modnomatch	_	_
+4	disponible	disponible	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	1	mod	_	_
+5	)	)	Fpt	Fpt	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=close|type=parenthesis	1	punc	_	_
+6	MONTEVIDEO	monte_video	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+7	(	(	Fpa	Fpa	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=open|type=parenthesis	1	punc	_	_
+8	Sin	sin	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+9	variaciones	variación	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	comp	_	_
+10	)	)	Fpt	Fpt	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=close|type=parenthesis	1	punc	_	_
+11	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	bolsa	bolsa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	modnomatch	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
+14	Montevideo	monte_video	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+15	operó	operar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+16	sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
+17	variaciones	variación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	16	comp	_	_
+18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
+19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	mercado	mercado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+21	de	de	SP	SP	matched=no|pos=adposition|type=preposition	20	mod	_	_
+22	acciones	acción	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	21	comp	_	_
+23	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	15	dobj	_	_
+24	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	25	spec	_	_
+25	índice	índice	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	23	coor	_	_
+26	INDIME	indime	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	25	mod	_	_
+27	cerró	cerrar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	15	modnomatch	_	_
+28	a	a	SP	SP	matched=no|pos=adposition|type=preposition	27	adjt	_	_
+29	51.43	51.43	Z	Z	matched=no|pos=number	30	spec	_	_
+30	puntos	punto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	28	comp	_	_
+31	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	27	punc	_	_
+32	en	en	SP	SP	matched=no|pos=adposition|type=preposition	27	adjt	_	_
+33	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	35	spec	_	_
+34	mismo	mismo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	35	mod	_	_
+35	nivel	nivel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	32	comp	_	_
+36	de	de	SP	SP	matched=no|pos=adposition|type=preposition	35	mod	_	_
+37	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	38	spec	_	_
+38	jornada	jornada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	36	comp	_	_
+39	precedente	precedente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	38	mod	_	_
+40	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	27	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	índice	índice	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	IMEBO	imebo	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+5	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
+6	bonos	bono	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
+9	Estado	estado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+10	culminó	culminar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	3	modnomatch	_	_
+11	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	12	spec	_	_
+12	rondas	ronda	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	dobj	_	_
+13	bursátiles	bursátil	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	12	mod	_	_
+14	con	con	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+15	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	16	spec	_	_
+16	variación	variación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+17	positiva	positivo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	0,08	0.08	Z	Z	matched=no|pos=number	18	comp	_	_
+21	por	por	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+22	ciento	100	Z	Z	matched=no|pos=number	21	comp	_	_
+23	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+24	a	a	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+25	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	26	spec	_	_
+26	cerrar	cerrar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	24	modnomatch	_	_
+27	a	a	SP	SP	matched=no|pos=adposition|type=preposition	26	adjt	_	_
+28	1751,59	1751.59	Z	Z	matched=no|pos=number	29	spec	_	_
+29	puntos	punto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	27	comp	_	_
+30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	ION	ion	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+5	marca	marcar	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	mod	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	tendencia	tendencia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	dobj	_	_
+8	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	mod	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	10	spec	_	_
+10	mercado	mercado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	comp	_	_
+11	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	mod	_	_
+12	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	13	spec	_	_
+13	obligaciones	obligación	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	11	comp	_	_
+14	negociables	negociable	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	13	mod	_	_
+15	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	mod	_	_
+16	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	17	spec	_	_
+17	empresas	empresa	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	15	comp	_	_
+18	privadas	privar	VMP00PF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	17	mod	_	_
+19	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+20	culminó	culminar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+21	sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
+22	cambios	cambio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	21	comp	_	_
+23	a	a	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
+24	124,21	124.21	Z	Z	matched=no|pos=number	25	spec	_	_
+25	puntos	punto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	23	comp	_	_
+26	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	total	total	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	5	spec	_	_
+5	transacciones	transacción	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+6	sumó	sumar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+7	16.877.402,99_pesos_uruguayos	$_UYP:16877402.99	Zm	Zm	matched=no|pos=number|type=currency	6	dobj	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+9	equivalentes	equivalente	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	6	modnomatch	_	_
+10	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	pobj	_	_
+11	1.422.992,96_dólares	$_USD:1422992.96	Zm	Zm	matched=no|pos=number|type=currency	10	comp	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	CARACAS	cara_ca	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
+2	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	3	modnomatch	_	_
+3	-0,58	-0,58	Z	Z	matched=no|pos=number	14	modnomatch	_	_
+4	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	3	modnomatch	_	_
+5	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
+6	valores	valor	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	14	modnomatch	_	_
+7	negociados	negociar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	6	mod	_	_
+8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	Bolsa	bolsa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+12	Caracas	cara_ca	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+13	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	14	mphes	_	_
+14	depreciaron	depreciar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
+15	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	16	spec	_	_
+16	0,58	0.58	Z	Z	matched=no|pos=number	14	dobj	_	_
+17	por	por	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+18	ciento	100	Z	Z	matched=no|pos=number	17	comp	_	_
+19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	14	punc	_	_
+20	con	con	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+21	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	22	spec	_	_
+22	bajada	bajada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+23	de	de	SP	SP	matched=no|pos=adposition|type=preposition	22	mod	_	_
+24	33,06	33.06	Z	Z	matched=no|pos=number	25	spec	_	_
+25	enteros	entero	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	23	comp	_	_
+26	en	en	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+27	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	28	spec	_	_
+28	índice	índice	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
+29	bursátil	bursátil	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	28	mod	_	_
+30	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	26	punc	_	_
+31	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	32	subj	_	_
+32	cerró	cerrar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	14	modnomatch	_	_
+33	en	en	SP	SP	matched=no|pos=adposition|type=preposition	32	adjt	_	_
+34	5.663,96	5663.96	Z	Z	matched=no|pos=number	35	spec	_	_
+35	puntos	punto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	33	comp	_	_
+36	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
+

@@ -1,0 +1,25 @@
+1	A	a	sps00	sps00	matched=no	10	advmod	_	_
+2	veces	veces	ncmp000	ncmp000	matched=no	1	pobj	_	_
+3	,	,	fc	fc	matched=no	10	punct	_	_
+4	cuando	cuando	cs	cs	matched=no	10	advcl	_	_
+5	había	haber	vaii3s0	vaii3s0	matched=no	4	cobj	_	_
+6	película	película	ncfs000	ncfs000	matched=no	5	dobj	_	_
+7	,	,	fc	fc	matched=no	10	punct	_	_
+8	Antonia	Antonia	np0000p	np0000p	matched=yes: nsubj child of root deprel	10	nsubj	_	_
+9	se	él	p0300000	p0300000	matched=no	10	reflec	_	_
+10	asomaba	asomar	vmii3s0	vmii3s0	matched=no	0	root	_	_
+11	al	al	spcms	spcms	matched=no	10	prepv	_	_
+12	patio	patio	ncms000	ncms000	matched=no	11	pobj	_	_
+13	para	para	sps00	sps00	matched=no	10	prepv	_	_
+14	ver	ver	vmn0000	vmn0000	matched=no	13	pobj	_	_
+15	de	de	sps00	sps00	matched=no	14	dobj	_	_
+16	qué	qué	dt0cn0	dt0cn0	matched=no	17	det	_	_
+17	color	color	ncms000	ncms000	matched=no	18	attr	_	_
+18	era	ser	vsii3s0	vsii3s0	matched=no	15	pobj	_	_
+19	el	el	da0ms0	da0ms0	matched=no	20	det	_	_
+20	traje	traje	ncms000	ncms000	matched=no	18	nsubj	_	_
+21	de	de	sps00	sps00	matched=no	20	prepn	_	_
+22	la	el	da0fs0	da0fs0	matched=no	23	det	_	_
+23	protagonista	protagonista	nccs000	nccs000	matched=no	21	pobj	_	_
+24	.	.	fp	fp	matched=no	10	punct	_	_
+

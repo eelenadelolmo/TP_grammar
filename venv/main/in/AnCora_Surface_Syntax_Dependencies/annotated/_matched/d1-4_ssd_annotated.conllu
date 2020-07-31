@@ -1,0 +1,40 @@
+1	Por	por	sps00	sps00	matched=no	6	prepv	_	_
+2	el	el	da0ms0	da0ms0	matched=no	3	det	_	_
+3	país	país	ncms000	ncms000	matched=no	1	pobj	_	_
+4	comenzaba	comenzar	vmii3s0	vmii3s0	matched=no	0	root	_	_
+5	a	a	sps00	sps00	matched=no	4	prepv	_	_
+6	correr	correr	vmn0000	vmn0000	matched=no	5	pobj	_	_
+7	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	8	det	_	_
+8	rumor	rumor	ncms000	ncms000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
+9	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	8	prepn	_	_
+10	tus	tu	dp2cps	dp2cps	matched=yes: nsubj child of root deprel	11	poss	_	_
+11	nombres	nombre	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	12	coord	_	_
+12	y	y	cc	cc	matched=yes: nsubj child of root deprel	9	pobj	_	_
+13	las	el	da0fp0	da0fp0	matched=yes: nsubj child of root deprel	14	det	_	_
+14	ganas	gana	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	12	coord	_	_
+15	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	14	prepn	_	_
+16	verte	ver	vmn0000	vmn0000	matched=yes: nsubj child of root deprel	15	pobj	_	_
+17	.	.	fp	fp	matched=no	4	punct	_	_
+
+1	Y	y	cc	cc	matched=no	11	te	_	_
+2	tú	tú	pp2csn00	pp2csn00	matched=yes: nsubj child of root deprel	11	nsubj	_	_
+3	con	con	sps00	sps00	matched=no	11	prepv	_	_
+4	tus	tu	dp2cps	dp2cps	matched=no	5	poss	_	_
+5	caras	cara	ncfp000	ncfp000	matched=no	6	coord	_	_
+6	y	y	cc	cc	matched=no	3	pobj	_	_
+7	tus	tu	dp2cps	dp2cps	matched=no	8	poss	_	_
+8	nombres	nombre	ncmp000	ncmp000	matched=no	6	coord	_	_
+9	,	,	fc	fc	matched=no	11	punct	_	_
+10	nos	yo	pp1cp000	pp1cp000	matched=no	11	iobj	_	_
+11	dejaste	dejar	vmis2s0	vmis2s0	matched=no	0	root	_	_
+12	tutearte	tutear	vmn0000	vmn0000	matched=no	11	dobj	_	_
+13	.	.	fp	fp	matched=no	11	punct	_	_
+
+1	Todos	todo	pi0mp000	pi0mp000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
+2	éramos	ser	vsii1p0	vsii1p0	matched=no	0	root	_	_
+3	un	uno	di0ms0	di0ms0	matched=no	4	det	_	_
+4	poco	poco	pi0ms000	pi0ms000	matched=no	2	attr	_	_
+5	de	de	sps00	sps00	matched=no	4	prepn	_	_
+6	ti	tú	pp2cso00	pp2cso00	matched=no	5	pobj	_	_
+7	.	.	fp	fp	matched=no	2	punct	_	_
+

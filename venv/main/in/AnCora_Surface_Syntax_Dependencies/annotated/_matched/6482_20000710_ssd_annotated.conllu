@@ -1,0 +1,31 @@
+1	Tantas	tanto	di0fp0	di0fp0	matched=no	3	cobj	_	_
+2	veces	vez	ncfp000	ncfp000	matched=no	3	cobj	_	_
+3	como	como	cs	cs	matched=no	7	dobj	_	_
+4	&quot;	&quot;	fe	fe	matched=no	5	punct	_	_
+5	aces	ace	ncmp000	ncmp000	matched=no	3	cobj	_	_
+6	&quot;	&quot;	fe	fe	matched=no	5	punct	_	_
+7	hizo	hacer	vmis3s0	vmis3s0	matched=no	0	root	_	_
+8	ese	ese	dd0ms0	dd0ms0	matched=no	9	det	_	_
+9	día	día	ncms000	ncms000	matched=no	7	tmod	_	_
+10	Philippoussis	Philippoussis	np00000	np00000	matched=yes: nsubj child of root deprel	7	nsubj	_	_
+11	para	para	sps00	sps00	matched=no	7	prepv	_	_
+12	vencer	vencer	vmn0000	vmn0000	matched=no	11	pobj	_	_
+13	al	al	spcms	spcms	matched=no	12	dobj	_	_
+14	holandés	holandés	ncms000	ncms000	matched=no	13	pobj	_	_
+15	Sjeng	Sjeng	np0000l	np0000l	matched=no	14	appos	_	_
+16	Schalken	Schalken	np0000l	np0000l	matched=no	15	appos	_	_
+17	en	en	sps00	sps00	matched=no	12	prepv	_	_
+18	cinco	cinco	dn0cp0	dn0cp0	matched=no	19	det	_	_
+19	horas	hora	ncfp000	ncfp000	matched=no	20	coord	_	_
+20	y	y	cc	cc	matched=no	17	pobj	_	_
+21	cinco	cinco	dn0cp0	dn0cp0	matched=no	22	det	_	_
+22	minutos	minuto	ncmp000	ncmp000	matched=no	20	coord	_	_
+23	.	.	fp	fp	matched=no	7	punct	_	_
+
+1	Kournikova	Kournikova	np00000	np00000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
+2	tomó	tomar	vmis3s0	vmis3s0	matched=no	0	root	_	_
+3	nota	nota	vmis3s0	vmis3s0	matched=no	2	dobj	_	_
+4	de	de	sps00	sps00	matched=no	2	oobj	_	_
+5	todo	todo	pi0ms000	pi0ms000	matched=no	4	pobj	_	_
+6	.	.	fp	fp	matched=no	2	punct	_	_
+

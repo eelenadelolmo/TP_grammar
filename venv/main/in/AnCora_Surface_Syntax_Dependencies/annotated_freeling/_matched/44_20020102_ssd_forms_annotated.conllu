@@ -1,0 +1,60 @@
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	condición	condición	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	astro	astro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	absoluto	absoluto	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	mayoría	mayoría	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+10	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	11	spec	_	_
+11	argentinos	argentino	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	comp	_	_
+12	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	13	iobj	_	_
+13	permite	permitir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+14	a	a	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+15	Diego	diego	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+16	Maradona	maradona	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	13	modnomatch	_	_
+17	meterse	meterse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	23	coor	_	_
+18	sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+19	complejos	complejo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	18	comp	_	_
+20	en	en	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+21	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
+22	política	política	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+23	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	16	dobj	_	_
+24	asegurar	asegurar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	23	coor	_	_
+25	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	16	modnomatch	_	_
+26	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	27	spec	_	_
+27	país	país	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	28	subj	_	_
+28	está	estar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	25	comp	_	_
+29	inmerso	inmerso	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	28	attr	_	_
+30	en	en	SP	SP	matched=no|pos=adposition|type=preposition	13	modnomatch	_	_
+31	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	13	modnomatch	_	_
+32	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	13	punc	_	_
+33	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	13	dobj	_	_
+34	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	13	punc	_	_
+35	salvajismo	salvajismo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+36	político	político	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	35	mod	_	_
+37	increíble	increíble	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	35	mod	_	_
+38	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	13	punc	_	_
+39	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+40	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	13	punc	_	_
+41	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+42	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	13	modnomatch	_	_
+43	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	13	modnomatch	_	_
+44	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	45	spec	_	_
+45	dirigentes	dirigente	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	13	modnomatch	_	_
+46	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	13	punc	_	_
+47	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+48	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	13	punc	_	_
+49	siguen	seguir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	50	prt	_	_
+50	teniendo	tener	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	13	modnomatch	_	_
+51	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	53	spec	_	_
+52	misma	mismo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	53	mod	_	_
+53	soberbia	soberbia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	50	dobj	_	_
+54	de	de	SP	SP	matched=no|pos=adposition|type=preposition	50	adjt	_	_
+55	antes	antes	RG	RG	matched=no|pos=adverb|type=general	54	comp	_	_
+56	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	13	punc	_	_
+57	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+58	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	13	punc	_	_
+59	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+

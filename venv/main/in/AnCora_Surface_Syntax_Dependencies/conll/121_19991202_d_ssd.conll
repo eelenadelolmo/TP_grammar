@@ -1,0 +1,57 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	Sam	sam	ncms000	ncms000	_	0	root
+2	Torrance	Torrance	np00000	np00000	_	1	appos
+3	,	,	fc	fc	_	1	punct
+4	nuevo	nuevo	aq0ms0	aq0ms0	_	5	amod
+5	capitán	capitán	ncms000	ncms000	_	1	appos
+6	de	de	sps00	sps00	_	5	prepn
+7	la	el	da0fs0	da0fs0	_	8	det
+8	Ryder	Ryder	np00000	np00000	_	6	pobj
+9	.	.	fp	fp	_	1	punct
+
+1	El	el	da0ms0	da0ms0	_	3	det
+2	veterano	veterano	aq0ms0	aq0ms0	_	3	amod
+3	golfista	golfista	nccs000	nccs000	_	10	nsubj
+4	escocés	escocés	aq0ms0	aq0ms0	_	3	amod
+5	,	,	fc	fc	_	3	punct
+6	de	de	sps00	sps00	_	3	prepn
+7	46	46	z	z	_	8	num
+8	años	año	ncmp000	ncmp000	_	6	pobj
+9	,	,	fc	fc	_	3	punct
+10	será	ser	vsif3s0	vsif3s0	_	0	root
+11	el	el	da0ms0	da0ms0	_	12	det
+12	responsable	responsable	nccs000	nccs000	_	10	attr
+13	del	del	spcms	spcms	_	12	prepn
+14	equipo	equipo	ncms000	ncms000	_	13	pobj
+15	europeo	europeo	aq0ms0	aq0ms0	_	14	amod
+16	para	para	sps00	sps00	_	10	prepv
+17	la	el	da0fs0	da0fs0	_	19	det
+18	próxima	próximo	aq0fs0	aq0fs0	_	19	amod
+19	edición	edición	ncfs000	ncfs000	_	16	pobj
+20	,	,	fc	fc	_	19	punct
+21	que	que	pr0cn000	pr0cn000	_	23	nsubj
+22	se	se	p0000000	p0000000	_	23	reflec
+23	celebrará	celebrar	vmif3s0	vmif3s0	_	19	rcmod
+24	en	en	sps00	sps00	_	23	prepv
+25	The	The	np0000l	np0000l	_	24	pobj
+26	Belfry	Belfry	np0000l	np0000l	_	25	appos
+27	(	(	fpa	fpa	_	25	punct
+28	Inglaterra	Inglaterra	np00000	np00000	_	25	appos
+29	)	)	fpt	fpt	_	25	punct
+30	en	en	sps00	sps00	_	23	prepv
+31	el	el	da0ms0	da0ms0	_	32	det
+32	2001	2001	z	z	_	30	pobj
+33	.	.	fp	fp	_	10	punct
+
+1	Torrance	Torrance	np00000	np00000	_	2	nsubj
+2	releva	relevar	vmip3s0	vmip3s0	_	0	root
+3	al	al	spcms	spcms	_	2	dobj
+4	inglés	inglés	ncms000	ncms000	_	3	pobj
+5	Mark	Mark	np0000l	np0000l	_	4	appos
+6	James	jamar	np0000l	np0000l	_	5	appos
+7	.	.	fp	fp	_	2	punct

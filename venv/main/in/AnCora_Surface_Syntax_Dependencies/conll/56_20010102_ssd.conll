@@ -1,0 +1,82 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	LA	el	da0fs0	da0fs0	_	2	det
+2	INTENCION	intención	ncfs000	ncfs000	_	18	nsubj
+3	de	de	sps00	sps00	_	2	prepn
+4	los	el	da0mp0	da0mp0	_	5	det
+5	republicanos	republicano	ncmp000	ncmp000	_	3	pobj
+6	,	,	fc	fc	_	2	punct
+7	en	en	sps00	sps00	_	2	prepn
+8	vistas	vista	ncfs000	ncfs000	_	7	pobj
+9	a	a	sps00	sps00	_	8	prepn
+10	su	su	dp3cs0	dp3cs0	_	11	poss
+11	congreso	congreso	ncms000	ncms000	_	9	pobj
+12	del	del	spcms	spcms	_	11	prepn
+13	próximo	próximo	aq0ms0	aq0ms0	_	14	amod
+14	mes	mes	ncms000	ncms000	_	12	pobj
+15	de	de	spcms	spcms	_	14	prepn
+16	marzo	marzo	ncms000	ncms000	_	15	pobj
+17	,	,	fc	fc	_	2	punct
+18	es	ser	vsip3s0	vsip3s0	_	0	root
+19	&quot;	&quot;	fe	fe	_	20	punct
+20	atraer	atraer	vmn0000	vmn0000	_	18	attr
+21	&quot;	&quot;	fe	fe	_	20	punct
+22	a	a	sps00	sps00	_	20	dobj
+23	personas	persona	ncfp000	ncfp000	_	22	pobj
+24	que	que	pr0cn000	pr0cn000	_	28	nsubj
+25	&quot;	&quot;	fe	fe	_	28	punct
+26	aún	aún	rg	rg	_	28	advmod
+27	no	no	rn	rn	_	28	neg
+28	compartan	compartir	vmsp3p0	vmsp3p0	_	23	rcmod
+29	al	al	spcms	spcms	_	28	prepv
+30	100%	100/100	zp	zp	_	29	pobj
+31	&quot;	&quot;	fe	fe	_	28	punct
+32	las	el	da0fp0	da0fp0	_	33	det
+33	tesis	tesis	ncfn000	ncfn000	_	28	dobj
+34	independentistas	independentista	aq0cp0	aq0cp0	_	33	amod
+35	,	,	fc	fc	_	18	punct
+36	con	con	sps00	sps00	_	18	prepv
+37	el	el	da0ms0	da0ms0	_	38	det
+38	fin	fin	ncms000	ncms000	_	36	pobj
+39	de	de	sps00	sps00	_	38	prepn
+40	que	que	cs	cs	_	39	pobj
+41	la	el	da0fs0	da0fs0	_	42	det
+42	militancia	militancia	ncfs000	ncfs000	_	47	nsubj
+43	del	del	spcms	spcms	_	42	prepn
+44	partido	partido	ncms000	ncms000	_	43	pobj
+45	&quot;	&quot;	fe	fe	_	47	punct
+46	se	él	p0300000	p0300000	_	47	reflec
+47	parezca	parecer	vmsp3s0	vmsp3s0	_	40	cobj
+48	&quot;	&quot;	fe	fe	_	47	punct
+49	a	a	sps00	sps00	_	47	oobj
+50	lo	el	da0ns0	da0ns0	_	51	det
+51	que	que	pr0cn000	pr0cn000	_	52	nsubj
+52	es	ser	vsip3s0	vsip3s0	_	49	rcmod
+53	la	el	da0fs0	da0fs0	_	54	det
+54	sociedad	sociedad	ncfs000	ncfs000	_	52	attr
+55	catalana	catalán	aq0fs0	aq0fs0	_	54	amod
+56	.	.	fp	fp	_	18	punct
+
+1	ERC	ERC	np00000	np00000	_	5	nsubj
+2	,	,	fc	fc	_	5	punct
+3	además	además	rg	rg	_	5	advmod
+4	,	,	fc	fc	_	5	punct
+5	incorporará	incorporar	vmif3s0	vmif3s0	_	11	coord
+6	a	a	sps00	sps00	_	5	dobj
+7	mujeres	mujer	ncfp000	ncfp000	_	6	pobj
+8	en	en	sps00	sps00	_	5	prepv
+9	la	el	da0fs0	da0fs0	_	10	det
+10	dirección	dirección	ncfs000	ncfs000	_	8	pobj
+11	y	y	cc	cc	_	0	root
+12	creará	crear	vmif3s0	vmif3s0	_	11	coord
+13	la	el	da0fs0	da0fs0	_	14	det
+14	figura	figura	ncfs000	ncfs000	_	12	dobj
+15	del	del	spcms	spcms	_	14	prepn
+16	portavoz	portavoz	nccs000	nccs000	_	15	pobj
+17	del	del	spcms	spcms	_	16	prepn
+18	partido	partido	ncms000	ncms000	_	17	pobj
+19	.	.	fp	fp	_	11	punct

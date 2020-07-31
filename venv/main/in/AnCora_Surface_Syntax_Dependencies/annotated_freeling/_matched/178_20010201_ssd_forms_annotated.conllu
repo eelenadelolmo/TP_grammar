@@ -1,0 +1,41 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	programa	programa	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	radiofónico	radiofónico	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	también	también	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
+5	abordará	abordar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	tema	tema	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
+9	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	10	spec	_	_
+10	inmigrantes	inmigrante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
+11	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+12	huelga	huelga	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
+14	hambre	hambre	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+15	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+16	Barcelona	barcelona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+18	con	con	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+19	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	20	spec	_	_
+20	entrevista	entrevista	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+21	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	22	modnomatch	_	_
+22	10.05	10.05	Z	Z	matched=no|pos=number	5	modnomatch	_	_
+23	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	22	modnomatch	_	_
+24	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+25	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	26	spec	_	_
+26	rector	rector	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+27	de	de	SP	SP	matched=no|pos=adposition|type=preposition	26	mod	_	_
+28	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	29	spec	_	_
+29	parroquia	parroquia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	27	comp	_	_
+30	de	de	SP	SP	matched=no|pos=adposition|type=preposition	29	mod	_	_
+31	Santa	santo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	32	mod	_	_
+32	Maria	m_aria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	30	comp	_	_
+33	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	modnomatch	_	_
+34	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	modnomatch	_	_
+35	Pi	pi	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	modnomatch	_	_
+36	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	35	punc	_	_
+37	Josep	josep	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	38	mod	_	_
+38	Maria	m_aria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	modnomatch	_	_
+39	Vidal	vida_l	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	38	mod	_	_
+40	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	38	punc	_	_
+

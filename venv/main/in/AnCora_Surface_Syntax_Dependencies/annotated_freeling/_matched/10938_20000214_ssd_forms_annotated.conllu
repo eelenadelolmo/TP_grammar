@@ -1,0 +1,111 @@
+1	Egipto	egipto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	necesita	necesitar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	más	más	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
+5	250_millones_de_dólares	$_USD:250000000	Zm	Zm	matched=no|pos=number|type=currency	3	modnomatch	_	_
+6	para	para	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+7	eliminar	eliminar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	6	comp	_	_
+8	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
+9	campos	campo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	dobj	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	pobj	_	_
+11	minas	mina	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	pobj	_	_
+13	distintos	distinto	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	14	spec	_	_
+14	tipos	tipo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
+15	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	17	subj	_	_
+16	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	17	mphes	_	_
+17	encuentran	encontrar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	14	mod	_	_
+18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	17	pobj	_	_
+19	diferentes	diferente	DI0CP0	DI	gen=common|matched=no|num=plural|pos=determiner|type=indefinite	20	spec	_	_
+20	zonas	zona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	18	comp	_	_
+21	de	de	SP	SP	matched=no|pos=adposition|type=preposition	20	mod	_	_
+22	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	23	spec	_	_
+23	país	país	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
+24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+25	dijo	decir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	2	modnomatch	_	_
+26	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	27	spec	_	_
+27	ministro	ministro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	25	dobj	_	_
+28	egipcio	egipcio	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	27	mod	_	_
+29	de	de	SP	SP	matched=no|pos=adposition|type=preposition	27	mod	_	_
+30	Asuntos	asunto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	29	comp	_	_
+31	Exteriores	exterior	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	30	mod	_	_
+32	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	25	punc	_	_
+33	Amro	amro	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	25	modnomatch	_	_
+34	Musa	musa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	25	modnomatch	_	_
+35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
+
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	afirmaciones	afirmación	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	17	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Musa	musa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+6	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	quien	quien	PR0CS00	PR	gen=common|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=relative	8	subj	_	_
+8	cita	citar	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	6	comp	_	_
+9	hoy	hoy	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	8	adjt	_	_
+10	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	6	punc	_	_
+11	lunes	[L:??/??/??:??.??:??]	W	W	matched=yes: subj child of top deprel|pos=date	2	modnomatch	_	_
+12	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+13	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	prensa	prensa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	modnomatch	_	_
+15	local	local	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	14	mod	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	14	punc	_	_
+17	coinciden	coincidir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+18	con	con	SP	SP	matched=no|pos=adposition|type=preposition	17	pobj	_	_
+19	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	presencia	presencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+21	estos	este	DD0MP0	DD	gen=masculine|matched=no|num=plural|pos=determiner|type=demonstrative	22	spec	_	_
+22	días	día	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	17	adjt	_	_
+23	en	en	SP	SP	matched=no|pos=adposition|type=preposition	17	pobj	_	_
+24	Egipto	egipto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
+25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	24	mod	_	_
+26	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	27	spec	_	_
+27	delegación	delegación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	25	comp	_	_
+28	de	de	SP	SP	matched=no|pos=adposition|type=preposition	27	mod	_	_
+29	especialistas	especialista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	28	comp	_	_
+30	de	de	SP	SP	matched=no|pos=adposition|type=preposition	29	mod	_	_
+31	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	32	spec	_	_
+32	Naciones	nación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	30	comp	_	_
+33	Unidas	unir	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	32	mod	_	_
+34	para	para	SP	SP	matched=no|pos=adposition|type=preposition	17	pobj	_	_
+35	tratar	tratar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	34	comp	_	_
+36	con	con	SP	SP	matched=no|pos=adposition|type=preposition	35	adjt	_	_
+37	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	38	spec	_	_
+38	autoridades	autoridad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	36	comp	_	_
+39	de	de	SP	SP	matched=no|pos=adposition|type=preposition	35	pobj	_	_
+40	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	41	spec	_	_
+41	país	país	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	39	comp	_	_
+42	sobre	sobre	SP	SP	matched=no|pos=adposition|type=preposition	35	adjt	_	_
+43	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	44	spec	_	_
+44	posibilidades	posibilidad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	42	comp	_	_
+45	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	pobj	_	_
+46	eliminar	eliminar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	45	comp	_	_
+47	esos	ese	DD0MP0	DD	gen=masculine|matched=no|num=plural|pos=determiner|type=demonstrative	48	spec	_	_
+48	artefactos	artefacto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	46	dobj	_	_
+49	en	en	SP	SP	matched=no|pos=adposition|type=preposition	46	adjt	_	_
+50	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	51	spec	_	_
+51	territorio	territorio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	49	comp	_	_
+52	egipcio	egipcio	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	51	mod	_	_
+53	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
+
+1	Especialistas	especialista	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	4	spec	_	_
+4	Fuerzas	fuerza	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	comp	_	_
+5	Armadas	armada	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	mod	_	_
+6	egipcias	egipcio	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	1	mod	_	_
+7	afirman	afirmar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+8	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	7	dobj	_	_
+9	hasta	hasta	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+10	finales	final	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	9	comp	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
+12	1999	1999	Z	Z	matched=no|pos=number	11	comp	_	_
+13	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	14	aux	_	_
+14	eliminado	eliminar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	8	comp	_	_
+15	más	más	RG	RG	matched=no|pos=adverb|type=general	14	adjt	_	_
+16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	15	modnomatch	_	_
+17	dos_millones	2000000	Zd	Zd	matched=no|pos=number|type=partitive	19	spec	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	mod	_	_
+19	minas	mina	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	15	modnomatch	_	_
+20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+

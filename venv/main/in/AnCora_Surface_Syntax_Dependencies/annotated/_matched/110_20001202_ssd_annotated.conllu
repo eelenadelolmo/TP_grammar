@@ -1,0 +1,11 @@
+1	Le	él	pp30sa00	pp30sa00	matched=no	2	dobj	_	_
+2	acompañó	acompañar	vmis3s0	vmis3s0	matched=no	0	root	_	_
+3	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	4	det	_	_
+4	concejal	concejal	ncms000	ncms000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
+5	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	4	prepn	_	_
+6	distrito	distrito	ncms000	ncms000	matched=yes: nsubj child of root deprel	5	pobj	_	_
+7	,	,	fc	fc	matched=yes: nsubj child of root deprel	4	punct	_	_
+8	Jordi	Jordi	np0000l	np0000l	matched=yes: nsubj child of root deprel	4	appos	_	_
+9	Hereu	Hereu	np0000l	np0000l	matched=yes: nsubj child of root deprel	8	appos	_	_
+10	.	.	fp	fp	matched=no	2	punct	_	_
+

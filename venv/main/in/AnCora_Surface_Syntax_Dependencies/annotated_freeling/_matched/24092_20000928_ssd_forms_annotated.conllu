@@ -1,0 +1,49 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+5	PP	p_p	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
+6	canario	canario	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+8	José	josé	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+9	Manuel	manuel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
+10	Soria	soria	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+12	aseguró	asegurar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	8	modnomatch	_	_
+13	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	12	adjt	_	_
+14	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	12	dobj	_	_
+15	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	16	aux	_	_
+16	pedido	pedir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	14	comp	_	_
+17	a	a	SP	SP	matched=no|pos=adposition|type=preposition	16	dobj	_	_
+18	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
+19	ministro	ministro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	19	mod	_	_
+21	Fomento	fomento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+22	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
+23	Francisco	francisco	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	modnomatch	_	_
+24	Alvarez	alvarez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	23	mod	_	_
+25	Cascos	casco	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	modnomatch	_	_
+26	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	25	punc	_	_
+27	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	25	modnomatch	_	_
+28	corrija	corregir	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	27	comp	_	_
+29	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	30	spec	_	_
+30	Plan	plan	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	28	dobj	_	_
+31	de	de	SP	SP	matched=no|pos=adposition|type=preposition	30	mod	_	_
+32	Infraestructuras	infraestructura	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	31	comp	_	_
+33	2000-2007	2000-2007	Z	Z	matched=no|pos=number	28	modnomatch	_	_
+34	para	para	SP	SP	matched=no|pos=adposition|type=preposition	28	adjt	_	_
+35	incluir	incluir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	34	comp	_	_
+36	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	37	spec	_	_
+37	construcción	construcción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	35	dobj	_	_
+38	de	de	SP	SP	matched=no|pos=adposition|type=preposition	35	adjt	_	_
+39	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	41	spec	_	_
+40	nueva	nuevo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	41	mod	_	_
+41	pista	pista	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	38	comp	_	_
+42	en	en	SP	SP	matched=no|pos=adposition|type=preposition	35	pobj	_	_
+43	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	44	spec	_	_
+44	aeropuerto	aeropuerto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	42	comp	_	_
+45	de	de	SP	SP	matched=no|pos=adposition|type=preposition	35	adjt	_	_
+46	Gran	gran	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	47	mod	_	_
+47	Canaria	canario	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	45	comp	_	_
+48	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
+

@@ -1,0 +1,108 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	Ingresa	ingresar	vmip3s0	vmip3s0	_	0	root
+2	en	en	sps00	sps00	_	1	prepv
+3	prisión	prisión	ncfs000	ncfs000	_	2	pobj
+4	por	por	sps00	sps00	_	1	prepv
+5	dar	dar	vmn0000	vmn0000	_	4	pobj
+6	una	uno	di0fs0	di0fs0	_	7	det
+7	paliza	paliza	ncfs000	ncfs000	_	5	dobj
+8	a	a	sps00	sps00	_	5	iobj
+9	su	su	dp3cs0	dp3cs0	_	10	poss
+10	hijo	hijo	ncms000	ncms000	_	8	pobj
+11	de	de	sps00	sps00	_	10	prepn
+12	7	7	z	z	_	13	num
+13	años	año	ncmp000	ncmp000	_	11	pobj
+14	.	.	fp	fp	_	1	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	agresor	agresor	ncms000	ncms000	_	8	nsubj
+3	,	,	fc	fc	_	2	punct
+4	de	de	sps00	sps00	_	2	prepn
+5	55	55	z	z	_	6	num
+6	años	año	ncmp000	ncmp000	_	4	pobj
+7	,	,	fc	fc	_	2	punct
+8	es	ser	vsip3s0	vsip3s0	_	0	root
+9	vecino	vecino	ncms000	ncms000	_	8	attr
+10	de	de	sps00	sps00	_	9	prepn
+11	Olula	Olula	np0000o	np0000o	_	10	pobj
+12	del	del	sps00	sps00	_	11	prepn
+13	Río	Río	np0000l	np0000l	_	12	pobj
+14	(	(	fpa	fpa	_	11	punct
+15	Almería	Almería	np00000	np00000	_	11	appos
+16	)	)	fpt	fpt	_	11	punct
+17	.	.	fp	fp	_	8	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	hecho	hecho	ncms000	ncms000	_	4	nsubj
+3	se	él	p0300000	p0300000	_	4	reflec
+4	produjo	producir	vmis3s0	vmis3s0	_	7	coord
+5	el	el	da0ms0	da0ms0	_	6	det
+6	miércoles	miércoles	ncms000	ncms000	_	4	dobj
+7	y	y	cc	cc	_	0	root
+8	se	se	p0000000	p0000000	_	9	reflec
+9	conoció	conocer	vmis3s0	vmis3s0	_	7	coord
+10	cuando	cuando	pr000000	pr000000	_	13	nsubj
+11	el	el	da0ms0	da0ms0	_	12	det
+12	pequeño	pequeño	aq0ms0	aq0ms0	_	14	attr
+13	fue	ser	vsis3s0	vsis3s0	_	9	rcmod
+14	trasladado	trasladar	vmp00sm	vmp00sm	_	13	cobj
+15	al	al	spcms	spcms	_	14	prepv
+16	centro	centro	ncms000	ncms000	_	15	pobj
+17	de	de	sps00	sps00	_	16	prepn
+18	salud	salud	ncfs000	ncfs000	_	17	pobj
+19	de	de	sps00	sps00	_	16	prepn
+20	Olula	Olula	np0000o	np0000o	_	19	pobj
+21	del	del	sps00	sps00	_	20	prepn
+22	Río	Río	np0000l	np0000l	_	21	pobj
+23	para	para	sps00	sps00	_	14	prepv
+24	ser	ser	vsn0000	vsn0000	_	23	pobj
+25	atendido	atender	vmp00sm	vmp00sm	_	24	attr
+26	por	por	sps00	sps00	_	25	prepv
+27	las	el	da0fp0	da0fp0	_	28	det
+28	heridas	herida	ncfp000	ncfp000	_	26	pobj
+29	que	que	pr0cn000	pr0cn000	_	30	dobj
+30	presentaba	presentar	vmii3s0	vmii3s0	_	28	rcmod
+31	.	.	fp	fp	_	7	punct
+
+1	Una	uno	di0fs0	di0fs0	_	2	det
+2	vez	vez	ncfs000	ncfs000	_	12	dep
+3	allí	allí	rg	rg	_	2	advmod
+4	,	,	fc	fc	_	12	punct
+5	los	el	da0mp0	da0mp0	_	6	det
+6	médicos	médico	ncmp000	ncmp000	_	7	nsubj
+7	alertaron	alertar	vmis3p0	vmis3p0	_	12	coord
+8	a	a	sps00	sps00	_	7	dobj
+9	la	el	da0fs0	da0fs0	_	10	det
+10	Guardia	guardia	ncms000	ncms000	_	8	pobj
+11	Civil	civil	aq0ms0	aq0ms0	_	10	amod
+12	y	y	cc	cc	_	0	root
+13	el	el	da0ms0	da0ms0	_	14	det
+14	padre	padre	ncms000	ncms000	_	15	nsubj
+15	fue	ser	vsis3s0	vsis3s0	_	12	coord
+16	detenido	detener	vmp00sm	vmp00sm	_	15	attr
+17	al	al	spcms	spcms	_	16	prepv
+18	día	día	ncms000	ncms000	_	17	pobj
+19	siguiente	siguiente	aq0cs0	aq0cs0	_	18	amod
+20	.	.	fp	fp	_	12	punct
+
+1	Contra	contra	sps00	sps00	_	5	prepv
+2	el	el	da0ms0	da0ms0	_	3	det
+3	padre	padre	ncms000	ncms000	_	1	pobj
+4	ya	ya	rg	rg	_	5	advmod
+5	existen	existir	vmip3p0	vmip3p0	_	0	root
+6	varias	varios	di0fp0	di0fp0	_	7	det
+7	denuncias	denuncia	ncfp000	ncfp000	_	5	nsubj
+8	por	por	sps00	sps00	_	7	prepn
+9	encadenar	encadenar	vmn0000	vmn0000	_	8	pobj
+10	a	a	sps00	sps00	_	9	dobj
+11	sus	su	dp3cp0	dp3cp0	_	12	poss
+12	hijos	hijo	ncmp000	ncmp000	_	10	pobj
+13	durante	durante	sps00	sps00	_	9	prepv
+14	algunos	alguno	di0mp0	di0mp0	_	15	det
+15	días	día	ncmp000	ncmp000	_	13	pobj
+16	.	.	fp	fp	_	5	punct

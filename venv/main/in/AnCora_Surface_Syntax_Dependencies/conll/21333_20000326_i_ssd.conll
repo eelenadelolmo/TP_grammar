@@ -1,0 +1,98 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	TRIUNFOS	triunfos	ncmp000	ncmp000	_	0	root
+2	DE	de	sps00	sps00	_	1	prepn
+3	ORO	oro	ncms000	ncms000	_	2	pobj
+4	DE	de	sps00	sps00	_	1	prepn
+5	ESPANYOL	espanyol	np00000	np00000	_	6	cobj
+6	Y	y	cc	cc	_	4	pobj
+7	VALLADOLID	valladolid	np00000	np00000	_	6	cobj
+
+1	Espanyol	Espanyol	np00000	np00000	_	2	coord
+2	y	y	cc	cc	_	4	nsubj
+3	Valladolid	Valladolid	np00000	np00000	_	2	coord
+4	vencieron	vencer	vmis3p0	vmis3p0	_	13	coord
+5	a	a	sps00	sps00	_	4	dobj
+6	Racing	Racing	np00000	np00000	_	7	coord
+7	y	y	cc	cc	_	5	pobj
+8	Real	Real	ncfs000	ncfs000	_	7	coord
+9	Sociedad	sociedad	nc00000	nc00000	_	8	appos
+10	,	,	fc	fc	_	7	punct
+11	respectivamente	respectivamente	rg	rg	_	7	advmod
+12	,	,	fc	fc	_	7	punct
+13	y	y	cc	cc	_	30	coord
+14	se	él	p0300000	p0300000	_	15	reflec
+15	sitúan	situar	vmip3p0	vmip3p0	_	13	coord
+16	en	en	sps00	sps00	_	15	prepv
+17	una	uno	di0fs0	di0fs0	_	18	det
+18	zona	zona	ncfs000	ncfs000	_	16	pobj
+19	de	de	sps00	sps00	_	18	prepn
+20	la	el	da0fs0	da0fs0	_	21	det
+21	tabla	tabla	ncfs000	ncfs000	_	19	pobj
+22	que	que	pr0cn000	pr0cn000	_	24	nsubj
+23	les	él	pp3cpd00	pp3cpd00	_	24	iobj
+24	permite	permitir	vmip3s0	vmip3s0	_	18	rcmod
+25	disfrutar	disfrutar	vmn0000	vmn0000	_	24	dobj
+26	de	de	sps00	sps00	_	25	oobj
+27	cierta	cierto	di0fs0	di0fs0	_	28	det
+28	tranquilidad	tranquilidad	ncfs000	ncfs000	_	26	pobj
+29	,	,	fc	fc	_	30	punct
+30	mientras	mientras	cs	cs	_	0	root
+31	que	que	cs	cs	_	30	coord
+32	el	el	da0ms0	da0ms0	_	33	det
+33	equipo	equipo	ncms000	ncms000	_	35	coord
+34	cántabro	cántabro	aq0ms0	aq0ms0	_	33	amod
+35	y	y	cc	cc	_	38	nsubj
+36	el	el	da0ms0	da0ms0	_	37	det
+37	donostiarra	donostiarra	nccs000	nccs000	_	35	coord
+38	siguen	seguir	vmip3p0	vmip3p0	_	31	cobj
+39	al	al	sps00	sps00	_	38	prepv
+40	borde	borde	ncfs000	ncfs000	_	39	pobj
+41	del	del	sps00	sps00	_	40	prepn
+42	abismo	abismo	ncms000	ncms000	_	41	pobj
+43	.	.	fp	fp	_	13	punct
+
+1	La	el	da0fs0	da0fs0	_	2	det
+2	Real	Real	ncfs000	ncfs000	_	7	nsubj
+3	Sociedad	sociedad	nc00000	nc00000	_	2	appos
+4	de	de	sps00	sps00	_	2	prepn
+5	Javier	Javier	np0000l	np0000l	_	4	pobj
+6	Clemente	clemente	np0000l	np0000l	_	5	appos
+7	continúa	continuar	vmip3s0	vmip3s0	_	0	root
+8	sin	sin	sps00	sps00	_	7	prepv
+9	vencer	vencer	vmn0000	vmn0000	_	8	pobj
+10	a	a	sps00	sps00	_	9	advmod
+11	domicilio	domicilio	ncmp000	ncmp000	_	10	pobj
+12	.	.	fp	fp	_	7	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	Racing	Racing	np00000	np00000	_	20	nsubj
+3	,	,	fc	fc	_	20	punct
+4	pese	pesar	vmip2s0	vmip2s0	_	20	prepv
+5	a	a	sps00	sps00	_	4	prepv
+6	ser	ser	vsn0000	vsn0000	_	5	pobj
+7	el	el	da0ms0	da0ms0	_	8	det
+8	equipo	equipo	ncms000	ncms000	_	6	attr
+9	que	que	pr0cn000	pr0cn000	_	12	nsubj
+10	más	más	rg	rg	_	11	advmod
+11	partidos	partido	ncmp000	ncmp000	_	13	dobj
+12	ha	haber	vaip3s0	vaip3s0	_	8	rcmod
+13	ganado	ganar	vmp00sm	vmp00sm	_	12	vobj
+14	fuera	fuera	rg	rg	_	13	advmod
+15	(	(	fpa	fpa	_	16	punct
+16	6	6	z	z	_	13	num
+17	)	)	fpt	fpt	_	16	punct
+18	,	,	fc	fc	_	20	punct
+19	no	no	rn	rn	_	20	neg
+20	consigue	conseguir	vmip3s0	vmip3s0	_	0	root
+21	distanciarse	distanciar	vmn0000	vmn0000	_	20	dobj
+22	de	de	sps00	sps00	_	21	oobj
+23	los	el	da0mp0	da0mp0	_	24	det
+24	puestos	puesto	ncmp000	ncmp000	_	22	pobj
+25	de	de	sps00	sps00	_	24	prepn
+26	descenso	descenso	ncms000	ncms000	_	25	pobj
+27	.	.	fp	fp	_	20	punct

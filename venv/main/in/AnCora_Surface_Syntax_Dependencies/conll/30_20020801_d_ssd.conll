@@ -1,0 +1,69 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	alcalde	alcalde	ncms000	ncms000	_	6	nsubj
+3	de	de	sps00	sps00	_	2	prepn
+4	Sant	Sant	np0000l	np0000l	_	3	pobj
+5	Cugat	Cugat	np0000l	np0000l	_	4	appos
+6	justifica	justificar	vmip3s0	vmip3s0	_	0	root
+7	una	uno	di0fs0	di0fs0	_	8	det
+8	tala	tala	ncfs000	ncfs000	_	6	dobj
+9	.	.	fp	fp	_	6	punct
+
+1	El	el	da0ms0	da0ms0	_	3	det
+2	convergente	convergente	aq0cs0	aq0cs0	_	3	amod
+3	Lluís	Lluís	np0000l	np0000l	_	5	nsubj
+4	Recoder	Recoder	np0000l	np0000l	_	3	appos
+5	dijo	decir	vmis3s0	vmis3s0	_	0	root
+6	ayer	ayer	rg	rg	_	5	advmod
+7	que	que	cs	cs	_	5	dobj
+8	la	el	da0fs0	da0fs0	_	9	det
+9	tala	tala	ncfs000	ncfs000	_	23	nsubj
+10	de	de	sps00	sps00	_	9	prepn
+11	árboles	árbol	ncmp000	ncmp000	_	10	pobj
+12	en	en	sps00	sps00	_	9	prepn
+13	el	el	da0ms0	da0ms0	_	14	det
+14	club	club	ncms000	ncms000	_	12	pobj
+15	de	de	sps00	sps00	_	14	prepn
+16	golf	golf	ncmn000	ncmn000	_	15	pobj
+17	,	,	fc	fc	_	9	punct
+18	denunciada	denunciado	aq0fsp	aq0fsp	_	9	amod
+19	por	por	sps00	sps00	_	18	agent
+20	ERC	ERC	np00000	np00000	_	19	pobj
+21	,	,	fc	fc	_	9	punct
+22	se	se	p0000000	p0000000	_	23	reflec
+23	incluye	incluir	vmip3s0	vmip3s0	_	7	cobj
+24	en	en	sps00	sps00	_	23	prepv
+25	el	el	da0ms0	da0ms0	_	26	det
+26	plan	plan	ncms000	ncms000	_	24	pobj
+27	aprobado	aprobado	aq0msp	aq0msp	_	26	amod
+28	en	en	sps00	sps00	_	27	prepa
+29	un	uno	di0ms0	di0ms0	_	30	det
+30	pleno	pleno	ncms000	ncms000	_	28	pobj
+31	del	del	spcms	spcms	_	30	prepn
+32	2001	2001	z	z	_	31	pobj
+33	.	.	fp	fp	_	5	punct
+
+1	La	el	da0fs0	da0fs0	_	2	det
+2	tala	tala	ncfs000	ncfs000	_	3	nsubj
+3	forma	formar	vmp00sm	vmp00sm	_	0	root
+4	parte	parte	ncfp000	ncfp000	_	3	dobj
+5	de	de	sps00	sps00	_	3	oobj
+6	las	el	da0fp0	da0fp0	_	7	det
+7	obras	obra	ncfp000	ncfp000	_	5	pobj
+8	de	de	sps00	sps00	_	7	prepn
+9	mejora	mejora	ncfs000	ncfs000	_	8	pobj
+10	del	del	spcms	spcms	_	9	prepn
+11	club	club	ncms000	ncms000	_	10	pobj
+12	,	,	fc	fc	_	11	punct
+13	que	que	pr0cn000	pr0cn000	_	14	nsubj
+14	prevé	prever	vmip3s0	vmip3s0	_	11	rcmod
+15	plantar	plantar	vmn0000	vmn0000	_	14	dobj
+16	otros	otro	pi0mp000	pi0mp000	_	15	dobj
+17	150	150	z	z	_	16	num
+18	ejemplares	ejemplar	ncmp000	ncmp000	_	15	dobj
+19	.	.	fp	fp	_	3	punct

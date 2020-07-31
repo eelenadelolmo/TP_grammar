@@ -1,0 +1,105 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	ganador	ganador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	torneo	torneo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	Casablanca	casa_blanco	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+9	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	10	subj	_	_
+10	perdió	perder	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	2	mod	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	13	spec	_	_
+12	primera	1	AO0FS00	AO	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	13	mod	_	_
+13	manga	manga	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	dobj	_	_
+14	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+15	forzó	forzar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+16	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
+17	tercera	3	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	15	dobj	_	_
+18	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	15	modnomatch	_	_
+19	última	último	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	18	coor	_	_
+20	a	a	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
+21	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
+22	imponerse	imponerse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	20	modnomatch	_	_
+23	en	en	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
+24	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	26	spec	_	_
+25	segundo	2	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	26	mod	_	_
+26	set	set	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
+27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
+
+1	Sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+2	embargo	embargo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	Schuttler	schuttler	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+5	logró	lograr	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+6	finalmente	final_mente	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	victoria	victoria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	modnomatch	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	adjt	_	_
+10	con	con	SP	SP	matched=no|pos=adposition|type=preposition	9	coor	_	_
+11	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	12	spec	_	_
+12	resultado	resultado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+14	6-4	6-4	Z	Z	matched=no|pos=number	13	comp	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	17	punc	_	_
+16	4-6	4-6	Z	Z	matched=no|pos=number	17	coor	_	_
+17	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_
+18	6-3	6-3	Z	Z	matched=no|pos=number	17	coor	_	_
+19	consiguió	conseguir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	5	modnomatch	_	_
+20	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
+21	pasaporte	pasaporte	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	dobj	_	_
+22	para	para	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+23	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	25	spec	_	_
+24	segunda	2	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	25	mod	_	_
+25	ronda	ronda	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
+26	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	19	punc	_	_
+27	en	en	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+28	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	29	spec	_	_
+29	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	31	subj	_	_
+30	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	31	mphes	_	_
+31	enfrentará	enfrentar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	27	comp	_	_
+32	a	a	SP	SP	matched=no|pos=adposition|type=preposition	31	adjt	_	_
+33	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	34	spec	_	_
+34	compatriota	compatriota	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	32	comp	_	_
+35	Tommy	tommy	RG	RG	matched=no|pos=adverb|type=general	31	adjt	_	_
+36	Haas	haber_as	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	31	dobj	_	_
+37	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	27	punc	_	_
+38	sexto	6	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	39	mod	_	_
+39	cabeza	cabeza	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	19	modnomatch	_	_
+40	de	de	SP	SP	matched=no|pos=adposition|type=preposition	39	mod	_	_
+41	serie	serie	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	40	comp	_	_
+42	de	de	SP	SP	matched=no|pos=adposition|type=preposition	39	mod	_	_
+43	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	44	spec	_	_
+44	torneo	torneo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	42	comp	_	_
+45	de	de	SP	SP	matched=no|pos=adposition|type=preposition	39	mod	_	_
+46	Stuttgart	stuttgart	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	45	comp	_	_
+47	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	39	punc	_	_
+48	dotado	dotar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	19	adjt	_	_
+49	con	con	SP	SP	matched=no|pos=adposition|type=preposition	48	adjt	_	_
+50	un_millón_de_dólares	$_USD:1000000	Zm	Zm	matched=no|pos=number|type=currency	49	comp	_	_
+51	en	en	SP	SP	matched=no|pos=adposition|type=preposition	48	adjt	_	_
+52	premios	premio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	51	comp	_	_
+53	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	19	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	otro	otro	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+3	español	español	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+4	eliminado	eliminar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	3	mod	_	_
+5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	torneo	torneo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+8	alemán	alemán	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	7	mod	_	_
+9	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+10	Jacobo	jacobo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	attr	_	_
+11	Díaz	día_z	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	mod	_	_
+12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+13	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	16	subj	_	_
+14	no	no	RN	RN	matched=no|pos=adverb|type=negative	16	spec	_	_
+15	pudo	poder	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	16	prt	_	_
+16	superar	superar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	9	modnomatch	_	_
+17	a	a	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
+18	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+19	argentino	argentino	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	20	mod	_	_
+20	Gastón	gastón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+21	Gaudio	g_audio	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	mod	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+

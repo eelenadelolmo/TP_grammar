@@ -1,0 +1,95 @@
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	salida	salida	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+4	Puigbó	puigbó	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	modnomatch	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	modnomatch	_	_
+7	Telenotícies	telenotícies	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	subj	_	_
+8	migdia	migdia	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	7	mod	_	_
+9	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	10	iobj	_	_
+10	permitiría	permitir	VMIC3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=conditional|type=main	4	modnomatch	_	_
+11	dedicarse	dedicarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	10	dobj	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+13	lleno	lleno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+14	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+15	Ona	ona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+16	Catalana	catalán	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	15	mod	_	_
+17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+18	cadena	cadena	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	modnomatch	_	_
+19	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	20	subj	_	_
+20	cuenta	contar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	18	mod	_	_
+21	en	en	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
+22	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	actualidad	actualidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
+24	con	con	SP	SP	matched=no|pos=adposition|type=preposition	20	pobj	_	_
+25	19	19	Z	Z	matched=no|pos=number	26	spec	_	_
+26	emisoras	emisora	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	24	comp	_	_
+27	de	de	SP	SP	matched=no|pos=adposition|type=preposition	26	mod	_	_
+28	toda	todo	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	29	spec	_	_
+29	Catalunya	catalunya	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	27	comp	_	_
+30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	cadena	cadena	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	22	subj	_	_
+3	catalana	catalán	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+5	capitaneada	capitanear	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+6	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	agnt	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	empresario	empresario	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	gerundense	gerundense	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	Bartomeu	bartomeu	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	2	mod	_	_
+11	Espadalé	espadalé	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	mod	_	_
+12	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	2	punc	_	_
+13	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	2	punc	_	_
+14	próximo	próximo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+15	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+16	Convergència	convergència	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	comp	_	_
+17	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	2	punc	_	_
+18	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	2	punc	_	_
+19	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+20	Puigbó	puigbó	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	19	coor	_	_
+21	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+22	consiguió	conseguir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+23	entonces	entonces	RG	RG	matched=no|pos=adverb|type=general	22	adjt	_	_
+24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	22	punc	_	_
+25	bien	bien	RG	RG	matched=no|pos=adverb|type=general	22	adjt	_	_
+26	directamente	directamente	RG	RG	matched=no|pos=adverb|type=general	22	adjt	_	_
+27	o_bien	o_bien	CC	CC	matched=no|pos=conjunction|type=coordinating	22	modnomatch	_	_
+28	a_través_de	a_través_de	SP	SP	matched=no|pos=adposition|type=preposition	27	coor	_	_
+29	empresas	empresa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	28	comp	_	_
+30	participadas	participar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	29	mod	_	_
+31	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	22	punc	_	_
+32	siete	7	Z	Z	matched=no|pos=number	34	spec	_	_
+33	nuevas	nuevo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	34	mod	_	_
+34	explotaciones	explotación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	22	dobj	_	_
+35	de	de	SP	SP	matched=no|pos=adposition|type=preposition	34	mod	_	_
+36	frecuencias	frecuencia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	35	comp	_	_
+37	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	22	punc	_	_
+38	en	en	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
+39	Figueres	figueres	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	38	comp	_	_
+40	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	38	punc	_	_
+41	Gandesa	gandesa	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	22	modnomatch	_	_
+42	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	22	punc	_	_
+43	Tortosa	t_ortosa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	modnomatch	_	_
+44	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	43	punc	_	_
+45	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	46	spec	_	_
+46	Vendrell	vendrell	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	modnomatch	_	_
+47	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	46	punc	_	_
+48	Vic	vic	RG	RG	matched=no|pos=adverb|type=general	22	adjt	_	_
+49	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	51	punc	_	_
+50	Vielha	vielha	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	51	coor	_	_
+51	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	22	modnomatch	_	_
+52	Pont	pont	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	51	coor	_	_
+53	de	de	SP	SP	matched=no|pos=adposition|type=preposition	52	mod	_	_
+54	Suert	suert	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	53	comp	_	_
+55	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	22	punc	_	_
+56	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	22	modnomatch	_	_
+57	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	58	spec	_	_
+58	renovación	renovación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	56	coor	_	_
+59	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	22	punc	_	_
+60	en	en	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
+61	Palamós	palamós	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	60	comp	_	_
+62	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	22	punc	_	_
+63	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
+

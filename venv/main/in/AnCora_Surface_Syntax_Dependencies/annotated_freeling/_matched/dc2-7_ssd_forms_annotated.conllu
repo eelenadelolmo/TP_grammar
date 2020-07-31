@@ -1,0 +1,89 @@
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	rayos	rayo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	subj	_	_
+3	ultravioleta	ultravioleta	AQ0CN00	AQ	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	Sol	sol	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+7	destruirán	destruir	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	0	top	_	_
+8	así	así	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
+9	toda	todo	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	7	modnomatch	_	_
+10	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	7	dobj	_	_
+11	gran	gran	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	12	mod	_	_
+12	parte	parte	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	10	coor	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
+14	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
+15	vida	vida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+16	situada	situar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	15	mod	_	_
+17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+18	para	para	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+19	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	20	spec	_	_
+20	desgracia	desgracia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+21	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	18	punc	_	_
+22	debajo_de	debajo_de	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+23	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
+24	agujero	agujero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
+25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
+
+1	Quién	quién	PT0CS00	PT	gen=common|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=interrogative	2	subj	_	_
+2	sabe	saber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	si	si	CS	CS	matched=no|pos=conjunction|type=subordinating	2	modnomatch	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	final	final	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+9	acabará	acabar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	2	modnomatch	_	_
+10	cumpliéndose	cumpliéndose	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	2	modnomatch	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	profecía	profecía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	dobj	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
+14	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
+15	premio	premio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+16	Nobel	nobel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	mod	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
+18	física	física	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+19	estadounidense	estadounidense	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	20	mod	_	_
+20	Isidor	isidor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	modnomatch	_	_
+21	Isaac	isaac	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	mod	_	_
+22	Rabi	rabi	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	modnomatch	_	_
+23	:	:	Fd	Fd	matched=no|pos=punctuation|type=colon	2	punc	_	_
+24	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	2	punc	_	_
+25	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	26	spec	_	_
+26	combinación	combinación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	30	coor	_	_
+27	de	de	SP	SP	matched=no|pos=adposition|type=preposition	26	mod	_	_
+28	técnica	técnica	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	27	comp	_	_
+29	militar	militar	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	28	mod	_	_
+30	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	dobj	_	_
+31	ciencia	ciencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	30	coor	_	_
+32	hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	modnomatch	_	_
+33	fácil	fácil	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	32	pred	_	_
+34	aplicar	aplicar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	32	dobj	_	_
+35	ambas	ambos	PI0FP00	PI	gen=feminine|matched=no|num=plural|pos=pronoun|type=indefinite	34	dobj	_	_
+36	para	para	SP	SP	matched=no|pos=adposition|type=preposition	34	adjt	_	_
+37	destruir	destruir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	36	comp	_	_
+38	a	a	SP	SP	matched=no|pos=adposition|type=preposition	34	pobj	_	_
+39	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	40	spec	_	_
+40	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	38	modnomatch	_	_
+41	humano	humano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	40	attr	_	_
+42	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	32	punc	_	_
+43	ya_que	ya_que	CS	CS	matched=no|pos=conjunction|type=subordinating	32	adjt	_	_
+44	en	en	SP	SP	matched=no|pos=adposition|type=preposition	48	adjt	_	_
+45	realidad	realidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	44	comp	_	_
+46	no	no	RN	RN	matched=no|pos=adverb|type=negative	48	spec	_	_
+47	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	48	mphes	_	_
+48	trata	tratar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	43	comp	_	_
+49	de	de	SP	SP	matched=no|pos=adposition|type=preposition	48	pobj	_	_
+50	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	51	spec	_	_
+51	estructura	estructura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	49	comp	_	_
+52	biológica	biológico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	51	mod	_	_
+53	muy	muy	RG	RG	matched=no|pos=adverb|type=general	54	spec	_	_
+54	fuerte	fuerte	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	48	modnomatch	_	_
+55	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	32	punc	_	_
+
+1	Todo	todo	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	esto	este	PD00S00	PD	matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	4	subj	_	_
+3	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	4	iobj	_	_
+4	parece	parecer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+5	mágico	mágico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	attr	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+

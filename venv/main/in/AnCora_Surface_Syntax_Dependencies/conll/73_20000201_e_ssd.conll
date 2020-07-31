@@ -1,0 +1,81 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	La	el	da0fs0	da0fs0	_	2	det
+2	restricción	restricción	ncfs000	ncfs000	_	9	nsubj
+3	nocturna	nocturno	aq0fs0	aq0fs0	_	2	amod
+4	de	de	sps00	sps00	_	2	prepn
+5	los	el	da0mp0	da0mp0	_	6	det
+6	vuelos	vuelo	ncmp000	ncmp000	_	4	pobj
+7	en	en	sps00	sps00	_	6	prepn
+8	Barajas	Barajas	np00000	np00000	_	7	pobj
+9	genera	generar	vmip3s0	vmip3s0	_	0	root
+10	críticas	crítica	ncfp000	ncfp000	_	9	dobj
+11	.	.	fp	fp	_	9	punct
+
+1	La	el	da0fs0	da0fs0	_	2	det
+2	Asociación	Asociación	ncms000	ncms000	_	6	nsubj
+3	de	de	spcms	spcms	_	2	prepn
+4	Líneas	Líneas	ncms000	ncms000	_	3	pobj
+5	Aéreas	Aéreas	np0000l	np0000l	_	4	appos
+6	calificó	calificar	vmis3s0	vmis3s0	_	14	coord
+7	ayer	ayer	rg	rg	_	6	advmod
+8	de	de	sps00	sps00	_	6	prepv
+9	&quot;	&quot;	fe	fe	_	10	punct
+10	inaceptable	inaceptable	aq0cs0	aq0cs0	_	8	pobj
+11	&quot;	&quot;	fe	fe	_	10	punct
+12	la	el	da0fs0	da0fs0	_	13	det
+13	medida	medida	ncfs000	ncfs000	_	6	dobj
+14	e	e	cc	cc	_	0	root
+15	insistió	insistir	vmis3s0	vmis3s0	_	14	coord
+16	en	en	sps00	sps00	_	15	oobj
+17	que	que	cs	cs	_	16	pobj
+18	&quot;	&quot;	fe	fe	_	22	punct
+19	cualquier	cualquiera	di0cs0	di0cs0	_	20	det
+20	restricción	restricción	ncfs000	ncfs000	_	22	nsubj
+21	no	no	rn	rn	_	22	neg
+22	debe	deber	vmip3s0	vmip3s0	_	27	coord
+23	imponerse	imponer	vmn0000	vmn0000	_	22	dobj
+24	de	de	sps00	sps00	_	27	coord
+25	manera	manera	ncfs000	ncfs000	_	24	pobj
+26	precipitada	precipitado	aq0fsp	aq0fsp	_	25	amod
+27	y	y	cc	cc	_	17	cobj
+28	sin	sin	sps00	sps00	_	27	coord
+29	dar	dar	vmn0000	vmn0000	_	28	pobj
+30	tiempo	tiempo	ncms000	ncms000	_	29	dobj
+31	a	a	sps00	sps00	_	29	iobj
+32	las	el	da0fp0	da0fp0	_	33	det
+33	compañías	compañía	ncfp000	ncfp000	_	31	pobj
+34	aéreas	aéreo	aq0fp0	aq0fp0	_	33	amod
+35	a	a	sps00	sps00	_	29	prepv
+36	buscar	buscar	vmn0000	vmn0000	_	35	pobj
+37	soluciones	solución	ncfp000	ncfp000	_	36	dobj
+38	para	para	sps00	sps00	_	37	prepn
+39	los	el	da0mp0	da0mp0	_	40	det
+40	vuelos	vuelo	ncmp000	ncmp000	_	38	pobj
+41	afectados	afectado	aq0mpp	aq0mpp	_	40	amod
+42	&quot;	&quot;	fe	fe	_	22	punct
+43	.	.	fp	fp	_	14	punct
+
+1	La	el	da0fs0	da0fs0	_	2	det
+2	entidad	entidad	ncfs000	ncfs000	_	3	nsubj
+3	recordó	recordar	vmis3s0	vmis3s0	_	0	root
+4	que	que	cs	cs	_	3	dobj
+5	medidas	medida	ncfp000	ncfp000	_	12	nsubj
+6	similares	similar	aq0cp0	aq0cp0	_	5	amod
+7	en	en	sps00	sps00	_	6	prepa
+8	los	el	da0mp0	da0mp0	_	9	det
+9	aeropuertos	aeropuerto	ncmp000	ncmp000	_	7	pobj
+10	de	de	sps00	sps00	_	9	prepn
+11	Londres	Londres	np00000	np00000	_	10	pobj
+12	precisaron	precisar	vmis3p0	vmis3p0	_	4	cobj
+13	de	de	sps00	sps00	_	12	prepv
+14	20	20	z	z	_	15	num
+15	meses	mes	ncmp000	ncmp000	_	13	pobj
+16	para	para	sps00	sps00	_	15	prepn
+17	su	su	dp3cs0	dp3cs0	_	18	poss
+18	implantación	implantación	ncfs000	ncfs000	_	16	pobj
+19	.	.	fp	fp	_	3	punct

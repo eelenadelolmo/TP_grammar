@@ -1,0 +1,23 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
+2	viaducto	viaducto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+3	peatonal	peatonal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	conecta	conectar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	8	coor	_	_
+5	Mollet	molle_t	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+6	con	con	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+7	Martorell	martorell	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+9	pasa	pasar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	8	coor	_	_
+10	sobre	sobre	SP	SP	matched=no|pos=adposition|type=preposition	9	pobj	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	autopista	autopista	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	C-33	C-33	Z	Z	matched=no|pos=number	9	dobj	_	_
+14	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	8	punc	_	_
+15	antigua	antiguo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	8	modnomatch	_	_
+16	A-17	A-17	Z	Z	matched=no|pos=number	8	modnomatch	_	_
+17	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	8	punc	_	_
+18	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	8	modnomatch	_	_
+19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	río	río	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	coor	_	_
+21	Besòs	besòs	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	20	mod	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+

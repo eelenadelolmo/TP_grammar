@@ -1,0 +1,39 @@
+1	¿	¿	Fia	Fia	matched=no|pos=punctuation|punctenclose=open|type=questionmark	28	punc	_	_
+2	Cuál	cuál	PT0CS00	PT	gen=common|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=interrogative	28	subj	_	_
+3	si	si	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	2	modnomatch	_	_
+4	no	no	RN	RN	matched=yes: subj child of top deprel|pos=adverb|type=negative	8	spec	_	_
+5	se	se	P00CN00	P0	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun	8	mphes	_	_
+6	habría	haber	VAIC1S0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=1|pos=verb|tense=conditional|type=auxiliary	8	aux	_	_
+7	podido	poder	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	8	prt	_	_
+8	designar	designar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	3	comp	_	_
+9	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	10	spec	_	_
+10	trabajo	trabajo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	dobj	_	_
+11	surgido	surgir	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	10	mod	_	_
+12	en_torno_a	en_torno_a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	adjt	_	_
+13	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	14	spec	_	_
+14	quehacer	quehacer	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	comp	_	_
+15	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	20	subj	_	_
+16	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	17	spec	_	_
+17	griegos	griego	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	20	modnomatch	_	_
+18	no	no	RN	RN	matched=yes: subj child of top deprel|pos=adverb|type=negative	20	spec	_	_
+19	pudieron	poder	VMIS3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	20	prt	_	_
+20	imaginar	imaginar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	2	mod	_	_
+21	entre	entre	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	20	adjt	_	_
+22	sus	su	DP3CPN	DP	gen=common|matched=yes: subj child of top deprel|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	24	spec	_	_
+23	seis	6	Z	Z	matched=yes: subj child of top deprel|pos=number	24	spec	_	_
+24	categorías	categoría	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	21	comp	_	_
+25	artísticas	artístico	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	24	mod	_	_
+26	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	20	adjt	_	_
+27	hoy	hoy	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	26	coor	_	_
+28	llamamos	llamar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+29	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	28	punc	_	_
+30	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	28	dobj	_	_
+31	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	28	punc	_	_
+32	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	34	spec	_	_
+33	séptimo	7	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	34	mod	_	_
+34	arte	arte	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	28	modnomatch	_	_
+35	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	28	punc	_	_
+36	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	28	modnomatch	_	_
+37	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	28	punc	_	_
+38	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	28	punc	_	_
+

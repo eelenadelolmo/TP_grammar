@@ -1,0 +1,233 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	vicepresidente	vicepresidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	operaciones	operación	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	NBA	n_ba	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+9	Stu	stu	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	modnomatch	_	_
+10	Jackson	jack_son	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	mod	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+12	tendrá	tener	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
+13	a	a	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+14	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	15	spec	_	_
+15	cargo	cargo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
+17	a_partir_de	a_partir_de	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+18	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	17	comp	_	_
+19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	22	punc	_	_
+20	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	21	spec	_	_
+21	responsabilidades	responsabilidad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	22	coor	_	_
+22	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	12	dobj	_	_
+23	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
+24	trabajo	trabajo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	coor	_	_
+25	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	26	subj	_	_
+26	realizaba	realizar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	24	mod	_	_
+27	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	29	spec	_	_
+28	anterior	anterior	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	29	mod	_	_
+29	titular	titular	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	26	dobj	_	_
+30	de	de	SP	SP	matched=no|pos=adposition|type=preposition	29	mod	_	_
+31	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	32	spec	_	_
+32	Departamento	departamento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	30	comp	_	_
+33	de	de	SP	SP	matched=no|pos=adposition|type=preposition	29	mod	_	_
+34	Operaciones	operación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	33	comp	_	_
+35	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
+36	Rod	ro_d	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	modnomatch	_	_
+37	Thorn	thorn	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	36	mod	_	_
+38	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	36	punc	_	_
+39	quien	quien	PR0CS00	PR	gen=common|matched=no|num=singular|pos=pronoun|type=relative	42	subj	_	_
+40	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	41	spec	_	_
+41	pasado_viernes	[V:??/??/??:??.??:??]	W	W	matched=no|pos=date	42	adjt	_	_
+42	renunció	renunciar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	36	mod	_	_
+43	a	a	SP	SP	matched=no|pos=adposition|type=preposition	42	pobj	_	_
+44	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	45	spec	_	_
+45	cargo	cargo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	43	comp	_	_
+46	para	para	SP	SP	matched=no|pos=adposition|type=preposition	42	adjt	_	_
+47	convertirse	convertirse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	46	comp	_	_
+48	en	en	SP	SP	matched=no|pos=adposition|type=preposition	47	adjt	_	_
+49	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	51	spec	_	_
+50	nuevo	nuevo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	51	mod	_	_
+51	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	48	comp	_	_
+52	de	de	SP	SP	matched=no|pos=adposition|type=preposition	47	adjt	_	_
+53	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	54	spec	_	_
+54	Nets	nets	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	52	comp	_	_
+55	de	de	SP	SP	matched=no|pos=adposition|type=preposition	47	adjt	_	_
+56	New	new	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	55	comp	_	_
+57	Jersey	jersey	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	56	mod	_	_
+58	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
+
+1	Jakson	jakson	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	19	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+3	quien	quien	PR0CS00	PR	gen=common|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=relative	5	subj	_	_
+4	recientemente	recientemente	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	5	adjt	_	_
+5	regresó	regresar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	mod	_	_
+6	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	adjt	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	organización	organización	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	mod	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	11	spec	_	_
+11	NBA	n_ba	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	comp	_	_
+12	para	para	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	adjt	_	_
+13	ocupar	ocupar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	12	comp	_	_
+14	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	15	spec	_	_
+15	presidencia	presidencia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	dobj	_	_
+16	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	13	pobj	_	_
+17	operaciones	operación	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	16	comp	_	_
+18	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+19	tendrá	tener	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
+20	a	a	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+21	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	22	spec	_	_
+22	cargo	cargo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+23	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	25	spec	_	_
+24	difícil	difícil	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	25	mod	_	_
+25	tarea	tarea	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	19	dobj	_	_
+26	de	de	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+27	imponer	imponer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	26	comp	_	_
+28	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	29	spec	_	_
+29	disciplina	disciplina	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	27	dobj	_	_
+30	dentro_de	dentro_de	SP	SP	matched=no|pos=adposition|type=preposition	27	adjt	_	_
+31	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	32	spec	_	_
+32	liga	liga	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	30	comp	_	_
+33	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	19	modnomatch	_	_
+34	sancionar	sancionar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	33	coor	_	_
+35	a	a	SP	SP	matched=no|pos=adposition|type=preposition	34	adjt	_	_
+36	jugadores	jugador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	35	comp	_	_
+37	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	19	modnomatch	_	_
+38	entrenadores	entrenador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	37	coor	_	_
+39	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	40	subj	_	_
+40	incurran	incurrir	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	38	mod	_	_
+41	en	en	SP	SP	matched=no|pos=adposition|type=preposition	40	pobj	_	_
+42	alguna	alguno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	43	spec	_	_
+43	falta	falta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	41	comp	_	_
+44	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	19	punc	_	_
+
+1	Jackson	jack_son	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	renunció	renunciar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	pasado_9_de_mayo	[??:9/5/??:??.??:??]	W	W	matched=no|pos=date	2	adjt	_	_
+5	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	2	adjt	_	_
+6	gerente	gerente	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	general	general	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+9	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	modnomatch	_	_
+10	Grizzlies	grizzlies	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+12	Vancouver	vancouver	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	11	comp	_	_
+13	para	para	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+14	regresar	regresar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	13	comp	_	_
+15	a	a	SP	SP	matched=no|pos=adposition|type=preposition	14	pobj	_	_
+16	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
+17	NBA	n_ba	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+18	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	14	adjt	_	_
+19	vicepresidente	vicepresidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	pobj	_	_
+21	operaciones	operación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	20	comp	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+
+1	Jackson	jack_son	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	tenía	tener	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+3	33	33	Z	Z	matched=no|pos=number	4	spec	_	_
+4	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	adjt	_	_
+5	cuando	cuando	PR00000	PR	matched=no|pos=pronoun|type=relative	2	modnomatch	_	_
+6	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	7	aux	_	_
+7	contratado	contratar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	modnomatch	_	_
+8	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	7	adjt	_	_
+9	entrenador	entrenador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+11	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	12	spec	_	_
+12	Knicks	knicks	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+14	Nueva	nuevo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	13	comp	_	_
+15	York	york	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+17	convirtiéndose	convirtiéndose	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	2	modnomatch	_	_
+18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
+20	segundo	2	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	21	mod	_	_
+21	entrenador	entrenador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+22	más	más	RG	RG	matched=no|pos=adverb|type=general	23	spec	_	_
+23	joven	joven	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	17	modnomatch	_	_
+24	en	en	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+25	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	26	spec	_	_
+26	historia	historia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+27	de	de	SP	SP	matched=no|pos=adposition|type=preposition	26	mod	_	_
+28	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	29	spec	_	_
+29	liga	liga	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	27	comp	_	_
+30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
+
+1	Dirigidos	dirigir	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	7	adjt	_	_
+2	por	por	SP	SP	matched=no|pos=adposition|type=preposition	1	agnt	_	_
+3	Jackson	jack_son	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+5	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	6	spec	_	_
+6	Knicks	knicks	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	subj	_	_
+7	derrotaron	derrotar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
+8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+9	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	10	spec	_	_
+10	Celtics	celtics	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	modnomatch	_	_
+12	Boston	boston	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	7	modnomatch	_	_
+13	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+14	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+15	primera	1	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	16	mod	_	_
+16	ronda	ronda	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+17	eliminatoria	eliminatoria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	mod	_	_
+18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+19	esa	ese	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	20	spec	_	_
+20	temporada	temporada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+21	antes_de	antes_de	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+22	perder	perder	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	21	comp	_	_
+23	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
+24	campeonato	campeonato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	dobj	_	_
+25	contra	contra	SP	SP	matched=no|pos=adposition|type=preposition	7	modnomatch	_	_
+26	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	7	modnomatch	_	_
+27	Pistons	pistons	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	dobj	_	_
+28	de	de	SP	SP	matched=no|pos=adposition|type=preposition	27	mod	_	_
+29	Detroit	detroit	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	28	comp	_	_
+30	en	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+31	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	32	spec	_	_
+32	semifinales	semifinal	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	30	comp	_	_
+33	de	de	SP	SP	matched=no|pos=adposition|type=preposition	32	mod	_	_
+34	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	35	spec	_	_
+35	Federación	federación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	33	comp	_	_
+36	Este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	7	modnomatch	_	_
+37	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	Después_de	después_de	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
+2	conseguir	conseguir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	comp	_	_
+3	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
+4	marca	marca	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+6	52-45	52-45	Z	Z	matched=no|pos=number	5	comp	_	_
+7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+8	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	9	spec	_	_
+9	temporada	temporada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+10	más	más	RG	RG	matched=no|pos=adverb|type=general	16	adjt	_	_
+11	con	con	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
+12	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	13	spec	_	_
+13	Knicks	knicks	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	11	comp	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+15	Jackson	jack_son	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	subj	_	_
+16	ingresó	ingresar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+17	a	a	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
+18	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
+19	oficina	oficina	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	19	mod	_	_
+21	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
+22	NBA	n_ba	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+23	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	28	adjt	_	_
+24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	28	adjt	_	_
+25	1990	1990	Z	Z	matched=no|pos=number	24	comp	_	_
+26	a	a	SP	SP	matched=no|pos=adposition|type=preposition	28	adjt	_	_
+27	1992	1992	Z	Z	matched=no|pos=number	26	comp	_	_
+28	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	22	mod	_	_
+29	director	director	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	28	attr	_	_
+30	de	de	SP	SP	matched=no|pos=adposition|type=preposition	29	mod	_	_
+31	operaciones	operación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	30	comp	_	_
+32	de	de	SP	SP	matched=no|pos=adposition|type=preposition	29	mod	_	_
+33	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	34	spec	_	_
+34	Baloncesto	baloncesto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	32	comp	_	_
+35	profesional	profesional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	34	mod	_	_
+36	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
+

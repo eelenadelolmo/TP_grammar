@@ -1,0 +1,83 @@
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	fusión	fusión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	dos	2	Z	Z	matched=yes: subj child of top deprel|pos=number	5	spec	_	_
+5	bufetes	bufete	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+6	da	dar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+7	lugar	lugar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	dobj	_	_
+8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	pobj	_	_
+9	Laudis	laudis	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	8	comp	_	_
+10	Consultor	consultor	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	integración	integración	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Gabinete	gabinete	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	Gimeno	gemir_no	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	5	mod	_	_
+7	Asociados	asociar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	14	pred	_	_
+8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	despacho	despacho	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+12	Echevarría-Casanovas-Matosas	echevarría-casanovas-matosas	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	11	comp	_	_
+13	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	14	aux	_	_
+14	dado	dar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+15	lugar	lugar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	dobj	_	_
+16	a	a	SP	SP	matched=no|pos=adposition|type=preposition	14	pobj	_	_
+17	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
+18	nacimiento	nacimiento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+19	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	mod	_	_
+20	Laudis	laudis	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	19	comp	_	_
+21	Consultor	consultor	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	20	mod	_	_
+22	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	14	punc	_	_
+23	Abogados	abogado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	24	coor	_	_
+24	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	14	modnomatch	_	_
+25	Economistas	economista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	24	coor	_	_
+26	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	14	punc	_	_
+27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
+
+1	Este	este	DD0MS0	DD	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	3	spec	_	_
+2	nuevo	nuevo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	bufete	bufete	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+4	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
+5	junto_a	junto_a	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+6	Lavinia	lavinia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	Auditors	auditor_s	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	mod	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+9	representa	representar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+10	en	en	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+11	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+12	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+13	SC	s_c	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+14	Internacional	internacional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	13	mod	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+16	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	17	spec	_	_
+17	entidad	entidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_
+18	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	19	subj	_	_
+19	agrupa	agrupar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	17	mod	_	_
+20	a	a	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+21	escala	escala	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+22	mundial	mundial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	21	mod	_	_
+23	a	a	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+24	más	más	RG	RG	matched=no|pos=adverb|type=general	23	comp	_	_
+25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	24	modnomatch	_	_
+26	200	200	Z	Z	matched=no|pos=number	27	spec	_	_
+27	oficinas	oficina	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	24	modnomatch	_	_
+28	especializadas	especializar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	27	mod	_	_
+29	en	en	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+30	asesoramiento	asesoramiento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	29	comp	_	_
+31	fiscal	fiscal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	30	mod	_	_
+32	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	9	modnomatch	_	_
+33	legal	legal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	32	coor	_	_
+34	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+35	así_como	así_como	CC	CC	matched=no|pos=conjunction|type=coordinating	9	modnomatch	_	_
+36	de	de	SP	SP	matched=no|pos=adposition|type=preposition	35	coor	_	_
+37	auditoría	auditoría	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	36	comp	_	_
+38	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	9	modnomatch	_	_
+39	consultoría	consultoría	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	38	coor	_	_
+40	de	de	SP	SP	matched=no|pos=adposition|type=preposition	39	mod	_	_
+41	empresas	empresa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	40	comp	_	_
+42	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+

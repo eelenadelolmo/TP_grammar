@@ -1,0 +1,46 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	Cor	Cor	ncfs000	ncfs000	_	7	nsubj
+3	Jove	Jove	ncfs000	ncfs000	_	2	appos
+4	del	del	spcms	spcms	_	2	prepn
+5	Orfeó	Orfeó	ncms000	ncms000	_	4	pobj
+6	Català	Català	np0000o	np0000o	_	5	appos
+7	interpreta	interpretar	vmip3s0	vmip3s0	_	0	root
+8	los	el	da0mp0	da0mp0	_	10	det
+9	cinco	cinco	dn0cp0	dn0cp0	_	10	det
+10	himnos	himno	ncmp000	ncmp000	_	7	dobj
+11	oficiales	oficial	aq0cp0	aq0cp0	_	10	amod
+12	que	que	pr0cn000	pr0cn000	_	14	dobj
+13	ha	haber	vaip3s0	vaip3s0	_	10	rcmod
+14	tenido	tener	vmp00sm	vmp00sm	_	13	vobj
+15	el	el	da0ms0	da0ms0	_	16	det
+16	Barça	Barça	np00000	np00000	_	13	nsubj
+17	en	en	sps00	sps00	_	14	prepv
+18	su	su	dp3cs0	dp3cs0	_	19	poss
+19	historia	historia	ncfs000	ncfs000	_	17	pobj
+20	,	,	fc	fc	_	7	punct
+21	en	en	sps00	sps00	_	7	prepv
+22	un	uno	di0ms0	di0ms0	_	23	det
+23	concierto	concierto	ncms000	ncms000	_	21	pobj
+24	que	que	pr0cn000	pr0cn000	_	27	dobj
+25	Canal	canal	ncmp000	ncmp000	_	27	nsubj
+26	33	33	zm	zm	_	25	num
+27	ofrece	ofrecer	vmip3s0	vmip3s0	_	23	rcmod
+28	en	en	sps00	sps00	_	27	advmod
+29	directo	directo	aq0msp	aq0msp	_	28	pobj
+30	(	(	fpa	fpa	_	31	punct
+31	21.00	21.00	z	z	_	27	dobj
+32	)	)	fpt	fpt	_	31	punct
+33	desde	desde	sps00	sps00	_	27	prepv
+34	el	el	da0ms0	da0ms0	_	35	det
+35	Palau	Palau	ncfs000	ncfs000	_	33	pobj
+36	de	de	sps00	sps00	_	35	prepn
+37	la	el	da0fs0	da0fs0	_	38	det
+38	Música	Música	ncfs000	ncfs000	_	36	pobj
+39	Catalana	catalán	np00000	np00000	_	38	appos
+40	.	.	fp	fp	_	7	punct

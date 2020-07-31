@@ -1,0 +1,189 @@
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Asociación	asociación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	Mundial	mundial	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	Boxeo	boxeo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+6	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	7	modnomatch	_	_
+7	AMB	amb	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
+8	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	7	modnomatch	_	_
+9	confirmó	confirmar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	disputa	disputa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	mod	_	_
+13	dos	2	Z	Z	matched=no|pos=number	14	spec	_	_
+14	campeonatos	campeonato	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
+15	mundiales	mundial	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	14	mod	_	_
+16	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	17	adjt	_	_
+17	estarán	estar	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	11	mod	_	_
+18	involucrados	involucrar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	17	attr	_	_
+19	dos	2	Z	Z	matched=no|pos=number	20	spec	_	_
+20	púgiles	púgil	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	18	dobj	_	_
+21	venezolanos	venezolano	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	20	mod	_	_
+22	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+23	informó	informar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	9	modnomatch	_	_
+24	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	23	adjt	_	_
+25	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	26	spec	_	_
+26	portavoz	portavoz	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	23	dobj	_	_
+27	oficial	oficial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	26	mod	_	_
+28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	23	punc	_	_
+
+1	Gilberto	gilbert_o	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+2	Jesús	jesús	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+3	Mendoza	mendoza	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+5	Director	director	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+6	Ejecutivo	ejecutivo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
+8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	modnomatch	_	_
+9	AMB	amb	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+11	señaló	señalar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	3	modnomatch	_	_
+12	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	11	adjt	_	_
+13	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+14	EFE	efe	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+15	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	16	subj	_	_
+16	están	estar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	14	mod	_	_
+17	ya	ya	RG	RG	matched=no|pos=adverb|type=general	16	adjt	_	_
+18	confirmados	confirmar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	16	attr	_	_
+19	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	20	spec	_	_
+20	combates	combate	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	18	dobj	_	_
+21	por	por	SP	SP	matched=no|pos=adposition|type=preposition	18	agnt	_	_
+22	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	23	spec	_	_
+23	títulos	título	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	21	comp	_	_
+24	mundiales	mundial	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	23	mod	_	_
+25	en	en	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+26	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	27	spec	_	_
+27	categorías	categoría	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	25	comp	_	_
+28	supergallo	supergallo	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	27	mod	_	_
+29	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+30	supermosca	supermosca	AQ00000	AQ	matched=no|pos=adjective|type=qualificative	29	coor	_	_
+31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	primer	1	AO0MS00	AO	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	combate	combate	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+4	será	ser	VSIF3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=semiauxiliary	0	top	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	próximo_24_de_febrero	[??:24/2/??:??.??:??]	W	W	matched=no|pos=date	4	adjt	_	_
+7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	attr	_	_
+8	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
+9	Vegas	vega	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	comp	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+11	Estados	estado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	22	subj	_	_
+12	Unidos	unir	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	11	mod	_	_
+13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+14	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	15	adjt	_	_
+15	Clarence	clarence	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	11	mod	_	_
+16	Adams	adams	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	15	dobj	_	_
+17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+18	actual	actual	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	19	mod	_	_
+19	titular	titular	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	22	modnomatch	_	_
+20	supergallo	supergallo	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	19	mod	_	_
+21	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	19	punc	_	_
+22	enfrentará	enfrentar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	4	modnomatch	_	_
+23	a	a	SP	SP	matched=no|pos=adposition|type=preposition	22	pobj	_	_
+24	Yober	yober	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	23	comp	_	_
+25	Ortega	ortega	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	dobj	_	_
+26	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	22	punc	_	_
+27	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	28	subj	_	_
+28	ganó	ganar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	22	modnomatch	_	_
+29	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	30	spec	_	_
+30	corona	corona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	28	dobj	_	_
+31	interina	interino	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	30	mod	_	_
+32	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	33	spec	_	_
+33	pasado_23_de_noviembre	[??:23/11/??:??.??:??]	W	W	matched=no|pos=date	28	adjt	_	_
+34	en	en	SP	SP	matched=no|pos=adposition|type=preposition	28	adjt	_	_
+35	Tokio	tokio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	34	comp	_	_
+36	ante	ante	SP	SP	matched=no|pos=adposition|type=preposition	28	adjt	_	_
+37	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	39	spec	_	_
+38	japonés	japonés	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	39	mod	_	_
+39	Kozo	kozo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	36	comp	_	_
+40	Ishii	ishii	RG	RG	matched=no|pos=adverb|type=general	28	adjt	_	_
+41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
+
+1	Por	por	SP	SP	matched=no|pos=adposition|type=preposition	40	adjt	_	_
+2	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	3	spec	_	_
+3	parte	parte	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+6	venezolano	venezolano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	7	mod	_	_
+7	Leo	leo	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	1	comp	_	_
+8	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	1	punc	_	_
+9	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+10	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
+11	Torito	torito	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	1	comp	_	_
+12	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	1	punc	_	_
+13	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+14	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
+15	Gámez	gámez	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	40	subj	_	_
+16	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	15	punc	_	_
+17	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	18	subj	_	_
+18	ganó	ganar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	15	mod	_	_
+19	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	21	spec	_	_
+20	cuarta	4	AO0FS00	AO	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	21	mod	_	_
+21	corona	corona	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	dobj	_	_
+22	mundial	mundial	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	21	mod	_	_
+23	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	18	adjt	_	_
+24	cuatro	4	Z	Z	matched=yes: subj child of top deprel|pos=number	25	spec	_	_
+25	divisiones	división	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	23	comp	_	_
+26	distintas	distinto	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	25	mod	_	_
+27	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	15	punc	_	_
+28	a	a	SP	SP	matched=no|pos=adposition|type=preposition	40	adjt	_	_
+29	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	30	spec	_	_
+30	noquear	noquear	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	28	modnomatch	_	_
+31	a	a	SP	SP	matched=no|pos=adposition|type=preposition	30	adjt	_	_
+32	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	34	spec	_	_
+33	japonés	japonés	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	34	mod	_	_
+34	Hideki	hideki	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	31	comp	_	_
+35	Todaka	todaka	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	34	mod	_	_
+36	en	en	SP	SP	matched=no|pos=adposition|type=preposition	30	adjt	_	_
+37	octubre	[??:??/10/??:??.??:??]	W	W	matched=no|pos=date	36	comp	_	_
+38	pasado	pasar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	30	adjt	_	_
+39	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	28	punc	_	_
+40	tendrá	tener	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
+41	en	en	SP	SP	matched=no|pos=adposition|type=preposition	40	adjt	_	_
+42	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	44	spec	_	_
+43	primera	1	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	44	mod	_	_
+44	defensa	defensa	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	41	comp	_	_
+45	titular	titular	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	44	mod	_	_
+46	de	de	SP	SP	matched=no|pos=adposition|type=preposition	44	mod	_	_
+47	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	48	spec	_	_
+48	supergallos	supergallos	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	46	comp	_	_
+49	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	40	adjt	_	_
+50	rival	rival	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	49	comp	_	_
+51	a	a	SP	SP	matched=no|pos=adposition|type=preposition	40	adjt	_	_
+52	otro	otro	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	53	spec	_	_
+53	japonés	japonés	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	51	comp	_	_
+54	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	40	punc	_	_
+55	Setsuo	setsuo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	56	mod	_	_
+56	Kobayashi	kobayashi	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	40	dobj	_	_
+57	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	56	punc	_	_
+58	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	60	subj	_	_
+59	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	60	iobj	_	_
+60	recibirá	recibir	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	56	mod	_	_
+61	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	62	spec	_	_
+62	3_de_marzo	[??:3/3/??:??.??:??]	W	W	matched=no|pos=date	60	adjt	_	_
+63	en	en	SP	SP	matched=no|pos=adposition|type=preposition	60	adjt	_	_
+64	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	65	spec	_	_
+65	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	63	comp	_	_
+66	japonesa	japonés	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	65	mod	_	_
+67	de	de	SP	SP	matched=no|pos=adposition|type=preposition	65	mod	_	_
+68	Nagoya	nagoya	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	67	comp	_	_
+69	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	56	punc	_	_
+70	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	40	modnomatch	_	_
+71	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	40	punc	_	_
+72	según	según	SP	SP	matched=no|pos=adposition|type=preposition	78	adjt	_	_
+73	portavoces	portavoz	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	72	comp	_	_
+74	de	de	SP	SP	matched=no|pos=adposition|type=preposition	78	adjt	_	_
+75	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	76	spec	_	_
+76	campeón	campeón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	74	comp	_	_
+77	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	74	punc	_	_
+78	recibirá	recibir	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	40	modnomatch	_	_
+79	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	80	spec	_	_
+80	bolsa	bolsa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	78	dobj	_	_
+81	cercana	cercano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	80	mod	_	_
+82	a	a	SP	SP	matched=no|pos=adposition|type=preposition	78	adjt	_	_
+83	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	84	spec	_	_
+84	200.000_dólares	$_USD:200000	Zm	Zm	matched=no|pos=number|type=currency	82	comp	_	_
+85	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	78	punc	_	_
+

@@ -1,0 +1,75 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	Una	uno	di0fs0	di0fs0	_	2	det
+2	caja	caja	ncfs000	ncfs000	_	0	root
+3	de	de	sps00	sps00	_	2	prepn
+4	Pandora	Pandora	np0000p	np0000p	_	3	pobj
+5	en	en	sps00	sps00	_	15	prepv
+6	cuyo	cuyo	pr0ms000	pr0ms000	_	5	det
+7	fondo	fondo	ncms000	ncms000	_	6	dep
+8	,	,	fc	fc	_	15	punct
+9	como	como	cs	cs	_	15	advcl
+10	en	en	sps00	sps00	_	9	cobj
+11	el	el	da0ms0	da0ms0	_	12	det
+12	mito	mito	ncms000	ncms000	_	10	pobj
+13	clásico	clásico	aq0ms0	aq0ms0	_	12	amod
+14	,	,	fc	fc	_	15	punct
+15	queda	quedar	vmip3s0	vmip3s0	_	2	dep
+16	retenida	retenido	aq0fsp	aq0fsp	_	15	cpred
+17	la	el	da0fs0	da0fs0	_	18	det
+18	esperanza	esperanza	ncfs000	ncfs000	_	15	nsubj
+19	una	uno	di0ms0	di0ms0	_	20	det
+20	vez	vez	ncms000	ncms000	_	15	advcl
+21	que	que	pr0cn000	pr0cn000	_	20	nsubj
+22	todos	todo	di0mp0	di0mp0	_	24	det
+23	los	el	da0mp0	da0mp0	_	24	det
+24	males	mal	ncmp000	ncmp000	_	26	nsubj
+25	se	él	p0300000	p0300000	_	27	reflec
+26	han	haber	vaip3p0	vaip3p0	_	21	cobj
+27	derramado	derramar	vmp00sm	vmp00sm	_	26	vobj
+28	sobre	sobre	sps00	sps00	_	27	prepv
+29	la	el	da0fs0	da0fs0	_	30	det
+30	faz	faz	ncfs000	ncfs000	_	28	pobj
+31	de	de	sps00	sps00	_	30	prepn
+32	la	el	da0fs0	da0fs0	_	33	det
+33	tierra	tierra	ncfs000	ncfs000	_	31	pobj
+34	y	y	cc	cc	_	21	cobj
+35	han	haber	vaip3p0	vaip3p0	_	21	cobj
+36	devastado	devastar	vmp00sm	vmp00sm	_	35	vobj
+37	el	el	da0ms0	da0ms0	_	38	det
+38	suelo	suelo	ncms000	ncms000	_	39	coord
+39	y	y	cc	cc	_	36	dobj
+40	el	el	da0ms0	da0ms0	_	41	det
+41	aire	aire	ncms000	ncms000	_	39	coord
+42	.	.	fp	fp	_	2	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	partido	partido	ncms000	ncms000	_	3	nsubj
+3	ha	haber	vaip3s0	vaip3s0	_	9	coord
+4	aplazado	aplazar	vmp00sm	vmp00sm	_	3	vobj
+5	la	el	da0fs0	da0fs0	_	6	det
+6	muerte	muerte	ncfs000	ncfs000	_	4	dobj
+7	del	del	spcms	spcms	_	6	prepn
+8	Madrid	Madrid	np0000l	np0000l	_	7	pobj
+9	y	y	cc	cc	_	0	root
+10	precipitado	precipitar	vmp00sm	vmp00sm	_	9	coord
+11	la	el	da0fs0	da0fs0	_	12	pobj
+12	del	del	spcms	spcms	_	10	prepv
+13	Atleti	Atleti	np0000o	np0000o	_	12	pobj
+14	,	,	fc	fc	_	13	punct
+15	que	que	pr0cn000	pr0cn000	_	16	nsubj
+16	recibe	recibir	vmip3s0	vmip3s0	_	13	rcmod
+17	un	uno	di0ms0	di0ms0	_	18	det
+18	golpe	golpe	ncms000	ncms000	_	16	dobj
+19	deportivo	deportivo	aq0ms0	aq0ms0	_	18	amod
+20	económico	económico	aq0ms0	aq0ms0	_	21	coord
+21	y	y	cc	cc	_	18	prepn
+22	psicológico	psicológico	aq0ms0	aq0ms0	_	21	coord
+23	de	de	sps00	sps00	_	18	prepn
+24	infinita	infinito	aq0fs0	aq0fs0	_	25	amod
+25	crueldad	crueldad	ncfs000	ncfs000	_	23	pobj
+26	.	.	fp	fp	_	9	punct

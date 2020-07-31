@@ -1,0 +1,117 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	titular	titular	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	19	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Juzgado	juzgado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	Central	central	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	Número	número	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	modnomatch	_	_
+8	6	6	Z	Z	matched=no|pos=number	19	modnomatch	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	mod	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	Audiencia	audiencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	Nacional	nacional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
+13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+14	Manuel	manuel	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	15	mod	_	_
+15	García	garcía	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	modnomatch	_	_
+16	Castellón	castellón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	mod	_	_
+17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
+18	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	19	aux	_	_
+19	rebajado	rebajar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+20	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
+21	fianza	fianza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	19	dobj	_	_
+22	de	de	SP	SP	matched=no|pos=adposition|type=preposition	21	mod	_	_
+23	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
+24	alcalde	alcalde	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
+25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+26	Marbella	marbella	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	25	comp	_	_
+27	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	19	modnomatch	_	_
+28	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	27	coor	_	_
+29	de	de	SP	SP	matched=no|pos=adposition|type=preposition	28	mod	_	_
+30	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	31	spec	_	_
+31	Atlético	atlético	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	29	comp	_	_
+32	de	de	SP	SP	matched=no|pos=adposition|type=preposition	28	mod	_	_
+33	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	32	comp	_	_
+34	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	19	punc	_	_
+35	Jesús	jesús	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	modnomatch	_	_
+36	Gil	gil	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	35	mod	_	_
+37	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	35	punc	_	_
+38	a	a	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+39	cien_millones_de_pesetas	$_ESP:100000000	Zm	Zm	matched=no|pos=number|type=currency	38	comp	_	_
+40	por	por	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+41	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	42	spec	_	_
+42	denominado	denominar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	40	comp	_	_
+43	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	19	punc	_	_
+44	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	19	modnomatch	_	_
+45	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	19	punc	_	_
+46	caso	caso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	modnomatch	_	_
+47	Atlético	atlético	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	46	mod	_	_
+48	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	19	punc	_	_
+49	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	19	modnomatch	_	_
+50	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	19	punc	_	_
+51	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	19	punc	_	_
+
+1	Gil	gil	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	entregó	entregar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	pasado_20_de_enero	[??:20/1/??:??.??:??]	W	W	matched=no|pos=date	2	adjt	_	_
+5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	juzgado	juzgado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+8	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
+9	escrituras	escritura	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
+11	unas	uno	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	12	spec	_	_
+12	fincas	finca	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
+14	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	15	spec	_	_
+15	Angeles	angeles	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	13	comp	_	_
+16	San	san	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	17	mod	_	_
+17	Rafael	rafael	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	modnomatch	_	_
+18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+19	para	para	SP	SP	matched=no|pos=adposition|type=preposition	27	coor	_	_
+20	hacer_frente	hacer_frente	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	19	comp	_	_
+21	a	a	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
+22	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	24	spec	_	_
+23	respectivas	respectivo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	24	mod	_	_
+24	fianzas	fianza	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	21	comp	_	_
+25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
+26	125	125	Z	Z	matched=no|pos=number	25	comp	_	_
+27	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+28	de	de	SP	SP	matched=no|pos=adposition|type=preposition	27	coor	_	_
+29	50_millones_de_pesetas	$_ESP:50000000	Zm	Zm	matched=no|pos=number|type=currency	28	comp	_	_
+30	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	modnomatch	_	_
+31	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	32	spec	_	_
+32	juez	juez	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	34	subj	_	_
+33	les	le	PP3CPD0	PP	case=dative|gen=common|matched=no|num=plural|person=3|pos=pronoun|type=personal	34	iobj	_	_
+34	impuso	imponer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	30	comp	_	_
+35	a	a	SP	SP	matched=no|pos=adposition|type=preposition	37	coor	_	_
+36	él	él	PP3MS00	PP	gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	35	comp	_	_
+37	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+38	a	a	SP	SP	matched=no|pos=adposition|type=preposition	37	coor	_	_
+39	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	40	spec	_	_
+40	hijo	hijo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	38	comp	_	_
+41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	magistrado	magistrado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	4	aux	_	_
+4	resuelto	resolver	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+5	modificar	modificar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	dobj	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	resolución	resolución	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
+8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	11	subj	_	_
+11	ordenó	ordenar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	8	comp	_	_
+12	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+13	prisión	prisión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	dobj	_	_
+14	provisional	provisional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	13	mod	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	mod	_	_
+16	Gil	gil	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+17	eludible	eludible	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+18	bajo	bajo	SP	SP	matched=no|pos=adposition|type=preposition	11	pobj	_	_
+19	fianza	fianza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	19	mod	_	_
+21	125_millones_de_pesetas	$_ESP:125000000	Zm	Zm	matched=no|pos=number|type=currency	20	comp	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+

@@ -1,0 +1,50 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	En	en	sps00	sps00	_	32	prepv
+2	homenaje	homenaje	ncms000	ncms000	_	1	pobj
+3	a	a	sps00	sps00	_	2	prepn
+4	McCartney	McCartney	np00000	np00000	_	10	coord
+5	(	(	fpa	fpa	_	6	punct
+6	foto	foto	ncfs000	ncfs000	_	10	coord
+7	)	)	fpt	fpt	_	6	punct
+8	,	,	fc	fc	_	10	punct
+9	Lennon	Lennon	np00000	np00000	_	10	coord
+10	y	y	cc	cc	_	3	pobj
+11	los	el	da0mp0	da0mp0	_	13	det
+12	otros	otro	di0mp0	di0mp0	_	13	det
+13	Beatles	Beatles	np00000	np00000	_	10	coord
+14	,	,	fc	fc	_	31	punct
+15	el	el	da0ms0	da0ms0	_	16	det
+16	Hotel	Hotel	np0000l	np0000l	_	31	nsubj
+17	Cabana	Cabana	np0000l	np0000l	_	16	appos
+18	,	,	fc	fc	_	16	punct
+19	en	en	sps00	sps00	_	16	prepn
+20	Palo	palo	ncms000	ncms000	_	19	pobj
+21	Alto	alto	aq0ms0	aq0ms0	_	20	amod
+22	(	(	fpa	fpa	_	23	punct
+23	California	California	np00000	np00000	_	19	pobj
+24	)	)	fpt	fpt	_	23	punct
+25	,	,	fc	fc	_	16	punct
+26	donde	donde	pr000000	pr000000	_	27	dobj
+27	pernoctaron	pernoctar	vmis3p0	vmis3p0	_	16	rcmod
+28	en	en	sps00	sps00	_	27	prepv
+29	1965	1965	z	z	_	28	pobj
+30	,	,	fc	fc	_	16	punct
+31	ha	haber	vaip3s0	vaip3s0	_	0	root
+32	inaugurado	inaugurar	vmp00sm	vmp00sm	_	31	vobj
+33	una	uno	di0fs0	di0fs0	_	34	det
+34	habitación	habitación	ncfs000	ncfs000	_	32	dobj
+35	especial	especial	aq0cs0	aq0cs0	_	34	amod
+36	,	,	fc	fc	_	34	punct
+37	la	el	da0fs0	da0fs0	_	38	det
+38	810	810	z	z	_	34	num
+39	,	,	fc	fc	_	34	punct
+40	con	con	sps00	sps00	_	34	prepn
+41	recuerdos	recuerdo	ncmp000	ncmp000	_	40	pobj
+42	del	del	spcms	spcms	_	41	prepn
+43	grupo	grupo	ncms000	ncms000	_	42	pobj
+44	.	.	fp	fp	_	31	punct

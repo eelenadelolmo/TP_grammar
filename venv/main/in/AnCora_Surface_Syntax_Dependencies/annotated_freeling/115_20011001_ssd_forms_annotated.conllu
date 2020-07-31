@@ -1,0 +1,42 @@
+1	Unas	uno	DI0FP0	DI	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	3	spec	_	_
+2	400	400	Z	Z	matched=yes: subj child of top deprel|pos=number	3	spec	_	_
+3	personas	persona	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	subj	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+5	ayuntamientos	ayuntamiento	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+7	toda	todo	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	8	spec	_	_
+8	España	españa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	participan	participar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	día_3	[??:3/??/??:??.??:??]	W	W	matched=no|pos=date	10	comp	_	_
+13	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	pobj	_	_
+14	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
+15	5	5	Z	Z	matched=no|pos=number	13	comp	_	_
+16	en	en	SP	SP	matched=no|pos=adposition|type=preposition	9	pobj	_	_
+17	Blanes	blanes	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	16	comp	_	_
+18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	9	pobj	_	_
+19	unas	uno	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	20	spec	_	_
+20	jornadas	jornada	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	18	comp	_	_
+21	para	para	SP	SP	matched=no|pos=adposition|type=preposition	9	pobj	_	_
+22	aplicar	aplicar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	21	comp	_	_
+23	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	25	spec	_	_
+24	nuevas	nuevo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	25	mod	_	_
+25	tecnologías	tecnología	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	22	dobj	_	_
+26	en	en	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
+27	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	28	spec	_	_
+28	Administración	administración	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
+29	local	local	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	28	mod	_	_
+30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	A	a	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+2	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	cita	cita	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	acuden	acudir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+5	16	16	Z	Z	matched=no|pos=number	6	spec	_	_
+6	empresas	empresa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	coor	_	_
+7	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	subj	_	_
+8	39	39	Z	Z	matched=no|pos=number	9	spec	_	_
+9	conferenciantes	conferenciante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	7	coor	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+

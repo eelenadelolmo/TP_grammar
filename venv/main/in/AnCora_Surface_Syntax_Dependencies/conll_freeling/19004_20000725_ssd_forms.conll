@@ -1,0 +1,34 @@
+1  Resultados   resultado   NCMP000 NC pos=noun|type=common|gen=masculine|num=plural              - - (coor-n:2(sn:1(grup-nom-mp:1(n-mp:1))) 2  coor - -
+2  y            y           CC      CC pos=conjunction|type=coordinating                          - - -                                      0  top  - -
+3  estadísticas estadística NCFP000 NC pos=noun|type=common|gen=feminine|num=plural               - - (sn:3(grup-nom-fp:3(n-fp:3))           2  coor - -
+4  de           de          SP      SP pos=adposition|type=preposition                            - - (sp-de:4                               3  mod  - -
+5  la           el          DA0FS0  DA pos=determiner|type=article|gen=feminine|num=singular      - - (sn:6(espec-fs:5(j-fs:5))              6  spec - -
+6  Liga         liga        NCFS000 NC pos=noun|type=common|gen=feminine|num=singular             - - (grup-nom-fs:6(n-fs:6)                 4  comp - -
+7  Americana    americano   AQ0FS00 AQ pos=adjective|type=qualificative|gen=feminine|num=singular - - (s-a-fs:7(a-fs:7)))))                  6  mod  - -
+8  de           de          SP      SP pos=adposition|type=preposition                            - - (sp-de:8                               3  mod  - -
+9  Béisbol      béisbol     NCMS000 NC pos=noun|type=common|gen=masculine|num=singular            - - (sn:9(grup-nom-ms:9(n-ms:9)            8  comp - -
+10 profesional  profesional AQ0CS00 AQ pos=adjective|type=qualificative|gen=common|num=singular   - - (s-a-ms:10(a-ms:10)))))                9  mod  - -
+11 de           de          SP      SP pos=adposition|type=preposition                            - - (sp-de:11                              3  mod  - -
+12 las          el          DA0FP0  DA pos=determiner|type=article|gen=feminine|num=plural        - - (sn:14(espec-fp:12(j-fp:12))           14 spec - -
+13 Grandes      grande      AQ0CP00 AQ pos=adjective|type=qualificative|gen=common|num=plural     - - (grup-nom-fp:14(s-a-fp:13(a-fp:13))    14 mod  - -
+14 Ligas        liga        NCFP000 NC pos=noun|type=common|gen=feminine|num=plural               - - (grup-nom-fp:14(n-fp:14))))))          11 comp - -
+15 .            .           Fp      Fp pos=punctuation|type=period                                - - (F-term:15))                           2  punc - -
+
+1  Los     el      DA0MP0  DA  pos=determiner|type=article|gen=masculine|num=plural                            - - (grup-verb:7(sn:2(espec-mp:1(j-mp:1)) 2  spec       - -
+2  equipos equipo  NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                                   - - (grup-nom-mp:2(n-mp:2)))              7  subj       - -
+3  en      en      SP      SP  pos=adposition|type=preposition                                                 - - (grup-sp:3(prep:3)                    7  adjt       - -
+4  la      el      DA0FS0  DA  pos=determiner|type=article|gen=feminine|num=singular                           - - (sn:6(espec-fs:4(j-fs:4))             6  spec       - -
+5  primera 1       AO0FS00 AO  pos=adjective|type=ordinal|gen=feminine|num=singular                            - - (grup-nom-fs:6(s-a-fs:5(a-fs:5))      6  mod        - -
+6  columna columna NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (grup-nom-fs:6(n-fs:6)))))            3  comp       - -
+7  juegan  jugar   VMIP3P0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=plural            - - (verb:7)                              0  top        - -
+8  como    como    CS      CS  pos=conjunction|type=subordinating                                              - - (grup-sp:8(prep:8)                    7  adjt       - -
+9  locales local   AQ0CP00 AQ  pos=adjective|type=qualificative|gen=common|num=plural                          - - (s-a-mp:9(a-mp:9)))                   8  comp       - -
+10 y       y       CC      CC  pos=conjunction|type=coordinating                                               - - (coor-n:10                            7  dobj       - -
+11 el      el      DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (sn:12(espec-ms:11(j-ms:11))          12 spec       - -
+12 horario horario NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:12(n-ms:12))))           10 coor       - -
+13 es      ser     VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:13(verb:13)                7  modnomatch - -
+14 de      de      SP      SP  pos=adposition|type=preposition                                                 - - (sp-de:14                             13 attr       - -
+15 el      el      DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (sn:16(espec-ms:15(j-ms:15))          16 spec       - -
+16 Este    este    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:16(n-ms:16))))           14 comp       - -
+17 .       .       Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:17)))                         13 punc       - -
+

@@ -1,0 +1,67 @@
+1	EN	en	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
+2	POCO	poco	RG	RG	matched=no|pos=adverb|type=general	1	comp	_	_
+3	MÁS	más	RG	RG	matched=no|pos=adverb|type=general	1	comp	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
+5	UN	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	6	spec	_	_
+6	MES	mes	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+8	entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	1	comp	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	13_de_enero	[??:13/1/??:??.??:??]	W	W	matched=no|pos=date	11	modnomatch	_	_
+11	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	8	comp	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+13	17_de_febrero	[??:17/2/??:??.??:??]	W	W	matched=no|pos=date	11	modnomatch	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+15	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+18	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	1	comp	_	_
+19	Generalitat	generalitat	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	subj	_	_
+20	acudirá	acudir	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
+21	dos	2	Z	Z	matched=no|pos=number	22	spec	_	_
+22	veces	vez	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	20	adjt	_	_
+23	a	a	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
+24	EEUU	eeuu	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
+25	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	20	punc	_	_
+26	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	20	modnomatch	_	_
+27	a	a	SP	SP	matched=no|pos=adposition|type=preposition	20	pobj	_	_
+28	California	california	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	27	comp	_	_
+29	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	20	modnomatch	_	_
+30	otra	otro	PI0FS00	PI	gen=feminine|matched=no|num=singular|pos=pronoun|type=indefinite	29	coor	_	_
+31	a	a	SP	SP	matched=no|pos=adposition|type=preposition	20	pobj	_	_
+32	Nueva	nuevo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	31	comp	_	_
+33	York	york	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	modnomatch	_	_
+34	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	20	punc	_	_
+35	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	20	punc	_	_
+36	así_como	así_como	CC	CC	matched=no|pos=conjunction|type=coordinating	20	pobj	_	_
+37	a	a	SP	SP	matched=no|pos=adposition|type=preposition	36	coor	_	_
+38	Egipto	egipto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	37	comp	_	_
+39	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	20	modnomatch	_	_
+40	Polonia	polonia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	39	coor	_	_
+41	en	en	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
+42	visita	visita	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	41	comp	_	_
+43	oficial	oficial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	42	mod	_	_
+44	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	41	punc	_	_
+
+1	Todos	todo	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+2	estos	este	DD0MP0	DD	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=demonstrative	3	spec	_	_
+3	viajes	viaje	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
+4	estarán	estar	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	0	top	_	_
+5	centrados	centrar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	4	attr	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	coor	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	promoción	promoción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+9	empresarial	empresarial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	coor	_	_
+11	Catalunya	catalunya	RG	RG	matched=no|pos=adverb|type=general	10	comp	_	_
+12	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	pobj	_	_
+13	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	coor	_	_
+14	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	15	spec	_	_
+15	difusión	difusión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+16	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	4	adjt	_	_
+17	destino	destino	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	mod	_	_
+19	inversiones	inversión	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	18	comp	_	_
+20	extranjeras	extranjero	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	19	mod	_	_
+21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+

@@ -1,0 +1,95 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	secretario	secretario	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Defensa	defensa	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+6	EEUU	eeuu	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+8	Donald	donald	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	modnomatch	_	_
+9	Rumsfeld	rumsfeld	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	mod	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+11	criticó	criticar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+12	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	modnomatch	_	_
+13	Irán	ir	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	11	modnomatch	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+15	Siria	sirio	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	13	pred	_	_
+16	e	y	CC	CC	matched=no|pos=conjunction|type=coordinating	13	subj	_	_
+17	Irak	ira_k	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	coor	_	_
+18	por	por	SP	SP	matched=no|pos=adposition|type=preposition	13	pobj	_	_
+19	respaldar	respaldar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	18	comp	_	_
+20	a	a	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+21	terroristas	terrorista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	20	comp	_	_
+22	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	13	modnomatch	_	_
+23	contribuir	contribuir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	22	coor	_	_
+24	a	a	SP	SP	matched=no|pos=adposition|type=preposition	13	pobj	_	_
+25	aumentar	aumentar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	24	comp	_	_
+26	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	27	spec	_	_
+27	violencia	violencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	25	dobj	_	_
+28	en	en	SP	SP	matched=no|pos=adposition|type=preposition	25	adjt	_	_
+29	Oriente	oriente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	28	comp	_	_
+30	Próximo	próximo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	29	mod	_	_
+31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+
+1	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	0	top	_	_
+2	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	modnorule	_	_
+3	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	modnorule	_	_
+4	Estados	estado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	modnorule	_	_
+5	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	4	modnomatch	_	_
+6	Irán	ir	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	5	comp	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+8	Irak	ira_k	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	modnorule	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnorule	_	_
+10	Siria	sirio	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	9	coor	_	_
+11	inspiran	inspirar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	12	coor	_	_
+12	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnorule	_	_
+13	financian	financiar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	12	coor	_	_
+14	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	15	spec	_	_
+15	cultura	cultura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	dobj	_	_
+16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	15	mod	_	_
+17	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
+18	asesinato	asesinato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+19	político	político	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	18	mod	_	_
+20	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	13	modnomatch	_	_
+21	de	de	SP	SP	matched=no|pos=adposition|type=preposition	20	coor	_	_
+22	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	atentado	atentado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
+24	suicida	suicida	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	23	mod	_	_
+25	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	1	modnorule	_	_
+26	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	modnorule	_	_
+27	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	modnorule	_	_
+28	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	modnorule	_	_
+29	declaró	declarar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	modnorule	_	_
+30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	29	punc	_	_
+
+1	Rumsfeld	rumsfeld	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+2	recriminó	recriminar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	21	coor	_	_
+3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+4	Irak	ira_k	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+5	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	6	subj	_	_
+6	ofreciera	ofrecer	VMSI3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	4	mod	_	_
+7	sustanciosas	sustancioso	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	8	mod	_	_
+8	cantidades	cantidad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	dobj	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	mod	_	_
+10	dinero	dinero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+11	a	a	SP	SP	matched=no|pos=adposition|type=preposition	15	subj	_	_
+12	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	13	spec	_	_
+13	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	11	modnomatch	_	_
+14	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	15	aux	_	_
+15	decidido	decidir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	10	mod	_	_
+16	cometer	cometer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	6	modnomatch	_	_
+17	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	18	spec	_	_
+18	atentado	atentado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	dobj	_	_
+19	suicida	suicida	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	18	mod	_	_
+20	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	21	punc	_	_
+21	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+22	no	no	RN	RN	matched=no|pos=adverb|type=negative	23	spec	_	_
+23	hizo	hacer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	21	coor	_	_
+24	comentarios	comentario	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	23	dobj	_	_
+25	sobre	sobre	SP	SP	matched=no|pos=adposition|type=preposition	23	adjt	_	_
+26	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	28	spec	_	_
+27	últimas	último	AO0FP00	AO	gen=feminine|matched=no|num=plural|pos=adjective|type=ordinal	28	mod	_	_
+28	operaciones	operación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	25	comp	_	_
+29	militares	militar	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	28	mod	_	_
+30	israelís	israelí	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	23	pred	_	_
+31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	21	punc	_	_
+

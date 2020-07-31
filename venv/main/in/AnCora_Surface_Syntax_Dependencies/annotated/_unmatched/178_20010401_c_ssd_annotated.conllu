@@ -1,0 +1,22 @@
+1	Auditori	Auditori	np00000	np00000	matched=no	0	root	_	_
+2	.	.	fp	fp	matched=no	1	punct	_	_
+
+1	Sala	salar	np00000	np00000	matched=no	0	root	_	_
+2	Simfònica	Simfònica	np00000	np00000	matched=no	1	appos	_	_
+3	Lepant	Lepant	np00000	np00000	matched=no	2	appos	_	_
+4	150	150	z	z	matched=no	3	num	_	_
+5	.	.	fp	fp	matched=no	1	punct	_	_
+
+1	Horario	horario	ncms000	ncms000	matched=no	0	root	_	_
+2	:	:	fd	fd	matched=no	4	punct	_	_
+3	11.00	11.00	z	z	matched=no	4	dep	_	_
+4	horas	hora	ncfp000	ncfp000	matched=no	1	appos	_	_
+5	.	.	fp	fp	matched=no	1	punct	_	_
+
+1	De	de	sps00	sps00	matched=no	0	root	_	_
+2	1.100	1100	z	z	matched=no	1	pobj	_	_
+3	a	a	sps00	sps00	matched=no	2	prep	_	_
+4	6.950	6950	z	z	matched=no	5	num	_	_
+5	pesetas	peseta	zm	zm	matched=no	3	pobj	_	_
+6	.	.	fp	fp	matched=no	1	punct	_	_
+

@@ -1,0 +1,14 @@
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	males	mal	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
+3	blancos	blanco	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+4	serían	ser	VSIC3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=conditional|type=semiauxiliary	0	top	_	_
+5	menores	menor	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	4	attr	_	_
+6	si	si	CS	CS	matched=no|pos=conjunction|type=subordinating	4	modnomatch	_	_
+7	fueran	ser	VSSI3P0	VSS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=imperfect|type=semiauxiliary	8	aux	_	_
+8	acompañados	acompañar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	4	modnomatch	_	_
+9	por	por	SP	SP	matched=no|pos=adposition|type=preposition	8	agnt	_	_
+10	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	11	spec	_	_
+11	fracaso	fracaso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	azulgrana	azulgrana	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+

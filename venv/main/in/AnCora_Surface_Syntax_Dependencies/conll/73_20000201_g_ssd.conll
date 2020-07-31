@@ -1,0 +1,84 @@
+# AnCora Surface Syntax Dependencies
+# 2015 - v1.1
+# format: CoNLL 2006 - http://www.aclweb.org/anthology/D07-1096)
+# UPF (GLiCom)
+# ID  FORM    LEMMA CPOS   POS  FEAT    HEAD  DEPREL
+
+1	Rescatados	rescatar	vmp00pm	vmp00pm	_	0	root
+2	16	16	z	z	_	3	num
+3	marineros	marinero	ncmp000	ncmp000	_	1	nsubj
+4	españoles	español	aq0mp0	aq0mp0	_	3	amod
+5	de	de	sps00	sps00	_	1	prepv
+6	un	uno	di0ms0	di0ms0	_	7	det
+7	pesquero	pesquero	ncms000	ncms000	_	5	pobj
+8	incendiado	incendiado	aq0msp	aq0msp	_	7	amod
+9	en	en	sps00	sps00	_	8	prepa
+10	Irlanda	Irlanda	np00000	np00000	_	9	pobj
+11	.	.	fp	fp	_	1	punct
+
+1	El	el	da0ms0	da0ms0	_	2	det
+2	suceso	suceso	ncms000	ncms000	_	4	nsubj
+3	se	él	p0300000	p0300000	_	4	reflec
+4	produjo	producir	vmis3s0	vmis3s0	_	0	root
+5	ayer	ayer	rg	rg	_	4	advmod
+6	a	a	sps00	sps00	_	4	prepv
+7	150	150	z	z	_	8	num
+8	millas	milla	ncfp000	ncfp000	_	6	pobj
+9	de	de	sps00	sps00	_	8	prepn
+10	la	el	da0fs0	da0fs0	_	11	det
+11	costa	costa	ncfs000	ncfs000	_	9	pobj
+12	del	del	spcms	spcms	_	11	prepn
+13	sur	sur	ncms000	ncms000	_	12	pobj
+14	de	de	sps00	sps00	_	13	prepn
+15	Irlanda	Irlanda	np00000	np00000	_	14	pobj
+16	.	.	fp	fp	_	4	punct
+
+1	La	el	da0fs0	da0fs0	_	2	det
+2	tripulación	tripulación	ncfs000	ncfs000	_	3	nsubj
+3	lanzó	lanzar	vmis3s0	vmis3s0	_	9	coord
+4	tres	tres	dn0cp0	dn0cp0	_	5	det
+5	botes	bote	ncmp000	ncmp000	_	3	dobj
+6	salvavidas	salvavidas	ncmn000	ncmn000	_	5	appos
+7	al	al	spcms	spcms	_	3	prepv
+8	agua	agua	ncfs000	ncfs000	_	7	pobj
+9	y	y	cc	cc	_	0	root
+10	abandonó	abandonar	vmis3s0	vmis3s0	_	9	coord
+11	el	el	da0ms0	da0ms0	_	12	det
+12	barco	barco	ncms000	ncms000	_	10	dobj
+13	,	,	fc	fc	_	12	punct
+14	el	el	da0ms0	da0ms0	_	15	det
+15	Milford	Milford	np00000	np00000	_	12	appos
+16	Eagle	eagle	ncms000	ncms000	_	15	appos
+17	,	,	fc	fc	_	12	punct
+18	con	con	sps00	sps00	_	12	prepn
+19	base	base	nccs000	nccs000	_	18	pobj
+20	en	en	sps00	sps00	_	19	prepn
+21	el	el	da0ms0	da0ms0	_	22	det
+22	puerto	puerto	ncms000	ncms000	_	20	pobj
+23	de	de	sps00	sps00	_	22	prepn
+24	Milford	Milford	np0000l	np0000l	_	23	pobj
+25	Haven	Haven	np0000l	np0000l	_	24	appos
+26	.	.	fp	fp	_	9	punct
+
+1	Los	el	da0mp0	da0mp0	_	2	det
+2	marinos	marino	ncmp000	ncmp000	_	20	nsubj
+3	-	-	fg	fg	_	2	punct
+4	-	-	fg	fg	_	2	punct
+5	en	en	sps00	sps00	_	2	prepn
+6	la	el	da0fs0	da0fs0	_	7	det
+7	foto	foto	ncfs000	ncfs000	_	5	pobj
+8	,	,	fc	fc	_	2	punct
+9	a	a	sps00	sps00	_	2	prepn
+10	su	su	dp3cs0	dp3cs0	_	11	poss
+11	llegada	llegada	ncfs000	ncfs000	_	9	pobj
+12	a	a	sps00	sps00	_	11	prepn
+13	la	el	da0fs0	da0fs0	_	14	det
+14	ciudad	ciudad	ncfs000	ncfs000	_	12	pobj
+15	de	de	sps00	sps00	_	14	prepn
+16	Shannon	Shannon	np00000	np00000	_	15	pobj
+17	-	-	fg	fg	_	2	punct
+18	-	-	fg	fg	_	2	punct
+19	no	no	rn	rn	_	20	neg
+20	sufrieron	sufrir	vmis3p0	vmis3p0	_	0	root
+21	heridas	herida	ncfp000	ncfp000	_	20	dobj
+22	.	.	fp	fp	_	20	punct

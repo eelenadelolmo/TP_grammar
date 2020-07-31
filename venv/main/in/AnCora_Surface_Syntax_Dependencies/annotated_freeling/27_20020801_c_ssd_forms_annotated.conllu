@@ -1,0 +1,324 @@
+1	14_horas	TM_h:14	Zu	Zu	matched=yes: subj child of top deprel|pos=number|type=unit	8	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	espera	espera	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	comp	_	_
+4	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	aeropuerto	aeropuerto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	modnomatch	_	_
+8	Maó	maó	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	desventuras	desventura	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	15	subj	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	11	subj	_	_
+4	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	5	spec	_	_
+5	pasajero	pasajero	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	modnomatch	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	Turbocat	turbocat	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	5	punc	_	_
+10	Joel	joel	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	11	modnomatch	_	_
+11	Manrique	manrique	VMSP3S0	VMS	matched=yes: subj child of top deprel|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	2	mod	_	_
+12	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+13	comenzó	comenzar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	15	prt	_	_
+14	a	a	SP	SP	matched=no|pos=adposition|type=preposition	15	prt	_	_
+15	narrar	narrar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
+16	a	a	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
+17	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	18	spec	_	_
+18	diario	diario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	pasado_Martes	[M:??/??/??:??.??:??]	W	W	matched=no|pos=date	15	adjt	_	_
+21	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	22	mphes	_	_
+22	convirtieron	convertir	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	15	modnomatch	_	_
+23	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	22	adjt	_	_
+24	en	en	SP	SP	matched=no|pos=adposition|type=preposition	22	pobj	_	_
+25	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	26	spec	_	_
+26	odisea	odisea	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
+
+1	Su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	colofón	colofón	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	fueron	ser	VSIS3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+4	14_horas	TM_h:14	Zu	Zu	matched=no|pos=number|type=unit	3	attr	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
+6	espera	espera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
+9	aeropuerto	aeropuerto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
+11	Maó	maó	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	3	modnomatch	_	_
+12	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	13	modnomatch	_	_
+13	Menorca	menorca	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	dobj	_	_
+14	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	13	modnomatch	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	Este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	barcelonés	barcelonés	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	coor	_	_
+3	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+4	dos	2	Z	Z	matched=no|pos=number	5	spec	_	_
+5	amigos	amigo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	coor	_	_
+6	suyos	suyo	AP0MP3N	AP	gen=masculine|matched=no|num=plural|pos=adjective|possessornum=invariable|possessorpers=3|type=possessive	3	modnomatch	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+8	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	10	subj	_	_
+9	habían	haber	VAII3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=auxiliary	10	aux	_	_
+10	llegado	llegar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	18	subj	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	pasado_viernes	[V:??/??/??:??.??:??]	W	W	matched=no|pos=date	10	adjt	_	_
+13	a	a	SP	SP	matched=no|pos=adposition|type=preposition	10	pobj	_	_
+14	Ciutadella	ciutadella	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+16	no	no	RN	RN	matched=no|pos=adverb|type=negative	18	spec	_	_
+17	pudieron	poder	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	18	prt	_	_
+18	regresar	regresar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	3	modnomatch	_	_
+19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	martes	[M:??/??/??:??.??:??]	W	W	matched=no|pos=date	18	adjt	_	_
+21	a_causa_de	a_causa_de	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+22	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	avería	avería	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
+24	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	18	dobj	_	_
+25	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	26	spec	_	_
+26	anulación	anulación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	coor	_	_
+27	de	de	SP	SP	matched=no|pos=adposition|type=preposition	26	mod	_	_
+28	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	29	spec	_	_
+29	servicio	servicio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	27	comp	_	_
+30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	18	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	compañía	compañía	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	no	no	RN	RN	matched=no|pos=adverb|type=negative	4	spec	_	_
+4	logró	lograr	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+5	reubicarlos	reubicarlos	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	dobj	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+7	otro	otro	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	8	spec	_	_
+8	transporte	transporte	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	martes	[M:??/??/??:??.??:??]	W	W	matched=no|pos=date	4	adjt	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+12	por	por	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+13	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	16	subj	_	_
+15	los	lo	PP3MPA0	PP	case=accusative|gen=masculine|matched=no|num=plural|person=3|pos=pronoun|type=personal	16	dobj	_	_
+16	citó	citar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	12	comp	_	_
+17	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	16	adjt	_	_
+18	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	4	punc	_	_
+19	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	4	punc	_	_
+20	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	modnomatch	_	_
+21	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	4	modnomatch	_	_
+22	cinco_de_la_mañana	[??:??/??/??:5.00:am]	W	W	matched=no|pos=date	4	adjt	_	_
+23	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	4	punc	_	_
+24	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	4	punc	_	_
+25	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+26	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	27	spec	_	_
+27	puerto	puerto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	25	comp	_	_
+28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
+
+1	Desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+2	allí	allí	RG	RG	matched=no|pos=adverb|type=general	1	comp	_	_
+3	les	le	PP3CPD0	PP	case=dative|gen=common|matched=no|num=plural|person=3|pos=pronoun|type=personal	4	iobj	_	_
+4	llevaron	llevar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+6	junto_a	junto_a	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+7	otros	otro	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	10	spec	_	_
+8	45	45	Z	Z	matched=no|pos=number	10	spec	_	_
+9	sufridos	sufrir	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	10	mod	_	_
+10	pasajeros	pasajero	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+12	hasta	hasta	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	aeropuerto	aeropuerto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	modnomatch	_	_
+16	Maó	maó	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	4	modnomatch	_	_
+17	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	4	punc	_	_
+18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
+20	otro	otro	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	21	spec	_	_
+21	extremo	extremo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+22	de	de	SP	SP	matched=no|pos=adposition|type=preposition	21	mod	_	_
+23	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
+24	isla	isla	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
+25	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	4	punc	_	_
+26	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+27	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	28	adjt	_	_
+28	supieron	saber	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	4	modnomatch	_	_
+29	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	4	punc	_	_
+30	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	4	punc	_	_
+31	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+32	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	33	spec	_	_
+33	seis	6	Z	Z	matched=no|pos=number	31	comp	_	_
+34	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	4	punc	_	_
+35	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	4	punc	_	_
+36	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	38	subj	_	_
+37	no	no	RN	RN	matched=no|pos=adverb|type=negative	38	spec	_	_
+38	tendrían	tener	VMIC3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=conditional|type=main	4	modnomatch	_	_
+39	billete	billete	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	38	dobj	_	_
+40	para	para	SP	SP	matched=no|pos=adposition|type=preposition	38	adjt	_	_
+41	viajar	viajar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	40	comp	_	_
+42	por	por	SP	SP	matched=no|pos=adposition|type=preposition	41	adjt	_	_
+43	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	44	spec	_	_
+44	mañana	mañana	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	42	comp	_	_
+45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	38	punc	_	_
+
+1	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	0	top	_	_
+2	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	modnorule	_	_
+3	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	modnorule	_	_
+4	Nos	nos	PP1CP00	PP	gen=common|matched=no|num=plural|person=1|pos=pronoun|type=personal	8	mphes	_	_
+5	hemos	haber	VAIP1P0	VAI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=auxiliary	8	aux	_	_
+6	tenido	tener	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	8	prt	_	_
+7	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	8	prt	_	_
+8	levantar	levantar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	modnorule	_	_
+9	a	a	SP	SP	matched=no|pos=adposition|type=preposition	1	modnorule	_	_
+10	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	1	modnorule	_	_
+11	cuatro_de_la_mañana	[??:??/??/??:4.00:am]	W	W	matched=no|pos=date	1	modnorule	_	_
+12	para	para	SP	SP	matched=no|pos=adposition|type=preposition	1	modnorule	_	_
+13	nada	nada	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	12	comp	_	_
+14	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	1	modnorule	_	_
+15	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	modnorule	_	_
+16	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	modnorule	_	_
+17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	modnorule	_	_
+18	lamentaba	lamentar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	1	modnorule	_	_
+19	agotado	agotar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	18	adjt	_	_
+20	a_mediodía	a_mediodía	RG	RG	matched=no|pos=adverb|type=general	18	adjt	_	_
+21	Joel	joel	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	18	dobj	_	_
+22	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	18	punc	_	_
+23	tras	tras	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+24	haber	haber	VAN0000	VAN	matched=no|mood=infinitive|pos=verb|type=auxiliary	25	aux	_	_
+25	dormido	dormir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	23	comp	_	_
+26	en	en	SP	SP	matched=no|pos=adposition|type=preposition	25	adjt	_	_
+27	asientos	asiento	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	26	comp	_	_
+28	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	18	modnomatch	_	_
+29	lavabos	lavabo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	28	coor	_	_
+30	de	de	SP	SP	matched=no|pos=adposition|type=preposition	29	mod	_	_
+31	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	32	spec	_	_
+32	aeropuerto	aeropuerto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	30	comp	_	_
+33	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	18	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+2	única	único	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	persona	persona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+5	Turbocat	turbocat	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+6	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	8	subj	_	_
+7	les	le	PP3CPD0	PP	case=dative|gen=common|matched=no|num=plural|person=3|pos=pronoun|type=personal	8	iobj	_	_
+8	atendió	atender	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	3	mod	_	_
+9	no	no	RN	RN	matched=no|pos=adverb|type=negative	10	spec	_	_
+10	tenía	tener	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	13	coor	_	_
+11	capacidad	capacidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	dobj	_	_
+12	decisoria	decisorio	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
+13	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+14	esperaba	esperar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	13	coor	_	_
+15	unas	uno	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	16	spec	_	_
+16	órdenes	orden	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	14	dobj	_	_
+17	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	19	subj	_	_
+18	nunca	nunca	RG	RG	matched=no|pos=adverb|type=general	19	adjt	_	_
+19	llegaron	llegar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	16	mod	_	_
+20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+
+1	Finalmente	final_mente	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+3	tramitó	tramitar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+5	todo	todo	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	6	spec	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	grupo	grupo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+8	unos	uno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	9	spec	_	_
+9	billetes	billete	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	dobj	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
+11	avión	avión	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+12	para	para	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+13	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	14	spec	_	_
+14	18.15_horas	TM_h:18.15	Zu	Zu	matched=no|pos=number|type=unit	12	comp	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+16	con	con	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+17	Spanair	spanair	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	16	comp	_	_
+18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Tras	tras	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+2	12_horas	TM_h:12	Zu	Zu	matched=no|pos=number|type=unit	1	comp	_	_
+3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
+4	espera	espera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	grupo	grupo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+8	tuvo	tener	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+9	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	11	spec	_	_
+10	nuevo	nuevo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
+11	sobresalto	sobresalto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
+12	:	:	Fd	Fd	matched=no|pos=punctuation|type=colon	8	punc	_	_
+13	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	14	spec	_	_
+14	retraso	retraso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	mod	_	_
+16	dos	2	Z	Z	matched=no|pos=number	17	spec	_	_
+17	horas	hora	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	15	comp	_	_
+18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	avión	avión	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+21	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	8	modnomatch	_	_
+22	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	temor	temor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	coor	_	_
+24	a	a	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+25	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	26	spec	_	_
+26	overbooking	overbooking	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
+
+1	A	a	SP	SP	matched=no|pos=adposition|type=preposition	0	top	_	_
+2	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	1	modnorule	_	_
+3	ocho_de_la_tarde	[??:??/??/??:8.00:pm]	W	W	matched=no|pos=date	4	adjt	_	_
+4	lograron	lograr	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	1	modnorule	_	_
+5	volar	volar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	dobj	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+7	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	modnomatch	_	_
+8	antes_de	antes_de	SP	SP	matched=no|pos=adposition|type=preposition	7	coor	_	_
+9	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	10	spec	_	_
+10	nueve	9	Z	Z	matched=no|pos=number	8	comp	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+12	anoche	anoche	RG	RG	matched=no|pos=adverb|type=general	11	comp	_	_
+13	estaban	estar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	1	modnorule	_	_
+14	en	en	SP	SP	matched=no|pos=adposition|type=preposition	13	pobj	_	_
+15	Barcelona	barcelona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	desastre	desastre	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Turbocat	turbocat	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	supuso	suponer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+7	Joel	joel	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	6	comp	_	_
+8	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	dobj	_	_
+9	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	11	spec	_	_
+10	dos	2	Z	Z	matched=no|pos=number	11	spec	_	_
+11	amigos	amigo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	coor	_	_
+12	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	5	punc	_	_
+13	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	5	modnomatch	_	_
+14	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	5	punc	_	_
+15	29_horas	TM_h:29	Zu	Zu	matched=no|pos=number|type=unit	5	modnomatch	_	_
+16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	15	mod	_	_
+17	retraso	retraso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
+19	perder	perder	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	24	coor	_	_
+20	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	21	spec	_	_
+21	día	día	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	adjt	_	_
+22	de	de	SP	SP	matched=no|pos=adposition|type=preposition	21	mod	_	_
+23	trabajo	trabajo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
+24	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_
+25	gastar	gastar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	24	coor	_	_
+26	más	más	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
+27	de	de	SP	SP	matched=no|pos=adposition|type=preposition	26	modnomatch	_	_
+28	300_euros	$_ECU:300	Zm	Zm	matched=no|pos=number|type=currency	26	modnomatch	_	_
+29	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	5	punc	_	_
+30	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	5	modnomatch	_	_
+31	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	5	punc	_	_
+32	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	5	punc	_	_
+33	50.000_pesetas	$_ESP:50000	Zm	Zm	matched=no|pos=number|type=currency	5	modnomatch	_	_
+34	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	33	punc	_	_
+35	entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+36	hotel	hotel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	35	comp	_	_
+37	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	35	modnomatch	_	_
+38	manutención	manutención	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	35	comp	_	_
+39	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	5	punc	_	_
+40	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	43	subj	_	_
+41	nadie	nadie	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	43	modnomatch	_	_
+42	les	le	PP3CPD0	PP	case=dative|gen=common|matched=no|num=plural|person=3|pos=pronoun|type=personal	43	iobj	_	_
+43	abonará	abonar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	5	modnomatch	_	_
+44	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	43	punc	_	_
+

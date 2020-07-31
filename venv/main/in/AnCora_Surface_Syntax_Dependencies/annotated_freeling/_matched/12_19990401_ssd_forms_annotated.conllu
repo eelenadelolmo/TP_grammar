@@ -1,0 +1,36 @@
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	guerristas	guerristas	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
+3	no	no	RN	RN	matched=no|pos=adverb|type=negative	6	spec	_	_
+4	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	6	mphes	_	_
+5	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	6	dobj	_	_
+6	perdonan	perdonar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+8	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	6	modnomatch	_	_
+9	él	él	PP3MS00	PP	gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	8	coor	_	_
+10	cuida	cuidar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	6	modnomatch	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+12	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	11	comp	_	_
+13	no	no	RN	RN	matched=no|pos=adverb|type=negative	14	spec	_	_
+14	galleen	gallear	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	12	comp	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+16	nuevo	nuevo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	15	comp	_	_
+17	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	6	punc	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	31	adjt	_	_
+19	ahí	ahí	RG	RG	matched=no|pos=adverb|type=general	18	comp	_	_
+20	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	31	subj	_	_
+21	Joan	joan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	20	comp	_	_
+22	Lerma	lerma	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	dobj	_	_
+23	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	20	punc	_	_
+24	autoconvencido	autoconvencido	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	31	attr	_	_
+25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	24	adjt	_	_
+26	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	25	comp	_	_
+27	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	26	comp	_	_
+28	imprescindible	imprescindible	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	27	attr	_	_
+29	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	24	punc	_	_
+30	ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	31	adjt	_	_
+31	esté	estar	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	6	modnomatch	_	_
+32	en	en	SP	SP	matched=no|pos=adposition|type=preposition	31	pobj	_	_
+33	vía	vía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	32	comp	_	_
+34	muerta	morir	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	33	mod	_	_
+35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	31	punc	_	_
+
