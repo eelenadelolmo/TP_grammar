@@ -1,0 +1,34 @@
+1	Esperar	esperar	vmn0000	vmn0000	matched=no	0	root
+2	en	en	sps00	sps00	matched=no	1	prepv
+3	el	el	da0ms0	da0ms0	matched=no	4	det
+4	CAP	CAP	np00000	np00000	matched=no	2	pobj
+5	.	.	fp	fp	matched=no	1	punct
+
+1	Está	estar	vmip3s0	vmip3s0	matched=no	0	root
+2	prevista	previsto	aq0fsp	aq0fsp	matched=no	1	attr
+3	su	su	dp3cs0	dp3cs0	matched=no	4	poss
+4	reforma	reforma	ncfs000	ncfs000	matched=no	1	nsubj
+5	,	,	fc	fc	matched=no	1	punct
+6	por	por	sps00	sps00	matched=no	1	prepv
+7	lo	el	da0ns0	da0ns0	matched=no	8	det
+8	que	que	pr0cn000	pr0cn000	matched=no	9	dobj
+9	esperamos	esperar	vmip1p0	vmip1p0	matched=no	6	rcmod
+10	poder	poder	vmn0000	vmn0000	matched=no	9	dobj
+11	ofrecer	ofrecer	vmn0000	vmn0000	matched=no	10	cobj
+12	nuestros	nuestro	dp1mpp	dp1mpp	matched=no	13	poss
+13	servicios	servicio	ncmp000	ncmp000	matched=no	11	dobj
+14	en	en	sps00	sps00	matched=no	11	prepv
+15	un	uno	di0ms0	di0ms0	matched=no	16	det
+16	centro	centro	ncms000	ncms000	matched=no	14	pobj
+17	estructuralmente	estructuralmente	rg	rg	matched=no	18	advmod
+18	más	más	rg	rg	matched=no	19	advmod
+19	amplio	amplio	aq0ms0	aq0ms0	matched=no	20	coord
+20	y	y	cc	cc	matched=no	16	dep
+21	con	con	sps00	sps00	matched=no	20	coord
+22	una	uno	di0fs0	di0fs0	matched=no	23	det
+23	atención	atención	ncfs000	ncfs000	matched=no	21	pobj
+24	más	más	rg	rg	matched=no	25	advmod
+25	íntegra	íntegro	aq0fs0	aq0fs0	matched=no	23	amod
+26	.	.	fp	fp	matched=no	1	punct
+
+

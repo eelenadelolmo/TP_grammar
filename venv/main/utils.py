@@ -93,6 +93,7 @@ def annotator_recursive(conllu_file):
     sentences = parse(input.read())
     resultado = ""
 
+
     for sentence in sentences:
 
         while "recursive=yes" in sentence.serialize():

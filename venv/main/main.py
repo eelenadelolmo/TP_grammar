@@ -1,6 +1,7 @@
 from utils import order_graphs, disorder_graphs, to_conllu, annotator_recursive
 from conllu import parse
 import grew
+import os
 
 # Install Grew and its requirements, and the Grew package must be loaded for the project. Installation nstructions can be found here: http://grew.fr/install/
 # conll must also be installed (via pip for example) and the package must be loaded for the project
@@ -8,27 +9,6 @@ import grew
 
 ## Start Grew tool after importing the library
 grew.init()
-
-
-## Transforming a conllu file into a list of the strings of its sentences
-
-# Input conllu formatted file
-conllu_file = 'in/AnCora_Surface_Syntax_Dependencies/conllu/1_20000702_ssd.conllu'
-
-# Temporary file with the text of each sentence
-tmp_file = 'out/tmp_sentence.txt'
-
-graphs = list()
-input = open(conllu_file, "r", encoding="utf-8")
-sentences = parse(input.read())
-
-# Appending every sentence to the graph list object
-for sentence in sentences:
-    tmp_nf = open(tmp_file, 'w')
-    tmp_nf.write(sentence.serialize())
-    tmp_nf.close()
-    graph = grew.graph(tmp_file)
-    graphs.append(graph)
 
 
 ## Loading a Grew grs (Graph Rewriting System)
@@ -87,23 +67,52 @@ rule probando_varios_recursive {
 }
 """
 
-## Transforming the Graph object into an ordered one in order to use preceding constrains in rules
-ordered_graphs = order_graphs(graphs)
-output_graphs = list()
 
-# Appending the unordered output of the GRS application to every ordered Grew graph sentence
-for g in ordered_graphs:
-    output_graphs.extend(grew.run(rs, g, "S1"))
-unordered_graphs = disorder_graphs(output_graphs)
+## Transforming a conllu file into a list of the strings of its sentences
 
-path_to_output_conllu = 'out/output.conllu'
-path_to_output_conllu_recursive = 'out/output_recursive.conllu'
+# Temporary file with the text of each sentence
+tmp_file = 'out/tmp_sentence.txt'
 
-# Conllu transformation of the GRS output unordered graph
-with open(path_to_output_conllu, "w") as output:
-    for e in unordered_graphs:
-        output.write(to_conllu(e) + '\n')
+# Input directory
+inputdir = 'in/AnCora_Surface_Syntax_Dependencies/conllu'
+directory = os.listdir(inputdir)
 
-# Recursive subtree annotation for recursive=yes featured nodes
-with open(path_to_output_conllu_recursive, "w") as output:
-    output.write(annotator_recursive(path_to_output_conllu) + '\n')
+for f in directory:
+    if f.endswith(".conllu"):
+        f_noExt = f[:-7]
+
+    input = open(inputdir + '/' + f, "r", encoding="utf-8")
+    sentences = parse(input.read())
+    graphs = list()
+    print(f)
+
+    # Appending every sentence to the graph list object
+    for sentence in sentences:
+        tmp_nf = open(tmp_file, 'w')
+        tmp_nf.write(sentence.serialize())
+        tmp_nf.close()
+        graph = grew.graph(tmp_file)
+        graphs.append(graph)
+
+
+
+    ## Transforming the Graph object into an ordered one in order to use preceding constrains in rules
+    ordered_graphs = order_graphs(graphs)
+    output_graphs = list()
+
+    # Appending the unordered output of the GRS application to every ordered Grew graph sentence
+    for g in ordered_graphs:
+        output_graphs.extend(grew.run(rs, g, "S1"))
+    unordered_graphs = disorder_graphs(output_graphs)
+
+    path_to_output_conllu = 'out/' + f_noExt + '_annotated.conllu'
+    path_to_output_conllu_recursive =  'out/' + f_noExt + '_annotated_recursive.conllu'
+
+    # Conllu transformation of the GRS output unordered graph
+    with open(path_to_output_conllu, "w") as output:
+        for e in unordered_graphs:
+            output.write(to_conllu(e) + '\n')
+
+    # Recursive subtree annotation for recursive=yes featured nodes
+    with open(path_to_output_conllu_recursive, "w") as output:
+        output.write(annotator_recursive(path_to_output_conllu) + '\n')

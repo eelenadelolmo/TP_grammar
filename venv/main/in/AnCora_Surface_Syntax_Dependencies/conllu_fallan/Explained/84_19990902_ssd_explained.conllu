@@ -1,0 +1,45 @@
+1	El	el	da0ms0	da0ms0	matched=no|recursive=no	2	det	_	_
+2	presidente	presidente	ncms000	ncms000	matched=no|recursive=no	6	nsubj	_	_
+3	de	de	sps00	sps00	matched=no|recursive=no	2	prepn	_	_
+4	la	el	da0fs0	da0fs0	matched=no|recursive=no	5	det	_	_
+5	Generalitat	Generalitat	np00000	np00000	matched=no|recursive=no	3	pobj	_	_
+6	añadió	añadir	vmis3s0	vmis3s0	matched=no|recursive=no	0	root	_	_
+7	que	que	cs	cs	matched=no|recursive=no	6	dobj	_	_
+8	el	el	da0ms0	da0ms0	matched=no|recursive=no	9	det	_	_
+9	importe	importe	ncms000	ncms000	matched=no|recursive=no	14	nsubj	_	_
+10	de	de	sps00	sps00	matched=no|recursive=no	9	prepn	_	_
+11	la	el	da0fs0	da0fs0	matched=no|recursive=no	12	det	_	_
+12	ayuda	ayuda	ncfs000	ncfs000	matched=no|recursive=no	10	pobj	_	_
+13	no	no	rn	rn	matched=no|recursive=no	14	neg	_	_
+14	debe	deber	vmip3s0	vmip3s0	matched=no|recursive=no	25	cobj	_	_
+15	de	de	sps00	sps00	matched=no|recursive=no	14	prepv	_	_
+16	ser	ser	vsn0000	vsn0000	matched=no|recursive=no	14	dobj	_	_
+17	tan	tanto	rg	rg	matched=no|recursive=no	18	advmod	_	_
+18	irrisorio	irrisorio	aq0ms0	aq0ms0	matched=no|recursive=no	14	cpred	_	_
+19	como	como	cs	cs	matched=no|recursive=no	18	dep	_	_
+20	algunos	alguno	pi0mp000	pi0mp000	matched=no|recursive=no	22	nsubj	_	_
+21	lo	él	pp3msa00	pp3msa00	matched=no|recursive=no	23	dobj	_	_
+22	han	haber	vaip3p0	vaip3p0	matched=no|recursive=no	19	cobj	_	_
+23	presentado	presentar	vmp00sm	vmp00sm	matched=no|recursive=no	22	vobj	_	_
+24	&quot;	&quot;	fe	fe	matched=no|recursive=no	30	punct	_	_
+25	cuando	cuando	cs	cs	matched=no|recursive=no	30	coord	_	_
+26	ha	haber	vaip3s0	vaip3s0	matched=no|recursive=no	25	cobj	_	_
+27	levantado	levantar	vmp00sm	vmp00sm	matched=no|recursive=no	26	vobj	_	_
+28	tanta	tanto	di0fs0	di0fs0	matched=no|recursive=no	29	det	_	_
+29	polémica	polémica	ncfs000	ncfs000	matched=no|recursive=no	27	dobj	_	_
+30	e	e	cc	cc	matched=no|recursive=no	22	cobj	_	_
+31	incluso	incluso	rg	rg	matched=no|recursive=no	32	advmod	_	_
+32	será	ser	vsif3s0	vsif3s0	matched=no|recursive=no	30	coord	_	_
+33	objeto	objeto	ncms000	ncms000	matched=no|recursive=no	32	attr	_	_
+34	de	de	sps00	sps00	matched=no|recursive=no	33	prepn	_	_
+35	un	uno	di0ms0	di0ms0	matched=no|recursive=no	36	det	_	_
+36	recurso	recurso	ncms000	ncms000	matched=no|recursive=no	34	pobj	_	_
+37	ante	ante	sps00	sps00	matched=no|recursive=no	36	prepn	_	_
+38	el	el	da0ms0	da0ms0	matched=no|recursive=no	39	det	_	_
+39	Tribunal	tribunal	ncms000	ncms000	matched=no|recursive=no	37	pobj	_	_
+40	Constitucional	constitucional	aq0ms0	aq0ms0	matched=no|recursive=no	39	amod	_	_
+41	&quot;	&quot;	fe	fe	matched=no|recursive=no	30	punct	_	_
+42	.	.	fp	fp	matched=no|recursive=no	6	punct	_	_
+
+
+debe -> cuando -> e -> han -> como -> irrisorio -> debe
