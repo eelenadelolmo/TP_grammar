@@ -67,6 +67,7 @@ rule probando_varios_recursive {
 }
 """
 
+"""
 
 ## Transforming a conllu file into a list of the strings of its sentences
 
@@ -84,7 +85,6 @@ for f in directory:
     input = open(inputdir + '/' + f, "r", encoding="utf-8")
     sentences = parse(input.read())
     graphs = list()
-    print(f)
 
     # Appending every sentence to the graph list object
     for sentence in sentences:
@@ -116,3 +116,7 @@ for f in directory:
     # Recursive subtree annotation for recursive=yes featured nodes
     with open(path_to_output_conllu_recursive, "w") as output:
         output.write(annotator_recursive(path_to_output_conllu) + '\n')
+"""
+
+os.chdir("/home/elena/PycharmProjects/TP_grammar/venv/main")
+os.system('python3 conll_viewer/dependency2tree.py -o svg/probando.svg -c in/AnCora_Surface_Syntax_Dependencies/conllu/1_20000702_ssd.conllu --ignore-double-indices')
