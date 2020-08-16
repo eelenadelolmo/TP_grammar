@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drawing the trees for the sentences in the text</title>
+    <style>
+
+        .split {
+          height: 100%;
+          width: 50%;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          overflow-x: auto;
+          padding-top: 20px;
+        }
+
+        /* Control the left side */
+        .original {
+          left: 0;
+        }
+
+        /* Control the right side */
+        .rewriten {
+          right: 0;
+        }
+
+/* Horizontal Zoom-n-pan Container */
+.img-hover-zoom--zoom-n-pan-h img {
+  transition: transform .5s ease-in-out;
+  transform: scale(1.4);
+  transform-origin: 100% 0;
+}
+
+/* The Transformation */
+.img-hover-zoom--zoom-n-pan-h:hover img {
+  transform: scale(1.5) translateX(30%);
+}
+
+    </style>
+</head>
+<body>
+    <div class="split original">
+        <div class="img-hover-zoom img-hover-zoom--zoom-n-pan-h"><img src="../svg/probando-001.svg" border="1" width="100%"></div>
+        <div class="img-hover-zoom img-hover-zoom--zoom-n-pan-h"><img src="../svg/probando-002.svg" border="1" width="100%"></div>
+        <div class="img-hover-zoom img-hover-zoom--zoom-n-pan-h"><img src="../svg/probando-003.svg" border="1" width="100%"></div>
+        <div class="img-hover-zoom img-hover-zoom--zoom-n-pan-h"><img src="../svg/probando-004.svg" border="1" width="100%"></div>
+        <div class="img-hover-zoom img-hover-zoom--zoom-n-pan-h"><img src="../svg/probando-005.svg" border="1" width="100%"></div>
+        <div class="img-hover-zoom img-hover-zoom--zoom-n-pan-h"><img src="../svg/probando-006.svg" border="1" width="100%"></div>
+    </div>
+
+
+    <div class="split rewriten">
+        <div class="img-hover-zoom img-hover-zoom--zoom-n-pan-h"><img src="../svg/probando_rewriten-001.svg" border="1" width="100%"></div>
+        <div class="img-hover-zoom img-hover-zoom--zoom-n-pan-h"><img src="../svg/probando_rewriten-002.svg" border="1" width="100%"></div>
+        <div class="img-hover-zoom img-hover-zoom--zoom-n-pan-h"><img src="../svg/probando_rewriten-003.svg" border="1" width="100%"></div>
+        <div class="img-hover-zoom img-hover-zoom--zoom-n-pan-h"><img src="../svg/probando_rewriten-004.svg" border="1" width="100%"></div>
+        <div class="img-hover-zoom img-hover-zoom--zoom-n-pan-h"><img src="../svg/probando_rewriten-005.svg" border="1" width="100%"></div>
+        <div class="img-hover-zoom img-hover-zoom--zoom-n-pan-h"><img src="../svg/probando_rewriten-006.svg" border="1" width="100%"></div>
+    </div>
+
+</body>
+</html>
