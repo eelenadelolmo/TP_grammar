@@ -125,10 +125,30 @@ path_to_output_images = 'svg/' + '1_20000702_ssd' + '/'
 shutil.rmtree(path_to_output_images, ignore_errors=True)
 os.makedirs(path_to_output_images)
 
+inputdir_svg = '/home/elena/PycharmProjects/TP_grammar/venv/main/svg'
+directory = os.listdir(inputdir_svg)
+shutil.rmtree(inputdir_svg, ignore_errors=True, onerror=None)
+os.makedirs(inputdir_svg)
+
 os.chdir("/home/elena/PycharmProjects/TP_grammar/venv/main")
-os.system('python3 conll_viewer/dependency2tree.py -o svg/1_20000702_ssd/1_20000702_ssd.svg -c in/AnCora_Surface_Syntax_Dependencies/conllu/1_20000702_ssd.conllu --ignore-double-indices')
-os.system('python3 conll_viewer/dependency2tree.py -o svg/1_20000702_ssd/1_20000702_ssd_rewriten.svg -c out/1_20000702_ssd/1_20000702_ssd_annotated_recursive.conllu --ignore-double-indices')
-os.system('python3 conll_viewer/dependency2tree.py -o svg/1_20000702_ssd/1_20000702_ssd_rewriten_complete.svg -c out/1_20000702_ssd/1_20000702_ssd_annotated_recursive.conllu --ignore-double-indices --feats')
+outputdir = '/home/elena/PycharmProjects/TP_grammar/venv/main/out'
+
+nombres_textos = os.listdir(outputdir)
+
+for nombre in nombres_textos:
+
+    os.makedirs(inputdir_svg + '/' + nombre)
+
+    comando_gen_original = 'python3 conll_viewer/dependency2tree.py -o svg/' + nombre + '/' + nombre + '.svg -c in/AnCora_Surface_Syntax_Dependencies/conllu/' + nombre + '.conllu --ignore-double-indices'
+    comando_gen_rewriten = 'python3 conll_viewer/dependency2tree.py -o svg/' + nombre + '/' + nombre + '_rewriten.svg -c out/' + nombre + '/' + nombre + '_annotated_recursive.conllu --ignore-double-indices'
+    comando_gen_rewriten_complete = 'python3 conll_viewer/dependency2tree.py -o svg/' + nombre + '/' + nombre + '_rewriten_complete.svg -c out/' + nombre + '/' + nombre + '_annotated_recursive.conllu --ignore-double-indices --feats'
+
+    # os.system('python3 conll_viewer/dependency2tree.py -o svg/1_20000702_ssd/1_20000702_ssd.svg -c in/AnCora_Surface_Syntax_Dependencies/conllu/1_20000702_ssd.conllu --ignore-double-indices')
+    os.system(comando_gen_original)
+    # os.system('python3 conll_viewer/dependency2tree.py -o svg/1_20000702_ssd/1_20000702_ssd_rewriten.svg -c out/1_20000702_ssd/1_20000702_ssd_annotated_recursive.conllu --ignore-double-indices')
+    os.system(comando_gen_rewriten)
+    # os.system('python3 conll_viewer/dependency2tree.py -o svg/1_20000702_ssd/1_20000702_ssd_rewriten_complete.svg -c out/1_20000702_ssd/1_20000702_ssd_annotated_recursive.conllu --ignore-double-indices --feats')
+    os.system(comando_gen_rewriten_complete)
 
 patch_html = "templates/1_20000702_ssd.html"
 webbrowser.open(patch_html, new=2)
