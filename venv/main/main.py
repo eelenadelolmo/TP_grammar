@@ -4,6 +4,7 @@ import grew
 import os
 import shutil
 import webbrowser
+import re
 
 # Install Grew and its requirements, and the Grew package must be loaded for the project. Installation nstructions can be found here: http://grew.fr/install/
 # conll must also be installed (via pip for example) and the package must be loaded for the project
@@ -253,6 +254,56 @@ for nombre in nombres_textos:
     with open('templates/' + nombre + '.html', "w") as h:
         h.write(html)
 
+
+# Delete after testing block
+outputdir = '/home/elena/PycharmProjects/TP_grammar/venv/main/out'
+nombres_textos = os.listdir(outputdir)
+
+## Colouring in background green nodes corresponding to main clauses
+
+# Creating the dictionary of annotation types and the corresponding color for the ellipses containing that feature
+colors = {'matched': '#F9D0A9'}
+
+
+# Selecting the SVG files to color
+for nombre in nombres_textos:
+    outputdir_img = '/home/elena/PycharmProjects/TP_grammar/venv/main/svg/' + nombre
+    nombres_frases = os.listdir(outputdir_img)
+    nombres_frases_original = list()
+    nombres_frases_rewriten = list()
+    nombres_frases_rewriten_complete = list()
+
+    for nombre_frase in nombres_frases:
+        if 'rewriten_complete' in nombre_frase:
+            nombres_frases_rewriten_complete.append(nombre_frase)
+        elif 'rewriten' in nombre_frase:
+            nombres_frases_rewriten.append(nombre_frase)
+        else:
+            nombres_frases_original.append(nombre_frase)
+
+    for nombre_frase_rewriten_complete in nombres_frases_rewriten_complete:
+
+        for key in colors:
+            color = colors[key]
+
+            # Conllu transformation of the GRS output unordered graph
+            with open(outputdir_img + '/' + nombre_frase_rewriten_complete, "r+") as f:
+                original_xml = f.read()
+                f.seek(0)
+                g_objects = original_xml.split('-->')
+                g_objects_colored = list()
+                for g_object in g_objects:
+                    if key + '=yes' in g_object:
+                        g_object = re.sub('fill="none', 'fill="' + color, g_object)
+                        g_objects_colored.append(g_object)
+                    else:
+                        g_objects_colored.append(g_object)
+
+                colored_xml = '-->'.join(g_objects_colored)
+                f.write(colored_xml)
+
+
+"""
 # Opening a new tab in browser with the results for selected texts
 texts_to_show_after_execution = [
     '3_19991101_ssd',
@@ -262,3 +313,4 @@ texts_to_show_after_execution = [
 for text in texts_to_show_after_execution:
     patch_html = "templates/example.html"
     webbrowser.open('templates/' + text + '.html', new=1, autoraise=True)
+"""
