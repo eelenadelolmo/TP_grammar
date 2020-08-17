@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Drawing the trees for the sentences in the text</title>
+    
+        <script>
+            function SyncScroll(phoneFaceId) {
+              var div1 = document.getElementById("left");
+              var div2 = document.getElementById("right");
+              if (phoneFaceId=="left") {
+                div2.scrollTop = div1.scrollTop;
+              }
+              else {
+                div1.scrollTop = div2.scrollTop;
+              }
+            }
+        </script>
+    
+        <style>
+    
+            .split {
+              height: 100%;
+              width: 50%;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              overflow-x: auto;
+              padding-top: 20px;
+            }
+    
+            /* Control the left side */
+            .original {
+              left: 0;
+            }
+    
+            /* Control the right side */
+            .rewriten {
+              right: 0;
+            }
+    
+        </style>
+    
+    </head>
+    
+    <body>
+    
+        <div class="split original" id="left" onscroll="SyncScroll('left')">
+    
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-001.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-001.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-002.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-002.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-003.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-003.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-004.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-004.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-005.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-005.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-006.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-006.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-007.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-007.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-008.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-008.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-009.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-009.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-010.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-010.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-011.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-011.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-012.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-012.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-013.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-013.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-014.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-014.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-015.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-015.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-016.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-016.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-017.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-017.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-018.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-018.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-019.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-019.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-020.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-020.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-021.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-021.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-022.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-022.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-023.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-023.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-024.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-024.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-025.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-025.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-026.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-026.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-027.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-027.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-028.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-028.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-029.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-029.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-030.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-030.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-031.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-031.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-032.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-032.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-033.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-033.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-034.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-034.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-035.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-035.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-036.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-036.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-037.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-037.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-038.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-038.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-039.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-039.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-040.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-040.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-041.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-041.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-042.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-042.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-043.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-043.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-044.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-044.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-045.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-045.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-046.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-046.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-047.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-047.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-048.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-048.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-049.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-049.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-050.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-050.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-051.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-051.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-052.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-052.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-053.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-053.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-054.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-054.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-055.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-055.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-056.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-056.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-057.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-057.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-058.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-058.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-059.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-059.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-060.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-060.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-061.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-061.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-062.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-062.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-063.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-063.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-064.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-064.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-065.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-065.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-066.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-066.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-067.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-067.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-068.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-068.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-069.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-069.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-070.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-070.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-071.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-071.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-072.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-072.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-073.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-073.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-074.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-074.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-075.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-075.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-076.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-076.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-077.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-077.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-078.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-078.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-079.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-079.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-080.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-080.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-081.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-081.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-082.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-082.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-083.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-083.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-084.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-084.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-085.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-085.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-086.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-086.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-087.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-087.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-088.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-088.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-089.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-089.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-090.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-090.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-091.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-091.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-092.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-092.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-093.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-093.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-094.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-094.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-095.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-095.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-096.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-096.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-097.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-097.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-098.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-098.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-099.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-099.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-100.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-100.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-101.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-101.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-102.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-102.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-103.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-103.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-104.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-104.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-105.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-105.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-106.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-106.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-107.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-107.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-108.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-108.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-109.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-109.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-110.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-110.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-111.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-111.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-112.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-112.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-113.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-113.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-114.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-114.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-115.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-115.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-116.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-116.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-117.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-117.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-118.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-118.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-119.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-119.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-120.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-120.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-121.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-121.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-122.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-122.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-123.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-123.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-124.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-124.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-125.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-125.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-126.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-126.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-127.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-127.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-128.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-128.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-129.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-129.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-130.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-130.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-131.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-131.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd-132.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd-132.svg" border="1" width="100%"></a>
+
+        </div>
+
+        <div class="split rewriten" id="right" onscroll="SyncScroll('right')">
+    
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-001.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-002.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-003.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-004.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-005.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-005.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-006.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-006.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-007.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-007.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-008.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-008.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-009.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-009.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-010.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-010.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-011.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-011.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-012.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-012.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-013.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-013.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-014.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-014.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-015.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-015.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-016.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-016.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-017.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-017.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-018.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-018.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-019.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-019.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-020.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-020.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-021.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-021.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-022.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-022.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-023.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-023.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-024.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-024.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-025.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-025.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-026.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-026.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-027.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-027.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-028.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-028.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-029.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-029.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-030.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-030.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-031.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-031.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-032.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-032.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-033.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-033.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-034.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-034.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-035.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-035.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-036.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-036.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-037.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-037.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-038.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-038.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-039.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-039.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-040.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-040.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-041.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-041.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-042.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-042.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-043.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-043.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-044.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-044.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-045.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-045.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-046.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-046.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-047.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-047.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-048.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-048.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-049.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-049.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-050.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-050.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-051.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-051.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-052.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-052.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-053.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-053.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-054.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-054.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-055.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-055.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-056.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-056.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-057.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-057.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-058.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-058.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-059.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-059.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-060.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-060.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-061.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-061.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-062.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-062.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-063.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-063.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-064.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-064.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-065.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-065.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-066.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-066.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-067.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-067.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-068.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-068.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-069.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-069.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-070.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-070.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-071.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-071.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-072.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-072.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-073.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-073.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-074.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-074.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-075.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-075.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-076.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-076.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-077.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-077.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-078.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-078.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-079.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-079.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-080.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-080.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-081.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-081.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-082.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-082.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-083.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-083.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-084.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-084.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-085.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-085.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-086.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-086.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-087.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-087.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-088.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-088.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-089.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-089.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-090.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-090.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-091.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-091.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-092.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-092.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-093.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-093.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-094.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-094.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-095.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-095.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-096.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-096.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-097.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-097.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-098.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-098.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-099.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-099.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-100.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-100.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-101.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-101.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-102.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-102.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-103.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-103.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-104.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-104.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-105.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-105.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-106.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-106.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-107.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-107.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-108.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-108.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-109.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-109.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-110.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-110.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-111.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-111.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-112.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-112.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-113.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-113.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-114.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-114.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-115.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-115.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-116.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-116.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-117.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-117.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-118.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-118.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-119.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-119.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-120.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-120.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-121.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-121.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-122.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-122.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-123.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-123.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-124.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-124.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-125.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-125.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-126.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-126.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-127.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-127.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-128.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-128.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-129.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-129.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-130.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-130.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-131.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-131.svg" border="1" width="100%"></a>
+			<a href="../svg/38_20010701_ssd/38_20010701_ssd_rewriten_complete-132.svg" target="_blank"><img src="../svg/38_20010701_ssd/38_20010701_ssd_rewriten-132.svg" border="1" width="100%"></a>
+
+        </div>
+    
+    </body>
+</html>
+    
