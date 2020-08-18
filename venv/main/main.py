@@ -28,19 +28,8 @@ rule preceding_subject {
     S << R;
   }
   commands {
-    S.matched=yes;
+    S.theme=yes;
     S.recursive=yes;
-  }
-}
-
-rule probando_preceding {
-  pattern {
-    N1 [form="Casi"];
-    N2 [form="todos"];
-    N1 < N2;
-    }
-  commands {
-    N1.form=CASI;
   }
 }
 
@@ -52,25 +41,24 @@ rule subordinate_subject {
     N0 -[root]-> N1;
   }
   commands {
-    N2.matched=yes;
-    N2.recursive=yes
-  }
-}
-
-strat S1 { Try ( Iter ( Alt (preceding_subject, probando_preceding, subordinate_subject) ) ) }
-""")
-
-"""
-rule probando_varios_recursive {
-  pattern {
-    N1 -[pobj]-> N2;
-  }
-  commands {
-    N2.matched=yes;
+    N2.theme=yes;
     N2.recursive=yes;
   }
 }
-"""
+
+rule subordinate_dobj_clause {
+  pattern {
+    N0 -[dobj]-> N1;
+    N1 -[cobj]-> N2;
+  }
+  commands {
+    N1.main=yes;
+    N1.recursive=yes;
+  }
+}
+
+strat S1 { Try ( Iter ( Alt (preceding_subject, subordinate_subject, subordinate_dobj_clause) ) ) }
+""")
 
 
 ## Transforming a conllu file into a list of the strings of its sentences
@@ -82,6 +70,7 @@ tmp_file = 'out/tmp_sentence.txt'
 inputdir = 'in/AnCora_Surface_Syntax_Dependencies/conllu'
 directory = os.listdir(inputdir)
 
+"""
 for f in directory:
     if f.endswith(".conllu"):
         f_noExt = f[:-7]
@@ -110,18 +99,20 @@ for f in directory:
     unordered_graphs = disorder_graphs(output_graphs)
 
     # Deleting previous output directories and creating them again
-    path_to_output_conllu = 'out/' + f_noExt + '/'
+    path_to_output_conllu = 'out/' + f_noExt
     shutil.rmtree(path_to_output_conllu, ignore_errors=True)
     os.makedirs(path_to_output_conllu)
 
     # Conllu transformation of the GRS output unordered graph
-    with open(path_to_output_conllu + f_noExt + '_annotated.conllu', "w") as output:
+    with open(path_to_output_conllu + '/' + f_noExt + '_annotated.conllu', "w") as output:
         for e in unordered_graphs:
             output.write(to_conllu(e) + '\n')
 
     # Recursive subtree annotation for recursive=yes featured nodes
-    with open(path_to_output_conllu + f_noExt + '_annotated_recursive.conllu', "w") as output:
-        output.write(annotator_recursive(path_to_output_conllu + f_noExt + '_annotated.conllu') + '\n')
+    with open(path_to_output_conllu + '/' + f_noExt + '_annotated_recursive.conllu', "w") as output:
+        print(f_noExt)
+        output.write(annotator_recursive(path_to_output_conllu + '/' + f_noExt + '_annotated.conllu') + '\n')
+"""
 
 os.remove('/home/elena/PycharmProjects/TP_grammar/venv/main/out/tmp_sentence.txt')
 
@@ -262,7 +253,9 @@ nombres_textos = os.listdir(outputdir)
 ## Colouring in background green nodes corresponding to main clauses
 
 # Creating the dictionary of annotation types and the corresponding color for the ellipses containing that feature
-colors = {'matched': '#F9D0A9'}
+colors_right = {'main': '#98D2A5', 'theme': '#BEDA48'}
+# colors_left = {'main': '#98D2A5'}
+# colors_right = {'theme': '#BEDA48', 'rheme': '#DA8D48'}
 
 
 # Selecting the SVG files to color
@@ -283,8 +276,8 @@ for nombre in nombres_textos:
 
     for nombre_frase_rewriten_complete in nombres_frases_rewriten_complete:
 
-        for key in colors:
-            color = colors[key]
+        for key in colors_right:
+            color = colors_right[key]
 
             # Conllu transformation of the GRS output unordered graph
             with open(outputdir_img + '/' + nombre_frase_rewriten_complete, "r+") as f:

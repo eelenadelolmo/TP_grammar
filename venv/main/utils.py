@@ -76,7 +76,7 @@ def to_conllu(graph):
             conllu_str += '\t'
             conllu_str += morph['xpos']
             conllu_str += '\t'
-            conllu_str = conllu_str + 'matched=' + morph['matched'] + '|recursive=' + morph['recursive']
+            conllu_str = conllu_str + 'recursive=' + morph['recursive'] + '|theme=' + morph['theme'] + '|main=' + morph['main']
             conllu_str += '\t'
             conllu_str += str(heads[key][0]) if len(heads[key]) == 2 else '0'
             conllu_str += '\t'
@@ -97,27 +97,42 @@ def annotator_recursive(conllu_file):
     for sentence in sentences:
 
         while "recursive=yes" in sentence.serialize():
-            hijos = sentence.to_tree().children
+
+            hijos = [sentence.to_tree()]
             padre = None
 
             # Getting the recursive:yes token as a subtree
             while len(hijos) > 0 and padre is None:
                 for hijo in hijos:
-                    if hijo.token['feats']['matched'] == 'yes' and hijo.token['feats']['recursive'] == 'yes':
+                    features_to_add = list()
+
+                    # Explore the tree until finding a recursive=yes annotated node
+                    if hijo.token['feats']['recursive'] == 'yes':
+
+                        # Save its =yes features in order to expand them over its sons
+                        for feature in hijo.token['feats']:
+                            if hijo.token['feats'][feature] == 'yes':
+                                features_to_add.append(feature)
+
+                        # Stop the loop and delete the recursive=yes feature
+                        # Now padre == the node to recursively propagate
                         padre = hijo
                         padre.token['feats']['recursive'] = 'no'
                         break
+
                 nietos = []
                 for hijo in hijos:
                     nietos.extend(hijo.children)
                 hijos = nietos
+
             if padre is not None:
                 hijos = padre.children
 
             # Annotating all children
             while len(hijos) > 0:
                 for hijo in hijos:
-                    hijo.token['feats']['matched'] = 'yes'
+                    for feature_to_add in features_to_add:
+                        hijo.token['feats'][feature_to_add] = 'yes'
                 nietos = []
                 for hijo in hijos:
                     nietos.extend(hijo.children)
