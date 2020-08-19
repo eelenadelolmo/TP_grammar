@@ -1,9 +1,9 @@
-1	Una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	2	det
-2	mujer	mujer	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	7	nsubj
-3	inglesa	inglés	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	2	amod
-4	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-5	40	40	z	z	recursive=no|theme=no|main=no	6	num
-6	años	año	ncmp000	ncmp000	recursive=no|theme=no|main=no	4	pobj
+1	Una	uno	di0fs0	di0fs0	recursive=no|theme=yes|main=no	2	det
+2	mujer	mujer	ncfs000	ncfs000	recursive=no|theme=yes|main=no	7	nsubj
+3	inglesa	inglés	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	2	amod
+4	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+5	40	40	z	z	recursive=no|theme=yes|main=no	6	num
+6	años	año	ncmp000	ncmp000	recursive=no|theme=yes|main=no	4	pobj
 7	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	9	coord
 8	agredida	agredir	vmp00sf	vmp00sf	recursive=no|theme=no|main=no	7	attr
 9	y	y	cc	cc	recursive=no|theme=no|main=no	29	dobj
@@ -37,8 +37,8 @@
 37	Civil	civil	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	36	amod
 38	.	.	fp	fp	recursive=no|theme=no|main=no	29	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	lugar	lugar	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	lugar	lugar	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 4	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	5	det
 5	paraje	paraje	ncms000	ncms000	recursive=no|theme=no|main=no	3	attr

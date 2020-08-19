@@ -1,5 +1,5 @@
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	Duma	Duma	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	Duma	Duma	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 3	fija	fijar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	6	det
 5	primera	primero	ao0fs0	ao0fs0	recursive=no|theme=no|main=no	6	amod
@@ -14,8 +14,8 @@
 14	junio	junio	ncms000	ncms000	recursive=no|theme=no|main=no	13	pobj
 15	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	Kremlin	Kremlin	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	Kremlin	Kremlin	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 3	confirmó	confirmar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	3	advmod
 5	oficialmente	oficialmente	rg	rg	recursive=no|theme=no|main=no	3	advmod
@@ -30,8 +30,8 @@
 14	Yeltsin	Yeltsin	np0000l	np0000l	recursive=no|theme=no|main=no	13	appos
 15	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	presidente	presidente	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	presidente	presidente	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	padece	padecer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	advmod
 5	nuevo	nuevo	aq0msp	aq0msp	recursive=no|theme=no|main=no	4	pobj
@@ -54,7 +54,7 @@
 22	Yakushkin	Yakushkin	np0000l	np0000l	recursive=no|theme=no|main=no	21	appos
 23	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Yeltsin	Yeltsin	np00000	np00000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Yeltsin	Yeltsin	np00000	np00000	recursive=no|theme=yes|main=no	2	nsubj
 2	mantiene	mantener	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 3	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	4	det
 4	régimen	régimen	ncms000	ncms000	recursive=no|theme=no|main=no	2	dobj
@@ -93,29 +93,29 @@
 2	a	a	sps00	sps00	recursive=no|theme=no|main=no	1	prepv
 3	ello	él	pp3ns000	pp3ns000	recursive=no|theme=no|main=no	2	pobj
 4	,	,	fc	fc	recursive=no|theme=no|main=no	10	punct
-5	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	6	det
-6	vida	vida	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	10	nsubj
-7	política	político	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	6	amod
-8	en	en	sps00	sps00	recursive=no|theme=no|main=no	6	prepn
-9	Moscú	Moscú	np00000	np00000	recursive=no|theme=no|main=no	8	pobj
+5	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	6	det
+6	vida	vida	ncfs000	ncfs000	recursive=no|theme=yes|main=no	10	nsubj
+7	política	político	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	6	amod
+8	en	en	sps00	sps00	recursive=no|theme=yes|main=no	6	prepn
+9	Moscú	Moscú	np00000	np00000	recursive=no|theme=yes|main=no	8	pobj
 10	continúa	continuar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 11	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	12	poss
 12	curso	curso	ncms000	ncms000	recursive=no|theme=no|main=no	10	dobj
 13	.	.	fp	fp	recursive=no|theme=no|main=no	10	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	diputados	diputado	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	4	nsubj
-3	rusos	ruso	aq0mp0	aq0mp0	recursive=no|theme=no|main=no	2	amod
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	diputados	diputado	ncmp000	ncmp000	recursive=no|theme=yes|main=no	4	nsubj
+3	rusos	ruso	aq0mp0	aq0mp0	recursive=no|theme=yes|main=no	2	amod
 4	decidieron	decidir	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 5	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	4	advmod
 6	que	que	cs	cs	recursive=yes|theme=no|main=yes	4	dobj
-7	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	9	det
-8	primera	primero	ao0fs0	ao0fs0	recursive=no|theme=no|main=no	9	amod
-9	vuelta	vuelta	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	14	nsubj
-10	de	de	sps00	sps00	recursive=no|theme=no|main=no	9	prepn
-11	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	12	det
-12	elección	elección	ncfs000	ncfs000	recursive=no|theme=no|main=no	10	pobj
-13	presidencial	presidencial	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	12	amod
+7	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	9	det
+8	primera	primero	ao0fs0	ao0fs0	recursive=no|theme=yes|main=no	9	amod
+9	vuelta	vuelta	ncfs000	ncfs000	recursive=no|theme=yes|main=no	14	nsubj
+10	de	de	sps00	sps00	recursive=no|theme=yes|main=no	9	prepn
+11	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	12	det
+12	elección	elección	ncfs000	ncfs000	recursive=no|theme=yes|main=no	10	pobj
+13	presidencial	presidencial	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	12	amod
 14	tendrá	tener	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	20	coord
 15	lugar	lugar	ncfp000	ncfp000	recursive=no|theme=no|main=no	14	dobj
 16	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	17	det
@@ -133,8 +133,8 @@
 28	tarde	tarde	rg	rg	recursive=no|theme=no|main=no	23	advmod
 29	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	Kremlin	Kremlin	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	Kremlin	Kremlin	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 3	recibió	recibir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	5	advmod
 5	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	6	det
@@ -156,7 +156,7 @@
 21	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	22	det
 22	decreto	decreto	ncms000	ncms000	recursive=no|theme=no|main=no	14	dobj
 23	presidencial	presidencial	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	22	amod
-24	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	25	nsubj
+24	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	25	nsubj
 25	suspende	suspender	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	22	rcmod
 26	temporalmente	temporalmente	rg	rg	recursive=no|theme=no|main=no	25	advmod
 27	a	a	sps00	sps00	recursive=no|theme=no|main=no	25	dobj
@@ -168,7 +168,7 @@
 33	general	general	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	32	amod
 34	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Este	este	pd0ms000	pd0ms000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Este	este	pd0ms000	pd0ms000	recursive=no|theme=yes|main=no	2	nsubj
 2	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	0	root
 3	relevado	relevar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	2	attr
 4	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	prepv
@@ -196,11 +196,11 @@
 
 1	Paralelamente	paralelamente	rg	rg	recursive=no|theme=no|main=no	8	advmod
 2	,	,	fc	fc	recursive=no|theme=no|main=no	8	punct
-3	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	4	det
-4	Ministerio	ministerio	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	8	nsubj
-5	de	de	sps00	sps00	recursive=no|theme=no|main=no	4	prepn
-6	Exteriores	Exteriores	np00000	np00000	recursive=no|theme=no|main=no	5	pobj
-7	ruso	ruso	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	4	amod
+3	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	4	det
+4	Ministerio	ministerio	ncfs000	ncfs000	recursive=no|theme=yes|main=no	8	nsubj
+5	de	de	sps00	sps00	recursive=no|theme=yes|main=no	4	prepn
+6	Exteriores	Exteriores	np00000	np00000	recursive=no|theme=yes|main=no	5	pobj
+7	ruso	ruso	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	4	amod
 8	entregó	entregar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 9	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	8	advmod
 10	a	a	sps00	sps00	recursive=no|theme=no|main=no	8	iobj
@@ -227,15 +227,15 @@
 31	espionaje	espionaje	ncms000	ncms000	recursive=no|theme=no|main=no	30	pobj
 32	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	Gobierno	Gobierno	np00000	np00000	recursive=yes|theme=yes|main=no	4	nsubj
-3	ruso	ruso	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	2	amod
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	Gobierno	Gobierno	np00000	np00000	recursive=no|theme=yes|main=no	4	nsubj
+3	ruso	ruso	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	2	amod
 4	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 5	pedido	pedir	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	4	vobj
 6	oficialmente	oficialmente	rg	rg	recursive=no|theme=no|main=no	5	advmod
 7	que	que	cs	cs	recursive=yes|theme=no|main=yes	5	dobj
-8	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	9	det
-9	diplomática	diplomática	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	10	nsubj
+8	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	9	det
+9	diplomática	diplomática	ncfs000	ncfs000	recursive=no|theme=yes|main=no	10	nsubj
 10	abandone	abandonar	vmsp3s0	vmsp3s0	recursive=no|theme=no|main=no	7	cobj
 11	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	12	det
 12	país	país	ncms000	ncms000	recursive=no|theme=no|main=no	10	dobj
@@ -243,11 +243,11 @@
 
 1	Mientras	mientras	cs	cs	recursive=no|theme=no|main=no	9	te
 2	,	,	fc	fc	recursive=no|theme=no|main=no	9	punct
-3	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	4	det
-4	campaña	campaña	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	9	nsubj
-5	militar	militar	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	4	amod
-6	en	en	sps00	sps00	recursive=no|theme=no|main=no	4	prepn
-7	Chechenia	Chechenia	np00000	np00000	recursive=no|theme=no|main=no	6	pobj
+3	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	4	det
+4	campaña	campaña	ncfs000	ncfs000	recursive=no|theme=yes|main=no	9	nsubj
+5	militar	militar	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	4	amod
+6	en	en	sps00	sps00	recursive=no|theme=yes|main=no	4	prepn
+7	Chechenia	Chechenia	np00000	np00000	recursive=no|theme=yes|main=no	6	pobj
 8	también	también	rg	rg	recursive=no|theme=no|main=no	9	advmod
 9	prosigue	proseguir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 10	,	,	fc	fc	recursive=no|theme=no|main=no	9	punct
@@ -262,9 +262,9 @@
 19	presidente	presidente	ncms000	ncms000	recursive=no|theme=no|main=no	18	pobj
 20	.	.	fp	fp	recursive=no|theme=no|main=no	9	punct
 
-1	Las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	2	det
-2	fuerzas	fuerza	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	4	nsubj
-3	federales	federal	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	2	amod
+1	Las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	2	det
+2	fuerzas	fuerza	ncfp000	ncfp000	recursive=no|theme=yes|main=no	4	nsubj
+3	federales	federal	aq0cp0	aq0cp0	recursive=no|theme=yes|main=no	2	amod
 4	continuaron	continuar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 5	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	4	advmod
 6	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	7	det
@@ -282,14 +282,14 @@
 18	Grozni	Grozni	np00000	np00000	recursive=no|theme=no|main=no	16	appos
 19	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	ministro	ministro	ncms000	ncms000	recursive=yes|theme=yes|main=no	9	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	Defensa	Defensa	np00000	np00000	recursive=no|theme=no|main=no	3	pobj
-5	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
-6	Igor	Igor	np0000l	np0000l	recursive=no|theme=no|main=no	2	appos
-7	Sergueyev	Sergueyev	np0000l	np0000l	recursive=no|theme=no|main=no	6	appos
-8	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	ministro	ministro	ncms000	ncms000	recursive=no|theme=yes|main=no	9	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	Defensa	Defensa	np00000	np00000	recursive=no|theme=yes|main=no	3	pobj
+5	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
+6	Igor	Igor	np0000l	np0000l	recursive=no|theme=yes|main=no	2	appos
+7	Sergueyev	Sergueyev	np0000l	np0000l	recursive=no|theme=yes|main=no	6	appos
+8	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
 9	enfrió	enfriar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 10	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	9	advmod
 11	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	12	det
@@ -300,7 +300,7 @@
 16	militar	militar	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	15	amod
 17	rusa	ruso	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	15	amod
 18	,	,	fc	fc	recursive=no|theme=no|main=no	15	punct
-19	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	20	nsubj
+19	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	20	nsubj
 20	esperaba	esperar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	15	rcmod
 21	finalizar	finalizar	vmn0000	vmn0000	recursive=no|theme=no|main=no	20	dobj
 22	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	23	det
@@ -316,9 +316,9 @@
 32	año	año	ncms000	ncms000	recursive=no|theme=no|main=no	31	pobj
 33	.	.	fp	fp	recursive=no|theme=no|main=no	9	punct
 
-1	Las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	2	det
-2	operaciones	operación	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	5	nsubj
-3	militares	militar	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	2	amod
+1	Las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	2	det
+2	operaciones	operación	ncfp000	ncfp000	recursive=no|theme=yes|main=no	5	nsubj
+3	militares	militar	aq0cp0	aq0cp0	recursive=no|theme=yes|main=no	2	amod
 4	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	5	reflec
 5	prolongarán	prolongar	vmif3p0	vmif3p0	recursive=no|theme=no|main=no	14	dobj
 6	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	9	punct
@@ -333,12 +333,12 @@
 15	Sergueyev	Sergueyev	np00000	np00000	recursive=no|theme=no|main=no	14	nsubj
 16	.	.	fp	fp	recursive=no|theme=no|main=no	14	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	jefe	jefe	ncms000	ncms000	recursive=yes|theme=yes|main=no	7	nsubj
-3	guerrillero	guerrillero	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	2	amod
-4	checheno	checheno	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	2	amod
-5	Chamil	Chamil	np0000l	np0000l	recursive=no|theme=no|main=no	2	appos
-6	Basayev	Basayev	np0000l	np0000l	recursive=no|theme=no|main=no	5	appos
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	jefe	jefe	ncms000	ncms000	recursive=no|theme=yes|main=no	7	nsubj
+3	guerrillero	guerrillero	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	2	amod
+4	checheno	checheno	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	2	amod
+5	Chamil	Chamil	np0000l	np0000l	recursive=no|theme=yes|main=no	2	appos
+6	Basayev	Basayev	np0000l	np0000l	recursive=no|theme=yes|main=no	5	appos
 7	lanzó	lanzar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 8	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	9	advmod
 9	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	10	det

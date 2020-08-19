@@ -1,9 +1,9 @@
-1	Una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	2	det
-2	comisión	comisión	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	7	nsubj
-3	investigadora	investigador	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	2	amod
-4	del	del	spcms	spcms	recursive=no|theme=no|main=no	2	prepn
-5	Congreso	Congreso	np00000	np00000	recursive=no|theme=no|main=no	4	pobj
-6	peruano	peruano	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	5	amod
+1	Una	uno	di0fs0	di0fs0	recursive=no|theme=yes|main=no	2	det
+2	comisión	comisión	ncfs000	ncfs000	recursive=no|theme=yes|main=no	7	nsubj
+3	investigadora	investigador	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	2	amod
+4	del	del	spcms	spcms	recursive=no|theme=yes|main=no	2	prepn
+5	Congreso	Congreso	np00000	np00000	recursive=no|theme=yes|main=no	4	pobj
+6	peruano	peruano	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	5	amod
 7	consideró	considerar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 8	procedente	procedente	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	7	cpred
 9	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	10	det
@@ -24,8 +24,8 @@
 24	irregular	irregular	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	22	amod
 25	.	.	fp	fp	recursive=no|theme=no|main=no	7	punct
 
-1	Esta	este	dd0fs0	dd0fs0	recursive=no|theme=no|main=no	2	det
-2	actuación	actuación	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Esta	este	dd0fs0	dd0fs0	recursive=no|theme=yes|main=no	2	det
+2	actuación	actuación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	nsubj
 3	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	0	root
 4	,	,	fc	fc	recursive=no|theme=no|main=no	3	punct
 5	según	según	sps00	sps00	recursive=no|theme=no|main=no	3	advcl

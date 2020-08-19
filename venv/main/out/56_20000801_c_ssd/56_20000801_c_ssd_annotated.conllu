@@ -1,7 +1,7 @@
-1	Una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	2	det
-2	línea	línea	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	5	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	autobús	autobús	ncms000	ncms000	recursive=no|theme=no|main=no	3	pobj
+1	Una	uno	di0fs0	di0fs0	recursive=no|theme=yes|main=no	2	det
+2	línea	línea	ncfs000	ncfs000	recursive=no|theme=yes|main=no	5	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	autobús	autobús	ncms000	ncms000	recursive=no|theme=yes|main=no	3	pobj
 5	une	unir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 6	El	El	np0000l	np0000l	recursive=no|theme=no|main=no	8	coord
 7	Vendrell	Vendrell	np0000l	np0000l	recursive=no|theme=no|main=no	6	appos
@@ -11,9 +11,9 @@
 
 1	-	-	fg	fg	recursive=no|theme=no|main=no	6	punct
 2	-	-	fg	fg	recursive=no|theme=no|main=no	6	punct
-3	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	4	det
-4	empresa	empresa	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	6	nsubj
-5	MonBus	MonBus	np00000	np00000	recursive=no|theme=no|main=no	4	appos
+3	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	4	det
+4	empresa	empresa	ncfs000	ncfs000	recursive=no|theme=yes|main=no	6	nsubj
+5	MonBus	MonBus	np00000	np00000	recursive=no|theme=yes|main=no	4	appos
 6	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 7	puesto	poner	vmn0000	vmn0000	recursive=no|theme=no|main=no	6	vobj
 8	en	en	spcms	spcms	recursive=no|theme=no|main=no	7	iobj
@@ -30,7 +30,7 @@
 19	Vendrell	Vendrell	np0000l	np0000l	recursive=no|theme=no|main=no	18	appos
 20	y	y	cc	cc	recursive=no|theme=no|main=no	17	pobj
 21	Andorra	Andorra	np00000	np00000	recursive=no|theme=no|main=no	20	coord
-22	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	23	nsubj
+22	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	23	nsubj
 23	será	ser	vsif3s0	vsif3s0	recursive=no|theme=no|main=no	11	rcmod
 24	operativa	operativo	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	23	attr
 25	todo	todo	pi0ms000	pi0ms000	recursive=no|theme=no|main=no	26	dep
@@ -38,8 +38,8 @@
 27	año	año	ncms000	ncms000	recursive=no|theme=no|main=no	23	tmod
 28	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	autocares	autocar	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	autocares	autocar	ncmp000	ncmp000	recursive=no|theme=yes|main=no	3	nsubj
 3	salen	salir	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	12	coord
 4	diariamente	diariamente	rg	rg	recursive=no|theme=no|main=no	3	advmod
 5	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	prepv
@@ -64,9 +64,9 @@
 4	jueves	jueves	ncms000	ncms000	recursive=no|theme=no|main=no	3	pobj
 5	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	6	reflec
 6	efectúa	efectuar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	11	coord
-7	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	9	det
-8	sólo	sólo	rg	rg	recursive=no|theme=no|main=no	9	advmod
-9	viaje	viaje	ncms000	ncms000	recursive=yes|theme=yes|main=no	6	nsubj
+7	un	uno	di0ms0	di0ms0	recursive=no|theme=yes|main=no	9	det
+8	sólo	sólo	rg	rg	recursive=no|theme=yes|main=no	9	advmod
+9	viaje	viaje	ncms000	ncms000	recursive=no|theme=yes|main=no	6	nsubj
 10	,	,	fc	fc	recursive=no|theme=no|main=no	11	punct
 11	mientras	mientras	cs	cs	recursive=no|theme=no|main=no	0	root
 12	que	que	cs	cs	recursive=no|theme=no|main=no	11	cobj

@@ -1,9 +1,9 @@
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	barrio	barrio	ncms000	ncms000	recursive=yes|theme=yes|main=no	8	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	l'Estació	l'estació	np00000	np00000	recursive=no|theme=no|main=no	3	pobj
-5	de	de	sps00	sps00	recursive=no|theme=no|main=no	4	prepn
-6	Sallent	sallent	np00000	np00000	recursive=no|theme=no|main=no	2	appos
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	barrio	barrio	ncms000	ncms000	recursive=no|theme=yes|main=no	8	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	l'Estació	l'estació	np00000	np00000	recursive=no|theme=yes|main=no	3	pobj
+5	de	de	sps00	sps00	recursive=no|theme=yes|main=no	4	prepn
+6	Sallent	sallent	np00000	np00000	recursive=no|theme=yes|main=no	2	appos
 7	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	8	reflec
 8	hunde	hundir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 9	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	10	det
@@ -32,7 +32,7 @@
 13	de	de	sps00	sps00	recursive=no|theme=no|main=no	12	prepn
 14	potasa	potasa	ncfs000	ncfs000	recursive=no|theme=no|main=no	13	pobj
 15	,	,	fc	fc	recursive=no|theme=no|main=no	17	punct
-16	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	17	nsubj
+16	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	17	nsubj
 17	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	12	rcmod
 18	clausurada	clausurar	vmp00sf	vmp00sf	recursive=no|theme=no|main=no	17	attr
 19	en	en	sps00	sps00	recursive=no|theme=no|main=no	18	prepv
@@ -45,12 +45,12 @@
 26	agua	agua	ncfs000	ncfs000	recursive=no|theme=no|main=no	25	pobj
 27	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
-1	Un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	2	det
-2	equipo	equipo	ncms000	ncms000	recursive=yes|theme=yes|main=no	8	nsubj
-3	del	del	spcms	spcms	recursive=no|theme=no|main=no	2	prepn
-4	programa	programa	ncms000	ncms000	recursive=no|theme=no|main=no	3	pobj
-5	Entre	entre	sps00	sps00	recursive=no|theme=no|main=no	4	appos
-6	línies	línies	np00000	np00000	recursive=no|theme=no|main=no	5	pobj
+1	Un	uno	di0ms0	di0ms0	recursive=no|theme=yes|main=no	2	det
+2	equipo	equipo	ncms000	ncms000	recursive=no|theme=yes|main=no	8	nsubj
+3	del	del	spcms	spcms	recursive=no|theme=yes|main=no	2	prepn
+4	programa	programa	ncms000	ncms000	recursive=no|theme=yes|main=no	3	pobj
+5	Entre	entre	sps00	sps00	recursive=no|theme=yes|main=no	4	appos
+6	línies	línies	np00000	np00000	recursive=no|theme=yes|main=no	5	pobj
 7	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	9	reflec
 8	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 9	desplazado	desplazar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	8	vobj
@@ -64,13 +64,13 @@
 17	con	con	sps00	sps00	recursive=no|theme=no|main=no	16	prepv
 18	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	19	det
 19	personas	persona	ncfp000	ncfp000	recursive=no|theme=no|main=no	17	pobj
-20	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	21	nsubj
+20	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	21	nsubj
 21	conviven	convivir	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	19	rcmod
 22	con	con	sps00	sps00	recursive=no|theme=no|main=no	21	prepv
 23	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	24	det
 24	problema	problema	ncms000	ncms000	recursive=no|theme=no|main=no	22	pobj
 25	,	,	fc	fc	recursive=no|theme=no|main=no	24	punct
-26	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	34	nsubj
+26	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	34	nsubj
 27	,	,	fc	fc	recursive=no|theme=no|main=no	34	punct
 28	por	por	sps00	sps00	recursive=no|theme=no|main=no	34	prepv
 29	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	30	det
@@ -83,11 +83,11 @@
 36	acabará	acabar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	34	dobj
 37	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	resultado	resultado	ncms000	ncms000	recursive=yes|theme=yes|main=no	6	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	este	este	dd0ms0	dd0ms0	recursive=no|theme=no|main=no	5	det
-5	trabajo	trabajo	ncms000	ncms000	recursive=no|theme=no|main=no	3	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	resultado	resultado	ncms000	ncms000	recursive=no|theme=yes|main=no	6	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	este	este	dd0ms0	dd0ms0	recursive=no|theme=yes|main=no	5	det
+5	trabajo	trabajo	ncms000	ncms000	recursive=no|theme=yes|main=no	3	pobj
 6	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 7	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	8	det
 8	reportaje	reportaje	ncms000	ncms000	recursive=no|theme=no|main=no	6	attr
@@ -96,8 +96,8 @@
 11	esquerdat	esquerdat	np0000l	np0000l	recursive=no|theme=no|main=no	10	appos
 12	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	programa	programa	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	programa	programa	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	muestra	mostrar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	5	det
 5	situación	situación	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	dobj
@@ -106,7 +106,7 @@
 8	familia	familia	ncfs000	ncfs000	recursive=no|theme=no|main=no	6	pobj
 9	Lozano	Lozano	np00000	np00000	recursive=no|theme=no|main=no	8	appos
 10	,	,	fc	fc	recursive=no|theme=no|main=no	12	punct
-11	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	12	nsubj
+11	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	12	nsubj
 12	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	8	dep
 13	sido	ser	vsp00sm	vsp00sm	recursive=no|theme=no|main=no	12	vobj
 14	desalojada	desalojar	vmp00sf	vmp00sf	recursive=no|theme=no|main=no	13	attr
@@ -116,7 +116,7 @@
 18	de	de	sps00	sps00	recursive=no|theme=no|main=no	17	prepn
 19	propiedad	propiedad	ncfs000	ncfs000	recursive=no|theme=no|main=no	18	pobj
 20	,	,	fc	fc	recursive=no|theme=no|main=no	17	punct
-21	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	22	nsubj
+21	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	22	nsubj
 22	forma	formar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	17	rcmod
 23	parte	parte	ncfp000	ncfp000	recursive=no|theme=no|main=no	22	dobj
 24	de	de	sps00	sps00	recursive=no|theme=no|main=no	22	oobj
@@ -144,7 +144,7 @@
 5	y	y	cc	cc	recursive=no|theme=no|main=no	3	pobj
 6	Ramon	Ramon	np00000	np00000	recursive=no|theme=no|main=no	5	coord
 7	,	,	fc	fc	recursive=no|theme=no|main=no	5	punct
-8	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	9	nsubj
+8	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	9	nsubj
 9	tienen	tener	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	5	rcmod
 10	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	11	det
 11	vivienda	vivienda	ncfs000	ncfs000	recursive=no|theme=no|main=no	9	dobj
@@ -175,8 +175,8 @@
 36	pared	pared	ncfs000	ncfs000	recursive=no|theme=no|main=no	34	pobj
 37	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	espacio	espacio	ncms000	ncms000	recursive=yes|theme=yes|main=no	4	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	espacio	espacio	ncms000	ncms000	recursive=no|theme=yes|main=no	4	nsubj
 3	también	también	rg	rg	recursive=no|theme=no|main=no	4	advmod
 4	ofrece	ofrecer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
@@ -184,7 +184,7 @@
 7	Mare	mare	ncfs000	ncfs000	recursive=no|theme=no|main=no	6	appos
 8	Terra	terra	nc00000	nc00000	recursive=no|theme=no|main=no	7	appos
 9	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
-10	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	11	nsubj
+10	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	11	nsubj
 11	muestra	mostrar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	6	rcmod
 12	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	13	det
 13	trabajo	trabajo	ncms000	ncms000	recursive=no|theme=no|main=no	11	dobj
@@ -237,14 +237,14 @@
 7	als	als	ncms000	ncms000	recursive=no|theme=no|main=no	6	appos
 8	dits	dits	np00000	np00000	recursive=no|theme=no|main=no	7	appos
 9	,	,	fc	fc	recursive=no|theme=no|main=no	4	punct
-10	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	11	nsubj
+10	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	11	nsubj
 11	analiza	analizar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	4	rcmod
 12	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	13	det
 13	creatividad	creatividad	ncfs000	ncfs000	recursive=no|theme=no|main=no	14	coord
 14	y	y	cc	cc	recursive=no|theme=no|main=no	11	dobj
 15	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	16	det
 16	experimentación	experimentación	ncfs000	ncfs000	recursive=no|theme=no|main=no	14	coord
-17	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	18	nsubj
+17	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	18	nsubj
 18	rodea	rodear	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	14	rcmod
 19	a	a	sps00	sps00	recursive=no|theme=no|main=no	18	dobj
 20	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	23	coord

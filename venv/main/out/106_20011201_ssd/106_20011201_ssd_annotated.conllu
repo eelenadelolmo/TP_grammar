@@ -1,5 +1,5 @@
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	vecinos	vecino	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	vecinos	vecino	ncmp000	ncmp000	recursive=no|theme=yes|main=no	3	nsubj
 3	habían	haber	vaii3p0	vaii3p0	recursive=no|theme=no|main=no	0	root
 4	anunciado	anunciar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	3	vobj
 5	que	que	cs	cs	recursive=yes|theme=no|main=yes	4	dobj
@@ -32,8 +32,8 @@
 4	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	5	det
 5	protesta	protesta	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	dobj
 6	porque	porque	cs	cs	recursive=no|theme=no|main=no	2	advcl
-7	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	8	det
-8	ayuntamiento	ayuntamiento	ncms000	ncms000	recursive=yes|theme=yes|main=no	9	nsubj
+7	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	8	det
+8	ayuntamiento	ayuntamiento	ncms000	ncms000	recursive=no|theme=yes|main=no	9	nsubj
 9	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	6	cobj
 10	empezado	empezar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	9	vobj
 11	a	a	sps00	sps00	recursive=no|theme=no|main=no	10	prepv
@@ -45,10 +45,10 @@
 1	No	no	rn	rn	recursive=no|theme=no|main=no	2	neg
 2	obstante	obstante	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	8	te
 3	,	,	fc	fc	recursive=no|theme=no|main=no	8	punct
-4	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	5	det
-5	asociación	asociación	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	8	nsubj
-6	de	de	sps00	sps00	recursive=no|theme=no|main=no	5	prepn
-7	vecinos	vecino	ncmp000	ncmp000	recursive=no|theme=no|main=no	6	pobj
+4	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	5	det
+5	asociación	asociación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	8	nsubj
+6	de	de	sps00	sps00	recursive=no|theme=yes|main=no	5	prepn
+7	vecinos	vecino	ncmp000	ncmp000	recursive=no|theme=yes|main=no	6	pobj
 8	mantiene	mantener	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 9	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	11	det
 10	demás	demás	pi0cp000	pi0cp000	recursive=no|theme=no|main=no	9	dep

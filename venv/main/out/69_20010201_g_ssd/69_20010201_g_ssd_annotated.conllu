@@ -1,5 +1,5 @@
-1	BBVA	BBVA	np0000l	np0000l	recursive=yes|theme=yes|main=no	3	nsubj
-2	Portugal	Portugal	np0000l	np0000l	recursive=no|theme=no|main=no	1	appos
+1	BBVA	BBVA	np0000l	np0000l	recursive=no|theme=yes|main=no	3	nsubj
+2	Portugal	Portugal	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
 3	aumentó	aumentar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	5	det
 5	beneficios	beneficio	ncmp000	ncmp000	recursive=no|theme=no|main=no	3	dobj
@@ -10,13 +10,13 @@
 10	2000	2000	z	z	recursive=no|theme=no|main=no	8	pobj
 11	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	2	det
-2	ganancias	ganancia	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	8	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	1.527	1527	z	z	recursive=no|theme=no|main=no	5	num
-5	millones	millón	ncmp000	ncmp000	recursive=no|theme=no|main=no	3	pobj
-6	de	de	sps00	sps00	recursive=no|theme=no|main=no	5	prepn
-7	pesetas	peseta	zm	zm	recursive=no|theme=no|main=no	6	pobj
+1	Las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	2	det
+2	ganancias	ganancia	ncfp000	ncfp000	recursive=no|theme=yes|main=no	8	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	1.527	1527	z	z	recursive=no|theme=yes|main=no	5	num
+5	millones	millón	ncmp000	ncmp000	recursive=no|theme=yes|main=no	3	pobj
+6	de	de	sps00	sps00	recursive=no|theme=yes|main=no	5	prepn
+7	pesetas	peseta	zm	zm	recursive=no|theme=yes|main=no	6	pobj
 8	respondieron	responder	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 9	a	a	sps00	sps00	recursive=no|theme=no|main=no	8	oobj
 10	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	11	det
@@ -30,18 +30,18 @@
 18	negocio	negocio	ncms000	ncms000	recursive=no|theme=no|main=no	17	pobj
 19	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	volumen	volumen	ncms000	ncms000	recursive=yes|theme=yes|main=no	5	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	clientes	cliente	nccp000	nccp000	recursive=no|theme=no|main=no	3	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	volumen	volumen	ncms000	ncms000	recursive=no|theme=yes|main=no	5	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	clientes	cliente	nccp000	nccp000	recursive=no|theme=yes|main=no	3	pobj
 5	creció	crecer	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	8	coord
 6	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	7	det
 7	26%	26/100	zp	zp	recursive=no|theme=no|main=no	5	dobj
 8	y	y	cc	cc	recursive=no|theme=no|main=no	0	root
-9	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	10	det
-10	margen	margen	nccs000	nccs000	recursive=yes|theme=yes|main=no	14	nsubj
-11	de	de	sps00	sps00	recursive=no|theme=no|main=no	10	prepn
-12	explotación	explotación	ncfs000	ncfs000	recursive=no|theme=no|main=no	11	pobj
+9	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	10	det
+10	margen	margen	nccs000	nccs000	recursive=no|theme=yes|main=no	14	nsubj
+11	de	de	sps00	sps00	recursive=no|theme=yes|main=no	10	prepn
+12	explotación	explotación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	11	pobj
 13	lo	él	pp3msa00	pp3msa00	recursive=no|theme=no|main=no	14	dobj
 14	hizo	hacer	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	8	coord
 15	en	en	sps00	sps00	recursive=no|theme=no|main=no	14	prepv
@@ -49,15 +49,15 @@
 17	74,2%	74.2	z	z	recursive=no|theme=no|main=no	15	pobj
 18	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	activos	activo	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	activos	activo	ncmp000	ncmp000	recursive=no|theme=yes|main=no	3	nsubj
 3	aumentaron	aumentar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 4	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	5	det
 5	72%	72/100	zp	zp	recursive=no|theme=no|main=no	3	dobj
 6	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Banco	banco	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
-2	Urquijo	Urquijo	np00000	np00000	recursive=no|theme=no|main=no	1	appos
+1	Banco	banco	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
+2	Urquijo	Urquijo	np00000	np00000	recursive=no|theme=yes|main=no	1	appos
 3	ganó	ganar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	4.103	4103	z	z	recursive=no|theme=no|main=no	5	num
 5	millones	millón	ncmp000	ncmp000	recursive=no|theme=no|main=no	3	dobj
@@ -66,8 +66,8 @@
 8	año	año	ncms000	ncms000	recursive=no|theme=no|main=no	3	tmod
 9	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Esta	este	dd0fs0	dd0fs0	recursive=no|theme=no|main=no	2	det
-2	cifra	cifra	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Esta	este	dd0fs0	dd0fs0	recursive=no|theme=yes|main=no	2	det
+2	cifra	cifra	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	nsubj
 3	supuso	suponer	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	5	det
 5	alza	alza	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	dobj
@@ -80,22 +80,22 @@
 12	anterior	anterior	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	11	amod
 13	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	margen	margen	nccs000	nccs000	recursive=yes|theme=yes|main=no	4	nsubj
-3	ordinario	ordinario	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	2	amod
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	margen	margen	nccs000	nccs000	recursive=no|theme=yes|main=no	4	nsubj
+3	ordinario	ordinario	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	2	amod
 4	creció	crecer	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	7	coord
 5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
 6	12,3%	12.3/100	zp	zp	recursive=no|theme=no|main=no	4	dobj
 7	y	y	cc	cc	recursive=no|theme=no|main=no	0	root
-8	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	9	det
-9	ingresos	ingreso	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	17	nsubj
-10	por	por	sps00	sps00	recursive=no|theme=no|main=no	9	prepn
-11	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	12	det
-12	gestión	gestión	ncfs000	ncfs000	recursive=no|theme=no|main=no	10	pobj
-13	de	de	sps00	sps00	recursive=no|theme=no|main=no	12	prepn
-14	fondos	fondo	ncmp000	ncmp000	recursive=no|theme=no|main=no	13	pobj
-15	de	de	sps00	sps00	recursive=no|theme=no|main=no	14	prepn
-16	inversión	inversión	ncfs000	ncfs000	recursive=no|theme=no|main=no	15	pobj
+8	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	9	det
+9	ingresos	ingreso	ncmp000	ncmp000	recursive=no|theme=yes|main=no	17	nsubj
+10	por	por	sps00	sps00	recursive=no|theme=yes|main=no	9	prepn
+11	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	12	det
+12	gestión	gestión	ncfs000	ncfs000	recursive=no|theme=yes|main=no	10	pobj
+13	de	de	sps00	sps00	recursive=no|theme=yes|main=no	12	prepn
+14	fondos	fondo	ncmp000	ncmp000	recursive=no|theme=yes|main=no	13	pobj
+15	de	de	sps00	sps00	recursive=no|theme=yes|main=no	14	prepn
+16	inversión	inversión	ncfs000	ncfs000	recursive=no|theme=yes|main=no	15	pobj
 17	subieron	subir	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	7	coord
 18	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	19	det
 19	32%	32/100	zp	zp	recursive=no|theme=no|main=no	17	dobj

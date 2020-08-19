@@ -1,15 +1,15 @@
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	división	división	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	13	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	consultoría	consultoría	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	pobj
-5	estratégica	estratégico	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	4	amod
-6	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-7	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	8	det
-8	firma	firma	ncfs000	ncfs000	recursive=no|theme=no|main=no	6	pobj
-9	de	de	sps00	sps00	recursive=no|theme=no|main=no	8	prepn
-10	servicios	servicio	ncmp000	ncmp000	recursive=no|theme=no|main=no	9	pobj
-11	profesionales	profesional	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	10	amod
-12	Mazars	Mazars	np00000	np00000	recursive=no|theme=no|main=no	8	appos
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	división	división	ncfs000	ncfs000	recursive=no|theme=yes|main=no	13	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	consultoría	consultoría	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	pobj
+5	estratégica	estratégico	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	4	amod
+6	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+7	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	8	det
+8	firma	firma	ncfs000	ncfs000	recursive=no|theme=yes|main=no	6	pobj
+9	de	de	sps00	sps00	recursive=no|theme=yes|main=no	8	prepn
+10	servicios	servicio	ncmp000	ncmp000	recursive=no|theme=yes|main=no	9	pobj
+11	profesionales	profesional	aq0cp0	aq0cp0	recursive=no|theme=yes|main=no	10	amod
+12	Mazars	Mazars	np00000	np00000	recursive=no|theme=yes|main=no	8	appos
 13	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 14	incorporado	incorporar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	13	vobj
 15	a	a	sps00	sps00	recursive=no|theme=no|main=no	14	dobj
@@ -24,7 +24,7 @@
 24	asesor	asesor	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	23	amod
 25	.	.	fp	fp	recursive=no|theme=no|main=no	13	punct
 
-1	Ramallo	Ramallo	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Ramallo	Ramallo	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 2	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	23	coord
 3	sido	ser	vsp00sm	vsp00sm	recursive=no|theme=no|main=no	2	vobj
 4	vicepresidente	vicepresidente	ncms000	ncms000	recursive=no|theme=no|main=no	16	coord

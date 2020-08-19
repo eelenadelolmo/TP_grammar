@@ -2,8 +2,8 @@
 2	pacifistas	pacifista	nccp000	nccp000	recursive=no|theme=no|main=no	8	dobj
 3	desgracia	desgracia	ncfs000	ncfs000	recursive=no|theme=no|main=no	8	dobj
 4	,	,	fc	fc	recursive=no|theme=no|main=no	8	punct
-5	nuestras	nuestro	dp1fpp	dp1fpp	recursive=no|theme=no|main=no	6	poss
-6	previsiones	previsión	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	8	nsubj
+5	nuestras	nuestro	dp1fpp	dp1fpp	recursive=no|theme=yes|main=no	6	poss
+6	previsiones	previsión	ncfp000	ncfp000	recursive=no|theme=yes|main=no	8	nsubj
 7	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	8	reflec
 8	cumplieron	cumplir	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 9	en	en	sps00	sps00	recursive=no|theme=no|main=no	8	prepv
@@ -21,7 +21,7 @@
 5	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	7	poss
 6	sano	sano	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	7	amod
 7	juicio	juicio	ncms000	ncms000	recursive=no|theme=no|main=no	4	pobj
-8	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	9	nsubj
+8	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	9	nsubj
 9	crea	creer	vmsp3s0	vmsp3s0	recursive=no|theme=no|main=no	3	rcmod
 10	que	que	cs	cs	recursive=yes|theme=no|main=yes	9	dobj
 11	bombardeando	bombardear	vmg0000	vmg0000	recursive=no|theme=no|main=no	15	advcl
@@ -36,8 +36,8 @@
 20	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
 1	¿	¿	fia	fia	recursive=no|theme=no|main=no	4	punct
-2	Ese	ese	dd0ms0	dd0ms0	recursive=no|theme=no|main=no	3	det
-3	alguien	alguien	pi0cs000	pi0cs000	recursive=yes|theme=yes|main=no	4	nsubj
+2	Ese	ese	dd0ms0	dd0ms0	recursive=no|theme=yes|main=no	3	det
+3	alguien	alguien	pi0cs000	pi0cs000	recursive=no|theme=yes|main=no	4	nsubj
 4	tendrá	tener	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	0	root
 5	después	después	rg	rg	recursive=no|theme=no|main=no	4	advmod
 6	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	7	det
@@ -62,8 +62,8 @@
 25	afirmar	afirmar	vmn0000	vmn0000	recursive=no|theme=no|main=no	24	coord
 26	que	que	cs	cs	recursive=yes|theme=no|main=yes	25	dobj
 27	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	31	punct
-28	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	29	det
-29	fin	fin	ncms000	ncms000	recursive=yes|theme=yes|main=no	31	nsubj
+28	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	29	det
+29	fin	fin	ncms000	ncms000	recursive=no|theme=yes|main=no	31	nsubj
 30	no	no	rn	rn	recursive=no|theme=no|main=no	31	neg
 31	justifica	justificar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	26	cobj
 32	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	33	det
@@ -77,7 +77,7 @@
 3	estúpida	estúpido	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	4	amod
 4	candidez	candidez	ncfs000	ncfs000	recursive=no|theme=no|main=no	1	pobj
 5	,	,	fc	fc	recursive=no|theme=no|main=no	8	punct
-6	nosotros	yo	pp1mp000	pp1mp000	recursive=yes|theme=yes|main=no	8	nsubj
+6	nosotros	yo	pp1mp000	pp1mp000	recursive=no|theme=yes|main=no	8	nsubj
 7	sí	sí	rg	rg	recursive=no|theme=no|main=no	8	advmod
 8	creemos	creer	vmip1p0	vmip1p0	recursive=no|theme=no|main=no	13	coord
 9	profundamente	profundamente	rg	rg	recursive=no|theme=no|main=no	8	advmod
@@ -112,12 +112,12 @@
 1	Y	y	cc	cc	recursive=no|theme=no|main=no	2	te
 2	creemos	creer	vmip1p0	vmip1p0	recursive=no|theme=no|main=no	0	root
 3	que	que	cs	cs	recursive=yes|theme=no|main=yes	2	dobj
-4	nuestro	nuestro	dp1msp	dp1msp	recursive=no|theme=no|main=no	5	poss
-5	resultado	resultado	ncms000	ncms000	recursive=yes|theme=yes|main=no	10	nsubj
-6	,	,	fc	fc	recursive=no|theme=no|main=no	5	punct
-7	nuestra	nuestro	dp1fsp	dp1fsp	recursive=no|theme=no|main=no	8	poss
-8	paz	paz	ncfs000	ncfs000	recursive=no|theme=no|main=no	5	appos
-9	,	,	fc	fc	recursive=no|theme=no|main=no	5	punct
+4	nuestro	nuestro	dp1msp	dp1msp	recursive=no|theme=yes|main=no	5	poss
+5	resultado	resultado	ncms000	ncms000	recursive=no|theme=yes|main=no	10	nsubj
+6	,	,	fc	fc	recursive=no|theme=yes|main=no	5	punct
+7	nuestra	nuestro	dp1fsp	dp1fsp	recursive=no|theme=yes|main=no	8	poss
+8	paz	paz	ncfs000	ncfs000	recursive=no|theme=yes|main=no	5	appos
+9	,	,	fc	fc	recursive=no|theme=yes|main=no	5	punct
 10	será	ser	vsif3s0	vsif3s0	recursive=no|theme=no|main=no	13	coord
 11	más	más	rg	rg	recursive=no|theme=no|main=no	13	advmod
 12	justa	justo	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	13	coord
@@ -125,7 +125,7 @@
 14	democrática	democrático	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	13	coord
 15	que	que	cs	cs	recursive=no|theme=no|main=no	11	crobj
 16	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	19	det
-17	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	19	nsubj
+17	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	19	nsubj
 18	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	19	reflec
 19	alcance	alcanzar	vmsp3s0	vmsp3s0	recursive=no|theme=no|main=no	15	rcmod
 20	mediante	mediante	sps00	sps00	recursive=no|theme=no|main=no	19	prepv

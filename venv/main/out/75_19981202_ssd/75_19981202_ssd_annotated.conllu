@@ -1,5 +1,5 @@
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	Ayuntamiento	Ayuntamiento	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	Ayuntamiento	Ayuntamiento	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 3	tendrá	tener	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	0	root
 4	nuevas	nuevo	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	5	amod
 5	competencias	competencia	ncfp000	ncfp000	recursive=no|theme=no|main=no	3	dobj
@@ -33,22 +33,22 @@
 33	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	31	pobj
 34	también	también	rg	rg	recursive=no|theme=no|main=no	35	advmod
 35	participará	participar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	30	dep
-36	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	37	det
-37	Generalitat	Generalitat	np00000	np00000	recursive=yes|theme=yes|main=no	35	nsubj
-38	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	39	nsubj
+36	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	37	det
+37	Generalitat	Generalitat	np00000	np00000	recursive=no|theme=yes|main=no	35	nsubj
+38	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	39	nsubj
 39	gestionarán	gestionar	vmif3p0	vmif3p0	recursive=no|theme=no|main=no	30	rcmod
 40	estas	este	dd0fp0	dd0fp0	recursive=no|theme=no|main=no	41	det
 41	áreas	área	ncfp000	ncfp000	recursive=no|theme=no|main=no	39	dobj
 42	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	puesta	puesta	ncms000	ncms000	recursive=yes|theme=yes|main=no	10	nsubj
-3	en	en	spcms	spcms	recursive=no|theme=no|main=no	2	prepn
-4	marcha	marcha	ncms000	ncms000	recursive=no|theme=no|main=no	3	pobj
-5	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-6	estas	este	dd0fp0	dd0fp0	recursive=no|theme=no|main=no	8	det
-7	nuevas	nuevo	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	8	amod
-8	entidades	entidad	ncfp000	ncfp000	recursive=no|theme=no|main=no	5	pobj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	puesta	puesta	ncms000	ncms000	recursive=no|theme=yes|main=no	10	nsubj
+3	en	en	spcms	spcms	recursive=no|theme=yes|main=no	2	prepn
+4	marcha	marcha	ncms000	ncms000	recursive=no|theme=yes|main=no	3	pobj
+5	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+6	estas	este	dd0fp0	dd0fp0	recursive=no|theme=yes|main=no	8	det
+7	nuevas	nuevo	aq0fp0	aq0fp0	recursive=no|theme=yes|main=no	8	amod
+8	entidades	entidad	ncfp000	ncfp000	recursive=no|theme=yes|main=no	5	pobj
 9	no	no	rn	rn	recursive=no|theme=no|main=no	10	neg
 10	será	ser	vsif3s0	vsif3s0	recursive=no|theme=no|main=no	13	coord
 11	inmediata	inmediato	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	10	attr
@@ -65,8 +65,8 @@
 22	Generalitat	Generalitat	np00000	np00000	recursive=no|theme=no|main=no	20	pobj
 23	.	.	fp	fp	recursive=no|theme=no|main=no	13	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	Carta	Carta	np00000	np00000	recursive=yes|theme=yes|main=no	4	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	Carta	Carta	np00000	np00000	recursive=no|theme=yes|main=no	4	nsubj
 3	también	también	rg	rg	recursive=no|theme=no|main=no	4	advmod
 4	abre	abrir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 5	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	6	det
@@ -75,13 +75,13 @@
 8	que	que	cs	cs	recursive=no|theme=no|main=no	7	pobj
 9	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	10	reflec
 10	asuman	asumir	vmsp3p0	vmsp3p0	recursive=no|theme=no|main=no	8	cobj
-11	todas	todo	di0fp0	di0fp0	recursive=no|theme=no|main=no	13	det
-12	aquellas	aquel	dd0fp0	dd0fp0	recursive=no|theme=no|main=no	13	det
-13	competencias	competencia	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	10	nsubj
-14	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	16	nsubj
-15	no	no	rn	rn	recursive=no|theme=no|main=no	16	neg
-16	detenten	detentar	vmsp3p0	vmsp3p0	recursive=no|theme=no|main=no	13	rcmod
-17	administraciones	administración	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	16	nsubj
-18	superiores	superior	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	17	amod
+11	todas	todo	di0fp0	di0fp0	recursive=no|theme=yes|main=no	13	det
+12	aquellas	aquel	dd0fp0	dd0fp0	recursive=no|theme=yes|main=no	13	det
+13	competencias	competencia	ncfp000	ncfp000	recursive=no|theme=yes|main=no	10	nsubj
+14	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	16	nsubj
+15	no	no	rn	rn	recursive=no|theme=yes|main=no	16	neg
+16	detenten	detentar	vmsp3p0	vmsp3p0	recursive=no|theme=yes|main=no	13	rcmod
+17	administraciones	administración	ncfp000	ncfp000	recursive=no|theme=yes|main=no	16	nsubj
+18	superiores	superior	aq0cp0	aq0cp0	recursive=no|theme=yes|main=no	17	amod
 19	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 

@@ -1,18 +1,18 @@
 1	En	en	sps00	sps00	recursive=no|theme=no|main=no	10	prepv
 2	1990	1990	z	z	recursive=no|theme=no|main=no	1	pobj
-3	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	4	det
-4	cooperativa	cooperativa	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	9	nsubj
-5	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	6	nsubj
-6	explotaba	explotar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	4	rcmod
-7	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	8	det
-8	tierra	tierra	ncfs000	ncfs000	recursive=no|theme=no|main=no	6	dobj
+3	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	4	det
+4	cooperativa	cooperativa	ncfs000	ncfs000	recursive=no|theme=yes|main=no	9	nsubj
+5	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	6	nsubj
+6	explotaba	explotar	vmii3s0	vmii3s0	recursive=no|theme=yes|main=no	4	rcmod
+7	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	8	det
+8	tierra	tierra	ncfs000	ncfs000	recursive=no|theme=yes|main=no	6	dobj
 9	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	0	root
 10	disuelta	disolver	vmp00sf	vmp00sf	recursive=no|theme=no|main=no	9	attr
 11	.	.	fp	fp	recursive=no|theme=no|main=no	9	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	familia	familia	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
-3	Sundermeyer	Sundermeyer	np0000p	np0000p	recursive=no|theme=no|main=no	2	appos
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	familia	familia	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
+3	Sundermeyer	Sundermeyer	np0000p	np0000p	recursive=no|theme=yes|main=no	2	appos
 4	compró	comprar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 5	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	6	det
 6	propiedad	propiedad	ncfs000	ncfs000	recursive=no|theme=no|main=no	4	dobj
@@ -36,8 +36,8 @@
 12	-	-	fg	fg	recursive=no|theme=no|main=no	8	punct
 13	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	granja	granja	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	granja	granja	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
 3	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	4	reflec
 4	encuentra	encontrar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 5	en	en	sps00	sps00	recursive=no|theme=no|main=no	4	prepv
@@ -61,8 +61,8 @@
 13	mujer	mujer	ncfs000	ncfs000	recursive=no|theme=no|main=no	11	pobj
 14	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	tierra	tierra	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	tierra	tierra	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	nsubj
 3	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	agotada	agotado	aq0fsp	aq0fsp	recursive=no|theme=no|main=no	3	attr
 5	debido	deber	vmip2s0	vmip2s0	recursive=no|theme=no|main=no	9	coord
@@ -76,12 +76,12 @@
 13	intensiva	intensivo	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	12	amod
 14	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	15	dobj
 15	practicó	practicar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	12	rcmod
-16	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	17	det
-17	cooperativa	cooperativa	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	15	nsubj
+16	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	17	det
+17	cooperativa	cooperativa	ncfs000	ncfs000	recursive=no|theme=yes|main=no	15	nsubj
 18	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	suelo	suelo	ncms000	ncms000	recursive=yes|theme=yes|main=no	4	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	suelo	suelo	ncms000	ncms000	recursive=no|theme=yes|main=no	4	nsubj
 3	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	4	reflec
 4	encuentra	encontrar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 5	tan	tanto	rg	rg	recursive=no|theme=no|main=no	6	advmod
@@ -110,14 +110,14 @@
 9	mineral	mineral	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	8	amod
 10	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	Gustav	Gustav	np0000l	np0000l	recursive=yes|theme=yes|main=no	3	nsubj
-2	Sundermeyer	Sundermeyer	np0000l	np0000l	recursive=no|theme=no|main=no	1	appos
+1	Gustav	Gustav	np0000l	np0000l	recursive=no|theme=yes|main=no	3	nsubj
+2	Sundermeyer	Sundermeyer	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
 3	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	convencido	convencido	aq0msp	aq0msp	recursive=no|theme=no|main=no	3	attr
 5	de	de	sps00	sps00	recursive=no|theme=no|main=no	4	oobj
 6	que	que	cs	cs	recursive=no|theme=no|main=no	5	pobj
-7	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	8	det
-8	esfuerzo	esfuerzo	ncms000	ncms000	recursive=yes|theme=yes|main=no	9	nsubj
+7	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	8	det
+8	esfuerzo	esfuerzo	ncms000	ncms000	recursive=no|theme=yes|main=no	9	nsubj
 9	compensa	compensar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	6	cobj
 10	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
@@ -132,9 +132,9 @@
 9	riesgo	riesgo	ncms000	ncms000	recursive=no|theme=no|main=no	7	pobj
 10	ciertamente	ciertamente	rg	rg	recursive=no|theme=no|main=no	11	advmod
 11	menor	menor	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	9	amod
-12	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	13	det
-13	abogado	abogado	ncms000	ncms000	recursive=yes|theme=yes|main=no	15	nsubj
-14	Spirk	Spirk	np0000p	np0000p	recursive=no|theme=no|main=no	13	appos
+12	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	13	det
+13	abogado	abogado	ncms000	ncms000	recursive=no|theme=yes|main=no	15	nsubj
+14	Spirk	Spirk	np0000p	np0000p	recursive=no|theme=yes|main=no	13	appos
 15	hizo	hacer	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	18	coord
 16	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	17	det
 17	maletas	maleta	ncfp000	ncfp000	recursive=no|theme=no|main=no	15	dobj
@@ -157,8 +157,8 @@
 34	Turingia	Turingia	np0000l	np0000l	recursive=no|theme=no|main=no	33	pobj
 35	.	.	fp	fp	recursive=no|theme=no|main=no	18	punct
 
-1	Sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	2	poss
-2	motivos	motivo	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Sus	su	dp3cp0	dp3cp0	recursive=no|theme=yes|main=no	2	poss
+2	motivos	motivo	ncmp000	ncmp000	recursive=no|theme=yes|main=no	3	nsubj
 3	son	ser	vsip3p0	vsip3p0	recursive=no|theme=no|main=no	0	root
 4	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	prepv
 5	orden	orden	ncfs000	ncfs000	recursive=no|theme=no|main=no	4	pobj
@@ -166,8 +166,8 @@
 7	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
 1	-	-	fg	fg	recursive=no|theme=no|main=no	5	punct
-2	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	3	det
-3	pastel	pastel	ncms000	ncms000	recursive=yes|theme=yes|main=no	5	nsubj
+2	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	3	det
+3	pastel	pastel	ncms000	ncms000	recursive=no|theme=yes|main=no	5	nsubj
 4	ya	ya	rg	rg	recursive=no|theme=no|main=no	5	advmod
 5	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 6	repartido	repartido	aq0msp	aq0msp	recursive=no|theme=no|main=no	5	attr
@@ -182,12 +182,12 @@
 4	,	,	fc	fc	recursive=no|theme=no|main=no	3	punct
 5	donde	donde	pr000000	pr000000	recursive=no|theme=no|main=no	9	coord
 6	viven	vivir	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	9	coord
-7	130.000	130000	z	z	recursive=no|theme=no|main=no	8	num
-8	personas	persona	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	6	nsubj
+7	130.000	130000	z	z	recursive=no|theme=yes|main=no	8	num
+8	personas	persona	ncfp000	ncfp000	recursive=no|theme=yes|main=no	6	nsubj
 9	y	y	cc	cc	recursive=no|theme=no|main=no	3	rcmod
 10	éramos	ser	vsii1p0	vsii1p0	recursive=no|theme=no|main=no	9	coord
-11	300	300	z	z	recursive=no|theme=no|main=no	12	num
-12	abogados	abogado	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	10	nsubj
+11	300	300	z	z	recursive=no|theme=yes|main=no	12	num
+12	abogados	abogado	ncmp000	ncmp000	recursive=no|theme=yes|main=no	10	nsubj
 13	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
 1	En	en	sps00	sps00	recursive=no|theme=no|main=no	4	prepv

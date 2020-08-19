@@ -41,7 +41,7 @@
 2	,	,	fc	fc	recursive=no|theme=no|main=no	1	punct
 3	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	4	det
 4	clásico	clásico	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	1	amod
-5	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	6	nsubj
+5	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	6	nsubj
 6	pegará	pegar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	4	rcmod
 7	a	a	sps00	sps00	recursive=no|theme=no|main=no	6	prepv
 8	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	9	det
@@ -104,11 +104,11 @@
 5	barcelonistas	barcelonista	nccp000	nccp000	recursive=no|theme=no|main=no	3	nsubj
 6	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Más	más	rg	rg	recursive=no|theme=no|main=no	3	advmod
-2	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	prep
-3	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	4	det
-4	lágrima	lágrima	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	6	nsubj
-5	azulgrana	azulgrana	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	4	amod
+1	Más	más	rg	rg	recursive=no|theme=yes|main=no	3	advmod
+2	de	de	sps00	sps00	recursive=no|theme=yes|main=no	3	prep
+3	una	uno	di0fs0	di0fs0	recursive=no|theme=yes|main=no	4	det
+4	lágrima	lágrima	ncfs000	ncfs000	recursive=no|theme=yes|main=no	6	nsubj
+5	azulgrana	azulgrana	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	4	amod
 6	abona	abonar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 7	aquel	aquel	dd0ms0	dd0ms0	recursive=no|theme=no|main=no	9	det
 8	lustroso	lustroso	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	9	amod
@@ -116,7 +116,7 @@
 10	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
 1	Mientras	mientras	cs	cs	recursive=no|theme=no|main=no	36	advcl
-2	Kiko	Kiko	np00000	np00000	recursive=yes|theme=yes|main=no	4	nsubj
+2	Kiko	Kiko	np00000	np00000	recursive=no|theme=yes|main=no	4	nsubj
 3	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	4	reflec
 4	lame	lamer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	11	coord
 5	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	6	det
@@ -126,17 +126,17 @@
 9	corazón	corazón	ncms000	ncms000	recursive=no|theme=no|main=no	7	pobj
 10	rojiblanco	rojiblanco	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	9	amod
 11	y	y	cc	cc	recursive=no|theme=no|main=no	1	cobj
-12	diez	diez	pn0cp000	pn0cp000	recursive=no|theme=no|main=no	13	coord
-13	o	o	cc	cc	recursive=no|theme=no|main=no	15	dep
-14	veinte	veinte	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	13	coord
-15	energúmenos	energúmeno	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	23	nsubj
-16	,	,	fc	fc	recursive=no|theme=no|main=no	15	punct
-17	tal	tal	pr0ms000	pr0ms000	recursive=yes|theme=yes|main=no	18	nsubj
-18	vez	vez	ncms000	ncms000	recursive=no|theme=no|main=no	19	advmod
-19	amamantados	amamantado	aq0mpp	aq0mpp	recursive=no|theme=no|main=no	15	amod
-20	por	por	sps00	sps00	recursive=no|theme=no|main=no	19	agent
-21	Gil	Gil	np00000	np00000	recursive=no|theme=no|main=no	20	pobj
-22	,	,	fc	fc	recursive=no|theme=no|main=no	15	punct
+12	diez	diez	pn0cp000	pn0cp000	recursive=no|theme=yes|main=no	13	coord
+13	o	o	cc	cc	recursive=no|theme=yes|main=no	15	dep
+14	veinte	veinte	dn0cp0	dn0cp0	recursive=no|theme=yes|main=no	13	coord
+15	energúmenos	energúmeno	ncmp000	ncmp000	recursive=no|theme=yes|main=no	23	nsubj
+16	,	,	fc	fc	recursive=no|theme=yes|main=no	15	punct
+17	tal	tal	pr0ms000	pr0ms000	recursive=no|theme=yes|main=no	18	nsubj
+18	vez	vez	ncms000	ncms000	recursive=no|theme=yes|main=no	19	advmod
+19	amamantados	amamantado	aq0mpp	aq0mpp	recursive=no|theme=yes|main=no	15	amod
+20	por	por	sps00	sps00	recursive=no|theme=yes|main=no	19	agent
+21	Gil	Gil	np00000	np00000	recursive=no|theme=yes|main=no	20	pobj
+22	,	,	fc	fc	recursive=no|theme=yes|main=no	15	punct
 23	intentan	intentar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	11	coord
 24	romperle	romper	vmn0000	vmn0000	recursive=no|theme=no|main=no	23	dobj
 25	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	26	det
@@ -148,8 +148,8 @@
 31	no	no	rn	rn	recursive=no|theme=no|main=no	32	neg
 32	financiarlos	financiar	vmn0000	vmn0000	recursive=no|theme=no|main=no	30	pobj
 33	,	,	fc	fc	recursive=no|theme=no|main=no	36	punct
-34	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	35	det
-35	Atlético	Atlético	np00000	np00000	recursive=yes|theme=yes|main=no	36	nsubj
+34	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	35	det
+35	Atlético	Atlético	np00000	np00000	recursive=no|theme=yes|main=no	36	nsubj
 36	cambia	cambiar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 37	de	de	sps00	sps00	recursive=no|theme=no|main=no	36	oobj
 38	técnico	técnico	ncms000	ncms000	recursive=no|theme=no|main=no	37	pobj
@@ -186,7 +186,7 @@
 21	muchachos	muchacho	ncmp000	ncmp000	recursive=no|theme=no|main=no	19	cobj
 22	de	de	sps00	sps00	recursive=no|theme=no|main=no	21	prepn
 23	Texas	Texas	np00000	np00000	recursive=no|theme=no|main=no	22	pobj
-24	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	26	nsubj
+24	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	26	nsubj
 25	casi	casi	rg	rg	recursive=no|theme=no|main=no	26	advmod
 26	pierden	perder	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	21	rcmod
 27	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	28	det

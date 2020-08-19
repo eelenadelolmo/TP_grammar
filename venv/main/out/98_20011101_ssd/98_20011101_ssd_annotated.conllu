@@ -1,8 +1,8 @@
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	recinto	recinto	ncms000	ncms000	recursive=yes|theme=yes|main=no	6	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	Sant	Sant	np0000l	np0000l	recursive=no|theme=no|main=no	3	pobj
-5	Gervasi	Gervasi	np0000l	np0000l	recursive=no|theme=no|main=no	4	appos
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	recinto	recinto	ncms000	ncms000	recursive=no|theme=yes|main=no	6	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	Sant	Sant	np0000l	np0000l	recursive=no|theme=yes|main=no	3	pobj
+5	Gervasi	Gervasi	np0000l	np0000l	recursive=no|theme=yes|main=no	4	appos
 6	acogió	acoger	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 7	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	8	det
 8	recital	recital	ncms000	ncms000	recursive=no|theme=no|main=no	6	dobj
@@ -27,8 +27,8 @@
 27	Liceu	Liceu	np00000	np00000	recursive=no|theme=no|main=no	26	pobj
 28	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	actuación	actuación	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	actuación	actuación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	nsubj
 3	formaba	formar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	0	root
 4	parte	parte	ncfp000	ncfp000	recursive=no|theme=no|main=no	3	dobj
 5	del	del	spcms	spcms	recursive=no|theme=no|main=no	3	oobj

@@ -1,5 +1,5 @@
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	policía	policía	nccs000	nccs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	policía	policía	nccs000	nccs000	recursive=no|theme=yes|main=no	3	nsubj
 3	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 4	desarticulado	desarticular	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	3	vobj
 5	en	en	sps00	sps00	recursive=no|theme=no|main=no	4	prepv
@@ -7,7 +7,7 @@
 7	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	8	det
 8	organización	organización	ncfs000	ncfs000	recursive=no|theme=no|main=no	4	dobj
 9	internacional	internacional	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	8	amod
-10	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	11	nsubj
+10	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	11	nsubj
 11	usaba	usar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	8	rcmod
 12	como	como	cs	cs	recursive=no|theme=no|main=no	11	cpred
 13	tapadera	tapadera	ncfs000	ncfs000	recursive=no|theme=no|main=no	12	cobj
@@ -31,19 +31,19 @@
 31	ilegal	ilegal	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	30	amod
 32	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Uno	uno	pi0ms000	pi0ms000	recursive=yes|theme=yes|main=no	14	nsubj
-2	de	de	sps00	sps00	recursive=no|theme=no|main=no	1	prepn
-3	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	4	det
-4	jefes	jefe	ncmp000	ncmp000	recursive=no|theme=no|main=no	2	pobj
-5	de	de	sps00	sps00	recursive=no|theme=no|main=no	1	prepn
-6	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	7	det
-7	organización	organización	ncfs000	ncfs000	recursive=no|theme=no|main=no	5	pobj
-8	,	,	fc	fc	recursive=no|theme=no|main=no	1	punct
-9	Isaac	Isaac	ncms000	ncms000	recursive=no|theme=no|main=no	1	dep
-10	Kabanga	Kabanga	np0000o	np0000o	recursive=no|theme=no|main=no	9	appos
-11	N.	N.	ncms000	ncms000	recursive=no|theme=no|main=no	9	appos
-12	B.	B.	np0000a	np0000a	recursive=no|theme=no|main=no	11	appos
-13	,	,	fc	fc	recursive=no|theme=no|main=no	1	punct
+1	Uno	uno	pi0ms000	pi0ms000	recursive=no|theme=yes|main=no	14	nsubj
+2	de	de	sps00	sps00	recursive=no|theme=yes|main=no	1	prepn
+3	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	4	det
+4	jefes	jefe	ncmp000	ncmp000	recursive=no|theme=yes|main=no	2	pobj
+5	de	de	sps00	sps00	recursive=no|theme=yes|main=no	1	prepn
+6	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	7	det
+7	organización	organización	ncfs000	ncfs000	recursive=no|theme=yes|main=no	5	pobj
+8	,	,	fc	fc	recursive=no|theme=yes|main=no	1	punct
+9	Isaac	Isaac	ncms000	ncms000	recursive=no|theme=yes|main=no	1	dep
+10	Kabanga	Kabanga	np0000o	np0000o	recursive=no|theme=yes|main=no	9	appos
+11	N.	N.	ncms000	ncms000	recursive=no|theme=yes|main=no	9	appos
+12	B.	B.	np0000a	np0000a	recursive=no|theme=yes|main=no	11	appos
+13	,	,	fc	fc	recursive=no|theme=yes|main=no	1	punct
 14	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 15	sido	ser	vsp00sm	vsp00sm	recursive=no|theme=no|main=no	14	vobj
 16	detenido	detener	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	15	attr
@@ -51,8 +51,8 @@
 18	Madrid	Madrid	np00000	np00000	recursive=no|theme=no|main=no	17	pobj
 19	.	.	fp	fp	recursive=no|theme=no|main=no	14	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	extranjeros	extranjero	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	extranjeros	extranjero	ncmp000	ncmp000	recursive=no|theme=yes|main=no	3	nsubj
 3	pagaban	pagar	vmii3p0	vmii3p0	recursive=no|theme=no|main=no	0	root
 4	entre	entre	sps00	sps00	recursive=no|theme=no|main=no	6	coord
 5	350.000	350000	z	z	recursive=no|theme=no|main=no	6	coord
@@ -86,7 +86,7 @@
 11	,	,	fc	fc	recursive=no|theme=no|main=no	4	punct
 12	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	13	det
 13	red	red	ncfs000	ncfs000	recursive=no|theme=no|main=no	4	nsubj
-14	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	15	nsubj
+14	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	15	nsubj
 15	introducía	introducir	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	13	rcmod
 16	a	a	sps00	sps00	recursive=no|theme=no|main=no	15	dobj
 17	mujeres	mujer	ncfp000	ncfp000	recursive=no|theme=no|main=no	16	pobj
@@ -99,12 +99,12 @@
 24	prostituirse	prostituir	vmn0000	vmn0000	recursive=no|theme=no|main=no	23	pobj
 25	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	Tres	tres	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	2	det
-2	ciudadanos	ciudadano	ncmp000	ncmp000	recursive=no|theme=no|main=no	4	coord
-3	rumanos	rumano	aq0mp0	aq0mp0	recursive=no|theme=no|main=no	2	amod
-4	y	y	cc	cc	recursive=yes|theme=yes|main=no	7	nsubj
-5	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	6	det
-6	español	español	ncms000	ncms000	recursive=no|theme=no|main=no	4	coord
+1	Tres	tres	dn0cp0	dn0cp0	recursive=no|theme=yes|main=no	2	det
+2	ciudadanos	ciudadano	ncmp000	ncmp000	recursive=no|theme=yes|main=no	4	coord
+3	rumanos	rumano	aq0mp0	aq0mp0	recursive=no|theme=yes|main=no	2	amod
+4	y	y	cc	cc	recursive=no|theme=yes|main=no	7	nsubj
+5	un	uno	di0ms0	di0ms0	recursive=no|theme=yes|main=no	6	det
+6	español	español	ncms000	ncms000	recursive=no|theme=yes|main=no	4	coord
 7	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	0	root
 8	sido	ser	vsp00sm	vsp00sm	recursive=no|theme=no|main=no	7	vobj
 9	detenidos	detener	vmp00pm	vmp00pm	recursive=no|theme=no|main=no	8	attr

@@ -1,8 +1,8 @@
-1	Zahovic	Zahovic	np00000	np00000	recursive=no|theme=no|main=no	4	coord
-2	,	,	fc	fc	recursive=no|theme=no|main=no	4	punct
-3	Chilavert	Chilavert	np00000	np00000	recursive=no|theme=no|main=no	4	coord
-4	y	y	cc	cc	recursive=yes|theme=yes|main=no	6	nsubj
-5	Fortune	Fortune	np00000	np00000	recursive=no|theme=no|main=no	4	coord
+1	Zahovic	Zahovic	np00000	np00000	recursive=no|theme=yes|main=no	4	coord
+2	,	,	fc	fc	recursive=no|theme=yes|main=no	4	punct
+3	Chilavert	Chilavert	np00000	np00000	recursive=no|theme=yes|main=no	4	coord
+4	y	y	cc	cc	recursive=no|theme=yes|main=no	6	nsubj
+5	Fortune	Fortune	np00000	np00000	recursive=no|theme=yes|main=no	4	coord
 6	destacan	destacar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
 7	en	en	sps00	sps00	recursive=no|theme=no|main=no	6	prepv
 8	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	9	det
@@ -10,7 +10,7 @@
 10	rivales	rival	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	9	amod
 11	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
-1	Eslovenia	Eslovenia	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Eslovenia	Eslovenia	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 2	lo	él	pp3msa00	pp3msa00	recursive=no|theme=no|main=no	4	dobj
 3	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 4	acreditado	acreditar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	3	vobj
@@ -48,7 +48,7 @@
 20	derribarla	derribar	vmn0000	vmn0000	recursive=no|theme=no|main=no	19	dobj
 21	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	Paraguay	Paraguay	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Paraguay	Paraguay	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 2	ya	ya	rg	rg	recursive=no|theme=no|main=no	3	advmod
 3	dejó	dejar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	constancia	constancia	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	dobj
@@ -69,9 +69,9 @@
 19	98	98	zm	zm	recursive=no|theme=no|main=no	18	num
 20	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Aquel	aquel	dd0ms0	dd0ms0	recursive=no|theme=no|main=no	2	det
-2	0-0	0-0	z	z	recursive=yes|theme=yes|main=no	4	nsubj
-3	desesperante	desesperante	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	2	amod
+1	Aquel	aquel	dd0ms0	dd0ms0	recursive=no|theme=yes|main=no	2	det
+2	0-0	0-0	z	z	recursive=no|theme=yes|main=no	4	nsubj
+3	desesperante	desesperante	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	2	amod
 4	escribiría	escribir	vmic3s0	vmic3s0	recursive=no|theme=no|main=no	0	root
 5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
 6	final	final	ncms000	ncms000	recursive=no|theme=no|main=no	4	dobj
@@ -84,11 +84,11 @@
 13	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
 1	Y	y	cc	cc	recursive=no|theme=no|main=no	7	te
-2	Suráfrica	Suráfrica	np00000	np00000	recursive=yes|theme=yes|main=no	7	nsubj
-3	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
-4	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	5	det
-5	incógnita	incógnita	ncfs000	ncfs000	recursive=no|theme=no|main=no	2	appos
-6	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
+2	Suráfrica	Suráfrica	np00000	np00000	recursive=no|theme=yes|main=no	7	nsubj
+3	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
+4	una	uno	di0fs0	di0fs0	recursive=no|theme=yes|main=no	5	det
+5	incógnita	incógnita	ncfs000	ncfs000	recursive=no|theme=yes|main=no	2	appos
+6	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
 7	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 8	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	9	det
 9	equipo	equipo	ncms000	ncms000	recursive=no|theme=no|main=no	7	attr

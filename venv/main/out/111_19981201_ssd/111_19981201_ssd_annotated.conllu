@@ -1,6 +1,6 @@
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	grupo	grupo	ncms000	ncms000	recursive=yes|theme=yes|main=no	4	nsubj
-3	Agbar	Agbar	np00000	np00000	recursive=no|theme=no|main=no	2	appos
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	grupo	grupo	ncms000	ncms000	recursive=no|theme=yes|main=no	4	nsubj
+3	Agbar	Agbar	np00000	np00000	recursive=no|theme=yes|main=no	2	appos
 4	quiere	querer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 5	comprar	comprar	vmn0000	vmn0000	recursive=no|theme=no|main=no	4	dobj
 6	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	7	det
@@ -11,8 +11,8 @@
 11	EEUU	EEUU	np00000	np00000	recursive=no|theme=no|main=no	10	pobj
 12	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	grupo	grupo	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	grupo	grupo	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	superará	superar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	0	root
 4	este	este	dd0ms0	dd0ms0	recursive=no|theme=no|main=no	5	det
 5	año	año	ncms000	ncms000	recursive=no|theme=no|main=no	3	tmod
@@ -26,11 +26,11 @@
 13	según	según	cs	cs	recursive=no|theme=no|main=no	3	advcl
 14	dijo	decir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	13	cobj
 15	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	14	advmod
-16	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	17	poss
-17	presidente	presidente	ncms000	ncms000	recursive=yes|theme=yes|main=no	14	nsubj
-18	,	,	fc	fc	recursive=no|theme=no|main=no	17	punct
-19	Ricard	Ricard	np0000l	np0000l	recursive=no|theme=no|main=no	17	appos
-20	Fornesa	Fornesa	np0000l	np0000l	recursive=no|theme=no|main=no	19	appos
+16	su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	17	poss
+17	presidente	presidente	ncms000	ncms000	recursive=no|theme=yes|main=no	14	nsubj
+18	,	,	fc	fc	recursive=no|theme=yes|main=no	17	punct
+19	Ricard	Ricard	np0000l	np0000l	recursive=no|theme=yes|main=no	17	appos
+20	Fornesa	Fornesa	np0000l	np0000l	recursive=no|theme=yes|main=no	19	appos
 21	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
 1	También	también	rg	rg	recursive=no|theme=no|main=no	2	advmod

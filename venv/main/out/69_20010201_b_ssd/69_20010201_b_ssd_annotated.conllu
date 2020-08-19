@@ -1,8 +1,8 @@
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	fusión	fusión	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	6	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	dos	dos	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	5	det
-5	bufetes	bufete	ncmp000	ncmp000	recursive=no|theme=no|main=no	3	pobj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	fusión	fusión	ncfs000	ncfs000	recursive=no|theme=yes|main=no	6	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	dos	dos	dn0cp0	dn0cp0	recursive=no|theme=yes|main=no	5	det
+5	bufetes	bufete	ncmp000	ncmp000	recursive=no|theme=yes|main=no	3	pobj
 6	da	dar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	0	root
 7	lugar	lugar	ncfp000	ncfp000	recursive=no|theme=no|main=no	6	dobj
 8	a	a	sps00	sps00	recursive=no|theme=no|main=no	6	oobj
@@ -10,17 +10,17 @@
 10	Consultor	consultor	np0000l	np0000l	recursive=no|theme=no|main=no	9	appos
 11	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	integración	integración	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	12	nsubj
-3	del	del	spcms	spcms	recursive=no|theme=no|main=no	2	prepn
-4	Gabinete	gabinete	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	pobj
-5	Gimeno	Gimeno	np0000l	np0000l	recursive=no|theme=no|main=no	4	appos
-6	Asociados	Asociados	np0000l	np0000l	recursive=no|theme=no|main=no	4	appos
-7	en	en	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-8	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	9	det
-9	despacho	despacho	ncms000	ncms000	recursive=no|theme=no|main=no	7	pobj
-10	de	de	sps00	sps00	recursive=no|theme=no|main=no	9	prepn
-11	Echevarría-Casanovas-Matosas	Echevarría-Casanovas-Matosas	np00000	np00000	recursive=no|theme=no|main=no	10	pobj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	integración	integración	ncfs000	ncfs000	recursive=no|theme=yes|main=no	12	nsubj
+3	del	del	spcms	spcms	recursive=no|theme=yes|main=no	2	prepn
+4	Gabinete	gabinete	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	pobj
+5	Gimeno	Gimeno	np0000l	np0000l	recursive=no|theme=yes|main=no	4	appos
+6	Asociados	Asociados	np0000l	np0000l	recursive=no|theme=yes|main=no	4	appos
+7	en	en	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+8	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	9	det
+9	despacho	despacho	ncms000	ncms000	recursive=no|theme=yes|main=no	7	pobj
+10	de	de	sps00	sps00	recursive=no|theme=yes|main=no	9	prepn
+11	Echevarría-Casanovas-Matosas	Echevarría-Casanovas-Matosas	np00000	np00000	recursive=no|theme=yes|main=no	10	pobj
 12	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 13	dado	dar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	12	vobj
 14	lugar	lugar	ncfp000	ncfp000	recursive=no|theme=no|main=no	13	dobj
@@ -36,9 +36,9 @@
 24	)	)	fpt	fpt	recursive=no|theme=no|main=no	22	punct
 25	.	.	fp	fp	recursive=no|theme=no|main=no	21	punct
 
-1	Este	este	dd0ms0	dd0ms0	recursive=no|theme=no|main=no	3	det
-2	nuevo	nuevo	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	3	amod
-3	bufete	bufete	ncms000	ncms000	recursive=yes|theme=yes|main=no	10	nsubj
+1	Este	este	dd0ms0	dd0ms0	recursive=no|theme=yes|main=no	3	det
+2	nuevo	nuevo	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	3	amod
+3	bufete	bufete	ncms000	ncms000	recursive=no|theme=yes|main=no	10	nsubj
 4	,	,	fc	fc	recursive=no|theme=no|main=no	10	punct
 5	junto	junto	rg	rg	recursive=no|theme=no|main=no	10	prepv
 6	a	a	sps00	sps00	recursive=no|theme=no|main=no	5	prep
@@ -54,7 +54,7 @@
 16	,	,	fc	fc	recursive=no|theme=no|main=no	14	punct
 17	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	18	det
 18	entidad	entidad	ncfs000	ncfs000	recursive=no|theme=no|main=no	14	appos
-19	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	20	nsubj
+19	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	20	nsubj
 20	agrupa	agrupar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	18	rcmod
 21	a	a	sps00	sps00	recursive=no|theme=no|main=no	20	prepv
 22	escala	escala	ncfs000	ncfs000	recursive=no|theme=no|main=no	21	pobj

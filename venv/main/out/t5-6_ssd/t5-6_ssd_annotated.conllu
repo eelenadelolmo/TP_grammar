@@ -1,5 +1,5 @@
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	mosca	mosca	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	mosca	mosca	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	nsubj
 3	zumbó	zumbar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	10	coord
 4	con	con	sps00	sps00	recursive=no|theme=no|main=no	3	prepv
 5	redoblado	redoblado	aq0msp	aq0msp	recursive=no|theme=no|main=no	6	amod
@@ -19,7 +19,7 @@
 19	pared	pared	ncfs000	ncfs000	recursive=no|theme=no|main=no	17	pobj
 20	.	.	fp	fp	recursive=no|theme=no|main=no	10	punct
 
-1	Antonio	Antonio	np0000p	np0000p	recursive=yes|theme=yes|main=no	4	nsubj
+1	Antonio	Antonio	np0000p	np0000p	recursive=no|theme=yes|main=no	4	nsubj
 2	ni	ni	cc	cc	recursive=no|theme=no|main=no	5	advmod
 3	siquiera	siquiera	rg	rg	recursive=no|theme=no|main=no	2	advmod
 4	había	haber	vaii3s0	vaii3s0	recursive=no|theme=no|main=no	0	root
@@ -31,13 +31,13 @@
 10	venía	venir	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	8	cobj
 11	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	Esto	este	pd0ns000	pd0ns000	recursive=yes|theme=yes|main=no	4	nsubj
+1	Esto	este	pd0ns000	pd0ns000	recursive=no|theme=yes|main=no	4	nsubj
 2	no	no	rn	rn	recursive=no|theme=no|main=no	4	neg
 3	le	él	pp3csd00	pp3csd00	recursive=no|theme=no|main=no	4	iobj
 4	preocupaba	preocupar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	0	root
 5	:	:	fd	fd	recursive=no|theme=no|main=no	4	punct
-6	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	7	poss
-7	hermano	hermano	ncms000	ncms000	recursive=yes|theme=yes|main=no	8	nsubj
+6	su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	7	poss
+7	hermano	hermano	ncms000	ncms000	recursive=no|theme=yes|main=no	8	nsubj
 8	solía	soler	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	5	cobj
 9	comportarse	comportar	vmn0000	vmn0000	recursive=no|theme=no|main=no	8	dobj
 10	así	así	rg	rg	recursive=no|theme=no|main=no	9	advmod
@@ -135,7 +135,7 @@
 3	hermano	hermano	ncms000	ncms000	recursive=no|theme=no|main=no	1	pobj
 4	en	en	sps00	sps00	recursive=no|theme=no|main=no	3	prepn
 5	casa	casa	ncfs000	ncfs000	recursive=no|theme=no|main=no	4	pobj
-6	Antonia	Antonia	np0000p	np0000p	recursive=yes|theme=yes|main=no	8	nsubj
+6	Antonia	Antonia	np0000p	np0000p	recursive=no|theme=yes|main=no	8	nsubj
 7	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	8	reflec
 8	sentía	sentir	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	0	root
 9	necesaria	necesario	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	8	cpred
@@ -182,8 +182,8 @@
 14	despatarrada	despatarrado	aq0fsp	aq0fsp	recursive=no|theme=no|main=no	13	coord
 15	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	televisión	televisión	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	televisión	televisión	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	nsubj
 3	hablaba	hablar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	0	root
 4	sola	solo	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	3	cpred
 5	en	en	sps00	sps00	recursive=no|theme=no|main=no	3	prepv

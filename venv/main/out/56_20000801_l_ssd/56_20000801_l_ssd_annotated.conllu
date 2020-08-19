@@ -1,5 +1,5 @@
-1	Jordi	Jordi	np0000l	np0000l	recursive=yes|theme=yes|main=no	3	nsubj
-2	Terrades	Terrades	np0000l	np0000l	recursive=no|theme=no|main=no	1	appos
+1	Jordi	Jordi	np0000l	np0000l	recursive=no|theme=yes|main=no	3	nsubj
+2	Terrades	Terrades	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
 3	dejará	dejar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	0	root
 4	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	5	poss
 5	cargo	cargo	ncms000	ncms000	recursive=no|theme=no|main=no	3	dobj
@@ -9,20 +9,20 @@
 9	comarcal	comarcal	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	8	amod
 10	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	3	det
-2	primer	primero	ao0ms0	ao0ms0	recursive=no|theme=no|main=no	3	amod
-3	secretario	secretario	ncms000	ncms000	recursive=yes|theme=yes|main=no	15	nsubj
-4	del	del	spcms	spcms	recursive=no|theme=no|main=no	3	prepn
-5	PSC	PSC	np00000	np00000	recursive=no|theme=no|main=no	4	pobj
-6	del	del	spcms	spcms	recursive=no|theme=no|main=no	5	prepn
-7	Vallès	Vallès	np00000	np00000	recursive=no|theme=no|main=no	6	pobj
-8	Oriental	oriental	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	7	amod
-9	,	,	fc	fc	recursive=no|theme=no|main=no	3	punct
-10	Jordi	Jordi	ncms000	ncms000	recursive=no|theme=no|main=no	3	appos
-11	Terrades	Terrades	np0000o	np0000o	recursive=no|theme=no|main=no	10	appos
-12	i	i	ncms000	ncms000	recursive=no|theme=no|main=no	10	appos
-13	Santacreu	Santacreu	np0000a	np0000a	recursive=no|theme=no|main=no	12	appos
-14	,	,	fc	fc	recursive=no|theme=no|main=no	3	punct
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	3	det
+2	primer	primero	ao0ms0	ao0ms0	recursive=no|theme=yes|main=no	3	amod
+3	secretario	secretario	ncms000	ncms000	recursive=no|theme=yes|main=no	15	nsubj
+4	del	del	spcms	spcms	recursive=no|theme=yes|main=no	3	prepn
+5	PSC	PSC	np00000	np00000	recursive=no|theme=yes|main=no	4	pobj
+6	del	del	spcms	spcms	recursive=no|theme=yes|main=no	5	prepn
+7	Vallès	Vallès	np00000	np00000	recursive=no|theme=yes|main=no	6	pobj
+8	Oriental	oriental	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	7	amod
+9	,	,	fc	fc	recursive=no|theme=yes|main=no	3	punct
+10	Jordi	Jordi	ncms000	ncms000	recursive=no|theme=yes|main=no	3	appos
+11	Terrades	Terrades	np0000o	np0000o	recursive=no|theme=yes|main=no	10	appos
+12	i	i	ncms000	ncms000	recursive=no|theme=yes|main=no	10	appos
+13	Santacreu	Santacreu	np0000a	np0000a	recursive=no|theme=yes|main=no	12	appos
+14	,	,	fc	fc	recursive=no|theme=yes|main=no	3	punct
 15	anunció	anunciar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 16	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	15	advmod
 17	que	que	cs	cs	recursive=yes|theme=no|main=yes	15	dobj
@@ -36,9 +36,9 @@
 25	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	26	det
 26	congreso	congreso	ncms000	ncms000	recursive=no|theme=no|main=no	24	pobj
 27	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	31	dobj
-28	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	29	det
-29	federación	federación	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	31	nsubj
-30	comarcal	comarcal	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	29	amod
+28	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	29	det
+29	federación	federación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	31	nsubj
+30	comarcal	comarcal	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	29	amod
 31	celebrará	celebrar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	23	rcmod
 32	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	34	det
 33	próximo	próximo	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	34	amod
@@ -57,8 +57,8 @@
 6	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	7	det
 7	cargo	cargo	ncms000	ncms000	recursive=no|theme=no|main=no	5	pobj
 8	,	,	fc	fc	recursive=no|theme=no|main=no	11	punct
-9	Jordi	Jordi	np0000l	np0000l	recursive=yes|theme=yes|main=no	11	nsubj
-10	Terrades	Terrades	np0000l	np0000l	recursive=no|theme=no|main=no	9	appos
+9	Jordi	Jordi	np0000l	np0000l	recursive=no|theme=yes|main=no	11	nsubj
+10	Terrades	Terrades	np0000l	np0000l	recursive=no|theme=yes|main=no	9	appos
 11	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 12	optado	optar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	11	vobj
 13	por	por	sps00	sps00	recursive=no|theme=no|main=no	12	oobj
@@ -74,7 +74,7 @@
 23	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	19	punct
 24	.	.	fp	fp	recursive=no|theme=no|main=no	11	punct
 
-1	Terrades	Terrades	np00000	np00000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Terrades	Terrades	np00000	np00000	recursive=no|theme=yes|main=no	2	nsubj
 2	ejerce	ejercer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	13	coord
 3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	oobj
 4	adjunto	adjunto	ncms000	ncms000	recursive=no|theme=no|main=no	3	pobj

@@ -2,15 +2,15 @@
 2	fin	fin	ncmp000	ncmp000	recursive=no|theme=no|main=no	1	pobj
 3	,	,	fc	fc	recursive=no|theme=no|main=no	7	punct
 4	que	que	cs	cs	recursive=no|theme=no|main=no	8	te
-5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
-6	Nobel	Nobel	np00000	np00000	recursive=yes|theme=yes|main=no	7	nsubj
+5	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	6	det
+6	Nobel	Nobel	np00000	np00000	recursive=no|theme=yes|main=no	7	nsubj
 7	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 8	acertado	acertar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	7	vobj
 9	con	con	sps00	sps00	recursive=no|theme=no|main=no	8	oobj
 10	Günter	Günter	np0000l	np0000l	recursive=no|theme=no|main=no	9	pobj
 11	Grass	Grass	np0000l	np0000l	recursive=no|theme=no|main=no	10	appos
 12	,	,	fc	fc	recursive=no|theme=no|main=no	10	punct
-13	quien	quien	pr0cs000	pr0cs000	recursive=yes|theme=yes|main=no	14	nsubj
+13	quien	quien	pr0cs000	pr0cs000	recursive=no|theme=yes|main=no	14	nsubj
 14	cumplirá	cumplir	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	10	rcmod
 15	72	72	z	z	recursive=no|theme=no|main=no	16	num
 16	años	año	ncmp000	ncmp000	recursive=no|theme=no|main=no	14	dobj
@@ -30,8 +30,8 @@
 8	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	9	det
 9	talento	talento	ncms000	ncms000	recursive=no|theme=no|main=no	7	pobj
 10	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	13	dobj
-11	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	12	poss
-12	lectores	lector	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	13	nsubj
+11	sus	su	dp3cp0	dp3cp0	recursive=no|theme=yes|main=no	12	poss
+12	lectores	lector	ncmp000	ncmp000	recursive=no|theme=yes|main=no	13	nsubj
 13	reconocían	reconocer	vmii3p0	vmii3p0	recursive=no|theme=no|main=no	9	rcmod
 14	desde	desde	sps00	sps00	recursive=no|theme=no|main=no	13	prepv
 15	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	16	det
@@ -67,9 +67,9 @@
 45	tiempo	tiempo	ncms000	ncms000	recursive=no|theme=no|main=no	43	pobj
 46	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	Tal	tal	dd0cs0	dd0cs0	recursive=no|theme=no|main=no	2	det
-2	revisión	revisión	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
-3	crítica	crítico	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	2	amod
+1	Tal	tal	dd0cs0	dd0cs0	recursive=no|theme=yes|main=no	2	det
+2	revisión	revisión	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
+3	crítica	crítico	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	2	amod
 4	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 5	seguido	seguir	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	4	vobj
 6	con	con	sps00	sps00	recursive=no|theme=no|main=no	5	prepv
@@ -78,7 +78,7 @@
 9	de	de	sps00	sps00	recursive=no|theme=no|main=no	8	prepn
 10	grandes	grande	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	11	amod
 11	textos	texto	ncmp000	ncmp000	recursive=no|theme=no|main=no	9	pobj
-12	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	13	nsubj
+12	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	13	nsubj
 13	son	ser	vsip3p0	vsip3p0	recursive=no|theme=no|main=no	11	rcmod
 14	El	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	15	det
 15	rodaballo	rodaballo	ncfs000	ncfs000	recursive=no|theme=no|main=no	16	coord
@@ -104,13 +104,13 @@
 8	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	9	poss
 9	tiempo	tiempo	ncms000	ncms000	recursive=no|theme=no|main=no	7	pobj
 10	,	,	fc	fc	recursive=no|theme=no|main=no	13	punct
-11	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	12	poss
-12	obra	obra	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	13	nsubj
+11	su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	12	poss
+12	obra	obra	ncfs000	ncfs000	recursive=no|theme=yes|main=no	13	nsubj
 13	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 14	despertado	despertar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	13	vobj
 15	polémicas	polémica	ncfp000	ncfp000	recursive=no|theme=no|main=no	14	dobj
 16	,	,	fc	fc	recursive=no|theme=no|main=no	13	punct
-17	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	22	nsubj
+17	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	22	nsubj
 18	por	por	sps00	sps00	recursive=no|theme=no|main=no	23	advcl
 19	otra	otro	di0fs0	di0fs0	recursive=no|theme=no|main=no	20	det
 20	parte	parte	ncfs000	ncfs000	recursive=no|theme=no|main=no	18	pobj
@@ -174,7 +174,7 @@
 8	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
 9	movimiento	movimiento	ncms000	ncms000	recursive=no|theme=no|main=no	6	appos
 10	juvenil	juvenil	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	9	amod
-11	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	13	nsubj
+11	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	13	nsubj
 12	le	él	pp3csd00	pp3csd00	recursive=no|theme=no|main=no	13	iobj
 13	otorgaría	otorgar	vmic3s0	vmic3s0	recursive=no|theme=no|main=no	9	rcmod
 14	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	15	det
@@ -191,11 +191,11 @@
 25	hojalata	hojalata	ncfs000	ncfs000	recursive=no|theme=no|main=no	24	pobj
 26	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	sarcasmo	sarcasmo	ncms000	ncms000	recursive=yes|theme=yes|main=no	6	nsubj
-3	hiriente	hiriente	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	2	amod
-4	del	del	spcms	spcms	recursive=no|theme=no|main=no	2	prepn
-5	autor	autor	ncms000	ncms000	recursive=no|theme=no|main=no	4	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	sarcasmo	sarcasmo	ncms000	ncms000	recursive=no|theme=yes|main=no	6	nsubj
+3	hiriente	hiriente	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	2	amod
+4	del	del	spcms	spcms	recursive=no|theme=yes|main=no	2	prepn
+5	autor	autor	ncms000	ncms000	recursive=no|theme=yes|main=no	4	pobj
 6	enlaza	enlazar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 7	subversivo	subversivo	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	6	cpred
 8	con	con	sps00	sps00	recursive=no|theme=no|main=no	6	oobj
@@ -214,7 +214,7 @@
 21	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	22	det
 22	personaje	personaje	ncms000	ncms000	recursive=no|theme=no|main=no	20	pobj
 23	principal	principal	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	22	amod
-24	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	26	nsubj
+24	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	26	nsubj
 25	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	26	reflec
 26	hace	hacer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	22	rcmod
 27	sujeto	sujeto	ncms000	ncms000	recursive=no|theme=no|main=no	26	dobj
@@ -226,16 +226,16 @@
 33	a	a	sps00	sps00	recursive=no|theme=no|main=no	32	prep
 34	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	35	det
 35	hechos	hecho	ncmp000	ncmp000	recursive=no|theme=no|main=no	33	pobj
-36	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	38	nsubj
+36	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	38	nsubj
 37	lo	él	pp3msa00	pp3msa00	recursive=no|theme=no|main=no	38	dobj
 38	determinan	determinar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	35	rcmod
 39	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
 1	Pero	pero	cc	cc	recursive=no|theme=no|main=no	22	te
-2	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	3	det
-3	registro	registro	ncms000	ncms000	recursive=yes|theme=yes|main=no	8	nsubj
-4	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	prepn
-5	Grass	Grass	np00000	np00000	recursive=no|theme=no|main=no	4	pobj
+2	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	3	det
+3	registro	registro	ncms000	ncms000	recursive=no|theme=yes|main=no	8	nsubj
+4	de	de	sps00	sps00	recursive=no|theme=yes|main=no	3	prepn
+5	Grass	Grass	np00000	np00000	recursive=no|theme=yes|main=no	4	pobj
 6	no	no	rn	rn	recursive=no|theme=no|main=no	8	neg
 7	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	8	reflec
 8	demora	demorar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
@@ -246,8 +246,8 @@
 13	intérprete	intérprete	nccs000	nccs000	recursive=no|theme=no|main=no	12	pobj
 14	privilegiado	privilegiado	aq0msp	aq0msp	recursive=no|theme=no|main=no	13	amod
 15	de	de	sps00	sps00	recursive=no|theme=no|main=no	13	prepn
-16	lo	el	da0ns0	da0ns0	recursive=no|theme=no|main=no	17	det
-17	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	18	nsubj
+16	lo	el	da0ns0	da0ns0	recursive=no|theme=yes|main=no	17	det
+17	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	18	nsubj
 18	pasa	pasar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	15	rcmod
 19	,	,	fc	fc	recursive=no|theme=no|main=no	8	punct
 20	sino	sino	cc	cc	recursive=no|theme=no|main=no	22	dep
@@ -261,8 +261,8 @@
 28	tierra	tierra	ncfp000	ncfp000	recursive=no|theme=no|main=no	27	pobj
 29	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 
-1	Oskar	Oskar	np0000l	np0000l	recursive=yes|theme=yes|main=no	3	nsubj
-2	Matzerath	Matzerath	np0000l	np0000l	recursive=no|theme=no|main=no	1	appos
+1	Oskar	Oskar	np0000l	np0000l	recursive=no|theme=yes|main=no	3	nsubj
+2	Matzerath	Matzerath	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
 3	decide	decidir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	29	coord
 4	no	no	rn	rn	recursive=no|theme=no|main=no	5	neg
 5	crecer	crecer	vmn0000	vmn0000	recursive=no|theme=no|main=no	3	dobj
@@ -290,7 +290,7 @@
 27	de	de	sps00	sps00	recursive=no|theme=no|main=no	26	prepn
 28	vals	vals	ncms000	ncms000	recursive=no|theme=no|main=no	27	pobj
 29	;	;	fx	fx	recursive=no|theme=no|main=no	0	root
-30	Matzerath	Matzerath	np00000	np00000	recursive=yes|theme=yes|main=no	32	nsubj
+30	Matzerath	Matzerath	np00000	np00000	recursive=no|theme=yes|main=no	32	nsubj
 31	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	32	reflec
 32	comunica	comunicar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	29	coord
 33	mediante	mediante	sps00	sps00	recursive=no|theme=no|main=no	32	prepv
@@ -365,11 +365,11 @@
 34	cuento	cuento	nccn000	nccn000	recursive=no|theme=no|main=no	33	appos
 35	largo	largo	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	33	amod
 36	)	)	fpt	fpt	recursive=no|theme=no|main=no	17	punct
-37	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	38	det
-38	producción	producción	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	17	nsubj
-39	de	de	sps00	sps00	recursive=no|theme=no|main=no	38	prepn
-40	Günter	Günter	np0000l	np0000l	recursive=no|theme=no|main=no	39	pobj
-41	Grass	Grass	np0000l	np0000l	recursive=no|theme=no|main=no	40	appos
+37	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	38	det
+38	producción	producción	ncfs000	ncfs000	recursive=no|theme=yes|main=no	17	nsubj
+39	de	de	sps00	sps00	recursive=no|theme=yes|main=no	38	prepn
+40	Günter	Günter	np0000l	np0000l	recursive=no|theme=yes|main=no	39	pobj
+41	Grass	Grass	np0000l	np0000l	recursive=no|theme=yes|main=no	40	appos
 42	.	.	fp	fp	recursive=no|theme=no|main=no	11	punct
 
 1	Y	y	cc	cc	recursive=no|theme=no|main=no	2	dep
@@ -394,12 +394,12 @@
 20	alemán	alemán	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	19	amod
 21	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	Premio	premio	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	7	nsubj
-3	Nobel	nobel	nc00000	nc00000	recursive=no|theme=no|main=no	2	appos
-4	a	a	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-5	Günter	Günter	np0000l	np0000l	recursive=no|theme=no|main=no	4	pobj
-6	Grass	Grass	np0000l	np0000l	recursive=no|theme=no|main=no	5	appos
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	Premio	premio	ncfs000	ncfs000	recursive=no|theme=yes|main=no	7	nsubj
+3	Nobel	nobel	nc00000	nc00000	recursive=no|theme=yes|main=no	2	appos
+4	a	a	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+5	Günter	Günter	np0000l	np0000l	recursive=no|theme=yes|main=no	4	pobj
+6	Grass	Grass	np0000l	np0000l	recursive=no|theme=yes|main=no	5	appos
 7	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 8	sobre	sobre	sps00	sps00	recursive=no|theme=no|main=no	11	advmod
 9	todo	todo	pi0cs000	pi0cs000	recursive=no|theme=no|main=no	8	pobj
@@ -454,11 +454,11 @@
 12	irreductible	irreductible	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	11	amod
 13	pertenecen	pertenecer	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	6	dep
 14	también	también	rg	rg	recursive=no|theme=no|main=no	13	advmod
-15	Años	año	ncms000	ncms000	recursive=no|theme=no|main=no	18	coord
-16	de	de	spcms	spcms	recursive=no|theme=no|main=no	15	prepn
-17	perro	perro	ncms000	ncms000	recursive=no|theme=no|main=no	16	pobj
-18	y	y	cc	cc	recursive=yes|theme=yes|main=no	13	nsubj
-19	Malos	malo	ncfs000	ncfs000	recursive=no|theme=no|main=no	18	coord
-20	presagios	presagio	nc00000	nc00000	recursive=no|theme=no|main=no	19	appos
+15	Años	año	ncms000	ncms000	recursive=no|theme=yes|main=no	18	coord
+16	de	de	spcms	spcms	recursive=no|theme=yes|main=no	15	prepn
+17	perro	perro	ncms000	ncms000	recursive=no|theme=yes|main=no	16	pobj
+18	y	y	cc	cc	recursive=no|theme=yes|main=no	13	nsubj
+19	Malos	malo	ncfs000	ncfs000	recursive=no|theme=yes|main=no	18	coord
+20	presagios	presagio	nc00000	nc00000	recursive=no|theme=yes|main=no	19	appos
 21	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 

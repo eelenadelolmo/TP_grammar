@@ -1,5 +1,5 @@
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	carrera	carrera	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	carrera	carrera	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	nsubj
 3	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	en	en	sps00	sps00	recursive=no|theme=no|main=no	3	oobj
 5	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	6	poss
@@ -11,13 +11,13 @@
 
 1	Una	una	di0ms0	di0ms0	recursive=no|theme=no|main=no	2	det
 2	vez	vez	ncms000	ncms000	recursive=no|theme=no|main=no	12	advcl
-3	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	2	nsubj
-4	sembró	sembrar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	3	cobj
-5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
-6	caos	caos	ncmn000	ncmn000	recursive=no|theme=no|main=no	3	cobj
-7	lo	el	da0ns0	da0ns0	recursive=no|theme=no|main=no	9	det
-8	antes	antes	rg	rg	recursive=no|theme=no|main=no	9	advmod
-9	posible	posible	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	3	cobj
+3	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	2	nsubj
+4	sembró	sembrar	vmis3s0	vmis3s0	recursive=no|theme=yes|main=no	3	cobj
+5	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	6	det
+6	caos	caos	ncmn000	ncmn000	recursive=no|theme=yes|main=no	3	cobj
+7	lo	el	da0ns0	da0ns0	recursive=no|theme=yes|main=no	9	det
+8	antes	antes	rg	rg	recursive=no|theme=yes|main=no	9	advmod
+9	posible	posible	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	3	cobj
 10	,	,	fc	fc	recursive=no|theme=no|main=no	12	punct
 11	ahora	ahora	rg	rg	recursive=no|theme=no|main=no	12	advmod
 12	juega	jugar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
@@ -41,7 +41,7 @@
 14	devastadoras	devastador	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	13	amod
 15	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	Rominger	Rominger	np0000p	np0000p	recursive=yes|theme=yes|main=no	2	nsubj
+1	Rominger	Rominger	np0000p	np0000p	recursive=no|theme=yes|main=no	2	nsubj
 2	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 3	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
 4	en	en	sps00	sps00	recursive=no|theme=no|main=no	2	prepv
@@ -56,9 +56,9 @@
 2	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 3	-	-	fg	fg	recursive=no|theme=no|main=no	1	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	etapa	etapa	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
-3	reina	reina	ncfs000	ncfs000	recursive=no|theme=no|main=no	2	appos
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	etapa	etapa	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
+3	reina	reina	ncfs000	ncfs000	recursive=no|theme=yes|main=no	2	appos
 4	careció	carecer	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 5	de	de	sps00	sps00	recursive=no|theme=no|main=no	4	oobj
 6	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	7	det
@@ -67,15 +67,15 @@
 9	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
 1	Ganó	ganar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	7	coord
-2	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	3	det
-3	colombiano	colombiano	ncms000	ncms000	recursive=yes|theme=yes|main=no	1	nsubj
-4	Angel	Angel	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	appos
-5	Yesid	Yesid	ncms000	ncms000	recursive=no|theme=no|main=no	4	appos
-6	Camargo	Camargo	np00000	np00000	recursive=no|theme=no|main=no	5	appos
+2	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	3	det
+3	colombiano	colombiano	ncms000	ncms000	recursive=no|theme=yes|main=no	1	nsubj
+4	Angel	Angel	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	appos
+5	Yesid	Yesid	ncms000	ncms000	recursive=no|theme=yes|main=no	4	appos
+6	Camargo	Camargo	np00000	np00000	recursive=no|theme=yes|main=no	5	appos
 7	y	y	cc	cc	recursive=no|theme=no|main=no	0	root
-8	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	9	det
-9	hombres	hombre	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	12	nsubj
-10	fuertes	fuerte	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	9	amod
+8	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	9	det
+9	hombres	hombre	ncmp000	ncmp000	recursive=no|theme=yes|main=no	12	nsubj
+10	fuertes	fuerte	aq0cp0	aq0cp0	recursive=no|theme=yes|main=no	9	amod
 11	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	12	reflec
 12	mantuvieron	mantener	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	7	coord
 13	cerca	cerca	rg	rg	recursive=no|theme=no|main=no	12	advmod
@@ -86,8 +86,8 @@
 18	Rominger	Rominger	np0000l	np0000l	recursive=no|theme=no|main=no	17	appos
 19	.	.	fp	fp	recursive=no|theme=no|main=no	7	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	suizo	suizo	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	suizo	suizo	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	imitó	imitar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	17	coord
 4	a	a	sps00	sps00	recursive=no|theme=no|main=no	3	dobj
 5	Miguel	Miguel	np0000l	np0000l	recursive=no|theme=no|main=no	4	pobj
@@ -113,7 +113,7 @@
 2	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	3	det
 3	navarro	navarro	ncms000	ncms000	recursive=no|theme=no|main=no	1	cobj
 4	,	,	fc	fc	recursive=no|theme=no|main=no	7	punct
-5	él	él	pp3ms000	pp3ms000	recursive=yes|theme=yes|main=no	7	nsubj
+5	él	él	pp3ms000	pp3ms000	recursive=no|theme=yes|main=no	7	nsubj
 6	también	también	rg	rg	recursive=no|theme=no|main=no	8	advmod
 7	sabe	saber	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 8	repartir	repartir	vmn0000	vmn0000	recursive=no|theme=no|main=no	7	dobj
@@ -121,19 +121,19 @@
 10	tarta	tarta	ncfs000	ncfs000	recursive=no|theme=no|main=no	8	dobj
 11	.	.	fp	fp	recursive=no|theme=no|main=no	7	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	ataque	ataque	ncms000	ncms000	recursive=yes|theme=yes|main=no	16	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	Tony	Tony	np0000l	np0000l	recursive=no|theme=no|main=no	3	pobj
-5	Rominger	Rominger	np0000l	np0000l	recursive=no|theme=no|main=no	4	appos
-6	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
-7	a	a	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-8	500	500	z	z	recursive=no|theme=no|main=no	9	num
-9	metros	metro	ncmp000	ncmp000	recursive=no|theme=no|main=no	7	pobj
-10	de	de	sps00	sps00	recursive=no|theme=no|main=no	9	prepn
-11	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	12	det
-12	meta	meta	ncfs000	ncfs000	recursive=no|theme=no|main=no	10	pobj
-13	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	ataque	ataque	ncms000	ncms000	recursive=no|theme=yes|main=no	16	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	Tony	Tony	np0000l	np0000l	recursive=no|theme=yes|main=no	3	pobj
+5	Rominger	Rominger	np0000l	np0000l	recursive=no|theme=yes|main=no	4	appos
+6	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
+7	a	a	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+8	500	500	z	z	recursive=no|theme=yes|main=no	9	num
+9	metros	metro	ncmp000	ncmp000	recursive=no|theme=yes|main=no	7	pobj
+10	de	de	sps00	sps00	recursive=no|theme=yes|main=no	9	prepn
+11	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	12	det
+12	meta	meta	ncfs000	ncfs000	recursive=no|theme=yes|main=no	10	pobj
+13	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
 14	no	no	rg	rg	recursive=no|theme=no|main=no	16	neg
 15	le	él	pp3csd00	pp3csd00	recursive=no|theme=no|main=no	16	iobj
 16	sirvió	servir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
@@ -153,7 +153,7 @@
 30	Zarrabeitia	Zarrabeitia	np0000l	np0000l	recursive=no|theme=no|main=no	29	appos
 31	.	.	fp	fp	recursive=no|theme=no|main=no	16	punct
 
-1	Rominger	Rominger	np0000p	np0000p	recursive=yes|theme=yes|main=no	2	nsubj
+1	Rominger	Rominger	np0000p	np0000p	recursive=no|theme=yes|main=no	2	nsubj
 2	sabe	saber	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 3	que	que	cs	cs	recursive=no|theme=no|main=no	12	conj
 4	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	3	cobj
@@ -166,8 +166,8 @@
 11	carrera	carrera	ncfs000	ncfs000	recursive=no|theme=no|main=no	10	pobj
 12	y	y	cc	cc	recursive=no|theme=no|main=no	2	dobj
 13	que	que	cs	cs	recursive=no|theme=no|main=no	12	conj
-14	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	15	poss
-15	táctica	táctica	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	21	nsubj
+14	su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	15	poss
+15	táctica	táctica	ncfs000	ncfs000	recursive=no|theme=yes|main=no	21	nsubj
 16	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	13	cobj
 17	esperar	esperar	vmn0000	vmn0000	recursive=no|theme=no|main=no	13	cobj
 18	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	19	det
@@ -177,15 +177,15 @@
 22	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
 1	Ayer	ayer	rg	rg	recursive=no|theme=no|main=no	11	advmod
-2	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	4	det
-3	único	único	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	4	amod
-4	hombre	hombre	ncms000	ncms000	recursive=yes|theme=yes|main=no	11	nsubj
-5	superior	superior	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	4	amod
-6	a	a	sps00	sps00	recursive=no|theme=no|main=no	5	prepa
-7	él	él	pp3ms000	pp3ms000	recursive=no|theme=no|main=no	6	pobj
-8	,	,	fc	fc	recursive=no|theme=no|main=no	4	punct
-9	Camargo	Camargo	np0000p	np0000p	recursive=no|theme=no|main=no	4	appos
-10	,	,	fc	fc	recursive=no|theme=no|main=no	4	punct
+2	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	4	det
+3	único	único	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	4	amod
+4	hombre	hombre	ncms000	ncms000	recursive=no|theme=yes|main=no	11	nsubj
+5	superior	superior	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	4	amod
+6	a	a	sps00	sps00	recursive=no|theme=yes|main=no	5	prepa
+7	él	él	pp3ms000	pp3ms000	recursive=no|theme=yes|main=no	6	pobj
+8	,	,	fc	fc	recursive=no|theme=yes|main=no	4	punct
+9	Camargo	Camargo	np0000p	np0000p	recursive=no|theme=yes|main=no	4	appos
+10	,	,	fc	fc	recursive=no|theme=yes|main=no	4	punct
 11	estaba	estar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	0	root
 12	tan	tanto	rg	rg	recursive=no|theme=no|main=no	11	advmod
 13	lejos	lejos	rg	rg	recursive=no|theme=no|main=no	18	advmod
@@ -204,8 +204,8 @@
 26	preocupó	preocupar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	23	cobj
 27	.	.	fp	fp	recursive=no|theme=no|main=no	11	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	Mapei-CLAS	Mapei-CLAS	np0000o	np0000o	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	Mapei-CLAS	Mapei-CLAS	np0000o	np0000o	recursive=no|theme=yes|main=no	3	nsubj
 3	desarrolló	desarrollar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	5	det
 5	estrategia	estrategia	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	dobj

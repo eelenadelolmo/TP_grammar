@@ -1,5 +1,5 @@
 1	Tampoco	tampoco	rg	rg	recursive=no|theme=no|main=no	3	advmod
-2	ellos	él	pp3mp000	pp3mp000	recursive=yes|theme=yes|main=no	3	nsubj
+2	ellos	él	pp3mp000	pp3mp000	recursive=no|theme=yes|main=no	3	nsubj
 3	podrán	poder	vmif3p0	vmif3p0	recursive=no|theme=no|main=no	23	coord
 4	jamás	jamás	rg	rg	recursive=no|theme=no|main=no	3	advmod
 5	recuperar	recuperar	vmn0000	vmn0000	recursive=no|theme=no|main=no	3	dobj
@@ -57,8 +57,8 @@
 57	mismos	mismo	di0mp0	di0mp0	recursive=no|theme=no|main=no	56	det
 58	.	.	fp	fp	recursive=no|theme=no|main=no	23	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	bigote	bigote	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	bigote	bigote	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	12	coord
 4	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	5	det
 5	tilde	tilde	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	attr
@@ -74,12 +74,12 @@
 15	le	él	pp3csd00	pp3csd00	recursive=no|theme=no|main=no	16	iobj
 16	ocurre	ocurrir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	12	rcmod
 17	también	también	rg	rg	recursive=no|theme=no|main=no	16	advmod
-18	lo	el	da0ns0	da0ns0	recursive=no|theme=no|main=no	19	det
-19	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	16	nsubj
-20	a	a	sps00	sps00	recursive=no|theme=no|main=no	19	prepn
-21	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	22	det
-22	letra	letra	ncfs000	ncfs000	recursive=no|theme=no|main=no	20	pobj
-23	eñe	eñe	ncfs000	ncfs000	recursive=no|theme=no|main=no	22	appos
+18	lo	el	da0ns0	da0ns0	recursive=no|theme=yes|main=no	19	det
+19	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	16	nsubj
+20	a	a	sps00	sps00	recursive=no|theme=yes|main=no	19	prepn
+21	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	22	det
+22	letra	letra	ncfs000	ncfs000	recursive=no|theme=yes|main=no	20	pobj
+23	eñe	eñe	ncfs000	ncfs000	recursive=no|theme=yes|main=no	22	appos
 24	:	:	fd	fd	recursive=no|theme=no|main=no	25	punct
 25	que	que	cs	cs	recursive=no|theme=no|main=no	12	conj
 26	si	si	cs	cs	recursive=no|theme=no|main=no	25	cobj

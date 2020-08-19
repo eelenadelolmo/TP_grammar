@@ -13,13 +13,13 @@
 13	años	año	ncmp000	ncmp000	recursive=no|theme=no|main=no	11	pobj
 14	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	agresor	agresor	ncms000	ncms000	recursive=yes|theme=yes|main=no	8	nsubj
-3	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
-4	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-5	55	55	z	z	recursive=no|theme=no|main=no	6	num
-6	años	año	ncmp000	ncmp000	recursive=no|theme=no|main=no	4	pobj
-7	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	agresor	agresor	ncms000	ncms000	recursive=no|theme=yes|main=no	8	nsubj
+3	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
+4	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+5	55	55	z	z	recursive=no|theme=yes|main=no	6	num
+6	años	año	ncmp000	ncmp000	recursive=no|theme=yes|main=no	4	pobj
+7	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
 8	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 9	vecino	vecino	ncms000	ncms000	recursive=no|theme=no|main=no	8	attr
 10	de	de	sps00	sps00	recursive=no|theme=no|main=no	9	prepn
@@ -31,8 +31,8 @@
 16	)	)	fpt	fpt	recursive=no|theme=no|main=no	11	punct
 17	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	hecho	hecho	ncms000	ncms000	recursive=yes|theme=yes|main=no	4	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	hecho	hecho	ncms000	ncms000	recursive=no|theme=yes|main=no	4	nsubj
 3	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	4	reflec
 4	produjo	producir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	7	coord
 5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
@@ -40,7 +40,7 @@
 7	y	y	cc	cc	recursive=no|theme=no|main=no	0	root
 8	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	9	reflec
 9	conoció	conocer	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	7	coord
-10	cuando	cuando	pr000000	pr000000	recursive=yes|theme=yes|main=no	13	nsubj
+10	cuando	cuando	pr000000	pr000000	recursive=no|theme=yes|main=no	13	nsubj
 11	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	12	det
 12	pequeño	pequeño	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	14	attr
 13	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	9	rcmod
@@ -67,16 +67,16 @@
 2	vez	vez	ncfs000	ncfs000	recursive=no|theme=no|main=no	12	dep
 3	allí	allí	rg	rg	recursive=no|theme=no|main=no	2	advmod
 4	,	,	fc	fc	recursive=no|theme=no|main=no	12	punct
-5	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	6	det
-6	médicos	médico	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	7	nsubj
+5	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	6	det
+6	médicos	médico	ncmp000	ncmp000	recursive=no|theme=yes|main=no	7	nsubj
 7	alertaron	alertar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	12	coord
 8	a	a	sps00	sps00	recursive=no|theme=no|main=no	7	dobj
 9	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	10	det
 10	Guardia	guardia	ncms000	ncms000	recursive=no|theme=no|main=no	8	pobj
 11	Civil	civil	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	10	amod
 12	y	y	cc	cc	recursive=no|theme=no|main=no	0	root
-13	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	14	det
-14	padre	padre	ncms000	ncms000	recursive=yes|theme=yes|main=no	15	nsubj
+13	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	14	det
+14	padre	padre	ncms000	ncms000	recursive=no|theme=yes|main=no	15	nsubj
 15	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	12	coord
 16	detenido	detener	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	15	attr
 17	al	al	spcms	spcms	recursive=no|theme=no|main=no	16	prepv

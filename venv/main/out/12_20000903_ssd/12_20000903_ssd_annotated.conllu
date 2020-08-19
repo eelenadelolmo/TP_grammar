@@ -17,10 +17,10 @@
 17	del	del	spcms	spcms	recursive=no|theme=no|main=no	16	prepn
 18	Ebro	Ebro	np00000	np00000	recursive=no|theme=no|main=no	17	pobj
 19	,	,	fc	fc	recursive=no|theme=no|main=no	24	punct
-20	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	21	det
-21	Plan	plan	ncms000	ncms000	recursive=yes|theme=yes|main=no	24	nsubj
-22	Hidrológico	Hidrológico	np00000	np00000	recursive=no|theme=no|main=no	21	appos
-23	Nacional	nacional	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	21	amod
+20	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	21	det
+21	Plan	plan	ncms000	ncms000	recursive=no|theme=yes|main=no	24	nsubj
+22	Hidrológico	Hidrológico	np00000	np00000	recursive=no|theme=yes|main=no	21	appos
+23	Nacional	nacional	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	21	amod
 24	empieza	empezar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 25	a	a	sps00	sps00	recursive=no|theme=no|main=no	24	prepv
 26	dar	dar	vmn0000	vmn0000	recursive=no|theme=no|main=no	25	pobj
@@ -35,7 +35,7 @@
 4	en	en	sps00	sps00	recursive=no|theme=no|main=no	3	prepa
 5	recursos	recurso	ncmp000	ncmp000	recursive=no|theme=no|main=no	4	pobj
 6	hídricos	hídrico	aq0mp0	aq0mp0	recursive=no|theme=no|main=no	5	amod
-7	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	9	nsubj
+7	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	9	nsubj
 8	curiosamente	curiosamente	rg	rg	recursive=no|theme=no|main=no	9	advmod
 9	alcanzan	alcanzar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	2	rcmod
 10	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	12	det
@@ -49,8 +49,8 @@
 18	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
 1	Pero	pero	cc	cc	recursive=no|theme=no|main=no	6	te
-2	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	3	det
-3	reacciones	reacción	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	6	nsubj
+2	las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	3	det
+3	reacciones	reacción	ncfp000	ncfp000	recursive=no|theme=yes|main=no	6	nsubj
 4	no	no	rn	rn	recursive=no|theme=no|main=no	6	neg
 5	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	0	root
 6	sido	ser	vsp00sm	vsp00sm	recursive=no|theme=no|main=no	5	vobj
@@ -58,7 +58,7 @@
 8	favorables	favorable	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	6	cpred
 9	.	.	fp	fp	recursive=no|theme=no|main=no	5	punct
 
-1	Aragón	Aragón	np00000	np00000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Aragón	Aragón	np00000	np00000	recursive=no|theme=yes|main=no	2	nsubj
 2	dice	decir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 3	que	que	cs	cs	recursive=no|theme=no|main=no	2	dobj
 4	no	no	rn	rn	recursive=no|theme=no|main=no	3	neg
@@ -70,13 +70,13 @@
 4	que	que	cs	cs	recursive=no|theme=no|main=no	3	pobj
 5	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	6	reflec
 6	aproveche	aprovechar	vmm03s0	vmm03s0	recursive=no|theme=no|main=no	4	cobj
-7	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	8	det
-8	agua	agua	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	6	nsubj
-9	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	10	nsubj
-10	sale	salir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	8	rcmod
-11	de	de	sps00	sps00	recursive=no|theme=no|main=no	10	prepv
-12	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	13	poss
-13	región	región	ncfs000	ncfs000	recursive=no|theme=no|main=no	11	pobj
+7	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	8	det
+8	agua	agua	ncfs000	ncfs000	recursive=no|theme=yes|main=no	6	nsubj
+9	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	10	nsubj
+10	sale	salir	vmip3s0	vmip3s0	recursive=no|theme=yes|main=no	8	rcmod
+11	de	de	sps00	sps00	recursive=no|theme=yes|main=no	10	prepv
+12	su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	13	poss
+13	región	región	ncfs000	ncfs000	recursive=no|theme=yes|main=no	11	pobj
 14	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
 1	Es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
@@ -146,7 +146,7 @@
 8	para	para	sps00	sps00	recursive=no|theme=no|main=no	7	prepn
 9	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	10	det
 10	región	región	ncfs000	ncfs000	recursive=no|theme=no|main=no	8	pobj
-11	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	13	nsubj
+11	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	13	nsubj
 12	no	no	rn	rn	recursive=no|theme=no|main=no	13	neg
 13	quiere	querer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	10	rcmod
 14	quedar	quedar	vmn0000	vmn0000	recursive=no|theme=no|main=no	13	dobj

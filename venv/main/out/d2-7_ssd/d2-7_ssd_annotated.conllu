@@ -12,18 +12,18 @@
 12	completa	completo	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	11	amod
 13	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
-1	Su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	2	poss
-2	actuación	actuación	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
+1	Su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	2	poss
+2	actuación	actuación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
 3	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	4	advmod
 4	recordó	recordar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 5	viejos	viejo	aq0mp0	aq0mp0	recursive=no|theme=no|main=no	6	amod
 6	esplendores	esplendor	ncmp000	ncmp000	recursive=no|theme=no|main=no	4	dobj
 7	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	Sólo	sólo	rg	rg	recursive=no|theme=no|main=no	3	advmod
-2	él	él	pp3ms000	pp3ms000	recursive=no|theme=no|main=no	3	coord
-3	y	y	cc	cc	recursive=yes|theme=yes|main=no	5	nsubj
-4	Zarrabeitia	Zarrabeitia	np0000p	np0000p	recursive=no|theme=no|main=no	3	coord
+1	Sólo	sólo	rg	rg	recursive=no|theme=yes|main=no	3	advmod
+2	él	él	pp3ms000	pp3ms000	recursive=no|theme=yes|main=no	3	coord
+3	y	y	cc	cc	recursive=no|theme=yes|main=no	5	nsubj
+4	Zarrabeitia	Zarrabeitia	np0000p	np0000p	recursive=no|theme=yes|main=no	3	coord
 5	atacaron	atacar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 6	de	de	sps00	sps00	recursive=no|theme=no|main=no	5	prepv
 7	verdad	verdad	ncfs000	ncfs000	recursive=no|theme=no|main=no	6	pobj
@@ -50,10 +50,10 @@
 28	día	día	ncms000	ncms000	recursive=no|theme=no|main=no	27	pobj
 29	.	.	fp	fp	recursive=no|theme=no|main=no	5	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	empuje	empuje	ncms000	ncms000	recursive=yes|theme=yes|main=no	5	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	ambos	ambos	pn0mp000	pn0mp000	recursive=no|theme=no|main=no	3	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	empuje	empuje	ncms000	ncms000	recursive=no|theme=yes|main=no	5	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	ambos	ambos	pn0mp000	pn0mp000	recursive=no|theme=yes|main=no	3	pobj
 5	tuvo	tener	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 6	en	en	sps00	sps00	recursive=no|theme=no|main=no	5	prepv
 7	Zülle	Zülle	np0000p	np0000p	recursive=no|theme=no|main=no	6	pobj
@@ -62,9 +62,9 @@
 10	referencia	referencia	ncfs000	ncfs000	recursive=no|theme=no|main=no	5	dobj
 11	.	.	fp	fp	recursive=no|theme=no|main=no	5	punct
 
-1	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	2	punct
-2	Zarra	Zarra	np0000p	np0000p	recursive=yes|theme=yes|main=no	4	nsubj
-3	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	2	punct
+1	&quot;	&quot;	fe	fe	recursive=no|theme=yes|main=no	2	punct
+2	Zarra	Zarra	np0000p	np0000p	recursive=no|theme=yes|main=no	4	nsubj
+3	&quot;	&quot;	fe	fe	recursive=no|theme=yes|main=no	2	punct
 4	desenterró	desenterrar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
 6	hacha	hacha	ncfs000	ncfs000	recursive=no|theme=no|main=no	4	dobj
@@ -102,16 +102,16 @@
 2	muy	mucho	rg	rg	recursive=no|theme=no|main=no	3	advmod
 3	bonito	bonito	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	1	attr
 4	que	que	cs	cs	recursive=no|theme=no|main=no	1	csubj
-5	dos	dos	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	6	det
-6	corredores	corredor	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	16	nsubj
-7	separados	separado	aq0mpp	aq0mpp	recursive=no|theme=no|main=no	6	amod
-8	por	por	sps00	sps00	recursive=no|theme=no|main=no	7	agent
-9	diez	diez	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	10	det
-10	años	año	ncmp000	ncmp000	recursive=no|theme=no|main=no	8	pobj
-11	de	de	sps00	sps00	recursive=no|theme=no|main=no	10	prepn
-12	diferencia	diferencia	ncfs000	ncfs000	recursive=no|theme=no|main=no	11	pobj
-13	de	de	sps00	sps00	recursive=no|theme=no|main=no	12	prepn
-14	edad	edad	ncfs000	ncfs000	recursive=no|theme=no|main=no	13	pobj
+5	dos	dos	dn0cp0	dn0cp0	recursive=no|theme=yes|main=no	6	det
+6	corredores	corredor	ncmp000	ncmp000	recursive=no|theme=yes|main=no	16	nsubj
+7	separados	separado	aq0mpp	aq0mpp	recursive=no|theme=yes|main=no	6	amod
+8	por	por	sps00	sps00	recursive=no|theme=yes|main=no	7	agent
+9	diez	diez	dn0cp0	dn0cp0	recursive=no|theme=yes|main=no	10	det
+10	años	año	ncmp000	ncmp000	recursive=no|theme=yes|main=no	8	pobj
+11	de	de	sps00	sps00	recursive=no|theme=yes|main=no	10	prepn
+12	diferencia	diferencia	ncfs000	ncfs000	recursive=no|theme=yes|main=no	11	pobj
+13	de	de	sps00	sps00	recursive=no|theme=yes|main=no	12	prepn
+14	edad	edad	ncfs000	ncfs000	recursive=no|theme=yes|main=no	13	pobj
 15	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	16	reflec
 16	unieran	unir	vmsi3p0	vmsi3p0	recursive=no|theme=no|main=no	4	cobj
 17	,	,	fc	fc	recursive=no|theme=no|main=no	16	punct
@@ -128,7 +128,7 @@
 28	podio	podio	ncms000	ncms000	recursive=no|theme=no|main=no	25	pobj
 29	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	Zülle	Zülle	np0000p	np0000p	recursive=yes|theme=yes|main=no	6	nsubj
+1	Zülle	Zülle	np0000p	np0000p	recursive=no|theme=yes|main=no	6	nsubj
 2	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
 3	no	no	rn	rn	recursive=no|theme=no|main=no	4	neg
 4	obstante	obstante	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	6	te
@@ -150,18 +150,18 @@
 20	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
 1	Queda	quedar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	5	coord
-2	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	4	det
-3	última	último	ao0fs0	ao0fs0	recursive=no|theme=no|main=no	4	amod
-4	contrarreloj	contrarreloj	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	1	nsubj
+2	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	4	det
+3	última	último	ao0fs0	ao0fs0	recursive=no|theme=yes|main=no	4	amod
+4	contrarreloj	contrarreloj	ncfs000	ncfs000	recursive=no|theme=yes|main=no	1	nsubj
 5	y	y	cc	cc	recursive=no|theme=no|main=no	0	root
 6	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	5	coord
 7	más	más	rg	rg	recursive=no|theme=no|main=no	8	advmod
 8	fácil	fácil	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	6	attr
 9	que	que	cs	cs	recursive=no|theme=no|main=no	6	csubj
-10	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	11	det
-11	piernas	pierna	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	15	nsubj
-12	del	del	spcms	spcms	recursive=no|theme=no|main=no	11	prepn
-13	segoviano	segoviano	ncms000	ncms000	recursive=no|theme=no|main=no	12	pobj
+10	las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	11	det
+11	piernas	pierna	ncfp000	ncfp000	recursive=no|theme=yes|main=no	15	nsubj
+12	del	del	spcms	spcms	recursive=no|theme=yes|main=no	11	prepn
+13	segoviano	segoviano	ncms000	ncms000	recursive=no|theme=yes|main=no	12	pobj
 14	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	15	reflec
 15	muestren	mostrar	vmsp3p0	vmsp3p0	recursive=no|theme=no|main=no	9	cobj
 16	,	,	fc	fc	recursive=no|theme=no|main=no	15	punct
@@ -193,7 +193,7 @@
 12	consiguiente	consiguiente	aq0msp	aq0msp	recursive=no|theme=no|main=no	11	pobj
 13	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	11	punct
 14	,	,	fc	fc	recursive=no|theme=no|main=no	11	punct
-15	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	16	nsubj
+15	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	16	nsubj
 16	quiere	querer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	11	rcmod
 17	decir	decir	vmn0000	vmn0000	recursive=no|theme=no|main=no	16	dobj
 18	,	,	fc	fc	recursive=no|theme=no|main=no	16	punct
@@ -224,8 +224,8 @@
 14	Rominger	Rominger	np0000l	np0000l	recursive=no|theme=no|main=no	13	appos
 15	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	suizo	suizo	ncms000	ncms000	recursive=yes|theme=yes|main=no	5	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	suizo	suizo	ncms000	ncms000	recursive=no|theme=yes|main=no	5	nsubj
 3	sí	sí	rg	rg	recursive=no|theme=no|main=no	4	advmod
 4	que	que	pi0ms000	pi0ms000	recursive=no|theme=no|main=no	5	advmod
 5	tiene	tener	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root

@@ -1,11 +1,11 @@
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	juez	juez	nccs000	nccs000	recursive=yes|theme=yes|main=no	9	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	5	det
-5	Audiencia	audiencia	ncms000	ncms000	recursive=no|theme=no|main=no	3	pobj
-6	Nacional	nacional	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	5	amod
-7	Baltasar	Baltasar	np0000l	np0000l	recursive=no|theme=no|main=no	2	appos
-8	Garzón	Garzón	np0000l	np0000l	recursive=no|theme=no|main=no	7	appos
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	juez	juez	nccs000	nccs000	recursive=no|theme=yes|main=no	9	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	5	det
+5	Audiencia	audiencia	ncms000	ncms000	recursive=no|theme=yes|main=no	3	pobj
+6	Nacional	nacional	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	5	amod
+7	Baltasar	Baltasar	np0000l	np0000l	recursive=no|theme=yes|main=no	2	appos
+8	Garzón	Garzón	np0000l	np0000l	recursive=no|theme=yes|main=no	7	appos
 9	ordenó	ordenar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 10	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	9	advmod
 11	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	12	det
@@ -39,7 +39,7 @@
 2	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	3	det
 3	auto	auto	ncms000	ncms000	recursive=no|theme=no|main=no	1	pobj
 4	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
-5	Garzón	Garzón	np00000	np00000	recursive=yes|theme=yes|main=no	6	nsubj
+5	Garzón	Garzón	np00000	np00000	recursive=no|theme=yes|main=no	6	nsubj
 6	exhorta	exhortar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 7	además	además	rg	rg	recursive=no|theme=no|main=no	6	advmod
 8	al	al	spcms	spcms	recursive=no|theme=no|main=no	6	dobj
@@ -96,7 +96,7 @@
 
 1	Al	al	spcms	spcms	recursive=no|theme=no|main=no	6	prepv
 2	estar	estar	vmn0000	vmn0000	recursive=no|theme=no|main=no	1	pobj
-3	ambos	ambos	pn0mp000	pn0mp000	recursive=yes|theme=yes|main=no	2	nsubj
+3	ambos	ambos	pn0mp000	pn0mp000	recursive=no|theme=yes|main=no	2	nsubj
 4	aforados	aforado	aq0mpp	aq0mpp	recursive=no|theme=no|main=no	2	attr
 5	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
 6	corresponde	corresponder	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
@@ -155,7 +155,7 @@
 18	Lizarralde	Lizarralde	np00000	np00000	recursive=no|theme=no|main=no	17	appos
 19	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Garzón	Garzón	np00000	np00000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Garzón	Garzón	np00000	np00000	recursive=no|theme=yes|main=no	2	nsubj
 2	confirmó	confirmar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 3	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	4	det
 4	situación	situación	ncfs000	ncfs000	recursive=no|theme=no|main=no	2	dobj
@@ -168,7 +168,7 @@
 11	otros	otro	di0mp0	di0mp0	recursive=no|theme=no|main=no	17	det
 12	cinco	cinco	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	17	det
 13	procesados	procesado	aq0mpp	aq0mpp	recursive=no|theme=no|main=no	9	coord
-14	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	17	nsubj
+14	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	17	nsubj
 15	ya	ya	rg	rg	recursive=no|theme=no|main=no	17	advmod
 16	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	17	reflec
 17	hallan	hallar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	9	rcmod
@@ -212,15 +212,15 @@
 5	para	para	sps00	sps00	recursive=no|theme=no|main=no	11	prepv
 6	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	7	det
 7	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	5	pobj
-8	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	9	det
-9	Ministerio	ministerio	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	11	nsubj
-10	Fiscal	fiscal	nc00000	nc00000	recursive=no|theme=no|main=no	9	appos
+8	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	9	det
+9	Ministerio	ministerio	ncfs000	ncfs000	recursive=no|theme=yes|main=no	11	nsubj
+10	Fiscal	fiscal	nc00000	nc00000	recursive=no|theme=yes|main=no	9	appos
 11	solicitó	solicitar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	4	dep
 12	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	13	det
 13	procesamiento	procesamiento	ncms000	ncms000	recursive=no|theme=no|main=no	11	dobj
 14	,	,	fc	fc	recursive=no|theme=no|main=no	17	punct
-15	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	16	det
-16	juez	juez	nccs000	nccs000	recursive=yes|theme=yes|main=no	17	nsubj
+15	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	16	det
+16	juez	juez	nccs000	nccs000	recursive=no|theme=yes|main=no	17	nsubj
 17	decidió	decidir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 18	excluir	excluir	vmn0000	vmn0000	recursive=no|theme=no|main=no	17	dobj
 19	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	18	punct
@@ -274,13 +274,13 @@
 7	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	8	det
 8	acusados	acusado	aq0mpp	aq0mpp	recursive=no|theme=no|main=no	6	pobj
 9	,	,	fc	fc	recursive=no|theme=no|main=no	11	punct
-10	Garzón	Garzón	np00000	np00000	recursive=yes|theme=yes|main=no	11	nsubj
+10	Garzón	Garzón	np00000	np00000	recursive=no|theme=yes|main=no	11	nsubj
 11	invocó	invocar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 12	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	13	det
 13	auto	auto	ncms000	ncms000	recursive=no|theme=no|main=no	11	dobj
 14	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	17	dobj
-15	él	él	pp3ms000	pp3ms000	recursive=yes|theme=yes|main=no	17	nsubj
-16	mismo	mismo	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	15	amod
+15	él	él	pp3ms000	pp3ms000	recursive=no|theme=yes|main=no	17	nsubj
+16	mismo	mismo	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	15	amod
 17	dictó	dictar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	23	rcmod
 18	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	20	det
 19	pasado	pasado	aq0msp	aq0msp	recursive=no|theme=no|main=no	20	amod
@@ -302,11 +302,11 @@
 2	dicho	dicho	aq0msp	aq0msp	recursive=no|theme=no|main=no	3	amod
 3	escrito	escrito	ncms000	ncms000	recursive=no|theme=no|main=no	1	pobj
 4	,	,	fc	fc	recursive=no|theme=no|main=no	7	punct
-5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
-6	juez	juez	nccs000	nccs000	recursive=yes|theme=yes|main=no	7	nsubj
+5	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	6	det
+6	juez	juez	nccs000	nccs000	recursive=no|theme=yes|main=no	7	nsubj
 7	sostiene	sostener	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 8	que	que	cs	cs	recursive=yes|theme=no|main=yes	7	dobj
-9	Ekin	Ekin	np00000	np00000	recursive=yes|theme=yes|main=no	10	nsubj
+9	Ekin	Ekin	np00000	np00000	recursive=no|theme=yes|main=no	10	nsubj
 10	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	8	cobj
 11	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	12	punct
 12	sin	sin	sps00	sps00	recursive=no|theme=no|main=no	10	advcl
@@ -320,7 +320,7 @@
 20	de	de	sps00	sps00	recursive=no|theme=no|main=no	19	prepn
 21	KAS	KAS	np00000	np00000	recursive=no|theme=no|main=no	20	pobj
 22	,	,	fc	fc	recursive=no|theme=no|main=no	21	punct
-23	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	24	nsubj
+23	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	24	nsubj
 24	funcionó	funcionar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	21	rcmod
 25	como	como	cs	cs	recursive=no|theme=no|main=no	24	dep
 26	aparato	aparato	ncms000	ncms000	recursive=no|theme=no|main=no	25	cobj
@@ -348,7 +348,7 @@
 8	321	321	z	z	recursive=no|theme=no|main=no	9	num
 9	páginas	página	ncfp000	ncfp000	recursive=no|theme=no|main=no	7	pobj
 10	,	,	fc	fc	recursive=no|theme=no|main=no	3	punct
-11	Garzón	Garzón	np00000	np00000	recursive=yes|theme=yes|main=no	12	nsubj
+11	Garzón	Garzón	np00000	np00000	recursive=no|theme=yes|main=no	12	nsubj
 12	ilustra	ilustrar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 13	con	con	sps00	sps00	recursive=no|theme=no|main=no	12	prepv
 14	numerosos	numeroso	aq0mp0	aq0mp0	recursive=no|theme=no|main=no	15	amod
@@ -359,7 +359,7 @@
 19	Ekin	Ekin	np00000	np00000	recursive=no|theme=no|main=no	18	pobj
 20	.	.	fp	fp	recursive=no|theme=no|main=no	12	punct
 
-1	Matanzas	Matanzas	np00000	np00000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Matanzas	Matanzas	np00000	np00000	recursive=no|theme=yes|main=no	2	nsubj
 2	afirma	afirmar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 3	que	que	cs	cs	recursive=yes|theme=no|main=yes	2	dobj
 4	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	5	reflec
@@ -421,8 +421,8 @@
 40	Vasco	vasco	np00000	np00000	recursive=no|theme=no|main=no	36	appos
 41	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	Josu	Josu	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
-2	Ternera	ternera	ncms000	ncms000	recursive=no|theme=no|main=no	1	appos
+1	Josu	Josu	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
+2	Ternera	ternera	ncms000	ncms000	recursive=no|theme=yes|main=no	1	appos
 3	cita	citar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	11	coord
 4	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	5	poss
 5	historial	historial	ncms000	ncms000	recursive=no|theme=no|main=no	3	dobj

@@ -1,10 +1,10 @@
-1	Eduardo	Eduardo	np0000l	np0000l	recursive=yes|theme=yes|main=no	8	nsubj
-2	Valderrama	Valderrama	np0000l	np0000l	recursive=no|theme=no|main=no	1	appos
-3	,	,	fc	fc	recursive=no|theme=no|main=no	1	punct
-4	teniente	teniente	nccs000	nccs000	recursive=no|theme=no|main=no	1	appos
-5	de	de	sps00	sps00	recursive=no|theme=no|main=no	4	prepn
-6	alcalde	alcalde	ncms000	ncms000	recursive=no|theme=no|main=no	5	pobj
-7	,	,	fc	fc	recursive=no|theme=no|main=no	1	punct
+1	Eduardo	Eduardo	np0000l	np0000l	recursive=no|theme=yes|main=no	8	nsubj
+2	Valderrama	Valderrama	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
+3	,	,	fc	fc	recursive=no|theme=yes|main=no	1	punct
+4	teniente	teniente	nccs000	nccs000	recursive=no|theme=yes|main=no	1	appos
+5	de	de	sps00	sps00	recursive=no|theme=yes|main=no	4	prepn
+6	alcalde	alcalde	ncms000	ncms000	recursive=no|theme=yes|main=no	5	pobj
+7	,	,	fc	fc	recursive=no|theme=yes|main=no	1	punct
 8	exclama	exclamar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 9	:	:	fd	fd	recursive=no|theme=no|main=no	11	punct
 10	-	-	fg	fg	recursive=no|theme=no|main=no	11	punct
@@ -14,21 +14,21 @@
 14	-	-	fg	fg	recursive=no|theme=no|main=no	11	punct
 15	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	lío	lío	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	lío	lío	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 4	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	5	det
 5	asamblea	asamblea	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	attr
 6	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Juan	juan	ncms000	ncms000	recursive=yes|theme=yes|main=no	9	nsubj
-2	Manuel	Manuel	np0000o	np0000o	recursive=no|theme=no|main=no	1	appos
-3	Sánchez	Sánchez	ncms000	ncms000	recursive=no|theme=no|main=no	1	appos
-4	Gordillo	gordillo	np0000a	np0000a	recursive=no|theme=no|main=no	3	appos
-5	,	,	fc	fc	recursive=no|theme=no|main=no	1	punct
-6	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	7	det
-7	alcalde	alcalde	ncms000	ncms000	recursive=no|theme=no|main=no	1	appos
-8	,	,	fc	fc	recursive=no|theme=no|main=no	1	punct
+1	Juan	juan	ncms000	ncms000	recursive=no|theme=yes|main=no	9	nsubj
+2	Manuel	Manuel	np0000o	np0000o	recursive=no|theme=yes|main=no	1	appos
+3	Sánchez	Sánchez	ncms000	ncms000	recursive=no|theme=yes|main=no	1	appos
+4	Gordillo	gordillo	np0000a	np0000a	recursive=no|theme=yes|main=no	3	appos
+5	,	,	fc	fc	recursive=no|theme=yes|main=no	1	punct
+6	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	7	det
+7	alcalde	alcalde	ncms000	ncms000	recursive=no|theme=yes|main=no	1	appos
+8	,	,	fc	fc	recursive=no|theme=yes|main=no	1	punct
 9	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 10	en	en	sps00	sps00	recursive=no|theme=no|main=no	9	oobj
 11	Sevilla	Sevilla	np0000l	np0000l	recursive=no|theme=no|main=no	10	pobj
@@ -51,7 +51,7 @@
 9	,	,	fc	fc	recursive=no|theme=no|main=no	0	root
 10	que	que	cs	cs	recursive=no|theme=no|main=no	9	coord
 11	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	10	cobj
-12	tó	tó	pi0ms000	pi0ms000	recursive=yes|theme=yes|main=no	11	nsubj
+12	tó	tó	pi0ms000	pi0ms000	recursive=no|theme=yes|main=no	11	nsubj
 13	como	como	cs	cs	recursive=no|theme=no|main=no	10	cobj
 14	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	15	advmod
 15	y	y	cc	cc	recursive=no|theme=no|main=no	13	cobj
@@ -119,7 +119,7 @@
 12	cuando	cuando	cs	cs	recursive=no|theme=no|main=no	2	advcl
 13	qué	qué	pt0cs000	pt0cs000	recursive=no|theme=no|main=no	14	dobj
 14	sé	saber	vmip1s0	vmip1s0	recursive=no|theme=no|main=no	12	cobj
-15	yo	yo	pp1csn00	pp1csn00	recursive=yes|theme=yes|main=no	14	nsubj
+15	yo	yo	pp1csn00	pp1csn00	recursive=no|theme=yes|main=no	14	nsubj
 16	,	,	fc	fc	recursive=no|theme=no|main=no	25	punct
 17	siempre	siempre	rg	rg	recursive=no|theme=no|main=no	26	advcl
 18	que	que	cs	cs	recursive=no|theme=no|main=no	17	dep
@@ -164,7 +164,7 @@
 
 1	-	-	fg	fg	recursive=no|theme=no|main=no	5	punct
 2	Pero	pero	cc	cc	recursive=no|theme=no|main=no	0	root
-3	Felipe	Felipe	np0000p	np0000p	recursive=yes|theme=yes|main=no	5	nsubj
+3	Felipe	Felipe	np0000p	np0000p	recursive=no|theme=yes|main=no	5	nsubj
 4	nos	yo	pp1cp000	pp1cp000	recursive=no|theme=no|main=no	5	iobj
 5	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	12	coord
 6	haciendo	hacer	vmg0000	vmg0000	recursive=no|theme=no|main=no	5	attr
@@ -264,7 +264,7 @@
 14	cinco	cinco	pn0cp000	pn0cp000	recursive=no|theme=no|main=no	13	coord
 15	.	.	fp	fp	recursive=no|theme=no|main=no	10	punct
 
-1	Muchos	mucho	pi0mp000	pi0mp000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Muchos	mucho	pi0mp000	pi0mp000	recursive=no|theme=yes|main=no	3	nsubj
 2	no	no	rn	rn	recursive=no|theme=no|main=no	3	neg
 3	podrán	poder	vmif3p0	vmif3p0	recursive=yes|theme=no|main=yes	13	dobj
 4	tener	tener	vmn0000	vmn0000	recursive=no|theme=no|main=no	3	cobj
@@ -280,8 +280,8 @@
 14	Eduardo	Eduardo	np0000p	np0000p	recursive=no|theme=no|main=no	13	nsubj
 15	,	,	fc	fc	recursive=no|theme=no|main=no	13	punct
 16	mientras	mientras	cs	cs	recursive=no|theme=no|main=no	13	advcl
-17	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	18	det
-18	mujeres	mujer	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	23	nsubj
+17	las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	18	det
+18	mujeres	mujer	ncfp000	ncfp000	recursive=no|theme=yes|main=no	23	nsubj
 19	dejaban	dejar	vmii3p0	vmii3p0	recursive=no|theme=no|main=no	16	cobj
 20	a	a	sps00	sps00	recursive=no|theme=no|main=no	23	dobj
 21	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	22	det
@@ -312,7 +312,7 @@
 9	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
 10	que	que	cs	cs	recursive=no|theme=no|main=no	6	cobj
 11	mañana	mañana	rg	rg	recursive=no|theme=no|main=no	13	advmod
-12	quién	quién	pt0cs000	pt0cs000	recursive=yes|theme=yes|main=no	13	nsubj
+12	quién	quién	pt0cs000	pt0cs000	recursive=no|theme=yes|main=no	13	nsubj
 13	sabe	saber	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	10	cobj
 14	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 

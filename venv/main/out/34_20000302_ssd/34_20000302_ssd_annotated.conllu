@@ -1,22 +1,22 @@
-1	Francisco	francisco	ncms000	ncms000	recursive=yes|theme=yes|main=no	20	nsubj
-2	Alvarez	Alvarez	np00000	np00000	recursive=no|theme=no|main=no	1	appos
-3	,	,	fc	fc	recursive=no|theme=no|main=no	1	punct
-4	ex	ex	aq0cn0	aq0cn0	recursive=no|theme=no|main=no	5	amod
-5	jefe	jefe	ncms000	ncms000	recursive=no|theme=no|main=no	1	appos
-6	superior	superior	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	5	amod
-7	de	de	sps00	sps00	recursive=no|theme=no|main=no	11	coord
-8	policía	policía	nccs000	nccs000	recursive=no|theme=no|main=no	7	pobj
-9	de	de	sps00	sps00	recursive=no|theme=no|main=no	8	prepn
-10	Bilbao	Bilbao	np00000	np00000	recursive=no|theme=no|main=no	9	pobj
-11	y	y	cc	cc	recursive=no|theme=no|main=no	5	dep
-12	del	del	spcms	spcms	recursive=no|theme=no|main=no	11	coord
-13	mando	mando	ncms000	ncms000	recursive=no|theme=no|main=no	12	pobj
-14	único	único	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	13	amod
-15	de	de	sps00	sps00	recursive=no|theme=no|main=no	13	prepn
-16	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	17	det
-17	lucha	lucha	ncfs000	ncfs000	recursive=no|theme=no|main=no	15	pobj
-18	antiterrorista	antiterrorista	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	17	amod
-19	,	,	fc	fc	recursive=no|theme=no|main=no	1	punct
+1	Francisco	francisco	ncms000	ncms000	recursive=no|theme=yes|main=no	20	nsubj
+2	Alvarez	Alvarez	np00000	np00000	recursive=no|theme=yes|main=no	1	appos
+3	,	,	fc	fc	recursive=no|theme=yes|main=no	1	punct
+4	ex	ex	aq0cn0	aq0cn0	recursive=no|theme=yes|main=no	5	amod
+5	jefe	jefe	ncms000	ncms000	recursive=no|theme=yes|main=no	1	appos
+6	superior	superior	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	5	amod
+7	de	de	sps00	sps00	recursive=no|theme=yes|main=no	11	coord
+8	policía	policía	nccs000	nccs000	recursive=no|theme=yes|main=no	7	pobj
+9	de	de	sps00	sps00	recursive=no|theme=yes|main=no	8	prepn
+10	Bilbao	Bilbao	np00000	np00000	recursive=no|theme=yes|main=no	9	pobj
+11	y	y	cc	cc	recursive=no|theme=yes|main=no	5	dep
+12	del	del	spcms	spcms	recursive=no|theme=yes|main=no	11	coord
+13	mando	mando	ncms000	ncms000	recursive=no|theme=yes|main=no	12	pobj
+14	único	único	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	13	amod
+15	de	de	sps00	sps00	recursive=no|theme=yes|main=no	13	prepn
+16	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	17	det
+17	lucha	lucha	ncfs000	ncfs000	recursive=no|theme=yes|main=no	15	pobj
+18	antiterrorista	antiterrorista	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	17	amod
+19	,	,	fc	fc	recursive=no|theme=yes|main=no	1	punct
 20	declaró	declarar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 21	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	20	advmod
 22	que	que	cs	cs	recursive=yes|theme=no|main=yes	20	dobj
@@ -62,7 +62,7 @@
 21	de	de	spcms	spcms	recursive=no|theme=no|main=no	20	prepn
 22	1983	1983	zp	zp	recursive=no|theme=no|main=no	21	pobj
 23	,	,	fc	fc	recursive=no|theme=no|main=no	4	punct
-24	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	25	nsubj
+24	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	25	nsubj
 25	declaró	declarar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	4	rcmod
 26	que	que	cs	cs	recursive=yes|theme=no|main=yes	25	dobj
 27	José	José	ncfs000	ncfs000	recursive=no|theme=no|main=no	30	coord
@@ -77,23 +77,23 @@
 36	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	38	det
 37	pocas	poco	di0fp0	di0fp0	recursive=no|theme=no|main=no	38	det
 38	personas	persona	ncfp000	ncfp000	recursive=no|theme=no|main=no	35	pobj
-39	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	40	nsubj
+39	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	40	nsubj
 40	conocían	conocer	vmii3p0	vmii3p0	recursive=no|theme=no|main=no	38	rcmod
 41	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	42	poss
 42	domicilio	domicilio	ncms000	ncms000	recursive=no|theme=no|main=no	40	dobj
 43	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Alvarez	Alvarez	np00000	np00000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Alvarez	Alvarez	np00000	np00000	recursive=no|theme=yes|main=no	2	nsubj
 2	confirmó	confirmar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 3	que	que	cs	cs	recursive=yes|theme=no|main=yes	2	dobj
-4	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	5	det
-5	GAL	GAL	np00000	np00000	recursive=yes|theme=yes|main=no	6	nsubj
+4	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	5	det
+5	GAL	GAL	np00000	np00000	recursive=no|theme=yes|main=no	6	nsubj
 6	estaba	estar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	3	cobj
 7	dividido	dividido	aq0msp	aq0msp	recursive=no|theme=no|main=no	6	attr
 8	en	en	sps00	sps00	recursive=no|theme=no|main=no	7	prepa
 9	cuatro	cuatro	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	10	det
 10	grupos	grupo	ncmp000	ncmp000	recursive=no|theme=no|main=no	8	pobj
-11	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	12	nsubj
+11	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	12	nsubj
 12	eran	ser	vsii3p0	vsii3p0	recursive=no|theme=no|main=no	10	rcmod
 13	identificados	identificar	vmp00pm	vmp00pm	recursive=no|theme=no|main=no	12	attr
 14	con	con	sps00	sps00	recursive=no|theme=no|main=no	13	prepv
@@ -136,12 +136,12 @@
 26	empresarios	empresario	ncmp000	ncmp000	recursive=no|theme=no|main=no	24	pobj
 27	.	.	fp	fp	recursive=no|theme=no|main=no	21	punct
 
-1	Izaskun	Izaskun	np0000l	np0000l	recursive=yes|theme=yes|main=no	3	nsubj
-2	Ugarte	Ugarte	np0000l	np0000l	recursive=no|theme=no|main=no	1	appos
+1	Izaskun	Izaskun	np0000l	np0000l	recursive=no|theme=yes|main=no	3	nsubj
+2	Ugarte	Ugarte	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
 3	recordó	recordar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	que	que	cs	cs	recursive=no|theme=no|main=no	20	conj
-5	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	6	poss
-6	familia	familia	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	8	nsubj
+5	su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	6	poss
+6	familia	familia	ncfs000	ncfs000	recursive=no|theme=yes|main=no	8	nsubj
 7	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	8	reflec
 8	trasladó	trasladar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	4	cobj
 9	de	de	sps00	sps00	recursive=no|theme=no|main=no	8	prepv
@@ -167,12 +167,12 @@
 29	mudanza	mudanza	ncfs000	ncfs000	recursive=no|theme=no|main=no	27	pobj
 30	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	viuda	viuda	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	viuda	viuda	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	nsubj
 3	admitió	admitir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	que	que	cs	cs	recursive=yes|theme=no|main=yes	3	dobj
-5	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	6	poss
-6	marido	marido	ncms000	ncms000	recursive=yes|theme=yes|main=no	8	nsubj
+5	su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	6	poss
+6	marido	marido	ncms000	ncms000	recursive=no|theme=yes|main=no	8	nsubj
 7	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	8	reflec
 8	preocupó	preocupar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	18	coord
 9	cuando	cuando	cs	cs	recursive=no|theme=no|main=no	8	advcl
@@ -203,13 +203,13 @@
 34	domicilio	domicilio	ncms000	ncms000	recursive=no|theme=no|main=no	32	pobj
 35	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Txapela	Txapela	np00000	np00000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Txapela	Txapela	np00000	np00000	recursive=no|theme=yes|main=no	2	nsubj
 2	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	0	root
 3	asesinado	asesinar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	2	attr
 4	por	por	sps00	sps00	recursive=no|theme=no|main=no	3	agent
 5	dos	dos	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	6	det
 6	individuos	individuo	ncmp000	ncmp000	recursive=no|theme=no|main=no	4	pobj
-7	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	9	nsubj
+7	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	9	nsubj
 8	le	él	pp3csd00	pp3csd00	recursive=no|theme=no|main=no	9	iobj
 9	dispararon	disparar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	6	rcmod
 10	en	en	sps00	sps00	recursive=no|theme=no|main=no	9	prepv
@@ -230,12 +230,12 @@
 25	pequeña	pequeño	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	24	amod
 26	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
-1	Ugarte	Ugarte	np00000	np00000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Ugarte	Ugarte	np00000	np00000	recursive=no|theme=yes|main=no	2	nsubj
 2	declaró	declarar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 3	que	que	cs	cs	recursive=yes|theme=no|main=yes	2	dobj
-4	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	5	poss
-5	vida	vida	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	7	nsubj
-6	familiar	familiar	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	5	amod
+4	su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	5	poss
+5	vida	vida	ncfs000	ncfs000	recursive=no|theme=yes|main=no	7	nsubj
+6	familiar	familiar	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	5	amod
 7	era	ser	vsii3s0	vsii3s0	recursive=no|theme=no|main=no	3	cobj
 8	íntima	íntimo	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	7	attr
 9	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
@@ -254,7 +254,7 @@
 12	considerados	considerar	vmp00pm	vmp00pm	recursive=no|theme=no|main=no	11	dobj
 13	como	como	cs	cs	recursive=no|theme=no|main=no	12	cpred
 14	gente	gente	ncfs000	ncfs000	recursive=no|theme=no|main=no	13	cobj
-15	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	16	nsubj
+15	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	16	nsubj
 16	hacía	hacer	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	14	rcmod
 17	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	18	poss
 18	vida	vida	ncfs000	ncfs000	recursive=no|theme=no|main=no	16	dobj
@@ -275,7 +275,7 @@
 10	Angel	Angel	np0000l	np0000l	recursive=no|theme=no|main=no	9	appos
 11	Fariños	Fariños	np0000l	np0000l	recursive=no|theme=no|main=no	10	appos
 12	,	,	fc	fc	recursive=no|theme=no|main=no	9	punct
-13	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	16	nsubj
+13	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	16	nsubj
 14	en	en	sps00	sps00	recursive=no|theme=no|main=no	16	prepv
 15	1987	1987	z	z	recursive=no|theme=no|main=no	14	pobj
 16	remodeló	remodelar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	9	rcmod
@@ -289,8 +289,8 @@
 24	Sebastián	Sebastián	np0000o	np0000o	recursive=no|theme=no|main=no	21	appos
 25	.	.	fp	fp	recursive=no|theme=no|main=no	7	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	testigo	testigo	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	testigo	testigo	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	ofreció	ofrecer	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	explicaciones	explicación	ncfp000	ncfp000	recursive=no|theme=no|main=no	3	dobj
 5	confusas	confuso	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	4	amod
@@ -305,8 +305,8 @@
 14	Bayo	Bayo	np0000l	np0000l	recursive=no|theme=no|main=no	13	appos
 15	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Este	este	dd0ms0	dd0ms0	recursive=no|theme=no|main=no	2	det
-2	acusado	acusado	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Este	este	dd0ms0	dd0ms0	recursive=no|theme=yes|main=no	2	det
+2	acusado	acusado	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	identificó	identificar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	en	en	sps00	sps00	recursive=no|theme=no|main=no	3	prepv
 5	1997	1997	z	z	recursive=no|theme=no|main=no	4	pobj
@@ -331,7 +331,7 @@
 24	Zabala	Zabala	np00000	np00000	recursive=no|theme=no|main=no	23	coord
 25	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Fariños	Fariños	np00000	np00000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Fariños	Fariños	np00000	np00000	recursive=no|theme=yes|main=no	2	nsubj
 2	desmintió	desmentir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 3	algunos	alguno	di0mp0	di0mp0	recursive=no|theme=no|main=no	4	det
 4	extremos	extremo	ncmp000	ncmp000	recursive=no|theme=no|main=no	2	dobj
@@ -344,7 +344,7 @@
 11	López	López	ncms000	ncms000	recursive=no|theme=no|main=no	10	appos
 12	Carrillo	carrillo	np00000	np00000	recursive=no|theme=no|main=no	11	appos
 13	,	,	fc	fc	recursive=no|theme=no|main=no	16	punct
-14	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	16	nsubj
+14	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	16	nsubj
 15	confesó	confesar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	9	dep
 16	haber	haber	van0000	van0000	recursive=yes|theme=no|main=yes	15	dobj
 17	marcado	marcar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	16	cobj
@@ -355,17 +355,17 @@
 22	estancias	estancia	ncfp000	ncfp000	recursive=no|theme=no|main=no	17	dobj
 23	donde	donde	pr000000	pr000000	recursive=no|theme=no|main=no	24	dobj
 24	estuvieron	estar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	22	rcmod
-25	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	27	det
-26	presuntos	presunto	aq0mp0	aq0mp0	recursive=no|theme=no|main=no	27	amod
-27	etarras	etarra	nccp000	nccp000	recursive=yes|theme=yes|main=no	24	nsubj
+25	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	27	det
+26	presuntos	presunto	aq0mp0	aq0mp0	recursive=no|theme=yes|main=no	27	amod
+27	etarras	etarra	nccp000	nccp000	recursive=no|theme=yes|main=no	24	nsubj
 28	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
-1	Tres	tres	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	2	det
-2	guardias	guardia	nccp000	nccp000	recursive=no|theme=no|main=no	4	coord
-3	civiles	civil	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	2	amod
-4	y	y	cc	cc	recursive=yes|theme=yes|main=no	7	nsubj
-5	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	6	det
-6	policía	policía	nccs000	nccs000	recursive=no|theme=no|main=no	4	coord
+1	Tres	tres	dn0cp0	dn0cp0	recursive=no|theme=yes|main=no	2	det
+2	guardias	guardia	nccp000	nccp000	recursive=no|theme=yes|main=no	4	coord
+3	civiles	civil	aq0cp0	aq0cp0	recursive=no|theme=yes|main=no	2	amod
+4	y	y	cc	cc	recursive=no|theme=yes|main=no	7	nsubj
+5	un	uno	di0ms0	di0ms0	recursive=no|theme=yes|main=no	6	det
+6	policía	policía	nccs000	nccs000	recursive=no|theme=yes|main=no	4	coord
 7	ratificaron	ratificar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 8	punto	punto	ncms000	ncms000	recursive=no|theme=no|main=no	7	advmod
 9	por	por	spcms	spcms	recursive=no|theme=no|main=no	8	prepn

@@ -1,22 +1,22 @@
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	terrorista	terrorista	nccs000	nccs000	recursive=yes|theme=yes|main=no	20	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	extrema	extremo	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	5	amod
-5	derecha	derecha	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	pobj
-6	más	más	rg	rg	recursive=no|theme=no|main=no	7	advmod
-7	buscado	buscado	aq0msp	aq0msp	recursive=no|theme=no|main=no	2	amod
-8	de	de	sps00	sps00	recursive=no|theme=no|main=no	7	prepa
-9	Europa	Europa	np00000	np00000	recursive=no|theme=no|main=no	8	pobj
-10	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
-11	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	12	det
-12	italiano	italiano	ncms000	ncms000	recursive=no|theme=no|main=no	2	appos
-13	Pasquale	Pasquale	np0000l	np0000l	recursive=no|theme=no|main=no	12	appos
-14	Belsito	Belsito	np0000l	np0000l	recursive=no|theme=no|main=no	13	appos
-15	,	,	fc	fc	recursive=no|theme=no|main=no	12	punct
-16	de	de	sps00	sps00	recursive=no|theme=no|main=no	12	prepn
-17	39	39	z	z	recursive=no|theme=no|main=no	18	num
-18	años	año	ncmp000	ncmp000	recursive=no|theme=no|main=no	16	pobj
-19	,	,	fc	fc	recursive=no|theme=no|main=no	12	punct
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	terrorista	terrorista	nccs000	nccs000	recursive=no|theme=yes|main=no	20	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	extrema	extremo	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	5	amod
+5	derecha	derecha	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	pobj
+6	más	más	rg	rg	recursive=no|theme=yes|main=no	7	advmod
+7	buscado	buscado	aq0msp	aq0msp	recursive=no|theme=yes|main=no	2	amod
+8	de	de	sps00	sps00	recursive=no|theme=yes|main=no	7	prepa
+9	Europa	Europa	np00000	np00000	recursive=no|theme=yes|main=no	8	pobj
+10	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
+11	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	12	det
+12	italiano	italiano	ncms000	ncms000	recursive=no|theme=yes|main=no	2	appos
+13	Pasquale	Pasquale	np0000l	np0000l	recursive=no|theme=yes|main=no	12	appos
+14	Belsito	Belsito	np0000l	np0000l	recursive=no|theme=yes|main=no	13	appos
+15	,	,	fc	fc	recursive=no|theme=yes|main=no	12	punct
+16	de	de	sps00	sps00	recursive=no|theme=yes|main=no	12	prepn
+17	39	39	z	z	recursive=no|theme=yes|main=no	18	num
+18	años	año	ncmp000	ncmp000	recursive=no|theme=yes|main=no	16	pobj
+19	,	,	fc	fc	recursive=no|theme=yes|main=no	12	punct
 20	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	0	root
 21	detenido	detener	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	20	attr
 22	en	en	sps00	sps00	recursive=no|theme=no|main=no	21	prepv
@@ -37,13 +37,13 @@
 37	Madrid	Madrid	np00000	np00000	recursive=no|theme=no|main=no	36	pobj
 38	.	.	fp	fp	recursive=no|theme=no|main=no	20	punct
 
-1	Belsito	Belsito	np00000	np00000	recursive=yes|theme=yes|main=no	8	nsubj
-2	,	,	fc	fc	recursive=no|theme=no|main=no	1	punct
-3	apodado	apodado	aq0msp	aq0msp	recursive=no|theme=no|main=no	1	amod
-4	La	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	5	det
-5	Flor	flor	ncms000	ncms000	recursive=no|theme=no|main=no	3	cpred
-6	Negra	negro	ncms000	ncms000	recursive=no|theme=no|main=no	5	appos
-7	,	,	fc	fc	recursive=no|theme=no|main=no	1	punct
+1	Belsito	Belsito	np00000	np00000	recursive=no|theme=yes|main=no	8	nsubj
+2	,	,	fc	fc	recursive=no|theme=yes|main=no	1	punct
+3	apodado	apodado	aq0msp	aq0msp	recursive=no|theme=yes|main=no	1	amod
+4	La	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	5	det
+5	Flor	flor	ncms000	ncms000	recursive=no|theme=yes|main=no	3	cpred
+6	Negra	negro	ncms000	ncms000	recursive=no|theme=yes|main=no	5	appos
+7	,	,	fc	fc	recursive=no|theme=yes|main=no	1	punct
 8	llevaba	llevar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	15	coord
 9	21	21	z	z	recursive=no|theme=no|main=no	10	num
 10	años	año	ncmp000	ncmp000	recursive=no|theme=no|main=no	8	dobj
@@ -58,8 +58,8 @@
 19	resistencia	resistencia	ncfs000	ncfs000	recursive=no|theme=no|main=no	16	dobj
 20	antes	antes	rg	rg	recursive=no|theme=no|main=no	16	advmod
 21	de	de	sps00	sps00	recursive=no|theme=no|main=no	20	prep
-22	ser	ser	vsn0000	vsn0000	recursive=no|theme=no|main=no	4	dep
-23	arrestado	arrestar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	4	dep
+22	ser	ser	vsn0000	vsn0000	recursive=no|theme=yes|main=no	4	dep
+23	arrestado	arrestar	vmp00sm	vmp00sm	recursive=no|theme=yes|main=no	4	dep
 24	.	.	fp	fp	recursive=no|theme=no|main=no	15	punct
 
 1	Adscrito	adscrito	aq0msp	aq0msp	recursive=no|theme=no|main=no	12	coord
@@ -120,8 +120,8 @@
 10	haber	haber	van0000	van0000	recursive=no|theme=no|main=no	9	pobj
 11	sido	ser	vsp00sm	vsp00sm	recursive=no|theme=no|main=no	10	vobj
 12	detectada	detectar	vmp00sf	vmp00sf	recursive=no|theme=no|main=no	11	attr
-13	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	14	poss
-14	presencia	presencia	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	10	nsubj
+13	su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	14	poss
+14	presencia	presencia	ncfs000	ncfs000	recursive=no|theme=yes|main=no	10	nsubj
 15	en	en	sps00	sps00	recursive=no|theme=no|main=no	12	prepv
 16	Francia	Francia	np00000	np00000	recursive=no|theme=no|main=no	15	pobj
 17	,	,	fc	fc	recursive=no|theme=no|main=no	23	punct
@@ -142,9 +142,9 @@
 6	falsa	falso	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	5	amod
 7	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	La	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	Flor	flor	ncms000	ncms000	recursive=yes|theme=yes|main=no	4	nsubj
-3	Negra	negro	ncms000	ncms000	recursive=no|theme=no|main=no	2	appos
+1	La	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	Flor	flor	ncms000	ncms000	recursive=no|theme=yes|main=no	4	nsubj
+3	Negra	negro	ncms000	ncms000	recursive=no|theme=yes|main=no	2	appos
 4	tiene	tener	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 5	pendientes	pendiente	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	4	cpred
 6	cuatro	cuatro	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	7	det
@@ -197,7 +197,7 @@
 33	chivatos	chivato	ncmp000	ncmp000	recursive=no|theme=no|main=no	32	pobj
 34	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Belsito	Belsito	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Belsito	Belsito	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 2	siempre	siempre	rg	rg	recursive=no|theme=no|main=no	3	advmod
 3	utilizaba	utilizar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	0	root
 4	armas	arma	ncfp000	ncfp000	recursive=no|theme=no|main=no	3	dobj
@@ -225,9 +225,9 @@
 2	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	3	det
 3	policía	policía	nccs000	nccs000	recursive=no|theme=no|main=no	1	pobj
 4	,	,	fc	fc	recursive=no|theme=no|main=no	8	punct
-5	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	6	poss
-6	preparación	preparación	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	8	nsubj
-7	militar	militar	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	6	amod
+5	su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	6	poss
+6	preparación	preparación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	8	nsubj
+7	militar	militar	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	6	amod
 8	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 9	excelente	excelente	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	8	attr
 10	,	,	fc	fc	recursive=no|theme=no|main=no	8	punct
@@ -248,8 +248,8 @@
 25	Líbano	Líbano	np00000	np00000	recursive=no|theme=no|main=no	24	pobj
 26	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 
-1	Su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	2	poss
-2	detención	detención	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	2	poss
+2	detención	detención	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	nsubj
 3	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	0	root
 4	posible	posible	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	3	attr
 5	gracias	gracia	ncfp000	ncfp000	recursive=no|theme=no|main=no	3	prepv

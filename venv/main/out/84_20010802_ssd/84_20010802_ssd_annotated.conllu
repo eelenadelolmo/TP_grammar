@@ -1,5 +1,5 @@
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	ciclistas	ciclista	nccp000	nccp000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	ciclistas	ciclista	nccp000	nccp000	recursive=no|theme=yes|main=no	3	nsubj
 3	finalizaron	finalizar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 4	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	3	advmod
 5	en	en	sps00	sps00	recursive=no|theme=no|main=no	3	prepv
@@ -18,7 +18,7 @@
 18	en	en	sps00	sps00	recursive=no|theme=no|main=no	14	coord
 19	Europa	Europa	np00000	np00000	recursive=no|theme=no|main=no	18	pobj
 20	,	,	fc	fc	recursive=no|theme=no|main=no	8	punct
-21	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	22	nsubj
+21	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	22	nsubj
 22	dio	dar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	32	rcmod
 23	comienzo	comienzo	ncfp000	ncfp000	recursive=no|theme=no|main=no	22	dobj
 24	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	26	det
@@ -30,7 +30,7 @@
 30	en	en	sps00	sps00	recursive=no|theme=no|main=no	22	prepv
 31	Berlín	Berlín	np00000	np00000	recursive=no|theme=no|main=no	30	pobj
 32	y	y	cc	cc	recursive=no|theme=no|main=no	8	dep
-33	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	35	nsubj
+33	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	35	nsubj
 34	les	él	pp3cpd00	pp3cpd00	recursive=no|theme=no|main=no	36	dobj
 35	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	32	rcmod
 36	llevado	llevar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	35	vobj

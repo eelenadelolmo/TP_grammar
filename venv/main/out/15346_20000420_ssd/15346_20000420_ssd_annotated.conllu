@@ -1,7 +1,7 @@
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	pívot	pívot	nccs000	nccs000	recursive=yes|theme=yes|main=no	6	nsubj
-3	David	David	np0000l	np0000l	recursive=no|theme=no|main=no	2	appos
-4	Robinson	Robinson	np0000l	np0000l	recursive=no|theme=no|main=no	3	appos
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	pívot	pívot	nccs000	nccs000	recursive=no|theme=yes|main=no	6	nsubj
+3	David	David	np0000l	np0000l	recursive=no|theme=yes|main=no	2	appos
+4	Robinson	Robinson	np0000l	np0000l	recursive=no|theme=yes|main=no	3	appos
 5	le	él	pp3csd00	pp3csd00	recursive=no|theme=no|main=no	6	iobj
 6	envió	enviar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 7	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	9	det
@@ -19,11 +19,11 @@
 19	O'Neal	O'Neal	np0000l	np0000l	recursive=no|theme=no|main=no	18	appos
 20	,	,	fc	fc	recursive=no|theme=no|main=no	11	punct
 21	que	que	cs	cs	recursive=no|theme=no|main=no	6	dep
-22	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	23	det
-23	Spurs	Spurs	ncms000	ncms000	recursive=yes|theme=yes|main=no	27	nsubj
-24	de	de	spcms	spcms	recursive=no|theme=no|main=no	23	prepn
-25	San	san	ncms000	ncms000	recursive=no|theme=no|main=no	24	pobj
-26	Antonio	Antonio	np0000l	np0000l	recursive=no|theme=no|main=no	25	appos
+22	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	23	det
+23	Spurs	Spurs	ncms000	ncms000	recursive=no|theme=yes|main=no	27	nsubj
+24	de	de	spcms	spcms	recursive=no|theme=yes|main=no	23	prepn
+25	San	san	ncms000	ncms000	recursive=no|theme=yes|main=no	24	pobj
+26	Antonio	Antonio	np0000l	np0000l	recursive=no|theme=yes|main=no	25	appos
 27	son	ser	vsip3p0	vsip3p0	recursive=no|theme=no|main=no	21	cobj
 28	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	29	det
 29	campeones	campeón	ncmp000	ncmp000	recursive=no|theme=no|main=no	27	attr
@@ -47,8 +47,8 @@
 47	regular	regular	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	46	amod
 48	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	Lakers	Lakers	np0000o	np0000o	recursive=yes|theme=yes|main=no	4	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	Lakers	Lakers	np0000o	np0000o	recursive=no|theme=yes|main=no	4	nsubj
 3	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	17	coord
 4	sido	ser	vsp00sm	vsp00sm	recursive=no|theme=no|main=no	3	vobj
 5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
@@ -99,8 +99,8 @@
 50	Sacramento	Sacramento	np00000	np00000	recursive=no|theme=no|main=no	49	pobj
 51	.	.	fp	fp	recursive=no|theme=no|main=no	17	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	Spurs	Spurs	np0000o	np0000o	recursive=yes|theme=yes|main=no	10	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	Spurs	Spurs	np0000o	np0000o	recursive=no|theme=yes|main=no	10	nsubj
 3	sin	sin	sps00	sps00	recursive=no|theme=no|main=no	10	prepv
 4	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	5	det
 5	alero	alero	nccs000	nccs000	recursive=no|theme=no|main=no	3	pobj
@@ -127,7 +127,7 @@
 26	puntos	punto	ncmp000	ncmp000	recursive=no|theme=no|main=no	24	pobj
 27	con	con	sps00	sps00	recursive=no|theme=no|main=no	30	prepv
 28	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	27	pobj
-29	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	28	nsubj
+29	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	28	nsubj
 30	llegaron	llegar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	23	prepn
 31	al	al	spcms	spcms	recursive=no|theme=no|main=no	30	prepv
 32	cuarto	cuarto	ao0ms0	ao0ms0	recursive=no|theme=no|main=no	33	amod
@@ -137,12 +137,12 @@
 1	Una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	2	det
 2	vez	vez	ncfs000	ncfs000	recursive=no|theme=no|main=no	10	dobj
 3	más	más	rg	rg	recursive=no|theme=no|main=no	2	advmod
-4	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	5	det
-5	figura	figura	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	10	nsubj
-6	del	del	spcms	spcms	recursive=no|theme=no|main=no	5	prepn
-7	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	8	punct
-8	Almirante	almirante	ncms000	ncms000	recursive=no|theme=no|main=no	6	pobj
-9	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	8	punct
+4	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	5	det
+5	figura	figura	ncfs000	ncfs000	recursive=no|theme=yes|main=no	10	nsubj
+6	del	del	spcms	spcms	recursive=no|theme=yes|main=no	5	prepn
+7	&quot;	&quot;	fe	fe	recursive=no|theme=yes|main=no	8	punct
+8	Almirante	almirante	ncms000	ncms000	recursive=no|theme=yes|main=no	6	pobj
+9	&quot;	&quot;	fe	fe	recursive=no|theme=yes|main=no	8	punct
 10	surgió	surgir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 11	en	en	sps00	sps00	recursive=no|theme=no|main=no	10	prepv
 12	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	13	det
@@ -190,8 +190,8 @@
 54	triunfos	triunfo	ncmp000	ncmp000	recursive=no|theme=no|main=no	50	appos
 55	.	.	fp	fp	recursive=no|theme=no|main=no	10	punct
 
-1	Malik	Malik	np0000l	np0000l	recursive=yes|theme=yes|main=no	3	nsubj
-2	Rose	rosar	np0000l	np0000l	recursive=no|theme=no|main=no	1	appos
+1	Malik	Malik	np0000l	np0000l	recursive=no|theme=yes|main=no	3	nsubj
+2	Rose	rosar	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
 3	consiguió	conseguir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	19	cobj
 4	14	14	z	z	recursive=no|theme=no|main=no	5	num
 5	puntos	punto	ncmp000	ncmp000	recursive=no|theme=no|main=no	6	coord
@@ -199,10 +199,10 @@
 7	nueve	nueve	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	8	det
 8	rebotes	rebote	ncmp000	ncmp000	recursive=no|theme=no|main=no	6	coord
 9	,	,	fc	fc	recursive=no|theme=no|main=no	14	punct
-10	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	11	det
-11	veterano	veterano	ncms000	ncms000	recursive=yes|theme=yes|main=no	14	nsubj
-12	Terry	Terry	np0000l	np0000l	recursive=no|theme=no|main=no	11	appos
-13	Porter	Porter	np0000l	np0000l	recursive=no|theme=no|main=no	12	appos
+10	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	11	det
+11	veterano	veterano	ncms000	ncms000	recursive=no|theme=yes|main=no	14	nsubj
+12	Terry	Terry	np0000l	np0000l	recursive=no|theme=yes|main=no	11	appos
+13	Porter	Porter	np0000l	np0000l	recursive=no|theme=yes|main=no	12	appos
 14	contribuyó	contribuir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	19	coord
 15	con	con	sps00	sps00	recursive=no|theme=no|main=no	14	prepv
 16	13	13	z	z	recursive=no|theme=no|main=no	17	num
@@ -210,8 +210,8 @@
 18	,	,	fc	fc	recursive=no|theme=no|main=no	19	punct
 19	mientras	mientras	cs	cs	recursive=no|theme=no|main=no	0	root
 20	que	que	cs	cs	recursive=no|theme=no|main=no	19	coord
-21	Jerome	Jerome	np0000l	np0000l	recursive=yes|theme=yes|main=no	23	nsubj
-22	Kersey	Kersey	np0000l	np0000l	recursive=no|theme=no|main=no	21	appos
+21	Jerome	Jerome	np0000l	np0000l	recursive=no|theme=yes|main=no	23	nsubj
+22	Kersey	Kersey	np0000l	np0000l	recursive=no|theme=yes|main=no	21	appos
 23	capturó	capturar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	30	coord
 24	nueve	nueve	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	25	det
 25	balones	balón	ncmp000	ncmp000	recursive=no|theme=no|main=no	23	dobj
@@ -220,8 +220,8 @@
 28	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	29	det
 29	tableros	tablero	ncmp000	ncmp000	recursive=no|theme=no|main=no	27	pobj
 30	y	y	cc	cc	recursive=no|theme=no|main=no	20	cobj
-31	Antonio	Antonio	np0000l	np0000l	recursive=yes|theme=yes|main=no	33	nsubj
-32	Daniels	Daniels	np0000l	np0000l	recursive=no|theme=no|main=no	31	appos
+31	Antonio	Antonio	np0000l	np0000l	recursive=no|theme=yes|main=no	33	nsubj
+32	Daniels	Daniels	np0000l	np0000l	recursive=no|theme=yes|main=no	31	appos
 33	estableció	establecer	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	30	coord
 34	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	36	poss
 35	mejor	mejor	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	36	amod
@@ -266,8 +266,8 @@
 33	Popovich	Popovich	np0000l	np0000l	recursive=no|theme=no|main=no	32	appos
 34	.	.	fp	fp	recursive=no|theme=no|main=no	25	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	spurs	spurs	nc00000	nc00000	recursive=yes|theme=yes|main=no	6	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	spurs	spurs	nc00000	nc00000	recursive=no|theme=yes|main=no	6	nsubj
 3	(	(	fpa	fpa	recursive=no|theme=no|main=no	4	punct
 4	53-29	53-29	z	z	recursive=no|theme=no|main=no	6	dobj
 5	)	)	fpt	fpt	recursive=no|theme=no|main=no	4	punct
@@ -307,10 +307,10 @@
 39	Phoenix	Phoenix	np0000l	np0000l	recursive=no|theme=no|main=no	38	pobj
 40	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	pívot	pívot	nccs000	nccs000	recursive=yes|theme=yes|main=no	6	nsubj
-3	Shaquille	Shaquille	np0000l	np0000l	recursive=no|theme=no|main=no	2	appos
-4	O'Neal	O'Neal	np0000l	np0000l	recursive=no|theme=no|main=no	3	appos
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	pívot	pívot	nccs000	nccs000	recursive=no|theme=yes|main=no	6	nsubj
+3	Shaquille	Shaquille	np0000l	np0000l	recursive=no|theme=yes|main=no	2	appos
+4	O'Neal	O'Neal	np0000l	np0000l	recursive=no|theme=yes|main=no	3	appos
 5	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	6	reflec
 6	perdió	perder	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	19	cobj
 7	por	por	sps00	sps00	recursive=no|theme=no|main=no	6	advmod
@@ -333,8 +333,8 @@
 24	tercer	tercero	ao0ms0	ao0ms0	recursive=no|theme=no|main=no	25	amod
 25	periodo	periodo	ncms000	ncms000	recursive=no|theme=no|main=no	23	pobj
 26	cuando	cuando	cs	cs	recursive=no|theme=no|main=no	21	dep
-27	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	28	det
-28	Spurs	Spurs	np00000	np00000	recursive=yes|theme=yes|main=no	29	nsubj
+27	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	28	det
+28	Spurs	Spurs	np00000	np00000	recursive=no|theme=yes|main=no	29	nsubj
 29	lograron	lograr	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	26	cobj
 30	racha	racha	ncfs000	ncfs000	recursive=no|theme=no|main=no	29	dobj
 31	de	de	sps00	sps00	recursive=no|theme=no|main=no	30	prepn
@@ -357,7 +357,7 @@
 5	por	por	sps00	sps00	recursive=no|theme=no|main=no	4	prepa
 6	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	7	det
 7	forma	forma	ncfs000	ncfs000	recursive=no|theme=no|main=no	5	pobj
-8	como	como	pr000000	pr000000	recursive=yes|theme=yes|main=no	9	nsubj
+8	como	como	pr000000	pr000000	recursive=no|theme=yes|main=no	9	nsubj
 9	hemos	haber	vaip1p0	vaip1p0	recursive=no|theme=no|main=no	7	rcmod
 10	perdido	perder	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	9	vobj
 11	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	12	det

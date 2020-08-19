@@ -1,6 +1,6 @@
-1	Parques	parque	ncmp000	ncmp000	recursive=no|theme=no|main=no	2	coord
-2	y	y	cc	cc	recursive=yes|theme=yes|main=no	4	nsubj
-3	Jardines	jardín	ncmp000	ncmp000	recursive=no|theme=no|main=no	2	coord
+1	Parques	parque	ncmp000	ncmp000	recursive=no|theme=yes|main=no	2	coord
+2	y	y	cc	cc	recursive=no|theme=yes|main=no	4	nsubj
+3	Jardines	jardín	ncmp000	ncmp000	recursive=no|theme=yes|main=no	2	coord
 4	acometió	acometer	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 5	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	6	det
 6	obras	obra	ncfp000	ncfp000	recursive=no|theme=no|main=no	4	dobj
@@ -27,11 +27,11 @@
 2	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	4	reflec
 3	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	10	coord
 4	recuperado	recuperar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	3	vobj
-5	10.000	10000	z	z	recursive=no|theme=no|main=no	6	num
-6	metros	metro	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
-7	cuadrados	cuadrados	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	6	amod
-8	de	de	sps00	sps00	recursive=no|theme=no|main=no	6	prepn
-9	hierba	hierba	ncfs000	ncfs000	recursive=no|theme=no|main=no	8	pobj
+5	10.000	10000	z	z	recursive=no|theme=yes|main=no	6	num
+6	metros	metro	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
+7	cuadrados	cuadrados	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	6	amod
+8	de	de	sps00	sps00	recursive=no|theme=yes|main=no	6	prepn
+9	hierba	hierba	ncfs000	ncfs000	recursive=no|theme=yes|main=no	8	pobj
 10	y	y	cc	cc	recursive=no|theme=no|main=no	0	root
 11	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	13	reflec
 12	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	14	coord
@@ -43,13 +43,13 @@
 18	central	central	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	17	amod
 19	.	.	fp	fp	recursive=no|theme=no|main=no	10	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	colonia	colonia	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	8	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	44	44	z	z	recursive=no|theme=no|main=no	5	num
-5	patos	pato	ncmp000	ncmp000	recursive=no|theme=no|main=no	3	pobj
-6	del	del	spcms	spcms	recursive=no|theme=no|main=no	5	prepn
-7	estanque	estanque	ncms000	ncms000	recursive=no|theme=no|main=no	6	pobj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	colonia	colonia	ncfs000	ncfs000	recursive=no|theme=yes|main=no	8	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	44	44	z	z	recursive=no|theme=yes|main=no	5	num
+5	patos	pato	ncmp000	ncmp000	recursive=no|theme=yes|main=no	3	pobj
+6	del	del	spcms	spcms	recursive=no|theme=yes|main=no	5	prepn
+7	estanque	estanque	ncms000	ncms000	recursive=no|theme=yes|main=no	6	pobj
 8	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	0	root
 9	trasladada	trasladar	vmp00sf	vmp00sf	recursive=no|theme=no|main=no	8	attr
 10	durante	durante	sps00	sps00	recursive=no|theme=no|main=no	9	prepv

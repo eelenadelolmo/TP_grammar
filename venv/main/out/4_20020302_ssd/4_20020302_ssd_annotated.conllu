@@ -1,8 +1,8 @@
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	3	det
-2	nueva	nuevo	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	3	amod
-3	ley	ley	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	6	nsubj
-4	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	prepn
-5	tráfico	tráfico	ncms000	ncms000	recursive=no|theme=no|main=no	4	pobj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	3	det
+2	nueva	nuevo	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	3	amod
+3	ley	ley	ncfs000	ncfs000	recursive=no|theme=yes|main=no	6	nsubj
+4	de	de	sps00	sps00	recursive=no|theme=yes|main=no	3	prepn
+5	tráfico	tráfico	ncms000	ncms000	recursive=no|theme=yes|main=no	4	pobj
 6	ampara	amparar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 7	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	9	det
 8	nuevo	nuevo	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	9	amod
@@ -12,9 +12,9 @@
 12	fotomultas	fotomultas	ncfp000	ncfp000	recursive=no|theme=no|main=no	10	pobj
 13	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	3	det
-2	anterior	anterior	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	3	amod
-3	legislación	legislación	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	3	det
+2	anterior	anterior	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	3	amod
+3	legislación	legislación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
 4	obligaba	obligar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	0	root
 5	a	a	sps00	sps00	recursive=no|theme=no|main=no	4	dobj
 6	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	7	det
@@ -32,9 +32,9 @@
 18	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
 1	Pero	pero	cc	cc	recursive=no|theme=no|main=no	5	te
-2	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	4	det
-3	actual	actual	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	4	amod
-4	ley	ley	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	5	nsubj
+2	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	4	det
+3	actual	actual	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	4	amod
+4	ley	ley	ncfs000	ncfs000	recursive=no|theme=yes|main=no	5	nsubj
 5	permite	permitir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 6	a	a	sps00	sps00	recursive=no|theme=no|main=no	5	iobj
 7	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	8	det
@@ -49,8 +49,8 @@
 16	fotografía	fotografía	ncfs000	ncfs000	recursive=no|theme=no|main=no	14	pobj
 17	.	.	fp	fp	recursive=no|theme=no|main=no	5	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	ley	ley	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	ley	ley	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
 3	también	también	rg	rg	recursive=no|theme=no|main=no	5	advmod
 4	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 5	modificado	modificar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	4	vobj
@@ -64,8 +64,8 @@
 1	Ahora	ahora	rg	rg	recursive=no|theme=no|main=no	18	advmod
 2	,	,	fc	fc	recursive=no|theme=no|main=no	1	punct
 3	cuando	cuando	pr000000	pr000000	recursive=no|theme=no|main=no	6	dobj
-4	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	5	det
-5	conductor	conductor	ncms000	ncms000	recursive=yes|theme=yes|main=no	6	nsubj
+4	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	5	det
+5	conductor	conductor	ncms000	ncms000	recursive=no|theme=yes|main=no	6	nsubj
 6	sobrepasa	sobrepasar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	1	rcmod
 7	en	en	sps00	sps00	recursive=no|theme=no|main=no	6	prepv
 8	más	más	rg	rg	recursive=no|theme=no|main=no	10	advmod
@@ -76,8 +76,8 @@
 13	velocidad	velocidad	ncfs000	ncfs000	recursive=no|theme=no|main=no	6	dobj
 14	permitida	permitido	aq0fsp	aq0fsp	recursive=no|theme=no|main=no	13	amod
 15	,	,	fc	fc	recursive=no|theme=no|main=no	1	punct
-16	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	17	det
-17	sanción	sanción	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	18	nsubj
+16	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	17	det
+17	sanción	sanción	ncfs000	ncfs000	recursive=no|theme=yes|main=no	18	nsubj
 18	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 19	muy	mucho	rg	rg	recursive=no|theme=no|main=no	20	advmod
 20	grave	grave	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	18	attr

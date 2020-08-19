@@ -1,8 +1,8 @@
-1	Unos	uno	di0mp0	di0mp0	recursive=no|theme=no|main=no	3	det
-2	dos	2	ncms000	ncms000	recursive=no|theme=no|main=no	1	num
-3	millones	millón	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	6	nsubj
-4	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	prepn
-5	personas	persona	ncfp000	ncfp000	recursive=no|theme=no|main=no	4	pobj
+1	Unos	uno	di0mp0	di0mp0	recursive=no|theme=yes|main=no	3	det
+2	dos	2	ncms000	ncms000	recursive=no|theme=yes|main=no	1	num
+3	millones	millón	ncmp000	ncmp000	recursive=no|theme=yes|main=no	6	nsubj
+4	de	de	sps00	sps00	recursive=no|theme=yes|main=no	3	prepn
+5	personas	persona	ncfp000	ncfp000	recursive=no|theme=yes|main=no	4	pobj
 6	participaron	participar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 7	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	6	advmod
 8	en	en	sps00	sps00	recursive=no|theme=no|main=no	6	oobj
@@ -17,15 +17,15 @@
 17	del	del	spcms	spcms	recursive=no|theme=no|main=no	16	prepn
 18	Trabajo	Trabajo	np00000	np00000	recursive=no|theme=no|main=no	17	pobj
 19	,	,	fc	fc	recursive=no|theme=no|main=no	12	punct
-20	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	22	nsubj
+20	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	22	nsubj
 21	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	22	reflec
 22	celebraron	celebrar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	10	rcmod
 23	en	en	sps00	sps00	recursive=no|theme=no|main=no	22	prepv
 24	Japón	Japón	np00000	np00000	recursive=no|theme=no|main=no	23	pobj
 25	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	manifestantes	manifestante	nccp000	nccp000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	manifestantes	manifestante	nccp000	nccp000	recursive=no|theme=yes|main=no	3	nsubj
 3	centraron	centrar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 4	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	5	poss
 5	consignas	consigna	ncfp000	ncfp000	recursive=no|theme=no|main=no	3	dobj
@@ -49,10 +49,10 @@
 6	crisis	crisis	ncfn000	ncfn000	recursive=no|theme=no|main=no	3	pobj
 7	económica	económico	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	6	amod
 8	,	,	fc	fc	recursive=no|theme=no|main=no	13	punct
-9	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	10	det
-10	índice	índice	ncms000	ncms000	recursive=yes|theme=yes|main=no	13	nsubj
-11	de	de	sps00	sps00	recursive=no|theme=no|main=no	10	prepn
-12	paro	paro	ncms000	ncms000	recursive=no|theme=no|main=no	11	pobj
+9	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	10	det
+10	índice	índice	ncms000	ncms000	recursive=no|theme=yes|main=no	13	nsubj
+11	de	de	sps00	sps00	recursive=no|theme=yes|main=no	10	prepn
+12	paro	paro	ncms000	ncms000	recursive=no|theme=yes|main=no	11	pobj
 13	alcanzó	alcanzar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 14	en	en	sps00	sps00	recursive=no|theme=no|main=no	13	prepv
 15	marzo	marzo	ncms000	ncms000	recursive=no|theme=no|main=no	14	pobj

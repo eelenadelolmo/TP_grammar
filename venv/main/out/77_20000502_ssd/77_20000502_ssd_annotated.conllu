@@ -1,5 +1,5 @@
-1	Un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	2	det
-2	obrero	obrero	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Un	uno	di0ms0	di0ms0	recursive=no|theme=yes|main=no	2	det
+2	obrero	obrero	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	entregó	entregar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	5	advmod
 5	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	6	det
@@ -46,9 +46,9 @@
 19	a	a	sps00	sps00	recursive=no|theme=no|main=no	25	prepv
 20	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	21	det
 21	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	19	pobj
-22	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	23	det
-23	canciller	canciller	nccs000	nccs000	recursive=yes|theme=yes|main=no	25	nsubj
-24	Schröder	Schröder	np00000	np00000	recursive=no|theme=no|main=no	23	appos
+22	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	23	det
+23	canciller	canciller	nccs000	nccs000	recursive=no|theme=yes|main=no	25	nsubj
+24	Schröder	Schröder	np00000	np00000	recursive=no|theme=yes|main=no	23	appos
 25	asistió	asistir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	14	prepn
 26	en	en	sps00	sps00	recursive=no|theme=no|main=no	25	prepv
 27	compañía	compañía	ncfs000	ncfs000	recursive=no|theme=no|main=no	26	pobj
@@ -63,11 +63,11 @@
 3	estas	este	dd0fp0	dd0fp0	recursive=no|theme=no|main=no	4	det
 4	líneas	línea	ncfp000	ncfp000	recursive=no|theme=no|main=no	2	pobj
 5	,	,	fc	fc	recursive=no|theme=no|main=no	12	punct
-6	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	7	det
-7	joven	joven	nccs000	nccs000	recursive=yes|theme=yes|main=no	12	nsubj
-8	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	9	punct
-9	autónomo	autónomo	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	7	amod
-10	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	9	punct
+6	un	uno	di0ms0	di0ms0	recursive=no|theme=yes|main=no	7	det
+7	joven	joven	nccs000	nccs000	recursive=no|theme=yes|main=no	12	nsubj
+8	&quot;	&quot;	fe	fe	recursive=no|theme=yes|main=no	9	punct
+9	autónomo	autónomo	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	7	amod
+10	&quot;	&quot;	fe	fe	recursive=no|theme=yes|main=no	9	punct
 11	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	12	reflec
 12	pasea	pasear	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 13	desnudo	desnudo	aq0msp	aq0msp	recursive=no|theme=no|main=no	12	cpred
@@ -83,6 +83,6 @@
 23	también	también	rg	rg	recursive=no|theme=no|main=no	25	advmod
 24	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	25	reflec
 25	produjeron	producir	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	17	rcmod
-26	enfrentamientos	enfrentamiento	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	25	nsubj
+26	enfrentamientos	enfrentamiento	ncmp000	ncmp000	recursive=no|theme=yes|main=no	25	nsubj
 27	.	.	fp	fp	recursive=no|theme=no|main=no	12	punct
 

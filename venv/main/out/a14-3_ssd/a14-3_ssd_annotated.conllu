@@ -32,8 +32,8 @@
 32	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	33	det
 33	sustancia	sustancia	ncfs000	ncfs000	recursive=no|theme=no|main=no	31	pobj
 34	común	común	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	33	amod
-35	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	37	nsubj
-36	todos	todo	pi0mp000	pi0mp000	recursive=yes|theme=yes|main=no	37	nsubj
+35	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	37	nsubj
+36	todos	todo	pi0mp000	pi0mp000	recursive=no|theme=yes|main=no	37	nsubj
 37	somos	ser	vsip1p0	vsip1p0	recursive=no|theme=no|main=no	33	rcmod
 38	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
@@ -65,8 +65,8 @@
 26	ella	él	pp3fs000	pp3fs000	recursive=no|theme=no|main=no	25	cobj
 27	,	,	fc	fc	recursive=no|theme=no|main=no	17	punct
 28	que	que	cs	cs	recursive=no|theme=no|main=no	17	csubj
-29	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	30	det
-30	humanidad	humanidad	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	31	nsubj
+29	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	30	det
+30	humanidad	humanidad	ncfs000	ncfs000	recursive=no|theme=yes|main=no	31	nsubj
 31	puede	poder	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	28	cobj
 32	perseverar	perseverar	vmn0000	vmn0000	recursive=no|theme=no|main=no	31	dobj
 33	en	en	sps00	sps00	recursive=no|theme=no|main=no	32	oobj
@@ -81,12 +81,12 @@
 42	.	.	fp	fp	recursive=no|theme=no|main=no	17	punct
 
 1	Porque	porque	cs	cs	recursive=no|theme=no|main=no	0	root
-2	ellos	él	pp3mp000	pp3mp000	recursive=yes|theme=yes|main=no	4	nsubj
+2	ellos	él	pp3mp000	pp3mp000	recursive=no|theme=yes|main=no	4	nsubj
 3	nos	yo	pp1cp000	pp1cp000	recursive=no|theme=no|main=no	4	iobj
 4	demuestran	demostrar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	1	cobj
 5	que	que	cs	cs	recursive=no|theme=no|main=no	4	conj
-6	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	7	det
-7	bien	bien	ncms000	ncms000	recursive=yes|theme=yes|main=no	9	nsubj
+6	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	7	det
+7	bien	bien	ncms000	ncms000	recursive=no|theme=yes|main=no	9	nsubj
 8	también	también	rg	rg	recursive=no|theme=no|main=no	9	advmod
 9	existe	existir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	5	cobj
 10	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
@@ -153,8 +153,8 @@
 16	atrás	atrás	rg	rg	recursive=no|theme=no|main=no	17	advmod
 17	va	ir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	15	coord
 18	quedando	quedar	vmg0000	vmg0000	recursive=no|theme=no|main=no	17	dobj
-19	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	20	det
-20	vida	vida	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	17	nsubj
+19	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	20	det
+20	vida	vida	ncfs000	ncfs000	recursive=no|theme=yes|main=no	17	nsubj
 21	,	,	fc	fc	recursive=no|theme=no|main=no	17	punct
 22	como	como	cs	cs	recursive=no|theme=no|main=no	17	dep
 23	tierra	tierra	ncfs000	ncfs000	recursive=no|theme=no|main=no	22	cobj

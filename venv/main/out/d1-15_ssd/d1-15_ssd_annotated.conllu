@@ -9,7 +9,7 @@
 9	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
 1	Pero	pero	cc	cc	recursive=no|theme=no|main=no	4	te
-2	nadie	nadie	pi0cs000	pi0cs000	recursive=yes|theme=yes|main=no	4	nsubj
+2	nadie	nadie	pi0cs000	pi0cs000	recursive=no|theme=yes|main=no	4	nsubj
 3	los	él	pp3mpa00	pp3mpa00	recursive=no|theme=no|main=no	4	dobj
 4	confundirá	confundir	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	0	root
 5	con	con	sps00	sps00	recursive=no|theme=no|main=no	4	oobj
@@ -20,9 +20,9 @@
 
 1	Ayer	ayer	rg	rg	recursive=no|theme=no|main=no	6	advmod
 2	murió	morir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	6	coord
-3	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	5	det
-4	séptimo	séptimo	ao0ms0	ao0ms0	recursive=no|theme=no|main=no	5	amod
-5	proyecto	proyecto	ncms000	ncms000	recursive=yes|theme=yes|main=no	2	nsubj
+3	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	5	det
+4	séptimo	séptimo	ao0ms0	ao0ms0	recursive=no|theme=yes|main=no	5	amod
+5	proyecto	proyecto	ncms000	ncms000	recursive=no|theme=yes|main=no	2	nsubj
 6	y	y	cc	cc	recursive=no|theme=no|main=no	0	root
 7	nació	nacer	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	6	coord
 8	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	9	det
@@ -47,10 +47,10 @@
 4	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	6	reflec
 5	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	9	coord
 6	acabado	acabar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	5	vobj
-7	todo	todo	pi0ms000	pi0ms000	recursive=yes|theme=yes|main=no	5	nsubj
+7	todo	todo	pi0ms000	pi0ms000	recursive=no|theme=yes|main=no	5	nsubj
 8	,	,	fc	fc	recursive=no|theme=no|main=no	5	punct
 9	y	y	cc	cc	recursive=no|theme=no|main=no	0	root
-10	todo	todo	pi0ms000	pi0ms000	recursive=yes|theme=yes|main=no	11	nsubj
+10	todo	todo	pi0ms000	pi0ms000	recursive=no|theme=yes|main=no	11	nsubj
 11	vuelve	volver	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	9	coord
 12	a	a	sps00	sps00	recursive=no|theme=no|main=no	11	prepv
 13	empezar	empezar	vmn0000	vmn0000	recursive=no|theme=no|main=no	11	dobj
@@ -90,7 +90,7 @@
 1	Hasta	hasta	sps00	sps00	recursive=no|theme=no|main=no	0	root
 2	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	3	det
 3	año	año	ncms000	ncms000	recursive=no|theme=no|main=no	1	pobj
-4	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	5	nsubj
+4	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	5	nsubj
 5	viene	venir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	3	rcmod
 6	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
@@ -98,10 +98,10 @@
 2	hasta	hasta	sps00	sps00	recursive=no|theme=no|main=no	11	prepv
 3	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	4	det
 4	temporada	temporada	ncfs000	ncfs000	recursive=no|theme=no|main=no	2	pobj
-5	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	6	nsubj
+5	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	6	nsubj
 6	viene	venir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	4	rcmod
 7	mientras	mientras	cs	cs	recursive=no|theme=no|main=no	0	root
-8	ésta	este	pd0fs000	pd0fs000	recursive=yes|theme=yes|main=no	11	nsubj
+8	ésta	este	pd0fs000	pd0fs000	recursive=no|theme=yes|main=no	11	nsubj
 9	todavía	todavía	rg	rg	recursive=no|theme=no|main=no	11	advmod
 10	no	no	rn	rn	recursive=no|theme=no|main=no	11	neg
 11	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	7	cobj
@@ -110,8 +110,8 @@
 14	ecuador	ecuador	ncms000	ncms000	recursive=no|theme=no|main=no	11	dobj
 15	.	.	fp	fp	recursive=no|theme=no|main=no	7	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	Atleti	Atleti	np0000o	np0000o	recursive=yes|theme=yes|main=no	11	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	Atleti	Atleti	np0000o	np0000o	recursive=no|theme=yes|main=no	11	nsubj
 3	,	,	fc	fc	recursive=no|theme=no|main=no	11	punct
 4	en	en	sps00	sps00	recursive=no|theme=no|main=no	11	prepv
 5	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	6	poss
@@ -144,8 +144,8 @@
 6	?	?	fit	fit	recursive=no|theme=no|main=no	4	punct
 
 1	-	-	fg	fg	recursive=no|theme=no|main=no	5	punct
-2	Qué	qué	dt0cn0	dt0cn0	recursive=no|theme=no|main=no	3	det
-3	esperanza	esperanza	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	5	nsubj
+2	Qué	qué	dt0cn0	dt0cn0	recursive=no|theme=yes|main=no	3	det
+3	esperanza	esperanza	ncfs000	ncfs000	recursive=no|theme=yes|main=no	5	nsubj
 4	les	él	pp3cpd00	pp3cpd00	recursive=no|theme=no|main=no	5	iobj
 5	cabe	caber	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 6	?	?	fit	fit	recursive=no|theme=no|main=no	5	punct
@@ -156,7 +156,7 @@
 4	campesinos	campesino	ncmp000	ncmp000	recursive=no|theme=no|main=no	2	cobj
 5	de	de	sps00	sps00	recursive=no|theme=no|main=no	4	prepn
 6	Chiapas	Chiapas	np0000l	np0000l	recursive=no|theme=no|main=no	5	pobj
-7	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	14	nsubj
+7	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	14	nsubj
 8	,	,	fc	fc	recursive=no|theme=no|main=no	14	punct
 9	secularmente	secularmente	rg	rg	recursive=no|theme=no|main=no	10	advmod
 10	desheredados	desheredado	aq0mpp	aq0mpp	recursive=no|theme=no|main=no	14	cpred
@@ -186,8 +186,8 @@
 34	armas	arma	ncfp000	ncfp000	recursive=no|theme=no|main=no	32	pobj
 35	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	Atleti	Atleti	np0000o	np0000o	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	Atleti	Atleti	np0000o	np0000o	recursive=no|theme=yes|main=no	3	nsubj
 3	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	8	coord
 4	zapatista	zapatista	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	3	attr
 5	en	en	sps00	sps00	recursive=no|theme=no|main=no	3	prepv
@@ -201,21 +201,21 @@
 13	ese	ese	dd0ms0	dd0ms0	recursive=no|theme=no|main=no	14	det
 14	poder	poder	ncms000	ncms000	recursive=no|theme=no|main=no	12	pobj
 15	oficialista	oficialista	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	14	amod
-16	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	18	nsubj
+16	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	18	nsubj
 17	todavía	todavía	rg	rg	recursive=no|theme=no|main=no	18	advmod
 18	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	14	rcmod
-19	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	20	det
-20	Real	real	ncms000	ncms000	recursive=yes|theme=yes|main=no	18	nsubj
-21	Madrid	Madrid	np00000	np00000	recursive=no|theme=no|main=no	20	appos
-22	de	de	sps00	sps00	recursive=no|theme=no|main=no	20	prepn
-23	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	24	det
-24	arcas	arca	ncfp000	ncfp000	recursive=no|theme=no|main=no	26	coord
-25	vacías	vacío	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	24	amod
-26	y	y	cc	cc	recursive=no|theme=no|main=no	22	pobj
-27	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	28	det
-28	caja	caja	ncfs000	ncfs000	recursive=no|theme=no|main=no	26	coord
-29	de	de	sps00	sps00	recursive=no|theme=no|main=no	28	prepn
-30	Pandora	Pandora	np0000p	np0000p	recursive=no|theme=no|main=no	29	pobj
-31	llena	lleno	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	30	amod
+19	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	20	det
+20	Real	real	ncms000	ncms000	recursive=no|theme=yes|main=no	18	nsubj
+21	Madrid	Madrid	np00000	np00000	recursive=no|theme=yes|main=no	20	appos
+22	de	de	sps00	sps00	recursive=no|theme=yes|main=no	20	prepn
+23	las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	24	det
+24	arcas	arca	ncfp000	ncfp000	recursive=no|theme=yes|main=no	26	coord
+25	vacías	vacío	aq0fp0	aq0fp0	recursive=no|theme=yes|main=no	24	amod
+26	y	y	cc	cc	recursive=no|theme=yes|main=no	22	pobj
+27	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	28	det
+28	caja	caja	ncfs000	ncfs000	recursive=no|theme=yes|main=no	26	coord
+29	de	de	sps00	sps00	recursive=no|theme=yes|main=no	28	prepn
+30	Pandora	Pandora	np0000p	np0000p	recursive=no|theme=yes|main=no	29	pobj
+31	llena	lleno	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	30	amod
 32	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 

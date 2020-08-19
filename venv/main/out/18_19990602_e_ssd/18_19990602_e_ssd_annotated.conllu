@@ -19,7 +19,7 @@
 8	170	170	z	z	recursive=no|theme=no|main=no	9	num
 9	personas	persona	ncfp000	ncfp000	recursive=no|theme=no|main=no	7	nsubj
 10	,	,	fc	fc	recursive=no|theme=no|main=no	12	punct
-11	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	12	nsubj
+11	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	12	nsubj
 12	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	9	rcmod
 13	ingresado	ingresar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	12	vobj
 14	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	18	det
@@ -31,11 +31,11 @@
 20	pesetas	peseta	zm	zm	recursive=no|theme=no|main=no	19	pobj
 21	.	.	fp	fp	recursive=no|theme=no|main=no	7	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	3	det
-2	única	único	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	3	amod
-3	fábrica	fábrica	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	6	nsubj
-4	transformadora	transformador	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	3	amod
-5	catalana	catalán	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	3	amod
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	3	det
+2	única	único	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	3	amod
+3	fábrica	fábrica	ncfs000	ncfs000	recursive=no|theme=yes|main=no	6	nsubj
+4	transformadora	transformador	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	3	amod
+5	catalana	catalán	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	3	amod
 6	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 7	Agrofibra	Agrofibra	np00000	np00000	recursive=no|theme=no|main=no	6	attr
 8	,	,	fc	fc	recursive=no|theme=no|main=no	7	punct
@@ -51,8 +51,8 @@
 6	de	de	sps00	sps00	recursive=no|theme=no|main=no	5	prepn
 7	España	España	np00000	np00000	recursive=no|theme=no|main=no	6	pobj
 8	,	,	fc	fc	recursive=no|theme=no|main=no	12	punct
-9	ese	ese	dd0ms0	dd0ms0	recursive=no|theme=no|main=no	10	det
-10	lino	lino	ncms000	ncms000	recursive=yes|theme=yes|main=no	12	nsubj
+9	ese	ese	dd0ms0	dd0ms0	recursive=no|theme=yes|main=no	10	det
+10	lino	lino	ncms000	ncms000	recursive=no|theme=yes|main=no	12	nsubj
 11	no	no	rn	rn	recursive=no|theme=no|main=no	12	neg
 12	sirve	servir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 13	como	como	cs	cs	recursive=no|theme=no|main=no	12	cpred

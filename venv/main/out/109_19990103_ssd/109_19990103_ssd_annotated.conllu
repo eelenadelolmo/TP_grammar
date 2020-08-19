@@ -1,10 +1,10 @@
-1	Gianluca	Gianluca	np0000l	np0000l	recursive=yes|theme=yes|main=no	8	nsubj
-2	Vialli	Vialli	np0000l	np0000l	recursive=no|theme=no|main=no	1	appos
-3	,	,	fc	fc	recursive=no|theme=no|main=no	1	punct
-4	técnico-jugador	técnico-jugador	nc00000	nc00000	recursive=no|theme=no|main=no	1	appos
-5	del	del	spcms	spcms	recursive=no|theme=no|main=no	4	prepn
-6	Chelsea	Chelsea	np00000	np00000	recursive=no|theme=no|main=no	5	pobj
-7	,	,	fc	fc	recursive=no|theme=no|main=no	1	punct
+1	Gianluca	Gianluca	np0000l	np0000l	recursive=no|theme=yes|main=no	8	nsubj
+2	Vialli	Vialli	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
+3	,	,	fc	fc	recursive=no|theme=yes|main=no	1	punct
+4	técnico-jugador	técnico-jugador	nc00000	nc00000	recursive=no|theme=yes|main=no	1	appos
+5	del	del	spcms	spcms	recursive=no|theme=yes|main=no	4	prepn
+6	Chelsea	Chelsea	np00000	np00000	recursive=no|theme=yes|main=no	5	pobj
+7	,	,	fc	fc	recursive=no|theme=yes|main=no	1	punct
 8	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	0	root
 9	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	10	det
 10	protagonista	protagonista	nccs000	nccs000	recursive=no|theme=no|main=no	8	attr
@@ -35,19 +35,19 @@
 35	inglesa	inglés	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	34	amod
 36	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	3	det
-2	dos	dos	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	3	det
-3	goles	gol	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	6	nsubj
-4	del	del	spcms	spcms	recursive=no|theme=no|main=no	3	prepn
-5	Chelsea	Chelsea	np00000	np00000	recursive=no|theme=no|main=no	4	pobj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	3	det
+2	dos	dos	dn0cp0	dn0cp0	recursive=no|theme=yes|main=no	3	det
+3	goles	gol	ncmp000	ncmp000	recursive=no|theme=yes|main=no	6	nsubj
+4	del	del	spcms	spcms	recursive=no|theme=yes|main=no	3	prepn
+5	Chelsea	Chelsea	np00000	np00000	recursive=no|theme=yes|main=no	4	pobj
 6	fueron	ser	vsis3p0	vsis3p0	recursive=no|theme=no|main=no	0	root
 7	obra	obra	ncfs000	ncfs000	recursive=no|theme=no|main=no	6	attr
 8	de	de	sps00	sps00	recursive=no|theme=no|main=no	7	prepn
 9	Vialli	Vialli	np00000	np00000	recursive=no|theme=no|main=no	8	pobj
 10	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	sorpresa	sorpresa	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	sorpresa	sorpresa	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	nsubj
 3	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	0	root
 4	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	5	det
 5	eliminación	eliminación	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	attr

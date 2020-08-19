@@ -1,5 +1,5 @@
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	burdeles	burdel	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	burdeles	burdel	ncmp000	ncmp000	recursive=no|theme=yes|main=no	3	nsubj
 3	son	ser	vsip3p0	vsip3p0	recursive=no|theme=no|main=no	9	coord
 4	desde	desde	sps00	sps00	recursive=no|theme=no|main=no	3	prepv
 5	hoy	hoy	rg	rg	recursive=no|theme=no|main=no	4	advmod
@@ -15,12 +15,12 @@
 15	autónomas	autónomo	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	14	coord
 16	.	.	fp	fp	recursive=no|theme=no|main=no	9	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	Gobierno	Gobierno	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	Gobierno	Gobierno	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 3	cree	creer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	que	que	cs	cs	recursive=yes|theme=no|main=yes	3	dobj
-5	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	6	det
-6	ley	ley	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	8	nsubj
+5	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	6	det
+6	ley	ley	ncfs000	ncfs000	recursive=no|theme=yes|main=no	8	nsubj
 7	permitirá	permitir	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	4	cobj
 8	combatir	combatir	vmn0000	vmn0000	recursive=no|theme=no|main=no	4	cobj
 9	mejor	mejor	rg	rg	recursive=no|theme=no|main=no	8	advmod
@@ -33,12 +33,12 @@
 16	sexo	sexo	ncms000	ncms000	recursive=no|theme=no|main=no	15	pobj
 17	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	mundo	mundo	ncms000	ncms000	recursive=yes|theme=yes|main=no	7	nsubj
-3	del	del	spcms	spcms	recursive=no|theme=no|main=no	2	prepn
-4	sexo	sexo	ncms000	ncms000	recursive=no|theme=no|main=no	3	pobj
-5	en	en	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-6	Holanda	Holanda	np00000	np00000	recursive=no|theme=no|main=no	5	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	mundo	mundo	ncms000	ncms000	recursive=no|theme=yes|main=no	7	nsubj
+3	del	del	spcms	spcms	recursive=no|theme=yes|main=no	2	prepn
+4	sexo	sexo	ncms000	ncms000	recursive=no|theme=yes|main=no	3	pobj
+5	en	en	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+6	Holanda	Holanda	np00000	np00000	recursive=no|theme=yes|main=no	5	pobj
 7	vive	vivir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 8	hoy	hoy	rg	rg	recursive=no|theme=no|main=no	7	advmod
 9	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	11	det
@@ -56,8 +56,8 @@
 8	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	9	det
 9	manos	mano	ncfp000	ncfp000	recursive=no|theme=no|main=no	7	pobj
 10	,	,	fc	fc	recursive=no|theme=no|main=no	18	punct
-11	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	12	det
-12	proxenetas	proxeneta	nccp000	nccp000	recursive=yes|theme=yes|main=no	14	nsubj
+11	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	12	det
+12	proxenetas	proxeneta	nccp000	nccp000	recursive=no|theme=yes|main=no	14	nsubj
 13	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	14	reflec
 14	convierten	convertir	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	18	coord
 15	en	en	sps00	sps00	recursive=no|theme=no|main=no	14	oobj
@@ -74,7 +74,7 @@
 26	autónomas	autónomo	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	25	amod
 27	.	.	fp	fp	recursive=no|theme=no|main=no	18	punct
 
-1	Todos	todo	pi0mp000	pi0mp000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Todos	todo	pi0mp000	pi0mp000	recursive=no|theme=yes|main=no	2	nsubj
 2	deberán	deber	vmif3p0	vmif3p0	recursive=no|theme=no|main=no	0	root
 3	pagar	pagar	vmn0000	vmn0000	recursive=no|theme=no|main=no	2	dobj
 4	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	5	poss
@@ -96,15 +96,15 @@
 20	lencería	lencería	ncfs000	ncfs000	recursive=no|theme=no|main=no	19	coord
 21	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	burdeles	burdel	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	burdeles	burdel	ncmp000	ncmp000	recursive=no|theme=yes|main=no	3	nsubj
 3	deberán	deber	vmif3p0	vmif3p0	recursive=no|theme=no|main=no	17	coord
 4	entregar	entregar	vmn0000	vmn0000	recursive=no|theme=no|main=no	3	dobj
 5	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	6	det
 6	recibo	recibo	ncms000	ncms000	recursive=no|theme=no|main=no	4	dobj
 7	al	al	spcms	spcms	recursive=no|theme=no|main=no	4	iobj
 8	cliente	cliente	nccs000	nccs000	recursive=no|theme=no|main=no	7	pobj
-9	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	11	nsubj
+9	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	11	nsubj
 10	lo	él	pp3msa00	pp3msa00	recursive=no|theme=no|main=no	11	dobj
 11	pida	pedir	vmsp3s0	vmsp3s0	recursive=no|theme=no|main=no	8	rcmod
 12	,	,	fc	fc	recursive=no|theme=no|main=no	3	punct
@@ -142,32 +142,32 @@
 10	discusiones	discusión	ncfp000	ncfp000	recursive=no|theme=no|main=no	9	coord
 11	populares	popular	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	10	amod
 12	,	,	fc	fc	recursive=no|theme=no|main=no	39	punct
-13	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	14	det
-14	Gobierno	Gobierno	np00000	np00000	recursive=yes|theme=yes|main=no	39	nsubj
-15	holandés	holandés	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	14	amod
-16	-	-	fg	fg	recursive=no|theme=no|main=no	20	punct
-17	-	-	fg	fg	recursive=no|theme=no|main=no	20	punct
-18	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	20	det
-19	curiosa	curioso	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	20	amod
-20	mezcla	mezcla	ncfs000	ncfs000	recursive=no|theme=no|main=no	14	appos
-21	de	de	sps00	sps00	recursive=no|theme=no|main=no	20	prepn
-22	socialdemócratas	socialdemócrata	nccp000	nccp000	recursive=no|theme=no|main=no	21	pobj
-23	,	,	fc	fc	recursive=no|theme=no|main=no	22	punct
-24	liberales	liberal	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	25	coord
-25	y	y	cc	cc	recursive=no|theme=no|main=no	22	dep
-26	conservadores	conservador	aq0mp0	aq0mp0	recursive=no|theme=no|main=no	25	coord
-27	,	,	fc	fc	recursive=no|theme=no|main=no	22	punct
-28	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	30	nsubj
-29	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	30	reflec
-30	conoce	conocer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	20	rcmod
-31	con	con	sps00	sps00	recursive=no|theme=no|main=no	30	prepv
-32	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	33	det
-33	apodo	apodo	ncms000	ncms000	recursive=no|theme=no|main=no	31	pobj
-34	de	de	sps00	sps00	recursive=no|theme=no|main=no	33	prepn
-35	Violeta	violeta	ncms000	ncms000	recursive=no|theme=no|main=no	34	pobj
-36	II	II	np00000	np00000	recursive=no|theme=no|main=no	35	appos
-37	-	-	fg	fg	recursive=no|theme=no|main=no	20	punct
-38	-	-	fg	fg	recursive=no|theme=no|main=no	20	punct
+13	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	14	det
+14	Gobierno	Gobierno	np00000	np00000	recursive=no|theme=yes|main=no	39	nsubj
+15	holandés	holandés	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	14	amod
+16	-	-	fg	fg	recursive=no|theme=yes|main=no	20	punct
+17	-	-	fg	fg	recursive=no|theme=yes|main=no	20	punct
+18	una	uno	di0fs0	di0fs0	recursive=no|theme=yes|main=no	20	det
+19	curiosa	curioso	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	20	amod
+20	mezcla	mezcla	ncfs000	ncfs000	recursive=no|theme=yes|main=no	14	appos
+21	de	de	sps00	sps00	recursive=no|theme=yes|main=no	20	prepn
+22	socialdemócratas	socialdemócrata	nccp000	nccp000	recursive=no|theme=yes|main=no	21	pobj
+23	,	,	fc	fc	recursive=no|theme=yes|main=no	22	punct
+24	liberales	liberal	aq0cp0	aq0cp0	recursive=no|theme=yes|main=no	25	coord
+25	y	y	cc	cc	recursive=no|theme=yes|main=no	22	dep
+26	conservadores	conservador	aq0mp0	aq0mp0	recursive=no|theme=yes|main=no	25	coord
+27	,	,	fc	fc	recursive=no|theme=yes|main=no	22	punct
+28	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	30	nsubj
+29	se	se	p0000000	p0000000	recursive=no|theme=yes|main=no	30	reflec
+30	conoce	conocer	vmip3s0	vmip3s0	recursive=no|theme=yes|main=no	20	rcmod
+31	con	con	sps00	sps00	recursive=no|theme=yes|main=no	30	prepv
+32	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	33	det
+33	apodo	apodo	ncms000	ncms000	recursive=no|theme=yes|main=no	31	pobj
+34	de	de	sps00	sps00	recursive=no|theme=yes|main=no	33	prepn
+35	Violeta	violeta	ncms000	ncms000	recursive=no|theme=yes|main=no	34	pobj
+36	II	II	np00000	np00000	recursive=no|theme=yes|main=no	35	appos
+37	-	-	fg	fg	recursive=no|theme=yes|main=no	20	punct
+38	-	-	fg	fg	recursive=no|theme=yes|main=no	20	punct
 39	levantará	levantar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	0	root
 40	hoy	hoy	rg	rg	recursive=no|theme=no|main=no	39	advmod
 41	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	42	det
@@ -177,8 +177,8 @@
 45	burdeles	burdel	ncmp000	ncmp000	recursive=no|theme=no|main=no	43	pobj
 46	.	.	fp	fp	recursive=no|theme=no|main=no	39	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	legalización	legalización	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	legalización	legalización	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	nsubj
 3	parece	parecer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	5	det
 5	decisión	decisión	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	dobj
@@ -196,8 +196,8 @@
 17	y	y	cc	cc	recursive=no|theme=no|main=no	9	dep
 18	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	19	reflec
 19	permitía	permitir	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	17	coord
-20	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	21	det
-21	prostitución	prostitución	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	19	nsubj
+20	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	21	det
+21	prostitución	prostitución	ncfs000	ncfs000	recursive=no|theme=yes|main=no	19	nsubj
 22	,	,	fc	fc	recursive=no|theme=no|main=no	3	punct
 23	aunque	aunque	cs	cs	recursive=no|theme=no|main=no	3	advcl
 24	desde	desde	sps00	sps00	recursive=no|theme=no|main=no	31	prepv
@@ -219,9 +219,9 @@
 40	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	42	dobj
 41	puede	poder	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	39	rcmod
 42	acarrear	acarrear	vmn0000	vmn0000	recursive=no|theme=no|main=no	41	dobj
-43	esta	este	dd0fs0	dd0fs0	recursive=no|theme=no|main=no	44	det
-44	medida	medida	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	41	nsubj
-45	revolucionaria	revolucionario	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	44	amod
+43	esta	este	dd0fs0	dd0fs0	recursive=no|theme=yes|main=no	44	det
+44	medida	medida	ncfs000	ncfs000	recursive=no|theme=yes|main=no	41	nsubj
+45	revolucionaria	revolucionario	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	44	amod
 46	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
 1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
@@ -231,8 +231,8 @@
 5	controlado	controlar	aq0msp	aq0msp	recursive=no|theme=no|main=no	2	amod
 6	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	Gobierno	Gobierno	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	Gobierno	Gobierno	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 3	defiende	defender	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	que	que	cs	cs	recursive=yes|theme=no|main=yes	3	dobj
 5	con	con	sps00	sps00	recursive=no|theme=no|main=no	19	prepv
@@ -262,18 +262,18 @@
 29	,	,	fc	fc	recursive=no|theme=no|main=no	18	punct
 30	ya	ya	rg	rg	recursive=no|theme=no|main=no	31	advmod
 31	que	que	pi0ms000	pi0ms000	recursive=no|theme=no|main=no	4	cobj
-32	todo	todo	di0ms0	di0ms0	recursive=no|theme=no|main=no	34	det
-33	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	34	det
-34	negocio	negocio	ncms000	ncms000	recursive=yes|theme=yes|main=no	37	nsubj
-35	del	del	spcms	spcms	recursive=no|theme=no|main=no	34	prepn
-36	sexo	sexo	ncms000	ncms000	recursive=no|theme=no|main=no	35	pobj
+32	todo	todo	di0ms0	di0ms0	recursive=no|theme=yes|main=no	34	det
+33	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	34	det
+34	negocio	negocio	ncms000	ncms000	recursive=no|theme=yes|main=no	37	nsubj
+35	del	del	spcms	spcms	recursive=no|theme=yes|main=no	34	prepn
+36	sexo	sexo	ncms000	ncms000	recursive=no|theme=yes|main=no	35	pobj
 37	estará	estar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	31	cobj
 38	más	más	rg	rg	recursive=no|theme=no|main=no	39	advmod
 39	controlado	controlar	aq0msp	aq0msp	recursive=no|theme=no|main=no	37	attr
 40	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	detractores	detractor	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	7	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	detractores	detractor	ncmp000	ncmp000	recursive=no|theme=yes|main=no	7	nsubj
 3	,	,	fc	fc	recursive=no|theme=no|main=no	7	punct
 4	sin	sin	sps00	sps00	recursive=no|theme=no|main=no	7	advmod
 5	embargo	embargo	ncmp000	ncmp000	recursive=no|theme=no|main=no	4	pobj
@@ -281,8 +281,8 @@
 7	advierten	advertir	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
 8	de	de	sps00	sps00	recursive=no|theme=no|main=no	7	oobj
 9	que	que	cs	cs	recursive=no|theme=no|main=no	8	pobj
-10	muchas	mucho	di0fp0	di0fp0	recursive=no|theme=no|main=no	11	det
-11	prostitutas	prostituta	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	12	nsubj
+10	muchas	mucho	di0fp0	di0fp0	recursive=no|theme=yes|main=no	11	det
+11	prostitutas	prostituta	ncfp000	ncfp000	recursive=no|theme=yes|main=no	12	nsubj
 12	buscarán	buscar	vmif3p0	vmif3p0	recursive=no|theme=no|main=no	24	coord
 13	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	14	det
 14	ilegalidad	ilegalidad	ncfs000	ncfs000	recursive=no|theme=no|main=no	12	dobj
@@ -316,13 +316,13 @@
 11	les	él	pp3cpd00	pp3cpd00	recursive=no|theme=no|main=no	12	iobj
 12	promete	prometer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	7	rcmod
 13	,	,	fc	fc	recursive=no|theme=no|main=no	22	punct
-14	muchas	mucho	pi0fp000	pi0fp000	recursive=yes|theme=yes|main=no	22	nsubj
-15	de	de	sps00	sps00	recursive=no|theme=no|main=no	14	prepn
-16	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	18	det
-17	25.000	25000	z	z	recursive=no|theme=no|main=no	16	num
-18	prostitutas	prostituta	ncfp000	ncfp000	recursive=no|theme=no|main=no	15	pobj
-19	de	de	sps00	sps00	recursive=no|theme=no|main=no	18	prepn
-20	Holanda	Holanda	np00000	np00000	recursive=no|theme=no|main=no	19	pobj
+14	muchas	mucho	pi0fp000	pi0fp000	recursive=no|theme=yes|main=no	22	nsubj
+15	de	de	sps00	sps00	recursive=no|theme=yes|main=no	14	prepn
+16	las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	18	det
+17	25.000	25000	z	z	recursive=no|theme=yes|main=no	16	num
+18	prostitutas	prostituta	ncfp000	ncfp000	recursive=no|theme=yes|main=no	15	pobj
+19	de	de	sps00	sps00	recursive=no|theme=yes|main=no	18	prepn
+20	Holanda	Holanda	np00000	np00000	recursive=no|theme=yes|main=no	19	pobj
 21	no	no	rn	rn	recursive=no|theme=no|main=no	22	neg
 22	parecen	parecer	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
 23	muy	mucho	rg	rg	recursive=no|theme=no|main=no	24	advmod
@@ -339,10 +339,10 @@
 34	elevados	elevado	aq0mpp	aq0mpp	recursive=no|theme=no|main=no	33	amod
 35	.	.	fp	fp	recursive=no|theme=no|main=no	22	punct
 
-1	Otra	otro	di0fs0	di0fs0	recursive=no|theme=no|main=no	2	det
-2	oleada	oleada	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	5	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	protestas	protesta	ncfp000	ncfp000	recursive=no|theme=no|main=no	3	pobj
+1	Otra	otro	di0fs0	di0fs0	recursive=no|theme=yes|main=no	2	det
+2	oleada	oleada	ncfs000	ncfs000	recursive=no|theme=yes|main=no	5	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	protestas	protesta	ncfp000	ncfp000	recursive=no|theme=yes|main=no	3	pobj
 5	proviene	provenir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 6	de	de	sps00	sps00	recursive=no|theme=no|main=no	5	oobj
 7	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	8	det
@@ -366,8 +366,8 @@
 25	agrícolas	agrícola	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	24	amod
 26	.	.	fp	fp	recursive=no|theme=no|main=no	5	punct
 
-1	Estas	este	dd0fp0	dd0fp0	recursive=no|theme=no|main=no	2	det
-2	localidades	localidad	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	4	nsubj
+1	Estas	este	dd0fp0	dd0fp0	recursive=no|theme=yes|main=no	2	det
+2	localidades	localidad	ncfp000	ncfp000	recursive=no|theme=yes|main=no	4	nsubj
 3	nunca	nunca	rg	rg	recursive=no|theme=no|main=no	4	neg
 4	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	14	coord
 5	permitido	permitir	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	4	vobj
@@ -387,8 +387,8 @@
 19	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	20	det
 20	ley	ley	ncfs000	ncfs000	recursive=no|theme=no|main=no	18	pobj
 21	,	,	fc	fc	recursive=no|theme=no|main=no	24	punct
-22	cualquier	cualquiera	di0cs0	di0cs0	recursive=no|theme=no|main=no	23	det
-23	empresario	empresario	ncms000	ncms000	recursive=yes|theme=yes|main=no	24	nsubj
+22	cualquier	cualquiera	di0cs0	di0cs0	recursive=no|theme=yes|main=no	23	det
+23	empresario	empresario	ncms000	ncms000	recursive=no|theme=yes|main=no	24	nsubj
 24	podrá	poder	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	14	coord
 25	lograr	lograr	vmn0000	vmn0000	recursive=no|theme=no|main=no	24	dobj
 26	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	27	det
@@ -471,8 +471,8 @@
 15	.	.	fp	fp	recursive=no|theme=no|main=no	9	punct
 
 1	También	también	rg	rg	recursive=no|theme=no|main=no	5	advmod
-2	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	3	det
-3	policía	policía	nccs000	nccs000	recursive=yes|theme=yes|main=no	4	nsubj
+2	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	3	det
+3	policía	policía	nccs000	nccs000	recursive=no|theme=yes|main=no	4	nsubj
 4	debe	deber	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 5	adaptarse	adaptar	vmn0000	vmn0000	recursive=no|theme=no|main=no	4	dobj
 6	a	a	sps00	sps00	recursive=no|theme=no|main=no	5	oobj
@@ -480,8 +480,8 @@
 8	ley	ley	ncfs000	ncfs000	recursive=no|theme=no|main=no	6	pobj
 9	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	Gobierno	Gobierno	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	Gobierno	Gobierno	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 3	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 4	establecido	establecer	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	3	vobj
 5	normas	norma	ncfp000	ncfp000	recursive=no|theme=no|main=no	4	dobj
@@ -503,8 +503,8 @@
 6	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	7	det
 7	tentación	tentación	ncfs000	ncfs000	recursive=no|theme=no|main=no	5	pobj
 8	,	,	fc	fc	recursive=no|theme=no|main=no	26	punct
-9	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	10	det
-10	agentes	agente	nccp000	nccp000	recursive=yes|theme=yes|main=no	12	nsubj
+9	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	10	det
+10	agentes	agente	nccp000	nccp000	recursive=no|theme=yes|main=no	12	nsubj
 11	nunca	nunca	rg	rg	recursive=no|theme=no|main=no	12	neg
 12	podrán	poder	vmif3p0	vmif3p0	recursive=no|theme=no|main=no	26	coord
 13	entrar	entrar	vmn0000	vmn0000	recursive=no|theme=no|main=no	12	dobj
@@ -529,22 +529,22 @@
 32	burdel	burdel	ncms000	ncms000	recursive=no|theme=no|main=no	27	dobj
 33	.	.	fp	fp	recursive=no|theme=no|main=no	26	punct
 
-1	Cualquier	cualquiera	di0cs0	di0cs0	recursive=no|theme=no|main=no	2	det
-2	empresario	empresario	ncms000	ncms000	recursive=yes|theme=yes|main=no	38	nsubj
-3	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	4	nsubj
-4	pide	pedir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	2	rcmod
-5	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	6	det
-6	legalización	legalización	ncfs000	ncfs000	recursive=no|theme=no|main=no	4	dobj
-7	de	de	sps00	sps00	recursive=no|theme=no|main=no	6	prepn
-8	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	9	poss
-9	establecimiento	establecimiento	ncms000	ncms000	recursive=no|theme=no|main=no	7	pobj
+1	Cualquier	cualquiera	di0cs0	di0cs0	recursive=no|theme=yes|main=no	2	det
+2	empresario	empresario	ncms000	ncms000	recursive=no|theme=yes|main=no	38	nsubj
+3	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	4	nsubj
+4	pide	pedir	vmip3s0	vmip3s0	recursive=no|theme=yes|main=no	2	rcmod
+5	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	6	det
+6	legalización	legalización	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	dobj
+7	de	de	sps00	sps00	recursive=no|theme=yes|main=no	6	prepn
+8	su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	9	poss
+9	establecimiento	establecimiento	ncms000	ncms000	recursive=no|theme=yes|main=no	7	pobj
 10	-	-	fg	fg	recursive=no|theme=no|main=no	17	punct
 11	-	-	fg	fg	recursive=no|theme=no|main=no	17	punct
 12	en	en	sps00	sps00	recursive=no|theme=no|main=no	17	prepv
 13	estos	este	dd0mp0	dd0mp0	recursive=no|theme=no|main=no	14	det
 14	momentos	momento	ncmp000	ncmp000	recursive=no|theme=no|main=no	12	pobj
 15	,	,	fc	fc	recursive=no|theme=no|main=no	17	punct
-16	Holanda	Holanda	np00000	np00000	recursive=yes|theme=yes|main=no	17	nsubj
+16	Holanda	Holanda	np00000	np00000	recursive=no|theme=yes|main=no	17	nsubj
 17	tiene	tener	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	39	attr
 18	unos	uno	di0mp0	di0mp0	recursive=no|theme=no|main=no	20	det
 19	1.125	1125	z	z	recursive=no|theme=no|main=no	18	num
@@ -576,9 +576,9 @@
 45	para	para	sps00	sps00	recursive=no|theme=no|main=no	39	prepv
 46	evitar	evitar	vmn0000	vmn0000	recursive=no|theme=no|main=no	45	pobj
 47	que	que	cs	cs	recursive=yes|theme=no|main=yes	46	dobj
-48	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	49	det
-49	mundo	mundo	ncms000	ncms000	recursive=yes|theme=yes|main=no	52	nsubj
-50	criminal	criminal	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	49	amod
+48	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	49	det
+49	mundo	mundo	ncms000	ncms000	recursive=no|theme=yes|main=no	52	nsubj
+50	criminal	criminal	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	49	amod
 51	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	52	reflec
 52	apodere	apoderar	vmsp3s0	vmsp3s0	recursive=no|theme=no|main=no	55	coord
 53	del	del	spcms	spcms	recursive=no|theme=no|main=no	52	oobj
@@ -597,8 +597,8 @@
 
 1	Además	además	rg	rg	recursive=no|theme=no|main=no	6	advmod
 2	,	,	fc	fc	recursive=no|theme=no|main=no	5	punct
-3	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	4	poss
-4	establecimientos	establecimiento	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	5	nsubj
+3	sus	su	dp3cp0	dp3cp0	recursive=no|theme=yes|main=no	4	poss
+4	establecimientos	establecimiento	ncmp000	ncmp000	recursive=no|theme=yes|main=no	5	nsubj
 5	deben	deber	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
 6	cumplir	cumplir	vmn0000	vmn0000	recursive=no|theme=no|main=no	5	dobj
 7	con	con	sps00	sps00	recursive=no|theme=no|main=no	6	oobj

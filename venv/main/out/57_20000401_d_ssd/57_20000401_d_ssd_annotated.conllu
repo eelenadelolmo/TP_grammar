@@ -7,9 +7,9 @@
 7	Iparretarrak	Iparretarrak	np00000	np00000	recursive=no|theme=no|main=no	6	coord
 8	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	Audiencia	audiencia	ncms000	ncms000	recursive=yes|theme=yes|main=no	4	nsubj
-3	Nacional	nacional	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	2	amod
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	Audiencia	audiencia	ncms000	ncms000	recursive=no|theme=yes|main=no	4	nsubj
+3	Nacional	nacional	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	2	amod
 4	condenó	condenar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	15	coord
 5	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	4	advmod
 6	a	a	sps00	sps00	recursive=no|theme=no|main=no	4	oobj
@@ -48,20 +48,20 @@
 39	Granada	Granada	np00000	np00000	recursive=no|theme=no|main=no	38	pobj
 40	.	.	fp	fp	recursive=no|theme=no|main=no	15	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	dirigentes	dirigente	nccp000	nccp000	recursive=yes|theme=yes|main=no	15	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	5	det
-5	organización	organización	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	pobj
-6	terrorista	terrorista	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	5	amod
-7	vascofrancesa	vascofrancés	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	5	amod
-8	Iparretarrak	Iparretarrak	np00000	np00000	recursive=no|theme=no|main=no	5	appos
-9	Philippe	Philippe	np0000l	np0000l	recursive=no|theme=no|main=no	11	coord
-10	Bidart	Bidart	np0000l	np0000l	recursive=no|theme=no|main=no	9	appos
-11	y	y	cc	cc	recursive=no|theme=no|main=no	2	dep
-12	Jean	jean	ncfs000	ncfs000	recursive=no|theme=no|main=no	11	coord
-13	Gabriel	Gabriel	np0000l	np0000l	recursive=no|theme=no|main=no	12	appos
-14	Mouesca	Mouesca	np0000l	np0000l	recursive=no|theme=no|main=no	12	appos
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	dirigentes	dirigente	nccp000	nccp000	recursive=no|theme=yes|main=no	15	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	5	det
+5	organización	organización	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	pobj
+6	terrorista	terrorista	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	5	amod
+7	vascofrancesa	vascofrancés	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	5	amod
+8	Iparretarrak	Iparretarrak	np00000	np00000	recursive=no|theme=yes|main=no	5	appos
+9	Philippe	Philippe	np0000l	np0000l	recursive=no|theme=yes|main=no	11	coord
+10	Bidart	Bidart	np0000l	np0000l	recursive=no|theme=yes|main=no	9	appos
+11	y	y	cc	cc	recursive=no|theme=yes|main=no	2	dep
+12	Jean	jean	ncfs000	ncfs000	recursive=no|theme=yes|main=no	11	coord
+13	Gabriel	Gabriel	np0000l	np0000l	recursive=no|theme=yes|main=no	12	appos
+14	Mouesca	Mouesca	np0000l	np0000l	recursive=no|theme=yes|main=no	12	appos
 15	fueron	ser	vsis3p0	vsis3p0	recursive=no|theme=no|main=no	0	root
 16	también	también	rg	rg	recursive=no|theme=no|main=no	15	advmod
 17	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	15	advmod

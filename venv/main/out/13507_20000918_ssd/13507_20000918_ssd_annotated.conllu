@@ -169,11 +169,11 @@
 
 1	Comentario	comentario	ncms000	ncms000	recursive=no|theme=no|main=no	0	root
 2	:	:	fd	fd	recursive=no|theme=no|main=no	8	punct
-3	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	4	det
-4	selección	selección	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	8	nsubj
-5	argentina	argentino	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	4	amod
-6	de	de	sps00	sps00	recursive=no|theme=no|main=no	4	prepn
-7	hockey	hockey	ncms000	ncms000	recursive=no|theme=no|main=no	6	pobj
+3	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	4	det
+4	selección	selección	ncfs000	ncfs000	recursive=no|theme=yes|main=no	8	nsubj
+5	argentina	argentino	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	4	amod
+6	de	de	sps00	sps00	recursive=no|theme=yes|main=no	4	prepn
+7	hockey	hockey	ncms000	ncms000	recursive=no|theme=yes|main=no	6	pobj
 8	sumó	sumar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	1	dep
 9	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	11	poss
 10	segunda	segundo	ao0fs0	ao0fs0	recursive=no|theme=no|main=no	11	amod
@@ -190,7 +190,7 @@
 21	partido	partido	ncms000	ncms000	recursive=no|theme=no|main=no	19	pobj
 22	en	en	sps00	sps00	recursive=no|theme=no|main=no	25	prepv
 23	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	22	pobj
-24	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	23	nsubj
+24	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	23	nsubj
 25	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	21	dep
 26	claramente	claramente	rg	rg	recursive=no|theme=no|main=no	27	advmod
 27	superior	superior	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	25	attr
@@ -216,11 +216,11 @@
 47	contragolpe	contragolpe	ncms000	ncms000	recursive=no|theme=no|main=no	45	dobj
 48	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	Las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	2	det
-2	chicas	chica	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	6	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	Sergio	Sergio	np0000l	np0000l	recursive=no|theme=no|main=no	3	pobj
-5	Vigil	Vigil	np0000l	np0000l	recursive=no|theme=no|main=no	4	appos
+1	Las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	2	det
+2	chicas	chica	ncfp000	ncfp000	recursive=no|theme=yes|main=no	6	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	Sergio	Sergio	np0000l	np0000l	recursive=no|theme=yes|main=no	3	pobj
+5	Vigil	Vigil	np0000l	np0000l	recursive=no|theme=yes|main=no	4	appos
 6	salieron	salir	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	10	coord
 7	volcadas	volcado	aq0fpp	aq0fpp	recursive=no|theme=no|main=no	6	cpred
 8	al	al	spcms	spcms	recursive=no|theme=no|main=no	7	prepa
@@ -245,13 +245,13 @@
 27	y	y	cc	cc	recursive=no|theme=no|main=no	25	pobj
 28	Onetto	Onetto	np0000p	np0000p	recursive=no|theme=no|main=no	27	coord
 29	,	,	fc	fc	recursive=no|theme=no|main=no	19	punct
-30	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	31	nsubj
+30	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	31	nsubj
 31	salió	salir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	19	rcmod
 32	ligeramente	ligeramente	rg	rg	recursive=no|theme=no|main=no	33	advmod
 33	desviada	desviado	aq0fsp	aq0fsp	recursive=no|theme=no|main=no	31	cpred
 34	.	.	fp	fp	recursive=no|theme=no|main=no	10	punct
 
-1	Argentina	Argentina	np0000o	np0000o	recursive=yes|theme=yes|main=no	2	nsubj
+1	Argentina	Argentina	np0000o	np0000o	recursive=no|theme=yes|main=no	2	nsubj
 2	dispuso	disponer	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	8	coord
 3	del	del	spcms	spcms	recursive=no|theme=no|main=no	2	oobj
 4	primer	primero	ao0ms0	ao0ms0	recursive=no|theme=no|main=no	5	amod
@@ -286,7 +286,7 @@
 33	bola	bola	ncfs000	ncfs000	recursive=no|theme=no|main=no	31	pobj
 34	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 
-1	Esto	este	pd0ns000	pd0ns000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Esto	este	pd0ns000	pd0ns000	recursive=no|theme=yes|main=no	3	nsubj
 2	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	3	reflec
 3	tradujo	traducir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	en	en	sps00	sps00	recursive=no|theme=no|main=no	3	oobj

@@ -11,8 +11,8 @@
 11	Jack	jack	ncms000	ncms000	recursive=no|theme=no|main=no	10	pobj
 12	Kerouac	Kerouac	np00000	np00000	recursive=no|theme=no|main=no	11	appos
 13	,	,	fc	fc	recursive=no|theme=no|main=no	3	punct
-14	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	15	det
-15	personaje	personaje	ncms000	ncms000	recursive=yes|theme=yes|main=no	16	nsubj
+14	un	uno	di0ms0	di0ms0	recursive=no|theme=yes|main=no	15	det
+15	personaje	personaje	ncms000	ncms000	recursive=no|theme=yes|main=no	16	nsubj
 16	pregunta	preguntar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 17	a	a	sps00	sps00	recursive=no|theme=no|main=no	16	iobj
 18	otro	otro	pi0ms000	pi0ms000	recursive=no|theme=no|main=no	17	pobj
@@ -47,15 +47,15 @@
 8	en	en	sps00	sps00	recursive=no|theme=no|main=no	22	prepv
 9	Estados	estado	ncms000	ncms000	recursive=no|theme=no|main=no	8	pobj
 10	Unidos	unido	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	9	amod
-11	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	12	det
-12	juicios	juicio	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	21	nsubj
-13	contra	contra	sps00	sps00	recursive=no|theme=no|main=no	12	prepn
-14	manifestantes	manifestante	nccp000	nccp000	recursive=no|theme=no|main=no	13	pobj
-15	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	16	nsubj
-16	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	14	rcmod
-17	quemado	quemar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	16	vobj
-18	banderas	bandera	ncfp000	ncfp000	recursive=no|theme=no|main=no	17	dobj
-19	americanas	americano	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	18	amod
+11	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	12	det
+12	juicios	juicio	ncmp000	ncmp000	recursive=no|theme=yes|main=no	21	nsubj
+13	contra	contra	sps00	sps00	recursive=no|theme=yes|main=no	12	prepn
+14	manifestantes	manifestante	nccp000	nccp000	recursive=no|theme=yes|main=no	13	pobj
+15	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	16	nsubj
+16	han	haber	vaip3p0	vaip3p0	recursive=no|theme=yes|main=no	14	rcmod
+17	quemado	quemar	vmp00sm	vmp00sm	recursive=no|theme=yes|main=no	16	vobj
+18	banderas	bandera	ncfp000	ncfp000	recursive=no|theme=yes|main=no	17	dobj
+19	americanas	americano	aq0fp0	aq0fp0	recursive=no|theme=yes|main=no	18	amod
 20	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	22	reflec
 21	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	0	root
 22	resuelto	resolver	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	21	vobj
@@ -66,10 +66,10 @@
 27	sentencia	sentencia	ncfs000	ncfs000	recursive=no|theme=no|main=no	25	pobj
 28	ejemplar	ejemplar	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	27	amod
 29	:	:	fd	fd	recursive=no|theme=no|main=no	34	punct
-30	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	31	det
-31	libertad	libertad	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	34	nsubj
-32	de	de	sps00	sps00	recursive=no|theme=no|main=no	31	prepn
-33	expresión	expresión	ncfs000	ncfs000	recursive=no|theme=no|main=no	32	pobj
+30	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	31	det
+31	libertad	libertad	ncfs000	ncfs000	recursive=no|theme=yes|main=no	34	nsubj
+32	de	de	sps00	sps00	recursive=no|theme=yes|main=no	31	prepn
+33	expresión	expresión	ncfs000	ncfs000	recursive=no|theme=yes|main=no	32	pobj
 34	garantiza	garantizar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	27	prepn
 35	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	36	det
 36	derecho	derecho	ncms000	ncms000	recursive=no|theme=no|main=no	34	dobj
@@ -97,9 +97,9 @@
 15	Estado	Estado	np0000o	np0000o	recursive=no|theme=no|main=no	13	pobj
 16	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	caso	caso	ncms000	ncms000	recursive=yes|theme=yes|main=no	5	nsubj
-3	japonés	japonés	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	2	amod
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	caso	caso	ncms000	ncms000	recursive=no|theme=yes|main=no	5	nsubj
+3	japonés	japonés	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	2	amod
 4	no	no	rn	rn	recursive=no|theme=no|main=no	5	neg
 5	sería	ser	vsic3s0	vsic3s0	recursive=no|theme=no|main=no	0	root
 6	simplemente	simplemente	rg	rg	recursive=no|theme=no|main=no	8	advmod
@@ -112,9 +112,9 @@
 
 1	Porque	porque	cs	cs	recursive=no|theme=no|main=no	0	root
 2	hasta	hasta	sps00	sps00	recursive=no|theme=no|main=no	1	cobj
-3	ahora	ahora	rg	rg	recursive=no|theme=no|main=no	4	advmod
-4	ninguna	ninguno	di0fs0	di0fs0	recursive=no|theme=no|main=no	5	det
-5	ley	ley	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	6	nsubj
+3	ahora	ahora	rg	rg	recursive=no|theme=yes|main=no	4	advmod
+4	ninguna	ninguno	di0fs0	di0fs0	recursive=no|theme=yes|main=no	5	det
+5	ley	ley	ncfs000	ncfs000	recursive=no|theme=yes|main=no	6	nsubj
 6	establecía	establecer	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	1	cobj
 7	a	a	sps00	sps00	recursive=no|theme=no|main=no	6	prepv
 8	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	9	pobj
@@ -148,20 +148,20 @@
 20	pública	público	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	19	amod
 21	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	juez	juez	nccs000	nccs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	juez	juez	nccs000	nccs000	recursive=no|theme=yes|main=no	3	nsubj
 3	dice	decir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	que	que	cs	cs	recursive=yes|theme=no|main=yes	3	dobj
 5	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	19	coord
 6	comprensible	comprensible	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	5	attr
 7	que	que	cs	cs	recursive=no|theme=no|main=no	4	cobj
-8	Chibana	Chibana	np0000p	np0000p	recursive=yes|theme=yes|main=no	10	nsubj
+8	Chibana	Chibana	np0000p	np0000p	recursive=no|theme=yes|main=no	10	nsubj
 9	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	11	reflec
 10	haya	haber	vam03s0	vam03s0	recursive=no|theme=no|main=no	19	coord
 11	indignado	indignar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	10	vobj
 12	al	al	spcms	spcms	recursive=no|theme=no|main=no	11	prepv
 13	descubrir	descubrir	vmn0000	vmn0000	recursive=no|theme=no|main=no	12	pobj
-14	qué	qué	pt0cs000	pt0cs000	recursive=yes|theme=yes|main=no	15	nsubj
+14	qué	qué	pt0cs000	pt0cs000	recursive=no|theme=yes|main=no	15	nsubj
 15	pasó	pasar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	13	dobj
 16	en	en	sps00	sps00	recursive=no|theme=no|main=no	15	prepv
 17	1945	1945	z	z	recursive=no|theme=no|main=no	16	pobj
@@ -184,10 +184,10 @@
 3	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 4	decidido	decidir	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	3	vobj
 5	que	que	cs	cs	recursive=no|theme=no|main=no	4	dobj
-6	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	7	det
-7	mayoría	mayoría	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	10	nsubj
-8	de	de	sps00	sps00	recursive=no|theme=no|main=no	7	prepn
-9	japoneses	japonés	ncmp000	ncmp000	recursive=no|theme=no|main=no	8	pobj
+6	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	7	det
+7	mayoría	mayoría	ncfs000	ncfs000	recursive=no|theme=yes|main=no	10	nsubj
+8	de	de	sps00	sps00	recursive=no|theme=yes|main=no	7	prepn
+9	japoneses	japonés	ncmp000	ncmp000	recursive=no|theme=yes|main=no	8	pobj
 10	consideran	considerar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	16	coord
 11	esa	ese	dd0fs0	dd0fs0	recursive=no|theme=no|main=no	12	det
 12	bandera	bandera	ncfs000	ncfs000	recursive=no|theme=no|main=no	10	dobj
@@ -195,7 +195,7 @@
 14	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	15	det
 15	nacional	nacional	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	10	cpred
 16	y	y	cc	cc	recursive=no|theme=no|main=no	3	cobj
-17	eso	ese	pd0ns000	pd0ns000	recursive=yes|theme=yes|main=no	18	nsubj
+17	eso	ese	pd0ns000	pd0ns000	recursive=no|theme=yes|main=no	18	nsubj
 18	hace	hacer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	16	coord
 19	que	que	cs	cs	recursive=yes|theme=no|main=yes	18	dobj
 20	quemarla	quemar	vmn0000	vmn0000	recursive=no|theme=no|main=no	19	cobj
@@ -203,8 +203,8 @@
 22	condenable	condenable	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	20	cpred
 23	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	sentencia	sentencia	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	sentencia	sentencia	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	nsubj
 3	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 4	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	prepv
 5	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	6	det
@@ -213,10 +213,10 @@
 8	prisión	prisión	ncfs000	ncfs000	recursive=no|theme=no|main=no	7	pobj
 9	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	portavoz	portavoz	nccs000	nccs000	recursive=yes|theme=yes|main=no	6	nsubj
-3	del	del	spcms	spcms	recursive=no|theme=no|main=no	2	prepn
-4	Gobierno	Gobierno	np0000o	np0000o	recursive=no|theme=no|main=no	3	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	portavoz	portavoz	nccs000	nccs000	recursive=no|theme=yes|main=no	6	nsubj
+3	del	del	spcms	spcms	recursive=no|theme=yes|main=no	2	prepn
+4	Gobierno	Gobierno	np0000o	np0000o	recursive=no|theme=yes|main=no	3	pobj
 5	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	7	reflec
 6	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	12	coord
 7	mostrado	mostrar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	6	vobj
@@ -228,13 +228,13 @@
 13	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	12	coord
 14	añadido	añadir	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	13	vobj
 15	que	que	cs	cs	recursive=yes|theme=no|main=yes	14	dobj
-16	eso	ese	pd0ns000	pd0ns000	recursive=yes|theme=yes|main=no	17	nsubj
+16	eso	ese	pd0ns000	pd0ns000	recursive=no|theme=yes|main=no	17	nsubj
 17	demuestra	demostrar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	18	cobj
 18	que	que	cs	cs	recursive=no|theme=no|main=no	15	cobj
 19	desde	desde	sps00	sps00	recursive=no|theme=no|main=no	23	prepv
 20	hace	hacer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	19	pobj
 21	mucho	mucho	rg	rg	recursive=no|theme=no|main=no	20	advmod
-22	ésa	ese	pd0fs000	pd0fs000	recursive=yes|theme=yes|main=no	23	nsubj
+22	ésa	ese	pd0fs000	pd0fs000	recursive=no|theme=yes|main=no	23	nsubj
 23	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	18	cobj
 24	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	26	det
 25	auténtica	auténtico	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	26	amod
@@ -248,7 +248,7 @@
 4	lo	él	pp3cna00	pp3cna00	recursive=no|theme=no|main=no	5	attr
 5	era	ser	vsii3s0	vsii3s0	recursive=no|theme=no|main=no	0	root
 6	cuando	cuando	cs	cs	recursive=no|theme=no|main=no	5	advcl
-7	Chibana	Chibana	np0000p	np0000p	recursive=yes|theme=yes|main=no	9	nsubj
+7	Chibana	Chibana	np0000p	np0000p	recursive=no|theme=yes|main=no	9	nsubj
 8	la	él	pp3fsa00	pp3fsa00	recursive=no|theme=no|main=no	9	dobj
 9	quemó	quemar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	6	cobj
 10	.	.	fp	fp	recursive=no|theme=no|main=no	5	punct
@@ -260,7 +260,7 @@
 5	lo	él	pp3cna00	pp3cna00	recursive=no|theme=no|main=no	6	attr
 6	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	2	cobj
 7	-	-	fg	fg	recursive=no|theme=no|main=no	9	punct
-8	qué	qué	pt0cs000	pt0cs000	recursive=yes|theme=yes|main=no	9	nsubj
+8	qué	qué	pt0cs000	pt0cs000	recursive=no|theme=yes|main=no	9	nsubj
 9	pasa	pasar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 10	con	con	sps00	sps00	recursive=no|theme=no|main=no	9	prepv
 11	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	12	det
@@ -276,7 +276,7 @@
 7	continúa	continuar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 8	ondeando	ondear	vmg0000	vmg0000	recursive=no|theme=no|main=no	7	dobj
 9	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	12	det
-10	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	12	nsubj
+10	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	12	nsubj
 11	no	no	rn	rn	recursive=no|theme=no|main=no	12	neg
 12	lleva	llevar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	7	rcmod
 13	rayos	rayo	ncmp000	ncmp000	recursive=no|theme=no|main=no	12	dobj
@@ -284,10 +284,10 @@
 
 1	Y	y	cc	cc	recursive=no|theme=no|main=no	22	te
 2	si	si	cs	cs	recursive=no|theme=no|main=no	22	advcl
-3	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	4	det
-4	sentencia	sentencia	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	8	nsubj
-5	del	del	spcms	spcms	recursive=no|theme=no|main=no	4	prepn
-6	juez	juez	nccs000	nccs000	recursive=no|theme=no|main=no	5	pobj
+3	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	4	det
+4	sentencia	sentencia	ncfs000	ncfs000	recursive=no|theme=yes|main=no	8	nsubj
+5	del	del	spcms	spcms	recursive=no|theme=yes|main=no	4	prepn
+6	juez	juez	nccs000	nccs000	recursive=no|theme=yes|main=no	5	pobj
 7	no	no	rn	rn	recursive=no|theme=no|main=no	8	neg
 8	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	2	cobj
 9	suficiente	suficiente	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	8	attr

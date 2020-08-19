@@ -1,8 +1,8 @@
-1	EL	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	INFORME	INFORME	np00000	np00000	recursive=yes|theme=yes|main=no	6	nsubj
-3	DE	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	LA	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	5	det
-5	CRUE	CRUE	np00000	np00000	recursive=no|theme=no|main=no	3	pobj
+1	EL	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	INFORME	INFORME	np00000	np00000	recursive=no|theme=yes|main=no	6	nsubj
+3	DE	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	LA	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	5	det
+5	CRUE	CRUE	np00000	np00000	recursive=no|theme=yes|main=no	3	pobj
 6	ANALIZA	analizar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 7	TAMBIÉN	también	rg	rg	recursive=no|theme=no|main=no	8	advmod
 8	OTROS	otro	di0mp0	di0mp0	recursive=no|theme=no|main=no	9	det
@@ -16,17 +16,17 @@
 2	MOVILIDAD	movilidad	ncfs000	ncfs000	recursive=no|theme=no|main=no	0	root
 3	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
-1	Sólo	sólo	rg	rg	recursive=no|theme=no|main=no	3	advmod
-2	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	3	det
-3	10%	10	z	z	recursive=yes|theme=yes|main=no	8	nsubj
-4	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	prep
-5	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	6	det
-6	universitarios	universitario	ncmp000	ncmp000	recursive=no|theme=no|main=no	4	pobj
+1	Sólo	sólo	rg	rg	recursive=no|theme=yes|main=no	3	advmod
+2	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	3	det
+3	10%	10	z	z	recursive=no|theme=yes|main=no	8	nsubj
+4	de	de	sps00	sps00	recursive=no|theme=yes|main=no	3	prep
+5	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	6	det
+6	universitarios	universitario	ncmp000	ncmp000	recursive=no|theme=yes|main=no	4	pobj
 7	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	8	reflec
 8	matriculan	matricular	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
 9	en	en	sps00	sps00	recursive=no|theme=no|main=no	8	oobj
 10	centros	centro	ncmp000	ncmp000	recursive=no|theme=no|main=no	9	pobj
-11	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	13	nsubj
+11	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	13	nsubj
 12	no	no	rn	rn	recursive=no|theme=no|main=no	13	neg
 13	son	ser	vsip3p0	vsip3p0	recursive=no|theme=no|main=no	10	rcmod
 14	de	de	sps00	sps00	recursive=no|theme=no|main=no	13	prepv
@@ -51,7 +51,7 @@
 12	otras	otro	di0fp0	di0fp0	recursive=no|theme=no|main=no	13	det
 13	provincias	provincia	ncfp000	ncfp000	recursive=no|theme=no|main=no	11	pobj
 14	castellanas	castellano	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	13	amod
-15	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	24	nsubj
+15	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	24	nsubj
 16	,	,	fc	fc	recursive=no|theme=no|main=no	24	punct
 17	por	por	sps00	sps00	recursive=no|theme=no|main=no	24	prepv
 18	cercanía	cercanía	ncfs000	ncfs000	recursive=no|theme=no|main=no	17	pobj
@@ -71,12 +71,12 @@
 4	atribuye	atribuir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 5	a	a	sps00	sps00	recursive=no|theme=no|main=no	4	iobj
 6	que	que	cs	cs	recursive=no|theme=no|main=no	5	pobj
-7	apenas	apenas	rg	rg	recursive=no|theme=no|main=no	9	advmod
-8	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	9	det
-9	3,4%	3.4/100	zp	zp	recursive=yes|theme=yes|main=no	13	nsubj
-10	de	de	sps00	sps00	recursive=no|theme=no|main=no	9	prep
-11	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	12	det
-12	alumnos	alumno	ncmp000	ncmp000	recursive=no|theme=no|main=no	10	pobj
+7	apenas	apenas	rg	rg	recursive=no|theme=yes|main=no	9	advmod
+8	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	9	det
+9	3,4%	3.4/100	zp	zp	recursive=no|theme=yes|main=no	13	nsubj
+10	de	de	sps00	sps00	recursive=no|theme=yes|main=no	9	prep
+11	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	12	det
+12	alumnos	alumno	ncmp000	ncmp000	recursive=no|theme=yes|main=no	10	pobj
 13	percibe	percibir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	6	cobj
 14	becas	beca	ncfp000	ncfp000	recursive=no|theme=no|main=no	13	dobj
 15	compensatorias	compensatorio	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	14	amod
@@ -86,12 +86,12 @@
 2	POSGRADOS	posgrados	nc00000	nc00000	recursive=no|theme=no|main=no	0	root
 3	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	investigación	investigación	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	investigación	investigación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	nsubj
 3	destaca	destacar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	que	que	cs	cs	recursive=yes|theme=no|main=yes	3	dobj
-5	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	6	det
-6	universidad	universidad	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	9	nsubj
+5	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	6	det
+6	universidad	universidad	ncfs000	ncfs000	recursive=no|theme=yes|main=no	9	nsubj
 7	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	9	punct
 8	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	9	reflec
 9	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	4	cobj
@@ -110,11 +110,11 @@
 1	En	en	sps00	sps00	recursive=no|theme=no|main=no	9	prepv
 2	1990	1990	z	z	recursive=no|theme=no|main=no	1	pobj
 3	,	,	fc	fc	recursive=no|theme=no|main=no	9	punct
-4	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	5	det
-5	72%	72/100	zp	zp	recursive=yes|theme=yes|main=no	9	nsubj
-6	de	de	sps00	sps00	recursive=no|theme=no|main=no	5	prep
-7	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	8	det
-8	estudios	estudio	ncmp000	ncmp000	recursive=no|theme=no|main=no	6	pobj
+4	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	5	det
+5	72%	72/100	zp	zp	recursive=no|theme=yes|main=no	9	nsubj
+6	de	de	sps00	sps00	recursive=no|theme=yes|main=no	5	prep
+7	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	8	det
+8	estudios	estudio	ncmp000	ncmp000	recursive=no|theme=yes|main=no	6	pobj
 9	eran	ser	vsii3p0	vsii3p0	recursive=no|theme=no|main=no	14	coord
 10	de	de	sps00	sps00	recursive=no|theme=no|main=no	9	prepv
 11	ciclo	ciclo	ncms000	ncms000	recursive=no|theme=no|main=no	10	pobj
@@ -130,10 +130,10 @@
 21	53%	53	z	z	recursive=no|theme=no|main=no	19	dobj
 22	.	.	fp	fp	recursive=no|theme=no|main=no	14	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	estudios	estudio	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	5	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	posgrado	posgrado	ncms000	ncms000	recursive=no|theme=no|main=no	3	pobj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	estudios	estudio	ncmp000	ncmp000	recursive=no|theme=yes|main=no	5	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	posgrado	posgrado	ncms000	ncms000	recursive=no|theme=yes|main=no	3	pobj
 5	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	0	root
 6	pasado	pasar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	5	vobj
 7	del	del	spcms	spcms	recursive=no|theme=no|main=no	6	prepv
@@ -147,7 +147,7 @@
 3	crecido	crecer	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	2	vobj
 4	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	5	det
 5	alumnos	alumno	ncmp000	ncmp000	recursive=no|theme=no|main=no	2	nsubj
-6	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	7	nsubj
+6	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	7	nsubj
 7	cursan	cursar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	5	rcmod
 8	carreras	carrera	ncfp000	ncfp000	recursive=no|theme=no|main=no	7	dobj
 9	técnicas	técnico	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	8	amod
@@ -156,9 +156,9 @@
 1	INVESTIGACIÓN	investigación	ncfs000	ncfs000	recursive=no|theme=no|main=no	0	root
 2	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	producción	producción	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	5	nsubj
-3	científica	científico	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	2	amod
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	producción	producción	ncfs000	ncfs000	recursive=no|theme=yes|main=no	5	nsubj
+3	científica	científico	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	2	amod
 4	también	también	rg	rg	recursive=no|theme=no|main=no	6	advmod
 5	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 6	subido	subir	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	5	vobj
@@ -211,11 +211,11 @@
 2	LABORAL	laboral	aq00s0	aq00s0	recursive=no|theme=no|main=no	1	amod
 3	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	personal	personal	ncms000	ncms000	recursive=yes|theme=yes|main=no	6	nsubj
-3	docente	docente	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	4	coord
-4	e	e	cc	cc	recursive=no|theme=no|main=no	2	dep
-5	investigador	investigador	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	4	coord
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	personal	personal	ncms000	ncms000	recursive=no|theme=yes|main=no	6	nsubj
+3	docente	docente	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	4	coord
+4	e	e	cc	cc	recursive=no|theme=yes|main=no	2	dep
+5	investigador	investigador	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	4	coord
 6	gana	ganar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 7	en	en	sps00	sps00	recursive=no|theme=no|main=no	6	prepv
 8	estabilidad	estabilidad	ncfs000	ncfs000	recursive=no|theme=no|main=no	7	pobj
@@ -245,8 +245,8 @@
 2	MATRÍCULAS	matrícula	ncfp000	ncfp000	recursive=no|theme=no|main=no	0	root
 3	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	alumnos	alumno	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	alumnos	alumno	ncmp000	ncmp000	recursive=no|theme=yes|main=no	3	nsubj
 3	aportan	aportar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
 4	con	con	sps00	sps00	recursive=no|theme=no|main=no	3	prepv
 5	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	6	poss
@@ -258,8 +258,8 @@
 11	gastos	gasto	ncmp000	ncmp000	recursive=no|theme=no|main=no	9	pobj
 12	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	informe	informe	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	informe	informe	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	asegura	asegurar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	que	que	cs	cs	recursive=no|theme=no|main=no	11	conj
 5	hace	hacer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	4	cobj
@@ -274,11 +274,11 @@
 14	descenso	descenso	ncms000	ncms000	recursive=no|theme=no|main=no	13	pobj
 15	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	12	cobj
 16	contribuido	contribuir	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	15	vobj
-17	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	20	det
-18	mayor	mayor	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	20	amod
-19	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	20	punct
-20	racionalización	racionalización	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	15	nsubj
-21	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	20	punct
+17	una	uno	di0fs0	di0fs0	recursive=no|theme=yes|main=no	20	det
+18	mayor	mayor	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	20	amod
+19	&quot;	&quot;	fe	fe	recursive=no|theme=yes|main=no	20	punct
+20	racionalización	racionalización	ncfs000	ncfs000	recursive=no|theme=yes|main=no	15	nsubj
+21	&quot;	&quot;	fe	fe	recursive=no|theme=yes|main=no	20	punct
 22	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
 1	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	3	punct

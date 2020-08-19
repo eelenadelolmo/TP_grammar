@@ -10,9 +10,9 @@
 10	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	11	det
 11	película	película	ncfs000	ncfs000	recursive=no|theme=no|main=no	9	pobj
 12	que	que	cs	cs	recursive=yes|theme=no|main=yes	6	dobj
-13	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	14	det
-14	diplodocus	diplodocus	ncmn000	ncmn000	recursive=yes|theme=yes|main=no	17	nsubj
-15	gigante	gigante	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	14	amod
+13	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	14	det
+14	diplodocus	diplodocus	ncmn000	ncmn000	recursive=no|theme=yes|main=no	17	nsubj
+15	gigante	gigante	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	14	amod
 16	sólo	sólo	rg	rg	recursive=no|theme=no|main=no	18	advmod
 17	podría	poder	vmic3s0	vmic3s0	recursive=no|theme=no|main=no	12	cobj
 18	ser	ser	vsn0000	vsn0000	recursive=no|theme=no|main=no	17	dobj
@@ -23,7 +23,7 @@
 23	nuclear	nuclear	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	22	amod
 24	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	Ginés	Ginés	np0000p	np0000p	recursive=yes|theme=yes|main=no	2	nsubj
+1	Ginés	Ginés	np0000p	np0000p	recursive=no|theme=yes|main=no	2	nsubj
 2	volvió	volver	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 3	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	4	det
 4	cabeza	cabeza	ncfs000	ncfs000	recursive=no|theme=no|main=no	2	dobj
@@ -33,8 +33,8 @@
 8	del	del	spcms	spcms	recursive=no|theme=no|main=no	7	prepn
 9	hotel	hotel	ncms000	ncms000	recursive=no|theme=no|main=no	8	pobj
 10	donde	donde	pr000000	pr000000	recursive=no|theme=no|main=no	14	dobj
-11	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	12	det
-12	mulata	mulata	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	14	nsubj
+11	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	12	det
+12	mulata	mulata	ncfs000	ncfs000	recursive=no|theme=yes|main=no	14	nsubj
 13	se	él	pp3cn000	pp3cn000	recursive=no|theme=no|main=no	14	reflec
 14	besaba	besar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	7	rcmod
 15	a	a	sps00	sps00	recursive=no|theme=no|main=no	14	dobj
@@ -58,7 +58,7 @@
 33	de	de	sps00	sps00	recursive=no|theme=no|main=no	32	prepn
 34	naturaleza	naturaleza	ncfs000	ncfs000	recursive=no|theme=no|main=no	33	pobj
 35	oscurecida	oscurecido	aq0fsp	aq0fsp	recursive=no|theme=no|main=no	34	amod
-36	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	38	nsubj
+36	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	38	nsubj
 37	no	no	rn	rn	recursive=no|theme=no|main=no	38	neg
 38	conseguía	conseguir	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	32	rcmod
 39	paliar	paliar	vmn0000	vmn0000	recursive=no|theme=no|main=no	38	dobj
@@ -133,7 +133,7 @@
 61	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	62	det
 62	combinaciones	combinación	ncfp000	ncfp000	recursive=no|theme=no|main=no	57	coord
 63	raciales	racial	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	62	amod
-64	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	69	nsubj
+64	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	69	nsubj
 65	según	según	sps00	sps00	recursive=no|theme=no|main=no	69	prepv
 66	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	67	det
 67	prospectos	prospecto	ncmp000	ncmp000	recursive=no|theme=no|main=no	65	pobj
@@ -173,8 +173,8 @@
 2	-	-	fg	fg	recursive=no|theme=no|main=no	10	punct
 3	Si	si	cs	cs	recursive=no|theme=no|main=no	10	advcl
 4	sale	salir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	3	cobj
-5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
-6	sol	sol	ncms000	ncms000	recursive=yes|theme=yes|main=no	4	nsubj
+5	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	6	det
+6	sol	sol	ncms000	ncms000	recursive=no|theme=yes|main=no	4	nsubj
 7	,	,	fc	fc	recursive=no|theme=no|main=no	10	punct
 8	seguro	seguro	rg	rg	recursive=no|theme=no|main=no	10	advmod
 9	que	que	cs	cs	recursive=no|theme=no|main=no	10	te
@@ -278,8 +278,8 @@
 24	ciudad	ciudad	ncfs000	ncfs000	recursive=no|theme=no|main=no	22	dep
 25	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	taxista	taxista	nccs000	nccs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	taxista	taxista	nccs000	nccs000	recursive=no|theme=yes|main=no	3	nsubj
 3	seguía	seguir	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	0	root
 4	con	con	sps00	sps00	recursive=no|theme=no|main=no	3	oobj
 5	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	6	poss
@@ -304,8 +304,8 @@
 12	Trinidad	Trinidad	np0000l	np0000l	recursive=no|theme=no|main=no	11	cobj
 13	?	?	fit	fit	recursive=no|theme=no|main=no	4	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	pregunta	pregunta	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	pregunta	pregunta	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
 3	le	él	pp3csa00	pp3csa00	recursive=no|theme=no|main=no	4	iobj
 4	obligó	obligar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 5	a	a	sps00	sps00	recursive=no|theme=no|main=no	4	oobj
@@ -333,8 +333,8 @@
 
 1	Sin	sin	sps00	sps00	recursive=no|theme=no|main=no	7	prepv
 2	duda	duda	ncfs000	ncfs000	recursive=no|theme=no|main=no	1	pobj
-3	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	4	det
-4	taxista	taxista	nccs000	nccs000	recursive=yes|theme=yes|main=no	6	nsubj
+3	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	4	det
+4	taxista	taxista	nccs000	nccs000	recursive=no|theme=yes|main=no	6	nsubj
 5	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	7	reflec
 6	había	haber	vaii3s0	vaii3s0	recursive=no|theme=no|main=no	10	coord
 7	mordido	morder	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	6	vobj
@@ -378,7 +378,7 @@
 1	Es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 2	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	3	det
 3	estrecho	estrecho	ncms000	ncms000	recursive=no|theme=no|main=no	1	attr
-4	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	5	nsubj
+4	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	5	nsubj
 5	comunica	comunicar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	1	attr
 6	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	7	det
 7	Mediterráneo	Mediterráneo	np0000l	np0000l	recursive=no|theme=no|main=no	5	dobj
@@ -391,7 +391,7 @@
 1	-	-	fg	fg	recursive=no|theme=no|main=no	5	punct
 2	-	-	fg	fg	recursive=no|theme=no|main=no	5	punct
 3	-	-	fg	fg	recursive=no|theme=no|main=no	5	punct
-4	Eso	ese	pd0ns000	pd0ns000	recursive=yes|theme=yes|main=no	5	nsubj
+4	Eso	ese	pd0ns000	pd0ns000	recursive=no|theme=yes|main=no	5	nsubj
 5	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 6	en	en	sps00	sps00	recursive=no|theme=no|main=no	5	oobj
 7	Europa	Europa	np0000l	np0000l	recursive=no|theme=no|main=no	6	pobj
@@ -421,8 +421,8 @@
 13	espaldas	espalda	ncfp000	ncfp000	recursive=no|theme=no|main=no	12	pobj
 14	.	.	fp	fp	recursive=no|theme=no|main=no	7	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	Bósforo	Bósforo	np0000l	np0000l	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	Bósforo	Bósforo	np0000l	np0000l	recursive=no|theme=yes|main=no	3	nsubj
 3	comunica	comunicar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	mi	mi	dp1css	dp1css	recursive=no|theme=no|main=no	5	poss
 5	infancia	infancia	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	dobj
@@ -440,7 +440,7 @@
 7	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	8	det
 8	voz	voz	ncfs000	ncfs000	recursive=no|theme=no|main=no	6	pobj
 9	mental	mental	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	8	amod
-10	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	11	nsubj
+10	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	11	nsubj
 11	servía	servir	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	8	rcmod
 12	de	de	sps00	sps00	recursive=no|theme=no|main=no	11	oobj
 13	fondo	fondo	ncms000	ncms000	recursive=no|theme=no|main=no	12	pobj
@@ -480,10 +480,10 @@
 6	sol	sol	ncms000	ncms000	recursive=no|theme=no|main=no	5	dobj
 7	.	.	fp	fp	recursive=no|theme=no|main=no	5	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	dedo	dedo	ncms000	ncms000	recursive=yes|theme=yes|main=no	5	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	gitano	gitano	ncms000	ncms000	recursive=no|theme=no|main=no	3	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	dedo	dedo	ncms000	ncms000	recursive=no|theme=yes|main=no	5	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	gitano	gitano	ncms000	ncms000	recursive=no|theme=yes|main=no	3	pobj
 5	volvió	volver	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 6	a	a	sps00	sps00	recursive=no|theme=no|main=no	5	prepv
 7	alzarse	alzar	vmn0000	vmn0000	recursive=no|theme=no|main=no	5	dobj

@@ -1,21 +1,21 @@
-1	Toyota	Toyota	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Toyota	Toyota	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 2	los	él	pp3mpa00	pp3mpa00	recursive=no|theme=no|main=no	4	dobj
 3	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	6	coord
 4	despedido	despedir	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	3	vobj
 5	,	,	fc	fc	recursive=no|theme=no|main=no	3	punct
 6	pero	pero	cc	cc	recursive=no|theme=no|main=no	0	root
-7	ellos	él	pp3mp000	pp3mp000	recursive=yes|theme=yes|main=no	9	nsubj
+7	ellos	él	pp3mp000	pp3mp000	recursive=no|theme=yes|main=no	9	nsubj
 8	ya	ya	rg	rg	recursive=no|theme=no|main=no	10	advmod
 9	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	6	coord
 10	encontrado	encontrar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	9	vobj
 11	trabajo	trabajo	ncms000	ncms000	recursive=no|theme=no|main=no	10	dobj
 12	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
-1	Carlos	Carlos	np0000l	np0000l	recursive=no|theme=no|main=no	3	coord
-2	Sainz	Sainz	np0000l	np0000l	recursive=no|theme=no|main=no	1	appos
-3	y	y	cc	cc	recursive=yes|theme=yes|main=no	6	nsubj
-4	Didier	Didier	np0000l	np0000l	recursive=no|theme=no|main=no	3	coord
-5	Auriol	Auriol	np0000l	np0000l	recursive=no|theme=no|main=no	4	appos
+1	Carlos	Carlos	np0000l	np0000l	recursive=no|theme=yes|main=no	3	coord
+2	Sainz	Sainz	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
+3	y	y	cc	cc	recursive=no|theme=yes|main=no	6	nsubj
+4	Didier	Didier	np0000l	np0000l	recursive=no|theme=yes|main=no	3	coord
+5	Auriol	Auriol	np0000l	np0000l	recursive=no|theme=yes|main=no	4	appos
 6	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	0	root
 7	probado	probar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	6	vobj
 8	estos	este	dd0mp0	dd0mp0	recursive=no|theme=no|main=no	9	det
@@ -27,15 +27,15 @@
 14	coches	coche	ncmp000	ncmp000	recursive=no|theme=no|main=no	7	dobj
 15	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
-1	Sainz	Sainz	np00000	np00000	recursive=no|theme=no|main=no	2	coord
-2	y	y	cc	cc	recursive=yes|theme=yes|main=no	10	nsubj
-3	Auriol	Auriol	np00000	np00000	recursive=no|theme=no|main=no	2	coord
-4	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
-5	ex	ex	aq0cn0	aq0cn0	recursive=no|theme=no|main=no	6	amod
-6	pilotos	piloto	nccp000	nccp000	recursive=no|theme=no|main=no	2	appos
-7	de	de	sps00	sps00	recursive=no|theme=no|main=no	6	prepn
-8	Toyota	Toyota	np00000	np00000	recursive=no|theme=no|main=no	7	pobj
-9	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
+1	Sainz	Sainz	np00000	np00000	recursive=no|theme=yes|main=no	2	coord
+2	y	y	cc	cc	recursive=no|theme=yes|main=no	10	nsubj
+3	Auriol	Auriol	np00000	np00000	recursive=no|theme=yes|main=no	2	coord
+4	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
+5	ex	ex	aq0cn0	aq0cn0	recursive=no|theme=yes|main=no	6	amod
+6	pilotos	piloto	nccp000	nccp000	recursive=no|theme=yes|main=no	2	appos
+7	de	de	sps00	sps00	recursive=no|theme=yes|main=no	6	prepn
+8	Toyota	Toyota	np00000	np00000	recursive=no|theme=yes|main=no	7	pobj
+9	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
 10	prueban	probar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
 11	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	13	poss
 12	nuevos	nuevo	aq0mp0	aq0mp0	recursive=no|theme=no|main=no	13	amod
@@ -44,7 +44,7 @@
 15	Catalunya	Catalunya	np00000	np00000	recursive=no|theme=no|main=no	14	pobj
 16	.	.	fp	fp	recursive=no|theme=no|main=no	10	punct
 
-1	Toyota	Toyota	np00000	np00000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Toyota	Toyota	np00000	np00000	recursive=no|theme=yes|main=no	2	nsubj
 2	decidió	decidir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	10	coord
 3	acabar	acabar	vmn0000	vmn0000	recursive=no|theme=no|main=no	2	dobj
 4	con	con	sps00	sps00	recursive=no|theme=no|main=no	3	oobj
@@ -54,20 +54,20 @@
 8	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	9	det
 9	rallys	rally	ncmp000	ncmp000	recursive=no|theme=no|main=no	7	pobj
 10	y	y	cc	cc	recursive=no|theme=no|main=no	0	root
-11	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	13	poss
-12	dos	dos	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	13	det
-13	pilotos	piloto	nccp000	nccp000	recursive=yes|theme=yes|main=no	15	nsubj
+11	sus	su	dp3cp0	dp3cp0	recursive=no|theme=yes|main=no	13	poss
+12	dos	dos	dn0cp0	dn0cp0	recursive=no|theme=yes|main=no	13	det
+13	pilotos	piloto	nccp000	nccp000	recursive=no|theme=yes|main=no	15	nsubj
 14	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	15	reflec
 15	quedaron	quedar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	10	coord
 16	sin	sin	sps00	sps00	recursive=no|theme=no|main=no	15	prepv
 17	trabajo	trabajo	ncms000	ncms000	recursive=no|theme=no|main=no	16	pobj
 18	.	.	fp	fp	recursive=no|theme=no|main=no	10	punct
 
-1	Carlos	Carlos	np0000l	np0000l	recursive=no|theme=no|main=no	3	coord
-2	Sainz	Sainz	np0000l	np0000l	recursive=no|theme=no|main=no	1	appos
-3	y	y	cc	cc	recursive=yes|theme=yes|main=no	7	nsubj
-4	Didier	Didier	np0000l	np0000l	recursive=no|theme=no|main=no	3	coord
-5	Auriol	Auriol	np0000l	np0000l	recursive=no|theme=no|main=no	4	appos
+1	Carlos	Carlos	np0000l	np0000l	recursive=no|theme=yes|main=no	3	coord
+2	Sainz	Sainz	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
+3	y	y	cc	cc	recursive=no|theme=yes|main=no	7	nsubj
+4	Didier	Didier	np0000l	np0000l	recursive=no|theme=yes|main=no	3	coord
+5	Auriol	Auriol	np0000l	np0000l	recursive=no|theme=yes|main=no	4	appos
 6	no	no	rn	rn	recursive=no|theme=no|main=no	7	neg
 7	tuvieron	tener	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 8	más	más	rg	rg	recursive=no|theme=no|main=no	9	advmod
@@ -108,18 +108,18 @@
 5	Auriol	Auriol	np00000	np00000	recursive=no|theme=no|main=no	4	cobj
 6	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	Matador	Matador	np00000	np00000	recursive=yes|theme=yes|main=no	14	nsubj
-3	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
-4	al	al	spcms	spcms	recursive=no|theme=no|main=no	7	dobj
-5	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	4	pobj
-6	muchos	mucho	pi0mp000	pi0mp000	recursive=yes|theme=yes|main=no	7	nsubj
-7	hubiesen	haber	vasi3p0	vasi3p0	recursive=no|theme=no|main=no	2	dep
-8	querido	querer	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	7	vobj
-9	ver	ver	vmn0000	vmn0000	recursive=no|theme=no|main=no	7	vobj
-10	vestido	vestido	aq0msp	aq0msp	recursive=no|theme=no|main=no	9	cpred
-11	de	de	sps00	sps00	recursive=no|theme=no|main=no	10	prepa
-12	Seat	Seat	np00000	np00000	recursive=no|theme=no|main=no	11	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	Matador	Matador	np00000	np00000	recursive=no|theme=yes|main=no	14	nsubj
+3	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
+4	al	al	spcms	spcms	recursive=no|theme=yes|main=no	7	dobj
+5	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	4	pobj
+6	muchos	mucho	pi0mp000	pi0mp000	recursive=no|theme=yes|main=no	7	nsubj
+7	hubiesen	haber	vasi3p0	vasi3p0	recursive=no|theme=yes|main=no	2	dep
+8	querido	querer	vmp00sm	vmp00sm	recursive=no|theme=yes|main=no	7	vobj
+9	ver	ver	vmn0000	vmn0000	recursive=no|theme=yes|main=no	7	vobj
+10	vestido	vestido	aq0msp	aq0msp	recursive=no|theme=yes|main=no	9	cpred
+11	de	de	sps00	sps00	recursive=no|theme=yes|main=no	10	prepa
+12	Seat	Seat	np00000	np00000	recursive=no|theme=yes|main=no	11	pobj
 13	,	,	fc	fc	recursive=no|theme=no|main=no	14	punct
 14	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	19	coord
 15	terminado	terminar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	14	vobj
@@ -132,11 +132,11 @@
 22	,	,	fc	fc	recursive=no|theme=no|main=no	20	punct
 23	curiosamente	curiosamente	rg	rg	recursive=no|theme=no|main=no	20	advmod
 24	,	,	fc	fc	recursive=no|theme=no|main=no	20	punct
-25	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	26	poss
-26	compañero	compañero	ncms000	ncms000	recursive=yes|theme=yes|main=no	20	nsubj
-27	de	de	sps00	sps00	recursive=no|theme=no|main=no	26	prepn
-28	equipo	equipo	ncms000	ncms000	recursive=no|theme=no|main=no	27	pobj
-29	quien	quien	pr0cs000	pr0cs000	recursive=yes|theme=yes|main=no	20	nsubj
+25	su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	26	poss
+26	compañero	compañero	ncms000	ncms000	recursive=no|theme=yes|main=no	20	nsubj
+27	de	de	sps00	sps00	recursive=no|theme=yes|main=no	26	prepn
+28	equipo	equipo	ncms000	ncms000	recursive=no|theme=yes|main=no	27	pobj
+29	quien	quien	pr0cs000	pr0cs000	recursive=no|theme=yes|main=no	20	nsubj
 30	encabezará	encabezar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	20	rcmod
 31	,	,	fc	fc	recursive=no|theme=no|main=no	30	punct
 32	a	a	sps00	sps00	recursive=no|theme=no|main=no	30	prepv
@@ -152,9 +152,9 @@
 42	española	español	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	41	amod
 43	.	.	fp	fp	recursive=no|theme=no|main=no	19	punct
 
-1	Sainz	Sainz	np00000	np00000	recursive=no|theme=no|main=no	2	coord
-2	y	y	cc	cc	recursive=yes|theme=yes|main=no	4	nsubj
-3	Auriol	Auriol	np00000	np00000	recursive=no|theme=no|main=no	2	coord
+1	Sainz	Sainz	np00000	np00000	recursive=no|theme=yes|main=no	2	coord
+2	y	y	cc	cc	recursive=no|theme=yes|main=no	4	nsubj
+3	Auriol	Auriol	np00000	np00000	recursive=no|theme=yes|main=no	2	coord
 4	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	0	root
 5	estrenado	estrenar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	4	vobj
 6	estos	este	dd0mp0	dd0mp0	recursive=no|theme=no|main=no	7	det
@@ -171,8 +171,8 @@
 17	Car	Car	np0000a	np0000a	recursive=no|theme=no|main=no	16	appos
 18	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	dos	dos	pn0cp000	pn0cp000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	dos	dos	pn0cp000	pn0cp000	recursive=no|theme=yes|main=no	3	nsubj
 3	hablan	hablar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
 4	maravillas	maravilla	ncfp000	ncfp000	recursive=no|theme=no|main=no	3	dobj
 5	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	oobj
@@ -181,10 +181,10 @@
 8	monturas	montura	ncfp000	ncfp000	recursive=no|theme=no|main=no	5	pobj
 9	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	dos	dos	pn0cp000	pn0cp000	recursive=yes|theme=yes|main=no	6	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	dos	dos	pn0cp000	pn0cp000	recursive=no|theme=yes|main=no	6	nsubj
 3	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
-4	claro	claro	ncms000	ncms000	recursive=no|theme=no|main=no	2	te
+4	claro	claro	ncms000	ncms000	recursive=no|theme=yes|main=no	2	te
 5	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
 6	dicen	decir	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
 7	que	que	cs	cs	recursive=yes|theme=no|main=yes	6	dobj
@@ -197,10 +197,10 @@
 14	material	material	ncms000	ncms000	recursive=no|theme=no|main=no	8	dobj
 15	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	dos	dos	pn0cp000	pn0cp000	recursive=yes|theme=yes|main=no	6	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	dos	dos	pn0cp000	pn0cp000	recursive=no|theme=yes|main=no	6	nsubj
 3	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
-4	claro	claro	ncms000	ncms000	recursive=no|theme=no|main=no	2	te
+4	claro	claro	ncms000	ncms000	recursive=no|theme=yes|main=no	2	te
 5	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
 6	aseguran	asegurar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
 7	que	que	cs	cs	recursive=yes|theme=no|main=yes	6	dobj
@@ -208,7 +208,7 @@
 9	mejorable	mejorable	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	8	attr
 10	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
-1	Catalunya	Catalunya	np00000	np00000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Catalunya	Catalunya	np00000	np00000	recursive=no|theme=yes|main=no	2	nsubj
 2	tiene	tener	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	8	coord
 3	carreteras	carretero	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	2	cpred
 4	para	para	sps00	sps00	recursive=no|theme=no|main=no	3	prepa
@@ -230,7 +230,7 @@
 20	carreras	carrera	ncfp000	ncfp000	recursive=no|theme=no|main=no	19	pobj
 21	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 
-1	Vic	Vic	np00000	np00000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Vic	Vic	np00000	np00000	recursive=no|theme=yes|main=no	2	nsubj
 2	suele	soler	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	11	coord
 3	ser	ser	vsn0000	vsn0000	recursive=no|theme=no|main=no	2	dobj
 4	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	5	det
@@ -241,13 +241,13 @@
 9	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	10	det
 10	equipos	equipo	ncmp000	ncmp000	recursive=no|theme=no|main=no	8	pobj
 11	y	y	cc	cc	recursive=no|theme=no|main=no	0	root
-12	tanto	tanto	rg	rg	recursive=no|theme=no|main=no	15	conj
-13	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	14	det
-14	Focus	Focus	np00000	np00000	recursive=no|theme=no|main=no	15	coord
-15	como	como	cs	cs	recursive=yes|theme=yes|main=no	19	nsubj
-16	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	17	det
-17	Córdoba	Córdoba	np0000l	np0000l	recursive=no|theme=no|main=no	15	coord
-18	Evo3	Evo3	np0000l	np0000l	recursive=no|theme=no|main=no	17	appos
+12	tanto	tanto	rg	rg	recursive=no|theme=yes|main=no	15	conj
+13	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	14	det
+14	Focus	Focus	np00000	np00000	recursive=no|theme=yes|main=no	15	coord
+15	como	como	cs	cs	recursive=no|theme=yes|main=no	19	nsubj
+16	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	17	det
+17	Córdoba	Córdoba	np0000l	np0000l	recursive=no|theme=yes|main=no	15	coord
+18	Evo3	Evo3	np0000l	np0000l	recursive=no|theme=yes|main=no	17	appos
 19	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	11	coord
 20	hecho	hacer	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	19	vobj
 21	rugir	rugir	vmn0000	vmn0000	recursive=no|theme=no|main=no	20	vobj
@@ -258,19 +258,19 @@
 26	sinuosas	sinuoso	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	27	amod
 27	carreteras	carretera	ncfp000	ncfp000	recursive=no|theme=no|main=no	24	pobj
 28	donde	donde	pr000000	pr000000	recursive=no|theme=no|main=no	42	dobj
-29	gente	gente	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	42	nsubj
-30	como	como	cs	cs	recursive=no|theme=no|main=no	29	dep
-31	Alex	Alex	np0000l	np0000l	recursive=no|theme=no|main=no	33	coord
-32	Crivillé	Crivillé	np0000l	np0000l	recursive=no|theme=no|main=no	31	appos
-33	o	o	cc	cc	recursive=no|theme=no|main=no	30	cobj
-34	Marc	Marc	np0000l	np0000l	recursive=no|theme=no|main=no	33	coord
-35	Colomer	Colomer	np0000l	np0000l	recursive=no|theme=no|main=no	34	appos
-36	,	,	fc	fc	recursive=no|theme=no|main=no	33	punct
-37	campeones	campeón	ncmp000	ncmp000	recursive=no|theme=no|main=no	33	coord
-38	mundiales	mundial	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	37	amod
-39	de	de	sps00	sps00	recursive=no|theme=no|main=no	37	prepn
-40	motos	moto	ncfp000	ncfp000	recursive=no|theme=no|main=no	39	pobj
-41	,	,	fc	fc	recursive=no|theme=no|main=no	33	punct
+29	gente	gente	ncfs000	ncfs000	recursive=no|theme=yes|main=no	42	nsubj
+30	como	como	cs	cs	recursive=no|theme=yes|main=no	29	dep
+31	Alex	Alex	np0000l	np0000l	recursive=no|theme=yes|main=no	33	coord
+32	Crivillé	Crivillé	np0000l	np0000l	recursive=no|theme=yes|main=no	31	appos
+33	o	o	cc	cc	recursive=no|theme=yes|main=no	30	cobj
+34	Marc	Marc	np0000l	np0000l	recursive=no|theme=yes|main=no	33	coord
+35	Colomer	Colomer	np0000l	np0000l	recursive=no|theme=yes|main=no	34	appos
+36	,	,	fc	fc	recursive=no|theme=yes|main=no	33	punct
+37	campeones	campeón	ncmp000	ncmp000	recursive=no|theme=yes|main=no	33	coord
+38	mundiales	mundial	aq0cp0	aq0cp0	recursive=no|theme=yes|main=no	37	amod
+39	de	de	sps00	sps00	recursive=no|theme=yes|main=no	37	prepn
+40	motos	moto	ncfp000	ncfp000	recursive=no|theme=yes|main=no	39	pobj
+41	,	,	fc	fc	recursive=no|theme=yes|main=no	33	punct
 42	hacen	hacer	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	27	rcmod
 43	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	44	poss
 44	pinitos	pinito	ncmp000	ncmp000	recursive=no|theme=no|main=no	42	dobj
@@ -284,7 +284,7 @@
 52	Ferrari	Ferrari	np00000	np00000	recursive=no|theme=no|main=no	51	coord
 53	.	.	fp	fp	recursive=no|theme=no|main=no	11	punct
 
-1	Sainz	Sainz	np00000	np00000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Sainz	Sainz	np00000	np00000	recursive=no|theme=yes|main=no	2	nsubj
 2	lleva	llevar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	9	coord
 3	más	más	rg	rg	recursive=no|theme=no|main=no	5	advmod
 4	de	de	sps00	sps00	recursive=no|theme=no|main=no	5	prep
@@ -302,8 +302,8 @@
 16	sequía	sequía	ncfs000	ncfs000	recursive=no|theme=no|main=no	14	pobj
 17	.	.	fp	fp	recursive=no|theme=no|main=no	9	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	madrileño	madrileño	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	madrileño	madrileño	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	aseguró	asegurar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	3	advmod
 5	que	que	cs	cs	recursive=yes|theme=no|main=yes	3	dobj
@@ -321,14 +321,14 @@
 17	,	,	fc	fc	recursive=no|theme=no|main=no	12	punct
 18	según	según	cs	cs	recursive=no|theme=no|main=no	12	cobj
 19	comentó	comentar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	18	cobj
-20	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	22	det
-21	nuevo	nuevo	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	22	amod
-22	hombre	hombre	ncms000	ncms000	recursive=yes|theme=yes|main=no	19	nsubj
-23	de	de	sps00	sps00	recursive=no|theme=no|main=no	22	prepn
-24	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	25	det
-25	marca	marca	ncfs000	ncfs000	recursive=no|theme=no|main=no	23	pobj
-26	del	del	spcms	spcms	recursive=no|theme=no|main=no	25	prepn
-27	óvalo	óvalo	ncms000	ncms000	recursive=no|theme=no|main=no	26	pobj
+20	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	22	det
+21	nuevo	nuevo	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	22	amod
+22	hombre	hombre	ncms000	ncms000	recursive=no|theme=yes|main=no	19	nsubj
+23	de	de	sps00	sps00	recursive=no|theme=yes|main=no	22	prepn
+24	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	25	det
+25	marca	marca	ncfs000	ncfs000	recursive=no|theme=yes|main=no	23	pobj
+26	del	del	spcms	spcms	recursive=no|theme=yes|main=no	25	prepn
+27	óvalo	óvalo	ncms000	ncms000	recursive=no|theme=yes|main=no	26	pobj
 28	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
 1	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	11	punct
@@ -349,7 +349,7 @@
 16	añadió	añadir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 17	.	.	fp	fp	recursive=no|theme=no|main=no	16	punct
 
-1	Sainz	Sainz	np00000	np00000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Sainz	Sainz	np00000	np00000	recursive=no|theme=yes|main=no	2	nsubj
 2	estuvo	estar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 3	probando	probar	vmg0000	vmg0000	recursive=no|theme=no|main=no	2	attr
 4	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	2	advmod
@@ -371,15 +371,15 @@
 20	que	que	cs	cs	recursive=no|theme=no|main=no	19	pobj
 21	lo	él	pp3msa00	pp3msa00	recursive=no|theme=no|main=no	22	dobj
 22	hiciera	hacer	vmsi3s0	vmsi3s0	recursive=no|theme=no|main=no	20	cobj
-23	Auriol	Auriol	np00000	np00000	recursive=yes|theme=yes|main=no	22	nsubj
+23	Auriol	Auriol	np00000	np00000	recursive=no|theme=yes|main=no	22	nsubj
 24	con	con	sps00	sps00	recursive=no|theme=no|main=no	22	prepv
 25	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	26	det
 26	Córdoba	Córdoba	np00000	np00000	recursive=no|theme=no|main=no	24	pobj
 27	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
 1	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	5	punct
-2	Este	este	dd0ms0	dd0ms0	recursive=no|theme=no|main=no	3	det
-3	coche	coche	ncms000	ncms000	recursive=yes|theme=yes|main=no	5	nsubj
+2	Este	este	dd0ms0	dd0ms0	recursive=no|theme=yes|main=no	3	det
+3	coche	coche	ncms000	ncms000	recursive=no|theme=yes|main=no	5	nsubj
 4	me	yo	pp1cs000	pp1cs000	recursive=no|theme=no|main=no	5	iobj
 5	gusta	gustar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	9	dobj
 6	mucho	mucho	rg	rg	recursive=no|theme=no|main=no	5	advmod
@@ -406,9 +406,9 @@
 27	.	.	fp	fp	recursive=no|theme=no|main=no	9	punct
 
 1	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	18	punct
-2	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	4	det
-3	nuevo	nuevo	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	4	amod
-4	Córdoba	Córdoba	np00000	np00000	recursive=yes|theme=yes|main=no	5	nsubj
+2	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	4	det
+3	nuevo	nuevo	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	4	amod
+4	Córdoba	Córdoba	np00000	np00000	recursive=no|theme=yes|main=no	5	nsubj
 5	goza	gozar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	10	coord
 6	de	de	sps00	sps00	recursive=no|theme=no|main=no	5	oobj
 7	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	9	det
@@ -450,7 +450,7 @@
 43	tierra	tierra	ncfs000	ncfs000	recursive=no|theme=no|main=no	42	pobj
 44	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	45	dobj
 45	posee	poseer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	41	rcmod
-46	Seat	Seat	np00000	np00000	recursive=yes|theme=yes|main=no	45	nsubj
+46	Seat	Seat	np00000	np00000	recursive=no|theme=yes|main=no	45	nsubj
 47	en	en	sps00	sps00	recursive=no|theme=no|main=no	45	prepv
 48	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	49	poss
 49	Centro	centro	ncfs000	ncfs000	recursive=no|theme=no|main=no	47	pobj
@@ -478,7 +478,7 @@
 7	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	8	det
 8	campeones	campeón	ncmp000	ncmp000	recursive=no|theme=no|main=no	5	pobj
 9	,	,	fc	fc	recursive=no|theme=no|main=no	13	punct
-10	Sainz	Sainz	np00000	np00000	recursive=yes|theme=yes|main=no	13	nsubj
+10	Sainz	Sainz	np00000	np00000	recursive=no|theme=yes|main=no	13	nsubj
 11	también	también	rg	rg	recursive=no|theme=no|main=no	13	advmod
 12	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	13	reflec
 13	queja	queja	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
@@ -491,11 +491,11 @@
 20	,	,	fc	fc	recursive=no|theme=no|main=no	13	punct
 21	de	de	sps00	sps00	recursive=no|theme=no|main=no	13	oobj
 22	que	que	cs	cs	recursive=no|theme=no|main=no	21	pobj
-23	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	24	det
-24	motor	motor	ncms000	ncms000	recursive=yes|theme=yes|main=no	28	nsubj
-25	de	de	sps00	sps00	recursive=no|theme=no|main=no	24	prepn
-26	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	27	poss
-27	Ford	Ford	np00000	np00000	recursive=no|theme=no|main=no	25	pobj
+23	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	24	det
+24	motor	motor	ncms000	ncms000	recursive=no|theme=yes|main=no	28	nsubj
+25	de	de	sps00	sps00	recursive=no|theme=yes|main=no	24	prepn
+26	su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	27	poss
+27	Ford	Ford	np00000	np00000	recursive=no|theme=yes|main=no	25	pobj
 28	debe	deber	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	22	cobj
 29	mejorar	mejorar	vmn0000	vmn0000	recursive=no|theme=no|main=no	28	dobj
 30	para	para	sps00	sps00	recursive=no|theme=no|main=no	29	prepv
@@ -535,8 +535,8 @@
 64	en	en	sps00	sps00	recursive=no|theme=no|main=no	62	prepa
 65	Montecarlo	Montecarlo	np00000	np00000	recursive=no|theme=no|main=no	64	pobj
 66	,	,	fc	fc	recursive=no|theme=no|main=no	60	punct
-67	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	68	det
-68	motor	motor	ncms000	ncms000	recursive=yes|theme=yes|main=no	69	nsubj
+67	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	68	det
+68	motor	motor	ncms000	ncms000	recursive=no|theme=yes|main=no	69	nsubj
 69	contará	contar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	54	cobj
 70	ya	ya	rg	rg	recursive=no|theme=no|main=no	69	advmod
 71	con	con	sps00	sps00	recursive=no|theme=no|main=no	69	oobj
@@ -548,7 +548,7 @@
 77	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	52	punct
 78	.	.	fp	fp	recursive=no|theme=no|main=no	13	punct
 
-1	Algo	algo	pi0cs000	pi0cs000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Algo	algo	pi0cs000	pi0cs000	recursive=no|theme=yes|main=no	2	nsubj
 2	diferencia	diferenciar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 3	a	a	sps00	sps00	recursive=no|theme=no|main=no	2	dobj
 4	Sainz	Sainz	np00000	np00000	recursive=no|theme=no|main=no	3	pobj
@@ -559,8 +559,8 @@
 1	Es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	32	cobj
 2	cierto	cierto	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	1	attr
 3	que	que	cs	cs	recursive=no|theme=no|main=no	1	csubj
-4	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	5	det
-5	español	español	ncms000	ncms000	recursive=yes|theme=yes|main=no	6	nsubj
+4	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	5	det
+5	español	español	ncms000	ncms000	recursive=no|theme=yes|main=no	6	nsubj
 6	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	3	cobj
 7	fichado	fichar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	6	vobj
 8	por	por	sps00	sps00	recursive=no|theme=no|main=no	6	prepv
@@ -589,7 +589,7 @@
 31	,	,	fc	fc	recursive=no|theme=no|main=no	32	punct
 32	mientras	mientras	cs	cs	recursive=no|theme=no|main=no	16	cobj
 33	que	que	cs	cs	recursive=no|theme=no|main=no	32	cobj
-34	Auriol	Auriol	np00000	np00000	recursive=yes|theme=yes|main=no	35	nsubj
+34	Auriol	Auriol	np00000	np00000	recursive=no|theme=yes|main=no	35	nsubj
 35	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	33	cobj
 36	dueño	dueño	ncms000	ncms000	recursive=no|theme=no|main=no	37	coord
 37	y	y	cc	cc	recursive=no|theme=no|main=no	35	attr
@@ -598,7 +598,7 @@
 40	equipo	equipo	ncms000	ncms000	recursive=no|theme=no|main=no	39	pobj
 41	español	español	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	40	amod
 42	,	,	fc	fc	recursive=no|theme=no|main=no	45	punct
-43	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	45	nsubj
+43	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	45	nsubj
 44	le	él	pp3csd00	pp3csd00	recursive=no|theme=no|main=no	46	iobj
 45	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	40	rcmod
 46	convertido	convertir	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	45	vobj

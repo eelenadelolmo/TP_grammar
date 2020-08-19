@@ -6,9 +6,9 @@
 6	Y	y	cc	cc	recursive=no|theme=no|main=no	4	pobj
 7	VALLADOLID	valladolid	np00000	np00000	recursive=no|theme=no|main=no	6	cobj
 
-1	Espanyol	Espanyol	np00000	np00000	recursive=no|theme=no|main=no	2	coord
-2	y	y	cc	cc	recursive=yes|theme=yes|main=no	4	nsubj
-3	Valladolid	Valladolid	np00000	np00000	recursive=no|theme=no|main=no	2	coord
+1	Espanyol	Espanyol	np00000	np00000	recursive=no|theme=yes|main=no	2	coord
+2	y	y	cc	cc	recursive=no|theme=yes|main=no	4	nsubj
+3	Valladolid	Valladolid	np00000	np00000	recursive=no|theme=yes|main=no	2	coord
 4	vencieron	vencer	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	13	coord
 5	a	a	sps00	sps00	recursive=no|theme=no|main=no	4	dobj
 6	Racing	Racing	np00000	np00000	recursive=no|theme=no|main=no	7	coord
@@ -27,7 +27,7 @@
 19	de	de	sps00	sps00	recursive=no|theme=no|main=no	18	prepn
 20	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	21	det
 21	tabla	tabla	ncfs000	ncfs000	recursive=no|theme=no|main=no	19	pobj
-22	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	24	nsubj
+22	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	24	nsubj
 23	les	él	pp3cpd00	pp3cpd00	recursive=no|theme=no|main=no	24	iobj
 24	permite	permitir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	18	rcmod
 25	disfrutar	disfrutar	vmn0000	vmn0000	recursive=no|theme=no|main=no	24	dobj
@@ -37,12 +37,12 @@
 29	,	,	fc	fc	recursive=no|theme=no|main=no	30	punct
 30	mientras	mientras	cs	cs	recursive=no|theme=no|main=no	0	root
 31	que	que	cs	cs	recursive=no|theme=no|main=no	30	coord
-32	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	33	det
-33	equipo	equipo	ncms000	ncms000	recursive=no|theme=no|main=no	35	coord
-34	cántabro	cántabro	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	33	amod
-35	y	y	cc	cc	recursive=yes|theme=yes|main=no	38	nsubj
-36	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	37	det
-37	donostiarra	donostiarra	nccs000	nccs000	recursive=no|theme=no|main=no	35	coord
+32	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	33	det
+33	equipo	equipo	ncms000	ncms000	recursive=no|theme=yes|main=no	35	coord
+34	cántabro	cántabro	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	33	amod
+35	y	y	cc	cc	recursive=no|theme=yes|main=no	38	nsubj
+36	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	37	det
+37	donostiarra	donostiarra	nccs000	nccs000	recursive=no|theme=yes|main=no	35	coord
 38	siguen	seguir	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	31	cobj
 39	al	al	sps00	sps00	recursive=no|theme=no|main=no	38	prepv
 40	borde	borde	ncfs000	ncfs000	recursive=no|theme=no|main=no	39	pobj
@@ -50,12 +50,12 @@
 42	abismo	abismo	ncms000	ncms000	recursive=no|theme=no|main=no	41	pobj
 43	.	.	fp	fp	recursive=no|theme=no|main=no	13	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	Real	Real	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	7	nsubj
-3	Sociedad	sociedad	nc00000	nc00000	recursive=no|theme=no|main=no	2	appos
-4	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-5	Javier	Javier	np0000l	np0000l	recursive=no|theme=no|main=no	4	pobj
-6	Clemente	clemente	np0000l	np0000l	recursive=no|theme=no|main=no	5	appos
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	Real	Real	ncfs000	ncfs000	recursive=no|theme=yes|main=no	7	nsubj
+3	Sociedad	sociedad	nc00000	nc00000	recursive=no|theme=yes|main=no	2	appos
+4	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+5	Javier	Javier	np0000l	np0000l	recursive=no|theme=yes|main=no	4	pobj
+6	Clemente	clemente	np0000l	np0000l	recursive=no|theme=yes|main=no	5	appos
 7	continúa	continuar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 8	sin	sin	sps00	sps00	recursive=no|theme=no|main=no	7	prepv
 9	vencer	vencer	vmn0000	vmn0000	recursive=no|theme=no|main=no	8	pobj
@@ -63,15 +63,15 @@
 11	domicilio	domicilio	ncmp000	ncmp000	recursive=no|theme=no|main=no	10	pobj
 12	.	.	fp	fp	recursive=no|theme=no|main=no	7	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	Racing	Racing	np00000	np00000	recursive=yes|theme=yes|main=no	20	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	Racing	Racing	np00000	np00000	recursive=no|theme=yes|main=no	20	nsubj
 3	,	,	fc	fc	recursive=no|theme=no|main=no	20	punct
 4	pese	pesar	vmip2s0	vmip2s0	recursive=no|theme=no|main=no	20	prepv
 5	a	a	sps00	sps00	recursive=no|theme=no|main=no	4	prepv
 6	ser	ser	vsn0000	vsn0000	recursive=no|theme=no|main=no	5	pobj
 7	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	8	det
 8	equipo	equipo	ncms000	ncms000	recursive=no|theme=no|main=no	6	attr
-9	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	12	nsubj
+9	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	12	nsubj
 10	más	más	rg	rg	recursive=no|theme=no|main=no	11	advmod
 11	partidos	partido	ncmp000	ncmp000	recursive=no|theme=no|main=no	13	dobj
 12	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	8	rcmod

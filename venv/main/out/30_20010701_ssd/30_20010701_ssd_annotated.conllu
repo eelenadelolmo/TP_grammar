@@ -1,6 +1,6 @@
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	animalistas	animalista	nccp000	nccp000	recursive=yes|theme=yes|main=no	4	nsubj
-3	españoles	español	aq0mp0	aq0mp0	recursive=no|theme=no|main=no	2	amod
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	animalistas	animalista	nccp000	nccp000	recursive=no|theme=yes|main=no	4	nsubj
+3	españoles	español	aq0mp0	aq0mp0	recursive=no|theme=yes|main=no	2	amod
 4	venimos	venir	vmip1p0	vmip1p0	recursive=no|theme=no|main=no	18	coord
 5	denunciando	denunciar	vmg0000	vmg0000	recursive=no|theme=no|main=no	4	dobj
 6	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	7	det
@@ -16,8 +16,8 @@
 16	años	año	ncmp000	ncmp000	recursive=no|theme=no|main=no	15	dobj
 17	,	,	fc	fc	recursive=no|theme=no|main=no	30	punct
 18	pero	pero	cc	cc	recursive=no|theme=no|main=no	0	root
-19	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	20	det
-20	administraciones	administración	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	23	nsubj
+19	las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	20	det
+20	administraciones	administración	ncfp000	ncfp000	recursive=no|theme=yes|main=no	23	nsubj
 21	no	no	rn	rn	recursive=no|theme=no|main=no	23	neg
 22	nos	yo	pp1cp000	pp1cp000	recursive=no|theme=no|main=no	23	dobj
 23	toman	tomar	vmn0000	vmn0000	recursive=no|theme=no|main=no	18	coord
@@ -31,7 +31,7 @@
 31	molestos	molesto	aq0mp0	aq0mp0	recursive=no|theme=no|main=no	30	cpred
 32	.	.	fp	fp	recursive=no|theme=no|main=no	18	punct
 
-1	ADDA	ADDA	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	ADDA	ADDA	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 2	ya	ya	rg	rg	recursive=no|theme=no|main=no	3	advmod
 3	propuso	proponer	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	,	,	fc	fc	recursive=no|theme=no|main=no	3	punct
@@ -39,7 +39,7 @@
 6	1997	1997	z	z	recursive=no|theme=no|main=no	5	pobj
 7	,	,	fc	fc	recursive=no|theme=no|main=no	3	punct
 8	sistemas	sistema	ncmp000	ncmp000	recursive=no|theme=no|main=no	3	dobj
-9	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	10	nsubj
+9	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	10	nsubj
 10	impedían	impedir	vmii3p0	vmii3p0	recursive=no|theme=no|main=no	8	rcmod
 11	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	12	det
 12	transmisión	transmisión	ncfs000	ncfs000	recursive=no|theme=no|main=no	10	dobj
@@ -54,8 +54,8 @@
 21	insectos	insecto	ncmp000	ncmp000	recursive=no|theme=no|main=no	19	coord
 22	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	silencio	silencio	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	silencio	silencio	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	0	root
 4	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	5	det
 5	respuesta	respuesta	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	attr
@@ -87,18 +87,18 @@
 24	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
 1	Y	y	cc	cc	recursive=no|theme=no|main=no	3	te
-2	esto	este	pd0ns000	pd0ns000	recursive=yes|theme=yes|main=no	3	nsubj
+2	esto	este	pd0ns000	pd0ns000	recursive=no|theme=yes|main=no	3	nsubj
 3	continuará	continuar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	0	root
 4	si	si	cs	cs	recursive=no|theme=no|main=no	3	advcl
 5	no	no	rn	rn	recursive=no|theme=no|main=no	6	neg
 6	cesa	cesar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	4	cobj
-7	esta	este	dd0fs0	dd0fs0	recursive=no|theme=no|main=no	8	det
-8	entrada	entrada	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	6	nsubj
-9	masiva	masivo	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	8	amod
-10	insostenible	insostenible	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	8	amod
-11	para	para	sps00	sps00	recursive=no|theme=no|main=no	10	prepa
-12	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	13	det
-13	territorio	territorio	ncms000	ncms000	recursive=no|theme=no|main=no	11	pobj
+7	esta	este	dd0fs0	dd0fs0	recursive=no|theme=yes|main=no	8	det
+8	entrada	entrada	ncfs000	ncfs000	recursive=no|theme=yes|main=no	6	nsubj
+9	masiva	masivo	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	8	amod
+10	insostenible	insostenible	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	8	amod
+11	para	para	sps00	sps00	recursive=no|theme=yes|main=no	10	prepa
+12	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	13	det
+13	territorio	territorio	ncms000	ncms000	recursive=no|theme=yes|main=no	11	pobj
 14	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
 1	¿	¿	fia	fia	recursive=no|theme=no|main=no	2	punct
@@ -111,8 +111,8 @@
 8	Administración	Administración	np00000	np00000	recursive=no|theme=no|main=no	6	coord
 9	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepv
 10	que	que	cs	cs	recursive=no|theme=no|main=no	9	pobj
-11	lo	el	da0ns0	da0ns0	recursive=no|theme=no|main=no	12	det
-12	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	16	nsubj
+11	lo	el	da0ns0	da0ns0	recursive=no|theme=yes|main=no	12	det
+12	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	16	nsubj
 13	en	en	sps00	sps00	recursive=no|theme=no|main=no	16	advmod
 14	principio	principio	ncmp000	ncmp000	recursive=no|theme=no|main=no	13	pobj
 15	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	16	reflec

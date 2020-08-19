@@ -2,8 +2,8 @@
 2	a	a	sps00	sps00	recursive=no|theme=no|main=no	1	prepn
 3	cucharada	cucharada	ncfs000	ncfs000	recursive=no|theme=no|main=no	2	pobj
 4	,	,	fc	fc	recursive=no|theme=no|main=no	7	punct
-5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
-6	chaval	chaval	ncms000	ncms000	recursive=yes|theme=yes|main=no	7	nsubj
+5	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	6	det
+6	chaval	chaval	ncms000	ncms000	recursive=no|theme=yes|main=no	7	nsubj
 7	asimila	asimilar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 8	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	10	coord
 9	consomé	consomé	ncms000	ncms000	recursive=no|theme=no|main=no	10	coord
@@ -19,9 +19,9 @@
 19	familiar	familiar	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	18	amod
 20	.	.	fp	fp	recursive=no|theme=no|main=no	7	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	pater	pater	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	5	nsubj
-3	familias	familia	nc00000	nc00000	recursive=no|theme=no|main=no	2	appos
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	pater	pater	ncfs000	ncfs000	recursive=no|theme=yes|main=no	5	nsubj
+3	familias	familia	nc00000	nc00000	recursive=no|theme=yes|main=no	2	appos
 4	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	5	reflec
 5	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 6	desahogando	desahogar	vmg0000	vmg0000	recursive=no|theme=no|main=no	5	attr
@@ -39,7 +39,7 @@
 18	esos	ese	pd0mp000	pd0mp000	recursive=no|theme=no|main=no	16	pobj
 19	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	18	punct
 20	,	,	fc	fc	recursive=no|theme=no|main=no	18	punct
-21	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	22	nsubj
+21	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	22	nsubj
 22	son	ser	vsip3p0	vsip3p0	recursive=no|theme=no|main=no	18	rcmod
 23	culpables	culpable	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	22	attr
 24	de	de	sps00	sps00	recursive=no|theme=no|main=no	23	prepa
@@ -93,7 +93,7 @@
 14	ricos	rico	aq0mp0	aq0mp0	recursive=no|theme=no|main=no	15	amod
 15	caldos	caldo	ncmp000	ncmp000	recursive=no|theme=no|main=no	13	pobj
 16	de	de	sps00	sps00	recursive=no|theme=no|main=no	15	prepn
-17	pollastre	pollastre	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	18	nsubj
+17	pollastre	pollastre	ncfs000	ncfs000	recursive=no|theme=yes|main=no	18	nsubj
 18	amb	amb	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	16	pobj
 19	galets	galets	np00000	np00000	recursive=no|theme=no|main=no	18	dobj
 20	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
@@ -128,7 +128,7 @@
 28	ciudades	ciudad	ncfp000	ncfp000	recursive=no|theme=no|main=no	26	pobj
 29	serán	ser	vsif3p0	vsif3p0	recursive=no|theme=no|main=no	21	coord
 30	neonazis	neonazi	nccp000	nccp000	recursive=no|theme=no|main=no	29	attr
-31	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	32	nsubj
+31	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	32	nsubj
 32	destrozan	destrozar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	30	rcmod
 33	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	34	det
 34	cabeza	cabeza	ncfs000	ncfs000	recursive=no|theme=no|main=no	32	dobj
@@ -162,15 +162,15 @@
 14	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	4	punct
 15	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	ministro	ministro	ncms000	ncms000	recursive=yes|theme=yes|main=no	10	nsubj
-3	del	del	spcms	spcms	recursive=no|theme=no|main=no	2	prepn
-4	Interior	Interior	np00000	np00000	recursive=no|theme=no|main=no	3	pobj
-5	francés	francés	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	2	amod
-6	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
-7	Jean-Pierre	Jean-Pierre	np0000l	np0000l	recursive=no|theme=no|main=no	2	appos
-8	Chevènement	Chevènement	np0000l	np0000l	recursive=no|theme=no|main=no	7	appos
-9	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	ministro	ministro	ncms000	ncms000	recursive=no|theme=yes|main=no	10	nsubj
+3	del	del	spcms	spcms	recursive=no|theme=yes|main=no	2	prepn
+4	Interior	Interior	np00000	np00000	recursive=no|theme=yes|main=no	3	pobj
+5	francés	francés	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	2	amod
+6	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
+7	Jean-Pierre	Jean-Pierre	np0000l	np0000l	recursive=no|theme=yes|main=no	2	appos
+8	Chevènement	Chevènement	np0000l	np0000l	recursive=no|theme=yes|main=no	7	appos
+9	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
 10	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 11	provocado	provocar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	10	vobj
 12	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	13	det
@@ -221,8 +221,8 @@
 11	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
 1	Pero	pero	cc	cc	recursive=no|theme=no|main=no	4	te
-2	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	3	det
-3	democracia	democracia	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
+2	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	3	det
+3	democracia	democracia	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
 4	tiene	tener	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 5	que	que	cs	cs	recursive=no|theme=no|main=no	4	conj
 6	buscar	buscar	vmn0000	vmn0000	recursive=no|theme=no|main=no	5	cobj

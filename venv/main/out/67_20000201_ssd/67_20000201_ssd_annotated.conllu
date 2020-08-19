@@ -1,9 +1,9 @@
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	sección	sección	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	7	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	prisiones	prisión	ncfp000	ncfp000	recursive=no|theme=no|main=no	3	pobj
-5	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-6	CATAC	CATAC	np00000	np00000	recursive=no|theme=no|main=no	5	pobj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	sección	sección	ncfs000	ncfs000	recursive=no|theme=yes|main=no	7	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	prisiones	prisión	ncfp000	ncfp000	recursive=no|theme=yes|main=no	3	pobj
+5	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+6	CATAC	CATAC	np00000	np00000	recursive=no|theme=yes|main=no	5	pobj
 7	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 8	integrada	integrado	aq0fsp	aq0fsp	recursive=no|theme=no|main=no	7	attr
 9	mayoritariamente	mayoritariamente	rg	rg	recursive=no|theme=no|main=no	8	advmod
@@ -20,7 +20,7 @@
 20	(	(	fpa	fpa	recursive=no|theme=no|main=no	21	punct
 21	USIP	USIP	np00000	np00000	recursive=no|theme=no|main=no	15	appos
 22	)	)	fpt	fpt	recursive=no|theme=no|main=no	21	punct
-23	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	27	nsubj
+23	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	27	nsubj
 24	hace	hacer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	27	dobj
 25	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	26	det
 26	año	año	ncms000	ncms000	recursive=no|theme=no|main=no	24	dobj
@@ -34,8 +34,8 @@
 34	)	)	fpt	fpt	recursive=no|theme=no|main=no	21	punct
 35	.	.	fp	fp	recursive=no|theme=no|main=no	7	punct
 
-1	Manuel	Manuel	np0000l	np0000l	recursive=yes|theme=yes|main=no	3	nsubj
-2	Allué	Allué	np0000l	np0000l	recursive=no|theme=no|main=no	1	appos
+1	Manuel	Manuel	np0000l	np0000l	recursive=no|theme=yes|main=no	3	nsubj
+2	Allué	Allué	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
 3	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 4	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	5	det
 5	coordinador	coordinador	ncms000	ncms000	recursive=no|theme=no|main=no	3	attr
@@ -44,8 +44,8 @@
 8	CATAC-Presons	CATAC-Presons	np00000	np00000	recursive=no|theme=no|main=no	7	pobj
 9	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Este	este	dd0ms0	dd0ms0	recursive=no|theme=no|main=no	2	det
-2	sindicato	sindicato	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Este	este	dd0ms0	dd0ms0	recursive=no|theme=yes|main=no	2	det
+2	sindicato	sindicato	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 4	ganado	ganar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	3	vobj
 5	en	en	sps00	sps00	recursive=no|theme=no|main=no	4	prepv
@@ -62,9 +62,9 @@
 16	votos	voto	ncmp000	ncmp000	recursive=no|theme=no|main=no	14	pobj
 17	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	central	central	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
-3	CATAC	CATAC	np00000	np00000	recursive=no|theme=no|main=no	2	appos
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	central	central	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
+3	CATAC	CATAC	np00000	np00000	recursive=no|theme=yes|main=no	2	appos
 4	tiene	tener	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 5	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	6	det
 6	cariz	cariz	ncms000	ncms000	recursive=no|theme=no|main=no	4	dobj
@@ -74,8 +74,8 @@
 10	,	,	fc	fc	recursive=no|theme=no|main=no	4	punct
 11	según	según	cs	cs	recursive=no|theme=no|main=no	4	advcl
 12	rezan	rezar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	11	cobj
-13	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	14	poss
-14	estatutos	estatuto	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	12	nsubj
+13	sus	su	dp3cp0	dp3cp0	recursive=no|theme=yes|main=no	14	poss
+14	estatutos	estatuto	ncmp000	ncmp000	recursive=no|theme=yes|main=no	12	nsubj
 15	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
 1	Está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
@@ -94,19 +94,19 @@
 14	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	12	pobj
 15	forman	formar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	5	dep
 16	parte	parte	ncfp000	ncfp000	recursive=no|theme=no|main=no	15	dobj
-17	partidos	partido	ncmp000	ncmp000	recursive=no|theme=no|main=no	18	coord
-18	y	y	cc	cc	recursive=yes|theme=yes|main=no	15	nsubj
-19	organizaciones	organización	ncfp000	ncfp000	recursive=no|theme=no|main=no	18	coord
-20	juveniles	juvenil	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	19	amod
-21	como	como	cs	cs	recursive=no|theme=no|main=no	18	conj
-22	PSAN	PSAN	np00000	np00000	recursive=no|theme=no|main=no	23	coord
-23	y	y	cc	cc	recursive=no|theme=no|main=no	21	cobj
-24	Maulets	Maulets	np00000	np00000	recursive=no|theme=no|main=no	23	coord
+17	partidos	partido	ncmp000	ncmp000	recursive=no|theme=yes|main=no	18	coord
+18	y	y	cc	cc	recursive=no|theme=yes|main=no	15	nsubj
+19	organizaciones	organización	ncfp000	ncfp000	recursive=no|theme=yes|main=no	18	coord
+20	juveniles	juvenil	aq0cp0	aq0cp0	recursive=no|theme=yes|main=no	19	amod
+21	como	como	cs	cs	recursive=no|theme=yes|main=no	18	conj
+22	PSAN	PSAN	np00000	np00000	recursive=no|theme=yes|main=no	23	coord
+23	y	y	cc	cc	recursive=no|theme=yes|main=no	21	cobj
+24	Maulets	Maulets	np00000	np00000	recursive=no|theme=yes|main=no	23	coord
 25	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	Dirigentes	dirigente	nccp000	nccp000	recursive=yes|theme=yes|main=no	4	nsubj
-2	de	de	sps00	sps00	recursive=no|theme=no|main=no	1	prepn
-3	CATAC-Presons	CATAC-Presons	np00000	np00000	recursive=no|theme=no|main=no	2	pobj
+1	Dirigentes	dirigente	nccp000	nccp000	recursive=no|theme=yes|main=no	4	nsubj
+2	de	de	sps00	sps00	recursive=no|theme=yes|main=no	1	prepn
+3	CATAC-Presons	CATAC-Presons	np00000	np00000	recursive=no|theme=yes|main=no	2	pobj
 4	fundaron	fundar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
 6	partido	partido	ncms000	ncms000	recursive=no|theme=no|main=no	4	dobj
@@ -128,9 +128,9 @@
 22	autonómicas	autonómico	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	21	amod
 23	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	Su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	2	poss
-2	campaña	campaña	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
-3	electoral	electoral	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	2	amod
+1	Su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	2	poss
+2	campaña	campaña	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
+3	electoral	electoral	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	2	amod
 4	consistió	consistir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 5	en	en	sps00	sps00	recursive=no|theme=no|main=no	4	oobj
 6	reclamar	reclamar	vmn0000	vmn0000	recursive=no|theme=no|main=no	18	coord
@@ -152,10 +152,10 @@
 22	CiU	CiU	np00000	np00000	recursive=no|theme=no|main=no	21	pobj
 23	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	logotipo	logotipo	ncms000	ncms000	recursive=yes|theme=yes|main=no	5	nsubj
-3	del	del	spcms	spcms	recursive=no|theme=no|main=no	2	prepn
-4	TPR	TPR	np00000	np00000	recursive=no|theme=no|main=no	3	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	logotipo	logotipo	ncms000	ncms000	recursive=no|theme=yes|main=no	5	nsubj
+3	del	del	spcms	spcms	recursive=no|theme=yes|main=no	2	prepn
+4	TPR	TPR	np00000	np00000	recursive=no|theme=yes|main=no	3	pobj
 5	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 6	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	7	det
 7	buitre	buitre	ncms000	ncms000	recursive=no|theme=no|main=no	5	attr
@@ -184,8 +184,8 @@
 30	PP	PP	np00000	np00000	recursive=no|theme=no|main=no	29	coord
 31	.	.	fp	fp	recursive=no|theme=no|main=no	5	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	TPR	TPR	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	TPR	TPR	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 3	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 4	anunciado	anunciar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	3	vobj
 5	que	que	cs	cs	recursive=yes|theme=no|main=yes	4	dobj
@@ -226,16 +226,16 @@
 23	Cultura	Cultura	np00000	np00000	recursive=no|theme=no|main=no	22	pobj
 24	.	.	fp	fp	recursive=no|theme=no|main=no	13	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	3	det
-2	actual	actual	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	3	amod
-3	secretario	secretario	ncms000	ncms000	recursive=yes|theme=yes|main=no	11	nsubj
-4	general	general	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	3	amod
-5	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	prepn
-6	CATAC-Presons	CATAC-Presons	np00000	np00000	recursive=no|theme=no|main=no	5	pobj
-7	,	,	fc	fc	recursive=no|theme=no|main=no	3	punct
-8	Miguel	miguel	ncms000	ncms000	recursive=no|theme=no|main=no	3	appos
-9	Pueyo	Pueyo	np00000	np00000	recursive=no|theme=no|main=no	8	appos
-10	,	,	fc	fc	recursive=no|theme=no|main=no	3	punct
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	3	det
+2	actual	actual	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	3	amod
+3	secretario	secretario	ncms000	ncms000	recursive=no|theme=yes|main=no	11	nsubj
+4	general	general	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	3	amod
+5	de	de	sps00	sps00	recursive=no|theme=yes|main=no	3	prepn
+6	CATAC-Presons	CATAC-Presons	np00000	np00000	recursive=no|theme=yes|main=no	5	pobj
+7	,	,	fc	fc	recursive=no|theme=yes|main=no	3	punct
+8	Miguel	miguel	ncms000	ncms000	recursive=no|theme=yes|main=no	3	appos
+9	Pueyo	Pueyo	np00000	np00000	recursive=no|theme=yes|main=no	8	appos
+10	,	,	fc	fc	recursive=no|theme=yes|main=no	3	punct
 11	encabezó	encabezar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 12	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	13	det
 13	lista	lista	ncfs000	ncfs000	recursive=no|theme=no|main=no	11	dobj
@@ -243,8 +243,8 @@
 15	Girona	Girona	np00000	np00000	recursive=no|theme=no|main=no	14	pobj
 16	.	.	fp	fp	recursive=no|theme=no|main=no	11	punct
 
-1	Angel	Angel	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
-2	Colmenar	colmenar	ncms000	ncms000	recursive=no|theme=no|main=no	1	appos
+1	Angel	Angel	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
+2	Colmenar	colmenar	ncms000	ncms000	recursive=no|theme=yes|main=no	1	appos
 3	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	0	root
 4	número	número	ncms000	ncms000	recursive=no|theme=no|main=no	3	attr
 5	1	1	z	z	recursive=no|theme=no|main=no	4	num

@@ -1,7 +1,7 @@
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	inflación	inflación	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	5	nsubj
-3	en	en	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	Brasil	Brasil	np00000	np00000	recursive=no|theme=no|main=no	3	pobj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	inflación	inflación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	5	nsubj
+3	en	en	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	Brasil	Brasil	np00000	np00000	recursive=no|theme=yes|main=no	3	pobj
 5	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	25	dobj
 6	de	de	sps00	sps00	recursive=no|theme=no|main=no	5	prepv
 7	0,23	0,23	zm	zm	recursive=no|theme=no|main=no	6	pobj
@@ -40,12 +40,12 @@
 40	)	)	fpt	fpt	recursive=no|theme=no|main=no	39	punct
 41	.	.	fp	fp	recursive=no|theme=no|main=no	25	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	índice	índice	ncms000	ncms000	recursive=yes|theme=yes|main=no	7	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	precios	precio	ncmp000	ncmp000	recursive=no|theme=no|main=no	3	pobj
-5	al	al	spcms	spcms	recursive=no|theme=no|main=no	4	prepn
-6	consumo	consumo	ncms000	ncms000	recursive=no|theme=no|main=no	5	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	índice	índice	ncms000	ncms000	recursive=no|theme=yes|main=no	7	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	precios	precio	ncmp000	ncmp000	recursive=no|theme=yes|main=no	3	pobj
+5	al	al	spcms	spcms	recursive=no|theme=yes|main=no	4	prepn
+6	consumo	consumo	ncms000	ncms000	recursive=no|theme=yes|main=no	5	pobj
 7	retrocedió	retroceder	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 8	significativamente	significativamente	rg	rg	recursive=no|theme=no|main=no	7	advmod
 9	en	en	sps00	sps00	recursive=no|theme=no|main=no	7	advcl
@@ -62,10 +62,10 @@
 2	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	3	det
 3	IBGE	IBGE	np00000	np00000	recursive=no|theme=no|main=no	1	pobj
 4	,	,	fc	fc	recursive=no|theme=no|main=no	9	punct
-5	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	6	det
-6	inflación	inflación	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	9	nsubj
-7	de	de	sps00	sps00	recursive=no|theme=no|main=no	6	prepn
-8	septiembre	septiembre	ncms000	ncms000	recursive=no|theme=no|main=no	7	pobj
+5	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	6	det
+6	inflación	inflación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	9	nsubj
+7	de	de	sps00	sps00	recursive=no|theme=yes|main=no	6	prepn
+8	septiembre	septiembre	ncms000	ncms000	recursive=no|theme=yes|main=no	7	pobj
 9	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	0	root
 10	controlada	controlar	vmp00sf	vmp00sf	recursive=no|theme=no|main=no	9	attr
 11	gracias	gracia	ncfp000	ncfp000	recursive=no|theme=no|main=no	10	prepv
@@ -108,15 +108,15 @@
 48	agosto	agosto	ncms000	ncms000	recursive=no|theme=no|main=no	47	pobj
 49	.	.	fp	fp	recursive=no|theme=no|main=no	9	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	inflación	inflación	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	10	nsubj
-3	acumulada	acumulado	aq0fsp	aq0fsp	recursive=no|theme=no|main=no	2	amod
-4	entre	entre	sps00	sps00	recursive=no|theme=no|main=no	6	coord
-5	enero	enero	ncms000	ncms000	recursive=no|theme=no|main=no	6	coord
-6	y	y	cc	cc	recursive=no|theme=no|main=no	3	dep
-7	septiembre	septiembre	ncfs000	ncfs000	recursive=no|theme=no|main=no	6	coord
-8	de	de	spcms	spcms	recursive=no|theme=no|main=no	7	prepn
-9	2000	2000	zp	zp	recursive=no|theme=no|main=no	8	pobj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	inflación	inflación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	10	nsubj
+3	acumulada	acumulado	aq0fsp	aq0fsp	recursive=no|theme=yes|main=no	2	amod
+4	entre	entre	sps00	sps00	recursive=no|theme=yes|main=no	6	coord
+5	enero	enero	ncms000	ncms000	recursive=no|theme=yes|main=no	6	coord
+6	y	y	cc	cc	recursive=no|theme=yes|main=no	3	dep
+7	septiembre	septiembre	ncfs000	ncfs000	recursive=no|theme=yes|main=no	6	coord
+8	de	de	spcms	spcms	recursive=no|theme=yes|main=no	7	prepn
+9	2000	2000	zp	zp	recursive=no|theme=yes|main=no	8	pobj
 10	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	0	root
 11	del	del	spcms	spcms	recursive=no|theme=no|main=no	10	prepv
 12	4,87	4,87	zm	zm	recursive=no|theme=no|main=no	11	pobj
@@ -145,8 +145,8 @@
 5	terminados	terminado	aq0mpp	aq0mpp	recursive=no|theme=no|main=no	4	amod
 6	en	en	sps00	sps00	recursive=no|theme=no|main=no	5	prepa
 7	septiembre	septiembre	ncms000	ncms000	recursive=no|theme=no|main=no	6	pobj
-8	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	9	det
-9	precios	precio	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	10	nsubj
+8	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	9	det
+9	precios	precio	ncmp000	ncmp000	recursive=no|theme=yes|main=no	10	nsubj
 10	subieron	subir	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	16	dobj
 11	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	12	det
 12	7,77	7,77	zm	zm	recursive=no|theme=no|main=no	10	dobj
@@ -158,9 +158,9 @@
 18	IBGE	IBGE	np00000	np00000	recursive=no|theme=no|main=no	16	nsubj
 19	.	.	fp	fp	recursive=no|theme=no|main=no	16	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	gobierno	gobierno	ncms000	ncms000	recursive=yes|theme=yes|main=no	5	nsubj
-3	brasileño	brasileño	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	2	amod
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	gobierno	gobierno	ncms000	ncms000	recursive=no|theme=yes|main=no	5	nsubj
+3	brasileño	brasileño	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	2	amod
 4	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	6	reflec
 5	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 6	comprometido	comprometer	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	5	vobj
@@ -195,13 +195,13 @@
 35	puntos	punto	ncmp000	ncmp000	recursive=no|theme=no|main=no	33	pobj
 36	.	.	fp	fp	recursive=no|theme=no|main=no	5	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	3	det
-2	mayor	mayor	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	3	amod
-3	aumento	aumento	ncms000	ncms000	recursive=yes|theme=yes|main=no	8	nsubj
-4	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	prepn
-5	precios	precio	ncmp000	ncmp000	recursive=no|theme=no|main=no	4	pobj
-6	de	de	sps00	sps00	recursive=no|theme=no|main=no	5	prepn
-7	septiembre	septiembre	ncms000	ncms000	recursive=no|theme=no|main=no	6	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	3	det
+2	mayor	mayor	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	3	amod
+3	aumento	aumento	ncms000	ncms000	recursive=no|theme=yes|main=no	8	nsubj
+4	de	de	sps00	sps00	recursive=no|theme=yes|main=no	3	prepn
+5	precios	precio	ncmp000	ncmp000	recursive=no|theme=yes|main=no	4	pobj
+6	de	de	sps00	sps00	recursive=no|theme=yes|main=no	5	prepn
+7	septiembre	septiembre	ncms000	ncms000	recursive=no|theme=yes|main=no	6	pobj
 8	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	0	root
 9	registrado	registrar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	8	attr
 10	en	en	sps00	sps00	recursive=no|theme=no|main=no	9	prepv
@@ -227,9 +227,9 @@
 30	eléctricas	eléctrico	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	29	amod
 31	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	3	det
-2	menor	menor	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	3	amod
-3	inflación	inflación	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	3	det
+2	menor	menor	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	3	amod
+3	inflación	inflación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
 4	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	0	root
 5	detectada	detectar	vmp00sf	vmp00sf	recursive=no|theme=no|main=no	4	attr
 6	en	en	sps00	sps00	recursive=no|theme=no|main=no	5	prepv

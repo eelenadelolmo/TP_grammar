@@ -1,11 +1,11 @@
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	Fundació	Fundació	np00000	np00000	recursive=yes|theme=yes|main=no	9	nsubj
-3	Família	Família	np00000	np00000	recursive=no|theme=no|main=no	2	appos
-4	i	i	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	appos
-5	Benestar	Benestar	np00000	np00000	recursive=no|theme=no|main=no	4	appos
-6	Social	social	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	5	amod
-7	de	de	sps00	sps00	recursive=no|theme=no|main=no	5	agent
-8	Barcelona	Barcelona	np00000	np00000	recursive=no|theme=no|main=no	7	pobj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	Fundació	Fundació	np00000	np00000	recursive=no|theme=yes|main=no	9	nsubj
+3	Família	Família	np00000	np00000	recursive=no|theme=yes|main=no	2	appos
+4	i	i	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	appos
+5	Benestar	Benestar	np00000	np00000	recursive=no|theme=yes|main=no	4	appos
+6	Social	social	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	5	amod
+7	de	de	sps00	sps00	recursive=no|theme=yes|main=no	5	agent
+8	Barcelona	Barcelona	np00000	np00000	recursive=no|theme=yes|main=no	7	pobj
 9	proyecta	proyectar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 10	construir	construir	vmn0000	vmn0000	recursive=no|theme=no|main=no	9	dobj
 11	40	40	z	z	recursive=no|theme=no|main=no	12	num
@@ -24,8 +24,8 @@
 24	Berga	Berga	np00000	np00000	recursive=no|theme=no|main=no	23	pobj
 25	.	.	fp	fp	recursive=no|theme=no|main=no	9	punct
 
-1	Este	este	dd0ms0	dd0ms0	recursive=no|theme=no|main=no	2	det
-2	proyecto	proyecto	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Este	este	dd0ms0	dd0ms0	recursive=no|theme=yes|main=no	2	det
+2	proyecto	proyecto	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	9	coord
 4	presentado	presentar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	3	attr
 5	en	en	sps00	sps00	recursive=no|theme=no|main=no	4	prepv

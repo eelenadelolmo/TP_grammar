@@ -1,6 +1,6 @@
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	unificación	unificación	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
-3	italiana	italiano	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	2	amod
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	unificación	unificación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
+3	italiana	italiano	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	2	amod
 4	marcó	marcar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
 6	papado	papado	ncms000	ncms000	recursive=no|theme=no|main=no	4	dobj
@@ -9,8 +9,8 @@
 9	Ferretti	Ferretti	np0000l	np0000l	recursive=no|theme=no|main=no	8	appos
 10	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	historiadores	historiador	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	historiadores	historiador	ncmp000	ncmp000	recursive=no|theme=yes|main=no	3	nsubj
 3	consideran	considerar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
 4	a	a	sps00	sps00	recursive=no|theme=no|main=no	3	dobj
 5	Pío	Pío	np0000l	np0000l	recursive=no|theme=no|main=no	4	pobj
@@ -33,7 +33,7 @@
 8	en	en	sps00	sps00	recursive=no|theme=no|main=no	6	prepn
 9	Roma	Roma	np00000	np00000	recursive=no|theme=no|main=no	8	pobj
 10	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
-11	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	12	nsubj
+11	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	12	nsubj
 12	era	ser	vsii3s0	vsii3s0	recursive=no|theme=no|main=no	6	rcmod
 13	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	15	det
 14	último	último	ao0ms0	ao0ms0	recursive=no|theme=no|main=no	15	amod
@@ -69,14 +69,14 @@
 5	del	del	spcms	spcms	recursive=no|theme=no|main=no	4	prepn
 6	mismo	mismo	pi0ms000	pi0ms000	recursive=no|theme=no|main=no	5	pobj
 7	,	,	fc	fc	recursive=no|theme=no|main=no	22	punct
-8	una	uno	pi0fs000	pi0fs000	recursive=yes|theme=yes|main=no	9	nsubj
+8	una	uno	pi0fs000	pi0fs000	recursive=no|theme=yes|main=no	9	nsubj
 9	dice	decir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	22	coord
 10	que	que	cs	cs	recursive=yes|theme=no|main=yes	9	dobj
 11	por	por	sps00	sps00	recursive=no|theme=no|main=no	18	prepv
 12	derecho	derecho	ncms000	ncms000	recursive=no|theme=no|main=no	11	pobj
 13	natural	natural	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	12	amod
-14	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	15	det
-15	clero	clero	ncms000	ncms000	recursive=yes|theme=yes|main=no	17	nsubj
+14	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	15	det
+15	clero	clero	ncms000	ncms000	recursive=no|theme=yes|main=no	17	nsubj
 16	no	no	rn	rn	recursive=no|theme=no|main=no	17	neg
 17	debe	deber	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	10	cobj
 18	hacer	hacer	vmn0000	vmn0000	recursive=no|theme=no|main=no	17	dobj
@@ -87,18 +87,18 @@
 23	otro	otro	pi0ms000	pi0ms000	recursive=no|theme=no|main=no	22	coord
 24	,	,	fc	fc	recursive=no|theme=no|main=no	23	punct
 25	que	que	cs	cs	recursive=no|theme=no|main=no	23	dep
-26	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	28	det
-27	libre	libre	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	28	amod
-28	discusión	discusión	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	29	nsubj
+26	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	28	det
+27	libre	libre	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	28	amod
+28	discusión	discusión	ncfs000	ncfs000	recursive=no|theme=yes|main=no	29	nsubj
 29	corrompe	corromper	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	25	cobj
 30	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	31	det
 31	alma	alma	ncfs000	ncfs000	recursive=no|theme=no|main=no	29	dobj
 32	.	.	fp	fp	recursive=no|theme=no|main=no	22	punct
 
-1	Juan	juan	ncms000	ncms000	recursive=yes|theme=yes|main=no	5	nsubj
-2	María	María	np0000o	np0000o	recursive=no|theme=no|main=no	1	appos
-3	Mastai	Mastai	ncms000	ncms000	recursive=no|theme=no|main=no	1	appos
-4	Ferretti	Ferretti	np0000a	np0000a	recursive=no|theme=no|main=no	3	appos
+1	Juan	juan	ncms000	ncms000	recursive=no|theme=yes|main=no	5	nsubj
+2	María	María	np0000o	np0000o	recursive=no|theme=yes|main=no	1	appos
+3	Mastai	Mastai	ncms000	ncms000	recursive=no|theme=yes|main=no	1	appos
+4	Ferretti	Ferretti	np0000a	np0000a	recursive=no|theme=yes|main=no	3	appos
 5	había	haber	vaii3s0	vaii3s0	recursive=no|theme=no|main=no	12	coord
 6	nacido	nacer	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	5	vobj
 7	en	en	sps00	sps00	recursive=no|theme=no|main=no	6	prepv
@@ -113,7 +113,7 @@
 16	sufrió	sufrir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	12	coord
 17	crisis	crisis	ncfn000	ncfn000	recursive=no|theme=no|main=no	16	dobj
 18	epilépticas	epiléptico	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	17	amod
-19	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	20	nsubj
+19	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	20	nsubj
 20	contribuyeron	contribuir	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	17	rcmod
 21	a	a	sps00	sps00	recursive=no|theme=no|main=no	20	oobj
 22	darle	dar	vmn0000	vmn0000	recursive=no|theme=no|main=no	21	pobj
@@ -131,8 +131,8 @@
 7	progresos	progreso	ncmp000	ncmp000	recursive=no|theme=no|main=no	5	pobj
 8	tecnológicos	tecnológico	aq0mp0	aq0mp0	recursive=no|theme=no|main=no	7	amod
 9	,	,	fc	fc	recursive=no|theme=no|main=no	12	punct
-10	Pío	Pío	np0000l	np0000l	recursive=yes|theme=yes|main=no	12	nsubj
-11	IX	IX	np0000l	np0000l	recursive=no|theme=no|main=no	10	appos
+10	Pío	Pío	np0000l	np0000l	recursive=no|theme=yes|main=no	12	nsubj
+11	IX	IX	np0000l	np0000l	recursive=no|theme=yes|main=no	10	appos
 12	empezó	empezar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 13	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	14	poss
 14	pontificado	pontificado	ncms000	ncms000	recursive=no|theme=no|main=no	12	dobj
@@ -157,8 +157,8 @@
 33	católicas	católico	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	32	amod
 34	.	.	fp	fp	recursive=no|theme=no|main=no	12	punct
 
-1	Su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	2	poss
-2	carisma	carisma	ncms000	ncms000	recursive=yes|theme=yes|main=no	4	nsubj
+1	Su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	2	poss
+2	carisma	carisma	ncms000	ncms000	recursive=no|theme=yes|main=no	4	nsubj
 3	le	él	pp3csd00	pp3csd00	recursive=no|theme=no|main=no	4	iobj
 4	dio	dar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 5	mucha	mucho	di0fs0	di0fs0	recursive=no|theme=no|main=no	6	det
@@ -176,8 +176,8 @@
 9	hechos	hecho	ncmp000	ncmp000	recursive=no|theme=no|main=no	7	pobj
 10	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
-1	Pío	Pío	np0000l	np0000l	recursive=yes|theme=yes|main=no	3	nsubj
-2	IX	IX	np0000l	np0000l	recursive=no|theme=no|main=no	1	appos
+1	Pío	Pío	np0000l	np0000l	recursive=no|theme=yes|main=no	3	nsubj
+2	IX	IX	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
 3	reaccionó	reaccionar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	transformando	transformar	vmg0000	vmg0000	recursive=no|theme=no|main=no	3	advcl
 5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
@@ -212,10 +212,10 @@
 18	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	19	det
 19	judía	judío	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	17	cpred
 20	,	,	fc	fc	recursive=no|theme=no|main=no	19	punct
-21	cuyos	cuyo	pr0mp000	pr0mp000	recursive=no|theme=no|main=no	22	det
-22	seguidores	seguidor	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	25	nsubj
-23	en	en	sps00	sps00	recursive=no|theme=no|main=no	22	prepn
-24	Roma	Roma	np00000	np00000	recursive=no|theme=no|main=no	23	pobj
+21	cuyos	cuyo	pr0mp000	pr0mp000	recursive=no|theme=yes|main=no	22	det
+22	seguidores	seguidor	ncmp000	ncmp000	recursive=no|theme=yes|main=no	25	nsubj
+23	en	en	sps00	sps00	recursive=no|theme=yes|main=no	22	prepn
+24	Roma	Roma	np00000	np00000	recursive=no|theme=yes|main=no	23	pobj
 25	seguían	seguir	vmii3p0	vmii3p0	recursive=no|theme=no|main=no	19	dep
 26	viviendo	vivir	vmg0000	vmg0000	recursive=no|theme=no|main=no	25	dobj
 27	en	en	sps00	sps00	recursive=no|theme=no|main=no	25	prepv
@@ -225,8 +225,8 @@
 1	En	en	sps00	sps00	recursive=no|theme=no|main=no	6	prepv
 2	1854	1854	z	z	recursive=no|theme=no|main=no	1	pobj
 3	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
-4	Pío	Pío	np0000l	np0000l	recursive=yes|theme=yes|main=no	6	nsubj
-5	IX	IX	np0000l	np0000l	recursive=no|theme=no|main=no	4	appos
+4	Pío	Pío	np0000l	np0000l	recursive=no|theme=yes|main=no	6	nsubj
+5	IX	IX	np0000l	np0000l	recursive=no|theme=yes|main=no	4	appos
 6	proclamó	proclamar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 7	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	8	det
 8	dogma	dogma	ncms000	ncms000	recursive=no|theme=no|main=no	18	cobj
@@ -242,9 +242,9 @@
 18	o	o	cc	cc	recursive=yes|theme=no|main=yes	6	dobj
 19	sea	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	18	rcmod
 20	que	que	cs	cs	recursive=no|theme=no|main=no	18	cobj
-21	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	22	det
-22	virgen	virgen	ncms000	ncms000	recursive=yes|theme=yes|main=no	24	nsubj
-23	María	María	np00000	np00000	recursive=no|theme=no|main=no	22	appos
+21	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	22	det
+22	virgen	virgen	ncms000	ncms000	recursive=no|theme=yes|main=no	24	nsubj
+23	María	María	np00000	np00000	recursive=no|theme=yes|main=no	22	appos
 24	habría	haber	vaic3s0	vaic3s0	recursive=no|theme=no|main=no	20	cobj
 25	nacido	nacer	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	24	vobj
 26	sin	sin	sps00	sps00	recursive=no|theme=no|main=no	25	prepv

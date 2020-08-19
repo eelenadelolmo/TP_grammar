@@ -8,9 +8,9 @@
 8	drogas	droga	ncfp000	ncfp000	recursive=no|theme=no|main=no	7	pobj
 9	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Los	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	Mossos	Mossos	np0000l	np0000l	recursive=yes|theme=yes|main=no	4	nsubj
-3	d'Esquadra	d'Esquadra	np0000l	np0000l	recursive=no|theme=no|main=no	2	appos
+1	Los	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	Mossos	Mossos	np0000l	np0000l	recursive=no|theme=yes|main=no	4	nsubj
+3	d'Esquadra	d'Esquadra	np0000l	np0000l	recursive=no|theme=yes|main=no	2	appos
 4	localizaron	localizar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	14	coord
 5	en	en	sps00	sps00	recursive=no|theme=no|main=no	4	prepv
 6	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	7	det
@@ -18,7 +18,7 @@
 8	a	a	sps00	sps00	recursive=no|theme=no|main=no	4	dobj
 9	10	10	z	z	recursive=no|theme=no|main=no	10	num
 10	menores	menor	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	8	pobj
-11	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	12	nsubj
+11	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	12	nsubj
 12	consumían	consumir	vmii3p0	vmii3p0	recursive=no|theme=no|main=no	10	rcmod
 13	alcohol	alcohol	ncms000	ncms000	recursive=no|theme=no|main=no	12	dobj
 14	y	y	cc	cc	recursive=no|theme=no|main=no	0	root
@@ -35,13 +35,13 @@
 25	cocaína	cocaína	ncfs000	ncfs000	recursive=no|theme=no|main=no	24	pobj
 26	.	.	fp	fp	recursive=no|theme=no|main=no	14	punct
 
-1	Este	este	dd0ms0	dd0ms0	recursive=no|theme=no|main=no	2	det
-2	local	local	ncms000	ncms000	recursive=no|theme=no|main=no	3	coord
-3	y	y	cc	cc	recursive=yes|theme=yes|main=no	8	nsubj
-4	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	5	det
-5	bar	bar	ncms000	ncms000	recursive=no|theme=no|main=no	3	coord
-6	de	de	sps00	sps00	recursive=no|theme=no|main=no	5	prepn
-7	Ripoll	Ripoll	np00000	np00000	recursive=no|theme=no|main=no	6	pobj
+1	Este	este	dd0ms0	dd0ms0	recursive=no|theme=yes|main=no	2	det
+2	local	local	ncms000	ncms000	recursive=no|theme=yes|main=no	3	coord
+3	y	y	cc	cc	recursive=no|theme=yes|main=no	8	nsubj
+4	un	uno	di0ms0	di0ms0	recursive=no|theme=yes|main=no	5	det
+5	bar	bar	ncms000	ncms000	recursive=no|theme=yes|main=no	3	coord
+6	de	de	sps00	sps00	recursive=no|theme=yes|main=no	5	prepn
+7	Ripoll	Ripoll	np00000	np00000	recursive=no|theme=yes|main=no	6	pobj
 8	tenían	tener	vmii3p0	vmii3p0	recursive=no|theme=no|main=no	0	root
 9	también	también	rg	rg	recursive=no|theme=no|main=no	10	advmod
 10	obstruidas	obstruido	aq0fpp	aq0fpp	recursive=no|theme=no|main=no	8	cpred

@@ -23,7 +23,7 @@
 12	reciente	reciente	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	5	pobj
 13	,	,	fc	fc	recursive=no|theme=no|main=no	5	punct
 14	aquel	aquel	pd0ms000	pd0ms000	recursive=no|theme=no|main=no	5	pobj
-15	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	16	nsubj
+15	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	16	nsubj
 16	contenía	contener	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	14	rcmod
 17	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	18	det
 18	tesoros	tesoro	ncmp000	ncmp000	recursive=no|theme=no|main=no	16	dobj
@@ -144,8 +144,8 @@
 25	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
 1	-	-	fg	fg	recursive=no|theme=no|main=no	13	punct
-2	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	3	det
-3	cigarro	cigarro	ncms000	ncms000	recursive=yes|theme=yes|main=no	4	nsubj
+2	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	3	det
+3	cigarro	cigarro	ncms000	ncms000	recursive=no|theme=yes|main=no	4	nsubj
 4	crujía	crujir	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	10	coord
 5	,	,	fc	fc	recursive=no|theme=no|main=no	10	punct
 6	estaba	estar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	10	coord
@@ -160,7 +160,7 @@
 15	papel	papel	ncms000	ncms000	recursive=no|theme=no|main=no	14	pobj
 16	.	.	fp	fp	recursive=no|theme=no|main=no	10	punct
 
-1	Antonia	Antonia	np0000p	np0000p	recursive=yes|theme=yes|main=no	3	nsubj
+1	Antonia	Antonia	np0000p	np0000p	recursive=no|theme=yes|main=no	3	nsubj
 2	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	3	reflec
 3	chupó	chupar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	7	coord
 4	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	5	det
@@ -181,8 +181,8 @@
 2	le	él	pp3csd00	pp3csd00	recursive=no|theme=no|main=no	3	iobj
 3	ocurrió	ocurrir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	24	coord
 4	que	que	cs	cs	recursive=no|theme=no|main=no	3	csubj
-5	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	6	poss
-6	saliva	saliva	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	8	nsubj
+5	su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	6	poss
+6	saliva	saliva	ncfs000	ncfs000	recursive=no|theme=yes|main=no	8	nsubj
 7	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	8	reflec
 8	mezclaba	mezclar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	4	cobj
 9	así	así	rg	rg	recursive=no|theme=no|main=no	8	advmod
@@ -201,8 +201,8 @@
 22	labios	labio	ncmp000	ncmp000	recursive=no|theme=no|main=no	20	pobj
 23	,	,	fc	fc	recursive=no|theme=no|main=no	8	punct
 24	y	y	cc	cc	recursive=no|theme=no|main=no	0	root
-25	tal	tal	dd0cs0	dd0cs0	recursive=no|theme=no|main=no	26	det
-26	pensamiento	pensamiento	ncms000	ncms000	recursive=yes|theme=yes|main=no	28	nsubj
+25	tal	tal	dd0cs0	dd0cs0	recursive=no|theme=yes|main=no	26	det
+26	pensamiento	pensamiento	ncms000	ncms000	recursive=no|theme=yes|main=no	28	nsubj
 27	le	él	pp3csd00	pp3csd00	recursive=no|theme=no|main=no	28	iobj
 28	provocó	provocar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	24	coord
 29	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	30	det
@@ -230,7 +230,7 @@
 8	rafaelista	rafaelista	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	7	amod
 9	,	,	fc	fc	recursive=no|theme=no|main=no	10	punct
 10	cuando	cuando	cs	cs	recursive=no|theme=no|main=no	0	root
-11	ella	él	pp3fs000	pp3fs000	recursive=yes|theme=yes|main=no	12	nsubj
+11	ella	él	pp3fs000	pp3fs000	recursive=no|theme=yes|main=no	12	nsubj
 12	aguardaba	aguardar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	10	cobj
 13	cada	cada	di0cs0	di0cs0	recursive=no|theme=no|main=no	14	det
 14	día	día	ncms000	ncms000	recursive=no|theme=no|main=no	12	cobj

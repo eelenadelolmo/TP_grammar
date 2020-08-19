@@ -11,8 +11,8 @@
 3	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	4	det
 4	años	año	ncmp000	ncmp000	recursive=no|theme=no|main=no	1	cobj
 5	,	,	fc	fc	recursive=no|theme=no|main=no	9	punct
-6	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	7	det
-7	pregunta	pregunta	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	9	nsubj
+6	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	7	det
+7	pregunta	pregunta	ncfs000	ncfs000	recursive=no|theme=yes|main=no	9	nsubj
 8	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	9	reflec
 9	fue	ir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 10	extendiendo	extender	vmg0000	vmg0000	recursive=no|theme=no|main=no	9	dobj
@@ -58,20 +58,20 @@
 17	ligues	ligue	ncmp000	ncmp000	recursive=no|theme=no|main=no	15	coord
 18	...	...	fs	fs	recursive=no|theme=no|main=no	5	punct
 
-1	Casi	casi	rg	rg	recursive=no|theme=no|main=no	2	advmod
-2	todo	todo	pi0ms000	pi0ms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Casi	casi	rg	rg	recursive=no|theme=yes|main=no	2	advmod
+2	todo	todo	pi0ms000	pi0ms000	recursive=no|theme=yes|main=no	3	nsubj
 3	quedó	quedar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	aplazado	aplazado	aq0msp	aq0msp	recursive=no|theme=no|main=no	3	cpred
 5	inexorablemente	inexorablemente	rg	rg	recursive=no|theme=no|main=no	4	advmod
 6	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	perspectiva	perspectiva	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	9	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	6	det
-5	larga	largo	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	6	amod
-6	pausa	pausa	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	pobj
-7	agosteña	agosteño	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	6	amod
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	perspectiva	perspectiva	ncfs000	ncfs000	recursive=no|theme=yes|main=no	9	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	6	det
+5	larga	largo	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	6	amod
+6	pausa	pausa	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	pobj
+7	agosteña	agosteño	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	6	amod
 8	lo	él	pp3msa00	pp3msa00	recursive=no|theme=no|main=no	10	dobj
 9	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	12	coord
 10	empapado	empapar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	9	vobj
@@ -100,7 +100,7 @@
 1	Resurge	resurgir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 2	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	3	det
 3	vuelva	volver	vmip1s0	vmip1s0	recursive=no|theme=no|main=no	1	nsubj
-4	usted	tú	pp1csn00	pp1csn00	recursive=yes|theme=yes|main=no	3	nsubj
+4	usted	tú	pp1csn00	pp1csn00	recursive=no|theme=yes|main=no	3	nsubj
 5	mañana	mañana	rg	rg	recursive=no|theme=no|main=no	3	advmod
 6	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	prepn
 7	Larra	Larra	np00000	np00000	recursive=no|theme=no|main=no	6	pobj
@@ -116,7 +116,7 @@
 17	en	en	sps00	sps00	recursive=no|theme=no|main=no	16	oobj
 18	este	este	dd0ms0	dd0ms0	recursive=no|theme=no|main=no	19	det
 19	vuelva	volver	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	17	pobj
-20	usted	tú	pp3ms000	pp3ms000	recursive=yes|theme=yes|main=no	19	nsubj
+20	usted	tú	pp3ms000	pp3ms000	recursive=no|theme=yes|main=no	19	nsubj
 21	en	en	sps00	sps00	recursive=no|theme=no|main=no	19	prepv
 22	septiembre	septiembre	ncfs000	ncfs000	recursive=no|theme=no|main=no	21	pobj
 23	,	,	fc	fc	recursive=no|theme=no|main=no	19	punct
@@ -148,8 +148,8 @@
 7	fascinante	fascinante	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	8	amod
 8	programa	programa	ncms000	ncms000	recursive=no|theme=no|main=no	5	pobj
 9	,	,	fc	fc	recursive=no|theme=no|main=no	12	punct
-10	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	11	det
-11	gente	gente	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	12	nsubj
+10	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	11	det
+11	gente	gente	ncfs000	ncfs000	recursive=no|theme=yes|main=no	12	nsubj
 12	anduviera	andar	vmsi3s0	vmsi3s0	recursive=no|theme=no|main=no	14	coord
 13	nerviosa	nervioso	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	14	coord
 14	y	y	cc	cc	recursive=no|theme=no|main=no	3	cobj

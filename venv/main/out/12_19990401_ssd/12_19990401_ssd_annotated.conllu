@@ -2,7 +2,7 @@
 2	en	en	sps00	sps00	recursive=no|theme=no|main=no	1	prepn
 3	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	4	det
 4	televisión	televisión	ncfs000	ncfs000	recursive=no|theme=no|main=no	2	pobj
-5	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	6	nsubj
+5	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	6	nsubj
 6	atentan	atentar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	1	rcmod
 7	a	a	sps00	sps00	recursive=no|theme=no|main=no	6	oobj
 8	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	12	poss
@@ -12,8 +12,8 @@
 12	timidez	timidez	ncfs000	ncfs000	recursive=no|theme=no|main=no	7	pobj
 13	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	Ciprià	Ciprià	np0000l	np0000l	recursive=yes|theme=yes|main=no	3	nsubj
-2	Ciscar	ciscar	np0000l	np0000l	recursive=no|theme=no|main=no	1	appos
+1	Ciprià	Ciprià	np0000l	np0000l	recursive=no|theme=yes|main=no	3	nsubj
+2	Ciscar	ciscar	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
 3	ejerce	ejercer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	desde	desde	sps00	sps00	recursive=no|theme=no|main=no	3	prepv
 5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
@@ -42,15 +42,15 @@
 13	impuso	imponer	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	11	coord
 14	.	.	fp	fp	recursive=no|theme=no|main=no	11	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	guerristas	guerrista	nccp000	nccp000	recursive=yes|theme=yes|main=no	6	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	guerristas	guerrista	nccp000	nccp000	recursive=no|theme=yes|main=no	6	nsubj
 3	no	no	rn	rn	recursive=no|theme=no|main=no	6	neg
 4	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	6	reflec
 5	lo	él	pp3msa00	pp3msa00	recursive=no|theme=no|main=no	6	dobj
 6	perdonan	perdonar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	8	coord
 7	,	,	fc	fc	recursive=no|theme=no|main=no	10	punct
 8	pero	pero	cc	cc	recursive=no|theme=no|main=no	17	coord
-9	él	él	pp3ms000	pp3ms000	recursive=yes|theme=yes|main=no	10	nsubj
+9	él	él	pp3ms000	pp3ms000	recursive=no|theme=yes|main=no	10	nsubj
 10	cuida	cuidar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	8	coord
 11	de	de	sps00	sps00	recursive=no|theme=no|main=no	10	oobj
 12	que	que	cs	cs	recursive=no|theme=no|main=no	11	pobj
@@ -78,7 +78,7 @@
 34	muerta	muerto	aq0fsp	aq0fsp	recursive=no|theme=no|main=no	33	amod
 35	.	.	fp	fp	recursive=no|theme=no|main=no	17	punct
 
-1	Ciscar	Ciscar	np00000	np00000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Ciscar	Ciscar	np00000	np00000	recursive=no|theme=yes|main=no	2	nsubj
 2	domina	dominar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	9	coord
 3	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	4	det
 4	laberinto	laberinto	ncms000	ncms000	recursive=no|theme=no|main=no	2	dobj

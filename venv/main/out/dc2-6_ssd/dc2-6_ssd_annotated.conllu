@@ -2,8 +2,8 @@
 2	desde	desde	sps00	sps00	recursive=no|theme=no|main=no	8	prepv
 3	entonces	entonces	rg	rg	recursive=no|theme=no|main=no	2	advmod
 4	,	,	fc	fc	recursive=no|theme=no|main=no	7	punct
-5	otros	otro	di0mp0	di0mp0	recursive=no|theme=no|main=no	6	det
-6	factores	factor	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	7	nsubj
+5	otros	otro	di0mp0	di0mp0	recursive=no|theme=yes|main=no	6	det
+6	factores	factor	ncmp000	ncmp000	recursive=no|theme=yes|main=no	7	nsubj
 7	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	0	root
 8	añadido	añadir	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	7	vobj
 9	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	11	det
@@ -59,8 +59,8 @@
 9	necesaria	necesario	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	8	amod
 10	para	para	sps00	sps00	recursive=no|theme=no|main=no	9	prepa
 11	que	que	cs	cs	recursive=no|theme=no|main=no	10	pobj
-12	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	13	poss
-13	estructuras	estructura	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	15	nsubj
+12	sus	su	dp3cp0	dp3cp0	recursive=no|theme=yes|main=no	13	poss
+13	estructuras	estructura	ncfp000	ncfp000	recursive=no|theme=yes|main=no	15	nsubj
 14	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	15	reflec
 15	reproduzcan	reproducir	vmsp3p0	vmsp3p0	recursive=no|theme=no|main=no	16	coord
 16	y	y	cc	cc	recursive=no|theme=no|main=no	11	cobj
@@ -196,10 +196,10 @@
 22	alimentos	alimento	ncmp000	ncmp000	recursive=no|theme=no|main=no	21	pobj
 23	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	medios	medio	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	5	nsubj
-3	para	para	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	conseguirlo	conseguir	vmn0000	vmn0000	recursive=no|theme=no|main=no	3	pobj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	medios	medio	ncmp000	ncmp000	recursive=no|theme=yes|main=no	5	nsubj
+3	para	para	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	conseguirlo	conseguir	vmn0000	vmn0000	recursive=no|theme=yes|main=no	3	pobj
 5	pueden	poder	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	15	coord
 6	ser	ser	vsn0000	vsn0000	recursive=no|theme=no|main=no	5	dobj
 7	ataques	ataque	ncmp000	ncmp000	recursive=no|theme=no|main=no	6	dobj

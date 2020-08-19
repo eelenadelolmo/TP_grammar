@@ -1,16 +1,16 @@
 1	Al	al	spcms	spcms	recursive=no|theme=no|main=no	6	prepv
 2	desaparecer	desaparecer	vmn0000	vmn0000	recursive=no|theme=no|main=no	1	pobj
-3	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	4	det
-4	mili	mili	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	2	nsubj
-5	obligatoria	obligatorio	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	4	amod
+3	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	4	det
+4	mili	mili	ncfs000	ncfs000	recursive=no|theme=yes|main=no	2	nsubj
+5	obligatoria	obligatorio	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	4	amod
 6	existe	existir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 7	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	8	det
 8	riesgo	riesgo	ncms000	ncms000	recursive=no|theme=no|main=no	6	nsubj
 9	de	de	sps00	sps00	recursive=no|theme=no|main=no	8	prepn
 10	que	que	cs	cs	recursive=no|theme=no|main=no	9	pobj
-11	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	12	det
-12	militares	militar	nccp000	nccp000	recursive=yes|theme=yes|main=no	14	nsubj
-13	profesionales	profesional	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	12	amod
+11	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	12	det
+12	militares	militar	nccp000	nccp000	recursive=no|theme=yes|main=no	14	nsubj
+13	profesionales	profesional	aq0cp0	aq0cp0	recursive=no|theme=yes|main=no	12	amod
 14	procedan	proceder	vmsp3p0	vmsp3p0	recursive=no|theme=no|main=no	10	cobj
 15	de	de	sps00	sps00	recursive=no|theme=no|main=no	14	oobj
 16	unos	uno	di0mp0	di0mp0	recursive=no|theme=no|main=no	17	det
@@ -24,7 +24,7 @@
 24	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
 1	Y	y	cc	cc	recursive=no|theme=no|main=no	3	te
-2	algo	algo	pi0cs000	pi0cs000	recursive=yes|theme=yes|main=no	3	nsubj
+2	algo	algo	pi0cs000	pi0cs000	recursive=no|theme=yes|main=no	3	nsubj
 3	tendrá	tener	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	que	que	cs	cs	recursive=no|theme=no|main=no	3	conj
 5	ver	ver	vmn0000	vmn0000	recursive=no|theme=no|main=no	4	cobj
@@ -51,10 +51,10 @@
 
 1	Ayer	ayer	rg	rg	recursive=no|theme=no|main=no	7	advmod
 2	,	,	fc	fc	recursive=no|theme=no|main=no	7	punct
-3	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	4	det
-4	ministro	ministro	ncms000	ncms000	recursive=yes|theme=yes|main=no	7	nsubj
-5	de	de	sps00	sps00	recursive=no|theme=no|main=no	4	prepn
-6	Defensa	Defensa	np00000	np00000	recursive=no|theme=no|main=no	5	pobj
+3	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	4	det
+4	ministro	ministro	ncms000	ncms000	recursive=no|theme=yes|main=no	7	nsubj
+5	de	de	sps00	sps00	recursive=no|theme=yes|main=no	4	prepn
+6	Defensa	Defensa	np00000	np00000	recursive=no|theme=yes|main=no	5	pobj
 7	afrontó	afrontar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 8	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	9	det
 9	asunto	asunto	ncms000	ncms000	recursive=no|theme=no|main=no	7	dobj
@@ -126,7 +126,7 @@
 8	todo	todo	pi0cs000	pi0cs000	recursive=no|theme=no|main=no	7	pobj
 9	bien	bien	rg	rg	recursive=no|theme=no|main=no	2	advmod
 10	,	,	fc	fc	recursive=no|theme=no|main=no	12	punct
-11	Defensa	Defensa	np00000	np00000	recursive=yes|theme=yes|main=no	12	nsubj
+11	Defensa	Defensa	np00000	np00000	recursive=no|theme=yes|main=no	12	nsubj
 12	echará	echar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	0	root
 13	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	14	det
 14	capote	capote	ncms000	ncms000	recursive=no|theme=no|main=no	12	dobj
@@ -147,8 +147,8 @@
 7	algo	algo	pi0cs000	pi0cs000	recursive=no|theme=no|main=no	13	dobj
 8	hace	hacer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	6	cobj
 9	bien	bien	rg	rg	recursive=no|theme=no|main=no	13	advmod
-10	Federico	Federico	np0000l	np0000l	recursive=yes|theme=yes|main=no	13	nsubj
-11	Trillo	trillar	np0000l	np0000l	recursive=no|theme=no|main=no	10	appos
+10	Federico	Federico	np0000l	np0000l	recursive=no|theme=yes|main=no	13	nsubj
+11	Trillo	trillar	np0000l	np0000l	recursive=no|theme=yes|main=no	10	appos
 12	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	6	cobj
 13	comunicar	comunicar	vmn0000	vmn0000	recursive=no|theme=no|main=no	6	cobj
 14	,	,	fc	fc	recursive=no|theme=no|main=no	13	punct

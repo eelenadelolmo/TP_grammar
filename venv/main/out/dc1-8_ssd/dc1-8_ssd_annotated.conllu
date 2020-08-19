@@ -17,8 +17,8 @@
 17	magia	magia	ncfs000	ncfs000	recursive=no|theme=no|main=no	16	pobj
 18	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	naturaleza	naturaleza	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	naturaleza	naturaleza	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
 3	nos	yo	pp1cp000	pp1cp000	recursive=no|theme=no|main=no	5	dobj
 4	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 5	dotado	dotar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	4	vobj
@@ -52,16 +52,16 @@
 10	debidamente	debidamente	rg	rg	recursive=no|theme=no|main=no	2	advmod
 11	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	nieve	nieve	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	5	nsubj
-3	artificial	artificial	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	2	amod
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	nieve	nieve	ncfs000	ncfs000	recursive=no|theme=yes|main=no	5	nsubj
+3	artificial	artificial	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	2	amod
 4	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	5	reflec
 5	produce	producir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 6	dentro	dentro	rg	rg	recursive=no|theme=no|main=no	5	advmod
 7	de	de	sps00	sps00	recursive=no|theme=no|main=no	6	prep
 8	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	9	det
 9	cañón	cañón	ncms000	ncms000	recursive=no|theme=no|main=no	7	pobj
-10	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	11	nsubj
+10	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	11	nsubj
 11	mezcla	mezclar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	9	rcmod
 12	aire	aire	ncms000	ncms000	recursive=no|theme=no|main=no	15	coord
 13	a	a	sps00	sps00	recursive=no|theme=no|main=no	12	prepn
@@ -74,8 +74,8 @@
 20	proporciones	proporción	ncfp000	ncfp000	recursive=no|theme=no|main=no	17	pobj
 21	.	.	fp	fp	recursive=no|theme=no|main=no	5	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	mezcla	mezcla	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	mezcla	mezcla	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
 3	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	4	reflec
 4	precipita	precipitar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 5	a	a	sps00	sps00	recursive=no|theme=no|main=no	4	prepv
@@ -85,14 +85,14 @@
 9	fila	fila	ncfs000	ncfs000	recursive=no|theme=no|main=no	7	pobj
 10	de	de	sps00	sps00	recursive=no|theme=no|main=no	9	prepn
 11	toberas	tobera	ncfp000	ncfp000	recursive=no|theme=no|main=no	10	pobj
-12	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	13	nsubj
+12	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	13	nsubj
 13	sirven	servir	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	11	rcmod
 14	de	de	sps00	sps00	recursive=no|theme=no|main=no	13	oobj
 15	atomizador	atomizador	ncms000	ncms000	recursive=no|theme=no|main=no	14	pobj
 16	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	truco	truco	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	truco	truco	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	consiste	consistir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	en	en	sps00	sps00	recursive=no|theme=no|main=no	3	oobj
 5	pulverizar	pulverizar	vmn0000	vmn0000	recursive=no|theme=no|main=no	4	pobj
@@ -119,15 +119,15 @@
 26	tobera	tobera	ncfs000	ncfs000	recursive=no|theme=no|main=no	24	pobj
 27	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	3	det
-2	diminutos	diminuto	aq0mp0	aq0mp0	recursive=no|theme=no|main=no	3	amod
-3	cristales	cristal	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	6	nsubj
-4	helados	helado	aq0mpp	aq0mpp	recursive=no|theme=no|main=no	3	amod
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	3	det
+2	diminutos	diminuto	aq0mp0	aq0mp0	recursive=no|theme=yes|main=no	3	amod
+3	cristales	cristal	ncmp000	ncmp000	recursive=no|theme=yes|main=no	6	nsubj
+4	helados	helado	aq0mpp	aq0mpp	recursive=no|theme=yes|main=no	3	amod
 5	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	6	reflec
 6	unen	unir	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	14	coord
 7	a	a	sps00	sps00	recursive=no|theme=no|main=no	6	iobj
 8	otros	otro	pi0mp000	pi0mp000	recursive=no|theme=no|main=no	7	pobj
-9	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	10	nsubj
+9	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	10	nsubj
 10	salen	salir	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	8	rcmod
 11	de	de	sps00	sps00	recursive=no|theme=no|main=no	10	prepv
 12	otras	otro	di0fp0	di0fp0	recursive=no|theme=no|main=no	13	det
@@ -150,8 +150,8 @@
 29	nieve	nieve	ncfs000	ncfs000	recursive=no|theme=no|main=no	28	pobj
 30	.	.	fp	fp	recursive=no|theme=no|main=no	14	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	cañón	cañón	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	cañón	cañón	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	puede	poder	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	expeler	expeler	vmn0000	vmn0000	recursive=no|theme=no|main=no	3	dobj
 5	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	6	det
@@ -171,8 +171,8 @@
 4	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	5	det
 5	camino	camino	ncms000	ncms000	recursive=no|theme=no|main=no	3	pobj
 6	,	,	fc	fc	recursive=no|theme=no|main=no	10	punct
-7	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	8	det
-8	cristales	cristal	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	10	nsubj
+7	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	8	det
+8	cristales	cristal	ncmp000	ncmp000	recursive=no|theme=yes|main=no	10	nsubj
 9	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	10	reflec
 10	unirán	unir	vmif3p0	vmif3p0	recursive=no|theme=no|main=no	14	coord
 11	unos	uno	pi0mp000	pi0mp000	recursive=no|theme=no|main=no	10	dobj
@@ -180,11 +180,11 @@
 13	otros	otro	pi0mp000	pi0mp000	recursive=no|theme=no|main=no	12	pobj
 14	y	y	cc	cc	recursive=no|theme=no|main=no	0	root
 15	aumentará	aumentar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	14	coord
-16	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	17	det
-17	espesor	espesor	ncms000	ncms000	recursive=yes|theme=yes|main=no	15	nsubj
-18	de	de	sps00	sps00	recursive=no|theme=no|main=no	17	prepn
-19	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	20	det
-20	nieve	nieve	ncfs000	ncfs000	recursive=no|theme=no|main=no	18	pobj
+16	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	17	det
+17	espesor	espesor	ncms000	ncms000	recursive=no|theme=yes|main=no	15	nsubj
+18	de	de	sps00	sps00	recursive=no|theme=yes|main=no	17	prepn
+19	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	20	det
+20	nieve	nieve	ncfs000	ncfs000	recursive=no|theme=yes|main=no	18	pobj
 21	.	.	fp	fp	recursive=no|theme=no|main=no	14	punct
 
 1	Cuanto	cuanto	cs	cs	recursive=no|theme=no|main=no	14	advcl

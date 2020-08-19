@@ -17,7 +17,7 @@
 17	en	en	sps00	sps00	recursive=no|theme=no|main=no	8	prepv
 18	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	19	det
 19	medida	medida	ncfs000	ncfs000	recursive=no|theme=no|main=no	17	pobj
-20	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	25	nsubj
+20	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	25	nsubj
 21	a	a	sps00	sps00	recursive=no|theme=no|main=no	25	iobj
 22	cada	cada	di0cs0	di0cs0	recursive=no|theme=no|main=no	23	det
 23	cual	cual	pr0cs000	pr0cs000	recursive=no|theme=no|main=no	21	pobj
@@ -42,8 +42,8 @@
 7	?	?	fit	fit	recursive=no|theme=no|main=no	3	punct
 
 1	Cuando	cuando	cs	cs	recursive=no|theme=no|main=no	8	advcl
-2	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	3	det
-3	mochuelo	mochuelo	ncms000	ncms000	recursive=yes|theme=yes|main=no	4	nsubj
+2	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	3	det
+3	mochuelo	mochuelo	ncms000	ncms000	recursive=no|theme=yes|main=no	4	nsubj
 4	alcanza	alcanzar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	1	cobj
 5	cierta	cierto	di0fs0	di0fs0	recursive=no|theme=no|main=no	6	det
 6	edad	edad	ncfs000	ncfs000	recursive=no|theme=no|main=no	4	dobj
@@ -71,8 +71,8 @@
 8	puede	poder	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	7	cobj
 9	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
-1	Valle	valle	ncms000	ncms000	recursive=yes|theme=yes|main=no	4	nsubj
-2	Inclán	Inclán	np00000	np00000	recursive=no|theme=no|main=no	1	appos
+1	Valle	valle	ncms000	ncms000	recursive=no|theme=yes|main=no	4	nsubj
+2	Inclán	Inclán	np00000	np00000	recursive=no|theme=yes|main=no	1	appos
 3	me	yo	pp1cs000	pp1cs000	recursive=no|theme=no|main=no	4	iobj
 4	decía	decir	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	0	root
 5	:	:	fd	fd	recursive=no|theme=no|main=no	13	punct
@@ -80,18 +80,18 @@
 7	Allí	allí	rg	rg	recursive=no|theme=no|main=no	13	advmod
 8	donde	donde	pr000000	pr000000	recursive=no|theme=no|main=no	9	oobj
 9	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	7	rcmod
-10	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	11	det
-11	fuego	fuego	ncms000	ncms000	recursive=yes|theme=yes|main=no	9	nsubj
+10	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	11	det
+11	fuego	fuego	ncms000	ncms000	recursive=no|theme=yes|main=no	9	nsubj
 12	allí	allí	rg	rg	recursive=no|theme=no|main=no	13	advmod
 13	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	4	dobj
-14	Dios	Dios	np0000p	np0000p	recursive=yes|theme=yes|main=no	13	nsubj
+14	Dios	Dios	np0000p	np0000p	recursive=no|theme=yes|main=no	13	nsubj
 15	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
 1	Y	y	cc	cc	recursive=no|theme=no|main=no	7	te
-2	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	4	poss
-3	pequeña	pequeño	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	4	amod
-4	hija	hija	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	7	nsubj
-5	Mariquiña	Mariquiña	np0000p	np0000p	recursive=no|theme=no|main=no	4	appos
+2	su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	4	poss
+3	pequeña	pequeño	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	4	amod
+4	hija	hija	ncfs000	ncfs000	recursive=no|theme=yes|main=no	7	nsubj
+5	Mariquiña	Mariquiña	np0000p	np0000p	recursive=no|theme=yes|main=no	4	appos
 6	lo	él	pp3msa00	pp3msa00	recursive=no|theme=no|main=no	8	dobj
 7	miraba	mirar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	0	root
 8	pensando	pensar	vmg0000	vmg0000	recursive=no|theme=no|main=no	7	dobj
@@ -100,7 +100,7 @@
 11	Es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	8	dobj
 12	posible	posible	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	11	attr
 13	que	que	cs	cs	recursive=no|theme=no|main=no	11	csubj
-14	Dios	Dios	np0000p	np0000p	recursive=yes|theme=yes|main=no	15	nsubj
+14	Dios	Dios	np0000p	np0000p	recursive=no|theme=yes|main=no	15	nsubj
 15	sea	ser	vssp3s0	vssp3s0	recursive=no|theme=no|main=no	13	cobj
 16	tan	tanto	rg	rg	recursive=no|theme=no|main=no	17	advmod
 17	friolero	friolero	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	15	attr
@@ -108,18 +108,18 @@
 
 1	Es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	8	coord
 2	mejor	mejor	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	1	attr
-3	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	4	det
-4	atardecer	atardecer	ncms000	ncms000	recursive=yes|theme=yes|main=no	1	nsubj
+3	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	4	det
+4	atardecer	atardecer	ncms000	ncms000	recursive=no|theme=yes|main=no	1	nsubj
 5	que	que	cs	cs	recursive=no|theme=no|main=no	2	crobj
 6	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	7	det
 7	amanecer	amanecer	ncms000	ncms000	recursive=no|theme=no|main=no	5	cobj
 8	y	y	cc	cc	recursive=no|theme=no|main=no	0	root
 9	son	ser	vsip3p0	vsip3p0	recursive=no|theme=no|main=no	8	coord
-10	mis	mi	dp1cps	dp1cps	recursive=no|theme=no|main=no	11	poss
-11	amigos	amigo	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	9	nsubj
+10	mis	mi	dp1cps	dp1cps	recursive=no|theme=yes|main=no	11	poss
+11	amigos	amigo	ncmp000	ncmp000	recursive=no|theme=yes|main=no	9	nsubj
 12	ahora	ahora	rg	rg	recursive=no|theme=no|main=no	9	advmod
 13	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	15	det
-14	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	15	nsubj
+14	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	15	nsubj
 15	ven	ver	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	9	attr
 16	en	en	sps00	sps00	recursive=no|theme=no|main=no	15	prepv
 17	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	18	det
@@ -137,16 +137,16 @@
 3	murciélagos	murciélago	ncmp000	ncmp000	recursive=no|theme=no|main=no	0	root
 4	todavía	todavía	rg	rg	recursive=no|theme=no|main=no	3	advmod
 5	,	,	fc	fc	recursive=no|theme=no|main=no	3	punct
-6	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	7	nsubj
+6	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	7	nsubj
 7	son	ser	vsip3p0	vsip3p0	recursive=no|theme=no|main=no	3	rcmod
 8	ciegos	ciego	aq0mp0	aq0mp0	recursive=no|theme=no|main=no	7	attr
 9	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	misterio	misterio	ncms000	ncms000	recursive=yes|theme=yes|main=no	6	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	5	det
-5	búhos	búho	ncmp000	ncmp000	recursive=no|theme=no|main=no	3	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	misterio	misterio	ncms000	ncms000	recursive=no|theme=yes|main=no	6	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	5	det
+5	búhos	búho	ncmp000	ncmp000	recursive=no|theme=yes|main=no	3	pobj
 6	comienza	comenzar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 7	a	a	sps00	sps00	recursive=no|theme=no|main=no	6	prepv
 8	ser	ser	vsn0000	vsn0000	recursive=no|theme=no|main=no	7	pobj
@@ -165,14 +165,14 @@
 3	entenderlos	entender	vmn0000	vmn0000	recursive=no|theme=no|main=no	1	dobj
 4	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	sabios	sabio	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	9	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	5	det
-5	antigüedad	antigüedad	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	pobj
-6	helena	heleno	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	7	coord
-7	o	o	cc	cc	recursive=no|theme=no|main=no	5	dep
-8	romana	romano	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	7	coord
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	sabios	sabio	ncmp000	ncmp000	recursive=no|theme=yes|main=no	9	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	5	det
+5	antigüedad	antigüedad	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	pobj
+6	helena	heleno	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	7	coord
+7	o	o	cc	cc	recursive=no|theme=yes|main=no	5	dep
+8	romana	romano	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	7	coord
 9	fueron	ser	vsis3p0	vsis3p0	recursive=no|theme=no|main=no	0	root
 10	durante	durante	sps00	sps00	recursive=no|theme=no|main=no	9	prepv
 11	algunos	alguno	di0mp0	di0mp0	recursive=no|theme=no|main=no	12	det

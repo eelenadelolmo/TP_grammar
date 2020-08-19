@@ -1,5 +1,5 @@
-1	Anthony	Anthony	np0000l	np0000l	recursive=yes|theme=yes|main=no	4	nsubj
-2	Hopkins	Hopkins	np0000l	np0000l	recursive=no|theme=no|main=no	1	appos
+1	Anthony	Anthony	np0000l	np0000l	recursive=no|theme=yes|main=no	4	nsubj
+2	Hopkins	Hopkins	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
 3	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	4	reflec
 4	atrevió	atreverse	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 5	a	a	sps00	sps00	recursive=no|theme=no|main=no	4	oobj
@@ -19,8 +19,8 @@
 19	)	)	fpt	fpt	recursive=no|theme=no|main=no	18	punct
 20	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	filme	filme	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	filme	filme	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	deja	dejar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	advmod
 5	lado	lado	ncmp000	ncmp000	recursive=no|theme=no|main=no	4	pobj
@@ -30,15 +30,15 @@
 9	,	,	fc	fc	recursive=no|theme=no|main=no	3	punct
 10	ya	ya	rg	rg	recursive=no|theme=no|main=no	11	advmod
 11	que	que	pi0ms000	pi0ms000	recursive=no|theme=no|main=no	3	advcl
-12	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	13	poss
-13	herederos	heredero	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	15	nsubj
+12	sus	su	dp3cp0	dp3cp0	recursive=no|theme=yes|main=no	13	poss
+13	herederos	heredero	ncmp000	ncmp000	recursive=no|theme=yes|main=no	15	nsubj
 14	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	15	reflec
 15	opusieron	oponer	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	11	cobj
 16	a	a	sps00	sps00	recursive=no|theme=no|main=no	15	oobj
 17	que	que	cs	cs	recursive=no|theme=no|main=no	16	pobj
 18	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	19	reflec
 19	mostraran	mostrar	vmsi3p0	vmsi3p0	recursive=no|theme=no|main=no	17	cobj
-20	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	21	poss
-21	obras	obra	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	19	nsubj
+20	sus	su	dp3cp0	dp3cp0	recursive=no|theme=yes|main=no	21	poss
+21	obras	obra	ncfp000	ncfp000	recursive=no|theme=yes|main=no	19	nsubj
 22	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 

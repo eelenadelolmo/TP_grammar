@@ -1,10 +1,10 @@
-1	EL	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	MINISTRO	ministro	ncms000	ncms000	recursive=yes|theme=yes|main=no	9	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	Defensa	Defensa	np00000	np00000	recursive=no|theme=no|main=no	3	pobj
-5	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
-6	Federico	Federico	np0000l	np0000l	recursive=no|theme=no|main=no	2	appos
-7	Trillo	trillar	np0000l	np0000l	recursive=no|theme=no|main=no	6	appos
+1	EL	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	MINISTRO	ministro	ncms000	ncms000	recursive=no|theme=yes|main=no	9	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	Defensa	Defensa	np00000	np00000	recursive=no|theme=yes|main=no	3	pobj
+5	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
+6	Federico	Federico	np0000l	np0000l	recursive=no|theme=yes|main=no	2	appos
+7	Trillo	trillar	np0000l	np0000l	recursive=no|theme=yes|main=no	6	appos
 8	,	,	fc	fc	recursive=no|theme=no|main=no	9	punct
 9	entregó	entregar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 10	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	9	advmod

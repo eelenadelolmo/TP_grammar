@@ -5,9 +5,9 @@
 5	FC	FC	np00000	np00000	recursive=no|theme=no|main=no	4	pobj
 6	BARCELONA	Barcelona	np00000	np00000	recursive=no|theme=no|main=no	5	appos
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	FC	fc	y	y	recursive=yes|theme=yes|main=no	5	nsubj
-3	Barcelona	Barcelona	np00000	np00000	recursive=no|theme=no|main=no	2	dep
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	FC	fc	y	y	recursive=no|theme=yes|main=no	5	nsubj
+3	Barcelona	Barcelona	np00000	np00000	recursive=no|theme=yes|main=no	2	dep
 4	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	5	reflec
 5	impuso	imponer	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	14	coord
 6	al	al	spcms	spcms	recursive=no|theme=no|main=no	5	oobj
@@ -37,7 +37,7 @@
 30	equipo	equipo	ncms000	ncms000	recursive=no|theme=no|main=no	29	pobj
 31	andaluz	andaluz	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	30	amod
 32	,	,	fc	fc	recursive=no|theme=no|main=no	35	punct
-33	donde	donde	pr000000	pr000000	recursive=yes|theme=yes|main=no	35	nsubj
+33	donde	donde	pr000000	pr000000	recursive=no|theme=yes|main=no	35	nsubj
 34	también	también	rg	rg	recursive=no|theme=no|main=no	36	advmod
 35	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	28	rcmod
 36	cosechado	cosechar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	35	vobj
@@ -48,13 +48,13 @@
 41	derrotas	derrota	ncfp000	ncfp000	recursive=no|theme=no|main=no	39	coord
 42	.	.	fp	fp	recursive=no|theme=no|main=no	14	punct
 
-1	Patrick	Patrick	np0000l	np0000l	recursive=yes|theme=yes|main=no	3	nsubj
-2	Kluivert	Kluivert	np0000l	np0000l	recursive=no|theme=no|main=no	1	appos
+1	Patrick	Patrick	np0000l	np0000l	recursive=no|theme=yes|main=no	3	nsubj
+2	Kluivert	Kluivert	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
 3	convirtió	convertir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	14	coord
 4	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
 5	polémico	polémico	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	6	amod
 6	penalti	penalti	ncms000	ncms000	recursive=no|theme=no|main=no	3	dobj
-7	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	8	nsubj
+7	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	8	nsubj
 8	dio	dar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	6	rcmod
 9	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	10	det
 10	triunfo	triunfo	ncms000	ncms000	recursive=no|theme=no|main=no	8	dobj
@@ -67,15 +67,15 @@
 17	diez	diez	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	18	det
 18	dianas	diana	ncfp000	ncfp000	recursive=no|theme=no|main=no	16	dobj
 19	en	en	sps00	sps00	recursive=no|theme=no|main=no	16	prepv
-20	lo	el	da0ns0	da0ns0	recursive=no|theme=no|main=no	21	det
-21	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	22	nsubj
+20	lo	el	da0ns0	da0ns0	recursive=no|theme=yes|main=no	21	det
+21	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	22	nsubj
 22	va	ir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	19	rcmod
 23	de	de	sps00	sps00	recursive=no|theme=no|main=no	22	prepv
 24	Liga	Liga	np00000	np00000	recursive=no|theme=no|main=no	23	pobj
 25	.	.	fp	fp	recursive=no|theme=no|main=no	14	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	Málaga	Málaga	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	Málaga	Málaga	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 3	volvió	volver	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	a	a	sps00	sps00	recursive=no|theme=no|main=no	3	prepv
 5	sentir	sentir	vmn0000	vmn0000	recursive=no|theme=no|main=no	3	dobj

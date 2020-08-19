@@ -1,21 +1,21 @@
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	venezolano	venezolano	ncms000	ncms000	recursive=yes|theme=yes|main=no	19	nsubj
-3	Noél	Noél	np0000l	np0000l	recursive=no|theme=no|main=no	2	appos
-4	Arambulet	Arambulet	np0000l	np0000l	recursive=no|theme=no|main=no	3	appos
-5	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
-6	campeón	campeón	ncms000	ncms000	recursive=no|theme=no|main=no	2	appos
-7	mundial	mundial	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	6	amod
-8	mínimo	mínimo	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	6	amod
-9	de	de	sps00	sps00	recursive=no|theme=no|main=no	6	prepn
-10	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	11	det
-11	Asociación	Asociación	ncms000	ncms000	recursive=no|theme=no|main=no	9	pobj
-12	Mundial	mundial	ncms000	ncms000	recursive=no|theme=no|main=no	11	appos
-13	de	de	sps00	sps00	recursive=no|theme=no|main=no	11	prepn
-14	Boxeo	boxeo	ncms000	ncms000	recursive=no|theme=no|main=no	13	pobj
-15	(	(	fpa	fpa	recursive=no|theme=no|main=no	16	punct
-16	AMB	AMB	np00000	np00000	recursive=no|theme=no|main=no	11	appos
-17	)	)	fpt	fpt	recursive=no|theme=no|main=no	16	punct
-18	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	venezolano	venezolano	ncms000	ncms000	recursive=no|theme=yes|main=no	19	nsubj
+3	Noél	Noél	np0000l	np0000l	recursive=no|theme=yes|main=no	2	appos
+4	Arambulet	Arambulet	np0000l	np0000l	recursive=no|theme=yes|main=no	3	appos
+5	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
+6	campeón	campeón	ncms000	ncms000	recursive=no|theme=yes|main=no	2	appos
+7	mundial	mundial	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	6	amod
+8	mínimo	mínimo	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	6	amod
+9	de	de	sps00	sps00	recursive=no|theme=yes|main=no	6	prepn
+10	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	11	det
+11	Asociación	Asociación	ncms000	ncms000	recursive=no|theme=yes|main=no	9	pobj
+12	Mundial	mundial	ncms000	ncms000	recursive=no|theme=yes|main=no	11	appos
+13	de	de	sps00	sps00	recursive=no|theme=yes|main=no	11	prepn
+14	Boxeo	boxeo	ncms000	ncms000	recursive=no|theme=yes|main=no	13	pobj
+15	(	(	fpa	fpa	recursive=no|theme=yes|main=no	16	punct
+16	AMB	AMB	np00000	np00000	recursive=no|theme=yes|main=no	11	appos
+17	)	)	fpt	fpt	recursive=no|theme=yes|main=no	16	punct
+18	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
 19	comenzó	comenzar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	39	dobj
 20	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	21	det
 21	etapa	etapa	ncfs000	ncfs000	recursive=no|theme=no|main=no	19	dobj
@@ -43,7 +43,7 @@
 43	local	local	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	42	amod
 44	.	.	fp	fp	recursive=no|theme=no|main=no	39	punct
 
-1	Arambulet	Arambulet	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Arambulet	Arambulet	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 2	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	3	reflec
 3	prepara	preparar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	en	en	sps00	sps00	recursive=no|theme=no|main=no	3	prepv
@@ -64,7 +64,7 @@
 19	a	a	sps00	sps00	recursive=no|theme=no|main=no	18	prep
 20	Gamboa	Gamboa	np00000	np00000	recursive=no|theme=no|main=no	19	pobj
 21	,	,	fc	fc	recursive=no|theme=no|main=no	17	punct
-22	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	24	nsubj
+22	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	24	nsubj
 23	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	24	reflec
 24	celebrará	celebrar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	17	rcmod
 25	en	en	sps00	sps00	recursive=no|theme=no|main=no	24	prepv
@@ -104,7 +104,7 @@
 27	mundial	mundial	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	26	amod
 28	.	.	fp	fp	recursive=no|theme=no|main=no	24	punct
 
-1	Arambulet	Arambulet	np00000	np00000	recursive=yes|theme=yes|main=no	10	nsubj
+1	Arambulet	Arambulet	np00000	np00000	recursive=no|theme=yes|main=no	10	nsubj
 2	,	,	fc	fc	recursive=no|theme=no|main=no	10	punct
 3	tras	tras	sps00	sps00	recursive=no|theme=no|main=no	10	prepv
 4	culminar	culminar	vmn0000	vmn0000	recursive=no|theme=no|main=no	3	pobj
@@ -145,8 +145,8 @@
 39	mundial	mundial	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	38	amod
 40	.	.	fp	fp	recursive=no|theme=no|main=no	10	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	venezolano	venezolano	ncms000	ncms000	recursive=yes|theme=yes|main=no	5	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	venezolano	venezolano	ncms000	ncms000	recursive=no|theme=yes|main=no	5	nsubj
 3	,	,	fc	fc	recursive=no|theme=no|main=no	5	punct
 4	ya	ya	rg	rg	recursive=no|theme=no|main=no	5	advmod
 5	derrotó	derrotar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root

@@ -1,5 +1,5 @@
 1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	3	det
-2	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	3	nsubj
+2	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	3	nsubj
 3	están	estar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	32	rcmod
 4	contra	contra	sps00	sps00	recursive=no|theme=no|main=no	3	prepv
 5	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	6	det
@@ -42,8 +42,8 @@
 42	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	43	det
 43	madrugada	madrugada	ncfs000	ncfs000	recursive=no|theme=no|main=no	41	pobj
 44	,	,	fc	fc	recursive=no|theme=no|main=no	36	punct
-45	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	46	det
-46	Opel	Opel	np00000	np00000	recursive=yes|theme=yes|main=no	48	nsubj
+45	un	uno	di0ms0	di0ms0	recursive=no|theme=yes|main=no	46	det
+46	Opel	Opel	np00000	np00000	recursive=no|theme=yes|main=no	48	nsubj
 47	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	48	reflec
 48	llevó	llevar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	32	cobj
 49	por	por	sps00	sps00	recursive=no|theme=no|main=no	48	prepv
@@ -51,7 +51,7 @@
 51	a	a	sps00	sps00	recursive=no|theme=no|main=no	48	dobj
 52	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	53	det
 53	individuo	individuo	ncms000	ncms000	recursive=no|theme=no|main=no	51	pobj
-54	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	55	nsubj
+54	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	55	nsubj
 55	cruzaba	cruzar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	53	rcmod
 56	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	57	det
 57	Ronda	Ronda	np0000l	np0000l	recursive=no|theme=no|main=no	55	dobj
@@ -65,11 +65,11 @@
 65	,	,	fc	fc	recursive=no|theme=no|main=no	62	punct
 66	donde	donde	pr000000	pr000000	recursive=no|theme=no|main=no	67	dobj
 67	anida	anidar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	62	rcmod
-68	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	69	det
-69	droga	droga	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	67	nsubj
-70	esperando	esperar	vmg0000	vmg0000	recursive=no|theme=no|main=no	69	advcl
-71	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	72	poss
-72	erradicación	erradicación	ncfs000	ncfs000	recursive=no|theme=no|main=no	70	appos
+68	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	69	det
+69	droga	droga	ncfs000	ncfs000	recursive=no|theme=yes|main=no	67	nsubj
+70	esperando	esperar	vmg0000	vmg0000	recursive=no|theme=yes|main=no	69	advcl
+71	su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	72	poss
+72	erradicación	erradicación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	70	appos
 73	.	.	fp	fp	recursive=no|theme=no|main=no	31	punct
 
 1	Indocumentado	indocumentado	aq0msp	aq0msp	recursive=no|theme=no|main=no	2	coord
@@ -141,7 +141,7 @@
 5	?	?	fit	fit	recursive=no|theme=no|main=no	4	punct
 
 1	Porque	porque	cs	cs	recursive=no|theme=no|main=no	0	root
-2	aquello	aquel	pd0ns000	pd0ns000	recursive=yes|theme=yes|main=no	3	nsubj
+2	aquello	aquel	pd0ns000	pd0ns000	recursive=no|theme=yes|main=no	3	nsubj
 3	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	1	cobj
 4	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	5	det
 5	vía	vía	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	attr
@@ -177,8 +177,8 @@
 3	por	por	sps00	sps00	recursive=no|theme=no|main=no	2	prepv
 4	donde	donde	pr000000	pr000000	recursive=no|theme=no|main=no	5	dobj
 5	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	3	rcmod
-6	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	7	det
-7	cementerio	cementerio	ncms000	ncms000	recursive=yes|theme=yes|main=no	5	nsubj
+6	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	7	det
+7	cementerio	cementerio	ncms000	ncms000	recursive=no|theme=yes|main=no	5	nsubj
 8	,	,	fc	fc	recursive=no|theme=no|main=no	5	punct
 9	por	por	sps00	sps00	recursive=no|theme=no|main=no	5	prepv
 10	debajo	debajo	rg	rg	recursive=no|theme=no|main=no	9	advmod
@@ -212,8 +212,8 @@
 7	protectoras	protector	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	6	amod
 8	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
 9	pero	pero	cc	cc	recursive=no|theme=no|main=no	0	root
-10	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	11	det
-11	coches	coche	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	12	nsubj
+10	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	11	det
+11	coches	coche	ncmp000	ncmp000	recursive=no|theme=yes|main=no	12	nsubj
 12	son	ser	vsip3p0	vsip3p0	recursive=no|theme=no|main=no	14	coord
 13	menos	menos	rg	rg	recursive=no|theme=no|main=no	12	advmod
 14	y	y	cc	cc	recursive=no|theme=no|main=no	9	cobj
@@ -245,7 +245,7 @@
 6	le	él	pp3csd00	pp3csd00	recursive=no|theme=no|main=no	7	iobj
 7	dices	decir	vmip2s0	vmip2s0	recursive=no|theme=no|main=no	5	cobj
 8	al	al	spcms	spcms	recursive=no|theme=no|main=no	7	iobj
-9	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	10	nsubj
+9	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	10	nsubj
 10	pregunta	preguntar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	8	rcmod
 11	eso	ese	pd0ns000	pd0ns000	recursive=no|theme=no|main=no	10	dobj
 12	:	:	fd	fd	recursive=no|theme=no|main=no	4	punct
@@ -255,7 +255,7 @@
 16	si	si	cs	cs	recursive=no|theme=no|main=no	15	cobj
 17	hubiera	haber	vasi3s0	vasi3s0	recursive=no|theme=no|main=no	16	cobj
 18	sido	ser	vsp00sm	vsp00sm	recursive=no|theme=no|main=no	17	vobj
-19	usted	tú	pp2cs00p	pp2cs00p	recursive=yes|theme=yes|main=no	17	nsubj
+19	usted	tú	pp2cs00p	pp2cs00p	recursive=no|theme=yes|main=no	17	nsubj
 20	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	21	pobj
 21	del	del	spcms	spcms	recursive=no|theme=no|main=no	17	prepv
 22	Opel	Opel	np00000	np00000	recursive=no|theme=no|main=no	21	pobj

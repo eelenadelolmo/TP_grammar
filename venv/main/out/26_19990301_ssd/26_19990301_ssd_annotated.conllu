@@ -1,9 +1,9 @@
 1	Que	que	cs	cs	recursive=no|theme=no|main=no	31	csubj
-2	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	3	det
-3	crisis	crisis	ncfn000	ncfn000	recursive=yes|theme=yes|main=no	7	nsubj
-4	institucional	institucional	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	3	amod
-5	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	prepn
-6	Asturias	Asturias	np00000	np00000	recursive=no|theme=no|main=no	5	pobj
+2	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	3	det
+3	crisis	crisis	ncfn000	ncfn000	recursive=no|theme=yes|main=no	7	nsubj
+4	institucional	institucional	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	3	amod
+5	de	de	sps00	sps00	recursive=no|theme=yes|main=no	3	prepn
+6	Asturias	Asturias	np00000	np00000	recursive=no|theme=yes|main=no	5	pobj
 7	tiene	tener	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	1	cobj
 8	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	9	poss
 9	orígenes	origen	ncmp000	ncmp000	recursive=no|theme=no|main=no	7	dobj
@@ -58,7 +58,7 @@
 3	ser	ser	vsn0000	vsn0000	recursive=no|theme=no|main=no	2	pobj
 4	nombrado	nombrado	aq0msp	aq0msp	recursive=no|theme=no|main=no	3	attr
 5	,	,	fc	fc	recursive=no|theme=no|main=no	7	punct
-6	Alvarez-Cascos	Alvarez-Cascos	np00000	np00000	recursive=yes|theme=yes|main=no	7	nsubj
+6	Alvarez-Cascos	Alvarez-Cascos	np00000	np00000	recursive=no|theme=yes|main=no	7	nsubj
 7	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	0	root
 8	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	9	det
 9	destinatario	destinatario	ncms000	ncms000	recursive=no|theme=no|main=no	7	attr
@@ -93,7 +93,7 @@
 38	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	39	det
 39	Principado	Principado	np00000	np00000	recursive=no|theme=no|main=no	37	pobj
 40	,	,	fc	fc	recursive=no|theme=no|main=no	35	punct
-41	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	43	nsubj
+41	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	43	nsubj
 42	le	él	pp3csd00	pp3csd00	recursive=no|theme=no|main=no	44	iobj
 43	puede	poder	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	35	rcmod
 44	costar	costar	vmn0000	vmn0000	recursive=no|theme=no|main=no	43	dobj

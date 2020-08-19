@@ -67,12 +67,12 @@ class GraphvizCompiler:
 
     def compile(self, code, output_file):
         cmd = [self.command, '-T%s' % self.img_format]
-        print("running command `%s`" % " ".join(cmd))
+        # print("running command `%s`" % " ".join(cmd))
         proc = subprocess.Popen(cmd, stdin=subprocess.PIPE,
             stdout=subprocess.PIPE)
         res = proc.communicate(input=code.encode())[0] # res is bytes (unless
             # univeral_newlines)
-        print("writing %s" % output_file)
+        # print("writing %s" % output_file)
         open(output_file, 'wb').write(res)
 
 
@@ -198,10 +198,11 @@ class ConllFile:
                 if gv_compiler:
                     gv_compiler.compile(code, filename)
                 else:
-                    print("writing %s" % filename)
+                    # print("writing %s" % filename)
                     open(filename, 'w').write(code)
             else:
-                print(code)
+                pass
+                # print(code)
 
     def write_latex(self, output_file, command, include_feats):
         self.read()
@@ -218,12 +219,13 @@ class ConllFile:
             code += sent.convert_to_latex(include_feats) + "\n\n"
         code += "\\end{document}\n"
         if output_file:
-            print("writing %s" % output_file)
+            # print("writing %s" % output_file)
             open(output_file, 'w').write(code)
             if command:
                 subprocess.run([command, output_file], check=True)
         else:
-            print(code)
+            pass
+            # print(code)
 
 
 def parse_args():

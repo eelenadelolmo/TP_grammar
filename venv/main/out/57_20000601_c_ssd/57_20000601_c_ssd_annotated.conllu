@@ -1,5 +1,5 @@
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	CGPJ	CGPJ	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	CGPJ	CGPJ	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 3	rechaza	rechazar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	que	que	cs	cs	recursive=yes|theme=no|main=yes	3	dobj
 5	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	6	reflec
@@ -10,9 +10,9 @@
 10	Rumasa	Rumasa	np00000	np00000	recursive=no|theme=no|main=no	9	pobj
 11	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	Poder	Poder	np00000	np00000	recursive=yes|theme=yes|main=no	4	nsubj
-3	Judicial	judicial	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	2	amod
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	Poder	Poder	np00000	np00000	recursive=no|theme=yes|main=no	4	nsubj
+3	Judicial	judicial	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	2	amod
 4	informó	informar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 5	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	4	advmod
 6	contra	contra	sps00	sps00	recursive=no|theme=no|main=no	4	prepv
@@ -21,7 +21,7 @@
 9	del	del	spcms	spcms	recursive=no|theme=no|main=no	8	prepn
 10	empresario	empresario	ncms000	ncms000	recursive=no|theme=no|main=no	9	pobj
 11	,	,	fc	fc	recursive=no|theme=no|main=no	10	punct
-12	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	13	nsubj
+12	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	13	nsubj
 13	reclama	reclamar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	10	rcmod
 14	100.000	100000	z	z	recursive=no|theme=no|main=no	15	num
 15	millones	millón	ncmp000	ncmp000	recursive=no|theme=no|main=no	13	dobj
@@ -36,11 +36,11 @@
 24	Rumasa	Rumasa	np00000	np00000	recursive=no|theme=no|main=no	23	appos
 25	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	CGPJ	CGPJ	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	CGPJ	CGPJ	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 3	argumenta	argumentar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	que	que	cs	cs	recursive=yes|theme=no|main=yes	3	dobj
-5	Ruiz-Mateos	Ruiz-Mateos	np00000	np00000	recursive=yes|theme=yes|main=no	6	nsubj
+5	Ruiz-Mateos	Ruiz-Mateos	np00000	np00000	recursive=no|theme=yes|main=no	6	nsubj
 6	contribuyó	contribuir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	4	cobj
 7	al	al	spcms	spcms	recursive=no|theme=no|main=no	6	oobj
 8	retraso	retraso	ncms000	ncms000	recursive=no|theme=no|main=no	7	pobj

@@ -1,11 +1,11 @@
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	soprano	soprano	nccs000	nccs000	recursive=yes|theme=yes|main=no	4	nsubj
-3	catalana	catalán	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	2	amod
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	soprano	soprano	nccs000	nccs000	recursive=no|theme=yes|main=no	4	nsubj
+3	catalana	catalán	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	2	amod
 4	abandonó	abandonar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 5	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	4	advmod
 6	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	7	det
 7	clínica	clínica	ncfs000	ncfs000	recursive=no|theme=no|main=no	4	dobj
-8	donde	donde	pr000000	pr000000	recursive=yes|theme=yes|main=no	9	nsubj
+8	donde	donde	pr000000	pr000000	recursive=no|theme=yes|main=no	9	nsubj
 9	había	haber	vaii3s0	vaii3s0	recursive=no|theme=no|main=no	7	rcmod
 10	ingresado	ingresar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	9	vobj
 11	de	de	sps00	sps00	recursive=no|theme=no|main=no	10	prepv
@@ -20,11 +20,11 @@
 20	aguda	agudo	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	19	amod
 21	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	tratamiento	tratamiento	ncms000	ncms000	recursive=yes|theme=yes|main=no	7	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	esta	este	dd0fs0	dd0fs0	recursive=no|theme=no|main=no	5	det
-5	dolencia	dolencia	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	tratamiento	tratamiento	ncms000	ncms000	recursive=no|theme=yes|main=no	7	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	esta	este	dd0fs0	dd0fs0	recursive=no|theme=yes|main=no	5	det
+5	dolencia	dolencia	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	pobj
 6	le	él	pp3csd00	pp3csd00	recursive=no|theme=no|main=no	7	iobj
 7	obligó	obligar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 8	a	a	sps00	sps00	recursive=no|theme=no|main=no	7	oobj
@@ -43,13 +43,13 @@
 21	Landau	Landau	np00000	np00000	recursive=no|theme=no|main=no	20	pobj
 22	.	.	fp	fp	recursive=no|theme=no|main=no	7	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	gala	gala	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	8	nsubj
-3	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
-4	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-5	carácter	carácter	ncms000	ncms000	recursive=no|theme=no|main=no	4	pobj
-6	benéfico	benéfico	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	5	amod
-7	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	gala	gala	ncfs000	ncfs000	recursive=no|theme=yes|main=no	8	nsubj
+3	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
+4	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+5	carácter	carácter	ncms000	ncms000	recursive=no|theme=yes|main=no	4	pobj
+6	benéfico	benéfico	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	5	amod
+7	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
 8	tenía	tener	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	0	root
 9	como	como	cs	cs	recursive=no|theme=no|main=no	8	cpred
 10	fin	fin	ncms000	ncms000	recursive=no|theme=no|main=no	9	cobj

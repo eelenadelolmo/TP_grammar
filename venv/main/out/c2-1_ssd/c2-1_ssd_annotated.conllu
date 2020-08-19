@@ -1,8 +1,8 @@
-1	Una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	2	det
-2	señora	señora	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	6	nsubj
-3	como	como	cs	cs	recursive=no|theme=no|main=no	2	advmod
-4	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	3	cobj
-5	debido	debido	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	4	attr
+1	Una	uno	di0fs0	di0fs0	recursive=no|theme=yes|main=no	2	det
+2	señora	señora	ncfs000	ncfs000	recursive=no|theme=yes|main=no	6	nsubj
+3	como	como	cs	cs	recursive=no|theme=yes|main=no	2	advmod
+4	es	ser	vsip3s0	vsip3s0	recursive=no|theme=yes|main=no	3	cobj
+5	debido	debido	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	4	attr
 6	diría	decir	vmic3s0	vmic3s0	recursive=no|theme=no|main=no	0	root
 7	que	que	cs	cs	recursive=yes|theme=no|main=yes	6	dobj
 8	,	,	fc	fc	recursive=no|theme=no|main=no	15	punct
@@ -10,8 +10,8 @@
 10	o	o	cc	cc	recursive=no|theme=no|main=no	15	advmod
 11	menos	menos	rg	rg	recursive=no|theme=no|main=no	10	advmod
 12	,	,	fc	fc	recursive=no|theme=no|main=no	15	punct
-13	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	14	det
-14	tres	tres	pn0cp000	pn0cp000	recursive=yes|theme=yes|main=no	15	nsubj
+13	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	14	det
+14	tres	tres	pn0cp000	pn0cp000	recursive=no|theme=yes|main=no	15	nsubj
 15	son	ser	vsip3p0	vsip3p0	recursive=no|theme=no|main=no	18	coord
 16	unos	uno	di0mp0	di0mp0	recursive=no|theme=no|main=no	17	det
 17	ineducados	ineducado	aq0mpp	aq0mpp	recursive=no|theme=no|main=no	18	coord
@@ -24,7 +24,7 @@
 2	de	de	sps00	sps00	recursive=no|theme=no|main=no	1	prepa
 3	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	4	det
 4	civilización	civilización	ncfs000	ncfs000	recursive=no|theme=no|main=no	2	pobj
-5	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	7	nsubj
+5	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	7	nsubj
 6	les	él	pp3cpa00	pp3cpa00	recursive=no|theme=no|main=no	7	dobj
 7	cobija	cobijar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	4	rcmod
 8	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
@@ -60,8 +60,8 @@
 24	más	más	rg	rg	recursive=no|theme=no|main=no	23	advmod
 25	.	.	fp	fp	recursive=no|theme=no|main=no	18	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	Iglesia	Iglesia	np0000o	np0000o	recursive=yes|theme=yes|main=no	3	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	Iglesia	Iglesia	np0000o	np0000o	recursive=no|theme=yes|main=no	3	nsubj
 3	habla	hablar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	del	del	spcms	spcms	recursive=no|theme=no|main=no	3	oobj
 5	problema	problema	ncms000	ncms000	recursive=no|theme=no|main=no	4	pobj
@@ -104,7 +104,7 @@
 
 1	Derribar	derribar	vmn0000	vmn0000	recursive=no|theme=no|main=no	6	cobj
 2	papeleras	papelera	ncfp000	ncfp000	recursive=no|theme=no|main=no	1	dobj
-3	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	4	nsubj
+3	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	4	nsubj
 4	son	ser	vsip3p0	vsip3p0	recursive=no|theme=no|main=no	2	rcmod
 5	cortesía	cortesía	ncfs000	ncfs000	recursive=no|theme=no|main=no	4	attr
 6	y	y	cc	cc	recursive=no|theme=no|main=no	16	csubj
@@ -146,8 +146,8 @@
 20	sistema	sistema	ncms000	ncms000	recursive=no|theme=no|main=no	18	pobj
 21	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	papelera	papelera	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	papelera	papelera	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	nsubj
 3	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 4	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	5	det
 5	dama	dama	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	attr
@@ -170,8 +170,8 @@
 8	conjunto	conjunto	ncms000	ncms000	recursive=no|theme=no|main=no	6	dobj
 9	?	?	fit	fit	recursive=no|theme=no|main=no	4	punct
 
-1	Rosa	Rosa	np0000l	np0000l	recursive=yes|theme=yes|main=no	3	nsubj
-2	Regás	Regás	np0000l	np0000l	recursive=no|theme=no|main=no	1	appos
+1	Rosa	Rosa	np0000l	np0000l	recursive=no|theme=yes|main=no	3	nsubj
+2	Regás	Regás	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
 3	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	ligada	ligado	aq0fsp	aq0fsp	recursive=no|theme=no|main=no	3	attr
 5	a	a	sps00	sps00	recursive=no|theme=no|main=no	4	oobj

@@ -1,9 +1,9 @@
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	presidencia	presidencia	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	7	nsubj
-3	francesa	francés	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	2	amod
-4	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-5	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	6	det
-6	UE	UE	np0000o	np0000o	recursive=no|theme=no|main=no	4	pobj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	presidencia	presidencia	ncfs000	ncfs000	recursive=no|theme=yes|main=no	7	nsubj
+3	francesa	francés	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	2	amod
+4	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+5	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	6	det
+6	UE	UE	np0000o	np0000o	recursive=no|theme=yes|main=no	4	pobj
 7	espera	esperar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 8	que	que	cs	cs	recursive=yes|theme=no|main=yes	7	dobj
 9	España	España	np0000o	np0000o	recursive=no|theme=no|main=no	10	coord
@@ -12,7 +12,7 @@
 12	levanten	levantar	vmsp3p0	vmsp3p0	recursive=no|theme=no|main=no	10	coord
 13	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	14	det
 14	semana	semana	ncfs000	ncfs000	recursive=no|theme=no|main=no	12	tmod
-15	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	16	nsubj
+15	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	16	nsubj
 16	viene	venir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	14	rcmod
 17	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	18	poss
 18	reservas	reserva	ncfp000	ncfp000	recursive=no|theme=no|main=no	12	dobj
@@ -27,7 +27,7 @@
 27	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	28	det
 28	directiva	directiva	ncfs000	ncfs000	recursive=no|theme=no|main=no	26	pobj
 29	comunitaria	comunitario	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	28	amod
-30	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	31	nsubj
+30	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	31	nsubj
 31	obliga	obligar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	28	rcmod
 32	a	a	sps00	sps00	recursive=no|theme=no|main=no	31	oobj
 33	denunciar	denunciar	vmn0000	vmn0000	recursive=no|theme=no|main=no	32	pobj
@@ -39,18 +39,18 @@
 39	dinero	dinero	ncms000	ncms000	recursive=no|theme=no|main=no	38	pobj
 40	.	.	fp	fp	recursive=no|theme=no|main=no	7	punct
 
-1	Fuentes	fuente	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	3	nsubj
-2	diplomáticas	diplomático	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	1	amod
+1	Fuentes	fuente	ncfp000	ncfp000	recursive=no|theme=yes|main=no	3	nsubj
+2	diplomáticas	diplomático	aq0fp0	aq0fp0	recursive=no|theme=yes|main=no	1	amod
 3	indicaron	indicar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 4	hoy	hoy	rg	rg	recursive=no|theme=no|main=no	3	advmod
 5	,	,	fc	fc	recursive=no|theme=no|main=no	4	punct
 6	viernes	viernes	ncms000	ncms000	recursive=no|theme=no|main=no	4	dep
 7	,	,	fc	fc	recursive=no|theme=no|main=no	4	punct
 8	que	que	cs	cs	recursive=yes|theme=no|main=yes	3	dobj
-9	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	10	det
-10	presidencia	presidencia	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	14	nsubj
-11	de	de	sps00	sps00	recursive=no|theme=no|main=no	10	prepn
-12	turno	turno	ncms000	ncms000	recursive=no|theme=no|main=no	11	pobj
+9	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	10	det
+10	presidencia	presidencia	ncfs000	ncfs000	recursive=no|theme=yes|main=no	14	nsubj
+11	de	de	sps00	sps00	recursive=no|theme=yes|main=no	10	prepn
+12	turno	turno	ncms000	ncms000	recursive=no|theme=yes|main=no	11	pobj
 13	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	14	punct
 14	presionará	presionar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	8	cobj
 15	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	14	punct
@@ -83,9 +83,9 @@
 42	revisada	revisado	aq0fsp	aq0fsp	recursive=no|theme=no|main=no	41	amod
 43	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	España	España	np0000o	np0000o	recursive=no|theme=no|main=no	2	coord
-2	y	y	cc	cc	recursive=yes|theme=yes|main=no	4	nsubj
-3	Portugal	Portugal	np0000o	np0000o	recursive=no|theme=no|main=no	2	coord
+1	España	España	np0000o	np0000o	recursive=no|theme=yes|main=no	2	coord
+2	y	y	cc	cc	recursive=no|theme=yes|main=no	4	nsubj
+3	Portugal	Portugal	np0000o	np0000o	recursive=no|theme=yes|main=no	2	coord
 4	emitieron	emitir	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 5	en	en	sps00	sps00	recursive=no|theme=no|main=no	4	prepv
 6	julio	julio	ncms000	ncms000	recursive=no|theme=no|main=no	5	pobj
@@ -106,8 +106,8 @@
 21	1991	1991	z	z	recursive=no|theme=no|main=no	20	pobj
 22	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	Sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	2	poss
-2	objeciones	objeción	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	4	nsubj
+1	Sus	su	dp3cp0	dp3cp0	recursive=no|theme=yes|main=no	2	poss
+2	objeciones	objeción	ncfp000	ncfp000	recursive=no|theme=yes|main=no	4	nsubj
 3	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	4	reflec
 4	centran	centrar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
 5	en	en	sps00	sps00	recursive=no|theme=no|main=no	4	oobj
@@ -131,15 +131,15 @@
 23	cualquier	cualquiera	di0cs0	di0cs0	recursive=no|theme=no|main=no	24	det
 24	operación	operación	ncfs000	ncfs000	recursive=no|theme=no|main=no	22	dobj
 25	sospechosa	sospechoso	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	24	amod
-26	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	27	nsubj
+26	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	27	nsubj
 27	llegue	llegar	vmsp3s0	vmsp3s0	recursive=no|theme=no|main=no	24	rcmod
 28	a	a	sps00	sps00	recursive=no|theme=no|main=no	27	prepv
 29	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	30	poss
 30	conocimiento	conocimiento	ncms000	ncms000	recursive=no|theme=no|main=no	28	pobj
 31	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	Las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	2	det
-2	reservas	reserva	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	2	det
+2	reservas	reserva	ncfp000	ncfp000	recursive=no|theme=yes|main=no	3	nsubj
 3	tienen	tener	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
 4	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	5	poss
 5	origen	origen	ncms000	ncms000	recursive=no|theme=no|main=no	3	dobj
@@ -156,10 +156,10 @@
 
 1	Mientras	mientras	cs	cs	recursive=no|theme=no|main=no	22	advcl
 2	que	que	cs	cs	recursive=no|theme=no|main=no	1	conj
-3	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	4	det
-4	responsables	responsable	nccp000	nccp000	recursive=yes|theme=yes|main=no	7	nsubj
-5	de	de	sps00	sps00	recursive=no|theme=no|main=no	4	prepn
-6	Hacienda	Hacienda	np0000o	np0000o	recursive=no|theme=no|main=no	5	pobj
+3	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	4	det
+4	responsables	responsable	nccp000	nccp000	recursive=no|theme=yes|main=no	7	nsubj
+5	de	de	sps00	sps00	recursive=no|theme=yes|main=no	4	prepn
+6	Hacienda	Hacienda	np0000o	np0000o	recursive=no|theme=yes|main=no	5	pobj
 7	serían	ser	vsic3p0	vsic3p0	recursive=no|theme=no|main=no	2	cobj
 8	favorables	favorable	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	7	attr
 9	a	a	sps00	sps00	recursive=no|theme=no|main=no	8	prepa
@@ -169,10 +169,10 @@
 13	esas	ese	dd0fp0	dd0fp0	recursive=no|theme=no|main=no	14	det
 14	profesiones	profesión	ncfp000	ncfp000	recursive=no|theme=no|main=no	12	pobj
 15	,	,	fc	fc	recursive=no|theme=no|main=no	22	punct
-16	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	17	poss
-17	colegas	colega	nccp000	nccp000	recursive=yes|theme=yes|main=no	22	nsubj
-18	de	de	sps00	sps00	recursive=no|theme=no|main=no	17	prepn
-19	Justicia	Justicia	np0000o	np0000o	recursive=no|theme=no|main=no	18	pobj
+16	sus	su	dp3cp0	dp3cp0	recursive=no|theme=yes|main=no	17	poss
+17	colegas	colega	nccp000	nccp000	recursive=no|theme=yes|main=no	22	nsubj
+18	de	de	sps00	sps00	recursive=no|theme=yes|main=no	17	prepn
+19	Justicia	Justicia	np0000o	np0000o	recursive=no|theme=yes|main=no	18	pobj
 20	no	no	rn	rn	recursive=no|theme=no|main=no	22	neg
 21	lo	él	pp3msa00	pp3msa00	recursive=no|theme=no|main=no	22	dobj
 22	verían	ver	vmic3p0	vmic3p0	recursive=no|theme=no|main=no	0	root
@@ -193,7 +193,7 @@
 10	minoría	minoría	ncfs000	ncfs000	recursive=no|theme=no|main=no	8	nsubj
 11	de	de	sps00	sps00	recursive=no|theme=no|main=no	10	prepn
 12	bloqueo	bloqueo	ncms000	ncms000	recursive=no|theme=no|main=no	11	pobj
-13	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	15	nsubj
+13	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	15	nsubj
 14	actualmente	actualmente	rg	rg	recursive=no|theme=no|main=no	15	advmod
 15	impide	impedir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	10	rcmod
 16	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	17	det
@@ -224,16 +224,16 @@
 19	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	20	det
 20	diplomático	diplomático	ncms000	ncms000	recursive=no|theme=no|main=no	18	nsubj
 21	,	,	fc	fc	recursive=no|theme=no|main=no	20	punct
-22	quien	quien	pr0cs000	pr0cs000	recursive=yes|theme=yes|main=no	23	nsubj
+22	quien	quien	pr0cs000	pr0cs000	recursive=no|theme=yes|main=no	23	nsubj
 23	explicó	explicar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	20	rcmod
 24	que	que	cs	cs	recursive=yes|theme=no|main=yes	23	dobj
-25	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	27	det
-26	últimas	último	ao0fp0	ao0fp0	recursive=no|theme=no|main=no	27	amod
-27	modificaciones	modificación	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	32	nsubj
-28	introducidas	introducido	aq0fpp	aq0fpp	recursive=no|theme=no|main=no	27	amod
-29	en	en	sps00	sps00	recursive=no|theme=no|main=no	28	prepa
-30	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	31	det
-31	borrador	borrador	ncms000	ncms000	recursive=no|theme=no|main=no	29	pobj
+25	las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	27	det
+26	últimas	último	ao0fp0	ao0fp0	recursive=no|theme=yes|main=no	27	amod
+27	modificaciones	modificación	ncfp000	ncfp000	recursive=no|theme=yes|main=no	32	nsubj
+28	introducidas	introducido	aq0fpp	aq0fpp	recursive=no|theme=yes|main=no	27	amod
+29	en	en	sps00	sps00	recursive=no|theme=yes|main=no	28	prepa
+30	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	31	det
+31	borrador	borrador	ncms000	ncms000	recursive=no|theme=yes|main=no	29	pobj
 32	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	24	cobj
 33	satisfecho	satisfacer	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	32	vobj
 34	ya	ya	rg	rg	recursive=no|theme=no|main=no	32	advmod
@@ -245,9 +245,9 @@
 40	Holanda	Holanda	np0000o	np0000o	recursive=no|theme=no|main=no	37	appos
 41	.	.	fp	fp	recursive=no|theme=no|main=no	18	punct
 
-1	Alemania	Alemania	np0000o	np0000o	recursive=no|theme=no|main=no	2	coord
-2	y	y	cc	cc	recursive=yes|theme=yes|main=no	9	nsubj
-3	Austria	Austria	np0000o	np0000o	recursive=no|theme=no|main=no	2	coord
+1	Alemania	Alemania	np0000o	np0000o	recursive=no|theme=yes|main=no	2	coord
+2	y	y	cc	cc	recursive=no|theme=yes|main=no	9	nsubj
+3	Austria	Austria	np0000o	np0000o	recursive=no|theme=yes|main=no	2	coord
 4	,	,	fc	fc	recursive=no|theme=no|main=no	9	punct
 5	por	por	sps00	sps00	recursive=no|theme=no|main=no	9	advmod
 6	el	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	7	det
@@ -278,9 +278,9 @@
 31	Constituciones	Constituciones	np0000a	np0000a	recursive=no|theme=no|main=no	29	pobj
 32	.	.	fp	fp	recursive=no|theme=no|main=no	9	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	3	det
-2	nueva	nuevo	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	3	amod
-3	directiva	directiva	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	3	det
+2	nueva	nuevo	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	3	amod
+3	directiva	directiva	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
 4	pretende	pretender	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 5	extender	extender	vmn0000	vmn0000	recursive=no|theme=no|main=no	4	dobj
 6	a	a	sps00	sps00	recursive=no|theme=no|main=no	5	prepv
@@ -309,12 +309,12 @@
 29	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	31	dobj
 30	ahora	ahora	rg	rg	recursive=no|theme=no|main=no	31	advmod
 31	tienen	tener	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	28	rcmod
-32	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	33	det
-33	instituciones	institución	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	31	nsubj
-34	financieras	financiero	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	35	coord
-35	y	y	cc	cc	recursive=no|theme=no|main=no	33	dep
-36	de	de	sps00	sps00	recursive=no|theme=no|main=no	35	coord
-37	crédito	crédito	ncms000	ncms000	recursive=no|theme=no|main=no	36	pobj
+32	las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	33	det
+33	instituciones	institución	ncfp000	ncfp000	recursive=no|theme=yes|main=no	31	nsubj
+34	financieras	financiero	aq0fp0	aq0fp0	recursive=no|theme=yes|main=no	35	coord
+35	y	y	cc	cc	recursive=no|theme=yes|main=no	33	dep
+36	de	de	sps00	sps00	recursive=no|theme=yes|main=no	35	coord
+37	crédito	crédito	ncms000	ncms000	recursive=no|theme=yes|main=no	36	pobj
 38	en	en	sps00	sps00	recursive=no|theme=no|main=no	28	prepn
 39	relación	relación	ncfs000	ncfs000	recursive=no|theme=no|main=no	38	pobj
 40	con	con	sps00	sps00	recursive=no|theme=no|main=no	39	prepn
@@ -327,8 +327,8 @@
 47	capitales	capital	ncmp000	ncmp000	recursive=no|theme=no|main=no	46	pobj
 48	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	directiva	directiva	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	directiva	directiva	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
 3	les	él	pp3cpd00	pp3cpd00	recursive=no|theme=no|main=no	4	dobj
 4	obliga	obligar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	22	coord
 5	,	,	fc	fc	recursive=no|theme=no|main=no	4	punct
@@ -355,17 +355,17 @@
 26	denunciarlas	denunciar	vmn0000	vmn0000	recursive=no|theme=no|main=no	25	pobj
 27	.	.	fp	fp	recursive=no|theme=no|main=no	22	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	3	det
-2	últimos	último	ao0mp0	ao0mp0	recursive=no|theme=no|main=no	3	amod
-3	borradores	borrador	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	12	nsubj
-4	presentados	presentado	aq0mpp	aq0mpp	recursive=no|theme=no|main=no	3	amod
-5	por	por	sps00	sps00	recursive=no|theme=no|main=no	4	agent
-6	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	7	det
-7	presidencia	presidencia	ncfs000	ncfs000	recursive=no|theme=no|main=no	5	pobj
-8	francesa	francés	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	7	amod
-9	de	de	sps00	sps00	recursive=no|theme=no|main=no	7	prepn
-10	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	11	det
-11	UE	UE	np0000o	np0000o	recursive=no|theme=no|main=no	9	pobj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	3	det
+2	últimos	último	ao0mp0	ao0mp0	recursive=no|theme=yes|main=no	3	amod
+3	borradores	borrador	ncmp000	ncmp000	recursive=no|theme=yes|main=no	12	nsubj
+4	presentados	presentado	aq0mpp	aq0mpp	recursive=no|theme=yes|main=no	3	amod
+5	por	por	sps00	sps00	recursive=no|theme=yes|main=no	4	agent
+6	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	7	det
+7	presidencia	presidencia	ncfs000	ncfs000	recursive=no|theme=yes|main=no	5	pobj
+8	francesa	francés	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	7	amod
+9	de	de	sps00	sps00	recursive=no|theme=yes|main=no	7	prepn
+10	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	11	det
+11	UE	UE	np0000o	np0000o	recursive=no|theme=yes|main=no	9	pobj
 12	distinguen	distinguir	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
 13	,	,	fc	fc	recursive=no|theme=no|main=no	12	punct
 14	por	por	sps00	sps00	recursive=no|theme=no|main=no	12	te
@@ -396,7 +396,7 @@
 39	asistencia	asistencia	ncfs000	ncfs000	recursive=no|theme=no|main=no	38	coord
 40	jurídica	jurídico	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	39	amod
 41	,	,	fc	fc	recursive=no|theme=no|main=no	34	punct
-42	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	43	nsubj
+42	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	43	nsubj
 43	quedarían	quedar	vmic3p0	vmic3p0	recursive=no|theme=no|main=no	34	rcmod
 44	protegidas	protegido	aq0fpp	aq0fpp	recursive=no|theme=no|main=no	43	cpred
 45	,	,	fc	fc	recursive=no|theme=no|main=no	43	punct

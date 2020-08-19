@@ -9,7 +9,7 @@
 9	del	del	spcms	spcms	recursive=no|theme=no|main=no	8	prepn
 10	año	año	ncms000	ncms000	recursive=no|theme=no|main=no	9	pobj
 11	,	,	fc	fc	recursive=no|theme=no|main=no	14	punct
-12	FCC	FCC	np00000	np00000	recursive=yes|theme=yes|main=no	14	nsubj
+12	FCC	FCC	np00000	np00000	recursive=no|theme=yes|main=no	14	nsubj
 13	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	14	reflec
 14	anotó	anotar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 15	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	16	det
@@ -31,8 +31,8 @@
 11	día	día	ncms000	ncms000	recursive=no|theme=no|main=no	6	appos
 12	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	subida	subida	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	subida	subida	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
 3	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	4	reflec
 4	produjo	producir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 5	después	después	rg	rg	recursive=no|theme=no|main=no	4	advmod
@@ -44,7 +44,7 @@
 11	retrocesos	retroceso	ncmp000	ncmp000	recursive=no|theme=no|main=no	10	pobj
 12	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	FCC	FCC	np00000	np00000	recursive=yes|theme=yes|main=no	2	nsubj
+1	FCC	FCC	np00000	np00000	recursive=no|theme=yes|main=no	2	nsubj
 2	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 3	llevado	llevar	vmn0000	vmn0000	recursive=no|theme=no|main=no	2	vobj
 4	a	a	spcms	spcms	recursive=no|theme=no|main=no	3	iobj
@@ -75,11 +75,11 @@
 12	objetivo	objetivo	ncms000	ncms000	recursive=no|theme=no|main=no	10	pobj
 13	de	de	sps00	sps00	recursive=no|theme=no|main=no	12	prepn
 14	que	que	cs	cs	recursive=no|theme=no|main=no	13	pobj
-15	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	16	det
-16	70%	70	z	z	recursive=yes|theme=yes|main=no	20	nsubj
-17	de	de	sps00	sps00	recursive=no|theme=no|main=no	16	prep
-18	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	19	det
-19	facturación	facturación	ncfs000	ncfs000	recursive=no|theme=no|main=no	17	pobj
+15	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	16	det
+16	70%	70	z	z	recursive=no|theme=yes|main=no	20	nsubj
+17	de	de	sps00	sps00	recursive=no|theme=yes|main=no	16	prep
+18	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	19	det
+19	facturación	facturación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	17	pobj
 20	proceda	proceder	vmsp3s0	vmsp3s0	recursive=no|theme=no|main=no	14	cobj
 21	de	de	sps00	sps00	recursive=no|theme=no|main=no	20	oobj
 22	negocios	negocio	ncmp000	ncmp000	recursive=no|theme=no|main=no	21	pobj

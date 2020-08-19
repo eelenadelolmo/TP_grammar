@@ -1,8 +1,8 @@
-1	Mel	Mel	np0000l	np0000l	recursive=no|theme=no|main=no	3	coord
-2	Gibson	Gibson	np0000l	np0000l	recursive=no|theme=no|main=no	1	appos
-3	y	y	cc	cc	recursive=yes|theme=yes|main=no	6	nsubj
-4	Michelle	Michelle	np0000l	np0000l	recursive=no|theme=no|main=no	3	coord
-5	Pfeiffer	Pfeiffer	np0000l	np0000l	recursive=no|theme=no|main=no	4	appos
+1	Mel	Mel	np0000l	np0000l	recursive=no|theme=yes|main=no	3	coord
+2	Gibson	Gibson	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
+3	y	y	cc	cc	recursive=no|theme=yes|main=no	6	nsubj
+4	Michelle	Michelle	np0000l	np0000l	recursive=no|theme=yes|main=no	3	coord
+5	Pfeiffer	Pfeiffer	np0000l	np0000l	recursive=no|theme=yes|main=no	4	appos
 6	protagonizan	protagonizar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
 7	Conexión	Conexión	np0000l	np0000l	recursive=no|theme=no|main=no	6	dobj
 8	Tequila	Tequila	np0000l	np0000l	recursive=no|theme=no|main=no	7	appos
@@ -29,7 +29,7 @@
 29	de	de	sps00	sps00	recursive=no|theme=no|main=no	28	prepn
 30	escenas	escena	ncfp000	ncfp000	recursive=no|theme=no|main=no	29	pobj
 31	amorosas	amoroso	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	30	amod
-32	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	33	nsubj
+32	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	33	nsubj
 33	escandalizaron	escandalizar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	30	rcmod
 34	en	en	sps00	sps00	recursive=no|theme=no|main=no	33	prepv
 35	EEUU	EEUU	np00000	np00000	recursive=no|theme=no|main=no	34	pobj

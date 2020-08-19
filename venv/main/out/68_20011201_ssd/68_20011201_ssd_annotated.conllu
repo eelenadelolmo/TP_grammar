@@ -1,7 +1,7 @@
-1	LAS	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	2	det
-2	AUTORIDADES	autoridad	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	5	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	Agadir	Agadir	np00000	np00000	recursive=no|theme=no|main=no	3	pobj
+1	LAS	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	2	det
+2	AUTORIDADES	autoridad	ncfp000	ncfp000	recursive=no|theme=yes|main=no	5	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	Agadir	Agadir	np00000	np00000	recursive=no|theme=yes|main=no	3	pobj
 5	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	0	root
 6	impuesto	imponer	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	5	vobj
 7	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	8	det
@@ -36,17 +36,17 @@
 36	marroquís	marroquí	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	35	amod
 37	.	.	fp	fp	recursive=no|theme=no|main=no	5	punct
 
-1	Fuentes	fuente	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	4	nsubj
-2	diplomáticas	diplomático	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	1	amod
-3	españolas	español	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	1	amod
+1	Fuentes	fuente	ncfp000	ncfp000	recursive=no|theme=yes|main=no	4	nsubj
+2	diplomáticas	diplomático	aq0fp0	aq0fp0	recursive=no|theme=yes|main=no	1	amod
+3	españolas	español	aq0fp0	aq0fp0	recursive=no|theme=yes|main=no	1	amod
 4	indicaron	indicar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 5	que	que	cs	cs	recursive=yes|theme=no|main=yes	4	dobj
-6	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	7	det
-7	satélites	satélite	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	8	nsubj
+6	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	7	det
+7	satélites	satélite	ncmp000	ncmp000	recursive=no|theme=yes|main=no	8	nsubj
 8	demuestran	demostrar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	9	cobj
 9	que	que	cs	cs	recursive=no|theme=no|main=no	5	cobj
-10	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	11	det
-11	barco	barco	ncms000	ncms000	recursive=yes|theme=yes|main=no	13	nsubj
+10	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	11	det
+11	barco	barco	ncms000	ncms000	recursive=no|theme=yes|main=no	13	nsubj
 12	no	no	rn	rn	recursive=no|theme=no|main=no	13	neg
 13	podía	poder	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	9	cobj
 14	estar	estar	vmn0000	vmn0000	recursive=no|theme=no|main=no	13	dobj

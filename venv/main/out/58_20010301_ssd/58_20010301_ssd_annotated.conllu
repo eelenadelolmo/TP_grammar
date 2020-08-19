@@ -1,6 +1,6 @@
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	decreto	decreto	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
-3	ley	ley	nc00000	nc00000	recursive=no|theme=no|main=no	2	appos
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	decreto	decreto	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
+3	ley	ley	nc00000	nc00000	recursive=no|theme=yes|main=no	2	appos
 4	incluirá	incluir	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	13	coord
 5	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	6	det
 6	indemnización	indemnización	ncfs000	ncfs000	recursive=no|theme=no|main=no	4	dobj
@@ -11,8 +11,8 @@
 11	contratos	contrato	ncmp000	ncmp000	recursive=no|theme=no|main=no	9	pobj
 12	temporales	temporal	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	11	amod
 13	y	y	cc	cc	recursive=no|theme=no|main=no	0	root
-14	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	15	det
-15	indefinidos	indefinido	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	16	nsubj
+14	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	15	det
+15	indefinidos	indefinido	ncmp000	ncmp000	recursive=no|theme=yes|main=no	16	nsubj
 16	disfrutarán	disfrutar	vmif3p0	vmif3p0	recursive=no|theme=no|main=no	13	coord
 17	de	de	sps00	sps00	recursive=no|theme=no|main=no	16	oobj
 18	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	19	det
@@ -63,9 +63,9 @@
 20	,	,	fc	fc	recursive=no|theme=no|main=no	12	punct
 21	como	como	cs	cs	recursive=no|theme=no|main=no	11	cobj
 22	pide	pedir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	21	cobj
-23	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	24	det
-24	Ministerio	ministerio	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	22	nsubj
-25	de	de	sps00	sps00	recursive=no|theme=no|main=no	24	prepn
-26	Economía	Economía	np00000	np00000	recursive=no|theme=no|main=no	25	pobj
+23	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	24	det
+24	Ministerio	ministerio	ncfs000	ncfs000	recursive=no|theme=yes|main=no	22	nsubj
+25	de	de	sps00	sps00	recursive=no|theme=yes|main=no	24	prepn
+26	Economía	Economía	np00000	np00000	recursive=no|theme=yes|main=no	25	pobj
 27	.	.	fp	fp	recursive=no|theme=no|main=no	7	punct
 

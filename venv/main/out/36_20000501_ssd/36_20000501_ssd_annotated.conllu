@@ -5,9 +5,9 @@
 5	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	6	poss
 6	cartas	carta	ncfp000	ncfp000	recursive=no|theme=no|main=no	4	dobj
 7	,	,	fc	fc	recursive=no|theme=no|main=no	12	punct
-8	Alberto	Alberto	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	12	nsubj
-9	Fernández	Fernández	ncms000	ncms000	recursive=no|theme=no|main=no	8	appos
-10	Díaz	Díaz	np00000	np00000	recursive=no|theme=no|main=no	9	appos
+8	Alberto	Alberto	ncfs000	ncfs000	recursive=no|theme=yes|main=no	12	nsubj
+9	Fernández	Fernández	ncms000	ncms000	recursive=no|theme=yes|main=no	8	appos
+10	Díaz	Díaz	np00000	np00000	recursive=no|theme=yes|main=no	9	appos
 11	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	12	reflec
 12	prepara	preparar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 13	para	para	sps00	sps00	recursive=no|theme=no|main=no	12	prepv
@@ -23,8 +23,8 @@
 23	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	24	det
 24	congreso	congreso	ncms000	ncms000	recursive=no|theme=no|main=no	22	pobj
 25	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	28	dobj
-26	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	27	det
-27	partido	partido	ncms000	ncms000	recursive=yes|theme=yes|main=no	28	nsubj
+26	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	27	det
+27	partido	partido	ncms000	ncms000	recursive=no|theme=yes|main=no	28	nsubj
 28	celebrará	celebrar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	24	rcmod
 29	tras	tras	sps00	sps00	recursive=no|theme=no|main=no	28	prepv
 30	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	31	det
@@ -43,8 +43,8 @@
 10	,	,	fc	fc	recursive=no|theme=no|main=no	11	punct
 11	considera	considerar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 12	que	que	cs	cs	recursive=yes|theme=no|main=yes	11	dobj
-13	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	14	det
-14	populares	popular	nccp000	nccp000	recursive=yes|theme=yes|main=no	15	nsubj
+13	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	14	det
+14	populares	popular	nccp000	nccp000	recursive=no|theme=yes|main=no	15	nsubj
 15	deben	deber	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	12	cobj
 16	aspirar	aspirar	vmn0000	vmn0000	recursive=no|theme=no|main=no	15	dobj
 17	a	a	sps00	sps00	recursive=no|theme=no|main=no	16	oobj
@@ -85,8 +85,8 @@
 11	quedado	quedar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	10	vobj
 12	claro	claro	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	11	cpred
 13	que	que	cs	cs	recursive=no|theme=no|main=no	11	csubj
-14	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	15	det
-15	PP	PP	np00000	np00000	recursive=yes|theme=yes|main=no	16	nsubj
+14	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	15	det
+15	PP	PP	np00000	np00000	recursive=no|theme=yes|main=no	16	nsubj
 16	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	13	cobj
 17	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	19	det
 18	único	único	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	19	amod
@@ -98,7 +98,7 @@
 
 1	-	-	fg	fg	recursive=no|theme=no|main=no	4	punct
 2	-	-	fg	fg	recursive=no|theme=no|main=no	4	punct
-3	CiU	CiU	np00000	np00000	recursive=yes|theme=yes|main=no	4	nsubj
+3	CiU	CiU	np00000	np00000	recursive=no|theme=yes|main=no	4	nsubj
 4	puede	poder	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 5	elegir	elegir	vmn0000	vmn0000	recursive=no|theme=no|main=no	4	dobj
 6	,	,	fc	fc	recursive=no|theme=no|main=no	4	punct
@@ -142,19 +142,19 @@
 13	-	-	fg	fg	recursive=no|theme=no|main=no	4	punct
 14	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	Quien	quien	pr0cs000	pr0cs000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Quien	quien	pr0cs000	pr0cs000	recursive=no|theme=yes|main=no	2	nsubj
 2	precisa	precisar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	7	attr
 3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepv
 4	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	5	det
 5	acuerdo	acuerdo	ncms000	ncms000	recursive=no|theme=no|main=no	3	pobj
 6	estable	estable	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	5	amod
 7	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
-8	quien	quien	pr0cs000	pr0cs000	recursive=yes|theme=yes|main=no	9	nsubj
+8	quien	quien	pr0cs000	pr0cs000	recursive=no|theme=yes|main=no	9	nsubj
 9	quiere	querer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	7	attr
 10	gobernar	gobernar	vmn0000	vmn0000	recursive=no|theme=no|main=no	9	cobj
 11	.	.	fp	fp	recursive=no|theme=no|main=no	7	punct
 
-1	Nosotros	yo	pp1mp000	pp1mp000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Nosotros	yo	pp1mp000	pp1mp000	recursive=no|theme=yes|main=no	2	nsubj
 2	reiteramos	reiterar	vmip1p0	vmip1p0	recursive=no|theme=no|main=no	0	root
 3	nuestra	nuestro	dp1fsp	dp1fsp	recursive=no|theme=no|main=no	4	poss
 4	apuesta	apuesta	ncfs000	ncfs000	recursive=no|theme=no|main=no	2	dobj
@@ -181,7 +181,7 @@
 6	PP	PP	np00000	np00000	recursive=no|theme=no|main=no	4	nsubj
 7	a	a	sps00	sps00	recursive=no|theme=no|main=no	4	agent
 8	marcar	marcar	vmn0000	vmn0000	recursive=no|theme=no|main=no	7	pobj
-9	cuál	cuál	pt0cs000	pt0cs000	recursive=yes|theme=yes|main=no	10	nsubj
+9	cuál	cuál	pt0cs000	pt0cs000	recursive=no|theme=yes|main=no	10	nsubj
 10	debe	deber	vmip3s0	vmip3s0	recursive=yes|theme=no|main=yes	8	dobj
 11	ser	ser	vsn0000	vsn0000	recursive=no|theme=no|main=no	10	cobj
 12	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	13	det
@@ -206,10 +206,10 @@
 10	mismo	mismo	di0ms0	di0ms0	recursive=no|theme=no|main=no	9	det
 11	.	.	fp	fp	recursive=no|theme=no|main=no	5	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	objetivo	objetivo	ncms000	ncms000	recursive=yes|theme=yes|main=no	5	nsubj
-3	del	del	spcms	spcms	recursive=no|theme=no|main=no	2	prepn
-4	PP	PP	np00000	np00000	recursive=no|theme=no|main=no	3	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	objetivo	objetivo	ncms000	ncms000	recursive=no|theme=yes|main=no	5	nsubj
+3	del	del	spcms	spcms	recursive=no|theme=yes|main=no	2	prepn
+4	PP	PP	np00000	np00000	recursive=no|theme=yes|main=no	3	pobj
 5	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 6	configurarse	configurar	vmn0000	vmn0000	recursive=no|theme=no|main=no	5	attr
 7	como	como	cs	cs	recursive=no|theme=no|main=no	6	dep
@@ -223,8 +223,8 @@
 15	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	16	det
 16	políticas	política	ncfp000	ncfp000	recursive=no|theme=no|main=no	14	dobj
 17	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	22	dobj
-18	nuestro	nuestro	dp1msp	dp1msp	recursive=no|theme=no|main=no	19	poss
-19	partido	partido	ncms000	ncms000	recursive=yes|theme=yes|main=no	21	nsubj
+18	nuestro	nuestro	dp1msp	dp1msp	recursive=no|theme=yes|main=no	19	poss
+19	partido	partido	ncms000	ncms000	recursive=no|theme=yes|main=no	21	nsubj
 20	ya	ya	rg	rg	recursive=no|theme=no|main=no	22	advmod
 21	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	16	rcmod
 22	hecho	hacer	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	21	vobj
@@ -243,7 +243,7 @@
 5	queremos	querer	vmip1p0	vmip1p0	recursive=no|theme=no|main=no	0	root
 6	conseguir	conseguir	vmn0000	vmn0000	recursive=no|theme=no|main=no	5	dobj
 7	que	que	cs	cs	recursive=yes|theme=no|main=yes	6	dobj
-8	Catalunya	Catalunya	np00000	np00000	recursive=yes|theme=yes|main=no	10	nsubj
+8	Catalunya	Catalunya	np00000	np00000	recursive=no|theme=yes|main=no	10	nsubj
 9	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	10	reflec
 10	gobierne	gobernar	vmsp3s0	vmsp3s0	recursive=no|theme=no|main=no	7	cobj
 11	desde	desde	sps00	sps00	recursive=no|theme=no|main=no	10	prepv
@@ -260,9 +260,9 @@
 22	económicas	económico	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	21	coord
 23	.	.	fp	fp	recursive=no|theme=no|main=no	5	punct
 
-1	Una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	2	det
-2	legislatura	legislatura	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
-3	nacionalista	nacionalista	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	2	amod
+1	Una	uno	di0fs0	di0fs0	recursive=no|theme=yes|main=no	2	det
+2	legislatura	legislatura	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
+3	nacionalista	nacionalista	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	2	amod
 4	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 5	incompatible	incompatible	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	4	attr
 6	con	con	sps00	sps00	recursive=no|theme=no|main=no	5	prepa
@@ -275,11 +275,11 @@
 
 1	-	-	fg	fg	recursive=no|theme=no|main=no	10	punct
 2	-	-	fg	fg	recursive=no|theme=no|main=no	10	punct
-3	Una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	4	det
-4	CiU	CiU	np00000	np00000	recursive=yes|theme=yes|main=no	10	nsubj
-5	enrocada	enrocado	aq0fsp	aq0fsp	recursive=no|theme=no|main=no	4	amod
-6	con	con	sps00	sps00	recursive=no|theme=no|main=no	5	prepa
-7	ERC	ERC	np00000	np00000	recursive=no|theme=no|main=no	6	pobj
+3	Una	uno	di0fs0	di0fs0	recursive=no|theme=yes|main=no	4	det
+4	CiU	CiU	np00000	np00000	recursive=no|theme=yes|main=no	10	nsubj
+5	enrocada	enrocado	aq0fsp	aq0fsp	recursive=no|theme=yes|main=no	4	amod
+6	con	con	sps00	sps00	recursive=no|theme=yes|main=no	5	prepa
+7	ERC	ERC	np00000	np00000	recursive=no|theme=yes|main=no	6	pobj
 8	,	,	fc	fc	recursive=no|theme=no|main=no	10	punct
 9	¿	¿	fia	fia	recursive=no|theme=no|main=no	10	punct
 10	perdería	perder	vmic3s0	vmic3s0	recursive=no|theme=no|main=no	0	root
@@ -295,7 +295,7 @@
 20	-	-	fg	fg	recursive=no|theme=no|main=no	10	punct
 21	.	.	fp	fp	recursive=no|theme=no|main=no	10	punct
 
-1	CiU	CiU	np00000	np00000	recursive=yes|theme=yes|main=no	4	nsubj
+1	CiU	CiU	np00000	np00000	recursive=no|theme=yes|main=no	4	nsubj
 2	no	no	rn	rn	recursive=no|theme=no|main=no	4	neg
 3	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	4	reflec
 4	enrocará	enrocar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	0	root
@@ -308,19 +308,19 @@
 11	sabe	saber	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	10	cobj
 12	que	que	cs	cs	recursive=no|theme=no|main=no	11	conj
 13	sería	ser	vsic3s0	vsic3s0	recursive=no|theme=no|main=no	12	cobj
-14	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	16	poss
-15	propio	propio	di0ms0	di0ms0	recursive=no|theme=no|main=no	16	det
-16	jaque	jaque	ncms000	ncms000	recursive=yes|theme=yes|main=no	17	nsubj
+14	su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	16	poss
+15	propio	propio	di0ms0	di0ms0	recursive=no|theme=yes|main=no	16	det
+16	jaque	jaque	ncms000	ncms000	recursive=no|theme=yes|main=no	17	nsubj
 17	mate	matar	vmsp3s0	vmsp3s0	recursive=no|theme=no|main=no	13	attr
-18	político	político	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	16	amod
+18	político	político	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	16	amod
 19	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
 1	Sabe	saber	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 2	que	que	cs	cs	recursive=yes|theme=no|main=yes	1	dobj
-3	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	4	det
-4	futuro	futuro	ncms000	ncms000	recursive=yes|theme=yes|main=no	7	nsubj
-5	de	de	sps00	sps00	recursive=no|theme=no|main=no	4	prepn
-6	Catalunya	Catalunya	np00000	np00000	recursive=no|theme=no|main=no	5	pobj
+3	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	4	det
+4	futuro	futuro	ncms000	ncms000	recursive=no|theme=yes|main=no	7	nsubj
+5	de	de	sps00	sps00	recursive=no|theme=yes|main=no	4	prepn
+6	Catalunya	Catalunya	np00000	np00000	recursive=no|theme=yes|main=no	5	pobj
 7	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	2	cobj
 8	en	en	sps00	sps00	recursive=no|theme=no|main=no	7	prepv
 9	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	10	det
@@ -348,10 +348,10 @@
 8	CiU	CiU	np00000	np00000	recursive=no|theme=no|main=no	7	pobj
 9	en	en	sps00	sps00	recursive=no|theme=no|main=no	5	prep
 10	que	que	cs	cs	recursive=no|theme=no|main=no	9	pobj
-11	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	12	det
-12	financiación	financiación	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	15	nsubj
-13	para	para	sps00	sps00	recursive=no|theme=no|main=no	12	prepn
-14	Catalunya	Catalunya	np00000	np00000	recursive=no|theme=no|main=no	13	pobj
+11	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	12	det
+12	financiación	financiación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	15	nsubj
+13	para	para	sps00	sps00	recursive=no|theme=yes|main=no	12	prepn
+14	Catalunya	Catalunya	np00000	np00000	recursive=no|theme=yes|main=no	13	pobj
 15	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	10	cobj
 16	insuficiente	insuficiente	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	15	attr
 17	?	?	fit	fit	recursive=no|theme=no|main=no	4	punct
@@ -381,8 +381,8 @@
 3	aspira	aspirar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	a	a	sps00	sps00	recursive=no|theme=no|main=no	3	oobj
 5	que	que	cs	cs	recursive=no|theme=no|main=no	4	pobj
-6	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	7	det
-7	debate	debate	ncms000	ncms000	recursive=yes|theme=yes|main=no	9	nsubj
+6	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	7	det
+7	debate	debate	ncms000	ncms000	recursive=no|theme=yes|main=no	9	nsubj
 8	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	9	reflec
 9	abra	abrir	vmsp3s0	vmsp3s0	recursive=no|theme=no|main=no	5	cobj
 10	para	para	sps00	sps00	recursive=no|theme=no|main=no	9	prepv
@@ -391,9 +391,9 @@
 13	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
 1	Y	y	cc	cc	recursive=no|theme=no|main=no	5	te
-2	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	4	det
-3	nuevo	nuevo	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	4	amod
-4	modelo	modelo	ncms000	ncms000	recursive=yes|theme=yes|main=no	5	nsubj
+2	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	4	det
+3	nuevo	nuevo	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	4	amod
+4	modelo	modelo	ncms000	ncms000	recursive=no|theme=yes|main=no	5	nsubj
 5	supondrá	suponer	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	0	root
 6	más	más	rg	rg	recursive=no|theme=no|main=no	7	advmod
 7	recursos	recurso	ncmp000	ncmp000	recursive=no|theme=no|main=no	9	coord
@@ -422,17 +422,17 @@
 7	si	si	cs	cs	recursive=no|theme=no|main=no	4	advcl
 8	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	9	reflec
 9	plantea	plantear	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	21	cobj
-10	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	11	det
-11	marco	marco	ncms000	ncms000	recursive=yes|theme=yes|main=no	9	nsubj
-12	de	de	sps00	sps00	recursive=no|theme=no|main=no	11	prepn
-13	relaciones	relación	ncfp000	ncfp000	recursive=no|theme=no|main=no	12	pobj
-14	entre	entre	sps00	sps00	recursive=no|theme=no|main=no	13	prepn
-15	Catalunya	Catalunya	np00000	np00000	recursive=no|theme=no|main=no	16	coord
-16	y	y	cc	cc	recursive=no|theme=no|main=no	14	pobj
-17	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	18	det
-18	resto	resto	ncms000	ncms000	recursive=no|theme=no|main=no	16	coord
-19	de	de	sps00	sps00	recursive=no|theme=no|main=no	18	prepn
-20	España	España	np00000	np00000	recursive=no|theme=no|main=no	19	pobj
+10	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	11	det
+11	marco	marco	ncms000	ncms000	recursive=no|theme=yes|main=no	9	nsubj
+12	de	de	sps00	sps00	recursive=no|theme=yes|main=no	11	prepn
+13	relaciones	relación	ncfp000	ncfp000	recursive=no|theme=yes|main=no	12	pobj
+14	entre	entre	sps00	sps00	recursive=no|theme=yes|main=no	13	prepn
+15	Catalunya	Catalunya	np00000	np00000	recursive=no|theme=yes|main=no	16	coord
+16	y	y	cc	cc	recursive=no|theme=yes|main=no	14	pobj
+17	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	18	det
+18	resto	resto	ncms000	ncms000	recursive=no|theme=yes|main=no	16	coord
+19	de	de	sps00	sps00	recursive=no|theme=yes|main=no	18	prepn
+20	España	España	np00000	np00000	recursive=no|theme=yes|main=no	19	pobj
 21	como	como	cs	cs	recursive=no|theme=no|main=no	7	cobj
 22	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	23	det
 23	saldo	saldo	ncms000	ncms000	recursive=no|theme=no|main=no	9	dobj
@@ -461,23 +461,23 @@
 7	Catalunya	Catalunya	np00000	np00000	recursive=no|theme=no|main=no	6	pobj
 8	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	9	reflec
 9	benefician	beneficiar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	1	cobj
-10	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	11	poss
-11	empresas	empresa	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	9	nsubj
-12	,	,	fc	fc	recursive=no|theme=no|main=no	11	punct
-13	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	14	nsubj
-14	venden	vender	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	11	rcmod
-15	en	en	sps00	sps00	recursive=no|theme=no|main=no	14	prepv
-16	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	17	det
-17	resto	resto	ncms000	ncms000	recursive=no|theme=no|main=no	15	pobj
-18	de	de	sps00	sps00	recursive=no|theme=no|main=no	17	prepn
-19	España	España	np00000	np00000	recursive=no|theme=no|main=no	18	pobj
+10	sus	su	dp3cp0	dp3cp0	recursive=no|theme=yes|main=no	11	poss
+11	empresas	empresa	ncfp000	ncfp000	recursive=no|theme=yes|main=no	9	nsubj
+12	,	,	fc	fc	recursive=no|theme=yes|main=no	11	punct
+13	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	14	nsubj
+14	venden	vender	vmip3p0	vmip3p0	recursive=no|theme=yes|main=no	11	rcmod
+15	en	en	sps00	sps00	recursive=no|theme=yes|main=no	14	prepv
+16	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	17	det
+17	resto	resto	ncms000	ncms000	recursive=no|theme=yes|main=no	15	pobj
+18	de	de	sps00	sps00	recursive=no|theme=yes|main=no	17	prepn
+19	España	España	np00000	np00000	recursive=no|theme=yes|main=no	18	pobj
 20	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
 1	Si	si	cs	cs	recursive=no|theme=no|main=no	10	advcl
 2	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	3	reflec
 3	plantea	plantear	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	1	cobj
-4	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	5	det
-5	negociación	negociación	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	3	nsubj
+4	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	5	det
+5	negociación	negociación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	nsubj
 6	alegando	alegar	vmg0000	vmg0000	recursive=no|theme=no|main=no	3	advcl
 7	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	8	det
 8	expolio	expolio	ncms000	ncms000	recursive=no|theme=no|main=no	6	dobj
@@ -486,7 +486,7 @@
 11	confrontación	confrontación	ncfs000	ncfs000	recursive=no|theme=no|main=no	10	dobj
 12	,	,	fc	fc	recursive=no|theme=no|main=no	10	punct
 13	porque	porque	cs	cs	recursive=no|theme=no|main=no	10	advcl
-14	otros	otro	pi0mp000	pi0mp000	recursive=yes|theme=yes|main=no	15	nsubj
+14	otros	otro	pi0mp000	pi0mp000	recursive=no|theme=yes|main=no	15	nsubj
 15	alegarán	alegar	vmif3p0	vmif3p0	recursive=no|theme=no|main=no	13	cobj
 16	que	que	cs	cs	recursive=no|theme=no|main=no	15	conj
 17	hay	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	16	cobj
@@ -497,12 +497,12 @@
 1	-	-	fg	fg	recursive=no|theme=no|main=no	6	punct
 2	-	-	fg	fg	recursive=no|theme=no|main=no	6	punct
 3	¿	¿	fia	fia	recursive=no|theme=no|main=no	6	punct
-4	Corresponsabilidad	corresponsabilidad	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	6	nsubj
-5	fiscal	fiscal	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	4	amod
+4	Corresponsabilidad	corresponsabilidad	ncfs000	ncfs000	recursive=no|theme=yes|main=no	6	nsubj
+5	fiscal	fiscal	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	4	amod
 6	significa	significar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 7	que	que	cs	cs	recursive=yes|theme=no|main=yes	6	dobj
-8	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	9	det
-9	Generalitat	Generalitat	np00000	np00000	recursive=yes|theme=yes|main=no	10	nsubj
+8	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	9	det
+9	Generalitat	Generalitat	np00000	np00000	recursive=no|theme=yes|main=no	10	nsubj
 10	suba	subir	vmsp3s0	vmsp3s0	recursive=no|theme=no|main=no	13	cobj
 11	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	12	poss
 12	impuestos	impuesto	ncmp000	ncmp000	recursive=no|theme=no|main=no	10	dobj
@@ -533,8 +533,8 @@
 16	ejerce	ejercer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	12	cobj
 17	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	Govern	Govern	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	Govern	Govern	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 3	debe	deber	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	9	coord
 4	empezar	empezar	vmn0000	vmn0000	recursive=no|theme=no|main=no	3	dobj
 5	a	a	sps00	sps00	recursive=no|theme=no|main=no	4	prepv
@@ -591,9 +591,9 @@
 4	elecciones	elección	ncfp000	ncfp000	recursive=no|theme=no|main=no	1	pobj
 5	autonómicas	autonómico	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	4	amod
 6	,	,	fc	fc	recursive=no|theme=no|main=no	11	punct
-7	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	8	det
-8	Partido	partido	ncms000	ncms000	recursive=yes|theme=yes|main=no	11	nsubj
-9	Popular	popular	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	8	amod
+7	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	8	det
+8	Partido	partido	ncms000	ncms000	recursive=no|theme=yes|main=no	11	nsubj
+9	Popular	popular	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	8	amod
 10	ya	ya	rg	rg	recursive=no|theme=no|main=no	11	advmod
 11	será	ser	vsif3s0	vsif3s0	recursive=no|theme=no|main=no	0	root
 12	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	13	det
@@ -613,7 +613,7 @@
 4	roto	romper	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	3	vobj
 5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
 6	tabú	tabú	ncms000	ncms000	recursive=no|theme=no|main=no	3	nsubj
-7	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	8	nsubj
+7	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	8	nsubj
 8	impedía	impedir	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	6	rcmod
 9	que	que	cs	cs	recursive=yes|theme=no|main=yes	8	dobj
 10	tuviese	tener	vmsi3s0	vmsi3s0	recursive=no|theme=no|main=no	9	cobj
@@ -623,7 +623,7 @@
 14	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
 1	Y	y	cc	cc	recursive=no|theme=no|main=no	3	te
-2	eso	ese	pd0ns000	pd0ns000	recursive=yes|theme=yes|main=no	3	nsubj
+2	eso	ese	pd0ns000	pd0ns000	recursive=no|theme=yes|main=no	3	nsubj
 3	permitirá	permitir	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	0	root
 4	que	que	cs	cs	recursive=yes|theme=no|main=yes	3	dobj
 5	dentro	dentro	rg	rg	recursive=no|theme=no|main=no	9	advmod
@@ -654,15 +654,15 @@
 15	-	-	fg	fg	recursive=no|theme=no|main=no	5	punct
 16	.	.	fp	fp	recursive=no|theme=no|main=no	5	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	alza	alza	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	10	nsubj
-3	del	del	spcms	spcms	recursive=no|theme=no|main=no	5	coord
-4	protagonismo	protagonismo	ncms000	ncms000	recursive=no|theme=no|main=no	3	pobj
-5	y	y	cc	cc	recursive=no|theme=no|main=no	2	prepn
-6	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	7	det
-7	capacidad	capacidad	ncfs000	ncfs000	recursive=no|theme=no|main=no	5	coord
-8	de	de	sps00	sps00	recursive=no|theme=no|main=no	7	prepn
-9	influencia	influencia	ncfs000	ncfs000	recursive=no|theme=no|main=no	8	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	alza	alza	ncfs000	ncfs000	recursive=no|theme=yes|main=no	10	nsubj
+3	del	del	spcms	spcms	recursive=no|theme=yes|main=no	5	coord
+4	protagonismo	protagonismo	ncms000	ncms000	recursive=no|theme=yes|main=no	3	pobj
+5	y	y	cc	cc	recursive=no|theme=yes|main=no	2	prepn
+6	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	7	det
+7	capacidad	capacidad	ncfs000	ncfs000	recursive=no|theme=yes|main=no	5	coord
+8	de	de	sps00	sps00	recursive=no|theme=yes|main=no	7	prepn
+9	influencia	influencia	ncfs000	ncfs000	recursive=no|theme=yes|main=no	8	pobj
 10	hará	hacer	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	0	root
 11	crecer	crecer	vmn0000	vmn0000	recursive=no|theme=no|main=no	10	dobj
 12	nuestra	nuestro	dp1fsp	dp1fsp	recursive=no|theme=no|main=no	13	poss
@@ -685,9 +685,9 @@
 5	será	ser	vsif3s0	vsif3s0	recursive=no|theme=no|main=no	0	root
 6	necesario	necesario	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	5	attr
 7	que	que	cs	cs	recursive=no|theme=no|main=no	5	csubj
-8	muchos	mucho	di0mp0	di0mp0	recursive=no|theme=no|main=no	9	det
-9	votantes	votante	nccp000	nccp000	recursive=yes|theme=yes|main=no	12	nsubj
-10	nacionalistas	nacionalista	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	9	amod
+8	muchos	mucho	di0mp0	di0mp0	recursive=no|theme=yes|main=no	9	det
+9	votantes	votante	nccp000	nccp000	recursive=no|theme=yes|main=no	12	nsubj
+10	nacionalistas	nacionalista	aq0cp0	aq0cp0	recursive=no|theme=yes|main=no	9	amod
 11	les	él	pp3cpd00	pp3cpd00	recursive=no|theme=no|main=no	12	dobj
 12	voten	votar	vmsp3p0	vmsp3p0	recursive=no|theme=no|main=no	7	cobj
 13	.	.	fp	fp	recursive=no|theme=no|main=no	5	punct
@@ -710,7 +710,7 @@
 6	abierto	abierto	aq0msp	aq0msp	recursive=no|theme=no|main=no	5	amod
 7	a	a	sps00	sps00	recursive=no|theme=no|main=no	6	iobj
 8	sectores	sector	ncmp000	ncmp000	recursive=no|theme=no|main=no	7	pobj
-9	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	10	nsubj
+9	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	10	nsubj
 10	habían	haber	vaii3p0	vaii3p0	recursive=no|theme=no|main=no	8	rcmod
 11	respaldado	respaldar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	10	vobj
 12	a	a	sps00	sps00	recursive=no|theme=no|main=no	11	dobj
@@ -720,7 +720,7 @@
 16	fundamentalmente	fundamentalmente	rg	rg	recursive=no|theme=no|main=no	14	advmod
 17	,	,	fc	fc	recursive=no|theme=no|main=no	14	punct
 18	a	a	sps00	sps00	recursive=no|theme=no|main=no	16	prep
-19	quienes	quien	pr0cp000	pr0cp000	recursive=yes|theme=yes|main=no	20	nsubj
+19	quienes	quien	pr0cp000	pr0cp000	recursive=no|theme=yes|main=no	20	nsubj
 20	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	18	rcmod
 21	respaldado	respaldar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	20	vobj
 22	al	al	spcms	spcms	recursive=no|theme=no|main=no	21	dobj
@@ -728,11 +728,11 @@
 24	socialista	socialista	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	23	amod
 25	.	.	fp	fp	recursive=no|theme=no|main=no	14	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	3	det
-2	mayor	mayor	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	3	amod
-3	expectativa	expectativa	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	6	nsubj
-4	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	prepn
-5	crecimiento	crecimiento	ncms000	ncms000	recursive=no|theme=no|main=no	4	pobj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	3	det
+2	mayor	mayor	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	3	amod
+3	expectativa	expectativa	ncfs000	ncfs000	recursive=no|theme=yes|main=no	6	nsubj
+4	de	de	sps00	sps00	recursive=no|theme=yes|main=no	3	prepn
+5	crecimiento	crecimiento	ncms000	ncms000	recursive=no|theme=yes|main=no	4	pobj
 6	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 7	en	en	sps00	sps00	recursive=no|theme=no|main=no	6	prepv
 8	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	9	det
@@ -740,7 +740,7 @@
 10	del	del	spcms	spcms	recursive=no|theme=no|main=no	9	prepn
 11	PSC	PSC	np00000	np00000	recursive=no|theme=no|main=no	10	pobj
 12	,	,	fc	fc	recursive=no|theme=no|main=no	14	punct
-13	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	14	nsubj
+13	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	14	nsubj
 14	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	9	rcmod
 15	visto	ver	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	14	vobj
 16	de	de	sps00	sps00	recursive=no|theme=no|main=no	19	prepv
@@ -748,16 +748,16 @@
 18	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	16	pobj
 19	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	15	vobj
 20	capaz	capaz	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	19	attr
-21	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	22	det
-22	PP	PP	np00000	np00000	recursive=yes|theme=yes|main=no	19	nsubj
+21	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	22	det
+22	PP	PP	np00000	np00000	recursive=no|theme=yes|main=no	19	nsubj
 23	en	en	sps00	sps00	recursive=no|theme=no|main=no	19	prepv
 24	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	25	det
 25	Gobierno	Gobierno	np00000	np00000	recursive=no|theme=no|main=no	23	pobj
 26	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	apuesta	apuesta	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
-3	social	social	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	2	amod
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	apuesta	apuesta	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
+3	social	social	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	2	amod
 4	permitirá	permitir	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	10	coord
 5	atraer	atraer	vmn0000	vmn0000	recursive=no|theme=no|main=no	4	dobj
 6	a	a	sps00	sps00	recursive=no|theme=no|main=no	5	dobj
@@ -779,7 +779,7 @@
 
 1	-	-	fg	fg	recursive=no|theme=no|main=no	4	punct
 2	-	-	fg	fg	recursive=no|theme=no|main=no	4	punct
-3	Piqué	piqué	np00000	np00000	recursive=yes|theme=yes|main=no	4	nsubj
+3	Piqué	piqué	np00000	np00000	recursive=no|theme=yes|main=no	4	nsubj
 4	apuesta	apostar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 5	por	por	sps00	sps00	recursive=no|theme=no|main=no	4	oobj
 6	captar	captar	vmn0000	vmn0000	recursive=no|theme=no|main=no	5	pobj
@@ -789,15 +789,15 @@
 
 1	-	-	fg	fg	recursive=no|theme=no|main=no	6	punct
 2	-	-	fg	fg	recursive=no|theme=no|main=no	6	punct
-3	Las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	5	det
-4	últimas	último	ao0fp0	ao0fp0	recursive=no|theme=no|main=no	5	amod
-5	elecciones	elección	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	6	nsubj
+3	Las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	5	det
+4	últimas	último	ao0fp0	ao0fp0	recursive=no|theme=yes|main=no	5	amod
+5	elecciones	elección	ncfp000	ncfp000	recursive=no|theme=yes|main=no	6	nsubj
 6	demuestran	demostrar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
 7	que	que	cs	cs	recursive=yes|theme=no|main=yes	6	dobj
-8	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	9	det
-9	trasvase	trasvase	ncms000	ncms000	recursive=yes|theme=yes|main=no	12	nsubj
-10	más	más	rg	rg	recursive=no|theme=no|main=no	11	advmod
-11	importante	importante	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	9	amod
+8	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	9	det
+9	trasvase	trasvase	ncms000	ncms000	recursive=no|theme=yes|main=no	12	nsubj
+10	más	más	rg	rg	recursive=no|theme=yes|main=no	11	advmod
+11	importante	importante	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	9	amod
 12	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	7	cobj
 13	desde	desde	sps00	sps00	recursive=no|theme=no|main=no	12	prepv
 14	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	15	det
@@ -805,28 +805,28 @@
 16	socialista	socialista	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	15	amod
 17	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	desorientación	desorientación	ncfs000	ncfs000	recursive=no|theme=no|main=no	11	coord
-3	del	del	spcms	spcms	recursive=no|theme=no|main=no	2	prepn
-4	PSC	PSC	np00000	np00000	recursive=no|theme=no|main=no	3	pobj
-5	,	,	fc	fc	recursive=no|theme=no|main=no	11	punct
-6	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	7	det
-7	contradicciones	contradicción	ncfp000	ncfp000	recursive=no|theme=no|main=no	11	coord
-8	con	con	sps00	sps00	recursive=no|theme=no|main=no	7	prepn
-9	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	10	det
-10	PSOE	PSOE	np00000	np00000	recursive=no|theme=no|main=no	8	pobj
-11	y	y	cc	cc	recursive=yes|theme=yes|main=no	20	nsubj
-12	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	13	det
-13	iniciativas	iniciativa	ncfp000	ncfp000	recursive=no|theme=no|main=no	11	coord
-14	de	de	sps00	sps00	recursive=no|theme=no|main=no	13	prepn
-15	corte	corte	ncms000	ncms000	recursive=no|theme=no|main=no	14	pobj
-16	nacionalista	nacionalista	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	15	amod
-17	de	de	sps00	sps00	recursive=no|theme=no|main=no	13	prepn
-18	Pasqual	Pasqual	np0000l	np0000l	recursive=no|theme=no|main=no	17	pobj
-19	Maragall	Maragall	np0000l	np0000l	recursive=no|theme=no|main=no	18	appos
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	desorientación	desorientación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	11	coord
+3	del	del	spcms	spcms	recursive=no|theme=yes|main=no	2	prepn
+4	PSC	PSC	np00000	np00000	recursive=no|theme=yes|main=no	3	pobj
+5	,	,	fc	fc	recursive=no|theme=yes|main=no	11	punct
+6	las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	7	det
+7	contradicciones	contradicción	ncfp000	ncfp000	recursive=no|theme=yes|main=no	11	coord
+8	con	con	sps00	sps00	recursive=no|theme=yes|main=no	7	prepn
+9	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	10	det
+10	PSOE	PSOE	np00000	np00000	recursive=no|theme=yes|main=no	8	pobj
+11	y	y	cc	cc	recursive=no|theme=yes|main=no	20	nsubj
+12	las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	13	det
+13	iniciativas	iniciativa	ncfp000	ncfp000	recursive=no|theme=yes|main=no	11	coord
+14	de	de	sps00	sps00	recursive=no|theme=yes|main=no	13	prepn
+15	corte	corte	ncms000	ncms000	recursive=no|theme=yes|main=no	14	pobj
+16	nacionalista	nacionalista	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	15	amod
+17	de	de	sps00	sps00	recursive=no|theme=yes|main=no	13	prepn
+18	Pasqual	Pasqual	np0000l	np0000l	recursive=no|theme=yes|main=no	17	pobj
+19	Maragall	Maragall	np0000l	np0000l	recursive=no|theme=yes|main=no	18	appos
 20	harán	hacer	vmif3p0	vmif3p0	recursive=no|theme=no|main=no	26	coord
 21	que	que	cs	cs	recursive=yes|theme=no|main=yes	20	dobj
-22	éste	este	pd0ms000	pd0ms000	recursive=yes|theme=yes|main=no	23	nsubj
+22	éste	este	pd0ms000	pd0ms000	recursive=no|theme=yes|main=no	23	nsubj
 23	pierda	perder	vmm03s0	vmm03s0	recursive=no|theme=no|main=no	21	cobj
 24	protagonismo	protagonismo	ncms000	ncms000	recursive=no|theme=no|main=no	23	dobj
 25	,	,	fc	fc	recursive=no|theme=no|main=no	26	punct
@@ -843,7 +843,7 @@
 1	-	-	fg	fg	recursive=no|theme=no|main=no	5	punct
 2	-	-	fg	fg	recursive=no|theme=no|main=no	5	punct
 3	¿	¿	fia	fia	recursive=no|theme=no|main=no	5	punct
-4	Quién	quién	pt0cs000	pt0cs000	recursive=yes|theme=yes|main=no	5	nsubj
+4	Quién	quién	pt0cs000	pt0cs000	recursive=no|theme=yes|main=no	5	nsubj
 5	será	ser	vsif3s0	vsif3s0	recursive=no|theme=no|main=no	0	root
 6	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	7	det
 7	candidato	candidato	ncms000	ncms000	recursive=no|theme=no|main=no	5	attr
@@ -867,7 +867,7 @@
 1	Es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 2	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	3	det
 3	debate	debate	ncms000	ncms000	recursive=no|theme=no|main=no	1	attr
-4	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	6	nsubj
+4	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	6	nsubj
 5	no	no	rn	rn	recursive=no|theme=no|main=no	6	neg
 6	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	8	rcmod
 7	abierto	abierto	aq0msp	aq0msp	recursive=no|theme=no|main=no	6	attr
@@ -921,14 +921,14 @@
 8	también	también	rg	rg	recursive=no|theme=no|main=no	10	advmod
 9	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	10	reflec
 10	reiterará	reiterar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	7	coord
-11	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	12	det
-12	línea	línea	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	10	nsubj
-13	moderada	moderado	aq0fsp	aq0fsp	recursive=no|theme=no|main=no	12	amod
-14	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	16	dobj
-15	hemos	haber	vaip1p0	vaip1p0	recursive=no|theme=no|main=no	12	rcmod
-16	imprimido	imprimido	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	15	vobj
-17	desde	desde	sps00	sps00	recursive=no|theme=no|main=no	16	prepv
-18	1996	1996	z	z	recursive=no|theme=no|main=no	17	pobj
+11	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	12	det
+12	línea	línea	ncfs000	ncfs000	recursive=no|theme=yes|main=no	10	nsubj
+13	moderada	moderado	aq0fsp	aq0fsp	recursive=no|theme=yes|main=no	12	amod
+14	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	16	dobj
+15	hemos	haber	vaip1p0	vaip1p0	recursive=no|theme=yes|main=no	12	rcmod
+16	imprimido	imprimido	vmp00sm	vmp00sm	recursive=no|theme=yes|main=no	15	vobj
+17	desde	desde	sps00	sps00	recursive=no|theme=yes|main=no	16	prepv
+18	1996	1996	z	z	recursive=no|theme=yes|main=no	17	pobj
 19	.	.	fp	fp	recursive=no|theme=no|main=no	7	punct
 
 1	-	-	fg	fg	recursive=no|theme=no|main=no	5	punct
@@ -960,8 +960,8 @@
 10	cuando	cuando	cs	cs	recursive=no|theme=no|main=no	9	advcl
 11	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	12	reflec
 12	convoque	convocar	vmsp3s0	vmsp3s0	recursive=no|theme=no|main=no	10	cobj
-13	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	14	det
-14	congreso	congreso	ncms000	ncms000	recursive=yes|theme=yes|main=no	12	nsubj
+13	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	14	det
+14	congreso	congreso	ncms000	ncms000	recursive=no|theme=yes|main=no	12	nsubj
 15	.	.	fp	fp	recursive=no|theme=no|main=no	7	punct
 
 1	-	-	fg	fg	recursive=no|theme=no|main=no	6	punct
@@ -984,16 +984,16 @@
 18	-	-	fg	fg	recursive=no|theme=no|main=no	6	punct
 19	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
-1	Un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	3	det
-2	mayor	mayor	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	3	amod
-3	protagonismo	protagonismo	ncms000	ncms000	recursive=yes|theme=yes|main=no	11	nsubj
-4	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	prepn
-5	Piqué	Piqué	np00000	np00000	recursive=no|theme=no|main=no	4	pobj
-6	en	en	sps00	sps00	recursive=no|theme=no|main=no	3	prepn
-7	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	8	det
-8	Gobierno	Gobierno	np0000o	np0000o	recursive=no|theme=no|main=no	6	pobj
-9	de	de	sps00	sps00	recursive=no|theme=no|main=no	8	prepn
-10	España	España	np0000l	np0000l	recursive=no|theme=no|main=no	9	pobj
+1	Un	uno	di0ms0	di0ms0	recursive=no|theme=yes|main=no	3	det
+2	mayor	mayor	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	3	amod
+3	protagonismo	protagonismo	ncms000	ncms000	recursive=no|theme=yes|main=no	11	nsubj
+4	de	de	sps00	sps00	recursive=no|theme=yes|main=no	3	prepn
+5	Piqué	Piqué	np00000	np00000	recursive=no|theme=yes|main=no	4	pobj
+6	en	en	sps00	sps00	recursive=no|theme=yes|main=no	3	prepn
+7	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	8	det
+8	Gobierno	Gobierno	np0000o	np0000o	recursive=no|theme=yes|main=no	6	pobj
+9	de	de	sps00	sps00	recursive=no|theme=yes|main=no	8	prepn
+10	España	España	np0000l	np0000l	recursive=no|theme=yes|main=no	9	pobj
 11	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 12	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	14	det
 13	gran	gran	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	14	amod
@@ -1008,12 +1008,12 @@
 
 1	-	-	fg	fg	recursive=no|theme=no|main=no	5	punct
 2	-	-	fg	fg	recursive=no|theme=no|main=no	5	punct
-3	Aznar	Aznar	np00000	np00000	recursive=yes|theme=yes|main=no	5	nsubj
+3	Aznar	Aznar	np00000	np00000	recursive=no|theme=yes|main=no	5	nsubj
 4	sólo	sólo	rg	rg	recursive=no|theme=no|main=no	5	advmod
 5	ficha	fichar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 6	ministros	ministro	ncmp000	ncmp000	recursive=no|theme=no|main=no	5	dobj
 7	catalanes	catalán	aq0mp0	aq0mp0	recursive=no|theme=no|main=no	6	amod
-8	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	10	nsubj
+8	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	10	nsubj
 9	no	no	rn	rn	recursive=no|theme=no|main=no	10	neg
 10	militan	militar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	6	rcmod
 11	en	en	sps00	sps00	recursive=no|theme=no|main=no	10	prepv
@@ -1030,13 +1030,13 @@
 6	-	-	fg	fg	recursive=no|theme=no|main=no	3	punct
 7	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	apuesta	apuesta	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	9	nsubj
-3	por	por	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	Josep	Josep	np0000l	np0000l	recursive=no|theme=no|main=no	3	pobj
-5	Piqué	Piqué	np0000l	np0000l	recursive=no|theme=no|main=no	4	appos
-6	en	en	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-7	1996	1996	z	z	recursive=no|theme=no|main=no	6	pobj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	apuesta	apuesta	ncfs000	ncfs000	recursive=no|theme=yes|main=no	9	nsubj
+3	por	por	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	Josep	Josep	np0000l	np0000l	recursive=no|theme=yes|main=no	3	pobj
+5	Piqué	Piqué	np0000l	np0000l	recursive=no|theme=yes|main=no	4	appos
+6	en	en	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+7	1996	1996	z	z	recursive=no|theme=yes|main=no	6	pobj
 8	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	10	reflec
 9	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 10	demostrado	demostrar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	9	vobj
@@ -1045,11 +1045,11 @@
 13	acierto	acierto	ncms000	ncms000	recursive=no|theme=no|main=no	10	cpred
 14	.	.	fp	fp	recursive=no|theme=no|main=no	9	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	incorporación	incorporación	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	8	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	Anna	Anna	np0000l	np0000l	recursive=no|theme=no|main=no	3	pobj
-5	Birulés	Birulés	np0000l	np0000l	recursive=no|theme=no|main=no	4	appos
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	incorporación	incorporación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	8	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	Anna	Anna	np0000l	np0000l	recursive=no|theme=yes|main=no	3	pobj
+5	Birulés	Birulés	np0000l	np0000l	recursive=no|theme=yes|main=no	4	appos
 6	también	también	rg	rg	recursive=no|theme=no|main=no	8	advmod
 7	lo	él	pp3cna00	pp3cna00	recursive=no|theme=no|main=no	8	attr
 8	será	ser	vsif3s0	vsif3s0	recursive=no|theme=no|main=no	0	root
@@ -1079,7 +1079,7 @@
 1	-	-	fg	fg	recursive=no|theme=no|main=no	5	punct
 2	-	-	fg	fg	recursive=no|theme=no|main=no	5	punct
 3	¿	¿	fia	fia	recursive=no|theme=no|main=no	5	punct
-4	Birulés	Birulés	np00000	np00000	recursive=yes|theme=yes|main=no	5	nsubj
+4	Birulés	Birulés	np00000	np00000	recursive=no|theme=yes|main=no	5	nsubj
 5	debería	deber	vmic3s0	vmic3s0	recursive=no|theme=no|main=no	0	root
 6	afiliarse	afiliar	vmn0000	vmn0000	recursive=no|theme=no|main=no	5	dobj
 7	?	?	fit	fit	recursive=no|theme=no|main=no	5	punct
@@ -1096,8 +1096,8 @@
 1	-	-	fg	fg	recursive=no|theme=no|main=no	15	punct
 2	-	-	fg	fg	recursive=no|theme=no|main=no	15	punct
 3	Cuando	cuando	cs	cs	recursive=no|theme=no|main=no	15	advcl
-4	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	5	det
-5	PP	PP	np00000	np00000	recursive=yes|theme=yes|main=no	6	nsubj
+4	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	5	det
+5	PP	PP	np00000	np00000	recursive=no|theme=yes|main=no	6	nsubj
 6	reclama	reclamar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	3	cobj
 7	a	a	sps00	sps00	recursive=no|theme=no|main=no	6	prepv
 8	CiU	CiU	np00000	np00000	recursive=no|theme=no|main=no	7	pobj
@@ -1126,15 +1126,15 @@
 31	-	-	fg	fg	recursive=no|theme=no|main=no	15	punct
 32	.	.	fp	fp	recursive=no|theme=no|main=no	15	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	planteamiento	planteamiento	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	planteamiento	planteamiento	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 4	abrir	abrir	vmn0000	vmn0000	recursive=no|theme=no|main=no	3	attr
 5	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	6	det
 6	posibilidad	posibilidad	ncfs000	ncfs000	recursive=no|theme=no|main=no	4	dobj
 7	de	de	sps00	sps00	recursive=no|theme=no|main=no	6	prepn
 8	que	que	cs	cs	recursive=no|theme=no|main=no	7	pobj
-9	CiU	CiU	np00000	np00000	recursive=yes|theme=yes|main=no	11	nsubj
+9	CiU	CiU	np00000	np00000	recursive=no|theme=yes|main=no	11	nsubj
 10	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	12	reflec
 11	pueda	poder	vmsp3s0	vmsp3s0	recursive=no|theme=no|main=no	22	coord
 12	incorporar	incorporar	vmn0000	vmn0000	recursive=no|theme=no|main=no	11	dobj
@@ -1179,7 +1179,7 @@
 18	-	-	fg	fg	recursive=no|theme=no|main=no	4	punct
 19	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	Nadie	nadie	pi0cs000	pi0cs000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Nadie	nadie	pi0cs000	pi0cs000	recursive=no|theme=yes|main=no	2	nsubj
 2	puede	poder	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 3	exigirnos	exigir	vmn0000	vmn0000	recursive=no|theme=no|main=no	2	dobj
 4	que	que	cs	cs	recursive=yes|theme=no|main=yes	2	dobj
@@ -1219,8 +1219,8 @@
 7	de	de	sps00	sps00	recursive=no|theme=no|main=no	6	prepn
 8	CiU	CiU	np00000	np00000	recursive=no|theme=no|main=no	7	pobj
 9	cuando	cuando	cs	cs	recursive=no|theme=no|main=no	3	advcl
-10	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	11	det
-11	PSC	PSC	np00000	np00000	recursive=yes|theme=yes|main=no	12	nsubj
+10	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	11	det
+11	PSC	PSC	np00000	np00000	recursive=no|theme=yes|main=no	12	nsubj
 12	deje	dejar	vmsp3s0	vmsp3s0	recursive=no|theme=no|main=no	20	coord
 13	de	de	sps00	sps00	recursive=no|theme=no|main=no	12	prepv
 14	respaldar	respaldar	vmn0000	vmn0000	recursive=no|theme=no|main=no	12	dobj

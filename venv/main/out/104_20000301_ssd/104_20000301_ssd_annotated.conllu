@@ -1,5 +1,5 @@
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	Olympique	Olympique	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	Olympique	Olympique	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 3	sorprende	sorprender	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	al	al	spcms	spcms	recursive=no|theme=no|main=no	3	dobj
 5	Chelsea	Chelsea	np00000	np00000	recursive=no|theme=no|main=no	4	pobj
@@ -16,8 +16,8 @@
 16	Marsella	Marsella	np00000	np00000	recursive=no|theme=no|main=no	3	dobj
 17	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	Feyenoord	Feyenoord	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	Feyenoord	Feyenoord	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 3	alcanzó	alcanzar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	5	det
 5	liderato	liderato	ncms000	ncms000	recursive=no|theme=no|main=no	3	dobj
@@ -34,7 +34,7 @@
 16	del	del	spcms	spcms	recursive=no|theme=no|main=no	15	prepn
 17	Lazio	Lazio	np00000	np00000	recursive=no|theme=no|main=no	16	pobj
 18	,	,	fc	fc	recursive=no|theme=no|main=no	21	punct
-19	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	21	nsubj
+19	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	21	nsubj
 20	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	22	reflec
 21	había	haber	vaii3s0	vaii3s0	recursive=no|theme=no|main=no	17	rcmod
 22	adelantado	adelantar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	21	vobj
@@ -53,9 +53,9 @@
 35	)	)	fpt	fpt	recursive=no|theme=no|main=no	32	punct
 36	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	equipo	equipo	ncms000	ncms000	recursive=yes|theme=yes|main=no	4	nsubj
-3	romano	romano	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	2	amod
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	equipo	equipo	ncms000	ncms000	recursive=no|theme=yes|main=no	4	nsubj
+3	romano	romano	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	2	amod
 4	aprovechó	aprovechar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	12	coord
 5	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	6	poss
 6	ventaja	ventaja	ncfs000	ncfs000	recursive=no|theme=no|main=no	4	dobj
@@ -65,9 +65,9 @@
 10	partido	partido	ncms000	ncms000	recursive=no|theme=no|main=no	8	dobj
 11	,	,	fc	fc	recursive=no|theme=no|main=no	16	punct
 12	pero	pero	cc	cc	recursive=no|theme=no|main=no	0	root
-13	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	14	det
-14	conjunto	conjunto	ncms000	ncms000	recursive=yes|theme=yes|main=no	16	nsubj
-15	holandés	holandés	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	14	amod
+13	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	14	det
+14	conjunto	conjunto	ncms000	ncms000	recursive=no|theme=yes|main=no	16	nsubj
+15	holandés	holandés	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	14	amod
 16	sorprendió	sorprender	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	12	coord
 17	en	en	sps00	sps00	recursive=no|theme=no|main=no	16	prepv
 18	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	19	det
@@ -86,8 +86,8 @@
 31	y	y	cc	cc	recursive=no|theme=no|main=no	16	advcl
 32	cuando	cuando	cs	cs	recursive=no|theme=no|main=no	31	conj
 33	quedaban	quedar	vmii3p0	vmii3p0	recursive=no|theme=no|main=no	32	cobj
-34	otros	otro	di0mp0	di0mp0	recursive=no|theme=no|main=no	35	det
-35	tantos	tanto	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	33	nsubj
+34	otros	otro	di0mp0	di0mp0	recursive=no|theme=yes|main=no	35	det
+35	tantos	tanto	ncmp000	ncmp000	recursive=no|theme=yes|main=no	33	nsubj
 36	para	para	sps00	sps00	recursive=no|theme=no|main=no	33	prepv
 37	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	38	det
 38	final	final	ncms000	ncms000	recursive=no|theme=no|main=no	36	pobj
@@ -119,7 +119,7 @@
 16	de	de	sps00	sps00	recursive=no|theme=no|main=no	15	prepn
 17	Marsella	Marsella	np0000l	np0000l	recursive=no|theme=no|main=no	16	pobj
 18	,	,	fc	fc	recursive=no|theme=no|main=no	15	punct
-19	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	21	nsubj
+19	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	21	nsubj
 20	no	no	rn	rn	recursive=no|theme=no|main=no	21	neg
 21	tenía	tener	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	15	rcmod
 22	ningún	ninguno	di0ms0	di0ms0	recursive=no|theme=no|main=no	23	det
@@ -134,10 +134,10 @@
 31	entonces	entonces	rg	rg	recursive=no|theme=no|main=no	30	advmod
 32	.	.	fp	fp	recursive=no|theme=no|main=no	9	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	gol	gol	ncms000	ncms000	recursive=yes|theme=yes|main=no	10	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	Pires	Pires	np00000	np00000	recursive=no|theme=no|main=no	3	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	gol	gol	ncms000	ncms000	recursive=no|theme=yes|main=no	10	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	Pires	Pires	np00000	np00000	recursive=no|theme=yes|main=no	3	pobj
 5	(	(	fpa	fpa	recursive=no|theme=no|main=no	6	punct
 6	m	m	np00000	np00000	recursive=no|theme=no|main=no	10	dobj
 7	.	.	np00000	np00000	recursive=no|theme=no|main=no	6	dep
@@ -149,7 +149,7 @@
 13	de	de	sps00	sps00	recursive=no|theme=no|main=no	10	prepv
 14	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	15	det
 15	males	mal	ncmp000	ncmp000	recursive=no|theme=no|main=no	13	pobj
-16	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	18	nsubj
+16	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	18	nsubj
 17	le	él	pp30sa00	pp30sa00	recursive=no|theme=no|main=no	18	iobj
 18	perseguían	perseguir	vmii3p0	vmii3p0	recursive=no|theme=no|main=no	15	rcmod
 19	hasta	hasta	sps00	sps00	recursive=no|theme=no|main=no	18	prepv
@@ -172,10 +172,10 @@
 36	Campeones	campeón	ncms000	ncms000	recursive=no|theme=no|main=no	35	pobj
 37	.	.	fp	fp	recursive=no|theme=no|main=no	10	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	equipo	equipo	ncms000	ncms000	recursive=yes|theme=yes|main=no	13	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	Marsella	Marsella	np00000	np00000	recursive=no|theme=no|main=no	3	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	equipo	equipo	ncms000	ncms000	recursive=no|theme=yes|main=no	13	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	Marsella	Marsella	np00000	np00000	recursive=no|theme=yes|main=no	3	pobj
 5	,	,	fc	fc	recursive=no|theme=no|main=no	13	punct
 6	a	a	sps00	sps00	recursive=no|theme=no|main=no	13	prepv
 7	pesar	pesar	vmn0000	vmn0000	recursive=no|theme=no|main=no	6	pobj
@@ -195,10 +195,10 @@
 21	esperanzas	esperanza	ncfp000	ncfp000	recursive=no|theme=no|main=no	18	dobj
 22	.	.	fp	fp	recursive=no|theme=no|main=no	17	punct
 
-1	Iván	Iván	np00000	np00000	recursive=yes|theme=yes|main=no	5	nsubj
-2	de	de	sps00	sps00	recursive=no|theme=no|main=no	1	prepn
-3	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	4	det
-4	Peña	Peña	np00000	np00000	recursive=no|theme=no|main=no	2	pobj
+1	Iván	Iván	np00000	np00000	recursive=no|theme=yes|main=no	5	nsubj
+2	de	de	sps00	sps00	recursive=no|theme=yes|main=no	1	prepn
+3	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	4	det
+4	Peña	Peña	np00000	np00000	recursive=no|theme=yes|main=no	2	pobj
 5	entró	entrar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	17	coord
 6	en	en	sps00	sps00	recursive=no|theme=no|main=no	5	prepv
 7	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	9	det
@@ -222,9 +222,9 @@
 25	equipo	equipo	ncms000	ncms000	recursive=no|theme=no|main=no	23	pobj
 26	.	.	fp	fp	recursive=no|theme=no|main=no	17	punct
 
-1	Las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	2	det
-2	autoridades	autoridad	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	4	nsubj
-3	francesas	francés	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	2	amod
+1	Las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	2	det
+2	autoridades	autoridad	ncfp000	ncfp000	recursive=no|theme=yes|main=no	4	nsubj
+3	francesas	francés	aq0fp0	aq0fp0	recursive=no|theme=yes|main=no	2	amod
 4	movilizaron	movilizar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 5	a	a	sps00	sps00	recursive=no|theme=no|main=no	4	dobj
 6	700	700	z	z	recursive=no|theme=no|main=no	7	num
@@ -246,23 +246,23 @@
 2	pesar	pesar	vmn0000	vmn0000	recursive=no|theme=no|main=no	1	pobj
 3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepv
 4	que	que	pp3fs000	pp3fs000	recursive=no|theme=no|main=no	3	pobj
-5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
-6	prefecto	prefecto	ncms000	ncms000	recursive=yes|theme=yes|main=no	14	nsubj
-7	de	de	sps00	sps00	recursive=no|theme=no|main=no	6	prepn
-8	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	9	det
-9	policía	policía	nccs000	nccs000	recursive=no|theme=no|main=no	7	pobj
-10	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
-11	Hugues	Hugues	np0000l	np0000l	recursive=no|theme=no|main=no	6	appos
-12	Parant	Parant	np0000l	np0000l	recursive=no|theme=no|main=no	11	appos
-13	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
+5	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	6	det
+6	prefecto	prefecto	ncms000	ncms000	recursive=no|theme=yes|main=no	14	nsubj
+7	de	de	sps00	sps00	recursive=no|theme=yes|main=no	6	prepn
+8	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	9	det
+9	policía	policía	nccs000	nccs000	recursive=no|theme=yes|main=no	7	pobj
+10	,	,	fc	fc	recursive=no|theme=yes|main=no	6	punct
+11	Hugues	Hugues	np0000l	np0000l	recursive=no|theme=yes|main=no	6	appos
+12	Parant	Parant	np0000l	np0000l	recursive=no|theme=yes|main=no	11	appos
+13	,	,	fc	fc	recursive=no|theme=yes|main=no	6	punct
 14	había	haber	vaii3s0	vaii3s0	recursive=no|theme=no|main=no	4	cobj
 15	advertido	advertir	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	14	vobj
 16	de	de	sps00	sps00	recursive=no|theme=no|main=no	15	cobj
 17	que	que	cs	cs	recursive=no|theme=no|main=no	16	pobj
-18	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	19	det
-19	seguidores	seguidor	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	24	nsubj
-20	del	del	spcms	spcms	recursive=no|theme=no|main=no	19	prepn
-21	Chelsea	Chelsea	np00000	np00000	recursive=no|theme=no|main=no	20	pobj
+18	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	19	det
+19	seguidores	seguidor	ncmp000	ncmp000	recursive=no|theme=yes|main=no	24	nsubj
+20	del	del	spcms	spcms	recursive=no|theme=yes|main=no	19	prepn
+21	Chelsea	Chelsea	np00000	np00000	recursive=no|theme=yes|main=no	20	pobj
 22	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	24	punct
 23	no	no	rn	rn	recursive=no|theme=no|main=no	24	neg
 24	son	ser	vsip3p0	vsip3p0	recursive=no|theme=no|main=no	17	cobj
@@ -282,7 +282,7 @@
 38	seis	seis	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	39	det
 39	aficionados	aficionado	ncmp000	ncmp000	recursive=no|theme=no|main=no	36	nsubj
 40	ingleses	inglés	aq0mp0	aq0mp0	recursive=no|theme=no|main=no	39	amod
-41	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	49	nsubj
+41	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	49	nsubj
 42	,	,	fc	fc	recursive=no|theme=no|main=no	49	punct
 43	a	a	sps00	sps00	recursive=no|theme=no|main=no	49	prepv
 44	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	45	poss

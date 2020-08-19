@@ -22,8 +22,8 @@
 9	participantes	participante	nccp000	nccp000	recursive=no|theme=no|main=no	7	pobj
 10	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	Numerosas	numeroso	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	2	amod
-2	personas	persona	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Numerosas	numeroso	aq0fp0	aq0fp0	recursive=no|theme=yes|main=no	2	amod
+2	personas	persona	ncfp000	ncfp000	recursive=no|theme=yes|main=no	3	nsubj
 3	siguieron	seguir	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 4	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	5	det
 5	evoluciones	evolución	ncfp000	ncfp000	recursive=no|theme=no|main=no	3	dobj
@@ -31,7 +31,7 @@
 7	estos	este	dd0mp0	dd0mp0	recursive=no|theme=no|main=no	8	det
 8	soldados	soldado	ncmp000	ncmp000	recursive=no|theme=no|main=no	6	pobj
 9	romanos	romano	aq0mp0	aq0mp0	recursive=no|theme=no|main=no	8	amod
-10	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	11	nsubj
+10	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	11	nsubj
 11	acompañan	acompañar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	8	rcmod
 12	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	13	det
 13	procesiones	procesión	ncfp000	ncfp000	recursive=no|theme=no|main=no	11	dobj

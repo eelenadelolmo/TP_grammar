@@ -1,5 +1,5 @@
-1	Arabia	Arabia	np0000l	np0000l	recursive=yes|theme=yes|main=no	3	nsubj
-2	Saudí	Saudí	np0000l	np0000l	recursive=no|theme=no|main=no	1	appos
+1	Arabia	Arabia	np0000l	np0000l	recursive=no|theme=yes|main=no	3	nsubj
+2	Saudí	Saudí	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
 3	adelantará	adelantar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	36	dobj
 4	a	a	sps00	sps00	recursive=no|theme=no|main=no	3	prepv
 5	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	7	det
@@ -26,12 +26,12 @@
 26	,	,	fc	fc	recursive=no|theme=no|main=no	22	punct
 27	como	como	cs	cs	recursive=no|theme=no|main=no	22	advcl
 28	preveía	prever	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	27	cobj
-29	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	30	det
-30	tratado	tratado	ncms000	ncms000	recursive=yes|theme=yes|main=no	28	nsubj
-31	firmado	firmado	aq0msp	aq0msp	recursive=no|theme=no|main=no	30	amod
-32	en	en	sps00	sps00	recursive=no|theme=no|main=no	31	prepa
-33	junio	junio	ncms000	ncms000	recursive=no|theme=no|main=no	32	pobj
-34	pasado	pasado	aq0msp	aq0msp	recursive=no|theme=no|main=no	33	amod
+29	un	uno	di0ms0	di0ms0	recursive=no|theme=yes|main=no	30	det
+30	tratado	tratado	ncms000	ncms000	recursive=no|theme=yes|main=no	28	nsubj
+31	firmado	firmado	aq0msp	aq0msp	recursive=no|theme=yes|main=no	30	amod
+32	en	en	sps00	sps00	recursive=no|theme=yes|main=no	31	prepa
+33	junio	junio	ncms000	ncms000	recursive=no|theme=yes|main=no	32	pobj
+34	pasado	pasado	aq0msp	aq0msp	recursive=no|theme=yes|main=no	33	amod
 35	,	,	fc	fc	recursive=no|theme=no|main=no	36	punct
 36	informa	informar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 37	hoy	hoy	rg	rg	recursive=no|theme=no|main=no	36	advmod
@@ -50,8 +50,8 @@
 50	.	.	fp	fp	recursive=no|theme=no|main=no	36	punct
 
 1	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	9	punct
-2	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	3	det
-3	retirada	retirada	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	5	nsubj
+2	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	3	det
+3	retirada	retirada	ncfs000	ncfs000	recursive=no|theme=yes|main=no	5	nsubj
 4	no	no	rn	rn	recursive=no|theme=no|main=no	5	neg
 5	tardará	tardar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	9	coord
 6	dos	dos	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	7	det
@@ -64,8 +64,8 @@
 13	según	según	cs	cs	recursive=no|theme=no|main=no	20	advcl
 14	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	13	cobj
 15	decidido	decidir	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	14	vobj
-16	ambos	ambos	dn0mp0	dn0mp0	recursive=no|theme=no|main=no	17	det
-17	países	país	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	14	nsubj
+16	ambos	ambos	dn0mp0	dn0mp0	recursive=no|theme=yes|main=no	17	det
+17	países	país	ncmp000	ncmp000	recursive=no|theme=yes|main=no	14	nsubj
 18	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	13	punct
 19	,	,	fc	fc	recursive=no|theme=no|main=no	20	punct
 20	anunció	anunciar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
@@ -97,8 +97,8 @@
 46	Ariani	Ariani	ncms000	ncms000	recursive=no|theme=no|main=no	45	pobj
 47	.	.	fp	fp	recursive=no|theme=no|main=no	20	punct
 
-1	Estas	este	dd0fp0	dd0fp0	recursive=no|theme=no|main=no	2	det
-2	declaraciones	declaración	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Estas	este	dd0fp0	dd0fp0	recursive=no|theme=yes|main=no	2	det
+2	declaraciones	declaración	ncfp000	ncfp000	recursive=no|theme=yes|main=no	3	nsubj
 3	tuvieron	tener	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	0	root
 4	lugar	lugar	ncfp000	ncfp000	recursive=no|theme=no|main=no	3	dobj
 5	tras	tras	sps00	sps00	recursive=no|theme=no|main=no	3	prepv
@@ -127,20 +127,20 @@
 28	Rojo	rojo	nc00000	nc00000	recursive=no|theme=no|main=no	27	appos
 29	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	representante	representante	nccs000	nccs000	recursive=yes|theme=yes|main=no	6	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	Arabia	Arabia	np0000l	np0000l	recursive=no|theme=no|main=no	3	pobj
-5	Saudí	Saudí	np0000l	np0000l	recursive=no|theme=no|main=no	4	appos
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	representante	representante	nccs000	nccs000	recursive=no|theme=yes|main=no	6	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	Arabia	Arabia	np0000l	np0000l	recursive=no|theme=yes|main=no	3	pobj
+5	Saudí	Saudí	np0000l	np0000l	recursive=no|theme=yes|main=no	4	appos
 6	añadió	añadir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 7	que	que	cs	cs	recursive=no|theme=no|main=no	6	dobj
 8	,	,	fc	fc	recursive=no|theme=no|main=no	15	punct
 9	mientras	mientras	cs	cs	recursive=no|theme=no|main=no	7	advcl
 10	dure	durar	vmsp3s0	vmsp3s0	recursive=no|theme=no|main=no	9	cobj
-11	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	12	det
-12	retirada	retirada	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	10	nsubj
+11	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	12	det
+12	retirada	retirada	ncfs000	ncfs000	recursive=no|theme=yes|main=no	10	nsubj
 13	,	,	fc	fc	recursive=no|theme=no|main=no	15	punct
-14	Yemen	Yemen	np0000o	np0000o	recursive=yes|theme=yes|main=no	15	nsubj
+14	Yemen	Yemen	np0000o	np0000o	recursive=no|theme=yes|main=no	15	nsubj
 15	estará	estar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	9	cobj
 16	autorizado	autorizado	aq0msp	aq0msp	recursive=no|theme=no|main=no	15	attr
 17	a	a	sps00	sps00	recursive=no|theme=no|main=no	16	oobj
@@ -155,8 +155,8 @@
 26	Riad	Riad	np0000l	np0000l	recursive=no|theme=no|main=no	25	pobj
 27	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
-1	Abdel	Abdel	np0000l	np0000l	recursive=yes|theme=yes|main=no	3	nsubj
-2	Aziz	Aziz	np0000l	np0000l	recursive=no|theme=no|main=no	1	appos
+1	Abdel	Abdel	np0000l	np0000l	recursive=no|theme=yes|main=no	3	nsubj
+2	Aziz	Aziz	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
 3	consideró	considerar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	5	det
 5	reunión	reunión	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	dobj
@@ -185,8 +185,8 @@
 28	no	no	rn	rn	recursive=no|theme=no|main=no	29	neg
 29	deben	deber	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	27	cobj
 30	esperarse	esperar	vmn0000	vmn0000	recursive=no|theme=no|main=no	29	dobj
-31	resultados	resultado	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	29	nsubj
-32	inmediatos	inmediato	aq0mp0	aq0mp0	recursive=no|theme=no|main=no	31	amod
+31	resultados	resultado	ncmp000	ncmp000	recursive=no|theme=yes|main=no	29	nsubj
+32	inmediatos	inmediato	aq0mp0	aq0mp0	recursive=no|theme=yes|main=no	31	amod
 33	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
 1	En	en	sps00	sps00	recursive=no|theme=no|main=no	12	prepv
@@ -195,11 +195,11 @@
 4	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	prepn
 5	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	4	advmod
 6	,	,	fc	fc	recursive=no|theme=no|main=no	12	punct
-7	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	8	det
-8	representantes	representante	nccp000	nccp000	recursive=yes|theme=yes|main=no	12	nsubj
-9	saudíes	saudí	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	10	coord
-10	y	y	cc	cc	recursive=no|theme=no|main=no	8	dep
-11	yemeníes	yemení	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	10	coord
+7	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	8	det
+8	representantes	representante	nccp000	nccp000	recursive=no|theme=yes|main=no	12	nsubj
+9	saudíes	saudí	aq0cp0	aq0cp0	recursive=no|theme=yes|main=no	10	coord
+10	y	y	cc	cc	recursive=no|theme=yes|main=no	8	dep
+11	yemeníes	yemení	aq0cp0	aq0cp0	recursive=no|theme=yes|main=no	10	coord
 12	trataron	tratar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	34	dobj
 13	principalmente	principalmente	rg	rg	recursive=no|theme=no|main=no	14	advmod
 14	sobre	sobre	sps00	sps00	recursive=no|theme=no|main=no	12	oobj
@@ -226,10 +226,10 @@
 35	Ariani	Ariani	np0000p	np0000p	recursive=no|theme=no|main=no	34	nsubj
 36	.	.	fp	fp	recursive=no|theme=no|main=no	34	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	comité	comité	ncms000	ncms000	recursive=yes|theme=yes|main=no	5	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	coordinación	coordinación	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	comité	comité	ncms000	ncms000	recursive=no|theme=yes|main=no	5	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	coordinación	coordinación	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	pobj
 5	acordó	acordar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 6	reunirse	reunir	vmn0000	vmn0000	recursive=no|theme=no|main=no	10	coord
 7	cada	cada	di0cs0	di0cs0	recursive=no|theme=no|main=no	9	det

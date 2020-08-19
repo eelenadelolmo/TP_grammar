@@ -1,8 +1,8 @@
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	cantautor	cantautor	ncms000	ncms000	recursive=yes|theme=yes|main=no	6	nsubj
-3	Joan	Joan	ncfs000	ncfs000	recursive=no|theme=no|main=no	2	appos
-4	Manuel	Manuel	ncms000	ncms000	recursive=no|theme=no|main=no	3	appos
-5	Serrat	Serrat	np00000	np00000	recursive=no|theme=no|main=no	4	appos
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	cantautor	cantautor	ncms000	ncms000	recursive=no|theme=yes|main=no	6	nsubj
+3	Joan	Joan	ncfs000	ncfs000	recursive=no|theme=yes|main=no	2	appos
+4	Manuel	Manuel	ncms000	ncms000	recursive=no|theme=yes|main=no	3	appos
+5	Serrat	Serrat	np00000	np00000	recursive=no|theme=yes|main=no	4	appos
 6	animó	animar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 7	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	6	advmod
 8	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
@@ -32,8 +32,8 @@
 32	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
 1	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	6	punct
-2	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	3	det
-3	rentabilidad	rentabilidad	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	6	nsubj
+2	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	3	det
+3	rentabilidad	rentabilidad	ncfs000	ncfs000	recursive=no|theme=yes|main=no	6	nsubj
 4	no	no	rn	rn	recursive=no|theme=no|main=no	6	neg
 5	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	7	reflec
 6	puede	poder	vmip3s0	vmip3s0	recursive=yes|theme=no|main=yes	12	dobj
@@ -50,7 +50,7 @@
 17	Sec	Sec	np0000l	np0000l	recursive=no|theme=no|main=no	16	appos
 18	.	.	fp	fp	recursive=no|theme=no|main=no	12	punct
 
-1	Serrat	Serrat	np00000	np00000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Serrat	Serrat	np00000	np00000	recursive=no|theme=yes|main=no	2	nsubj
 2	recibió	recibir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 3	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	4	det
 4	premio	premio	ncms000	ncms000	recursive=no|theme=no|main=no	2	dobj

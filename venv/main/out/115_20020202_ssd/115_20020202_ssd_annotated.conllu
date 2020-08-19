@@ -1,6 +1,6 @@
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	grupo	grupo	ncms000	ncms000	recursive=yes|theme=yes|main=no	5	nsubj
-3	británico	británico	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	2	amod
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	grupo	grupo	ncms000	ncms000	recursive=no|theme=yes|main=no	5	nsubj
+3	británico	británico	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	2	amod
 4	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	6	reflec
 5	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 6	visto	ver	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	5	vobj
@@ -19,7 +19,7 @@
 19	en	en	sps00	sps00	recursive=no|theme=no|main=no	30	coord
 20	Razzmatazz	Razzmatazz	np00000	np00000	recursive=no|theme=no|main=no	19	pobj
 21	(	(	fpa	fpa	recursive=no|theme=no|main=no	24	punct
-22	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	24	nsubj
+22	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	24	nsubj
 23	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	24	reflec
 24	pospone	posponer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	19	rcmod
 25	al	al	spcms	spcms	recursive=no|theme=no|main=no	24	prepv
@@ -41,8 +41,8 @@
 41	Zaragoza	Zaragoza	np00000	np00000	recursive=no|theme=no|main=no	40	pobj
 42	.	.	fp	fp	recursive=no|theme=no|main=no	5	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	motivo	motivo	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	motivo	motivo	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 4	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	5	det
 5	pinzamiento	pinzamiento	ncms000	ncms000	recursive=no|theme=no|main=no	3	attr

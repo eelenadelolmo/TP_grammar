@@ -1,7 +1,7 @@
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	presidente	presidente	ncms000	ncms000	recursive=yes|theme=yes|main=no	5	nsubj
-3	George	George	np00000	np00000	recursive=no|theme=no|main=no	2	appos
-4	Bush	bush	ncms000	ncms000	recursive=no|theme=no|main=no	3	appos
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	presidente	presidente	ncms000	ncms000	recursive=no|theme=yes|main=no	5	nsubj
+3	George	George	np00000	np00000	recursive=no|theme=yes|main=no	2	appos
+4	Bush	bush	ncms000	ncms000	recursive=no|theme=yes|main=no	3	appos
 5	lanzó	lanzar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 6	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	7	advmod
 7	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	8	det
@@ -43,18 +43,18 @@
 43	York	York	np0000o	np0000o	recursive=no|theme=no|main=no	42	appos
 44	.	.	fp	fp	recursive=no|theme=no|main=no	5	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	equipo	equipo	ncms000	ncms000	recursive=yes|theme=yes|main=no	4	nsubj
-3	local	local	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	2	amod
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	equipo	equipo	ncms000	ncms000	recursive=no|theme=yes|main=no	4	nsubj
+3	local	local	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	2	amod
 4	ganó	ganar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	8	coord
 5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
 6	partido	partido	ncms000	ncms000	recursive=no|theme=no|main=no	4	dobj
 7	,	,	fc	fc	recursive=no|theme=no|main=no	13	punct
 8	pero	pero	cc	cc	recursive=no|theme=no|main=no	0	root
-9	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	10	det
-10	Backs	Backs	np0000o	np0000o	recursive=yes|theme=yes|main=no	13	nsubj
-11	de	de	sps00	sps00	recursive=no|theme=no|main=no	10	prepn
-12	Arizona	Arizona	np0000l	np0000l	recursive=no|theme=no|main=no	11	pobj
+9	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	10	det
+10	Backs	Backs	np0000o	np0000o	recursive=no|theme=yes|main=no	13	nsubj
+11	de	de	sps00	sps00	recursive=no|theme=yes|main=no	10	prepn
+12	Arizona	Arizona	np0000l	np0000l	recursive=no|theme=yes|main=no	11	pobj
 13	dominan	dominar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	8	coord
 14	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	15	det
 15	serie	serie	ncfs000	ncfs000	recursive=no|theme=no|main=no	13	dobj
@@ -62,8 +62,8 @@
 17	2-1	2-1	z	z	recursive=no|theme=no|main=no	16	pobj
 18	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 
-1	Las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	2	det
-2	gradas	grada	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	2	det
+2	gradas	grada	ncfp000	ncfp000	recursive=no|theme=yes|main=no	3	nsubj
 3	fueron	ser	vsis3p0	vsis3p0	recursive=no|theme=no|main=no	13	coord
 4	pintadas	pintar	vmp00pf	vmp00pf	recursive=no|theme=no|main=no	3	attr
 5	con	con	sps00	sps00	recursive=no|theme=no|main=no	4	prepv
@@ -75,13 +75,13 @@
 11	de	de	sps00	sps00	recursive=no|theme=no|main=no	10	prepn
 12	EEUU	EEUU	np00000	np00000	recursive=no|theme=no|main=no	11	pobj
 13	y	y	cc	cc	recursive=no|theme=no|main=no	0	root
-14	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	15	det
-15	aficionados	aficionado	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	16	nsubj
+14	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	15	det
+15	aficionados	aficionado	ncmp000	ncmp000	recursive=no|theme=yes|main=no	16	nsubj
 16	llevaron	llevar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	13	coord
 17	símbolos	símbolo	ncmp000	ncmp000	recursive=no|theme=no|main=no	18	coord
 18	y	y	cc	cc	recursive=no|theme=no|main=no	16	dobj
 19	pancartas	pancarta	ncfp000	ncfp000	recursive=no|theme=no|main=no	18	coord
-20	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	21	nsubj
+20	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	21	nsubj
 21	invitaban	invitar	vmii3p0	vmii3p0	recursive=no|theme=no|main=no	18	rcmod
 22	al	al	spcms	spcms	recursive=no|theme=no|main=no	21	oobj
 23	optimismo	optimismo	ncms000	ncms000	recursive=no|theme=no|main=no	22	pobj
@@ -91,7 +91,7 @@
 27	crisis	crisis	ncfn000	ncfn000	recursive=no|theme=no|main=no	25	pobj
 28	.	.	fp	fp	recursive=no|theme=no|main=no	13	punct
 
-1	Bush	Bush	np00000	np00000	recursive=yes|theme=yes|main=no	8	nsubj
+1	Bush	Bush	np00000	np00000	recursive=no|theme=yes|main=no	8	nsubj
 2	(	(	fpa	fpa	recursive=no|theme=no|main=no	3	punct
 3	foto	foto	ncfs000	ncfs000	recursive=no|theme=no|main=no	8	dobj
 4	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	prepn

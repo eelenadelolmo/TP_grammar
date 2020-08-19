@@ -1,6 +1,6 @@
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	presidente	presidente	ncms000	ncms000	recursive=yes|theme=yes|main=no	4	nsubj
-3	indonesio	indonesio	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	2	amod
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	presidente	presidente	ncms000	ncms000	recursive=no|theme=yes|main=no	4	nsubj
+3	indonesio	indonesio	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	2	amod
 4	pide	pedir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 5	al	al	spcms	spcms	recursive=no|theme=no|main=no	4	iobj
 6	general	general	nccs000	nccs000	recursive=no|theme=no|main=no	5	pobj
@@ -9,8 +9,8 @@
 9	dimita	dimitir	vmsp3s0	vmsp3s0	recursive=no|theme=no|main=no	8	cobj
 10	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	Abdurramán	Abdurramán	np0000l	np0000l	recursive=yes|theme=yes|main=no	3	nsubj
-2	Wahid	Wahid	np0000l	np0000l	recursive=no|theme=no|main=no	1	appos
+1	Abdurramán	Abdurramán	np0000l	np0000l	recursive=no|theme=yes|main=no	3	nsubj
+2	Wahid	Wahid	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
 3	dijo	decir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	ayer	ayer	rg	rg	recursive=no|theme=no|main=no	3	advmod
 5	que	que	cs	cs	recursive=yes|theme=no|main=yes	3	dobj
@@ -27,7 +27,7 @@
 1	No	no	rn	rn	recursive=no|theme=no|main=no	2	neg
 2	obstante	obstante	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	6	te
 3	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
-4	Wiranto	Wiranto	np00000	np00000	recursive=yes|theme=yes|main=no	6	nsubj
+4	Wiranto	Wiranto	np00000	np00000	recursive=no|theme=yes|main=no	6	nsubj
 5	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	6	reflec
 6	mantiene	mantener	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	8	coord
 7	firme	firme	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	6	cpred
@@ -40,7 +40,7 @@
 14	cargo	cargo	ncms000	ncms000	recursive=no|theme=no|main=no	12	dobj
 15	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 
-1	Wahid	Wahid	np00000	np00000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Wahid	Wahid	np00000	np00000	recursive=no|theme=yes|main=no	2	nsubj
 2	retiró	retirar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 3	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	4	poss
 4	apoyo	apoyo	ncms000	ncms000	recursive=no|theme=no|main=no	2	dobj
@@ -53,12 +53,12 @@
 11	después	después	rg	rg	recursive=no|theme=no|main=no	9	advmod
 12	de	de	sps00	sps00	recursive=no|theme=no|main=no	11	prep
 13	que	que	cs	cs	recursive=no|theme=no|main=no	12	pobj
-14	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	15	det
-15	Comisión	Comisión	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	21	nsubj
-16	Nacional	nacional	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	15	amod
-17	sobre	sobre	spcms	spcms	recursive=no|theme=no|main=no	15	prepn
-18	Derechos	derecho	nccs000	nccs000	recursive=no|theme=no|main=no	17	pobj
-19	Humanos	humano	np00000	np00000	recursive=no|theme=no|main=no	18	appos
+14	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	15	det
+15	Comisión	Comisión	ncfp000	ncfp000	recursive=no|theme=yes|main=no	21	nsubj
+16	Nacional	nacional	aq0fp0	aq0fp0	recursive=no|theme=yes|main=no	15	amod
+17	sobre	sobre	spcms	spcms	recursive=no|theme=yes|main=no	15	prepn
+18	Derechos	derecho	nccs000	nccs000	recursive=no|theme=yes|main=no	17	pobj
+19	Humanos	humano	np00000	np00000	recursive=no|theme=yes|main=no	18	appos
 20	le	él	pp3csd00	pp3csd00	recursive=no|theme=no|main=no	21	iobj
 21	acusara	acusar	vmsi3s0	vmsi3s0	recursive=no|theme=no|main=no	13	cobj
 22	de	de	sps00	sps00	recursive=no|theme=no|main=no	21	oobj
@@ -78,8 +78,8 @@
 36	año	año	ncms000	ncms000	recursive=no|theme=no|main=no	28	dep
 37	pasado	pasado	aq0msp	aq0msp	recursive=no|theme=no|main=no	36	amod
 38	,	,	fc	fc	recursive=no|theme=no|main=no	36	punct
-39	cuando	cuando	pr000000	pr000000	recursive=yes|theme=yes|main=no	41	nsubj
-40	Wiranto	Wiranto	np00000	np00000	recursive=yes|theme=yes|main=no	41	nsubj
+39	cuando	cuando	pr000000	pr000000	recursive=no|theme=yes|main=no	41	nsubj
+40	Wiranto	Wiranto	np00000	np00000	recursive=no|theme=yes|main=no	41	nsubj
 41	era	ser	vsii3s0	vsii3s0	recursive=no|theme=no|main=no	36	rcmod
 42	jefe	jefe	ncms000	ncms000	recursive=no|theme=no|main=no	41	attr
 43	del	del	spcms	spcms	recursive=no|theme=no|main=no	42	prepn
@@ -87,7 +87,7 @@
 45	Mayor	mayor	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	44	amod
 46	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
-1	Wiranto	Wiranto	np00000	np00000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Wiranto	Wiranto	np00000	np00000	recursive=no|theme=yes|main=no	2	nsubj
 2	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	11	coord
 3	negado	negar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	2	vobj
 4	todas	todo	di0fp0	di0fp0	recursive=no|theme=no|main=no	6	det
@@ -113,8 +113,8 @@
 1	De	de	sps00	sps00	recursive=no|theme=no|main=no	6	advmod
 2	momento	momento	vmn0000	vmn0000	recursive=no|theme=no|main=no	1	pobj
 3	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
-4	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	5	det
-5	Ejército	Ejército	np00000	np00000	recursive=yes|theme=yes|main=no	6	nsubj
+4	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	5	det
+5	Ejército	Ejército	np00000	np00000	recursive=no|theme=yes|main=no	6	nsubj
 6	mantiene	mantener	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 7	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	8	det
 8	calma	calma	ncfs000	ncfs000	recursive=no|theme=no|main=no	6	dobj

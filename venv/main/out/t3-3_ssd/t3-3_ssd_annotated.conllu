@@ -17,8 +17,8 @@
 17	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	18	det
 18	oficio	oficio	ncms000	ncms000	recursive=no|theme=no|main=no	16	pobj
 19	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	23	dobj
-20	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	21	det
-21	chófer	chófer	ncms000	ncms000	recursive=yes|theme=yes|main=no	22	nsubj
+20	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	21	det
+21	chófer	chófer	ncms000	ncms000	recursive=no|theme=yes|main=no	22	nsubj
 22	quería	querer	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	18	rcmod
 23	elevar	elevar	vmn0000	vmn0000	recursive=no|theme=no|main=no	22	dobj
 24	a	a	sps00	sps00	recursive=no|theme=no|main=no	23	prepv
@@ -61,11 +61,11 @@
 13	año	año	ncms000	ncms000	recursive=no|theme=no|main=no	12	pobj
 14	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	cena	cena	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	6	nsubj
-3	del	del	spcms	spcms	recursive=no|theme=no|main=no	2	prepn
-4	Holiday	Holiday	np0000l	np0000l	recursive=no|theme=no|main=no	3	pobj
-5	Inn	Inn	np0000l	np0000l	recursive=no|theme=no|main=no	4	appos
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	cena	cena	ncfs000	ncfs000	recursive=no|theme=yes|main=no	6	nsubj
+3	del	del	spcms	spcms	recursive=no|theme=yes|main=no	2	prepn
+4	Holiday	Holiday	np0000l	np0000l	recursive=no|theme=yes|main=no	3	pobj
+5	Inn	Inn	np0000l	np0000l	recursive=no|theme=yes|main=no	4	appos
 6	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 7	casi	casi	rg	rg	recursive=no|theme=no|main=no	8	advmod
 8	tan	tanto	rg	rg	recursive=no|theme=no|main=no	9	advmod
@@ -101,8 +101,8 @@
 4	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	prepn
 5	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	6	det
 6	Trinidad	Trinidad	np0000l	np0000l	recursive=no|theme=no|main=no	4	pobj
-7	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	8	det
-8	muchachas	muchacha	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	10	nsubj
+7	las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	8	det
+8	muchachas	muchacha	ncfp000	ncfp000	recursive=no|theme=yes|main=no	10	nsubj
 9	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	11	reflec
 10	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	0	root
 11	quedado	quedar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	10	vobj
@@ -137,12 +137,12 @@
 26	Cumama	Cumama	np0000l	np0000l	recursive=no|theme=no|main=no	25	appos
 27	.	.	fp	fp	recursive=no|theme=no|main=no	22	punct
 
-1	Tanto	tanto	rg	rg	recursive=no|theme=no|main=no	4	advmod
-2	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	3	det
-3	madre	madre	ncfs000	ncfs000	recursive=no|theme=no|main=no	4	cobj
-4	como	como	cs	cs	recursive=yes|theme=yes|main=no	7	nsubj
-5	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	6	det
-6	hija	hija	ncfs000	ncfs000	recursive=no|theme=no|main=no	4	cobj
+1	Tanto	tanto	rg	rg	recursive=no|theme=yes|main=no	4	advmod
+2	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	3	det
+3	madre	madre	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	cobj
+4	como	como	cs	cs	recursive=no|theme=yes|main=no	7	nsubj
+5	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	6	det
+6	hija	hija	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	cobj
 7	quieren	querer	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
 8	-	-	fg	fg	recursive=no|theme=no|main=no	9	punct
 9	trabajar	trabajar	vmn0000	vmn0000	recursive=no|theme=no|main=no	7	dobj
@@ -175,8 +175,8 @@
 
 1	-	-	fg	fg	recursive=no|theme=no|main=no	14	punct
 2	-	-	fg	fg	recursive=no|theme=no|main=no	14	punct
-3	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	4	det
-4	calypso	calypso	ncms000	ncms000	recursive=yes|theme=yes|main=no	5	nsubj
+3	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	4	det
+4	calypso	calypso	ncms000	ncms000	recursive=no|theme=yes|main=no	5	nsubj
 5	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	14	coord
 6	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	7	det
 7	canción	canción	ncfs000	ncfs000	recursive=no|theme=no|main=no	5	attr
@@ -229,7 +229,7 @@
 8	,	,	fc	fc	recursive=no|theme=no|main=no	1	punct
 9	como	como	sps00	sps00	recursive=no|theme=no|main=no	1	prepv
 10	si	si	cs	cs	recursive=no|theme=no|main=no	9	pobj
-11	Ginés	Ginés	np0000p	np0000p	recursive=yes|theme=yes|main=no	12	nsubj
+11	Ginés	Ginés	np0000p	np0000p	recursive=no|theme=yes|main=no	12	nsubj
 12	conservara	conservar	vmsi3s0	vmsi3s0	recursive=no|theme=no|main=no	10	cobj
 13	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	14	det
 14	ojos	ojo	ncmp000	ncmp000	recursive=no|theme=no|main=no	12	dobj
@@ -255,10 +255,10 @@
 34	Bay	Bay	np00000	np00000	recursive=no|theme=no|main=no	33	appos
 35	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	aviso	aviso	ncms000	ncms000	recursive=yes|theme=yes|main=no	6	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	desprendimientos	desprendimiento	ncmp000	ncmp000	recursive=no|theme=no|main=no	3	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	aviso	aviso	ncms000	ncms000	recursive=no|theme=yes|main=no	6	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	desprendimientos	desprendimiento	ncmp000	ncmp000	recursive=no|theme=yes|main=no	3	pobj
 5	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	6	reflec
 6	convertía	convertir	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	0	root
 7	en	en	sps00	sps00	recursive=no|theme=no|main=no	6	oobj
@@ -290,7 +290,7 @@
 3	en	en	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
 4	cuando	cuando	cs	cs	recursive=no|theme=no|main=no	3	pobj
 5	,	,	fc	fc	recursive=no|theme=no|main=no	8	punct
-6	Ginés	Ginés	np0000p	np0000p	recursive=yes|theme=yes|main=no	8	nsubj
+6	Ginés	Ginés	np0000p	np0000p	recursive=no|theme=yes|main=no	8	nsubj
 7	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	8	reflec
 8	alzaba	alzar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	0	root
 9	para	para	sps00	sps00	recursive=no|theme=no|main=no	8	prepv
@@ -301,16 +301,16 @@
 14	si	si	cs	cs	recursive=no|theme=no|main=no	13	pobj
 15	continuaba	continuar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	14	cobj
 16	allí	allí	rg	rg	recursive=no|theme=no|main=no	15	advmod
-17	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	18	det
-18	esquina	esquina	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	15	nsubj
-19	despejada	despejado	aq0fsp	aq0fsp	recursive=no|theme=no|main=no	18	amod
-20	del	del	spcms	spcms	recursive=no|theme=no|main=no	18	prepn
-21	noreste	noreste	ncms000	ncms000	recursive=no|theme=no|main=no	20	pobj
+17	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	18	det
+18	esquina	esquina	ncfs000	ncfs000	recursive=no|theme=yes|main=no	15	nsubj
+19	despejada	despejado	aq0fsp	aq0fsp	recursive=no|theme=yes|main=no	18	amod
+20	del	del	spcms	spcms	recursive=no|theme=yes|main=no	18	prepn
+21	noreste	noreste	ncms000	ncms000	recursive=no|theme=yes|main=no	20	pobj
 22	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	filtro	filtro	ncms000	ncms000	recursive=yes|theme=yes|main=no	4	nsubj
-3	gris	gris	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	2	amod
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	filtro	filtro	ncms000	ncms000	recursive=no|theme=yes|main=no	4	nsubj
+3	gris	gris	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	2	amod
 4	parecía	parecer	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	15	coord
 5	respetar	respetar	vmn0000	vmn0000	recursive=no|theme=no|main=no	4	attr
 6	aquella	aquel	dd0fs0	dd0fs0	recursive=no|theme=no|main=no	7	det
@@ -323,8 +323,8 @@
 13	calor	calor	ncms000	ncms000	recursive=no|theme=no|main=no	11	coord
 14	,	,	fc	fc	recursive=no|theme=no|main=no	18	punct
 15	pero	pero	cc	cc	recursive=no|theme=no|main=no	0	root
-16	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	17	det
-17	nubes	nube	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	18	nsubj
+16	las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	17	det
+17	nubes	nube	ncfp000	ncfp000	recursive=no|theme=yes|main=no	18	nsubj
 18	persistían	persistir	vmii3p0	vmii3p0	recursive=no|theme=no|main=no	15	coord
 19	inmediatas	inmediato	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	18	cpred
 20	como	como	cs	cs	recursive=no|theme=no|main=no	19	dep
@@ -350,7 +350,7 @@
 40	hermosa	hermoso	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	41	coord
 41	y	y	cc	cc	recursive=no|theme=no|main=no	39	dep
 42	libre	libre	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	41	coord
-43	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	44	nsubj
+43	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	44	nsubj
 44	quedara	quedar	vmsi3s0	vmsi3s0	recursive=no|theme=no|main=no	39	rcmod
 45	en	en	sps00	sps00	recursive=no|theme=no|main=no	44	prepv
 46	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	47	det
@@ -361,14 +361,14 @@
 2	pronto	pronto	rg	rg	recursive=no|theme=no|main=no	1	advmod
 3	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	4	reflec
 4	acentuó	acentuar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	8	coord
-5	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	6	det
-6	claridad	claridad	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
-7	ambiental	ambiental	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	6	amod
+5	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	6	det
+6	claridad	claridad	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
+7	ambiental	ambiental	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	6	amod
 8	y	y	cc	cc	recursive=no|theme=no|main=no	0	root
-9	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	10	det
-10	rayo	rayo	ncms000	ncms000	recursive=yes|theme=yes|main=no	14	nsubj
-11	de	de	sps00	sps00	recursive=no|theme=no|main=no	10	prepn
-12	sol	sol	ncms000	ncms000	recursive=no|theme=no|main=no	11	pobj
+9	un	uno	di0ms0	di0ms0	recursive=no|theme=yes|main=no	10	det
+10	rayo	rayo	ncms000	ncms000	recursive=no|theme=yes|main=no	14	nsubj
+11	de	de	sps00	sps00	recursive=no|theme=yes|main=no	10	prepn
+12	sol	sol	ncms000	ncms000	recursive=no|theme=yes|main=no	11	pobj
 13	le	él	pp3csd00	pp3csd00	recursive=no|theme=no|main=no	14	iobj
 14	bañó	bañar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	8	coord
 15	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	16	det

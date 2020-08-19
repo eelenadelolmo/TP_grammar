@@ -1,5 +1,5 @@
-1	Una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	2	det
-2	papelera	papelera	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Una	uno	di0fs0	di0fs0	recursive=no|theme=yes|main=no	2	det
+2	papelera	papelera	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	nsubj
 3	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 4	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	5	det
 5	objeto	objeto	ncms000	ncms000	recursive=no|theme=no|main=no	3	attr
@@ -98,14 +98,14 @@
 19	berrido	berrido	ncms000	ncms000	recursive=no|theme=no|main=no	18	coord
 20	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	pobj
-2	de	de	sps00	sps00	recursive=yes|theme=yes|main=no	17	nsubj
-3	andadura	andadura	ncfs000	ncfs000	recursive=no|theme=no|main=no	2	pobj
-4	media	medio	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	3	amod
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	pobj
+2	de	de	sps00	sps00	recursive=no|theme=yes|main=no	17	nsubj
+3	andadura	andadura	ncfs000	ncfs000	recursive=no|theme=yes|main=no	2	pobj
+4	media	medio	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	3	amod
 5	,	,	fc	fc	recursive=no|theme=no|main=no	17	punct
 6	cuando	cuando	cs	cs	recursive=no|theme=no|main=no	17	advcl
-7	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	8	det
-8	papelera	papelera	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	11	nsubj
+7	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	8	det
+8	papelera	papelera	ncfs000	ncfs000	recursive=no|theme=yes|main=no	11	nsubj
 9	no	no	rn	rn	recursive=no|theme=no|main=no	11	neg
 10	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	11	reflec
 11	desprende	desprender	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	6	cobj
@@ -127,9 +127,9 @@
 27	y	y	cc	cc	recursive=no|theme=no|main=no	23	cobj
 28	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	29	reflec
 29	derraman	derramar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	27	coord
-30	todas	todo	di0fp0	di0fp0	recursive=no|theme=no|main=no	32	det
-31	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	32	poss
-32	especias	especia	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	29	nsubj
+30	todas	todo	di0fp0	di0fp0	recursive=no|theme=yes|main=no	32	det
+31	sus	su	dp3cp0	dp3cp0	recursive=no|theme=yes|main=no	32	poss
+32	especias	especia	ncfp000	ncfp000	recursive=no|theme=yes|main=no	29	nsubj
 33	.	.	fp	fp	recursive=no|theme=no|main=no	19	punct
 
 1	Entonces	entonces	rg	rg	recursive=no|theme=no|main=no	3	advmod
@@ -212,7 +212,7 @@
 12	?	?	fit	fit	recursive=no|theme=no|main=no	3	punct
 
 1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	3	det
-2	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	3	nsubj
+2	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	3	nsubj
 3	golpea	golpear	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	18	attr
 4	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	5	det
 5	papelera	papelera	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	dobj
@@ -232,7 +232,7 @@
 19	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	20	det
 20	insatisfecho	insatisfecho	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	18	attr
 21	,	,	fc	fc	recursive=no|theme=no|main=no	20	punct
-22	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	23	nsubj
+22	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	23	nsubj
 23	siente	sentir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	20	rcmod
 24	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	25	det
 25	tentación	tentación	ncfs000	ncfs000	recursive=no|theme=no|main=no	23	dobj
@@ -241,7 +241,7 @@
 28	.	.	fp	fp	recursive=no|theme=no|main=no	18	punct
 
 1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	4	det
-2	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	4	nsubj
+2	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	4	nsubj
 3	la	él	pp3fsa00	pp3fsa00	recursive=no|theme=no|main=no	4	dobj
 4	derriba	derribar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	7	rcmod
 5	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
@@ -256,7 +256,7 @@
 14	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
 1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	3	det
-2	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	3	nsubj
+2	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	3	nsubj
 3	prende	prender	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	13	rcmod
 4	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	5	det
 5	fuego	fuego	ncms000	ncms000	recursive=no|theme=no|main=no	3	dobj
@@ -274,8 +274,8 @@
 17	destrucción	destrucción	ncfs000	ncfs000	recursive=no|theme=no|main=no	15	pobj
 18	,	,	fc	fc	recursive=no|theme=no|main=no	12	punct
 19	y	y	cc	cc	recursive=no|theme=no|main=no	0	root
-20	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	21	poss
-21	ritual	ritual	ncms000	ncms000	recursive=yes|theme=yes|main=no	22	nsubj
+20	su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	21	poss
+21	ritual	ritual	ncms000	ncms000	recursive=no|theme=yes|main=no	22	nsubj
 22	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	19	coord
 23	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	24	det
 24	catarsis	catarsis	ncfn000	ncfn000	recursive=no|theme=no|main=no	22	attr

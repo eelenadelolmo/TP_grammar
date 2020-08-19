@@ -1,9 +1,9 @@
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	campo	campo	ncms000	ncms000	recursive=yes|theme=yes|main=no	7	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	5	det
-5	UD	UD	np0000l	np0000l	recursive=no|theme=no|main=no	3	pobj
-6	Fuengirola	Fuengirola	np0000l	np0000l	recursive=no|theme=no|main=no	5	appos
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	campo	campo	ncms000	ncms000	recursive=no|theme=yes|main=no	7	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	5	det
+5	UD	UD	np0000l	np0000l	recursive=no|theme=yes|main=no	3	pobj
+6	Fuengirola	Fuengirola	np0000l	np0000l	recursive=no|theme=yes|main=no	5	appos
 7	ha	haber	vaip3s0	vaip3s0	recursive=yes|theme=no|main=yes	49	dobj
 8	sido	ser	vsp00sm	vsp00sm	recursive=no|theme=no|main=no	7	cobj
 9	clausurado	clausurar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	8	attr
@@ -58,9 +58,9 @@
 
 1	Además	además	rg	rg	recursive=no|theme=no|main=no	7	advmod
 2	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
-3	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	4	det
-4	organismo	organismo	ncms000	ncms000	recursive=yes|theme=yes|main=no	6	nsubj
-5	federativo	federativo	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	4	amod
+3	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	4	det
+4	organismo	organismo	ncms000	ncms000	recursive=no|theme=yes|main=no	6	nsubj
+5	federativo	federativo	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	4	amod
 6	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	16	coord
 7	impuesto	imponer	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	6	vobj
 8	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	9	det
@@ -111,8 +111,8 @@
 53	veleño	veleño	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	52	amod
 54	.	.	fp	fp	recursive=no|theme=no|main=no	16	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	hechos	hecho	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	hechos	hecho	ncmp000	ncmp000	recursive=no|theme=yes|main=no	3	nsubj
 3	ocurrieron	ocurrir	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 4	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
 5	pasado	pasado	aq0msp	aq0msp	recursive=no|theme=no|main=no	6	amod
@@ -121,8 +121,8 @@
 8	febrero	febrero	ncms000	ncms000	recursive=no|theme=no|main=no	7	pobj
 9	,	,	fc	fc	recursive=no|theme=no|main=no	3	punct
 10	cuando	cuando	cs	cs	recursive=no|theme=no|main=no	3	advcl
-11	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	12	det
-12	árbitro	árbitro	ncms000	ncms000	recursive=yes|theme=yes|main=no	13	nsubj
+11	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	12	det
+12	árbitro	árbitro	ncms000	ncms000	recursive=no|theme=yes|main=no	13	nsubj
 13	tuvo	tener	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	10	cobj
 14	que	que	cs	cs	recursive=no|theme=no|main=no	13	conj
 15	suspender	suspender	vmn0000	vmn0000	recursive=no|theme=no|main=no	14	cobj
@@ -143,18 +143,18 @@
 30	terreno	terreno	ncms000	ncms000	recursive=no|theme=no|main=no	29	pobj
 31	de	de	sps00	sps00	recursive=no|theme=no|main=no	30	prepn
 32	juego	juego	ncms000	ncms000	recursive=no|theme=no|main=no	31	pobj
-33	más	más	rg	rg	recursive=no|theme=no|main=no	35	advmod
-34	de	de	sps00	sps00	recursive=no|theme=no|main=no	35	prep
-35	doscientos	doscientos	dn0mp0	dn0mp0	recursive=no|theme=no|main=no	36	det
-36	aficionados	aficionado	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	28	nsubj
-37	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	38	nsubj
-38	agredieron	agredir	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	36	rcmod
-39	a	a	sps00	sps00	recursive=no|theme=no|main=no	38	dobj
-40	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	41	det
-41	jugadores	jugador	ncmp000	ncmp000	recursive=no|theme=no|main=no	39	pobj
-42	del	del	spcms	spcms	recursive=no|theme=no|main=no	41	prepn
-43	conjunto	conjunto	ncms000	ncms000	recursive=no|theme=no|main=no	42	pobj
-44	visitante	visitante	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	43	amod
+33	más	más	rg	rg	recursive=no|theme=yes|main=no	35	advmod
+34	de	de	sps00	sps00	recursive=no|theme=yes|main=no	35	prep
+35	doscientos	doscientos	dn0mp0	dn0mp0	recursive=no|theme=yes|main=no	36	det
+36	aficionados	aficionado	ncmp000	ncmp000	recursive=no|theme=yes|main=no	28	nsubj
+37	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	38	nsubj
+38	agredieron	agredir	vmis3p0	vmis3p0	recursive=no|theme=yes|main=no	36	rcmod
+39	a	a	sps00	sps00	recursive=no|theme=yes|main=no	38	dobj
+40	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	41	det
+41	jugadores	jugador	ncmp000	ncmp000	recursive=no|theme=yes|main=no	39	pobj
+42	del	del	spcms	spcms	recursive=no|theme=yes|main=no	41	prepn
+43	conjunto	conjunto	ncms000	ncms000	recursive=no|theme=yes|main=no	42	pobj
+44	visitante	visitante	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	43	amod
 45	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
 1	Como	como	cs	cs	recursive=no|theme=no|main=no	11	dep
@@ -163,10 +163,10 @@
 4	esa	ese	dd0fs0	dd0fs0	recursive=no|theme=no|main=no	5	det
 5	acción	acción	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	pobj
 6	,	,	fc	fc	recursive=no|theme=no|main=no	11	punct
-7	catorce	catorce	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	8	det
-8	futbolistas	futbolista	nccp000	nccp000	recursive=yes|theme=yes|main=no	11	nsubj
-9	del	del	spcms	spcms	recursive=no|theme=no|main=no	8	prepn
-10	Vélez	Vélez	np00000	np00000	recursive=no|theme=no|main=no	9	pobj
+7	catorce	catorce	dn0cp0	dn0cp0	recursive=no|theme=yes|main=no	8	det
+8	futbolistas	futbolista	nccp000	nccp000	recursive=no|theme=yes|main=no	11	nsubj
+9	del	del	spcms	spcms	recursive=no|theme=yes|main=no	8	prepn
+10	Vélez	Vélez	np00000	np00000	recursive=no|theme=yes|main=no	9	pobj
 11	tuvieron	tener	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 12	que	que	cs	cs	recursive=no|theme=no|main=no	11	conj
 13	ser	ser	vsn0000	vsn0000	recursive=no|theme=no|main=no	12	cobj

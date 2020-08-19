@@ -1,6 +1,6 @@
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	Audiencia	audiencia	ncms000	ncms000	recursive=yes|theme=yes|main=no	4	nsubj
-3	Nacional	nacional	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	2	amod
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	Audiencia	audiencia	ncms000	ncms000	recursive=no|theme=yes|main=no	4	nsubj
+3	Nacional	nacional	aq0ms0	aq0ms0	recursive=no|theme=yes|main=no	2	amod
 4	investigará	investigar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	0	root
 5	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	6	det
 6	querella	querella	ncfs000	ncfs000	recursive=no|theme=no|main=no	4	dobj
@@ -26,13 +26,13 @@
 26	Guatemala	Guatemala	np00000	np00000	recursive=no|theme=no|main=no	25	pobj
 27	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	fiscal	fiscal	nccs000	nccs000	recursive=yes|theme=yes|main=no	9	nsubj
-3	jefe	jefe	nccs000	nccs000	recursive=no|theme=no|main=no	2	appos
-4	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
-5	Eduardo	Eduardo	np0000l	np0000l	recursive=no|theme=no|main=no	2	appos
-6	Fungairiño	Fungairiño	np0000l	np0000l	recursive=no|theme=no|main=no	5	appos
-7	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	fiscal	fiscal	nccs000	nccs000	recursive=no|theme=yes|main=no	9	nsubj
+3	jefe	jefe	nccs000	nccs000	recursive=no|theme=yes|main=no	2	appos
+4	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
+5	Eduardo	Eduardo	np0000l	np0000l	recursive=no|theme=yes|main=no	2	appos
+6	Fungairiño	Fungairiño	np0000l	np0000l	recursive=no|theme=yes|main=no	5	appos
+7	,	,	fc	fc	recursive=no|theme=yes|main=no	2	punct
 8	también	también	rg	rg	recursive=no|theme=no|main=no	9	advmod
 9	trata	tratar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 10	de	de	sps00	sps00	recursive=no|theme=no|main=no	9	prepv

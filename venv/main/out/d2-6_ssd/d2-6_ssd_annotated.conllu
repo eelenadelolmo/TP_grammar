@@ -1,4 +1,4 @@
-1	Rominger	Rominger	np0000p	np0000p	recursive=yes|theme=yes|main=no	3	nsubj
+1	Rominger	Rominger	np0000p	np0000p	recursive=no|theme=yes|main=no	3	nsubj
 2	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	3	reflec
 3	llevó	llevar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	5	det
@@ -24,7 +24,7 @@
 1	En	en	sps00	sps00	recursive=no|theme=no|main=no	21	prepv
 2	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	3	det
 3	jornada	jornada	ncfs000	ncfs000	recursive=no|theme=no|main=no	1	pobj
-4	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	5	nsubj
+4	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	5	nsubj
 5	doblaba	doblar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	3	rcmod
 6	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	7	det
 7	ecuador	ecuador	ncms000	ncms000	recursive=no|theme=no|main=no	5	dobj
@@ -39,8 +39,8 @@
 16	cuenta	cuenta	ncfs000	ncfs000	recursive=no|theme=no|main=no	14	pobj
 17	atrás	atrás	rg	rg	recursive=no|theme=no|main=no	16	advmod
 18	,	,	fc	fc	recursive=no|theme=no|main=no	3	punct
-19	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	20	det
-20	suizo	suizo	ncms000	ncms000	recursive=yes|theme=yes|main=no	21	nsubj
+19	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	20	det
+20	suizo	suizo	ncms000	ncms000	recursive=no|theme=yes|main=no	21	nsubj
 21	ratificó	ratificar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 22	de	de	sps00	sps00	recursive=no|theme=no|main=no	21	prepv
 23	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	24	det
@@ -91,8 +91,8 @@
 15	puntos	punto	ncmp000	ncmp000	recursive=no|theme=no|main=no	14	pobj
 16	...	...	fs	fs	recursive=no|theme=no|main=no	1	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	fuerza	fuerza	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	5	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	fuerza	fuerza	ncfs000	ncfs000	recursive=no|theme=yes|main=no	5	nsubj
 3	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	5	reflec
 4	le	él	pp3csd00	pp3csd00	recursive=no|theme=no|main=no	5	iobj
 5	sale	salir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	9	coord
@@ -106,7 +106,7 @@
 13	contener	contener	vmn0000	vmn0000	recursive=no|theme=no|main=no	12	dobj
 14	.	.	fp	fp	recursive=no|theme=no|main=no	9	punct
 
-1	Tony	Tony	np0000p	np0000p	recursive=yes|theme=yes|main=no	2	nsubj
+1	Tony	Tony	np0000p	np0000p	recursive=no|theme=yes|main=no	2	nsubj
 2	volcó	volcar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 3	sobre	sobre	sps00	sps00	recursive=no|theme=no|main=no	2	prepv
 4	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	5	det
@@ -115,14 +115,14 @@
 7	categoría	categoría	ncfs000	ncfs000	recursive=no|theme=no|main=no	2	dobj
 8	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	11	dobj
 9	sólo	sólo	rg	rg	recursive=no|theme=no|main=no	11	advmod
-10	Indurain	Indurain	np0000p	np0000p	recursive=yes|theme=yes|main=no	11	nsubj
+10	Indurain	Indurain	np0000p	np0000p	recursive=no|theme=yes|main=no	11	nsubj
 11	posee	poseer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	16	rcmod
 12	en	en	sps00	sps00	recursive=no|theme=no|main=no	11	prepv
 13	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	14	det
 14	ciclismo	ciclismo	ncms000	ncms000	recursive=no|theme=no|main=no	12	pobj
 15	actual	actual	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	14	amod
 16	y	y	cc	cc	recursive=no|theme=no|main=no	7	dep
-17	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	20	nsubj
+17	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	20	nsubj
 18	esta	este	dd0fs0	dd0fs0	recursive=no|theme=no|main=no	19	det
 19	temporada	temporada	ncfs000	ncfs000	recursive=no|theme=no|main=no	20	tmod
 20	juega	jugar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	16	rcmod
@@ -131,7 +131,7 @@
 23	misterio	misterio	ncms000	ncms000	recursive=no|theme=no|main=no	21	pobj
 24	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
-1	Zarrabeitia	Zarrabeitia	np0000p	np0000p	recursive=yes|theme=yes|main=no	2	nsubj
+1	Zarrabeitia	Zarrabeitia	np0000p	np0000p	recursive=no|theme=yes|main=no	2	nsubj
 2	puso	poner	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	6	coord
 3	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	4	det
 4	rebeldía	rebeldía	ncfs000	ncfs000	recursive=no|theme=no|main=no	2	dobj
@@ -142,7 +142,7 @@
 9	gallardía	gallardía	ncfs000	ncfs000	recursive=no|theme=no|main=no	6	coord
 10	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
-1	Mikel	Mikel	np0000p	np0000p	recursive=yes|theme=yes|main=no	7	nsubj
+1	Mikel	Mikel	np0000p	np0000p	recursive=no|theme=yes|main=no	7	nsubj
 2	,	,	fc	fc	recursive=no|theme=no|main=no	7	punct
 3	amén	amén	ncfp000	ncfp000	recursive=no|theme=no|main=no	7	prepv
 4	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	prepn
@@ -167,8 +167,8 @@
 23	bostezo	bostezo	ncms000	ncms000	recursive=no|theme=no|main=no	21	pobj
 24	.	.	fp	fp	recursive=no|theme=no|main=no	7	punct
 
-1	Su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	2	poss
-2	ataque	ataque	ncms000	ncms000	recursive=yes|theme=yes|main=no	9	nsubj
+1	Su	su	dp3cs0	dp3cs0	recursive=no|theme=yes|main=no	2	poss
+2	ataque	ataque	ncms000	ncms000	recursive=no|theme=yes|main=no	9	nsubj
 3	,	,	fc	fc	recursive=no|theme=no|main=no	17	punct
 4	sin	sin	sps00	sps00	recursive=no|theme=no|main=no	17	cobj
 5	embargo	embargo	ncmp000	ncmp000	recursive=no|theme=no|main=no	4	pobj
@@ -196,7 +196,7 @@
 5	en	en	sps00	sps00	recursive=no|theme=no|main=no	3	prepn
 6	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	7	det
 7	hombre	hombre	ncms000	ncms000	recursive=no|theme=no|main=no	5	pobj
-8	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	9	nsubj
+8	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	9	nsubj
 9	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	7	rcmod
 10	alcanzando	alcanzar	vmg0000	vmg0000	recursive=no|theme=no|main=no	9	attr
 11	en	en	sps00	sps00	recursive=no|theme=no|main=no	9	prepv
@@ -207,12 +207,12 @@
 16	de	de	sps00	sps00	recursive=no|theme=no|main=no	15	prep
 17	lo	el	da0ns0	da0ns0	recursive=no|theme=no|main=no	18	det
 18	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	26	oobj
-19	nadie	nadie	pi0cs000	pi0cs000	recursive=yes|theme=yes|main=no	25	nsubj
-20	,	,	fc	fc	recursive=no|theme=no|main=no	19	punct
-21	excepto	excepto	sps00	sps00	recursive=no|theme=no|main=no	19	prepn
-22	quizá	quizá	rg	rg	recursive=no|theme=no|main=no	23	advmod
-23	él	él	pp3ms000	pp3ms000	recursive=no|theme=no|main=no	21	pobj
-24	,	,	fc	fc	recursive=no|theme=no|main=no	19	punct
+19	nadie	nadie	pi0cs000	pi0cs000	recursive=no|theme=yes|main=no	25	nsubj
+20	,	,	fc	fc	recursive=no|theme=yes|main=no	19	punct
+21	excepto	excepto	sps00	sps00	recursive=no|theme=yes|main=no	19	prepn
+22	quizá	quizá	rg	rg	recursive=no|theme=yes|main=no	23	advmod
+23	él	él	pp3ms000	pp3ms000	recursive=no|theme=yes|main=no	21	pobj
+24	,	,	fc	fc	recursive=no|theme=yes|main=no	19	punct
 25	podía	poder	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	16	rcmod
 26	presumir	presumir	vmn0000	vmn0000	recursive=no|theme=no|main=no	25	dobj
 27	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
@@ -238,7 +238,7 @@
 19	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	20	det
 20	momentos	momento	ncmp000	ncmp000	recursive=no|theme=no|main=no	18	pobj
 21	importantes	importante	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	20	amod
-22	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	24	nsubj
+22	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	24	nsubj
 23	aún	aún	rg	rg	recursive=no|theme=no|main=no	24	advmod
 24	quedan	quedar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	20	rcmod
 25	por	por	sps00	sps00	recursive=no|theme=no|main=no	24	prepv
@@ -257,7 +257,7 @@
 38	)	)	fpt	fpt	recursive=no|theme=no|main=no	36	punct
 39	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Delgado	Delgado	np0000p	np0000p	recursive=yes|theme=yes|main=no	2	nsubj
+1	Delgado	Delgado	np0000p	np0000p	recursive=no|theme=yes|main=no	2	nsubj
 2	vive	vivir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 3	con	con	sps00	sps00	recursive=no|theme=no|main=no	2	prepv
 4	algo	algo	pi0cs000	pi0cs000	recursive=no|theme=no|main=no	3	pobj

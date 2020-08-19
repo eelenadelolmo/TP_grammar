@@ -1,13 +1,13 @@
-1	EL	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	3	det
-2	'	'	fz	fz	recursive=no|theme=no|main=no	3	punct
-3	CONSELLER	CONSELLER	nc00000	nc00000	recursive=yes|theme=yes|main=no	12	nsubj
-4	'	'	fz	fz	recursive=no|theme=no|main=no	3	punct
-5	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	prepn
-6	Sanitat	Sanitat	np00000	np00000	recursive=no|theme=no|main=no	5	pobj
-7	,	,	fc	fc	recursive=no|theme=no|main=no	3	punct
-8	Eduard	Eduard	np0000l	np0000l	recursive=no|theme=no|main=no	3	appos
-9	Rius	Rius	np0000l	np0000l	recursive=no|theme=no|main=no	8	appos
-10	,	,	fc	fc	recursive=no|theme=no|main=no	3	punct
+1	EL	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	3	det
+2	'	'	fz	fz	recursive=no|theme=yes|main=no	3	punct
+3	CONSELLER	CONSELLER	nc00000	nc00000	recursive=no|theme=yes|main=no	12	nsubj
+4	'	'	fz	fz	recursive=no|theme=yes|main=no	3	punct
+5	de	de	sps00	sps00	recursive=no|theme=yes|main=no	3	prepn
+6	Sanitat	Sanitat	np00000	np00000	recursive=no|theme=yes|main=no	5	pobj
+7	,	,	fc	fc	recursive=no|theme=yes|main=no	3	punct
+8	Eduard	Eduard	np0000l	np0000l	recursive=no|theme=yes|main=no	3	appos
+9	Rius	Rius	np0000l	np0000l	recursive=no|theme=yes|main=no	8	appos
+10	,	,	fc	fc	recursive=no|theme=yes|main=no	3	punct
 11	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	12	reflec
 12	comprometió	comprometer	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 13	anoche	anoche	rg	rg	recursive=no|theme=no|main=no	12	advmod
@@ -41,8 +41,8 @@
 41	sanitario	sanitario	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	40	amod
 42	.	.	fp	fp	recursive=no|theme=no|main=no	12	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	trabajadores	trabajador	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	trabajadores	trabajador	ncmp000	ncmp000	recursive=no|theme=yes|main=no	3	nsubj
 3	aceptaron	aceptar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	6	coord
 4	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	5	det
 5	mediación	mediación	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	dobj

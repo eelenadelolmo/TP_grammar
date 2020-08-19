@@ -1,11 +1,11 @@
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	director	director	ncms000	ncms000	recursive=yes|theme=yes|main=no	9	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	5	det
-5	filial	filial	nccs000	nccs000	recursive=no|theme=no|main=no	3	pobj
-6	bancaria	bancario	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	5	amod
-7	de	de	sps00	sps00	recursive=no|theme=no|main=no	5	prepn
-8	Leipzig	Leipzig	np0000l	np0000l	recursive=no|theme=no|main=no	7	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	director	director	ncms000	ncms000	recursive=no|theme=yes|main=no	9	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	una	uno	di0fs0	di0fs0	recursive=no|theme=yes|main=no	5	det
+5	filial	filial	nccs000	nccs000	recursive=no|theme=yes|main=no	3	pobj
+6	bancaria	bancario	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	5	amod
+7	de	de	sps00	sps00	recursive=no|theme=yes|main=no	5	prepn
+8	Leipzig	Leipzig	np0000l	np0000l	recursive=no|theme=yes|main=no	7	pobj
 9	recibió	recibir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 10	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	11	det
 11	proposición	proposición	ncfs000	ncfs000	recursive=no|theme=no|main=no	9	dobj
@@ -58,9 +58,9 @@
 12	hacer	hacer	vmn0000	vmn0000	recursive=no|theme=no|main=no	11	pobj
 13	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Infinidad	infinidad	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
-2	de	de	sps00	sps00	recursive=no|theme=no|main=no	1	prepn
-3	gente	gente	ncfs000	ncfs000	recursive=no|theme=no|main=no	2	pobj
+1	Infinidad	infinidad	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
+2	de	de	sps00	sps00	recursive=no|theme=yes|main=no	1	prepn
+3	gente	gente	ncfs000	ncfs000	recursive=no|theme=yes|main=no	2	pobj
 4	quiere	querer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	7	coord
 5	fundar	fundar	vmn0000	vmn0000	recursive=no|theme=no|main=no	4	dobj
 6	empresas	empresa	ncfp000	ncfp000	recursive=no|theme=no|main=no	5	dobj
@@ -70,11 +70,11 @@
 10	trabajo	trabajo	ncms000	ncms000	recursive=no|theme=no|main=no	8	dobj
 11	.	.	fp	fp	recursive=no|theme=no|main=no	7	punct
 
-1	Todo	todo	pi0ms000	pi0ms000	recursive=yes|theme=yes|main=no	2	nsubj
+1	Todo	todo	pi0ms000	pi0ms000	recursive=no|theme=yes|main=no	2	nsubj
 2	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	4	coord
 3	nuevo	nuevo	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	2	attr
 4	,	,	fc	fc	recursive=no|theme=no|main=no	0	root
-5	todo	todo	pi0ms000	pi0ms000	recursive=yes|theme=yes|main=no	6	nsubj
+5	todo	todo	pi0ms000	pi0ms000	recursive=no|theme=yes|main=no	6	nsubj
 6	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	4	coord
 7	por	por	sps00	sps00	recursive=no|theme=no|main=no	6	prepv
 8	organizar	organizar	vmn0000	vmn0000	recursive=no|theme=no|main=no	7	pobj
@@ -88,8 +88,8 @@
 6	bien	bien	rg	rg	recursive=no|theme=no|main=no	5	advmod
 7	.	.	fp	fp	recursive=no|theme=no|main=no	5	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	mayoría	mayoría	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	mayoría	mayoría	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	nsubj
 3	procede	proceder	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	de	de	sps00	sps00	recursive=no|theme=no|main=no	3	oobj
 5	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	6	det
@@ -100,8 +100,8 @@
 10	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
 1	Como	como	cs	cs	recursive=no|theme=no|main=no	9	advcl
-2	casi	casi	rg	rg	recursive=no|theme=no|main=no	3	advmod
-3	todos	todo	pi0mp000	pi0mp000	recursive=yes|theme=yes|main=no	4	nsubj
+2	casi	casi	rg	rg	recursive=no|theme=yes|main=no	3	advmod
+3	todos	todo	pi0mp000	pi0mp000	recursive=no|theme=yes|main=no	4	nsubj
 4	son	ser	vsip3p0	vsip3p0	recursive=no|theme=no|main=no	1	cobj
 5	jóvenes	joven	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	4	attr
 6	,	,	fc	fc	recursive=no|theme=no|main=no	8	punct
@@ -122,8 +122,8 @@
 6	de	de	sps00	sps00	recursive=no|theme=no|main=no	5	prepn
 7	Leipzig	Leipzig	np0000l	np0000l	recursive=no|theme=no|main=no	6	pobj
 8	,	,	fc	fc	recursive=no|theme=no|main=no	12	punct
-9	Rainer	Rainer	np0000l	np0000l	recursive=yes|theme=yes|main=no	12	nsubj
-10	Hanesch	Hanesch	np0000l	np0000l	recursive=no|theme=no|main=no	9	appos
+9	Rainer	Rainer	np0000l	np0000l	recursive=no|theme=yes|main=no	12	nsubj
+10	Hanesch	Hanesch	np0000l	np0000l	recursive=no|theme=yes|main=no	9	appos
 11	también	también	rg	rg	recursive=no|theme=no|main=no	12	advmod
 12	marchó	marchar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 13	al	al	spcms	spcms	recursive=no|theme=no|main=no	12	prepv
@@ -183,7 +183,7 @@
 10	suficiente	suficiente	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	9	amod
 11	para	para	sps00	sps00	recursive=no|theme=no|main=no	8	prepv
 12	que	que	cs	cs	recursive=no|theme=no|main=no	11	pobj
-13	Cottbus	Cottbus	np0000l	np0000l	recursive=yes|theme=yes|main=no	14	nsubj
+13	Cottbus	Cottbus	np0000l	np0000l	recursive=no|theme=yes|main=no	14	nsubj
 14	contase	contar	vmsi3s0	vmsi3s0	recursive=no|theme=no|main=no	12	cobj
 15	con	con	sps00	sps00	recursive=no|theme=no|main=no	14	oobj
 16	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	18	poss
@@ -211,16 +211,16 @@
 7	ocasiones	ocasión	ncfp000	ncfp000	recursive=no|theme=no|main=no	6	pobj
 8	les	él	pp3cpd00	pp3cpd00	recursive=no|theme=no|main=no	9	iobj
 9	falta	faltar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	5	coord
-10	iniciativa	iniciativa	ncfs000	ncfs000	recursive=no|theme=no|main=no	11	coord
-11	y	y	cc	cc	recursive=yes|theme=yes|main=no	9	nsubj
-12	sentido	sentido	ncms000	ncms000	recursive=no|theme=no|main=no	11	coord
-13	de	de	sps00	sps00	recursive=no|theme=no|main=no	12	prepn
-14	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	15	det
-15	responsabilidad	responsabilidad	ncfs000	ncfs000	recursive=no|theme=no|main=no	13	pobj
+10	iniciativa	iniciativa	ncfs000	ncfs000	recursive=no|theme=yes|main=no	11	coord
+11	y	y	cc	cc	recursive=no|theme=yes|main=no	9	nsubj
+12	sentido	sentido	ncms000	ncms000	recursive=no|theme=yes|main=no	11	coord
+13	de	de	sps00	sps00	recursive=no|theme=yes|main=no	12	prepn
+14	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	15	det
+15	responsabilidad	responsabilidad	ncfs000	ncfs000	recursive=no|theme=yes|main=no	13	pobj
 16	.	.	fp	fp	recursive=no|theme=no|main=no	5	punct
 
-1	Esta	este	dd0fs0	dd0fs0	recursive=no|theme=no|main=no	2	det
-2	gente	gente	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Esta	este	dd0fs0	dd0fs0	recursive=no|theme=yes|main=no	2	det
+2	gente	gente	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	nsubj
 3	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 4	estado	estar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	3	vobj
 5	acostumbrada	acostumbrado	aq0fsp	aq0fsp	recursive=no|theme=no|main=no	4	cpred

@@ -1,6 +1,6 @@
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	Mossos	Mossos	np0000l	np0000l	recursive=yes|theme=yes|main=no	4	nsubj
-3	d'Esquadra	d'Esquadra	np0000l	np0000l	recursive=no|theme=no|main=no	2	appos
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	Mossos	Mossos	np0000l	np0000l	recursive=no|theme=yes|main=no	4	nsubj
+3	d'Esquadra	d'Esquadra	np0000l	np0000l	recursive=no|theme=yes|main=no	2	appos
 4	detuvieron	detener	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
 6	Sábado	Sábado	ncms000	ncms000	recursive=no|theme=no|main=no	4	dobj
@@ -44,8 +44,8 @@
 44	condena	condena	ncfs000	ncfs000	recursive=no|theme=no|main=no	43	pobj
 45	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	detenido	detenido	ncms000	ncms000	recursive=yes|theme=yes|main=no	4	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	detenido	detenido	ncms000	ncms000	recursive=no|theme=yes|main=no	4	nsubj
 3	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	4	reflec
 4	refugiaba	refugiar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	0	root
 5	en	en	sps00	sps00	recursive=no|theme=no|main=no	4	prepv
@@ -72,8 +72,8 @@
 26	Lleida	Lleida	np00000	np00000	recursive=no|theme=no|main=no	25	pobj
 27	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	detenido	detenido	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	detenido	detenido	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	subsistía	subsistir	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	0	root
 4	cazando	cazar	vmg0000	vmg0000	recursive=no|theme=no|main=no	8	coord
 5	por	por	sps00	sps00	recursive=no|theme=no|main=no	4	prepv
@@ -117,8 +117,8 @@
 24	policial	policial	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	23	amod
 25	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	fugitivo	fugitivo	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	fugitivo	fugitivo	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	estaba	estar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	0	root
 4	considerado	considerado	aq0msp	aq0msp	recursive=no|theme=no|main=no	3	attr
 5	por	por	sps00	sps00	recursive=no|theme=no|main=no	4	agent

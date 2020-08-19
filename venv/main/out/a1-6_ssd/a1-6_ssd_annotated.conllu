@@ -14,7 +14,7 @@
 14	a	a	sps00	sps00	recursive=no|theme=no|main=no	18	dobj
 15	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	16	det
 16	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	14	pobj
-17	Montaigne	Montaigne	np0000p	np0000p	recursive=yes|theme=yes|main=no	18	nsubj
+17	Montaigne	Montaigne	np0000p	np0000p	recursive=no|theme=yes|main=no	18	nsubj
 18	llamó	llamar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	13	dep
 19	sencillamente	sencillamente	rg	rg	recursive=no|theme=no|main=no	18	advmod
 20	-	-	fg	fg	recursive=no|theme=no|main=no	21	punct
@@ -24,8 +24,8 @@
 
 1	También	también	rg	rg	recursive=no|theme=no|main=no	5	advmod
 2	ahora	ahora	rg	rg	recursive=no|theme=no|main=no	5	advmod
-3	estas	este	dd0fp0	dd0fp0	recursive=no|theme=no|main=no	4	det
-4	páginas	página	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	5	nsubj
+3	estas	este	dd0fp0	dd0fp0	recursive=no|theme=yes|main=no	4	det
+4	páginas	página	ncfp000	ncfp000	recursive=no|theme=yes|main=no	5	nsubj
 5	son	ser	vsip3p0	vsip3p0	recursive=no|theme=no|main=no	8	coord
 6	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	7	det
 7	hombre	hombre	ncms000	ncms000	recursive=no|theme=no|main=no	5	attr
@@ -39,9 +39,9 @@
 15	decir	decir	vmn0000	vmn0000	recursive=no|theme=no|main=no	13	rcmod
 16	.	.	fp	fp	recursive=no|theme=no|main=no	8	punct
 
-1	Germán	Germán	np0000o	np0000o	recursive=yes|theme=yes|main=no	5	nsubj
-2	de	de	sps00	sps00	recursive=no|theme=no|main=no	1	prepn
-3	Granda	Granda	np0000l	np0000l	recursive=no|theme=no|main=no	2	pobj
+1	Germán	Germán	np0000o	np0000o	recursive=no|theme=yes|main=no	5	nsubj
+2	de	de	sps00	sps00	recursive=no|theme=yes|main=no	1	prepn
+3	Granda	Granda	np0000l	np0000l	recursive=no|theme=yes|main=no	2	pobj
 4	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	5	reflec
 5	dedica	dedicar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	18	coord
 6	a	a	sps00	sps00	recursive=no|theme=no|main=no	5	oobj
@@ -49,8 +49,8 @@
 8	tareas	tarea	ncfp000	ncfp000	recursive=no|theme=no|main=no	6	pobj
 9	difíciles	difícil	aq0cp0	aq0cp0	recursive=no|theme=no|main=no	8	amod
 10	,	,	fc	fc	recursive=no|theme=no|main=no	5	punct
-11	lo	el	da0ns0	da0ns0	recursive=no|theme=no|main=no	12	det
-12	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	13	nsubj
+11	lo	el	da0ns0	da0ns0	recursive=no|theme=yes|main=no	12	det
+12	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	13	nsubj
 13	sirve	servir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	5	rcmod
 14	para	para	sps00	sps00	recursive=no|theme=no|main=no	13	oobj
 15	retratar	retratar	vmn0000	vmn0000	recursive=no|theme=no|main=no	14	pobj
@@ -77,15 +77,15 @@
 36	unas	uno	di0fp0	di0fp0	recursive=no|theme=no|main=no	37	det
 37	informaciones	información	ncfp000	ncfp000	recursive=no|theme=no|main=no	35	dobj
 38	bibliográficas	bibliográfico	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	37	amod
-39	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	40	nsubj
+39	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	40	nsubj
 40	abren	abrir	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	37	rcmod
 41	mil	mil	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	42	det
 42	caminos	camino	ncmp000	ncmp000	recursive=no|theme=no|main=no	40	dobj
 43	.	.	fp	fp	recursive=no|theme=no|main=no	18	punct
 
 1	Abrumado	abrumar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	6	dobj
-2	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	3	det
-3	lector	lector	ncms000	ncms000	recursive=yes|theme=yes|main=no	1	nsubj
+2	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	3	det
+3	lector	lector	ncms000	ncms000	recursive=no|theme=yes|main=no	1	nsubj
 4	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
 5	se	él	pp3cn000	pp3cn000	recursive=no|theme=no|main=no	6	reflec
 6	pregunta	preguntar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
@@ -94,8 +94,8 @@
 9	ha	haber	vaip3s0	vaip3s0	recursive=yes|theme=no|main=yes	6	dobj
 10	podido	poder	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	9	cobj
 11	hacerse	hacer	vmn0000	vmn0000	recursive=no|theme=no|main=no	9	cobj
-12	todo	todo	di0ms0	di0ms0	recursive=no|theme=no|main=no	13	det
-13	esto	este	pd0ns000	pd0ns000	recursive=yes|theme=yes|main=no	9	nsubj
+12	todo	todo	di0ms0	di0ms0	recursive=no|theme=yes|main=no	13	det
+13	esto	este	pd0ns000	pd0ns000	recursive=no|theme=yes|main=no	9	nsubj
 14	en	en	sps00	sps00	recursive=no|theme=no|main=no	9	prepv
 15	cinco	cinco	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	16	det
 16	años	año	ncmp000	ncmp000	recursive=no|theme=no|main=no	14	pobj
@@ -124,8 +124,8 @@
 8	:	:	fd	fd	recursive=no|theme=no|main=no	21	punct
 9	-	-	fg	fg	recursive=no|theme=no|main=no	21	punct
 10	Cuando	cuando	cs	cs	recursive=no|theme=no|main=no	19	cobj
-11	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	12	det
-12	español	español	ncms000	ncms000	recursive=yes|theme=yes|main=no	13	nsubj
+11	un	uno	di0ms0	di0ms0	recursive=no|theme=yes|main=no	12	det
+12	español	español	ncms000	ncms000	recursive=no|theme=yes|main=no	13	nsubj
 13	sale	salir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	10	cobj
 14	con	con	sps00	sps00	recursive=no|theme=no|main=no	13	prepv
 15	ganas	gana	ncfp000	ncfp000	recursive=no|theme=no|main=no	14	pobj
@@ -141,9 +141,9 @@
 25	-	-	fg	fg	recursive=no|theme=no|main=no	21	punct
 26	.	.	fp	fp	recursive=no|theme=no|main=no	1	punct
 
-1	Germán	Germán	np0000o	np0000o	recursive=yes|theme=yes|main=no	5	nsubj
-2	de	de	sps00	sps00	recursive=no|theme=no|main=no	1	prepn
-3	Granda	Granda	np0000l	np0000l	recursive=no|theme=no|main=no	2	pobj
+1	Germán	Germán	np0000o	np0000o	recursive=no|theme=yes|main=no	5	nsubj
+2	de	de	sps00	sps00	recursive=no|theme=yes|main=no	1	prepn
+3	Granda	Granda	np0000l	np0000l	recursive=no|theme=yes|main=no	2	pobj
 4	nos	yo	pp1cp000	pp1cp000	recursive=no|theme=no|main=no	5	iobj
 5	entrega	entregar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 6	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	7	det
@@ -202,8 +202,8 @@
 59	lenguas	lengua	ncfp000	ncfp000	recursive=no|theme=no|main=no	58	pobj
 60	africanas	africano	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	59	amod
 61	(	(	fpa	fpa	recursive=no|theme=no|main=no	65	punct
-62	lo	el	da0ns0	da0ns0	recursive=no|theme=no|main=no	63	det
-63	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	65	nsubj
+62	lo	el	da0ns0	da0ns0	recursive=no|theme=yes|main=no	63	det
+63	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	65	nsubj
 64	también	también	rg	rg	recursive=no|theme=no|main=no	65	advmod
 65	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	25	rcmod
 66	coherente	coherente	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	65	attr
@@ -220,7 +220,7 @@
 8	darles	dar	vmn0000	vmn0000	recursive=no|theme=no|main=no	16	coord
 9	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	10	det
 10	relación	relación	ncfs000	ncfs000	recursive=no|theme=no|main=no	8	dobj
-11	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	15	nsubj
+11	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	15	nsubj
 12	del	del	spcms	spcms	recursive=no|theme=no|main=no	15	prepv
 13	índice	índice	ncms000	ncms000	recursive=no|theme=no|main=no	12	pobj
 14	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	15	reflec
@@ -238,18 +238,18 @@
 26	)	)	fpt	fpt	recursive=no|theme=no|main=no	19	punct
 27	lo	el	da0ns0	da0ns0	recursive=no|theme=no|main=no	28	det
 28	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	32	dobj
-29	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	30	det
-30	autor	autor	ncms000	ncms000	recursive=yes|theme=yes|main=no	32	nsubj
+29	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	30	det
+30	autor	autor	ncms000	ncms000	recursive=no|theme=yes|main=no	32	nsubj
 31	nos	yo	pp1cp000	pp1cp000	recursive=no|theme=no|main=no	32	iobj
 32	ofrece	ofrecer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	16	rcmod
 33	.	.	fp	fp	recursive=no|theme=no|main=no	16	punct
 
 1	En	en	sps00	sps00	recursive=no|theme=no|main=no	8	prepv
 2	investigación	investigación	ncfs000	ncfs000	recursive=no|theme=no|main=no	1	pobj
-3	todo	todo	di0ms0	di0ms0	recursive=no|theme=no|main=no	4	det
-4	punto	punto	ncms000	ncms000	recursive=yes|theme=yes|main=no	7	nsubj
-5	de	de	sps00	sps00	recursive=no|theme=no|main=no	4	prepn
-6	partida	partida	ncfs000	ncfs000	recursive=no|theme=no|main=no	5	pobj
+3	todo	todo	di0ms0	di0ms0	recursive=no|theme=yes|main=no	4	det
+4	punto	punto	ncms000	ncms000	recursive=no|theme=yes|main=no	7	nsubj
+5	de	de	sps00	sps00	recursive=no|theme=yes|main=no	4	prepn
+6	partida	partida	ncfs000	ncfs000	recursive=no|theme=yes|main=no	5	pobj
 7	debe	deber	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 8	estar	estar	vmn0000	vmn0000	recursive=no|theme=no|main=no	7	dobj
 9	presidido	presidido	aq0msp	aq0msp	recursive=no|theme=no|main=no	8	cpred
@@ -280,8 +280,8 @@
 6	entusiasmo	entusiasmo	ncms000	ncms000	recursive=no|theme=no|main=no	4	pobj
 7	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	8	dobj
 8	produjo	producir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	6	rcmod
-9	lo	el	da0ns0	da0ns0	recursive=no|theme=no|main=no	10	det
-10	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	12	nsubj
+9	lo	el	da0ns0	da0ns0	recursive=no|theme=yes|main=no	10	det
+10	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	12	nsubj
 11	se	se	p0000000	p0000000	recursive=no|theme=no|main=no	12	reflec
 12	llamó	llamar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	8	rcmod
 13	-	-	fg	fg	recursive=no|theme=no|main=no	14	punct
@@ -289,9 +289,9 @@
 15	atlántico	atlántico	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	14	amod
 16	-	-	fg	fg	recursive=no|theme=no|main=no	14	punct
 17	,	,	fc	fc	recursive=no|theme=no|main=no	21	punct
-18	Germán	Germán	np0000o	np0000o	recursive=yes|theme=yes|main=no	21	nsubj
-19	de	de	sps00	sps00	recursive=no|theme=no|main=no	18	prepn
-20	Granda	Granda	np0000l	np0000l	recursive=no|theme=no|main=no	19	pobj
+18	Germán	Germán	np0000o	np0000o	recursive=no|theme=yes|main=no	21	nsubj
+19	de	de	sps00	sps00	recursive=no|theme=yes|main=no	18	prepn
+20	Granda	Granda	np0000l	np0000l	recursive=no|theme=yes|main=no	19	pobj
 21	pone	poner	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	35	coord
 22	no	no	rn	rn	recursive=no|theme=no|main=no	23	neg
 23	pocos	poco	di0mp0	di0mp0	recursive=no|theme=no|main=no	24	det
@@ -358,16 +358,16 @@
 42	pensar	pensar	vmn0000	vmn0000	recursive=no|theme=no|main=no	40	vobj
 43	que	que	cs	cs	recursive=yes|theme=no|main=yes	40	dobj
 44	si	si	cs	cs	recursive=no|theme=no|main=no	43	cobj
-45	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	46	det
-46	innovaciones	innovación	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	47	nsubj
+45	las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	46	det
+46	innovaciones	innovación	ncfp000	ncfp000	recursive=no|theme=yes|main=no	47	nsubj
 47	salen	salir	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	44	cobj
 48	de	de	sps00	sps00	recursive=no|theme=no|main=no	47	prepv
 49	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	50	det
 50	base	base	ncfs000	ncfs000	recursive=no|theme=no|main=no	48	pobj
 51	andaluza	andaluz	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	50	amod
 52	,	,	fc	fc	recursive=no|theme=no|main=no	55	punct
-53	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	54	det
-54	historia	historia	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	55	nsubj
+53	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	54	det
+54	historia	historia	ncfs000	ncfs000	recursive=no|theme=yes|main=no	55	nsubj
 55	deberá	deber	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	44	cobj
 56	explicarnos	explicar	vmn0000	vmn0000	recursive=no|theme=no|main=no	55	dobj
 57	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	58	det

@@ -1,4 +1,4 @@
-1	Razones	razón	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	4	nsubj
+1	Razones	razón	ncfp000	ncfp000	recursive=no|theme=yes|main=no	4	nsubj
 2	no	no	rn	rn	recursive=no|theme=no|main=no	4	neg
 3	le	él	pp3csd00	pp3csd00	recursive=no|theme=no|main=no	4	iobj
 4	faltan	faltar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
@@ -44,8 +44,8 @@
 38	Francisco	francisco	np00000	np00000	recursive=no|theme=no|main=no	37	appos
 39	.	.	fp	fp	recursive=no|theme=no|main=no	16	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	invento	invento	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	invento	invento	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	permite	permitir	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	a	a	sps00	sps00	recursive=no|theme=no|main=no	3	iobj
 5	personas	persona	ncfp000	ncfp000	recursive=no|theme=no|main=no	4	pobj
@@ -70,10 +70,10 @@
 24	ordenador	ordenador	ncms000	ncms000	recursive=no|theme=no|main=no	22	pobj
 25	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Sutter	Sutter	np0000p	np0000p	recursive=no|theme=no|main=no	2	coord
-2	y	y	cc	cc	recursive=yes|theme=yes|main=no	5	nsubj
-3	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	4	poss
-4	colegas	colega	nccp000	nccp000	recursive=no|theme=no|main=no	2	coord
+1	Sutter	Sutter	np0000p	np0000p	recursive=no|theme=yes|main=no	2	coord
+2	y	y	cc	cc	recursive=no|theme=yes|main=no	5	nsubj
+3	sus	su	dp3cp0	dp3cp0	recursive=no|theme=yes|main=no	4	poss
+4	colegas	colega	nccp000	nccp000	recursive=no|theme=yes|main=no	2	coord
 5	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	0	root
 6	aprendido	aprender	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	5	vobj
 7	a	a	sps00	sps00	recursive=no|theme=no|main=no	6	oobj
@@ -93,7 +93,7 @@
 21	-	-	fg	fg	recursive=no|theme=no|main=no	25	punct
 22	lo	el	da0ns0	da0ns0	recursive=no|theme=no|main=no	23	det
 23	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|main=no	25	dobj
-24	ellos	él	pp3mp000	pp3mp000	recursive=yes|theme=yes|main=no	25	nsubj
+24	ellos	él	pp3mp000	pp3mp000	recursive=no|theme=yes|main=no	25	nsubj
 25	llaman	llamar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	14	rcmod
 26	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	27	det
 27	respuesta	respuesta	ncfs000	ncfs000	recursive=no|theme=no|main=no	31	coord
@@ -129,10 +129,10 @@
 13	Foundations	Foundations	np0000l	np0000l	recursive=no|theme=no|main=no	12	appos
 14	Edge	Edge	np0000l	np0000l	recursive=no|theme=no|main=no	13	appos
 15	-	-	fg	fg	recursive=no|theme=no|main=no	20	punct
-16	aquí	aquí	rg	rg	recursive=no|theme=no|main=no	17	advmod
-17	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	18	det
-18	héroe	héroe	ncms000	ncms000	recursive=yes|theme=yes|main=no	20	nsubj
-19	espacial	espacial	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	18	amod
+16	aquí	aquí	rg	rg	recursive=no|theme=yes|main=no	17	advmod
+17	un	uno	di0ms0	di0ms0	recursive=no|theme=yes|main=no	18	det
+18	héroe	héroe	ncms000	ncms000	recursive=no|theme=yes|main=no	20	nsubj
+19	espacial	espacial	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	18	amod
 20	tripula	tripular	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	12	dep
 21	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	22	poss
 22	nave	nave	ncfs000	ncfs000	recursive=no|theme=no|main=no	20	dobj
@@ -143,7 +143,7 @@
 27	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	28	det
 28	mente	mente	ncfs000	ncfs000	recursive=no|theme=no|main=no	26	pobj
 29	-	-	fg	fg	recursive=no|theme=no|main=no	20	punct
-30	Sutter	Sutter	np0000p	np0000p	recursive=yes|theme=yes|main=no	32	nsubj
+30	Sutter	Sutter	np0000p	np0000p	recursive=no|theme=yes|main=no	32	nsubj
 31	lo	él	pp3msa00	pp3msa00	recursive=no|theme=no|main=no	33	dobj
 32	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	0	root
 33	trasladado	trasladar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	32	vobj
@@ -189,7 +189,7 @@
 35	Meagher	Meagher	np0000p	np0000p	recursive=no|theme=no|main=no	34	appos
 36	.	.	fp	fp	recursive=no|theme=no|main=no	10	punct
 
-1	Este	este	pd0ms000	pd0ms000	recursive=yes|theme=yes|main=no	10	nsubj
+1	Este	este	pd0ms000	pd0ms000	recursive=no|theme=yes|main=no	10	nsubj
 2	,	,	fc	fc	recursive=no|theme=no|main=no	10	punct
 3	a	a	sps00	sps00	recursive=no|theme=no|main=no	10	prepv
 4	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	6	poss
@@ -222,7 +222,7 @@
 13	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	15	det
 14	misma	mismo	di0fs0	di0fs0	recursive=no|theme=no|main=no	15	det
 15	enfermedad	enfermedad	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	pobj
-16	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	17	nsubj
+16	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	17	nsubj
 17	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|main=no	15	rcmod
 18	desahuciado	desahuciar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	17	vobj
 19	al	al	spcms	spcms	recursive=no|theme=no|main=no	18	dobj
@@ -234,12 +234,12 @@
 25	Hawking	Hawking	np0000l	np0000l	recursive=no|theme=no|main=no	24	appos
 26	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
 
-1	Las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	2	det
-2	esperanzas	esperanza	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	8	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	que	que	cs	cs	recursive=no|theme=no|main=no	3	pobj
-5	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	6	reflec
-6	recupere	recuperar	vmsp3s0	vmsp3s0	recursive=no|theme=no|main=no	4	cobj
+1	Las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	2	det
+2	esperanzas	esperanza	ncfp000	ncfp000	recursive=no|theme=yes|main=no	8	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	que	que	cs	cs	recursive=no|theme=yes|main=no	3	pobj
+5	se	él	p0300000	p0300000	recursive=no|theme=yes|main=no	6	reflec
+6	recupere	recuperar	vmsp3s0	vmsp3s0	recursive=no|theme=yes|main=no	4	cobj
 7	,	,	fc	fc	recursive=no|theme=no|main=no	8	punct
 8	son	ser	vsip3p0	vsip3p0	recursive=no|theme=no|main=no	0	root
 9	mínimas	mínimo	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	8	attr
@@ -250,7 +250,7 @@
 3	nulas	nulo	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	0	root
 4	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Él	él	pp3ms000	pp3ms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Él	él	pp3ms000	pp3ms000	recursive=no|theme=yes|main=no	3	nsubj
 2	lo	él	pp3msa00	pp3msa00	recursive=no|theme=no|main=no	3	dobj
 3	sabe	saber	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
@@ -302,12 +302,12 @@
 45	mundo	mundo	ncms000	ncms000	recursive=no|theme=no|main=no	44	pobj
 46	.	.	fp	fp	recursive=no|theme=no|main=no	20	punct
 
-1	Todas	todo	di0fp0	di0fp0	recursive=no|theme=no|main=no	3	det
-2	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	3	det
-3	ilusiones	ilusión	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	8	nsubj
-4	del	del	spcms	spcms	recursive=no|theme=no|main=no	3	prepn
-5	doctor	doctor	ncms000	ncms000	recursive=no|theme=no|main=no	4	pobj
-6	Meagher	Meagher	np0000p	np0000p	recursive=no|theme=no|main=no	5	appos
+1	Todas	todo	di0fp0	di0fp0	recursive=no|theme=yes|main=no	3	det
+2	las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	3	det
+3	ilusiones	ilusión	ncfp000	ncfp000	recursive=no|theme=yes|main=no	8	nsubj
+4	del	del	spcms	spcms	recursive=no|theme=yes|main=no	3	prepn
+5	doctor	doctor	ncms000	ncms000	recursive=no|theme=yes|main=no	4	pobj
+6	Meagher	Meagher	np0000p	np0000p	recursive=no|theme=yes|main=no	5	appos
 7	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	9	reflec
 8	hubiesen	haber	vasi3p0	vasi3p0	recursive=no|theme=no|main=no	0	root
 9	derrumbado	derrumbar	vmp00sm	vmp00sm	recursive=no|theme=no|main=no	8	vobj
@@ -330,10 +330,10 @@
 1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
 2	verano	verano	ncms000	ncms000	recursive=no|theme=no|main=no	8	tmod
 3	pasado	pasado	aq0msp	aq0msp	recursive=no|theme=no|main=no	2	amod
-4	este	este	dd0ms0	dd0ms0	recursive=no|theme=no|main=no	5	det
-5	doctor	doctor	ncms000	ncms000	recursive=yes|theme=yes|main=no	8	nsubj
-6	de	de	sps00	sps00	recursive=no|theme=no|main=no	5	prepn
-7	Oregón	Oregón	np0000l	np0000l	recursive=no|theme=no|main=no	6	pobj
+4	este	este	dd0ms0	dd0ms0	recursive=no|theme=yes|main=no	5	det
+5	doctor	doctor	ncms000	ncms000	recursive=no|theme=yes|main=no	8	nsubj
+6	de	de	sps00	sps00	recursive=no|theme=yes|main=no	5	prepn
+7	Oregón	Oregón	np0000l	np0000l	recursive=no|theme=yes|main=no	6	pobj
 8	fue	ser	vsis3s0	vsis3s0	recursive=no|theme=no|main=no	0	root
 9	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	11	det
 10	primera	primero	ao0fs0	ao0fs0	recursive=no|theme=no|main=no	11	amod
@@ -356,8 +356,8 @@
 7	y	y	cc	cc	recursive=no|theme=no|main=no	4	pobj
 8	observaciones	observación	ncfp000	ncfp000	recursive=no|theme=no|main=no	7	coord
 9	,	,	fc	fc	recursive=no|theme=no|main=no	12	punct
-10	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	11	det
-11	resultados	resultado	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	12	nsubj
+10	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	11	det
+11	resultados	resultado	ncmp000	ncmp000	recursive=no|theme=yes|main=no	12	nsubj
 12	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	0	root
 13	sido	ser	vsp00sm	vsp00sm	recursive=no|theme=no|main=no	12	vobj
 14	presentados	presentar	vmp00pm	vmp00pm	recursive=no|theme=no|main=no	13	attr
@@ -386,32 +386,32 @@
 37	Francisco	francisco	np00000	np00000	recursive=no|theme=no|main=no	36	appos
 38	.	.	fp	fp	recursive=no|theme=no|main=no	12	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	2	det
-2	asistentes	asistente	nccp000	nccp000	recursive=yes|theme=yes|main=no	3	nsubj
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
+2	asistentes	asistente	nccp000	nccp000	recursive=no|theme=yes|main=no	3	nsubj
 3	quedaron	quedar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
 4	atónitos	atónito	aq0mp0	aq0mp0	recursive=no|theme=no|main=no	3	cpred
 5	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	secreto	secreto	ncms000	ncms000	recursive=yes|theme=yes|main=no	22	nsubj
-3	de	de	sps00	sps00	recursive=no|theme=no|main=no	2	prepn
-4	esta	este	dd0fs0	dd0fs0	recursive=no|theme=no|main=no	6	det
-5	novedosa	novedoso	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	6	amod
-6	técnica	técnica	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	pobj
-7	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
-8	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	9	nsubj
-9	podrá	poder	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	6	rcmod
-10	ayudar	ayudar	vmn0000	vmn0000	recursive=no|theme=no|main=no	9	dobj
-11	a	a	sps00	sps00	recursive=no|theme=no|main=no	10	dobj
-12	cientos	ciento	pn0cp000	pn0cp000	recursive=no|theme=no|main=no	11	pobj
-13	de	de	sps00	sps00	recursive=no|theme=no|main=no	12	prepn
-14	miles	mil	ncmp000	ncmp000	recursive=no|theme=no|main=no	13	pobj
-15	de	de	sps00	sps00	recursive=no|theme=no|main=no	14	prepn
-16	pacientes	paciente	nccp000	nccp000	recursive=no|theme=no|main=no	15	pobj
-17	total	totalmente	rg	rg	recursive=no|theme=no|main=no	18	coord
-18	o	o	cc	cc	recursive=no|theme=no|main=no	20	advmod
-19	parcialmente	parcialmente	rg	rg	recursive=no|theme=no|main=no	18	coord
-20	impedidos	impedido	aq0mpp	aq0mpp	recursive=no|theme=no|main=no	16	amod
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	secreto	secreto	ncms000	ncms000	recursive=no|theme=yes|main=no	22	nsubj
+3	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
+4	esta	este	dd0fs0	dd0fs0	recursive=no|theme=yes|main=no	6	det
+5	novedosa	novedoso	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	6	amod
+6	técnica	técnica	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	pobj
+7	,	,	fc	fc	recursive=no|theme=yes|main=no	6	punct
+8	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	9	nsubj
+9	podrá	poder	vmif3s0	vmif3s0	recursive=no|theme=yes|main=no	6	rcmod
+10	ayudar	ayudar	vmn0000	vmn0000	recursive=no|theme=yes|main=no	9	dobj
+11	a	a	sps00	sps00	recursive=no|theme=yes|main=no	10	dobj
+12	cientos	ciento	pn0cp000	pn0cp000	recursive=no|theme=yes|main=no	11	pobj
+13	de	de	sps00	sps00	recursive=no|theme=yes|main=no	12	prepn
+14	miles	mil	ncmp000	ncmp000	recursive=no|theme=yes|main=no	13	pobj
+15	de	de	sps00	sps00	recursive=no|theme=yes|main=no	14	prepn
+16	pacientes	paciente	nccp000	nccp000	recursive=no|theme=yes|main=no	15	pobj
+17	total	totalmente	rg	rg	recursive=no|theme=yes|main=no	18	coord
+18	o	o	cc	cc	recursive=no|theme=yes|main=no	20	advmod
+19	parcialmente	parcialmente	rg	rg	recursive=no|theme=yes|main=no	18	coord
+20	impedidos	impedido	aq0mpp	aq0mpp	recursive=no|theme=yes|main=no	16	amod
 21	,	,	fc	fc	recursive=no|theme=no|main=no	22	punct
 22	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 23	en	en	sps00	sps00	recursive=no|theme=no|main=no	22	oobj

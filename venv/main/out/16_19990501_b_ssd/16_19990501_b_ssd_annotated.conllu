@@ -1,5 +1,5 @@
-1	EL	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	PERIODICO	PERIODICO	np0000o	np0000o	recursive=yes|theme=yes|main=no	3	nsubj
+1	EL	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	PERIODICO	PERIODICO	np0000o	np0000o	recursive=no|theme=yes|main=no	3	nsubj
 3	publica	publicar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	opiniones	opinión	ncfp000	ncfp000	recursive=no|theme=no|main=no	9	cobj
 5	de	de	sps00	sps00	recursive=no|theme=no|main=no	4	prepn
@@ -14,7 +14,7 @@
 14	de	de	sps00	sps00	recursive=no|theme=no|main=no	12	coord
 15	interés	interés	ncms000	ncms000	recursive=no|theme=no|main=no	14	pobj
 16	general	general	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	15	amod
-17	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	18	nsubj
+17	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	18	nsubj
 18	sean	ser	vssp3p0	vssp3p0	recursive=no|theme=no|main=no	12	rcmod
 19	respetuosas	respetuoso	aq0fp0	aq0fp0	recursive=no|theme=no|main=no	18	attr
 20	hacia	hacia	sps00	sps00	recursive=no|theme=no|main=no	18	prepv
@@ -24,19 +24,19 @@
 24	instituciones	institución	ncfp000	ncfp000	recursive=no|theme=no|main=no	23	coord
 25	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	Las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	2	det
-2	cartas	carta	ncfp000	ncfp000	recursive=yes|theme=yes|main=no	14	nsubj
-3	-	-	fg	fg	recursive=no|theme=no|main=no	8	punct
-4	-	-	fg	fg	recursive=no|theme=no|main=no	8	punct
-5	por	por	sps00	sps00	recursive=no|theme=no|main=no	8	coord
-6	vía	vía	ncfs000	ncfs000	recursive=no|theme=no|main=no	5	pobj
-7	postal	postal	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	6	amod
-8	o	o	cc	cc	recursive=no|theme=no|main=no	2	dep
-9	al	al	spcms	spcms	recursive=no|theme=no|main=no	8	coord
-10	fax	fax	ncmn000	ncmn000	recursive=no|theme=no|main=no	9	pobj
-11	93.484.65.62	934846562	z	z	recursive=no|theme=no|main=no	10	num
-12	-	-	fg	fg	recursive=no|theme=no|main=no	8	punct
-13	-	-	fg	fg	recursive=no|theme=no|main=no	8	punct
+1	Las	el	da0fp0	da0fp0	recursive=no|theme=yes|main=no	2	det
+2	cartas	carta	ncfp000	ncfp000	recursive=no|theme=yes|main=no	14	nsubj
+3	-	-	fg	fg	recursive=no|theme=yes|main=no	8	punct
+4	-	-	fg	fg	recursive=no|theme=yes|main=no	8	punct
+5	por	por	sps00	sps00	recursive=no|theme=yes|main=no	8	coord
+6	vía	vía	ncfs000	ncfs000	recursive=no|theme=yes|main=no	5	pobj
+7	postal	postal	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	6	amod
+8	o	o	cc	cc	recursive=no|theme=yes|main=no	2	dep
+9	al	al	spcms	spcms	recursive=no|theme=yes|main=no	8	coord
+10	fax	fax	ncmn000	ncmn000	recursive=no|theme=yes|main=no	9	pobj
+11	93.484.65.62	934846562	z	z	recursive=no|theme=yes|main=no	10	num
+12	-	-	fg	fg	recursive=no|theme=yes|main=no	8	punct
+13	-	-	fg	fg	recursive=no|theme=yes|main=no	8	punct
 14	deben	deber	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
 15	tener	tener	vmn0000	vmn0000	recursive=no|theme=no|main=no	14	dobj
 16	como	como	cs	cs	recursive=no|theme=no|main=no	14	dep
@@ -45,8 +45,8 @@
 19	líneas	línea	ncfp000	ncfp000	recursive=no|theme=no|main=no	15	dobj
 20	.	.	fp	fp	recursive=no|theme=no|main=no	14	punct
 
-1	EL	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	PERIODICO	PERIODICO	np0000o	np0000o	recursive=yes|theme=yes|main=no	4	nsubj
+1	EL	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	PERIODICO	PERIODICO	np0000o	np0000o	recursive=no|theme=yes|main=no	4	nsubj
 3	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	4	reflec
 4	reserva	reservar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det

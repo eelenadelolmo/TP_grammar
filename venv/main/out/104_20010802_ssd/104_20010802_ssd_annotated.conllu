@@ -1,10 +1,10 @@
 1	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	4	punct
-2	Este	este	dd0ms0	dd0ms0	recursive=no|theme=no|main=no	3	det
-3	tribunal	tribunal	ncms000	ncms000	recursive=yes|theme=yes|main=no	4	nsubj
+2	Este	este	dd0ms0	dd0ms0	recursive=no|theme=yes|main=no	3	det
+3	tribunal	tribunal	ncms000	ncms000	recursive=no|theme=yes|main=no	4	nsubj
 4	cree	creer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 5	que	que	cs	cs	recursive=yes|theme=no|main=yes	4	dobj
-6	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	7	det
-7	prisión	prisión	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	9	nsubj
+6	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	7	det
+7	prisión	prisión	ncfs000	ncfs000	recursive=no|theme=yes|main=no	9	nsubj
 8	les	él	pp3cpd00	pp3cpd00	recursive=no|theme=no|main=no	9	iobj
 9	causará	causar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	5	cobj
 10	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	11	det
@@ -60,8 +60,8 @@
 43	pública	público	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	42	amod
 44	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	2	det
-2	sentencia	sentencia	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	3	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	2	det
+2	sentencia	sentencia	ncfs000	ncfs000	recursive=no|theme=yes|main=no	3	nsubj
 3	considera	considerar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	probado	probado	aq0msp	aq0msp	recursive=no|theme=no|main=no	3	cpred
 5	que	que	cs	cs	recursive=yes|theme=no|main=yes	3	dobj
@@ -73,8 +73,8 @@
 11	de	de	spcms	spcms	recursive=no|theme=no|main=no	10	prepn
 12	1998	1998	zp	zp	recursive=no|theme=no|main=no	11	pobj
 13	,	,	fc	fc	recursive=no|theme=no|main=no	17	punct
-14	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	15	det
-15	jóvenes	joven	nccp000	nccp000	recursive=yes|theme=yes|main=no	17	nsubj
+14	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	15	det
+15	jóvenes	joven	nccp000	nccp000	recursive=no|theme=yes|main=no	17	nsubj
 16	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	17	reflec
 17	encontraron	encontrar	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	5	cobj
 18	25	25	z	z	recursive=no|theme=no|main=no	19	num
@@ -102,18 +102,18 @@
 8	venderla	vender	vmn0000	vmn0000	recursive=no|theme=no|main=no	7	pobj
 9	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
 
-1	Otros	otro	di0mp0	di0mp0	recursive=no|theme=no|main=no	3	det
-2	cuatro	cuatro	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	3	det
-3	hombres	hombre	ncmp000	ncmp000	recursive=yes|theme=yes|main=no	14	nsubj
-4	,	,	fc	fc	recursive=no|theme=no|main=no	9	punct
-5	tres	tres	pn0cp000	pn0cp000	recursive=yes|theme=yes|main=no	9	nsubj
-6	de	de	sps00	sps00	recursive=no|theme=no|main=no	5	prepn
-7	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	8	det
-8	cuales	cual	pr0cp000	pr0cp000	recursive=no|theme=no|main=no	6	pobj
-9	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|main=no	3	dep
-10	sido	ser	vsp00sm	vsp00sm	recursive=no|theme=no|main=no	9	vobj
-11	absueltos	absolver	vmp00pm	vmp00pm	recursive=no|theme=no|main=no	10	attr
-12	,	,	fc	fc	recursive=no|theme=no|main=no	9	punct
+1	Otros	otro	di0mp0	di0mp0	recursive=no|theme=yes|main=no	3	det
+2	cuatro	cuatro	dn0cp0	dn0cp0	recursive=no|theme=yes|main=no	3	det
+3	hombres	hombre	ncmp000	ncmp000	recursive=no|theme=yes|main=no	14	nsubj
+4	,	,	fc	fc	recursive=no|theme=yes|main=no	9	punct
+5	tres	tres	pn0cp000	pn0cp000	recursive=no|theme=yes|main=no	9	nsubj
+6	de	de	sps00	sps00	recursive=no|theme=yes|main=no	5	prepn
+7	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	8	det
+8	cuales	cual	pr0cp000	pr0cp000	recursive=no|theme=yes|main=no	6	pobj
+9	han	haber	vaip3p0	vaip3p0	recursive=no|theme=yes|main=no	3	dep
+10	sido	ser	vsp00sm	vsp00sm	recursive=no|theme=yes|main=no	9	vobj
+11	absueltos	absolver	vmp00pm	vmp00pm	recursive=no|theme=yes|main=no	10	attr
+12	,	,	fc	fc	recursive=no|theme=yes|main=no	9	punct
 13	también	también	rg	rg	recursive=no|theme=no|main=no	14	advmod
 14	estaban	estar	vmii3p0	vmii3p0	recursive=no|theme=no|main=no	0	root
 15	relacionados	relacionado	aq0mpp	aq0mpp	recursive=no|theme=no|main=no	14	attr
@@ -125,8 +125,8 @@
 21	droga	droga	ncfs000	ncfs000	recursive=no|theme=no|main=no	19	pobj
 22	.	.	fp	fp	recursive=no|theme=no|main=no	14	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	tribunal	tribunal	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	tribunal	tribunal	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	justifica	justificar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	5	poss
 5	acción	acción	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	dobj

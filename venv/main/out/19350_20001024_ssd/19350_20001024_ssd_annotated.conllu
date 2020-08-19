@@ -1,11 +1,11 @@
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	centrocampista	centrocampista	nccs000	nccs000	recursive=yes|theme=yes|main=no	9	nsubj
-3	del	del	spcms	spcms	recursive=no|theme=no|main=no	2	prepn
-4	Atlético	Atlético	np0000o	np0000o	recursive=no|theme=no|main=no	3	pobj
-5	de	de	sps00	sps00	recursive=no|theme=no|main=no	4	prepn
-6	Madrid	Madrid	np0000l	np0000l	recursive=no|theme=no|main=no	5	pobj
-7	Juan	juan	ncms000	ncms000	recursive=no|theme=no|main=no	2	appos
-8	Gómez	Gómez	np00000	np00000	recursive=no|theme=no|main=no	7	appos
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	centrocampista	centrocampista	nccs000	nccs000	recursive=no|theme=yes|main=no	9	nsubj
+3	del	del	spcms	spcms	recursive=no|theme=yes|main=no	2	prepn
+4	Atlético	Atlético	np0000o	np0000o	recursive=no|theme=yes|main=no	3	pobj
+5	de	de	sps00	sps00	recursive=no|theme=yes|main=no	4	prepn
+6	Madrid	Madrid	np0000l	np0000l	recursive=no|theme=yes|main=no	5	pobj
+7	Juan	juan	ncms000	ncms000	recursive=no|theme=yes|main=no	2	appos
+8	Gómez	Gómez	np00000	np00000	recursive=no|theme=yes|main=no	7	appos
 9	declaró	declarar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 10	tras	tras	sps00	sps00	recursive=no|theme=no|main=no	9	prepv
 11	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	12	det
@@ -56,7 +56,7 @@
 18	,	,	fc	fc	recursive=no|theme=no|main=no	11	punct
 19	pero	pero	cc	cc	recursive=no|theme=no|main=no	30	dep
 20	que	que	cs	cs	recursive=no|theme=no|main=no	22	te
-21	nadie	nadie	pi0cs000	pi0cs000	recursive=yes|theme=yes|main=no	22	nsubj
+21	nadie	nadie	pi0cs000	pi0cs000	recursive=no|theme=yes|main=no	22	nsubj
 22	dude	dudar	vmsp3s0	vmsp3s0	recursive=no|theme=no|main=no	19	coord
 23	que	que	cs	cs	recursive=no|theme=no|main=no	22	oobj
 24	terminaré	terminar	vmif1s0	vmif1s0	recursive=no|theme=no|main=no	23	cobj
@@ -92,7 +92,7 @@
 12	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
 1	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	8	punct
-2	Yo	yo	pp1csn00	pp1csn00	recursive=yes|theme=yes|main=no	3	nsubj
+2	Yo	yo	pp1csn00	pp1csn00	recursive=no|theme=yes|main=no	3	nsubj
 3	estoy	estar	vmip1s0	vmip1s0	recursive=no|theme=no|main=no	8	coord
 4	en	en	sps00	sps00	recursive=no|theme=no|main=no	3	prepv
 5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	7	det
@@ -130,11 +130,11 @@
 16	de	de	sps00	sps00	recursive=no|theme=no|main=no	15	prepn
 17	Madrid	Madrid	np0000l	np0000l	recursive=no|theme=no|main=no	16	pobj
 18	.	.	fp	fp	recursive=no|theme=no|main=no	43	punct
-19	Yo	yo	pp1csn00	pp1csn00	recursive=yes|theme=yes|main=no	20	nsubj
+19	Yo	yo	pp1csn00	pp1csn00	recursive=no|theme=yes|main=no	20	nsubj
 20	llegué	llegar	vmis1s0	vmis1s0	recursive=no|theme=no|main=no	30	coord
 21	cuando	cuando	cs	cs	recursive=no|theme=no|main=no	20	advcl
-22	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	23	det
-23	equipo	equipo	ncms000	ncms000	recursive=yes|theme=yes|main=no	24	nsubj
+22	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	23	det
+23	equipo	equipo	ncms000	ncms000	recursive=no|theme=yes|main=no	24	nsubj
 24	estaba	estar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	21	cobj
 25	en	en	sps00	sps00	recursive=no|theme=no|main=no	24	prepv
 26	un	uno	di0ms0	di0ms0	recursive=no|theme=no|main=no	28	det
@@ -159,8 +159,8 @@
 45	atlético	atlético	aq0ms0	aq0ms0	recursive=no|theme=no|main=no	43	cpred
 46	.	.	fp	fp	recursive=no|theme=no|main=no	43	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	2	det
-2	argentino	argentino	ncms000	ncms000	recursive=yes|theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
+2	argentino	argentino	ncms000	ncms000	recursive=no|theme=yes|main=no	3	nsubj
 3	disputó	disputar	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	0	root
 4	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	6	det
 5	últimos	último	ao0mp0	ao0mp0	recursive=no|theme=no|main=no	6	amod
@@ -182,7 +182,7 @@
 21	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
 1	&quot;	&quot;	fe	fe	recursive=no|theme=no|main=no	22	punct
-2	Yo	yo	pp1csn00	pp1csn00	recursive=yes|theme=yes|main=no	4	nsubj
+2	Yo	yo	pp1csn00	pp1csn00	recursive=no|theme=yes|main=no	4	nsubj
 3	siempre	siempre	rg	rg	recursive=no|theme=no|main=no	4	advmod
 4	jugué	jugar	vmis1s0	vmis1s0	recursive=no|theme=no|main=no	9	coord
 5	en	en	sps00	sps00	recursive=no|theme=no|main=no	4	prepv
@@ -205,7 +205,7 @@
 22	.	.	fp	fp	recursive=no|theme=no|main=no	52	punct
 23	Coincidió	coincidir	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	22	dep
 24	que	que	cs	cs	recursive=no|theme=no|main=no	23	csubj
-25	yo	yo	pp1csn00	pp1csn00	recursive=yes|theme=yes|main=no	26	nsubj
+25	yo	yo	pp1csn00	pp1csn00	recursive=no|theme=yes|main=no	26	nsubj
 26	jugué	jugar	vmis1s0	vmis1s0	recursive=no|theme=no|main=no	33	coord
 27	dos	dos	dn0cp0	dn0cp0	recursive=no|theme=no|main=no	28	det
 28	partidos	partido	ncmp000	ncmp000	recursive=no|theme=no|main=no	26	dobj
@@ -221,7 +221,7 @@
 38	,	,	fc	fc	recursive=no|theme=no|main=no	35	punct
 39	aparte	aparte	rg	rg	recursive=no|theme=no|main=no	35	advmod
 40	que	que	cs	cs	recursive=no|theme=no|main=no	39	dep
-41	yo	yo	pp1csn00	pp1csn00	recursive=yes|theme=yes|main=no	44	nsubj
+41	yo	yo	pp1csn00	pp1csn00	recursive=no|theme=yes|main=no	44	nsubj
 42	nunca	nunca	rg	rg	recursive=no|theme=no|main=no	44	neg
 43	me	yo	p010s000	p010s000	recursive=no|theme=no|main=no	44	dobj
 44	negué	negar	vmis1s0	vmis1s0	recursive=no|theme=no|main=no	40	cobj
@@ -260,7 +260,7 @@
 23	en	en	sps00	sps00	recursive=no|theme=no|main=no	22	prepv
 24	una	uno	di0fs0	di0fs0	recursive=no|theme=no|main=no	25	det
 25	posición	posición	ncfs000	ncfs000	recursive=no|theme=no|main=no	23	pobj
-26	que	que	pr0cn000	pr0cn000	recursive=yes|theme=yes|main=no	28	nsubj
+26	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|main=no	28	nsubj
 27	no	no	rn	rn	recursive=no|theme=no|main=no	28	neg
 28	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	25	rcmod
 29	la	el	di0mp0	di0mp0	recursive=no|theme=no|main=no	30	det

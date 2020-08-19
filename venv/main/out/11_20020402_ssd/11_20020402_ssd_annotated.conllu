@@ -2,15 +2,15 @@
 2	1982	1982	z	z	recursive=no|theme=no|main=no	1	pobj
 3	,	,	fc	fc	recursive=no|theme=no|main=no	2	punct
 4	cuando	cuando	pr000000	pr000000	recursive=no|theme=no|main=no	16	dobj
-5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
-6	bulldozer	bulldozer	ncms000	ncms000	recursive=yes|theme=yes|main=no	15	nsubj
-7	Sharon	Sharon	np00000	np00000	recursive=no|theme=no|main=no	6	appos
-8	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
-9	armado	armado	aq0msp	aq0msp	recursive=no|theme=no|main=no	6	amod
-10	hasta	hasta	sps00	sps00	recursive=no|theme=no|main=no	9	prepa
-11	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	12	det
-12	dientes	diente	ncmp000	ncmp000	recursive=no|theme=no|main=no	10	pobj
-13	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
+5	el	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	6	det
+6	bulldozer	bulldozer	ncms000	ncms000	recursive=no|theme=yes|main=no	15	nsubj
+7	Sharon	Sharon	np00000	np00000	recursive=no|theme=yes|main=no	6	appos
+8	,	,	fc	fc	recursive=no|theme=yes|main=no	6	punct
+9	armado	armado	aq0msp	aq0msp	recursive=no|theme=yes|main=no	6	amod
+10	hasta	hasta	sps00	sps00	recursive=no|theme=yes|main=no	9	prepa
+11	los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	12	det
+12	dientes	diente	ncmp000	ncmp000	recursive=no|theme=yes|main=no	10	pobj
+13	,	,	fc	fc	recursive=no|theme=yes|main=no	6	punct
 14	no	no	rn	rn	recursive=no|theme=no|main=no	15	neg
 15	pudo	poder	vmis3s0	vmis3s0	recursive=no|theme=no|main=no	2	rcmod
 16	derrotar	derrotar	vmn0000	vmn0000	recursive=no|theme=no|main=no	15	dobj
@@ -27,10 +27,10 @@
 27	Beirut	Beirut	np00000	np00000	recursive=no|theme=no|main=no	26	pobj
 28	para	para	sps00	sps00	recursive=no|theme=no|main=no	24	coord
 29	que	que	cs	cs	recursive=no|theme=no|main=no	28	pobj
-30	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	31	det
-31	población	población	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	34	nsubj
-32	civil	civil	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	31	amod
-33	libanesa	libanés	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	31	amod
+30	la	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	31	det
+31	población	población	ncfs000	ncfs000	recursive=no|theme=yes|main=no	34	nsubj
+32	civil	civil	aq0cs0	aq0cs0	recursive=no|theme=yes|main=no	31	amod
+33	libanesa	libanés	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	31	amod
 34	forzara	forzar	vmsi3s0	vmsi3s0	recursive=no|theme=no|main=no	29	cobj
 35	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	36	det
 36	marcha	marcha	ncfs000	ncfs000	recursive=no|theme=no|main=no	34	dobj
@@ -47,7 +47,7 @@
 4	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
 1	Ahora	ahora	rg	rg	recursive=no|theme=no|main=no	3	advmod
-2	Arafat	Arafat	np00000	np00000	recursive=yes|theme=yes|main=no	3	nsubj
+2	Arafat	Arafat	np00000	np00000	recursive=no|theme=yes|main=no	3	nsubj
 3	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 4	entre	entre	sps00	sps00	recursive=no|theme=no|main=no	3	prepv
 5	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|main=no	6	poss
@@ -60,7 +60,7 @@
 4	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	5	det
 5	sufrimientos	sufrimiento	ncmp000	ncmp000	recursive=no|theme=no|main=no	3	pobj
 6	,	,	fc	fc	recursive=no|theme=no|main=no	9	punct
-7	ellos	él	pp3mp000	pp3mp000	recursive=yes|theme=yes|main=no	9	nsubj
+7	ellos	él	pp3mp000	pp3mp000	recursive=no|theme=yes|main=no	9	nsubj
 8	no	no	rn	rn	recursive=no|theme=no|main=no	9	neg
 9	exigirán	exigir	vmif3p0	vmif3p0	recursive=no|theme=no|main=no	0	root
 10	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|main=no	11	poss
@@ -70,7 +70,7 @@
 1	Por	por	sps00	sps00	recursive=no|theme=no|main=no	6	advmod
 2	lo	lo	da0ms0	da0ms0	recursive=no|theme=no|main=no	3	det
 3	tanto	tanto	rg	rg	recursive=no|theme=no|main=no	1	advmod
-4	Israel	Israel	np00000	np00000	recursive=yes|theme=yes|main=no	5	nsubj
+4	Israel	Israel	np00000	np00000	recursive=no|theme=yes|main=no	5	nsubj
 5	quiere	querer	vmip3s0	vmip3s0	recursive=no|theme=no|main=no	0	root
 6	eliminarle	eliminar	vmn0000	vmn0000	recursive=no|theme=no|main=no	5	dobj
 7	política	políticamente	rg	rg	recursive=no|theme=no|main=no	8	advmod
@@ -83,7 +83,7 @@
 14	caótica	caótico	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	13	amod
 15	.	.	fp	fp	recursive=no|theme=no|main=no	5	punct
 
-1	Israel	Israel	np00000	np00000	recursive=yes|theme=yes|main=no	17	nsubj
+1	Israel	Israel	np00000	np00000	recursive=no|theme=yes|main=no	17	nsubj
 2	,	,	fc	fc	recursive=no|theme=no|main=no	17	punct
 3	en	en	sps00	sps00	recursive=no|theme=no|main=no	17	prepv
 4	vez	vez	ncfs000	ncfs000	recursive=no|theme=no|main=no	3	pobj
@@ -129,9 +129,9 @@
 15	suicida	suicida	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	13	amod
 16	.	.	fp	fp	recursive=no|theme=no|main=no	3	punct
 
-1	La	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	3	det
-2	única	único	aq0fs0	aq0fs0	recursive=no|theme=no|main=no	3	amod
-3	solución	solución	ncfs000	ncfs000	recursive=yes|theme=yes|main=no	4	nsubj
+1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|main=no	3	det
+2	única	único	aq0fs0	aq0fs0	recursive=no|theme=yes|main=no	3	amod
+3	solución	solución	ncfs000	ncfs000	recursive=no|theme=yes|main=no	4	nsubj
 4	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|main=no	0	root
 5	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	6	det
 6	retirada	retirada	ncfs000	ncfs000	recursive=no|theme=no|main=no	4	attr
