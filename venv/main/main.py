@@ -1,5 +1,6 @@
 from utils import order_graphs, disorder_graphs, to_conllu, annotator_recursive
 from conllu import parse
+import pyconll as pc
 import grew
 import os
 import shutil
@@ -47,6 +48,36 @@ dir_html = 'templates'
 shutil.rmtree(dir_html, ignore_errors=True)
 os.makedirs(dir_html)
 
+# Transforms a conllu sentence into the string with its forms
+def txt_transformer(file_conllu):
+    s_list = list()
+    with open(file_conllu, 'r') as f:
+        lines = f.readlines()
+        ok = ""
+        for l in lines:
+            if len(l) > 1:
+                line_ok = l[:-1] + '\t_\t_\n'
+                ok += line_ok
+            else:
+                ok += l
+    conll = pc.load_from_string(ok)
+    for s in conll:
+        s_txt = ""
+        for word in s[:-1]:
+            s_txt = s_txt + " " + word.form
+        s_txt = s_txt + ".\n"
+        s_list.append(s_txt)
+    return s_list
+
+# Workaround for copying directories
+def copytree(src, dst, symlinks=False, ignore=None):
+    for item in os.listdir(src):
+        s = os.path.join(src, item)
+        d = os.path.join(dst, item)
+        if os.path.isdir(s):
+            shutil.copytree(s, d, symlinks, ignore)
+        else:
+            shutil.copy2(s, d)
 
 ## Creating different simpler subgrammars (in order to avoid GrewError: 'More than 10000 rewriting steps: ckeck for loops or increase max_rules value')
 grs_list = list()
@@ -229,14 +260,105 @@ nombres_textos = os.listdir(dir_output)
 for nombre in nombres_textos:
 
     os.makedirs(dir_svg + '/' + nombre)
+    ruta_input = 'out/' + nombre + '/' + nombre + '_annotated_recursive.conllu'
 
-    comando_gen_original = 'python3 conll_viewer/dependency2tree.py -o svg/' + nombre + '/' + nombre + '.svg -c in/AnCora_Surface_Syntax_Dependencies/conllu/' + nombre + '.conllu --ignore-double-indices'
-    comando_gen_rewriten = 'python3 conll_viewer/dependency2tree.py -o svg/' + nombre + '/' + nombre + '_rewriten.svg -c out/' + nombre + '/' + nombre + '_annotated_recursive.conllu --ignore-double-indices'
-    comando_gen_rewriten_complete = 'python3 conll_viewer/dependency2tree.py -o svg/' + nombre + '/' + nombre + '_rewriten_complete.svg -c out/' + nombre + '/' + nombre + '_annotated_recursive.conllu --ignore-double-indices --feats'
+    # Deleting unnecessary features
+    with open(ruta_input, 'r+') as f:
+        raw = f.read()
+        raw = re.sub('recursive=(yes|no)\|','', raw)
+        f.close()
+    with open(ruta_input, 'w') as f:
+        f.write(raw)
 
+    comando_gen_rewriten_complete = 'python3 conll_viewer/dependency2tree.py -o svg/' + nombre + '/' + nombre + '_rewriten_complete.svg -c ' + ruta_input + ' --ignore-double-indices --feats'
+    os.system(comando_gen_rewriten_complete)
+
+    # comando_gen_original = 'python3 conll_viewer/dependency2tree.py -o svg/' + nombre + '/' + nombre + '.svg -c in/AnCora_Surface_Syntax_Dependencies/conllu/' + nombre + '.conllu --ignore-double-indices'
+    # comando_gen_rewriten = 'python3 conll_viewer/dependency2tree.py -o svg/' + nombre + '/' + nombre + '_rewriten.svg -c out/' + nombre + '/' + nombre + '_annotated_recursive.conllu --ignore-double-indices'
     # os.system(comando_gen_original)
     # os.system(comando_gen_rewriten)
-    os.system(comando_gen_rewriten_complete)
+
+# Creating folders for both left and right trees in order to visualy compare, mainly:
+# - Overlapping annotations
+# - Subordinate annotations (that depends on another previous annotation)
+
+for d in os.listdir(dir_svg):
+    os.makedirs(dir_svg + '/' + d + '_right')
+    copytree(dir_svg + '/' + d, dir_svg + '/' + d + '_right')
+    os.rename(dir_svg + '/' + d, dir_svg + '/' + d + '_left')
+
+
+## Colouring in background green nodes corresponding to main clauses
+
+# Creating the dictionary of annotation types and the corresponding color for the ellipses containing that feature
+# colors_right = {'main': '#98D2A5', 'theme': '#BEDA48'}            # Testing more than one
+# colors_left = {'main': '#98D2A5'}                                 # Definitive
+# colors_right = {'theme': '#BEDA48', 'rheme': '#DA8D48'}           # Definitive
+
+colors_left = {'main': '#98D2A5'}
+colors_right = {'theme': '#BEDA48'}
+
+# Selecting the SVG files to color
+for nombre in nombres_textos:
+    outputdir_img_left = dir_svg + '/' + nombre + '_left'
+    outputdir_img_right = dir_svg + '/' + nombre + '_right'
+    nombres_frases_left = os.listdir(outputdir_img_left)
+    nombres_frases_right = os.listdir(outputdir_img_right)
+
+    # For SVG for different phases of the analysis
+    """
+    for nombre_frase in nombres_frases:
+        if 'rewriten_complete' in nombre_frase:
+            nombres_frases_rewriten_complete.append(nombre_frase)
+        elif 'rewriten' in nombre_frase:
+            nombres_frases_rewriten.append(nombre_frase)
+        else:
+            nombres_frases_original.append(nombre_frase)
+    """
+
+    # Colouring left trees
+    for nombre_frase_left in nombres_frases_left:
+
+        for key in colors_left:
+            color = colors_left[key]
+
+            # Conllu transformation of the GRS output unordered graph
+            with open(outputdir_img_left + '/' + nombre_frase_left, "r+") as f:
+                original_xml = f.read()
+                f.seek(0)
+                g_objects = original_xml.split('-->')
+                g_objects_colored = list()
+                for g_object in g_objects:
+                    if key + '=yes' in g_object:
+                        g_object = re.sub('fill="none', 'fill="' + color, g_object)
+                        g_objects_colored.append(g_object)
+                    else:
+                        g_objects_colored.append(g_object)
+
+                colored_xml = '-->'.join(g_objects_colored)
+                f.write(colored_xml)
+
+    # Colouring right trees
+    for nombre_frase_right in nombres_frases_right:
+
+        for key in colors_right:
+            color = colors_right[key]
+
+            # Conllu transformation of the GRS output unordered graph
+            with open(outputdir_img_right + '/' + nombre_frase_right, "r+") as f:
+                original_xml = f.read()
+                f.seek(0)
+                g_objects = original_xml.split('-->')
+                g_objects_colored = list()
+                for g_object in g_objects:
+                    if key + '=yes' in g_object:
+                        g_object = re.sub('fill="none', 'fill="' + color, g_object)
+                        g_objects_colored.append(g_object)
+                    else:
+                        g_objects_colored.append(g_object)
+
+                colored_xml = '-->'.join(g_objects_colored)
+                f.write(colored_xml)
 
 
 ## Generating one HTML file with the original and rewriten trees of every text
@@ -292,17 +414,19 @@ for nombre in nombres_textos:
         <div class="split original" id="left" onscroll="SyncScroll('left')">
     """
 
-    # Creating lists of names for the different types of SVG files
-    outputdir_img = dir_svg + '/' + nombre
-    nombres_frases = os.listdir(outputdir_img)
-    nombres_frases_rewriten_complete = list()
-    for nombre_frase in nombres_frases:
-        nombres_frases_rewriten_complete.append(nombre_frase)
+    text_sentences = txt_transformer(dir_output + '/' + nombre + '/' + nombre + '_annotated.conllu')
 
-    # Commented generation of different SVGs for differentes states of the analysis
+    # Creating lists of names for the different types of SVG files
+    outputdir_img_left = dir_svg + '/' + nombre + '_left'
+    outputdir_img_right = dir_svg + '/' + nombre + '_right'
+    nombres_imgs_left = os.listdir(outputdir_img_left)
+    nombres_imgs_right = os.listdir(outputdir_img_left)
+
+    # Commented generation of different SVGs for different states of the analysis
     """
     nombres_frases_original = list()
     nombres_frases_rewriten = list()
+    nombres_frases_rewriten_complete = list()
     for nombre_frase in nombres_frases:
         if 'rewriten_complete' in nombre_frase:
             nombres_frases_rewriten_complete.append(nombre_frase)
@@ -312,15 +436,21 @@ for nombre in nombres_textos:
             nombres_frases_original.append(nombre_frase)
     """
 
+    n_sentence = 0
     left_img_html = ""
-    nombres_frases_rewriten_complete.sort()
-    for nombre_frase_rewriten_complete in nombres_frases_rewriten_complete:
-        left_img_html = left_img_html + '\t\t\t' + '<a href="../svg/' + nombre + '/' + nombre_frase_rewriten_complete + '" target="_blank"><img src="../svg/' + nombre + '/' + nombre_frase_rewriten_complete + '" border="1" width="100%"></a>' + '\n'
+    nombres_imgs_left.sort()
 
+    for nombre_img in nombres_imgs_left:
+        left_img_html = left_img_html + '\t\t\t' + '<p>' + text_sentences[n_sentence] + '</p>' + '\n\t\t\t<a href="../svg/' + nombre + '_left/' + nombre_img + '" target="_blank"><img src="../svg/' + nombre + '_left/' + nombre_img + '" border="1" width="100%"></a>' + '\n'
+        n_sentence += 1
+
+    n_sentence = 0
     right_img_html = ""
-    nombres_frases_rewriten_complete.sort()
-    for nombre_frase_rewriten_complete in nombres_frases_rewriten_complete:
-        right_img_html = right_img_html + '\t\t\t' + '<a href="../svg/' + nombre + '/' + nombre_frase_rewriten_complete + '" target="_blank"><img src="../svg/' + nombre + '/' + nombre_frase_rewriten_complete + '" border="1" width="100%"></a>' + '\n'
+    nombres_imgs_right.sort()
+
+    for nombre_img in nombres_imgs_right:
+        right_img_html = right_img_html + '\t\t\t' + '<p>' + text_sentences[n_sentence] + '</p>' + '\n\t\t\t<a href="../svg/' + nombre + '_right/' + nombre_img + '" target="_blank"><img src="../svg/' + nombre + '_right/' + nombre_img + '" border="1" width="100%"></a>' + '\n'
+        n_sentence += 1
 
     html = html + '\n' + left_img_html + """
         </div>
@@ -338,54 +468,6 @@ for nombre in nombres_textos:
     # Creating the HTML file in the template folder
     with open('templates/' + nombre + '.html', "w") as h:
         h.write(html)
-
-
-## Colouring in background green nodes corresponding to main clauses
-
-# Creating the dictionary of annotation types and the corresponding color for the ellipses containing that feature
-# colors_right = {'main': '#98D2A5', 'theme': '#BEDA48'}            # Testing more than one
-# colors_left = {'main': '#98D2A5'}                                 # Definitive
-# colors_right = {'theme': '#BEDA48', 'rheme': '#DA8D48'}           # Definitive
-
-colors_left = {'main': '#98D2A5'}
-colors_right = {'theme': '#BEDA48'}
-
-# Selecting the SVG files to color
-for nombre in nombres_textos:
-    outputdir_img = '/home/elena/PycharmProjects/TP_grammar/venv/main/svg/' + nombre
-    nombres_frases = os.listdir(outputdir_img)
-    nombres_frases_original = list()
-    nombres_frases_rewriten = list()
-    nombres_frases_rewriten_complete = list()
-
-    for nombre_frase in nombres_frases:
-        if 'rewriten_complete' in nombre_frase:
-            nombres_frases_rewriten_complete.append(nombre_frase)
-        elif 'rewriten' in nombre_frase:
-            nombres_frases_rewriten.append(nombre_frase)
-        else:
-            nombres_frases_original.append(nombre_frase)
-
-    for nombre_frase_rewriten_complete in nombres_frases_rewriten_complete:
-
-        for key in colors_right:
-            color = colors_right[key]
-
-            # Conllu transformation of the GRS output unordered graph
-            with open(outputdir_img + '/' + nombre_frase_rewriten_complete, "r+") as f:
-                original_xml = f.read()
-                f.seek(0)
-                g_objects = original_xml.split('-->')
-                g_objects_colored = list()
-                for g_object in g_objects:
-                    if key + '=yes' in g_object:
-                        g_object = re.sub('fill="none', 'fill="' + color, g_object)
-                        g_objects_colored.append(g_object)
-                    else:
-                        g_objects_colored.append(g_object)
-
-                colored_xml = '-->'.join(g_objects_colored)
-                f.write(colored_xml)
 
 
 # Opening a new tab in browser with the results for selected texts

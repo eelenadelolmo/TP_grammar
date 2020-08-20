@@ -1,18 +1,18 @@
-1	Azulgranas	azulgrana	nccp000	nccp000	recursive=no|theme=yes|main=no	2	coord
-2	y	y	cc	cc	recursive=no|theme=yes|main=no	4	nsubj
-3	valencianistas	valencianista	aq0cp0	aq0cp0	recursive=no|theme=yes|main=no	2	coord
-4	jugarán	jugar	vmif3p0	vmif3p0	recursive=no|theme=no|main=no	0	root
-5	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	6	det
-6	partido	partido	ncms000	ncms000	recursive=no|theme=no|main=no	4	dobj
-7	de	de	sps00	sps00	recursive=no|theme=no|main=no	6	prepn
-8	ida	ida	ncfs000	ncfs000	recursive=no|theme=no|main=no	7	pobj
-9	de	de	sps00	sps00	recursive=no|theme=no|main=no	6	prepn
-10	cuartos	cuarto	ncmp000	ncmp000	recursive=no|theme=no|main=no	9	pobj
-11	de	de	sps00	sps00	recursive=no|theme=no|main=no	6	prepn
-12	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	13	det
-13	Liga	Liga	np0000a	np0000a	recursive=no|theme=no|main=no	11	pobj
-14	de	de	sps00	sps00	recursive=no|theme=no|main=no	13	prepn
-15	Campeones	campeón	ncms000	ncms000	recursive=no|theme=no|main=no	14	pobj
-16	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
+1	Azulgranas	azulgrana	nccp000	nccp000	theme=yes|main=no	2	coord
+2	y	y	cc	cc	theme=yes|main=no	4	nsubj
+3	valencianistas	valencianista	aq0cp0	aq0cp0	theme=yes|main=no	2	coord
+4	jugarán	jugar	vmif3p0	vmif3p0	theme=no|main=no	0	root
+5	el	el	da0ms0	da0ms0	theme=no|main=no	6	det
+6	partido	partido	ncms000	ncms000	theme=no|main=no	4	dobj
+7	de	de	sps00	sps00	theme=no|main=no	6	prepn
+8	ida	ida	ncfs000	ncfs000	theme=no|main=no	7	pobj
+9	de	de	sps00	sps00	theme=no|main=no	6	prepn
+10	cuartos	cuarto	ncmp000	ncmp000	theme=no|main=no	9	pobj
+11	de	de	sps00	sps00	theme=no|main=no	6	prepn
+12	la	el	da0fs0	da0fs0	theme=no|main=no	13	det
+13	Liga	Liga	np0000a	np0000a	theme=no|main=no	11	pobj
+14	de	de	sps00	sps00	theme=no|main=no	13	prepn
+15	Campeones	campeón	ncms000	ncms000	theme=no|main=no	14	pobj
+16	.	.	fp	fp	theme=no|main=no	4	punct
 
 

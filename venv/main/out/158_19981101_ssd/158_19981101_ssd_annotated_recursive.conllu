@@ -1,16 +1,16 @@
-1	EEUU	EEUU	np00000	np00000	recursive=no|theme=yes|main=no	2	nsubj
-2	celebrará	celebrar	vmif3s0	vmif3s0	recursive=no|theme=no|main=no	0	root
-3	elecciones	elección	ncfp000	ncfp000	recursive=no|theme=no|main=no	2	dobj
-4	para	para	sps00	sps00	recursive=no|theme=no|main=no	2	prepv
-5	renovar	renovar	vmn0000	vmn0000	recursive=no|theme=no|main=no	4	pobj
-6	parcialmente	parcialmente	rg	rg	recursive=no|theme=no|main=no	5	advmod
-7	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	8	det
-8	Cámara	Cámara	np0000a	np0000a	recursive=no|theme=no|main=no	11	coord
-9	de	de	sps00	sps00	recursive=no|theme=no|main=no	8	prepn
-10	Representantes	representante	ncms000	ncms000	recursive=no|theme=no|main=no	9	pobj
-11	y	y	cc	cc	recursive=no|theme=no|main=no	5	dobj
-12	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	13	det
-13	Senado	Senado	np00000	np00000	recursive=no|theme=no|main=no	11	coord
-14	.	.	fp	fp	recursive=no|theme=no|main=no	2	punct
+1	EEUU	EEUU	np00000	np00000	theme=yes|main=no	2	nsubj
+2	celebrará	celebrar	vmif3s0	vmif3s0	theme=no|main=no	0	root
+3	elecciones	elección	ncfp000	ncfp000	theme=no|main=no	2	dobj
+4	para	para	sps00	sps00	theme=no|main=no	2	prepv
+5	renovar	renovar	vmn0000	vmn0000	theme=no|main=no	4	pobj
+6	parcialmente	parcialmente	rg	rg	theme=no|main=no	5	advmod
+7	la	el	da0fs0	da0fs0	theme=no|main=no	8	det
+8	Cámara	Cámara	np0000a	np0000a	theme=no|main=no	11	coord
+9	de	de	sps00	sps00	theme=no|main=no	8	prepn
+10	Representantes	representante	ncms000	ncms000	theme=no|main=no	9	pobj
+11	y	y	cc	cc	theme=no|main=no	5	dobj
+12	el	el	da0ms0	da0ms0	theme=no|main=no	13	det
+13	Senado	Senado	np00000	np00000	theme=no|main=no	11	coord
+14	.	.	fp	fp	theme=no|main=no	2	punct
 
 
