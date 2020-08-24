@@ -12,38 +12,38 @@
 <!-- n2 -->
 <g id="node1" class="node">
 <title>n2</title>
-<ellipse fill="none" stroke="black" cx="990.97" cy="-1147.01" rx="115.93" ry="37.45"/>
-<text text-anchor="middle" x="990.97" y="-1158.31" font-family="Times,serif" font-size="14.00">tiene</text>
-<text text-anchor="middle" x="990.97" y="-1143.31" font-family="Times,serif" font-size="14.00">vmip3s0 (root)</text>
-<text text-anchor="middle" x="990.97" y="-1128.31" font-family="Times,serif" font-size="14.00">theme=no, main=no</text>
+<ellipse fill="none" stroke="black" cx="987.97" cy="-1147.01" rx="120.83" ry="37.45"/>
+<text text-anchor="middle" x="987.97" y="-1158.31" font-family="Times,serif" font-size="14.00">tiene</text>
+<text text-anchor="middle" x="987.97" y="-1143.31" font-family="Times,serif" font-size="14.00">vmip3s0 (root)</text>
+<text text-anchor="middle" x="987.97" y="-1128.31" font-family="Times,serif" font-size="14.00">theme=no, main=yes</text>
 </g>
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<ellipse fill="none" stroke="black" cx="615.97" cy="-1036.06" rx="115.93" ry="37.45"/>
-<text text-anchor="middle" x="615.97" y="-1047.36" font-family="Times,serif" font-size="14.00">Tampoco</text>
-<text text-anchor="middle" x="615.97" y="-1032.36" font-family="Times,serif" font-size="14.00">rg (advmod)</text>
-<text text-anchor="middle" x="615.97" y="-1017.36" font-family="Times,serif" font-size="14.00">theme=no, main=no</text>
+<ellipse fill="none" stroke="black" cx="605.97" cy="-1036.06" rx="115.93" ry="37.45"/>
+<text text-anchor="middle" x="605.97" y="-1047.36" font-family="Times,serif" font-size="14.00">Tampoco</text>
+<text text-anchor="middle" x="605.97" y="-1032.36" font-family="Times,serif" font-size="14.00">rg (advmod)</text>
+<text text-anchor="middle" x="605.97" y="-1017.36" font-family="Times,serif" font-size="14.00">theme=no, main=no</text>
 </g>
 <!-- n2&#45;&gt;n1 -->
 <g id="edge1" class="edge">
 <title>n2&#45;&gt;n1</title>
-<path fill="none" stroke="black" d="M905.91,-1121.39C857.54,-1107.38 795.86,-1089.5 740.97,-1073.53 731.1,-1070.66 720.79,-1067.66 710.51,-1064.67"/>
-<polygon fill="black" stroke="black" points="711.26,-1061.24 700.68,-1061.8 709.3,-1067.96 711.26,-1061.24"/>
+<path fill="none" stroke="black" d="M899.59,-1121.3C850,-1107.38 787,-1089.61 730.97,-1073.53 721,-1070.67 710.6,-1067.67 700.23,-1064.66"/>
+<polygon fill="black" stroke="black" points="700.9,-1061.21 690.32,-1061.79 698.95,-1067.94 700.9,-1061.21"/>
 </g>
 <!-- n3 -->
 <g id="node3" class="node">
 <title>n3</title>
-<ellipse fill="none" stroke="black" cx="865.97" cy="-1036.06" rx="115.93" ry="37.45"/>
-<text text-anchor="middle" x="865.97" y="-1047.36" font-family="Times,serif" font-size="14.00">problemas</text>
-<text text-anchor="middle" x="865.97" y="-1032.36" font-family="Times,serif" font-size="14.00">ncmp000 (dobj)</text>
-<text text-anchor="middle" x="865.97" y="-1017.36" font-family="Times,serif" font-size="14.00">theme=no, main=no</text>
+<ellipse fill="none" stroke="black" cx="860.97" cy="-1036.06" rx="120.83" ry="37.45"/>
+<text text-anchor="middle" x="860.97" y="-1047.36" font-family="Times,serif" font-size="14.00">problemas</text>
+<text text-anchor="middle" x="860.97" y="-1032.36" font-family="Times,serif" font-size="14.00">ncmp000 (dobj)</text>
+<text text-anchor="middle" x="860.97" y="-1017.36" font-family="Times,serif" font-size="14.00">theme=no, main=yes</text>
 </g>
 <!-- n2&#45;&gt;n3 -->
 <g id="edge2" class="edge">
 <title>n2&#45;&gt;n3</title>
-<path fill="none" stroke="black" d="M951.41,-1111.54C939.33,-1101 925.92,-1089.31 913.37,-1078.38"/>
-<polygon fill="black" stroke="black" points="915.53,-1075.61 905.69,-1071.68 910.93,-1080.89 915.53,-1075.61"/>
+<path fill="none" stroke="black" d="M947.78,-1111.54C935.51,-1101 921.88,-1089.31 909.13,-1078.38"/>
+<polygon fill="black" stroke="black" points="911.19,-1075.53 901.32,-1071.68 906.63,-1080.85 911.19,-1075.53"/>
 </g>
 <!-- n4 -->
 <g id="node4" class="node">
@@ -56,22 +56,22 @@
 <!-- n2&#45;&gt;n4 -->
 <g id="edge3" class="edge">
 <title>n2&#45;&gt;n4</title>
-<path fill="none" stroke="black" d="M1030.52,-1111.54C1042.6,-1101 1056.01,-1089.31 1068.56,-1078.38"/>
-<polygon fill="black" stroke="black" points="1071,-1080.89 1076.24,-1071.68 1066.4,-1075.61 1071,-1080.89"/>
+<path fill="none" stroke="black" d="M1028.47,-1111.54C1040.96,-1100.9 1054.84,-1089.08 1067.8,-1078.05"/>
+<polygon fill="black" stroke="black" points="1070.38,-1080.45 1075.73,-1071.31 1065.85,-1075.12 1070.38,-1080.45"/>
 </g>
 <!-- n37 -->
 <g id="node5" class="node">
 <title>n37</title>
-<ellipse fill="none" stroke="black" cx="1365.97" cy="-1036.06" rx="115.93" ry="37.45"/>
-<text text-anchor="middle" x="1365.97" y="-1047.36" font-family="Times,serif" font-size="14.00">.</text>
-<text text-anchor="middle" x="1365.97" y="-1032.36" font-family="Times,serif" font-size="14.00">fp (punct)</text>
-<text text-anchor="middle" x="1365.97" y="-1017.36" font-family="Times,serif" font-size="14.00">theme=no, main=no</text>
+<ellipse fill="none" stroke="black" cx="1370.97" cy="-1036.06" rx="120.83" ry="37.45"/>
+<text text-anchor="middle" x="1370.97" y="-1047.36" font-family="Times,serif" font-size="14.00">.</text>
+<text text-anchor="middle" x="1370.97" y="-1032.36" font-family="Times,serif" font-size="14.00">fp (punct)</text>
+<text text-anchor="middle" x="1370.97" y="-1017.36" font-family="Times,serif" font-size="14.00">theme=no, main=yes</text>
 </g>
 <!-- n2&#45;&gt;n37 -->
 <g id="edge4" class="edge">
 <title>n2&#45;&gt;n37</title>
-<path fill="none" stroke="black" d="M1076.02,-1121.39C1124.39,-1107.38 1186.08,-1089.5 1240.97,-1073.53 1250.84,-1070.66 1261.14,-1067.66 1271.42,-1064.67"/>
-<polygon fill="black" stroke="black" points="1272.63,-1067.96 1281.25,-1061.8 1270.67,-1061.24 1272.63,-1067.96"/>
+<path fill="none" stroke="black" d="M1075.83,-1121.01C1134.95,-1104.2 1212.92,-1082.02 1273.88,-1064.68"/>
+<polygon fill="black" stroke="black" points="1274.85,-1068.04 1283.51,-1061.94 1272.93,-1061.31 1274.85,-1068.04"/>
 </g>
 <!-- n6 -->
 <g id="node6" class="node">

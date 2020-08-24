@@ -1,7 +1,7 @@
-1	La	el	da0fs0	da0fs0	theme=yes|main=no	2	det
-2	inversión	inversión	ncfs000	ncfs000	theme=yes|main=no	4	nsubj
-3	se	se	p0000000	p0000000	theme=no|main=no	4	reflec
-4	incluye	incluir	vmip3s0	vmip3s0	theme=no|main=no	0	root
+1	La	el	da0fs0	da0fs0	theme=yes|main=yes	2	det
+2	inversión	inversión	ncfs000	ncfs000	theme=yes|main=yes	4	nsubj
+3	se	se	p0000000	p0000000	theme=no|main=yes	4	reflec
+4	incluye	incluir	vmip3s0	vmip3s0	theme=no|main=yes	0	root
 5	en	en	sps00	sps00	theme=no|main=no	4	prepv
 6	un	uno	di0ms0	di0ms0	theme=no|main=no	7	det
 7	plan	plan	ncms000	ncms000	theme=no|main=no	5	pobj
@@ -10,7 +10,7 @@
 10	de	de	sps00	sps00	theme=no|main=no	7	prepn
 11	la	el	da0fs0	da0fs0	theme=no|main=no	12	det
 12	Generalitat	Generalitat	np00000	np00000	theme=no|main=no	10	pobj
-13	que	que	pr0cn000	pr0cn000	theme=yes|main=no	14	nsubj
+13	que	que	pr0cn000	pr0cn000	theme=no|main=no	14	nsubj
 14	prevé	prever	vmip3s0	vmip3s0	theme=no|main=no	31	rcmod
 15	habilitar	habilitar	vmn0000	vmn0000	theme=no|main=no	14	dobj
 16	96	96	z	z	theme=no|main=no	17	num
@@ -29,12 +29,12 @@
 29	comarcas	comarca	ncfp000	ncfp000	theme=no|main=no	26	pobj
 30	pirenaicas	pirenaico	aq0fp0	aq0fp0	theme=no|main=no	29	amod
 31	y	y	cc	cc	theme=no|main=no	7	dep
-32	que	que	pr0cn000	pr0cn000	theme=yes|main=no	33	nsubj
+32	que	que	pr0cn000	pr0cn000	theme=no|main=no	33	nsubj
 33	creará	crear	vmif3s0	vmif3s0	theme=no|main=no	31	rcmod
 34	15.000	15000	z	z	theme=no|main=no	35	num
 35	puestos	puesto	ncmp000	ncmp000	theme=no|main=no	33	dobj
 36	de	de	sps00	sps00	theme=no|main=no	35	prepn
 37	trabajo	trabajo	ncms000	ncms000	theme=no|main=no	36	pobj
-38	.	.	fp	fp	theme=no|main=no	4	punct
+38	.	.	fp	fp	theme=no|main=yes	4	punct
 
 

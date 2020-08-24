@@ -20,16 +20,16 @@
 <!-- n2 -->
 <g id="node2" class="node">
 <title>n2</title>
-<ellipse fill="none" stroke="black" cx="1235.92" cy="-1036.06" rx="120.83" ry="37.45"/>
-<text text-anchor="middle" x="1235.92" y="-1047.36" font-family="Times,serif" font-size="14.00">comunicado</text>
-<text text-anchor="middle" x="1235.92" y="-1032.36" font-family="Times,serif" font-size="14.00">ncms000 (nsubj)</text>
-<text text-anchor="middle" x="1235.92" y="-1017.36" font-family="Times,serif" font-size="14.00">theme=yes, main=no</text>
+<ellipse fill="none" stroke="black" cx="1240.92" cy="-1036.06" rx="115.93" ry="37.45"/>
+<text text-anchor="middle" x="1240.92" y="-1047.36" font-family="Times,serif" font-size="14.00">comunicado</text>
+<text text-anchor="middle" x="1240.92" y="-1032.36" font-family="Times,serif" font-size="14.00">ncms000 (nsubj)</text>
+<text text-anchor="middle" x="1240.92" y="-1017.36" font-family="Times,serif" font-size="14.00">theme=no, main=no</text>
 </g>
 <!-- n4&#45;&gt;n2 -->
 <g id="edge1" class="edge">
 <title>n4&#45;&gt;n2</title>
-<path fill="none" stroke="black" d="M1426.58,-1116.96C1392.47,-1102.66 1351.18,-1085.36 1315.76,-1070.52"/>
-<polygon fill="black" stroke="black" points="1316.99,-1067.24 1306.41,-1066.6 1314.28,-1073.69 1316.99,-1067.24"/>
+<path fill="none" stroke="black" d="M1427.24,-1116.67C1393.94,-1102.44 1353.78,-1085.28 1319.28,-1070.54"/>
+<polygon fill="black" stroke="black" points="1320.28,-1067.16 1309.71,-1066.45 1317.53,-1073.6 1320.28,-1067.16"/>
 </g>
 <!-- n5 -->
 <g id="node3" class="node">
@@ -62,30 +62,30 @@
 <!-- n1 -->
 <g id="node5" class="node">
 <title>n1</title>
-<ellipse fill="none" stroke="black" cx="975.92" cy="-925.1" rx="120.83" ry="37.45"/>
-<text text-anchor="middle" x="975.92" y="-936.4" font-family="Times,serif" font-size="14.00">Un</text>
-<text text-anchor="middle" x="975.92" y="-921.4" font-family="Times,serif" font-size="14.00">di0ms0 (det)</text>
-<text text-anchor="middle" x="975.92" y="-906.4" font-family="Times,serif" font-size="14.00">theme=yes, main=no</text>
+<ellipse fill="none" stroke="black" cx="990.92" cy="-925.1" rx="115.93" ry="37.45"/>
+<text text-anchor="middle" x="990.92" y="-936.4" font-family="Times,serif" font-size="14.00">Un</text>
+<text text-anchor="middle" x="990.92" y="-921.4" font-family="Times,serif" font-size="14.00">di0ms0 (det)</text>
+<text text-anchor="middle" x="990.92" y="-906.4" font-family="Times,serif" font-size="14.00">theme=no, main=no</text>
 </g>
 <!-- n2&#45;&gt;n1 -->
 <g id="edge4" class="edge">
 <title>n2&#45;&gt;n1</title>
-<path fill="none" stroke="black" d="M1165.56,-1005.57C1131.59,-991.34 1090.7,-974.2 1055.59,-959.49"/>
-<polygon fill="black" stroke="black" points="1056.91,-956.25 1046.33,-955.61 1054.2,-962.7 1056.91,-956.25"/>
+<path fill="none" stroke="black" d="M1173.26,-1005.57C1140.75,-991.4 1101.62,-974.35 1067.96,-959.68"/>
+<polygon fill="black" stroke="black" points="1069.19,-956.4 1058.62,-955.61 1066.39,-962.81 1069.19,-956.4"/>
 </g>
 <!-- n3 -->
 <g id="node6" class="node">
 <title>n3</title>
-<ellipse fill="none" stroke="black" cx="1235.92" cy="-925.1" rx="120.83" ry="37.45"/>
-<text text-anchor="middle" x="1235.92" y="-936.4" font-family="Times,serif" font-size="14.00">oficial</text>
-<text text-anchor="middle" x="1235.92" y="-921.4" font-family="Times,serif" font-size="14.00">aq0cs0 (amod)</text>
-<text text-anchor="middle" x="1235.92" y="-906.4" font-family="Times,serif" font-size="14.00">theme=yes, main=no</text>
+<ellipse fill="none" stroke="black" cx="1240.92" cy="-925.1" rx="115.93" ry="37.45"/>
+<text text-anchor="middle" x="1240.92" y="-936.4" font-family="Times,serif" font-size="14.00">oficial</text>
+<text text-anchor="middle" x="1240.92" y="-921.4" font-family="Times,serif" font-size="14.00">aq0cs0 (amod)</text>
+<text text-anchor="middle" x="1240.92" y="-906.4" font-family="Times,serif" font-size="14.00">theme=no, main=no</text>
 </g>
 <!-- n2&#45;&gt;n3 -->
 <g id="edge5" class="edge">
 <title>n2&#45;&gt;n3</title>
-<path fill="none" stroke="black" d="M1235.92,-998.47C1235.92,-990.3 1235.92,-981.52 1235.92,-972.99"/>
-<polygon fill="black" stroke="black" points="1239.42,-972.78 1235.92,-962.78 1232.42,-972.78 1239.42,-972.78"/>
+<path fill="none" stroke="black" d="M1240.92,-998.47C1240.92,-990.3 1240.92,-981.52 1240.92,-972.99"/>
+<polygon fill="black" stroke="black" points="1244.42,-972.78 1240.92,-962.78 1237.42,-972.78 1244.42,-972.78"/>
 </g>
 <!-- n20 -->
 <g id="node7" class="node">

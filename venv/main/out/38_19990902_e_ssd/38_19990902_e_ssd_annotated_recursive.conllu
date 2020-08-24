@@ -1,4 +1,4 @@
-1	Prenafeta	Prenafeta	np00000	np00000	theme=yes|main=no	2	nsubj
+1	Prenafeta	Prenafeta	np00000	np00000	theme=no|main=no	2	nsubj
 2	anuncia	anunciar	vmip3s0	vmip3s0	theme=no|main=no	0	root
 3	que	que	cs	cs	theme=no|main=yes	2	dobj
 4	publicará	publicar	vmif3s0	vmif3s0	theme=no|main=yes	3	cobj
@@ -8,13 +8,13 @@
 8	septiembre	septiembre	ncms000	ncms000	theme=no|main=yes	7	pobj
 9	.	.	fp	fp	theme=no|main=no	2	punct
 
-1	El	el	da0ms0	da0ms0	theme=yes|main=no	3	det
-2	ex	ex	aq0cn0	aq0cn0	theme=yes|main=no	3	amod
-3	secretario	secretario	ncms000	ncms000	theme=yes|main=no	8	nsubj
-4	general	general	aq0cs0	aq0cs0	theme=yes|main=no	3	amod
-5	de	de	sps00	sps00	theme=yes|main=no	3	prepn
-6	la	el	da0fs0	da0fs0	theme=yes|main=no	7	det
-7	Presidència	Presidència	np00000	np00000	theme=yes|main=no	5	pobj
+1	El	el	da0ms0	da0ms0	theme=no|main=no	3	det
+2	ex	ex	aq0cn0	aq0cn0	theme=no|main=no	3	amod
+3	secretario	secretario	ncms000	ncms000	theme=no|main=no	8	nsubj
+4	general	general	aq0cs0	aq0cs0	theme=no|main=no	3	amod
+5	de	de	sps00	sps00	theme=no|main=no	3	prepn
+6	la	el	da0fs0	da0fs0	theme=no|main=no	7	det
+7	Presidència	Presidència	np00000	np00000	theme=no|main=no	5	pobj
 8	explica	explicar	vmip3s0	vmip3s0	theme=no|main=no	0	root
 9	en	en	sps00	sps00	theme=no|main=no	8	prepv
 10	L'ombra	L'ombra	np0000a	np0000a	theme=no|main=no	9	pobj
@@ -44,22 +44,22 @@
 34	Pujol	Pujol	np0000l	np0000l	theme=no|main=yes	33	appos
 35	.	.	fp	fp	theme=no|main=no	8	punct
 
-1	Lluís	Lluís	np0000l	np0000l	theme=yes|main=no	4	nsubj
-2	Prenafeta	Prenafeta	np0000l	np0000l	theme=yes|main=no	1	appos
+1	Lluís	Lluís	np0000l	np0000l	theme=yes|main=yes	4	nsubj
+2	Prenafeta	Prenafeta	np0000l	np0000l	theme=yes|main=yes	1	appos
 3	también	también	rg	rg	theme=no|main=no	4	advmod
-4	narra	narrar	vmip3s0	vmip3s0	theme=no|main=no	0	root
-5	sus	su	dp3cp0	dp3cp0	theme=no|main=no	6	poss
-6	actividades	actividad	ncfp000	ncfp000	theme=no|main=no	4	dobj
-7	empresariales	empresarial	aq0cp0	aq0cp0	theme=no|main=no	6	amod
-8	en	en	sps00	sps00	theme=no|main=no	14	coord
-9	el	el	da0ms0	da0ms0	theme=no|main=no	10	det
-10	sector	sector	ncms000	ncms000	theme=no|main=no	8	pobj
-11	de	de	sps00	sps00	theme=no|main=no	10	prepn
-12	la	el	da0fs0	da0fs0	theme=no|main=no	13	det
-13	piel	piel	ncfs000	ncfs000	theme=no|main=no	11	pobj
-14	y	y	cc	cc	theme=no|main=no	6	dep
-15	en	en	sps00	sps00	theme=no|main=no	14	coord
-16	Rusia	Rusia	np00000	np00000	theme=no|main=no	15	pobj
-17	.	.	fp	fp	theme=no|main=no	4	punct
+4	narra	narrar	vmip3s0	vmip3s0	theme=no|main=yes	0	root
+5	sus	su	dp3cp0	dp3cp0	theme=no|main=yes	6	poss
+6	actividades	actividad	ncfp000	ncfp000	theme=no|main=yes	4	dobj
+7	empresariales	empresarial	aq0cp0	aq0cp0	theme=no|main=yes	6	amod
+8	en	en	sps00	sps00	theme=no|main=yes	14	coord
+9	el	el	da0ms0	da0ms0	theme=no|main=yes	10	det
+10	sector	sector	ncms000	ncms000	theme=no|main=yes	8	pobj
+11	de	de	sps00	sps00	theme=no|main=yes	10	prepn
+12	la	el	da0fs0	da0fs0	theme=no|main=yes	13	det
+13	piel	piel	ncfs000	ncfs000	theme=no|main=yes	11	pobj
+14	y	y	cc	cc	theme=no|main=yes	6	dep
+15	en	en	sps00	sps00	theme=no|main=yes	14	coord
+16	Rusia	Rusia	np00000	np00000	theme=no|main=yes	15	pobj
+17	.	.	fp	fp	theme=no|main=yes	4	punct
 
 

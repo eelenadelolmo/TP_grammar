@@ -1,9 +1,9 @@
-1	Fernando	Fernando	np0000l	np0000l	recursive=no|theme=yes|main=no	3	coord
-2	Schwartz	Schwartz	np0000l	np0000l	recursive=no|theme=yes|main=no	1	appos
-3	y	y	cc	cc	recursive=no|theme=yes|main=no	6	nsubj
-4	Máximo	Máximo	np00000	np00000	recursive=no|theme=yes|main=no	3	coord
-5	Pradera	pradera	ncms000	ncms000	recursive=no|theme=yes|main=no	4	appos
-6	conversan	conversar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
+1	Fernando	Fernando	np0000l	np0000l	recursive=no|theme=no|main=yes	3	coord
+2	Schwartz	Schwartz	np0000l	np0000l	recursive=no|theme=no|main=yes	1	appos
+3	y	y	cc	cc	recursive=yes|theme=yes|main=yes	6	nsubj
+4	Máximo	Máximo	np00000	np00000	recursive=no|theme=no|main=yes	3	coord
+5	Pradera	pradera	ncms000	ncms000	recursive=no|theme=no|main=yes	4	appos
+6	conversan	conversar	vmip3p0	vmip3p0	recursive=no|theme=no|main=yes	0	root
 7	con	con	sps00	sps00	recursive=no|theme=no|main=no	6	prepv
 8	Ignacio	Ignacio	np00000	np00000	recursive=no|theme=no|main=no	7	pobj
 9	Salas	sala	ncms000	ncms000	recursive=no|theme=no|main=no	8	appos
@@ -27,17 +27,17 @@
 27	,	,	fc	fc	recursive=no|theme=no|main=no	28	punct
 28	20.00	20.00	z	z	recursive=no|theme=no|main=no	21	dep
 29	)	)	fpt	fpt	recursive=no|theme=no|main=no	28	punct
-30	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
+30	.	.	fp	fp	recursive=no|theme=no|main=yes	6	punct
 
 1	A	a	sps00	sps00	recursive=no|theme=no|main=no	4	prepv
 2	continuación	continuación	ncmp000	ncmp000	recursive=no|theme=no|main=no	1	pobj
-3	,	,	fc	fc	recursive=no|theme=no|main=no	4	punct
-4	entrevistan	entrevistar	vmip3p0	vmip3p0	recursive=no|theme=no|main=no	0	root
-5	a	a	sps00	sps00	recursive=no|theme=no|main=no	4	dobj
-6	Javier	Javier	np0000l	np0000l	recursive=no|theme=no|main=no	8	coord
-7	Manrique	Manrique	np0000l	np0000l	recursive=no|theme=no|main=no	6	appos
-8	y	y	cc	cc	recursive=no|theme=no|main=no	5	pobj
-9	Elena	Elena	np0000l	np0000l	recursive=no|theme=no|main=no	8	coord
-10	Anaya	Anaya	np0000l	np0000l	recursive=no|theme=no|main=no	9	appos
-11	.	.	fp	fp	recursive=no|theme=no|main=no	4	punct
+3	,	,	fc	fc	recursive=no|theme=no|main=yes	4	punct
+4	entrevistan	entrevistar	vmip3p0	vmip3p0	recursive=no|theme=no|main=yes	0	root
+5	a	a	sps00	sps00	recursive=no|theme=no|main=yes	4	dobj
+6	Javier	Javier	np0000l	np0000l	recursive=no|theme=no|main=yes	8	coord
+7	Manrique	Manrique	np0000l	np0000l	recursive=no|theme=no|main=yes	6	appos
+8	y	y	cc	cc	recursive=no|theme=no|main=yes	5	pobj
+9	Elena	Elena	np0000l	np0000l	recursive=no|theme=no|main=yes	8	coord
+10	Anaya	Anaya	np0000l	np0000l	recursive=no|theme=no|main=yes	9	appos
+11	.	.	fp	fp	recursive=no|theme=no|main=yes	4	punct
 

@@ -1,12 +1,12 @@
-1	El	el	da0ms0	da0ms0	theme=yes|main=no	2	det
-2	Grupo	grupo	ncfs000	ncfs000	theme=yes|main=no	10	nsubj
-3	de	de	sps00	sps00	theme=yes|main=no	2	prepn
-4	Acción	Acción	ncfs000	ncfs000	theme=yes|main=no	3	pobj
-5	Financiera	financiero	aq0fs0	aq0fs0	theme=yes|main=no	2	amod
-6	Internacional	internacional	np00000	np00000	theme=yes|main=no	2	appos
-7	(	(	fpa	fpa	theme=yes|main=no	8	punct
-8	GAFI	GAFI	np00000	np00000	theme=yes|main=no	2	appos
-9	)	)	fpt	fpt	theme=yes|main=no	8	punct
+1	El	el	da0ms0	da0ms0	theme=no|main=no	2	det
+2	Grupo	grupo	ncfs000	ncfs000	theme=no|main=no	10	nsubj
+3	de	de	sps00	sps00	theme=no|main=no	2	prepn
+4	Acción	Acción	ncfs000	ncfs000	theme=no|main=no	3	pobj
+5	Financiera	financiero	aq0fs0	aq0fs0	theme=no|main=no	2	amod
+6	Internacional	internacional	np00000	np00000	theme=no|main=no	2	appos
+7	(	(	fpa	fpa	theme=no|main=no	8	punct
+8	GAFI	GAFI	np00000	np00000	theme=no|main=no	2	appos
+9	)	)	fpt	fpt	theme=no|main=no	8	punct
 10	ha	haber	vaip3s0	vaip3s0	theme=no|main=no	0	root
 11	anunciado	anunciar	vmp00sm	vmp00sm	theme=no|main=no	10	vobj
 12	que	que	cs	cs	theme=no|main=yes	11	dobj
@@ -37,8 +37,8 @@
 37	ONG	ONG	nc00000	nc00000	theme=no|main=yes	35	pobj
 38	.	.	fp	fp	theme=no|main=no	10	punct
 
-1	El	el	da0ms0	da0ms0	theme=yes|main=no	2	det
-2	GAFI	GAFI	np00000	np00000	theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	theme=no|main=no	2	det
+2	GAFI	GAFI	np00000	np00000	theme=no|main=no	3	nsubj
 3	ha	haber	vaip3s0	vaip3s0	theme=no|main=no	0	root
 4	indicado	indicar	vmp00sm	vmp00sm	theme=no|main=no	3	vobj
 5	que	que	cs	cs	theme=no|main=yes	4	dobj

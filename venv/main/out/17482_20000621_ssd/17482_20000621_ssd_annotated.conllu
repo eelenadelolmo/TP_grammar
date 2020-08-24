@@ -1,9 +1,9 @@
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|main=no	2	det
-2	contratos	contrato	ncmp000	ncmp000	recursive=no|theme=yes|main=no	6	nsubj
-3	futuros	futuro	aq0mp0	aq0mp0	recursive=no|theme=yes|main=no	2	amod
-4	de	de	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
-5	petróleo	petróleo	ncms000	ncms000	recursive=no|theme=yes|main=no	4	pobj
-6	subieron	subir	vmis3p0	vmis3p0	recursive=no|theme=no|main=no	0	root
+1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|main=yes	2	det
+2	contratos	contrato	ncmp000	ncmp000	recursive=yes|theme=yes|main=yes	6	nsubj
+3	futuros	futuro	aq0mp0	aq0mp0	recursive=no|theme=no|main=yes	2	amod
+4	de	de	sps00	sps00	recursive=no|theme=no|main=yes	2	prepn
+5	petróleo	petróleo	ncms000	ncms000	recursive=no|theme=no|main=yes	4	pobj
+6	subieron	subir	vmis3p0	vmis3p0	recursive=no|theme=no|main=yes	0	root
 7	hoy	hoy	rg	rg	recursive=no|theme=no|main=no	6	advmod
 8	,	,	fc	fc	recursive=no|theme=no|main=no	7	punct
 9	miércoles	miércoles	ncms000	ncms000	recursive=no|theme=no|main=no	7	dep
@@ -13,7 +13,7 @@
 13	mercado	mercado	ncms000	ncms000	recursive=no|theme=no|main=no	11	pobj
 14	de	de	sps00	sps00	recursive=no|theme=no|main=no	13	prepn
 15	Londres	Londres	np0000l	np0000l	recursive=no|theme=no|main=no	14	pobj
-16	,	,	fc	fc	recursive=no|theme=no|main=no	6	punct
+16	,	,	fc	fc	recursive=no|theme=no|main=yes	6	punct
 17	a	a	sps00	sps00	recursive=no|theme=no|main=no	6	prepv
 18	pesar	pesar	vmn0000	vmn0000	recursive=no|theme=no|main=no	17	pobj
 19	del	del	sps00	sps00	recursive=no|theme=no|main=no	18	iobj
@@ -35,20 +35,20 @@
 35	(	(	fpa	fpa	recursive=no|theme=no|main=no	36	punct
 36	OPEP	OPEP	np0000o	np0000o	recursive=no|theme=no|main=no	29	appos
 37	)	)	fpt	fpt	recursive=no|theme=no|main=no	36	punct
-38	.	.	fp	fp	recursive=no|theme=no|main=no	6	punct
+38	.	.	fp	fp	recursive=no|theme=no|main=yes	6	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|main=no	2	det
-2	crudo	crudo	ncms000	ncms000	recursive=no|theme=yes|main=no	7	nsubj
-3	Brent	Brent	np0000a	np0000a	recursive=no|theme=yes|main=no	2	appos
-4	para	para	sps00	sps00	recursive=no|theme=yes|main=no	2	prepn
-5	agosto	agosto	ncms000	ncms000	recursive=no|theme=yes|main=no	4	pobj
-6	se	él	p0300000	p0300000	recursive=no|theme=no|main=no	7	reflec
-7	cotizaba	cotizar	vmii3s0	vmii3s0	recursive=no|theme=no|main=no	0	root
-8	a	a	sps00	sps00	recursive=no|theme=no|main=no	7	oobj
-9	29,40	29.40	z	z	recursive=no|theme=no|main=no	10	num
-10	dólares	dólar	zm	zm	recursive=no|theme=no|main=no	8	pobj
-11	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=no	12	det
-12	barril	barril	ncms000	ncms000	recursive=no|theme=no|main=no	8	pobj
+1	El	el	da0ms0	da0ms0	recursive=no|theme=no|main=yes	2	det
+2	crudo	crudo	ncms000	ncms000	recursive=yes|theme=yes|main=yes	7	nsubj
+3	Brent	Brent	np0000a	np0000a	recursive=no|theme=no|main=yes	2	appos
+4	para	para	sps00	sps00	recursive=no|theme=no|main=yes	2	prepn
+5	agosto	agosto	ncms000	ncms000	recursive=no|theme=no|main=yes	4	pobj
+6	se	él	p0300000	p0300000	recursive=no|theme=no|main=yes	7	reflec
+7	cotizaba	cotizar	vmii3s0	vmii3s0	recursive=no|theme=no|main=yes	0	root
+8	a	a	sps00	sps00	recursive=no|theme=no|main=yes	7	oobj
+9	29,40	29.40	z	z	recursive=no|theme=no|main=yes	10	num
+10	dólares	dólar	zm	zm	recursive=no|theme=no|main=yes	8	pobj
+11	el	el	da0ms0	da0ms0	recursive=no|theme=no|main=yes	12	det
+12	barril	barril	ncms000	ncms000	recursive=no|theme=no|main=yes	8	pobj
 13	hacia	hacia	sps00	sps00	recursive=no|theme=no|main=no	7	prepv
 14	las	el	da0fp0	da0fp0	recursive=no|theme=no|main=no	15	det
 15	19.10	19.10	z	z	recursive=no|theme=no|main=no	13	pobj
@@ -58,7 +58,7 @@
 19	mercado	mercado	ncms000	ncms000	recursive=no|theme=no|main=no	17	pobj
 20	de	de	sps00	sps00	recursive=no|theme=no|main=no	19	prepn
 21	Londres	Londres	np0000l	np0000l	recursive=no|theme=no|main=no	20	pobj
-22	,	,	fc	fc	recursive=no|theme=no|main=no	7	punct
+22	,	,	fc	fc	recursive=no|theme=no|main=yes	7	punct
 23	frente	frente	rg	rg	recursive=no|theme=no|main=no	7	prepv
 24	a	a	sps00	sps00	recursive=no|theme=no|main=no	23	prep
 25	los	el	da0mp0	da0mp0	recursive=no|theme=no|main=no	27	det
@@ -71,5 +71,5 @@
 32	la	el	da0fs0	da0fs0	recursive=no|theme=no|main=no	33	det
 33	jornada	jornada	ncfs000	ncfs000	recursive=no|theme=no|main=no	31	pobj
 34	anterior	anterior	aq0cs0	aq0cs0	recursive=no|theme=no|main=no	33	amod
-35	.	.	fp	fp	recursive=no|theme=no|main=no	7	punct
+35	.	.	fp	fp	recursive=no|theme=no|main=yes	7	punct
 

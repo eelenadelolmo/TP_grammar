@@ -20,16 +20,16 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<ellipse fill="#BEDA48" stroke="black" cx="160.87" cy="-592.24" rx="120.83" ry="37.45"/>
-<text text-anchor="middle" x="160.87" y="-603.54" font-family="Times,serif" font-size="14.00">Eso</text>
-<text text-anchor="middle" x="160.87" y="-588.54" font-family="Times,serif" font-size="14.00">pd0ns000 (nsubj)</text>
-<text text-anchor="middle" x="160.87" y="-573.54" font-family="Times,serif" font-size="14.00">theme=yes, main=no</text>
+<ellipse fill="none" stroke="black" cx="165.87" cy="-592.24" rx="115.93" ry="37.45"/>
+<text text-anchor="middle" x="165.87" y="-603.54" font-family="Times,serif" font-size="14.00">Eso</text>
+<text text-anchor="middle" x="165.87" y="-588.54" font-family="Times,serif" font-size="14.00">pd0ns000 (nsubj)</text>
+<text text-anchor="middle" x="165.87" y="-573.54" font-family="Times,serif" font-size="14.00">theme=no, main=no</text>
 </g>
 <!-- n3&#45;&gt;n1 -->
 <g id="edge1" class="edge">
 <title>n3&#45;&gt;n1</title>
-<path fill="none" stroke="black" d="M681.39,-690.47C579.61,-678.59 424.08,-657.94 290.87,-629.72 279.49,-627.31 267.64,-624.46 255.93,-621.44"/>
-<polygon fill="black" stroke="black" points="256.7,-618.03 246.14,-618.87 254.92,-624.8 256.7,-618.03"/>
+<path fill="none" stroke="black" d="M681.32,-690.79C579.49,-679.13 423.93,-658.63 290.87,-629.72 280.02,-627.36 268.73,-624.57 257.57,-621.59"/>
+<polygon fill="black" stroke="black" points="258.38,-618.18 247.81,-618.93 256.54,-624.94 258.38,-618.18"/>
 </g>
 <!-- n2 -->
 <g id="node3" class="node">
@@ -104,10 +104,10 @@
 <!-- n4 -->
 <g id="node8" class="node">
 <title>n4</title>
-<ellipse fill="#BEDA48" stroke="black" cx="665.87" cy="-481.29" rx="120.83" ry="37.45"/>
+<ellipse fill="none" stroke="black" cx="665.87" cy="-481.29" rx="115.93" ry="37.45"/>
 <text text-anchor="middle" x="665.87" y="-492.59" font-family="Times,serif" font-size="14.00">tal</text>
 <text text-anchor="middle" x="665.87" y="-477.59" font-family="Times,serif" font-size="14.00">pr0ms000 (nsubj)</text>
-<text text-anchor="middle" x="665.87" y="-462.59" font-family="Times,serif" font-size="14.00">theme=yes, main=no</text>
+<text text-anchor="middle" x="665.87" y="-462.59" font-family="Times,serif" font-size="14.00">theme=no, main=no</text>
 </g>
 <!-- n5&#45;&gt;n4 -->
 <g id="edge7" class="edge">

@@ -20,16 +20,16 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<ellipse fill="#BEDA48" stroke="black" cx="130.92" cy="-703.2" rx="120.83" ry="37.45"/>
-<text text-anchor="middle" x="130.92" y="-714.5" font-family="Times,serif" font-size="14.00">Ivanov</text>
-<text text-anchor="middle" x="130.92" y="-699.5" font-family="Times,serif" font-size="14.00">np0000p (nsubj)</text>
-<text text-anchor="middle" x="130.92" y="-684.5" font-family="Times,serif" font-size="14.00">theme=yes, main=no</text>
+<ellipse fill="none" stroke="black" cx="135.92" cy="-703.2" rx="115.93" ry="37.45"/>
+<text text-anchor="middle" x="135.92" y="-714.5" font-family="Times,serif" font-size="14.00">Ivanov</text>
+<text text-anchor="middle" x="135.92" y="-699.5" font-family="Times,serif" font-size="14.00">np0000p (nsubj)</text>
+<text text-anchor="middle" x="135.92" y="-684.5" font-family="Times,serif" font-size="14.00">theme=no, main=no</text>
 </g>
 <!-- n3&#45;&gt;n1 -->
 <g id="edge1" class="edge">
 <title>n3&#45;&gt;n1</title>
-<path fill="none" stroke="black" d="M427.19,-788.7C368.1,-771.84 289.45,-749.41 228.04,-731.9"/>
-<polygon fill="black" stroke="black" points="228.92,-728.51 218.34,-729.13 227,-735.24 228.92,-728.51"/>
+<path fill="none" stroke="black" d="M427.45,-788.66C378.65,-774.65 316.34,-756.73 260.92,-740.67 251.04,-737.81 240.73,-734.82 230.45,-731.83"/>
+<polygon fill="black" stroke="black" points="231.2,-728.4 220.62,-728.96 229.25,-735.12 231.2,-728.4"/>
 </g>
 <!-- n2 -->
 <g id="node3" class="node">

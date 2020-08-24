@@ -1,7 +1,7 @@
-1	El	el	da0ms0	da0ms0	theme=yes|main=no	2	det
-2	Ayuntamiento	ayuntamiento	ncfs000	ncfs000	theme=yes|main=no	5	nsubj
-3	de	de	sps00	sps00	theme=yes|main=no	2	prepn
-4	Terrassa	Terrassa	np00000	np00000	theme=yes|main=no	3	pobj
+1	El	el	da0ms0	da0ms0	theme=no|main=no	2	det
+2	Ayuntamiento	ayuntamiento	ncfs000	ncfs000	theme=no|main=no	5	nsubj
+3	de	de	sps00	sps00	theme=no|main=no	2	prepn
+4	Terrassa	Terrassa	np00000	np00000	theme=no|main=no	3	pobj
 5	ha	haber	vaip3s0	vaip3s0	theme=no|main=no	0	root
 6	aceptado	aceptar	vmp00sm	vmp00sm	theme=no|main=no	5	vobj
 7	que	que	cs	cs	theme=no|main=yes	6	dobj
@@ -28,8 +28,8 @@
 28	electricidad	electricidad	ncfs000	ncfs000	theme=no|main=yes	27	dobj
 29	.	.	fp	fp	theme=no|main=no	5	punct
 
-1	El	el	da0ms0	da0ms0	theme=yes|main=no	2	det
-2	acuerdo	acuerdo	ncms000	ncms000	theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	theme=no|main=no	2	det
+2	acuerdo	acuerdo	ncms000	ncms000	theme=no|main=no	3	nsubj
 3	implica	implicar	vmip3s0	vmip3s0	theme=no|main=no	0	root
 4	que	que	cs	cs	theme=no|main=yes	3	dobj
 5	la	el	da0fs0	da0fs0	theme=yes|main=yes	7	det

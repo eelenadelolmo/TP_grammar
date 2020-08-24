@@ -17,23 +17,23 @@
 17	tan	tanto	rg	rg	theme=no|main=no	18	advmod
 18	sólo	sólo	rg	rg	theme=no|main=no	19	advmod
 19	porque	porque	cs	cs	theme=no|main=no	5	advcl
-20	su	su	dp3cs0	dp3cs0	theme=yes|main=no	21	poss
-21	pueblo	pueblo	ncms000	ncms000	theme=yes|main=no	22	nsubj
+20	su	su	dp3cs0	dp3cs0	theme=no|main=no	21	poss
+21	pueblo	pueblo	ncms000	ncms000	theme=no|main=no	22	nsubj
 22	sea	ser	vssp3s0	vssp3s0	theme=no|main=no	19	cobj
 23	irresponsable	irresponsable	aq0cs0	aq0cs0	theme=no|main=no	22	attr
 24	&quot;	&quot;	fe	fe	theme=no|main=no	5	punct
 25	.	.	fp	fp	theme=no|main=no	1	punct
 
-1	Más	más	rg	rg	theme=yes|main=no	2	advmod
-2	detalles	detalle	ncmp000	ncmp000	theme=yes|main=no	10	nsubj
-3	pacifistas	pacifista	aq0cp0	aq0cp0	theme=yes|main=no	2	amod
-4	sobre	sobre	sps00	sps00	theme=yes|main=no	2	prepn
-5	el	el	da0ms0	da0ms0	theme=yes|main=no	6	det
-6	Chile	Chile	np00000	np00000	theme=yes|main=no	4	pobj
-7	de	de	sps00	sps00	theme=yes|main=no	6	prepn
-8	Allende	Allende	np00000	np00000	theme=yes|main=no	7	pobj
-9	se	se	p0000000	p0000000	theme=no|main=no	10	reflec
-10	encuentran	encontrar	vmip3p0	vmip3p0	theme=no|main=no	0	root
+1	Más	más	rg	rg	theme=yes|main=yes	2	advmod
+2	detalles	detalle	ncmp000	ncmp000	theme=yes|main=yes	10	nsubj
+3	pacifistas	pacifista	aq0cp0	aq0cp0	theme=yes|main=yes	2	amod
+4	sobre	sobre	sps00	sps00	theme=yes|main=yes	2	prepn
+5	el	el	da0ms0	da0ms0	theme=yes|main=yes	6	det
+6	Chile	Chile	np00000	np00000	theme=yes|main=yes	4	pobj
+7	de	de	sps00	sps00	theme=yes|main=yes	6	prepn
+8	Allende	Allende	np00000	np00000	theme=yes|main=yes	7	pobj
+9	se	se	p0000000	p0000000	theme=no|main=yes	10	reflec
+10	encuentran	encontrar	vmip3p0	vmip3p0	theme=no|main=yes	0	root
 11	en	en	sps00	sps00	theme=no|main=no	10	prepv
 12	las	el	da0fp0	da0fp0	theme=no|main=no	13	det
 13	memorias	memoria	ncfp000	ncfp000	theme=no|main=no	11	pobj
@@ -43,7 +43,7 @@
 17	(	(	fpa	fpa	theme=no|main=no	18	punct
 18	1979	1979	z	z	theme=no|main=no	13	dep
 19	)	)	fpt	fpt	theme=no|main=no	18	punct
-20	.	.	fp	fp	theme=no|main=no	10	punct
+20	.	.	fp	fp	theme=no|main=yes	10	punct
 
 1	En	en	sps00	sps00	theme=no|main=no	4	prepv
 2	ellas	él	pp3fp000	pp3fp000	theme=no|main=no	1	pobj
@@ -85,9 +85,9 @@
 38	&quot;	&quot;	fe	fe	theme=no|main=yes	28	punct
 39	.	.	fp	fp	theme=no|main=no	4	punct
 
-1	¡	¡	faa	faa	theme=no|main=no	2	punct
-2	Uf	uf	ncms000	ncms000	theme=no|main=no	0	root
-3	!	!	fat	fat	theme=no|main=no	2	punct
-4	.	.	fp	fp	theme=no|main=no	2	punct
+1	¡	¡	faa	faa	theme=no|main=yes	2	punct
+2	Uf	uf	ncms000	ncms000	theme=no|main=yes	0	root
+3	!	!	fat	fat	theme=no|main=yes	2	punct
+4	.	.	fp	fp	theme=no|main=yes	2	punct
 
 

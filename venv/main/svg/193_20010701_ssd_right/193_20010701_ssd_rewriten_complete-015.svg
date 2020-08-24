@@ -20,16 +20,16 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<ellipse fill="#BEDA48" stroke="black" cx="120.92" cy="-259.38" rx="120.83" ry="37.45"/>
-<text text-anchor="middle" x="120.92" y="-270.68" font-family="Times,serif" font-size="14.00">Icíar</text>
-<text text-anchor="middle" x="120.92" y="-255.68" font-family="Times,serif" font-size="14.00">np0000l (nsubj)</text>
-<text text-anchor="middle" x="120.92" y="-240.68" font-family="Times,serif" font-size="14.00">theme=yes, main=no</text>
+<ellipse fill="none" stroke="black" cx="125.92" cy="-259.38" rx="115.93" ry="37.45"/>
+<text text-anchor="middle" x="125.92" y="-270.68" font-family="Times,serif" font-size="14.00">Icíar</text>
+<text text-anchor="middle" x="125.92" y="-255.68" font-family="Times,serif" font-size="14.00">np0000l (nsubj)</text>
+<text text-anchor="middle" x="125.92" y="-240.68" font-family="Times,serif" font-size="14.00">theme=no, main=no</text>
 </g>
 <!-- n3&#45;&gt;n1 -->
 <g id="edge1" class="edge">
 <title>n3&#45;&gt;n1</title>
-<path fill="none" stroke="black" d="M311.58,-340.28C277.47,-325.99 236.18,-308.69 200.76,-293.84"/>
-<polygon fill="black" stroke="black" points="201.99,-290.56 191.41,-289.93 199.28,-297.02 201.99,-290.56"/>
+<path fill="none" stroke="black" d="M312.24,-340C278.94,-325.77 238.78,-308.6 204.28,-293.87"/>
+<polygon fill="black" stroke="black" points="205.28,-290.49 194.71,-289.78 202.53,-296.92 205.28,-290.49"/>
 </g>
 <!-- n4 -->
 <g id="node3" class="node">
@@ -62,16 +62,16 @@
 <!-- n2 -->
 <g id="node5" class="node">
 <title>n2</title>
-<ellipse fill="#BEDA48" stroke="black" cx="120.92" cy="-148.43" rx="120.83" ry="37.45"/>
-<text text-anchor="middle" x="120.92" y="-159.73" font-family="Times,serif" font-size="14.00">Bollaín</text>
-<text text-anchor="middle" x="120.92" y="-144.73" font-family="Times,serif" font-size="14.00">np0000l (appos)</text>
-<text text-anchor="middle" x="120.92" y="-129.73" font-family="Times,serif" font-size="14.00">theme=yes, main=no</text>
+<ellipse fill="none" stroke="black" cx="125.92" cy="-148.43" rx="115.93" ry="37.45"/>
+<text text-anchor="middle" x="125.92" y="-159.73" font-family="Times,serif" font-size="14.00">Bollaín</text>
+<text text-anchor="middle" x="125.92" y="-144.73" font-family="Times,serif" font-size="14.00">np0000l (appos)</text>
+<text text-anchor="middle" x="125.92" y="-129.73" font-family="Times,serif" font-size="14.00">theme=no, main=no</text>
 </g>
 <!-- n1&#45;&gt;n2 -->
 <g id="edge4" class="edge">
 <title>n1&#45;&gt;n2</title>
-<path fill="none" stroke="black" d="M120.92,-221.8C120.92,-213.63 120.92,-204.85 120.92,-196.32"/>
-<polygon fill="black" stroke="black" points="124.42,-196.1 120.92,-186.1 117.42,-196.1 124.42,-196.1"/>
+<path fill="none" stroke="black" d="M125.92,-221.8C125.92,-213.63 125.92,-204.85 125.92,-196.32"/>
+<polygon fill="black" stroke="black" points="129.42,-196.1 125.92,-186.1 122.42,-196.1 129.42,-196.1"/>
 </g>
 <!-- n7 -->
 <g id="node6" class="node">

@@ -2,7 +2,7 @@
 2	a	a	sps00	sps00	theme=no|main=no	1	prep
 3	este	este	dd0ms0	dd0ms0	theme=no|main=no	4	det
 4	Barcelona	Barcelona	np0000l	np0000l	theme=no|main=no	2	pobj
-5	que	que	pr0cn000	pr0cn000	theme=yes|main=no	10	nsubj
+5	que	que	pr0cn000	pr0cn000	theme=no|main=no	10	nsubj
 6	hace	hacer	vmip3s0	vmip3s0	theme=no|main=no	10	dobj
 7	unos	uno	di0mp0	di0mp0	theme=no|main=no	8	det
 8	días	día	ncmp000	ncmp000	theme=no|main=no	6	dobj
@@ -21,7 +21,7 @@
 21	al	al	sps00	sps00	theme=no|main=no	10	advcl
 22	mismo	mismo	di0ms0	di0ms0	theme=no|main=no	23	det
 23	tiempo	tiempo	ncms000	ncms000	theme=no|main=no	21	pobj
-24	que	que	pr0cn000	pr0cn000	theme=yes|main=no	23	nsubj
+24	que	que	pr0cn000	pr0cn000	theme=no|main=no	23	nsubj
 25	el	el	da0ms0	da0ms0	theme=no|main=no	26	det
 26	Madrid	Madrid	np0000l	np0000l	theme=no|main=no	21	cobj
 27	homenajeaba	homenajear	vmii3s0	vmii3s0	theme=no|main=no	21	cobj
@@ -29,17 +29,17 @@
 29	un	uno	di0ms0	di0ms0	theme=no|main=no	31	det
 30	recién	recién	rg	rg	theme=no|main=no	31	advmod
 31	ascendido	ascendido	aq0msp	aq0msp	theme=no|main=no	28	pobj
-32	,	,	fc	fc	theme=no|main=no	38	punct
-33	el	el	da0ms0	da0ms0	theme=yes|main=no	34	det
-34	cálculo	cálculo	ncms000	ncms000	theme=yes|main=no	38	nsubj
-35	de	de	sps00	sps00	theme=yes|main=no	34	prepn
-36	probabilidades	probabilidad	ncfp000	ncfp000	theme=yes|main=no	35	pobj
-37	no	no	rn	rn	theme=no|main=no	38	neg
-38	basta	bastar	vmip3s0	vmip3s0	theme=no|main=no	0	root
+32	,	,	fc	fc	theme=no|main=yes	38	punct
+33	el	el	da0ms0	da0ms0	theme=yes|main=yes	34	det
+34	cálculo	cálculo	ncms000	ncms000	theme=yes|main=yes	38	nsubj
+35	de	de	sps00	sps00	theme=yes|main=yes	34	prepn
+36	probabilidades	probabilidad	ncfp000	ncfp000	theme=yes|main=yes	35	pobj
+37	no	no	rn	rn	theme=no|main=yes	38	neg
+38	basta	bastar	vmip3s0	vmip3s0	theme=no|main=yes	0	root
 39	para	para	sps00	sps00	theme=no|main=no	38	prepv
 40	alcanzar	alcanzar	vmn0000	vmn0000	theme=no|main=no	39	pobj
 41	la	el	da0fs0	da0fs0	theme=no|main=no	42	det
 42	victoria	victoria	ncfs000	ncfs000	theme=no|main=no	40	dobj
-43	.	.	fp	fp	theme=no|main=no	38	punct
+43	.	.	fp	fp	theme=no|main=yes	38	punct
 
 

@@ -1,12 +1,12 @@
-1	El	el	da0ms0	da0ms0	theme=yes|main=no	2	det
-2	secretario	secretario	ncms000	ncms000	theme=yes|main=no	10	nsubj
-3	general	general	aq0cs0	aq0cs0	theme=yes|main=no	2	amod
-4	del	del	spcms	spcms	theme=yes|main=no	2	prepn
-5	PP	PP	np00000	np00000	theme=yes|main=no	4	pobj
-6	,	,	fc	fc	theme=yes|main=no	2	punct
-7	Javier	Javier	np00000	np00000	theme=yes|main=no	2	appos
-8	Arenas	arena	ncms000	ncms000	theme=yes|main=no	7	appos
-9	,	,	fc	fc	theme=yes|main=no	2	punct
+1	El	el	da0ms0	da0ms0	theme=no|main=no	2	det
+2	secretario	secretario	ncms000	ncms000	theme=no|main=no	10	nsubj
+3	general	general	aq0cs0	aq0cs0	theme=no|main=no	2	amod
+4	del	del	spcms	spcms	theme=no|main=no	2	prepn
+5	PP	PP	np00000	np00000	theme=no|main=no	4	pobj
+6	,	,	fc	fc	theme=no|main=no	2	punct
+7	Javier	Javier	np00000	np00000	theme=no|main=no	2	appos
+8	Arenas	arena	ncms000	ncms000	theme=no|main=no	7	appos
+9	,	,	fc	fc	theme=no|main=no	2	punct
 10	expresó	expresar	vmis3s0	vmis3s0	theme=no|main=no	35	coord
 11	hoy	hoy	rg	rg	theme=no|main=no	10	advmod
 12	su	su	dp3cs0	dp3cs0	theme=no|main=no	13	poss
@@ -57,7 +57,7 @@
 57	&quot;	&quot;	fe	fe	theme=no|main=yes	54	punct
 58	.	.	fp	fp	theme=no|main=no	35	punct
 
-1	Arenas	Arenas	np00000	np00000	theme=yes|main=no	3	nsubj
+1	Arenas	Arenas	np00000	np00000	theme=no|main=no	3	nsubj
 2	se	él	p0300000	p0300000	theme=no|main=no	3	reflec
 3	refirió	referir	vmis3s0	vmis3s0	theme=no|main=no	0	root
 4	en	en	sps00	sps00	theme=no|main=no	3	prepv
@@ -80,7 +80,7 @@
 21	el	el	da0ms0	da0ms0	theme=no|main=no	22	det
 22	crédito	crédito	ncms000	ncms000	theme=no|main=no	20	dobj
 23	,	,	fc	fc	theme=no|main=no	25	punct
-24	que	que	pr0cn000	pr0cn000	theme=yes|main=no	25	nsubj
+24	que	que	pr0cn000	pr0cn000	theme=no|main=no	25	nsubj
 25	ha	haber	vaip3s0	vaip3s0	theme=no|main=no	11	rcmod
 26	propiciado	propiciar	vmp00sm	vmp00sm	theme=no|main=no	25	vobj
 27	que	que	cs	cs	theme=no|main=yes	26	dobj
@@ -113,11 +113,11 @@
 54	decisión	decisión	ncfs000	ncfs000	theme=no|main=yes	52	dobj
 55	.	.	fp	fp	theme=no|main=no	3	punct
 
-1	El	el	da0ms0	da0ms0	theme=yes|main=no	2	det
-2	secretario	secretario	ncms000	ncms000	theme=yes|main=no	6	nsubj
-3	general	general	aq0cs0	aq0cs0	theme=yes|main=no	2	amod
-4	del	del	spcms	spcms	theme=yes|main=no	2	prepn
-5	PP	PP	np00000	np00000	theme=yes|main=no	4	pobj
+1	El	el	da0ms0	da0ms0	theme=no|main=no	2	det
+2	secretario	secretario	ncms000	ncms000	theme=no|main=no	6	nsubj
+3	general	general	aq0cs0	aq0cs0	theme=no|main=no	2	amod
+4	del	del	spcms	spcms	theme=no|main=no	2	prepn
+5	PP	PP	np00000	np00000	theme=no|main=no	4	pobj
 6	expresó	expresar	vmis3s0	vmis3s0	theme=no|main=no	15	coord
 7	su	su	dp3cs0	dp3cs0	theme=no|main=no	10	poss
 8	&quot;	&quot;	fe	fe	theme=no|main=no	10	punct
@@ -207,7 +207,7 @@
 31	explicó	explicar	vmis3s0	vmis3s0	theme=no|main=no	0	root
 32	Arenas	Arenas	np00000	np00000	theme=no|main=no	31	nsubj
 33	,	,	fc	fc	theme=no|main=no	32	punct
-34	quien	quien	pr0cs000	pr0cs000	theme=yes|main=no	35	nsubj
+34	quien	quien	pr0cs000	pr0cs000	theme=no|main=no	35	nsubj
 35	recordó	recordar	vmis3s0	vmis3s0	theme=no|main=no	32	rcmod
 36	que	que	cs	cs	theme=no|main=yes	35	dobj
 37	en	en	sps00	sps00	theme=no|main=yes	40	prepv
@@ -251,17 +251,17 @@
 17	precisó	precisar	vmis3s0	vmis3s0	theme=no|main=no	18	cobj
 18	que	que	cs	cs	theme=no|main=no	16	cobj
 19	existen	existir	vmip3p0	vmip3p0	theme=no|main=no	18	cobj
-20	&quot;	&quot;	fe	fe	theme=yes|main=no	21	punct
-21	circunstancias	circunstancia	ncfp000	ncfp000	theme=yes|main=no	19	nsubj
-22	externas	externo	aq0fp0	aq0fp0	theme=yes|main=no	21	amod
-23	&quot;	&quot;	fe	fe	theme=yes|main=no	21	punct
-24	que	que	pr0cn000	pr0cn000	theme=yes|main=no	25	nsubj
-25	condicionan	condicionar	vmip3p0	vmip3p0	theme=yes|main=no	21	rcmod
-26	la	el	da0fs0	da0fs0	theme=yes|main=no	27	det
-27	actividad	actividad	ncfs000	ncfs000	theme=yes|main=no	25	dobj
-28	minera	minero	aq0fs0	aq0fs0	theme=yes|main=no	27	amod
-29	en	en	sps00	sps00	theme=yes|main=no	27	prepn
-30	Huelva	Huelva	np00000	np00000	theme=yes|main=no	29	pobj
+20	&quot;	&quot;	fe	fe	theme=no|main=no	21	punct
+21	circunstancias	circunstancia	ncfp000	ncfp000	theme=no|main=no	19	nsubj
+22	externas	externo	aq0fp0	aq0fp0	theme=no|main=no	21	amod
+23	&quot;	&quot;	fe	fe	theme=no|main=no	21	punct
+24	que	que	pr0cn000	pr0cn000	theme=no|main=no	25	nsubj
+25	condicionan	condicionar	vmip3p0	vmip3p0	theme=no|main=no	21	rcmod
+26	la	el	da0fs0	da0fs0	theme=no|main=no	27	det
+27	actividad	actividad	ncfs000	ncfs000	theme=no|main=no	25	dobj
+28	minera	minero	aq0fs0	aq0fs0	theme=no|main=no	27	amod
+29	en	en	sps00	sps00	theme=no|main=no	27	prepn
+30	Huelva	Huelva	np00000	np00000	theme=no|main=no	29	pobj
 31	y	y	cc	cc	theme=no|main=no	0	root
 32	dijo	decir	vmis3s0	vmis3s0	theme=no|main=no	31	coord
 33	que	que	cs	cs	theme=no|main=yes	32	dobj
@@ -281,9 +281,9 @@
 47	lo	él	pp3msa00	pp3msa00	theme=no|main=yes	49	dobj
 48	ha	haber	vaip3s0	vaip3s0	theme=no|main=yes	45	rcmod
 49	hecho	hacer	vmp00sm	vmp00sm	theme=no|main=yes	48	vobj
-50	el	el	da0ms0	da0ms0	theme=yes|main=yes	51	det
-51	Gobierno	Gobierno	np00000	np00000	theme=yes|main=yes	48	nsubj
-52	central	central	aq0cs0	aq0cs0	theme=yes|main=yes	51	amod
+50	el	el	da0ms0	da0ms0	theme=no|main=yes	51	det
+51	Gobierno	Gobierno	np00000	np00000	theme=no|main=yes	48	nsubj
+52	central	central	aq0cs0	aq0cs0	theme=no|main=yes	51	amod
 53	.	.	fp	fp	theme=no|main=no	31	punct
 
 

@@ -1,6 +1,6 @@
-1	Un	uno	di0ms0	di0ms0	theme=yes|main=no	2	det
-2	ejecutivo	ejecutivo	ncms000	ncms000	theme=yes|main=no	4	nsubj
-3	publicitario	publicitario	aq0ms0	aq0ms0	theme=yes|main=no	2	amod
+1	Un	uno	di0ms0	di0ms0	theme=no|main=no	2	det
+2	ejecutivo	ejecutivo	ncms000	ncms000	theme=no|main=no	4	nsubj
+3	publicitario	publicitario	aq0ms0	aq0ms0	theme=no|main=no	2	amod
 4	descubre	descubrir	vmip3s0	vmip3s0	theme=no|main=no	13	coord
 5	que	que	cs	cs	theme=no|main=yes	4	dobj
 6	su	su	dp3cs0	dp3cs0	theme=yes|main=yes	7	poss
@@ -22,8 +22,8 @@
 22	dólares	dólar	zm	zm	theme=no|main=no	21	pobj
 23	.	.	fp	fp	theme=no|main=no	13	punct
 
-1	El	el	da0ms0	da0ms0	theme=yes|main=no	2	det
-2	azar	azar	ncms000	ncms000	theme=yes|main=no	3	nsubj
+1	El	el	da0ms0	da0ms0	theme=no|main=no	2	det
+2	azar	azar	ncms000	ncms000	theme=no|main=no	3	nsubj
 3	hará	hacer	vmif3s0	vmif3s0	theme=no|main=no	0	root
 4	que	que	cs	cs	theme=no|main=yes	3	dobj
 5	se	él	p0300000	p0300000	theme=no|main=yes	6	reflec

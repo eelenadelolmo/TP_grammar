@@ -1,16 +1,16 @@
-1	El	el	da0ms0	da0ms0	theme=yes|main=no	2	det
-2	Parlamento	Parlamento	np00000	np00000	theme=yes|main=no	4	nsubj
-3	andaluz	andaluz	aq0ms0	aq0ms0	theme=yes|main=no	2	amod
-4	quiere	querer	vmip3s0	vmip3s0	theme=no|main=no	0	root
-5	elegir	elegir	vmn0000	vmn0000	theme=no|main=no	4	dobj
-6	al	al	spcms	spcms	theme=no|main=no	5	dobj
-7	director	director	ncms000	ncms000	theme=no|main=no	6	pobj
-8	de	de	sps00	sps00	theme=no|main=no	7	prepn
-9	RTVA	RTVA	np00000	np00000	theme=no|main=no	8	pobj
-10	.	.	fp	fp	theme=no|main=no	4	punct
+1	El	el	da0ms0	da0ms0	theme=yes|main=yes	2	det
+2	Parlamento	Parlamento	np00000	np00000	theme=yes|main=yes	4	nsubj
+3	andaluz	andaluz	aq0ms0	aq0ms0	theme=yes|main=yes	2	amod
+4	quiere	querer	vmip3s0	vmip3s0	theme=no|main=yes	0	root
+5	elegir	elegir	vmn0000	vmn0000	theme=no|main=yes	4	dobj
+6	al	al	spcms	spcms	theme=no|main=yes	5	dobj
+7	director	director	ncms000	ncms000	theme=no|main=yes	6	pobj
+8	de	de	sps00	sps00	theme=no|main=yes	7	prepn
+9	RTVA	RTVA	np00000	np00000	theme=no|main=yes	8	pobj
+10	.	.	fp	fp	theme=no|main=yes	4	punct
 
-1	La	el	da0fs0	da0fs0	theme=yes|main=no	2	det
-2	Cámara	Cámara	np00000	np00000	theme=yes|main=no	3	nsubj
+1	La	el	da0fs0	da0fs0	theme=no|main=no	2	det
+2	Cámara	Cámara	np00000	np00000	theme=no|main=no	3	nsubj
 3	aprobó	aprobar	vmis3s0	vmis3s0	theme=no|main=no	0	root
 4	ayer	ayer	rg	rg	theme=no|main=no	3	advmod
 5	,	,	fc	fc	theme=no|main=no	3	punct
@@ -31,7 +31,7 @@
 20	y	y	cc	cc	theme=no|main=no	18	pobj
 21	PA	PA	np00000	np00000	theme=no|main=no	20	coord
 22	,	,	fc	fc	theme=no|main=no	15	punct
-23	que	que	pr0cn000	pr0cn000	theme=yes|main=no	24	nsubj
+23	que	que	pr0cn000	pr0cn000	theme=no|main=no	24	nsubj
 24	propone	proponer	vmip3s0	vmip3s0	theme=no|main=no	15	rcmod
 25	que	que	cs	cs	theme=no|main=yes	24	dobj
 26	el	el	da0ms0	da0ms0	theme=yes|main=yes	27	det
@@ -52,17 +52,17 @@
 1	En	en	sps00	sps00	theme=no|main=no	8	prepv
 2	el	el	da0ms0	da0ms0	theme=no|main=no	3	det
 3	Congreso	Congreso	np00000	np00000	theme=no|main=no	1	pobj
-4	,	,	fc	fc	theme=no|main=no	8	punct
-5	PP	PP	np00000	np00000	theme=yes|main=no	6	coord
-6	y	y	cc	cc	theme=yes|main=no	8	nsubj
-7	PSOE	PSOE	np00000	np00000	theme=yes|main=no	6	coord
-8	defienden	defender	vmip3p0	vmip3p0	theme=no|main=no	0	root
+4	,	,	fc	fc	theme=no|main=yes	8	punct
+5	PP	PP	np00000	np00000	theme=yes|main=yes	6	coord
+6	y	y	cc	cc	theme=yes|main=yes	8	nsubj
+7	PSOE	PSOE	np00000	np00000	theme=yes|main=yes	6	coord
+8	defienden	defender	vmip3p0	vmip3p0	theme=no|main=yes	0	root
 9	respecto	respecto	ncfp000	ncfp000	theme=no|main=no	8	prepv
 10	a	a	sps00	sps00	theme=no|main=no	9	prepn
 11	RTVE	RTVE	np00000	np00000	theme=no|main=no	10	pobj
-12	los	el	da0mp0	da0mp0	theme=no|main=no	13	det
-13	planteamientos	planteamiento	ncmp000	ncmp000	theme=no|main=no	8	dobj
-14	contrarios	contrario	aq0mp0	aq0mp0	theme=no|main=no	13	amod
-15	.	.	fp	fp	theme=no|main=no	8	punct
+12	los	el	da0mp0	da0mp0	theme=no|main=yes	13	det
+13	planteamientos	planteamiento	ncmp000	ncmp000	theme=no|main=yes	8	dobj
+14	contrarios	contrario	aq0mp0	aq0mp0	theme=no|main=yes	13	amod
+15	.	.	fp	fp	theme=no|main=yes	8	punct
 
 

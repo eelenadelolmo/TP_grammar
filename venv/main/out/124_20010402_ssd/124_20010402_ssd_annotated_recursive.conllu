@@ -1,8 +1,8 @@
-1	El	el	da0ms0	da0ms0	theme=yes|main=no	2	det
-2	Grupo	grupo	ncfs000	ncfs000	theme=yes|main=no	6	nsubj
-3	Parlamentario	parlamentario	nc00000	nc00000	theme=yes|main=no	2	appos
-4	de	de	sps00	sps00	theme=yes|main=no	2	prepn
-5	IU	IU	np00000	np00000	theme=yes|main=no	4	pobj
+1	El	el	da0ms0	da0ms0	theme=no|main=no	2	det
+2	Grupo	grupo	ncfs000	ncfs000	theme=no|main=no	6	nsubj
+3	Parlamentario	parlamentario	nc00000	nc00000	theme=no|main=no	2	appos
+4	de	de	sps00	sps00	theme=no|main=no	2	prepn
+5	IU	IU	np00000	np00000	theme=no|main=no	4	pobj
 6	ha	haber	vaip3s0	vaip3s0	theme=no|main=no	0	root
 7	presentado	presentar	vmp00sm	vmp00sm	theme=no|main=no	6	vobj
 8	en	en	sps00	sps00	theme=no|main=no	7	prepv
@@ -33,18 +33,18 @@
 33	subtitulado	subtitulado	aq0msp	aq0msp	theme=no|main=yes	31	cpred
 34	.	.	fp	fp	theme=no|main=no	6	punct
 
-1	El	el	da0ms0	da0ms0	theme=yes|main=no	2	det
-2	fin	fin	ncms000	ncms000	theme=yes|main=no	3	nsubj
-3	es	ser	vsip3s0	vsip3s0	theme=no|main=no	0	root
-4	evitar	evitar	vmn0000	vmn0000	theme=no|main=no	3	attr
-5	las	el	da0fp0	da0fp0	theme=no|main=no	6	det
-6	barreras	barrera	ncfp000	ncfp000	theme=no|main=no	4	dobj
-7	comunicacionales	comunicacionales	aq0cp0	aq0cp0	theme=no|main=no	6	amod
-8	a	a	sps00	sps00	theme=no|main=no	4	iobj
-9	personas	persona	ncfp000	ncfp000	theme=no|main=no	8	pobj
-10	con	con	sps00	sps00	theme=no|main=no	9	prepn
-11	discapacidades	discapacidad	ncfp000	ncfp000	theme=no|main=no	10	pobj
-12	auditivas	auditivo	aq0fp0	aq0fp0	theme=no|main=no	11	amod
-13	.	.	fp	fp	theme=no|main=no	3	punct
+1	El	el	da0ms0	da0ms0	theme=yes|main=yes	2	det
+2	fin	fin	ncms000	ncms000	theme=yes|main=yes	3	nsubj
+3	es	ser	vsip3s0	vsip3s0	theme=no|main=yes	0	root
+4	evitar	evitar	vmn0000	vmn0000	theme=no|main=yes	3	attr
+5	las	el	da0fp0	da0fp0	theme=no|main=yes	6	det
+6	barreras	barrera	ncfp000	ncfp000	theme=no|main=yes	4	dobj
+7	comunicacionales	comunicacionales	aq0cp0	aq0cp0	theme=no|main=yes	6	amod
+8	a	a	sps00	sps00	theme=no|main=yes	4	iobj
+9	personas	persona	ncfp000	ncfp000	theme=no|main=yes	8	pobj
+10	con	con	sps00	sps00	theme=no|main=yes	9	prepn
+11	discapacidades	discapacidad	ncfp000	ncfp000	theme=no|main=yes	10	pobj
+12	auditivas	auditivo	aq0fp0	aq0fp0	theme=no|main=yes	11	amod
+13	.	.	fp	fp	theme=no|main=yes	3	punct
 
 

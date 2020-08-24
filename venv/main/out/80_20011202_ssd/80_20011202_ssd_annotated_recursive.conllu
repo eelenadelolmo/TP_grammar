@@ -1,10 +1,10 @@
-1	El	el	da0ms0	da0ms0	theme=yes|main=no	2	det
-2	vicepresidente	vicepresidente	ncms000	ncms000	theme=yes|main=no	8	nsubj
-3	económico	económico	aq0ms0	aq0ms0	theme=yes|main=no	2	amod
-4	,	,	fc	fc	theme=yes|main=no	2	punct
-5	Rodrigo	rodrigar	np00000	np00000	theme=yes|main=no	2	appos
-6	Rato	rato	ncms000	ncms000	theme=yes|main=no	5	appos
-7	,	,	fc	fc	theme=yes|main=no	2	punct
+1	El	el	da0ms0	da0ms0	theme=no|main=no	2	det
+2	vicepresidente	vicepresidente	ncms000	ncms000	theme=no|main=no	8	nsubj
+3	económico	económico	aq0ms0	aq0ms0	theme=no|main=no	2	amod
+4	,	,	fc	fc	theme=no|main=no	2	punct
+5	Rodrigo	rodrigar	np00000	np00000	theme=no|main=no	2	appos
+6	Rato	rato	ncms000	ncms000	theme=no|main=no	5	appos
+7	,	,	fc	fc	theme=no|main=no	2	punct
 8	irritó	irritar	vmis3s0	vmis3s0	theme=no|main=no	18	coord
 9	al	al	spcms	spcms	theme=no|main=no	8	dobj
 10	PSOE	PSOE	np00000	np00000	theme=no|main=no	9	pobj
@@ -35,13 +35,13 @@
 35	oposición	oposición	ncfs000	ncfs000	theme=no|main=yes	33	pobj
 36	.	.	fp	fp	theme=no|main=no	18	punct
 
-1	El	el	da0ms0	da0ms0	theme=yes|main=no	2	det
-2	incidente	incidente	nccs000	nccs000	theme=yes|main=no	3	nsubj
-3	obligó	obligar	vmis3s0	vmis3s0	theme=no|main=no	0	root
-4	a	a	sps00	sps00	theme=no|main=no	3	dobj
-5	Rato	Rato	np00000	np00000	theme=no|main=no	4	pobj
-6	a	a	sps00	sps00	theme=no|main=no	3	oobj
-7	disculparse	disculpar	vmn0000	vmn0000	theme=no|main=no	6	pobj
-8	.	.	fp	fp	theme=no|main=no	3	punct
+1	El	el	da0ms0	da0ms0	theme=yes|main=yes	2	det
+2	incidente	incidente	nccs000	nccs000	theme=yes|main=yes	3	nsubj
+3	obligó	obligar	vmis3s0	vmis3s0	theme=no|main=yes	0	root
+4	a	a	sps00	sps00	theme=no|main=yes	3	dobj
+5	Rato	Rato	np00000	np00000	theme=no|main=yes	4	pobj
+6	a	a	sps00	sps00	theme=no|main=yes	3	oobj
+7	disculparse	disculpar	vmn0000	vmn0000	theme=no|main=yes	6	pobj
+8	.	.	fp	fp	theme=no|main=yes	3	punct
 
 

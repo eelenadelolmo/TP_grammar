@@ -1,7 +1,7 @@
-1	Respetar	respetar	vmn0000	vmn0000	theme=no|main=no	0	root
-2	el	el	da0ms0	da0ms0	theme=no|main=no	3	det
-3	abrevadero	abrevadero	ncms000	ncms000	theme=no|main=no	1	dobj
-4	.	.	fp	fp	theme=no|main=no	1	punct
+1	Respetar	respetar	vmn0000	vmn0000	theme=no|main=yes	0	root
+2	el	el	da0ms0	da0ms0	theme=no|main=yes	3	det
+3	abrevadero	abrevadero	ncms000	ncms000	theme=no|main=yes	1	dobj
+4	.	.	fp	fp	theme=no|main=yes	1	punct
 
 1	Pido	pedir	vmip1s0	vmip1s0	theme=no|main=no	0	root
 2	a	a	sps00	sps00	theme=no|main=no	1	iobj
@@ -54,7 +54,7 @@
 49	Joan	Joan	np0000l	np0000l	theme=no|main=no	48	pobj
 50	Maragall	Maragall	np0000l	np0000l	theme=no|main=no	49	appos
 51	,	,	fc	fc	theme=no|main=no	47	punct
-52	que	que	pr0cn000	pr0cn000	theme=yes|main=no	53	nsubj
+52	que	que	pr0cn000	pr0cn000	theme=no|main=no	53	nsubj
 53	dice	decir	vmip3s0	vmip3s0	theme=no|main=no	47	rcmod
 54	:	:	fd	fd	theme=no|main=no	56	punct
 55	&quot;	&quot;	fe	fe	theme=no|main=no	56	punct
@@ -74,24 +74,24 @@
 1	Con	con	sps00	sps00	theme=no|main=no	5	prepv
 2	esta	este	dd0fs0	dd0fs0	theme=no|main=no	3	det
 3	medida	medida	ncfs000	ncfs000	theme=no|main=no	1	pobj
-4	se	se	p0000000	p0000000	theme=no|main=no	5	reflec
-5	lograría	lograr	vmic3s0	vmic3s0	theme=no|main=no	0	root
-6	respetar	respetar	vmn0000	vmn0000	theme=no|main=no	5	dobj
-7	uno	uno	pi0ms000	pi0ms000	theme=no|main=no	6	dobj
-8	de	de	sps00	sps00	theme=no|main=no	7	prepn
-9	los	el	da0mp0	da0mp0	theme=no|main=no	11	det
-10	dos	dos	dn0cp0	dn0cp0	theme=no|main=no	11	det
-11	abrevaderos	abrevadero	ncmp000	ncmp000	theme=no|main=no	8	pobj
-12	que	que	pr0cn000	pr0cn000	theme=yes|main=no	18	nsubj
-13	,	,	fc	fc	theme=no|main=no	18	punct
-14	según	según	cs	cs	theme=no|main=no	18	advcl
-15	tengo	tener	vmip1s0	vmip1s0	theme=no|main=no	14	cobj
-16	entendido	entendido	aq0msp	aq0msp	theme=no|main=no	15	dobj
-17	,	,	fc	fc	theme=no|main=no	18	punct
-18	quedan	quedar	vmip3p0	vmip3p0	theme=no|main=no	11	rcmod
-19	en	en	sps00	sps00	theme=no|main=no	18	prepv
-20	Barcelona	Barcelona	np00000	np00000	theme=no|main=no	19	pobj
-21	ciudad	ciudad	ncfs000	ncfs000	theme=no|main=no	20	appos
-22	.	.	fp	fp	theme=no|main=no	5	punct
+4	se	se	p0000000	p0000000	theme=no|main=yes	5	reflec
+5	lograría	lograr	vmic3s0	vmic3s0	theme=no|main=yes	0	root
+6	respetar	respetar	vmn0000	vmn0000	theme=no|main=yes	5	dobj
+7	uno	uno	pi0ms000	pi0ms000	theme=no|main=yes	6	dobj
+8	de	de	sps00	sps00	theme=no|main=yes	7	prepn
+9	los	el	da0mp0	da0mp0	theme=no|main=yes	11	det
+10	dos	dos	dn0cp0	dn0cp0	theme=no|main=yes	11	det
+11	abrevaderos	abrevadero	ncmp000	ncmp000	theme=no|main=yes	8	pobj
+12	que	que	pr0cn000	pr0cn000	theme=yes|main=yes	18	nsubj
+13	,	,	fc	fc	theme=no|main=yes	18	punct
+14	según	según	cs	cs	theme=no|main=yes	18	advcl
+15	tengo	tener	vmip1s0	vmip1s0	theme=no|main=yes	14	cobj
+16	entendido	entendido	aq0msp	aq0msp	theme=no|main=yes	15	dobj
+17	,	,	fc	fc	theme=no|main=yes	18	punct
+18	quedan	quedar	vmip3p0	vmip3p0	theme=no|main=yes	11	rcmod
+19	en	en	sps00	sps00	theme=no|main=yes	18	prepv
+20	Barcelona	Barcelona	np00000	np00000	theme=no|main=yes	19	pobj
+21	ciudad	ciudad	ncfs000	ncfs000	theme=no|main=yes	20	appos
+22	.	.	fp	fp	theme=no|main=yes	5	punct
 
 
