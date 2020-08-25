@@ -10,9 +10,9 @@
 10	a	a	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	4	oobj
 11	seis	seis	dn0cp0	dn0cp0	recursive=no|theme=no|rheme=yes|main=yes	12	det
 12	meses	mes	ncmp000	ncmp000	recursive=no|theme=no|rheme=yes|main=yes	10	pobj
-13	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	12	prepn
+13	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	12	prepn
 14	cárcel	cárcel	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	13	pobj
-15	por	por	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	4	prepv
+15	por	por	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	4	prepv
 16	tirar	tirar	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	21	coord
 17	piedras	piedra	ncfp000	ncfp000	recursive=no|theme=no|rheme=yes|main=yes	16	dobj
 18	a	a	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	16	iobj
@@ -28,7 +28,7 @@
 28	contra	contra	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	27	prepa
 29	la	el	da0fs0	da0fs0	recursive=no|theme=no|rheme=yes|main=yes	30	det
 30	Cumbre	Cumbre	np0000o	np0000o	recursive=no|theme=no|rheme=yes|main=yes	28	pobj
-31	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	30	prepn
+31	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	30	prepn
 32	Barcelona	Barcelona	np0000l	np0000l	recursive=no|theme=no|rheme=yes|main=yes	31	pobj
 33	el	el	da0ms0	da0ms0	recursive=no|theme=no|rheme=yes|main=yes	34	det
 34	16	16	zp	zp	recursive=no|theme=no|rheme=yes|main=yes	27	dep

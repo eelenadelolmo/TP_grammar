@@ -42,12 +42,12 @@
 13	impuso	imponer	vmis3s0	vmis3s0	t=no|r=no|m=yes	11	coord
 14	.	.	fp	fp	t=no|r=no|m=yes	11	punct
 
-1	Los	el	da0mp0	da0mp0	t=yes|r=no|m=yes	2	det
-2	guerristas	guerrista	nccp000	nccp000	t=yes|r=no|m=yes	6	nsubj
-3	no	no	rn	rn	t=no|r=yes|m=yes	6	neg
-4	se	él	p0300000	p0300000	t=no|r=yes|m=yes	6	reflec
-5	lo	él	pp3msa00	pp3msa00	t=no|r=yes|m=yes	6	dobj
-6	perdonan	perdonar	vmip3p0	vmip3p0	t=no|r=yes|m=yes	8	coord
+1	Los	el	da0mp0	da0mp0	t=no|r=no|m=yes	2	det
+2	guerristas	guerrista	nccp000	nccp000	t=no|r=no|m=yes	6	nsubj
+3	no	no	rn	rn	t=no|r=no|m=yes	6	neg
+4	se	él	p0300000	p0300000	t=no|r=no|m=yes	6	reflec
+5	lo	él	pp3msa00	pp3msa00	t=no|r=no|m=yes	6	dobj
+6	perdonan	perdonar	vmip3p0	vmip3p0	t=no|r=no|m=yes	8	coord
 7	,	,	fc	fc	t=no|r=no|m=yes	10	punct
 8	pero	pero	cc	cc	t=no|r=no|m=yes	17	coord
 9	él	él	pp3ms000	pp3ms000	t=yes|r=no|m=yes	10	nsubj
@@ -82,8 +82,8 @@
 2	domina	dominar	vmip3s0	vmip3s0	t=no|r=yes|m=yes	9	coord
 3	el	el	da0ms0	da0ms0	t=no|r=yes|m=yes	4	det
 4	laberinto	laberinto	ncms000	ncms000	t=no|r=yes|m=yes	2	dobj
-5	en	en	sps00	sps00	t=no|r=yes|m=yes	8	prepv
-6	que	que	pr0cn000	pr0cn000	t=no|r=yes|m=yes	5	pobj
+5	en	en	sps00	sps00	t=no|r=no|m=yes	8	prepv
+6	que	que	pr0cn000	pr0cn000	t=no|r=no|m=yes	5	pobj
 7	se	él	p0300000	p0300000	t=no|r=yes|m=yes	8	reflec
 8	mueve	mover	vmip3s0	vmip3s0	t=no|r=yes|m=yes	4	dep
 9	y	y	cc	cc	t=no|r=no|m=yes	0	root

@@ -5,13 +5,13 @@
 5	vehículos	vehículo	ncmp000	ncmp000	t=no|r=no|m=yes	3	pobj
 6	que	que	pr0cn000	pr0cn000	t=yes|r=no|m=yes	7	nsubj
 7	circulan	circular	vmip3p0	vmip3p0	t=no|r=yes|m=yes	5	rcmod
-8	sin	sin	sps00	sps00	t=no|r=yes|m=yes	7	prepv
-9	el	el	da0ms0	da0ms0	t=no|r=yes|m=yes	10	det
-10	seguro	seguro	ncms000	ncms000	t=no|r=yes|m=yes	8	pobj
+8	sin	sin	sps00	sps00	t=no|r=no|m=yes	7	prepv
+9	el	el	da0ms0	da0ms0	t=no|r=no|m=yes	10	det
+10	seguro	seguro	ncms000	ncms000	t=no|r=no|m=yes	8	pobj
 11	de	de	sps00	sps00	t=no|r=no|m=yes	10	prepn
-12	responsabilidad	responsabilidad	ncfs000	ncfs000	t=no|r=yes|m=yes	11	pobj
-13	civil	civil	aq0cs0	aq0cs0	t=no|r=yes|m=yes	12	amod
-14	obligatorio	obligatorio	aq0ms0	aq0ms0	t=no|r=yes|m=yes	10	amod
+12	responsabilidad	responsabilidad	ncfs000	ncfs000	t=no|r=no|m=yes	11	pobj
+13	civil	civil	aq0cs0	aq0cs0	t=no|r=no|m=yes	12	amod
+14	obligatorio	obligatorio	aq0ms0	aq0ms0	t=no|r=no|m=yes	10	amod
 15	hay	haber	vaip3s0	vaip3s0	t=no|r=no|m=yes	0	root
 16	que	que	cs	cs	t=no|r=no|m=yes	15	conj
 17	enmarcarlo	enmarcar	vmn0000	vmn0000	t=no|r=no|m=yes	16	cobj
@@ -106,13 +106,13 @@
 15	es	ser	vsip3s0	vsip3s0	t=no|r=yes|m=yes	0	root
 16	una	uno	di0fs0	di0fs0	t=no|r=yes|m=yes	17	det
 17	potestad	potestad	ncfs000	ncfs000	t=no|r=yes|m=yes	15	attr
-18	que	que	pr0cn000	pr0cn000	t=no|r=yes|m=yes	20	dobj
-19	puede	poder	vmip3s0	vmip3s0	t=no|r=yes|m=yes	17	rcmod
-20	elegir	elegir	vmn0000	vmn0000	t=no|r=yes|m=yes	19	dobj
-21	libremente	libremente	rg	rg	t=no|r=yes|m=yes	20	advmod
+18	que	que	pr0cn000	pr0cn000	t=no|r=no|m=yes	20	dobj
+19	puede	poder	vmip3s0	vmip3s0	t=no|r=no|m=yes	17	rcmod
+20	elegir	elegir	vmn0000	vmn0000	t=no|r=no|m=yes	19	dobj
+21	libremente	libremente	rg	rg	t=no|r=no|m=yes	20	advmod
 22	.	.	fp	fp	t=no|r=no|m=yes	15	punct
 
-1	Y	y	cc	cc	t=no|r=yes|m=yes	10	te
+1	Y	y	cc	cc	t=no|r=no|m=yes	10	te
 2	en	en	sps00	sps00	t=no|r=no|m=no	10	advmod
 3	todo	todo	di0fs0	di0fs0	t=no|r=no|m=no	4	det
 4	caso	caso	ncfs000	ncfs000	t=no|r=no|m=no	2	pobj
@@ -167,7 +167,7 @@
 13	provocado	provocar	vmp00sm	vmp00sm	t=no|r=yes|m=yes	12	vobj
 14	el	el	da0ms0	da0ms0	t=no|r=yes|m=yes	15	det
 15	aumento	aumento	ncms000	ncms000	t=no|r=yes|m=yes	13	dobj
-16	de	de	sps00	sps00	t=no|r=no|m=yes	15	prepn
+16	de	de	sps00	sps00	t=no|r=yes|m=yes	15	prepn
 17	primas	prima	ncfp000	ncfp000	t=no|r=yes|m=yes	16	pobj
 18	de	de	sps00	sps00	t=no|r=yes|m=yes	17	prepn
 19	todos	todo	di0mp0	di0mp0	t=no|r=yes|m=yes	21	det
@@ -194,9 +194,9 @@
 17	colocar	colocar	vmn0000	vmn0000	t=no|r=yes|m=yes	16	attr
 18	la	el	da0fs0	da0fs0	t=no|r=yes|m=yes	19	det
 19	siniestralidad	siniestralidad	ncfs000	ncfs000	t=no|r=yes|m=yes	17	dobj
-20	en	en	sps00	sps00	t=no|r=yes|m=yes	17	prepv
-21	límites	límite	ncmp000	ncmp000	t=no|r=yes|m=yes	20	pobj
-22	razonables	razonable	aq0cp0	aq0cp0	t=no|r=yes|m=yes	21	amod
+20	en	en	sps00	sps00	t=no|r=no|m=yes	17	prepv
+21	límites	límite	ncmp000	ncmp000	t=no|r=no|m=yes	20	pobj
+22	razonables	razonable	aq0cp0	aq0cp0	t=no|r=no|m=yes	21	amod
 23	.	.	fp	fp	t=no|r=no|m=yes	16	punct
 
 1	Pero	pero	cc	cc	t=no|r=no|m=yes	6	te
@@ -390,7 +390,7 @@
 45	seguro	seguro	ncms000	ncms000	t=no|r=no|m=yes	44	pobj
 46	.	.	fp	fp	t=no|r=no|m=yes	40	punct
 
-1	Porque	porque	cs	cs	t=no|r=yes|m=yes	7	te
+1	Porque	porque	cs	cs	t=no|r=no|m=yes	7	te
 2	claro	claro	rg	rg	t=no|r=no|m=no	7	advmod
 3	,	,	fc	fc	t=no|r=no|m=yes	7	punct
 4	¿	¿	fia	fia	t=no|r=no|m=yes	7	punct

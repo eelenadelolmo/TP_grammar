@@ -15,7 +15,7 @@
 15	a	a	sps00	sps00	t=no|r=yes|m=yes	14	dobj
 16	los	el	da0mp0	da0mp0	t=no|r=yes|m=yes	17	det
 17	lectores	lector	ncmp000	ncmp000	t=no|r=yes|m=yes	15	pobj
-18	del	del	spcms	spcms	t=no|r=no|m=yes	17	prepn
+18	del	del	spcms	spcms	t=no|r=yes|m=yes	17	prepn
 19	TBO	TBO	np00000	np00000	t=no|r=yes|m=yes	18	pobj
 20	,	,	fc	fc	t=no|r=no|m=yes	6	punct
 21	y	y	cc	cc	t=no|r=no|m=yes	0	root
@@ -77,11 +77,11 @@
 27	plato	plato	ncms000	ncms000	t=no|r=no|m=yes	51	coord
 28	de	de	sps00	sps00	t=no|r=no|m=yes	27	prepn
 29	sopa	sopa	ncfs000	ncfs000	t=no|r=no|m=yes	28	pobj
-30	que	que	pr0cn000	pr0cn000	t=yes|r=no|m=yes	32	nsubj
-31	se	él	p0300000	p0300000	t=no|r=yes|m=yes	32	reflec
-32	inclinaba	inclinar	vmii3s0	vmii3s0	t=no|r=yes|m=yes	27	rcmod
-33	por	por	sps00	sps00	t=no|r=yes|m=yes	32	prepv
-34	dentro	dentro	rg	rg	t=no|r=yes|m=yes	33	advmod
+30	que	que	pr0cn000	pr0cn000	t=no|r=no|m=yes	32	nsubj
+31	se	él	p0300000	p0300000	t=no|r=no|m=yes	32	reflec
+32	inclinaba	inclinar	vmii3s0	vmii3s0	t=no|r=no|m=yes	27	rcmod
+33	por	por	sps00	sps00	t=no|r=no|m=yes	32	prepv
+34	dentro	dentro	rg	rg	t=no|r=no|m=yes	33	advmod
 35	,	,	fc	fc	t=no|r=no|m=yes	51	punct
 36	una	uno	di0fs0	di0fs0	t=no|r=no|m=yes	37	det
 37	toalla	toalla	ncfs000	ncfs000	t=no|r=no|m=yes	51	coord
@@ -106,9 +106,9 @@
 56	hacer	hacer	vmn0000	vmn0000	t=no|r=yes|m=yes	55	dobj
 57	un	uno	di0ms0	di0ms0	t=no|r=yes|m=yes	58	det
 58	sofrito	sofrito	ncms000	ncms000	t=no|r=yes|m=yes	56	dobj
-59	sin	sin	sps00	sps00	t=no|r=yes|m=yes	56	prepv
-60	que	que	cs	cs	t=no|r=yes|m=yes	59	pobj
-61	salpicara	salpicar	vmsi3s0	vmsi3s0	t=no|r=yes|m=yes	60	cobj
+59	sin	sin	sps00	sps00	t=no|r=no|m=yes	56	prepv
+60	que	que	cs	cs	t=no|r=no|m=yes	59	pobj
+61	salpicara	salpicar	vmsi3s0	vmsi3s0	t=no|r=no|m=yes	60	cobj
 62	.	.	fp	fp	t=no|r=no|m=yes	13	punct
 
 1	&quot;	&quot;	fe	fe	t=no|r=no|m=yes	7	punct

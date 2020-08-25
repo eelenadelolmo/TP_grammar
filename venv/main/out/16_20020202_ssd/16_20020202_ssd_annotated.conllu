@@ -81,9 +81,9 @@
 
 1	El	el	da0ms0	da0ms0	recursive=no|theme=yes|rheme=no|main=yes	2	det
 2	carro	carro	ncms000	ncms000	recursive=no|theme=yes|rheme=no|main=yes	3	nsubj
-3	iba	ir	vmii3s0	vmii3s0	recursive=no|theme=no|rheme=yes|main=yes	7	coord
-4	al	al	spcms	spcms	recursive=no|theme=no|rheme=yes|main=yes	3	prepv
-5	trote	trote	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	4	pobj
+3	iba	ir	vmii3s0	vmii3s0	recursive=yes|theme=no|rheme=no|main=yes	7	coord
+4	al	al	spcms	spcms	recursive=yes|theme=no|rheme=no|main=yes	3	prepv
+5	trote	trote	ncms000	ncms000	recursive=yes|theme=no|rheme=no|main=yes	4	pobj
 6	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	11	punct
 7	pero	pero	cc	cc	recursive=no|theme=no|rheme=no|main=yes	0	root
 8	el	el	da0ms0	da0ms0	recursive=no|theme=yes|rheme=no|main=yes	9	det
@@ -131,7 +131,7 @@
 19	todas	todo	di0fp0	di0fp0	recursive=no|theme=no|rheme=yes|main=yes	21	det
 20	las	el	da0fp0	da0fp0	recursive=no|theme=no|rheme=yes|main=yes	21	det
 21	pautas	pauta	ncfp000	ncfp000	recursive=no|theme=no|rheme=yes|main=yes	18	pobj
-22	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	21	prepn
+22	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	21	prepn
 23	la	el	da0fs0	da0fs0	recursive=no|theme=no|rheme=yes|main=yes	24	det
 24	construcción	construcción	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	22	pobj
 25	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	11	punct
@@ -173,7 +173,7 @@
 8	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	7	oobj
 9	espectador	espectador	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	8	pobj
 10	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	4	punct
-11	tras	tras	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	5	prepv
+11	tras	tras	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	5	prepv
 12	pasar	pasar	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	11	pobj
 13	el	el	da0ms0	da0ms0	recursive=no|theme=no|rheme=yes|main=yes	14	det
 14	testigo	testigo	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	12	dobj
@@ -199,17 +199,17 @@
 12	un	uno	di0ms0	di0ms0	recursive=no|theme=no|rheme=yes|main=yes	14	det
 13	inusitado	inusitado	aq0ms0	aq0ms0	recursive=no|theme=no|rheme=yes|main=yes	14	amod
 14	transporte	transporte	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	11	pobj
-15	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	14	prepn
+15	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	14	prepn
 16	las	el	da0fp0	da0fp0	recursive=no|theme=no|rheme=yes|main=yes	17	det
 17	lámparas	lámpara	ncfp000	ncfp000	recursive=no|theme=no|rheme=yes|main=yes	15	pobj
 18	gigantes	gigante	aq0cp0	aq0cp0	recursive=no|theme=no|rheme=yes|main=yes	17	amod
-19	del	del	spcms	spcms	recursive=yes|theme=no|rheme=no|main=yes	17	prepn
+19	del	del	spcms	spcms	recursive=no|theme=no|rheme=yes|main=yes	17	prepn
 20	Palau	Palau	np00000	np00000	recursive=no|theme=no|rheme=yes|main=yes	19	pobj
 21	Nacional	nacional	aq0ms0	aq0ms0	recursive=no|theme=no|rheme=yes|main=yes	20	amod
 22	o	o	cc	cc	recursive=no|theme=no|rheme=yes|main=yes	10	oobj
 23	a	a	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	22	coord
 24	décadas	década	ncfp000	ncfp000	recursive=no|theme=no|rheme=yes|main=yes	23	pobj
-25	en	en	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	29	prepv
+25	en	en	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	29	prepv
 26	las	el	da0fp0	da0fp0	recursive=no|theme=no|rheme=yes|main=yes	27	det
 27	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|rheme=yes|main=yes	25	pobj
 28	no	no	rn	rn	recursive=no|theme=no|rheme=yes|main=yes	29	neg
@@ -218,14 +218,14 @@
 31	pero	pero	cc	cc	recursive=no|theme=no|rheme=yes|main=yes	24	dep
 32	sí	sí	rg	rg	recursive=no|theme=no|rheme=yes|main=yes	33	advmod
 33	aceras	acera	ncfp000	ncfp000	recursive=no|theme=no|rheme=yes|main=yes	29	dep
-34	sin	sin	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	33	prepn
+34	sin	sin	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	33	prepn
 35	apenas	apenas	rg	rg	recursive=no|theme=no|rheme=yes|main=yes	36	advmod
 36	tránsito	tránsito	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	34	pobj
-37	en	en	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	40	prepv
+37	en	en	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	40	prepv
 38	las	el	da0fp0	da0fp0	recursive=no|theme=no|rheme=yes|main=yes	39	det
 39	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|rheme=yes|main=yes	37	pobj
 40	aparcaban	aparcar	vmii3p0	vmii3p0	recursive=no|theme=no|rheme=yes|main=yes	33	dep
-41	con	con	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	40	prepv
+41	con	con	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	40	prepv
 42	comodidad	comodidad	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	41	pobj
 43	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	3	punct
 

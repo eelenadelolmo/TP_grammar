@@ -17,11 +17,11 @@
 17	que	que	pr0cn000	pr0cn000	t=yes|r=no|m=yes	18	nsubj
 18	sean	ser	vssp3p0	vssp3p0	t=no|r=yes|m=yes	12	rcmod
 19	respetuosas	respetuoso	aq0fp0	aq0fp0	t=no|r=yes|m=yes	18	attr
-20	hacia	hacia	sps00	sps00	t=no|r=yes|m=yes	18	prepv
-21	las	el	da0fp0	da0fp0	t=no|r=yes|m=yes	23	coord
-22	personas	persona	ncfp000	ncfp000	t=no|r=yes|m=yes	23	coord
-23	e	e	cc	cc	t=no|r=yes|m=yes	20	pobj
-24	instituciones	institución	ncfp000	ncfp000	t=no|r=yes|m=yes	23	coord
+20	hacia	hacia	sps00	sps00	t=no|r=no|m=yes	18	prepv
+21	las	el	da0fp0	da0fp0	t=no|r=no|m=yes	23	coord
+22	personas	persona	ncfp000	ncfp000	t=no|r=no|m=yes	23	coord
+23	e	e	cc	cc	t=no|r=no|m=yes	20	pobj
+24	instituciones	institución	ncfp000	ncfp000	t=no|r=no|m=yes	23	coord
 25	.	.	fp	fp	t=no|r=no|m=no	3	punct
 
 1	Las	el	da0fp0	da0fp0	t=yes|r=no|m=yes	2	det
@@ -51,7 +51,7 @@
 4	reserva	reservar	vmip3s0	vmip3s0	t=no|r=yes|m=yes	0	root
 5	el	el	da0ms0	da0ms0	t=no|r=yes|m=yes	6	det
 6	derecho	derecho	ncms000	ncms000	t=no|r=yes|m=yes	4	dobj
-7	de	de	sps00	sps00	t=no|r=no|m=yes	6	prepn
+7	de	de	sps00	sps00	t=no|r=yes|m=yes	6	prepn
 8	extractarlas	extractar	vmn0000	vmn0000	t=no|r=yes|m=yes	7	pobj
 9	.	.	fp	fp	t=no|r=no|m=yes	4	punct
 

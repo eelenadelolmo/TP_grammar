@@ -21,12 +21,12 @@
 
 1	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|rheme=no|main=yes	2	det
 2	billetes	billete	ncmp000	ncmp000	recursive=no|theme=yes|rheme=no|main=yes	3	nsubj
-3	son	ser	vsip3p0	vsip3p0	recursive=no|theme=no|rheme=yes|main=yes	10	coord
-4	iguales	igual	aq0cp0	aq0cp0	recursive=no|theme=no|rheme=yes|main=yes	3	attr
-5	para	para	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	3	prepv
-6	todos	todo	di0mp0	di0mp0	recursive=no|theme=no|rheme=yes|main=yes	8	det
-7	los	el	da0mp0	da0mp0	recursive=no|theme=no|rheme=yes|main=yes	8	det
-8	estados	estado	ncmp000	ncmp000	recursive=no|theme=no|rheme=yes|main=yes	5	pobj
+3	son	ser	vsip3p0	vsip3p0	recursive=yes|theme=no|rheme=no|main=yes	10	coord
+4	iguales	igual	aq0cp0	aq0cp0	recursive=yes|theme=no|rheme=no|main=yes	3	attr
+5	para	para	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	3	prepv
+6	todos	todo	di0mp0	di0mp0	recursive=yes|theme=no|rheme=no|main=yes	8	det
+7	los	el	da0mp0	da0mp0	recursive=yes|theme=no|rheme=no|main=yes	8	det
+8	estados	estado	ncmp000	ncmp000	recursive=yes|theme=no|rheme=no|main=yes	5	pobj
 9	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	10	punct
 10	mientras	mientras	cs	cs	recursive=no|theme=no|rheme=no|main=yes	0	root
 11	que	que	cs	cs	recursive=no|theme=no|rheme=no|main=yes	10	cobj
@@ -45,14 +45,14 @@
 24	reverso	reverso	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	22	coord
 25	distinto	distinto	aq0ms0	aq0ms0	recursive=no|theme=no|rheme=yes|main=yes	24	amod
 26	,	,	fc	fc	recursive=no|theme=no|rheme=yes|main=yes	24	punct
-27	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|rheme=yes|main=yes	28	nsubj
-28	hace	hacer	vmip3s0	vmip3s0	recursive=no|theme=no|rheme=yes|main=yes	24	rcmod
+27	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|rheme=yes|main=yes	28	nsubj
+28	hace	hacer	vmip3s0	vmip3s0	recursive=yes|theme=no|rheme=no|main=yes	24	rcmod
 29	referencia	referencia	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	28	dobj
-30	a	a	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	29	prepn
+30	a	a	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	29	prepn
 31	una	uno	di0fs0	di0fs0	recursive=no|theme=no|rheme=yes|main=yes	32	det
 32	imagen	imagen	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	30	pobj
 33	identificativa	identificativo	aq0fs0	aq0fs0	recursive=no|theme=no|rheme=yes|main=yes	32	amod
-34	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	32	prepn
+34	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	32	prepn
 35	cada	cada	di0cs0	di0cs0	recursive=no|theme=no|rheme=yes|main=yes	36	det
 36	país	país	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	34	pobj
 37	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	10	punct

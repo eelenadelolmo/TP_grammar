@@ -180,7 +180,7 @@ strat S1 { Iter ( Try ( rheme ) ) }
 
 
 grs_rheme_main = """
-rule rheme_main {
+rule rheme_not_main {
   pattern {
     R [ rheme=yes ];
     R -[rcmod|prepv]-> C;
@@ -191,7 +191,19 @@ rule rheme_main {
   }
 }
 
-strat S1 { Iter ( Try ( rheme_main ) ) }
+rule rheme_preceding {
+  pattern {
+    R [ rheme=yes ];
+    T [ theme=yes ];
+    R << T;
+  }
+  commands {
+    R.rheme=no;
+    R.recursive=yes;
+  }
+}
+
+strat S1 { Iter ( Try ( Alt ( rheme_not_main, rheme_preceding ) ) ) }
 """
 
 

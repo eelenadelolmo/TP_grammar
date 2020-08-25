@@ -38,16 +38,16 @@
 17	son	ser	vsip3p0	vsip3p0	t=no|r=yes|m=yes	0	root
 18	problemas	problema	ncmp000	ncmp000	t=no|r=yes|m=yes	17	attr
 19	graves	grave	aq0cp0	aq0cp0	t=no|r=yes|m=yes	18	amod
-20	que	que	pr0cn000	pr0cn000	t=no|r=yes|m=yes	23	dobj
-21	el	el	da0ms0	da0ms0	t=no|r=yes|m=yes	22	det
-22	Govern	Govern	np00000	np00000	t=no|r=yes|m=yes	23	nsubj
-23	tiene	tener	vmip3s0	vmip3s0	t=no|r=yes|m=yes	18	rcmod
-24	ahora	ahora	rg	rg	t=no|r=yes|m=yes	23	advmod
-25	mismo	mismo	aq0ms0	aq0ms0	t=no|r=yes|m=yes	24	amod
-26	encima	encima	rg	rg	t=no|r=yes|m=yes	23	advmod
-27	de	de	sps00	sps00	t=no|r=yes|m=yes	26	prep
-28	la	el	da0fs0	da0fs0	t=no|r=yes|m=yes	29	det
-29	mesa	mesa	ncfs000	ncfs000	t=no|r=yes|m=yes	27	pobj
+20	que	que	pr0cn000	pr0cn000	t=no|r=no|m=yes	23	dobj
+21	el	el	da0ms0	da0ms0	t=no|r=no|m=yes	22	det
+22	Govern	Govern	np00000	np00000	t=no|r=no|m=yes	23	nsubj
+23	tiene	tener	vmip3s0	vmip3s0	t=no|r=no|m=yes	18	rcmod
+24	ahora	ahora	rg	rg	t=no|r=no|m=yes	23	advmod
+25	mismo	mismo	aq0ms0	aq0ms0	t=no|r=no|m=yes	24	amod
+26	encima	encima	rg	rg	t=no|r=no|m=yes	23	advmod
+27	de	de	sps00	sps00	t=no|r=no|m=yes	26	prep
+28	la	el	da0fs0	da0fs0	t=no|r=no|m=yes	29	det
+29	mesa	mesa	ncfs000	ncfs000	t=no|r=no|m=yes	27	pobj
 30	.	.	fp	fp	t=no|r=no|m=yes	17	punct
 
 1	Pero	pero	cc	cc	t=no|r=no|m=yes	3	te
@@ -67,7 +67,7 @@
 15	el	el	da0ms0	da0ms0	t=no|r=yes|m=yes	17	det
 16	principal	principal	aq0cs0	aq0cs0	t=no|r=yes|m=yes	17	amod
 17	líder	líder	nccs000	nccs000	t=no|r=yes|m=yes	14	pobj
-18	de	de	sps00	sps00	t=no|r=no|m=yes	17	prepn
+18	de	de	sps00	sps00	t=no|r=yes|m=yes	17	prepn
 19	esa	ese	dd0fs0	dd0fs0	t=no|r=yes|m=yes	20	det
 20	oposición	oposición	ncfs000	ncfs000	t=no|r=yes|m=yes	18	pobj
 21	,	,	fc	fc	t=no|r=yes|m=yes	17	punct
@@ -218,11 +218,11 @@
 39	de	de	sps00	sps00	t=no|r=yes|m=yes	41	advmod
 40	momento	momento	vmn0000	vmn0000	t=no|r=yes|m=yes	39	pobj
 41	es	ser	vsip3s0	vsip3s0	t=no|r=yes|m=yes	36	rcmod
-42	en	en	sps00	sps00	t=no|r=yes|m=yes	41	prepv
-43	el	el	da0ms0	da0ms0	t=no|r=yes|m=yes	44	det
-44	otoño	otoño	ncms000	ncms000	t=no|r=yes|m=yes	42	pobj
+42	en	en	sps00	sps00	t=no|r=no|m=yes	41	prepv
+43	el	el	da0ms0	da0ms0	t=no|r=no|m=yes	44	det
+44	otoño	otoño	ncms000	ncms000	t=no|r=no|m=yes	42	pobj
 45	del	del	spcms	spcms	t=no|r=no|m=yes	44	prepn
-46	2003	2003	z	z	t=no|r=yes|m=yes	45	pobj
+46	2003	2003	z	z	t=no|r=no|m=yes	45	pobj
 47	.	.	fp	fp	t=no|r=no|m=yes	3	punct
 
 

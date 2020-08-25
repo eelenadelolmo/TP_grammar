@@ -15,7 +15,7 @@
 15	a	a	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	14	dobj
 16	los	el	da0mp0	da0mp0	recursive=no|theme=no|rheme=yes|main=yes	17	det
 17	lectores	lector	ncmp000	ncmp000	recursive=no|theme=no|rheme=yes|main=yes	15	pobj
-18	del	del	spcms	spcms	recursive=yes|theme=no|rheme=no|main=yes	17	prepn
+18	del	del	spcms	spcms	recursive=no|theme=no|rheme=yes|main=yes	17	prepn
 19	TBO	TBO	np00000	np00000	recursive=no|theme=no|rheme=yes|main=yes	18	pobj
 20	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	6	punct
 21	y	y	cc	cc	recursive=no|theme=no|rheme=no|main=yes	0	root
@@ -78,10 +78,10 @@
 28	de	de	sps00	sps00	recursive=no|theme=no|rheme=no|main=yes	27	prepn
 29	sopa	sopa	ncfs000	ncfs000	recursive=no|theme=no|rheme=no|main=yes	28	pobj
 30	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|rheme=no|main=yes	32	nsubj
-31	se	él	p0300000	p0300000	recursive=no|theme=no|rheme=yes|main=yes	32	reflec
-32	inclinaba	inclinar	vmii3s0	vmii3s0	recursive=no|theme=no|rheme=yes|main=yes	27	rcmod
-33	por	por	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	32	prepv
-34	dentro	dentro	rg	rg	recursive=no|theme=no|rheme=yes|main=yes	33	advmod
+31	se	él	p0300000	p0300000	recursive=yes|theme=no|rheme=no|main=yes	32	reflec
+32	inclinaba	inclinar	vmii3s0	vmii3s0	recursive=yes|theme=no|rheme=no|main=yes	27	rcmod
+33	por	por	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	32	prepv
+34	dentro	dentro	rg	rg	recursive=yes|theme=no|rheme=no|main=yes	33	advmod
 35	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	51	punct
 36	una	uno	di0fs0	di0fs0	recursive=no|theme=no|rheme=no|main=yes	37	det
 37	toalla	toalla	ncfs000	ncfs000	recursive=no|theme=no|rheme=no|main=yes	51	coord
@@ -106,7 +106,7 @@
 56	hacer	hacer	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	55	dobj
 57	un	uno	di0ms0	di0ms0	recursive=no|theme=no|rheme=yes|main=yes	58	det
 58	sofrito	sofrito	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	56	dobj
-59	sin	sin	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	56	prepv
+59	sin	sin	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	56	prepv
 60	que	que	cs	cs	recursive=no|theme=no|rheme=yes|main=yes	59	pobj
 61	salpicara	salpicar	vmsi3s0	vmsi3s0	recursive=no|theme=no|rheme=yes|main=yes	60	cobj
 62	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	13	punct

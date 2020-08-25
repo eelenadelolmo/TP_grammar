@@ -64,10 +64,10 @@
 5	hasta	hasta	sps00	sps00	t=no|r=yes|m=yes	4	oobj
 6	el	el	da0ms0	da0ms0	t=no|r=yes|m=yes	7	det
 7	departamento	departamento	ncms000	ncms000	t=no|r=yes|m=yes	5	pobj
-8	del	del	spcms	spcms	t=no|r=no|m=yes	7	prepn
+8	del	del	spcms	spcms	t=no|r=yes|m=yes	7	prepn
 9	ayuntamiento	ayuntamiento	ncms000	ncms000	t=no|r=yes|m=yes	8	pobj
 10	neoyorquino	neoyorquino	aq0ms0	aq0ms0	t=no|r=yes|m=yes	9	amod
-11	que	que	pr0cn000	pr0cn000	t=yes|r=yes|m=yes	13	nsubj
+11	que	que	pr0cn000	pr0cn000	t=no|r=yes|m=yes	13	nsubj
 12	se	él	p0300000	p0300000	t=no|r=yes|m=yes	13	reflec
 13	ocupa	ocupar	vmip3s0	vmip3s0	t=no|r=yes|m=yes	7	rcmod
 14	de	de	sps00	sps00	t=no|r=yes|m=yes	13	oobj
@@ -106,7 +106,7 @@
 11	destinó	destinar	vmis3s0	vmis3s0	t=no|r=yes|m=yes	26	dobj
 12	55.000	55000	z	z	t=no|r=yes|m=yes	13	num
 13	millones	millón	ncmp000	ncmp000	t=no|r=yes|m=yes	11	dobj
-14	de	de	sps00	sps00	t=no|r=no|m=yes	13	prepn
+14	de	de	sps00	sps00	t=no|r=yes|m=yes	13	prepn
 15	pesetas	peseta	zm	zm	t=no|r=yes|m=yes	14	pobj
 16	a	a	sps00	sps00	t=no|r=yes|m=yes	11	oobj
 17	los	el	da0mp0	da0mp0	t=no|r=yes|m=yes	18	det
@@ -163,7 +163,7 @@
 22	dificultado	dificultar	vmp00sm	vmp00sm	t=no|r=yes|m=yes	21	vobj
 23	lograr	lograr	vmn0000	vmn0000	t=no|r=yes|m=yes	21	vobj
 24	viviendas	vivienda	ncfp000	ncfp000	t=no|r=yes|m=yes	27	coord
-25	de	de	sps00	sps00	t=no|r=no|m=yes	24	prepn
+25	de	de	sps00	sps00	t=no|r=yes|m=yes	24	prepn
 26	alquiler	alquiler	ncms000	ncms000	t=no|r=yes|m=yes	25	pobj
 27	y	y	cc	cc	t=no|r=yes|m=yes	23	dobj
 28	soluciones	solución	ncfp000	ncfp000	t=no|r=yes|m=yes	27	coord
@@ -172,14 +172,14 @@
 31	plazo	plazo	ncmp000	ncmp000	t=no|r=yes|m=yes	29	pobj
 32	.	.	fp	fp	t=no|r=no|m=yes	8	punct
 
-1	De	de	sps00	sps00	t=no|r=yes|m=yes	16	advmod
-2	vuelta	vuelta	ncmp000	ncmp000	t=no|r=yes|m=yes	1	pobj
-3	a	a	sps00	sps00	t=no|r=yes|m=yes	1	prep
-4	casa	casa	ncfs000	ncfs000	t=no|r=yes|m=yes	3	pobj
+1	De	de	sps00	sps00	t=no|r=no|m=yes	16	advmod
+2	vuelta	vuelta	ncmp000	ncmp000	t=no|r=no|m=yes	1	pobj
+3	a	a	sps00	sps00	t=no|r=no|m=yes	1	prep
+4	casa	casa	ncfs000	ncfs000	t=no|r=no|m=yes	3	pobj
 5	,	,	fc	fc	t=no|r=no|m=yes	15	punct
-6	hace	hacer	vmip3s0	vmip3s0	t=no|r=yes|m=yes	16	vobj
-7	unos	uno	di0mp0	di0mp0	t=no|r=yes|m=yes	6	det
-8	meses	mes	ncmp000	ncmp000	t=no|r=yes|m=yes	6	dobj
+6	hace	hacer	vmip3s0	vmip3s0	t=no|r=no|m=yes	16	vobj
+7	unos	uno	di0mp0	di0mp0	t=no|r=no|m=yes	6	det
+8	meses	mes	ncmp000	ncmp000	t=no|r=no|m=yes	6	dobj
 9	,	,	fc	fc	t=no|r=no|m=yes	15	punct
 10	esta	este	dd0fs0	dd0fs0	t=yes|r=no|m=yes	11	det
 11	licenciada	licenciada	ncfs000	ncfs000	t=yes|r=no|m=yes	15	nsubj
@@ -190,13 +190,13 @@
 16	simultaneado	simultanear	vmp00sm	vmp00sm	t=no|r=yes|m=yes	15	vobj
 17	la	el	da0fs0	da0fs0	t=no|r=yes|m=yes	18	det
 18	elaboración	elaboración	ncfs000	ncfs000	t=no|r=yes|m=yes	16	dobj
-19	de	de	sps00	sps00	t=no|r=no|m=yes	18	prepn
+19	de	de	sps00	sps00	t=no|r=yes|m=yes	18	prepn
 20	su	su	dp3cs0	dp3cs0	t=no|r=yes|m=yes	21	poss
 21	tesis	tesis	ncfn000	ncfn000	t=no|r=yes|m=yes	19	pobj
 22	con	con	sps00	sps00	t=no|r=yes|m=yes	16	oobj
 23	la	el	da0fs0	da0fs0	t=no|r=yes|m=yes	24	det
 24	búsqueda	búsqueda	ncfs000	ncfs000	t=no|r=yes|m=yes	22	pobj
-25	de	de	sps00	sps00	t=no|r=no|m=yes	24	prepn
+25	de	de	sps00	sps00	t=no|r=yes|m=yes	24	prepn
 26	empleo	empleo	ncms000	ncms000	t=no|r=yes|m=yes	25	pobj
 27	.	.	fp	fp	t=no|r=no|m=yes	15	punct
 
@@ -262,7 +262,7 @@
 26	que	que	cs	cs	t=no|r=yes|m=yes	24	crobj
 27	los	el	da0mp0	da0mp0	t=no|r=yes|m=yes	28	det
 28	parches	parche	ncmp000	ncmp000	t=no|r=yes|m=yes	26	cobj
-29	de	de	sps00	sps00	t=no|r=no|m=yes	28	prepn
+29	de	de	sps00	sps00	t=no|r=yes|m=yes	28	prepn
 30	urgencia	urgencia	ncfs000	ncfs000	t=no|r=yes|m=yes	29	pobj
 31	.	.	fp	fp	t=no|r=no|m=yes	17	punct
 
@@ -282,13 +282,13 @@
 14	exportar	exportar	vmn0000	vmn0000	t=no|r=yes|m=yes	13	pobj
 15	su	su	dp3cs0	dp3cs0	t=no|r=yes|m=yes	16	poss
 16	experiencia	experiencia	ncfs000	ncfs000	t=no|r=yes|m=yes	14	dobj
-17	a	a	sps00	sps00	t=no|r=yes|m=yes	14	prepv
-18	Bruselas	bruselas	np00000	np00000	t=no|r=yes|m=yes	17	pobj
+17	a	a	sps00	sps00	t=no|r=no|m=yes	14	prepv
+18	Bruselas	bruselas	np00000	np00000	t=no|r=no|m=yes	17	pobj
 19	,	,	fc	fc	t=no|r=yes|m=yes	14	punct
-20	en	en	sps00	sps00	t=no|r=yes|m=yes	14	prepv
-21	busca	busca	ncfs000	ncfs000	t=no|r=yes|m=yes	20	pobj
+20	en	en	sps00	sps00	t=no|r=no|m=yes	14	prepv
+21	busca	busca	ncfs000	ncfs000	t=no|r=no|m=yes	20	pobj
 22	de	de	sps00	sps00	t=no|r=no|m=yes	21	prepn
-23	auditorio	auditorio	ncms000	ncms000	t=no|r=yes|m=yes	22	pobj
+23	auditorio	auditorio	ncms000	ncms000	t=no|r=no|m=yes	22	pobj
 24	.	.	fp	fp	t=no|r=no|m=yes	12	punct
 
 

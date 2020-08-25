@@ -42,11 +42,11 @@
 11	un	uno	di0ms0	di0ms0	recursive=no|theme=no|rheme=yes|main=yes	12	det
 12	deporte	deporte	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	7	dobj
 13	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|rheme=yes|main=yes	14	nsubj
-14	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|rheme=yes|main=yes	12	rcmod
+14	ha	haber	vaip3s0	vaip3s0	recursive=yes|theme=no|rheme=no|main=yes	12	rcmod
 15	proporcionado	proporcionar	vmp00sm	vmp00sm	recursive=no|theme=no|rheme=yes|main=yes	14	vobj
 16	momentos	momento	ncmp000	ncmp000	recursive=no|theme=no|rheme=yes|main=yes	15	dobj
 17	inolvidables	inolvidable	aq0cp0	aq0cp0	recursive=no|theme=no|rheme=yes|main=yes	16	amod
-18	a	a	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	15	prepv
+18	a	a	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	15	prepv
 19	lo	el	da0ms0	da0ms0	recursive=no|theme=no|rheme=yes|main=yes	20	det
 20	largo	largo	aq0cs0	aq0cs0	recursive=no|theme=no|rheme=yes|main=yes	18	pobj
 21	de	de	spcms	spcms	recursive=no|theme=no|rheme=yes|main=yes	20	prepa
@@ -99,7 +99,7 @@
 23	horas	hora	ncfp000	ncfp000	recursive=no|theme=no|rheme=no|main=no	20	pobj
 24	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	16	punct
 
-1	Y	y	cc	cc	recursive=no|theme=no|rheme=yes|main=yes	6	te
+1	Y	y	cc	cc	recursive=yes|theme=no|rheme=no|main=yes	6	te
 2	los	el	da0mp0	da0mp0	recursive=no|theme=yes|rheme=no|main=yes	4	det
 3	50	50	z	z	recursive=no|theme=yes|rheme=no|main=yes	2	num
 4	minutos	minuto	ncmp000	ncmp000	recursive=no|theme=yes|rheme=no|main=yes	6	nsubj
@@ -146,7 +146,7 @@
 5	son	ser	vsip3p0	vsip3p0	recursive=no|theme=no|rheme=yes|main=yes	0	root
 6	los	el	da0mp0	da0mp0	recursive=no|theme=no|rheme=yes|main=yes	7	det
 7	culpables	culpable	nccp000	nccp000	recursive=no|theme=no|rheme=yes|main=yes	5	attr
-8	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	7	prepn
+8	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	7	prepn
 9	que	que	cs	cs	recursive=no|theme=no|rheme=yes|main=yes	8	pobj
 10	no	no	rn	rn	recursive=no|theme=no|rheme=yes|main=yes	12	neg
 11	se	se	p0000000	p0000000	recursive=no|theme=no|rheme=yes|main=yes	12	reflec
@@ -176,15 +176,15 @@
 16	trato	trato	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	14	dobj
 17	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|rheme=yes|main=yes	19	dobj
 18	se	él	p0300000	p0300000	recursive=no|theme=no|rheme=yes|main=yes	19	reflec
-19	merece	merecer	vmip3s0	vmip3s0	recursive=no|theme=no|rheme=yes|main=yes	16	rcmod
+19	merece	merecer	vmip3s0	vmip3s0	recursive=yes|theme=no|rheme=no|main=yes	16	rcmod
 20	un	uno	di0ms0	di0ms0	recursive=no|theme=no|rheme=yes|main=yes	21	det
 21	deporte	deporte	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	19	nsubj
 22	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|rheme=yes|main=yes	24	coord
 23	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|rheme=yes|main=yes	24	coord
-24	y	y	cc	cc	recursive=no|theme=no|rheme=yes|main=yes	26	rcmod
+24	y	y	cc	cc	recursive=yes|theme=no|rheme=no|main=yes	26	rcmod
 25	será	ser	vsif3s0	vsif3s0	recursive=no|theme=no|rheme=yes|main=yes	24	coord
 26	uno	uno	pi0ms000	pi0ms000	recursive=no|theme=no|rheme=yes|main=yes	21	attr
-27	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	26	prepn
+27	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	26	prepn
 28	los	el	da0mp0	da0mp0	recursive=no|theme=no|rheme=yes|main=yes	30	det
 29	más	más	rg	rg	recursive=no|theme=no|rheme=yes|main=yes	30	advmod
 30	aclamados	aclamado	aq0mpp	aq0mpp	recursive=no|theme=no|rheme=yes|main=yes	27	pobj

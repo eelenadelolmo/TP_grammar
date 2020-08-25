@@ -44,7 +44,7 @@
 11	XXIII	XXIII	np00000	np00000	recursive=no|theme=no|rheme=yes|main=yes	10	appos
 12	la	el	da0fs0	da0fs0	recursive=no|theme=no|rheme=yes|main=yes	13	det
 13	proclamación	proclamación	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	8	dobj
-14	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	13	prepn
+14	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	13	prepn
 15	beato	beato	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	14	pobj
 16	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|rheme=no|main=yes	0	root
 17	la	el	da0fs0	da0fs0	recursive=no|theme=no|rheme=no|main=yes	18	det
@@ -114,9 +114,9 @@
 
 1	La	el	da0fs0	da0fs0	recursive=no|theme=yes|rheme=no|main=yes	2	det
 2	religiosa	religiosa	ncfs000	ncfs000	recursive=no|theme=yes|rheme=no|main=yes	3	nsubj
-3	vive	vivir	vmip3s0	vmip3s0	recursive=no|theme=no|rheme=yes|main=yes	6	coord
-4	en	en	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	3	prepv
-5	Agrigento	Agrigento	np00000	np00000	recursive=no|theme=no|rheme=yes|main=yes	4	pobj
+3	vive	vivir	vmip3s0	vmip3s0	recursive=yes|theme=no|rheme=no|main=yes	6	coord
+4	en	en	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	3	prepv
+5	Agrigento	Agrigento	np00000	np00000	recursive=yes|theme=no|rheme=no|main=yes	4	pobj
 6	y	y	cc	cc	recursive=no|theme=no|rheme=no|main=yes	0	root
 7	pertenece	pertenecer	vmip3s0	vmip3s0	recursive=no|theme=no|rheme=no|main=yes	6	coord
 8	a	a	sps00	sps00	recursive=no|theme=no|rheme=no|main=yes	7	oobj
@@ -134,17 +134,17 @@
 20	Paúl	Paúl	np00000	np00000	recursive=no|theme=no|rheme=no|main=yes	19	appos
 21	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	13	punct
 22	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|rheme=no|main=yes	27	nsubj
-23	en	en	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	27	prepv
+23	en	en	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	27	prepv
 24	los	el	da0mp0	da0mp0	recursive=no|theme=no|rheme=yes|main=yes	25	det
 25	años	año	ncmp000	ncmp000	recursive=no|theme=no|rheme=yes|main=yes	23	pobj
 26	50	50	zm	zm	recursive=no|theme=no|rheme=yes|main=yes	25	num
 27	trabajaban	trabajar	vmii3p0	vmii3p0	recursive=no|theme=no|rheme=yes|main=yes	13	rcmod
-28	en	en	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	27	prepv
+28	en	en	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	27	prepv
 29	los	el	da0mp0	da0mp0	recursive=no|theme=no|rheme=yes|main=yes	30	det
 30	hospitales	hospital	ncmp000	ncmp000	recursive=no|theme=no|rheme=yes|main=yes	28	pobj
 31	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	6	punct
 
-1	En	en	sps00	sps00	recursive=no|theme=no|rheme=no|main=no	6	prepv
+1	En	en	sps00	sps00	recursive=yes|theme=no|rheme=no|main=no	6	prepv
 2	1966	1966	z	z	recursive=no|theme=no|rheme=no|main=no	1	pobj
 3	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	6	punct
 4	la	el	da0fs0	da0fs0	recursive=no|theme=yes|rheme=no|main=yes	5	det
@@ -157,9 +157,9 @@
 2	hecho	hecho	ncms000	ncms000	recursive=no|theme=yes|rheme=no|main=yes	4	nsubj
 3	se	él	p0300000	p0300000	recursive=no|theme=no|rheme=yes|main=yes	4	reflec
 4	repitió	repetir	vmis3s0	vmis3s0	recursive=no|theme=no|rheme=yes|main=yes	10	coord
-5	al	al	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	4	prepv
+5	al	al	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	4	prepv
 6	cabo	cabo	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	5	pobj
-7	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	6	prepn
+7	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	6	prepn
 8	seis	seis	dn0cp0	dn0cp0	recursive=no|theme=no|rheme=yes|main=yes	9	det
 9	meses	mes	ncmp000	ncmp000	recursive=no|theme=no|rheme=yes|main=yes	7	pobj
 10	y	y	cc	cc	recursive=no|theme=no|rheme=no|main=yes	0	root
@@ -211,7 +211,7 @@
 2	no	no	rn	rn	recursive=no|theme=no|rheme=yes|main=yes	3	neg
 3	sentía	sentir	vmii3s0	vmii3s0	recursive=no|theme=no|rheme=yes|main=yes	0	root
 4	devoción	devoción	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	3	dobj
-5	por	por	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	4	prepn
+5	por	por	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	4	prepn
 6	Juan	juan	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	5	pobj
 7	XXIII	XXIII	np00000	np00000	recursive=no|theme=no|rheme=yes|main=yes	6	appos
 8	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	3	punct
@@ -233,7 +233,7 @@
 
 1	&quot;	&quot;	fe	fe	recursive=no|theme=no|rheme=no|main=yes	17	punct
 2	Pero	pero	cc	cc	recursive=no|theme=no|rheme=no|main=yes	27	te
-3	después	después	rg	rg	recursive=no|theme=no|rheme=yes|main=yes	17	advmod
+3	después	después	rg	rg	recursive=yes|theme=no|rheme=no|main=yes	17	advmod
 4	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	17	punct
 5	aquel	aquel	dd0ms0	dd0ms0	recursive=no|theme=yes|rheme=no|main=yes	6	det
 6	señor	señor	ncms000	ncms000	recursive=no|theme=yes|rheme=no|main=yes	17	nsubj
@@ -265,7 +265,7 @@
 3	Iglesia	Iglesia	np00000	np00000	recursive=no|theme=yes|rheme=no|main=yes	4	nsubj
 4	hace	hacer	vmip3s0	vmip3s0	recursive=no|theme=no|rheme=yes|main=yes	24	dobj
 5	bien	bien	rg	rg	recursive=no|theme=no|rheme=yes|main=yes	4	advmod
-6	en	en	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	4	prepv
+6	en	en	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	4	prepv
 7	proclamarlo	proclamar	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	6	pobj
 8	santo	santo	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	7	dobj
 9	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	4	punct
@@ -273,7 +273,7 @@
 11	la	él	pp3fsa00	pp3fsa00	recursive=no|theme=no|rheme=yes|main=yes	13	dobj
 12	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|rheme=yes|main=yes	16	coord
 13	abierto	abrir	vmp00sm	vmp00sm	recursive=no|theme=no|rheme=yes|main=yes	12	vobj
-14	al	al	spcms	spcms	recursive=no|theme=no|rheme=yes|main=yes	13	prepv
+14	al	al	spcms	spcms	recursive=yes|theme=no|rheme=no|main=yes	13	prepv
 15	mundo	mundo	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	14	pobj
 16	,	,	fc	fc	recursive=no|theme=no|rheme=yes|main=yes	10	cobj
 17	la	él	pp3fsa00	pp3fsa00	recursive=no|theme=no|rheme=yes|main=yes	19	dobj
@@ -431,7 +431,7 @@
 26	añadido	añadir	vmp00sm	vmp00sm	recursive=no|theme=no|rheme=no|main=yes	25	vobj
 27	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	25	punct
 
-1	Pero	pero	cc	cc	recursive=no|theme=no|rheme=yes|main=yes	15	te
+1	Pero	pero	cc	cc	recursive=yes|theme=no|rheme=no|main=yes	15	te
 2	la	el	da0fs0	da0fs0	recursive=no|theme=yes|rheme=no|main=yes	3	det
 3	imposición	imposición	ncfs000	ncfs000	recursive=no|theme=yes|rheme=no|main=yes	12	coord
 4	de	de	sps00	sps00	recursive=no|theme=yes|rheme=no|main=yes	3	prepn

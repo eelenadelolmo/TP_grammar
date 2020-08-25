@@ -31,7 +31,7 @@
 10	el	el	da0ms0	da0ms0	t=no|r=yes|m=yes	11	det
 11	rastro	rastro	ncms000	ncms000	t=no|r=yes|m=yes	9	dobj
 12	habitual	habitual	aq0cs0	aq0cs0	t=no|r=yes|m=yes	11	amod
-13	de	de	sps00	sps00	t=no|r=no|m=yes	11	prepn
+13	de	de	sps00	sps00	t=no|r=yes|m=yes	11	prepn
 14	litronas	litrona	ncfp000	ncfp000	t=no|r=yes|m=yes	17	coord
 15	,	,	fc	fc	t=no|r=yes|m=yes	17	punct
 16	altercados	altercado	ncmp000	ncmp000	t=no|r=yes|m=yes	17	coord
@@ -113,8 +113,8 @@
 28	ingleses	inglés	aq0mp0	aq0mp0	t=no|r=yes|m=yes	27	amod
 29	,	,	fc	fc	t=no|r=yes|m=yes	35	punct
 30	mientras	mientras	cc	cc	t=no|r=yes|m=yes	25	advcl
-31	los	el	da0mp0	da0mp0	t=yes|r=yes|m=yes	32	det
-32	alemanes	alemán	ncmp000	ncmp000	t=yes|r=yes|m=yes	35	nsubj
+31	los	el	da0mp0	da0mp0	t=no|r=yes|m=yes	32	det
+32	alemanes	alemán	ncmp000	ncmp000	t=no|r=yes|m=yes	35	nsubj
 33	no	no	rn	rn	t=no|r=yes|m=yes	35	neg
 34	se	él	p0300000	p0300000	t=no|r=yes|m=yes	35	reflec
 35	comportaban	comportar	vmii3p0	vmii3p0	t=no|r=yes|m=yes	30	cobj
@@ -122,9 +122,9 @@
 37	conforme	conforme	aq0cs0	aq0cs0	t=no|r=yes|m=yes	35	cpred
 38	al	al	spcms	spcms	t=no|r=yes|m=yes	37	prepa
 39	tópico	tópico	ncms000	ncms000	t=no|r=yes|m=yes	38	pobj
-40	que	que	pr0cn000	pr0cn000	t=yes|r=yes|m=yes	42	nsubj
-41	les	él	pp3cpd00	pp3cpd00	t=no|r=yes|m=yes	42	iobj
-42	corresponde	corresponder	vmip3s0	vmip3s0	t=no|r=yes|m=yes	39	rcmod
+40	que	que	pr0cn000	pr0cn000	t=no|r=no|m=yes	42	nsubj
+41	les	él	pp3cpd00	pp3cpd00	t=no|r=no|m=yes	42	iobj
+42	corresponde	corresponder	vmip3s0	vmip3s0	t=no|r=no|m=yes	39	rcmod
 43	.	.	fp	fp	t=no|r=no|m=yes	4	punct
 
 1	¿	¿	fia	fia	t=no|r=no|m=yes	2	punct
@@ -207,7 +207,7 @@
 11	el	el	da0ms0	da0ms0	t=no|r=no|m=yes	12	det
 12	ridículo	ridículo	ncms000	ncms000	t=no|r=no|m=yes	10	coord
 13	de	de	sps00	sps00	t=no|r=no|m=yes	12	prepn
-14	los	el	da0mp0	da0mp0	t=no|r=yes|m=yes	17	det
+14	los	el	da0mp0	da0mp0	t=no|r=no|m=yes	17	det
 15	que	que	pr0cn000	pr0cn000	t=yes|r=no|m=yes	17	nsubj
 16	los	él	pp3mpa00	pp3mpa00	t=no|r=yes|m=yes	17	dobj
 17	utilizan	utilizar	vmip3p0	vmip3p0	t=no|r=yes|m=yes	13	rcmod

@@ -6,9 +6,9 @@
 6	abrir	abrir	vmn0000	vmn0000	t=no|r=yes|m=yes	5	dobj
 7	una	uno	di0fs0	di0fs0	t=no|r=yes|m=yes	8	det
 8	cuenta	cuenta	ncfs000	ncfs000	t=no|r=yes|m=yes	6	dobj
-9	de	de	sps00	sps00	t=no|r=no|m=yes	8	prepn
+9	de	de	sps00	sps00	t=no|r=yes|m=yes	8	prepn
 10	ahorro	ahorro	ncms000	ncms000	t=no|r=yes|m=yes	9	pobj
-11	con	con	sps00	sps00	t=no|r=no|m=yes	8	prepn
+11	con	con	sps00	sps00	t=no|r=yes|m=yes	8	prepn
 12	50	50	z	z	t=no|r=yes|m=yes	13	num
 13	euros	euro	zm	zm	t=no|r=yes|m=yes	11	pobj
 14	(	(	fpa	fpa	t=no|r=yes|m=yes	16	punct
@@ -23,7 +23,7 @@
 23	1	1	z	z	t=no|r=yes|m=yes	21	dep
 24	de	de	sps00	sps00	t=no|r=yes|m=yes	23	prep
 25	enero	enero	ncfp000	ncfp000	t=no|r=yes|m=yes	24	pobj
-26	del	del	sps00	sps00	t=no|r=no|m=yes	25	prepn
+26	del	del	sps00	sps00	t=no|r=yes|m=yes	25	prepn
 27	2002	2002	z	z	t=no|r=yes|m=yes	26	pobj
 28	,	,	fc	fc	t=no|r=no|m=yes	5	punct
 29	según	según	cs	cs	t=no|r=no|m=no	5	advcl
@@ -93,12 +93,12 @@
 4	quería	querer	vmii3s0	vmii3s0	t=no|r=yes|m=yes	0	root
 5	también	también	rg	rg	t=no|r=no|m=no	4	advmod
 6	saludar	saludar	vmn0000	vmn0000	t=no|r=yes|m=yes	4	dobj
-7	de	de	sps00	sps00	t=no|r=yes|m=yes	6	prepv
-8	esta	este	dd0fs0	dd0fs0	t=no|r=yes|m=yes	9	det
-9	forma	forma	ncfs000	ncfs000	t=no|r=yes|m=yes	7	pobj
+7	de	de	sps00	sps00	t=no|r=no|m=yes	6	prepv
+8	esta	este	dd0fs0	dd0fs0	t=no|r=no|m=yes	9	det
+9	forma	forma	ncfs000	ncfs000	t=no|r=no|m=yes	7	pobj
 10	el	el	da0ms0	da0ms0	t=no|r=yes|m=yes	11	det
 11	nacimiento	nacimiento	ncms000	ncms000	t=no|r=yes|m=yes	6	dobj
-12	de	de	sps00	sps00	t=no|r=no|m=yes	11	prepn
+12	de	de	sps00	sps00	t=no|r=yes|m=yes	11	prepn
 13	una	uno	di0fs0	di0fs0	t=no|r=yes|m=yes	14	det
 14	generación	generación	ncfs000	ncfs000	t=no|r=yes|m=yes	12	pobj
 15	euro	euro	ncms000	ncms000	t=no|r=yes|m=yes	14	appos

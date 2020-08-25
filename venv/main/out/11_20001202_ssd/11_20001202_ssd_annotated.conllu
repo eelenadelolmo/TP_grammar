@@ -44,12 +44,12 @@
 8	los	el	da0mp0	da0mp0	recursive=no|theme=no|rheme=yes|main=yes	9	det
 9	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|rheme=yes|main=yes	11	nsubj
 10	lo	él	pp3msa00	pp3msa00	recursive=no|theme=no|rheme=yes|main=yes	12	dobj
-11	habían	haber	vaii3p0	vaii3p0	recursive=no|theme=no|rheme=yes|main=yes	13	rcmod
+11	habían	haber	vaii3p0	vaii3p0	recursive=yes|theme=no|rheme=no|main=yes	13	rcmod
 12	solicitado	solicitar	vmp00sm	vmp00sm	recursive=no|theme=no|rheme=yes|main=yes	11	vobj
 13	y	y	cc	cc	recursive=no|theme=no|rheme=yes|main=yes	5	dep
 14	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|rheme=yes|main=yes	16	nsubj
 15	no	no	rn	rn	recursive=no|theme=no|rheme=yes|main=yes	16	neg
-16	estaban	estar	vmii3p0	vmii3p0	recursive=no|theme=no|rheme=yes|main=yes	13	rcmod
+16	estaban	estar	vmii3p0	vmii3p0	recursive=yes|theme=no|rheme=no|main=yes	13	rcmod
 17	condenados	condenado	aq0mpp	aq0mpp	recursive=no|theme=no|rheme=yes|main=yes	16	attr
 18	por	por	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	17	agent
 19	otros	otro	di0mp0	di0mp0	recursive=no|theme=no|rheme=yes|main=yes	21	coord
@@ -71,7 +71,7 @@
 11	condenados	condenado	aq0mpp	aq0mpp	recursive=no|theme=no|rheme=yes|main=yes	10	attr
 12	a	a	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	11	oobj
 13	penas	pena	ncfp000	ncfp000	recursive=no|theme=no|rheme=yes|main=yes	12	pobj
-14	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	13	prepn
+14	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	13	prepn
 15	cárcel	cárcel	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	14	pobj
 16	y	y	cc	cc	recursive=no|theme=no|rheme=no|main=yes	0	root
 17	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	26	punct
@@ -93,11 +93,11 @@
 33	según	según	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	26	advcl
 34	el	el	da0ms0	da0ms0	recursive=no|theme=no|rheme=yes|main=yes	35	det
 35	Ministerio	ministerio	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	33	pobj
-36	de	de	spcms	spcms	recursive=yes|theme=no|rheme=no|main=yes	35	prepn
+36	de	de	spcms	spcms	recursive=no|theme=no|rheme=yes|main=yes	35	prepn
 37	Justicia	justicia	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	36	pobj
 38	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	16	punct
 
-1	REHABILITADOS	rehabilitado	aq0mpp	aq0mpp	recursive=no|theme=no|rheme=yes|main=yes	5	attr
+1	REHABILITADOS	rehabilitado	aq0mpp	aq0mpp	recursive=yes|theme=no|rheme=no|main=yes	5	attr
 2	Los	el	da0mp0	da0mp0	recursive=no|theme=yes|rheme=no|main=yes	3	det
 3	430	430	z	z	recursive=no|theme=yes|rheme=no|main=yes	5	nsubj
 4	restantes	restante	aq0cp0	aq0cp0	recursive=no|theme=yes|rheme=no|main=yes	3	amod
@@ -105,10 +105,10 @@
 6	condenados	condenado	aq0mpp	aq0mpp	recursive=no|theme=no|rheme=yes|main=yes	5	attr
 7	a	a	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	6	oobj
 8	inhabilitación	inhabilitación	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	7	pobj
-9	para	para	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	8	prepn
+9	para	para	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	8	prepn
 10	desempeñar	desempeñar	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	20	coord
 11	trabajos	trabajo	ncmp000	ncmp000	recursive=no|theme=no|rheme=yes|main=yes	10	dobj
-12	en	en	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	10	prepv
+12	en	en	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	10	prepv
 13	la	el	da0fs0	da0fs0	recursive=no|theme=no|rheme=yes|main=yes	14	det
 14	Administración	Administración	np00000	np00000	recursive=no|theme=no|rheme=yes|main=yes	12	pobj
 15	,	,	fc	fc	recursive=no|theme=no|rheme=yes|main=yes	20	punct
@@ -119,7 +119,7 @@
 20	y	y	cc	cc	recursive=no|theme=no|rheme=yes|main=yes	9	pobj
 21	firmar	firmar	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	20	coord
 22	contratos	contrato	ncmp000	ncmp000	recursive=no|theme=no|rheme=yes|main=yes	21	dobj
-23	con	con	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	21	prepv
+23	con	con	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	21	prepv
 24	organismos	organismo	ncmp000	ncmp000	recursive=no|theme=no|rheme=yes|main=yes	23	pobj
 25	oficiales	oficial	aq0cp0	aq0cp0	recursive=no|theme=no|rheme=yes|main=yes	24	amod
 26	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	5	punct
@@ -132,7 +132,7 @@
 6	prohibiciones	prohibición	ncfp000	ncfp000	recursive=no|theme=no|rheme=yes|main=yes	3	dobj
 7	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	3	punct
 
-1	Los	el	da0mp0	da0mp0	recursive=no|theme=no|rheme=yes|main=yes	3	det
+1	Los	el	da0mp0	da0mp0	recursive=yes|theme=no|rheme=no|main=yes	3	det
 2	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|rheme=no|main=yes	3	nsubj
 3	estaban	estar	vmii3p0	vmii3p0	recursive=no|theme=no|rheme=yes|main=yes	17	rcmod
 4	inhabilitados	inhabilitado	aq0mpp	aq0mpp	recursive=no|theme=no|rheme=yes|main=yes	3	attr
@@ -206,7 +206,7 @@
 20	indulto	indulto	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	18	dobj
 21	,	,	fc	fc	recursive=no|theme=no|rheme=yes|main=yes	20	punct
 22	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|rheme=yes|main=yes	23	dobj
-23	atribuyó	atribuir	vmis3s0	vmis3s0	recursive=no|theme=no|rheme=yes|main=yes	20	rcmod
+23	atribuyó	atribuir	vmis3s0	vmis3s0	recursive=yes|theme=no|rheme=no|main=yes	20	rcmod
 24	al	al	spcms	spcms	recursive=no|theme=no|rheme=yes|main=yes	23	iobj
 25	&quot;	&quot;	fe	fe	recursive=no|theme=no|rheme=yes|main=yes	26	punct
 26	clamor	clamor	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	24	pobj
@@ -281,16 +281,16 @@
 17	la	el	da0fs0	da0fs0	recursive=no|theme=no|rheme=yes|main=yes	18	det
 18	medida	medida	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	16	pobj
 19	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	14	punct
-20	al	al	spcms	spcms	recursive=no|theme=no|rheme=yes|main=yes	14	prepv
+20	al	al	spcms	spcms	recursive=yes|theme=no|rheme=no|main=yes	14	prepv
 21	aplicárseles	aplicar	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	20	pobj
 22	el	el	da0ms0	da0ms0	recursive=no|theme=no|rheme=yes|main=yes	23	det
 23	Código	Código	np00000	np00000	recursive=no|theme=no|rheme=yes|main=yes	21	dobj
 24	Militar	militar	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	23	appos
 25	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=no	2	punct
 
-1	ADVERTENCIA	ADVERTENCIA	np0000o	np0000o	recursive=no|theme=no|rheme=yes|main=yes	10	dep
+1	ADVERTENCIA	ADVERTENCIA	np0000o	np0000o	recursive=yes|theme=no|rheme=no|main=yes	10	dep
 2	DE	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	1	prepn
-3	TRILLO	TRILLO	np0000l	np0000l	recursive=no|theme=no|rheme=yes|main=yes	2	pobj
+3	TRILLO	TRILLO	np0000l	np0000l	recursive=yes|theme=no|rheme=no|main=yes	2	pobj
 4	El	el	da0ms0	da0ms0	recursive=no|theme=yes|rheme=no|main=yes	5	det
 5	indulto	indulto	ncms000	ncms000	recursive=no|theme=yes|rheme=no|main=yes	9	nsubj
 6	de	de	sps00	sps00	recursive=no|theme=yes|rheme=no|main=yes	5	prepn
@@ -301,9 +301,9 @@
 11	con	con	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	10	oobj
 12	la	el	da0fs0	da0fs0	recursive=no|theme=no|rheme=yes|main=yes	13	det
 13	llamada	llamada	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	11	pobj
-14	a	a	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	13	prepn
+14	a	a	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	13	prepn
 15	filas	fila	ncfp000	ncfp000	recursive=no|theme=no|rheme=yes|main=yes	14	pobj
-16	del	del	spcms	spcms	recursive=yes|theme=no|rheme=no|main=yes	13	prepn
+16	del	del	spcms	spcms	recursive=no|theme=no|rheme=yes|main=yes	13	prepn
 17	último	último	ao0ms0	ao0ms0	recursive=no|theme=no|rheme=yes|main=yes	18	amod
 18	reemplazo	reemplazo	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	16	pobj
 19	no	no	rn	rn	recursive=no|theme=no|rheme=yes|main=yes	20	neg
@@ -311,7 +311,7 @@
 21	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	9	punct
 22	lo	el	da0ns0	da0ns0	recursive=no|theme=no|rheme=yes|main=yes	23	det
 23	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|rheme=yes|main=yes	24	nsubj
-24	crea	crear	vmsp3s0	vmsp3s0	recursive=no|theme=no|rheme=yes|main=yes	10	rcmod
+24	crea	crear	vmsp3s0	vmsp3s0	recursive=yes|theme=no|rheme=no|main=yes	10	rcmod
 25	una	uno	di0fs0	di0fs0	recursive=no|theme=no|rheme=yes|main=yes	26	det
 26	situación	situación	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	24	dobj
 27	delicada	delicado	aq0fs0	aq0fs0	recursive=no|theme=no|rheme=yes|main=yes	26	amod
@@ -323,7 +323,7 @@
 33	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|rheme=yes|main=yes	36	nsubj
 34	ahora	ahora	rg	rg	recursive=no|theme=no|rheme=yes|main=yes	36	advmod
 35	se	él	pp300000	pp300000	recursive=no|theme=no|rheme=yes|main=yes	36	reflec
-36	declaren	declarar	vmsp3p0	vmsp3p0	recursive=no|theme=no|rheme=yes|main=yes	28	rcmod
+36	declaren	declarar	vmsp3p0	vmsp3p0	recursive=yes|theme=no|rheme=no|main=yes	28	rcmod
 37	insumisos	insumiso	ncmp000	ncmp000	recursive=no|theme=no|rheme=yes|main=yes	36	dobj
 38	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	9	punct
 
@@ -347,7 +347,7 @@
 18	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|rheme=yes|main=yes	21	nsubj
 19	no	no	rn	rn	recursive=no|theme=no|rheme=yes|main=yes	21	neg
 20	se	él	p0300000	p0300000	recursive=no|theme=no|rheme=yes|main=yes	21	reflec
-21	incorpore	incorporar	vmsp3s0	vmsp3s0	recursive=no|theme=no|rheme=yes|main=yes	16	rcmod
+21	incorpore	incorporar	vmsp3s0	vmsp3s0	recursive=yes|theme=no|rheme=no|main=yes	16	rcmod
 22	&quot;	&quot;	fe	fe	recursive=no|theme=no|rheme=yes|main=yes	21	punct
 23	tendrá	tener	vmif3s0	vmif3s0	recursive=no|theme=no|rheme=yes|main=yes	16	cobj
 24	las	el	da0fp0	da0fp0	recursive=no|theme=no|rheme=yes|main=yes	25	det
@@ -356,7 +356,7 @@
 27	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|rheme=yes|main=yes	31	dobj
 28	el	el	da0ms0	da0ms0	recursive=no|theme=no|rheme=yes|main=yes	29	det
 29	Estado	Estado	np00000	np00000	recursive=no|theme=no|rheme=yes|main=yes	30	nsubj
-30	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|rheme=yes|main=yes	25	rcmod
+30	ha	haber	vaip3s0	vaip3s0	recursive=yes|theme=no|rheme=no|main=yes	25	rcmod
 31	previsto	prever	vmp00sm	vmp00sm	recursive=no|theme=no|rheme=yes|main=yes	30	vobj
 32	&quot;	&quot;	fe	fe	recursive=no|theme=no|rheme=yes|main=yes	21	punct
 33	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	13	punct

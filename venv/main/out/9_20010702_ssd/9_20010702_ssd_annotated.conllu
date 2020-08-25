@@ -30,10 +30,10 @@
 30	libraron	librar	vmis3p0	vmis3p0	recursive=no|theme=no|rheme=yes|main=yes	40	coord
 31	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	30	oobj
 32	uno	uno	pi0ms000	pi0ms000	recursive=no|theme=no|rheme=yes|main=yes	31	pobj
-33	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	32	prepn
+33	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	32	prepn
 34	los	el	da0mp0	da0mp0	recursive=no|theme=no|rheme=yes|main=yes	35	det
 35	tabúes	tabú	ncmp000	ncmp000	recursive=no|theme=no|rheme=yes|main=yes	33	pobj
-36	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	35	prepn
+36	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	35	prepn
 37	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|rheme=yes|main=yes	38	poss
 38	sexo	sexo	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	36	pobj
 39	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	40	punct
@@ -112,7 +112,7 @@
 2	pechos	pecho	ncmp000	ncmp000	recursive=no|theme=yes|rheme=no|main=yes	4	nsubj
 3	femeninos	femenino	aq0mp0	aq0mp0	recursive=no|theme=yes|rheme=no|main=yes	2	amod
 4	vuelven	volver	vmip3p0	vmip3p0	recursive=no|theme=no|rheme=yes|main=yes	0	root
-5	a	a	sps00	sps00	recursive=no|theme=no|rheme=no|main=no	4	prepv
+5	a	a	sps00	sps00	recursive=yes|theme=no|rheme=no|main=no	4	prepv
 6	estar	estar	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	4	dobj
 7	tapados	tapado	aq0mpp	aq0mpp	recursive=no|theme=no|rheme=yes|main=yes	4	cpred
 8	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	4	punct
@@ -139,7 +139,7 @@
 4	los	el	da0mp0	da0mp0	recursive=no|theme=yes|rheme=no|main=yes	5	det
 5	varones	varón	ncmp000	ncmp000	recursive=no|theme=yes|rheme=no|main=yes	6	nsubj
 6	mirábamos	mirar	vmii1p0	vmii1p0	recursive=no|theme=no|rheme=yes|main=yes	3	cobj
-7	con	con	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	6	prepv
+7	con	con	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	6	prepv
 8	demasiada	demasiado	di0fs0	di0fs0	recursive=no|theme=no|rheme=yes|main=yes	9	det
 9	avidez	avidez	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	7	pobj
 10	?	?	fit	fit	recursive=no|theme=no|rheme=no|main=yes	2	punct

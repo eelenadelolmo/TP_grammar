@@ -174,44 +174,44 @@
 <!-- n1 -->
 <g id="node12" class="node">
 <title>n1</title>
-<ellipse fill="#98D2A5" stroke="black" cx="598.6" cy="-148.43" rx="114.6" ry="37.45"/>
-<text text-anchor="middle" x="598.6" y="-159.73" font-family="Times,serif" font-size="14.00">En</text>
-<text text-anchor="middle" x="598.6" y="-144.73" font-family="Times,serif" font-size="14.00">sps00 (prepv)</text>
-<text text-anchor="middle" x="598.6" y="-129.73" font-family="Times,serif" font-size="14.00">t=no, r=yes, m=yes</text>
+<ellipse fill="#98D2A5" stroke="black" cx="595.6" cy="-148.43" rx="109.7" ry="37.45"/>
+<text text-anchor="middle" x="595.6" y="-159.73" font-family="Times,serif" font-size="14.00">En</text>
+<text text-anchor="middle" x="595.6" y="-144.73" font-family="Times,serif" font-size="14.00">sps00 (prepv)</text>
+<text text-anchor="middle" x="595.6" y="-129.73" font-family="Times,serif" font-size="14.00">t=no, r=no, m=yes</text>
 </g>
 <!-- n7&#45;&gt;n1 -->
 <g id="edge11" class="edge">
 <title>n7&#45;&gt;n1</title>
-<path fill="none" stroke="black" d="M598.6,-221.8C598.6,-213.63 598.6,-204.85 598.6,-196.32"/>
-<polygon fill="black" stroke="black" points="602.1,-196.1 598.6,-186.1 595.1,-196.1 602.1,-196.1"/>
+<path fill="none" stroke="black" d="M597.59,-221.8C597.37,-213.63 597.13,-204.85 596.89,-196.32"/>
+<polygon fill="black" stroke="black" points="600.39,-196 596.61,-186.1 593.39,-196.19 600.39,-196"/>
 </g>
 <!-- n8 -->
 <g id="node13" class="node">
 <title>n8</title>
-<ellipse fill="#98D2A5" stroke="black" cx="845.6" cy="-148.43" rx="114.6" ry="37.45"/>
-<text text-anchor="middle" x="845.6" y="-159.73" font-family="Times,serif" font-size="14.00">Bancomer</text>
-<text text-anchor="middle" x="845.6" y="-144.73" font-family="Times,serif" font-size="14.00">np00000 (dobj)</text>
-<text text-anchor="middle" x="845.6" y="-129.73" font-family="Times,serif" font-size="14.00">t=no, r=yes, m=yes</text>
+<ellipse fill="#98D2A5" stroke="black" cx="837.6" cy="-148.43" rx="114.6" ry="37.45"/>
+<text text-anchor="middle" x="837.6" y="-159.73" font-family="Times,serif" font-size="14.00">Bancomer</text>
+<text text-anchor="middle" x="837.6" y="-144.73" font-family="Times,serif" font-size="14.00">np00000 (dobj)</text>
+<text text-anchor="middle" x="837.6" y="-129.73" font-family="Times,serif" font-size="14.00">t=no, r=yes, m=yes</text>
 </g>
 <!-- n7&#45;&gt;n8 -->
 <g id="edge12" class="edge">
 <title>n7&#45;&gt;n8</title>
-<path fill="none" stroke="black" d="M665.44,-228.9C697.57,-214.73 736.23,-197.68 769.48,-183.01"/>
-<polygon fill="black" stroke="black" points="770.97,-186.18 778.71,-178.94 768.14,-179.77 770.97,-186.18"/>
+<path fill="none" stroke="black" d="M664.23,-228.47C694.79,-214.53 731.3,-197.89 762.91,-183.48"/>
+<polygon fill="black" stroke="black" points="764.48,-186.61 772.12,-179.28 761.57,-180.24 764.48,-186.61"/>
 </g>
 <!-- n2 -->
 <g id="node14" class="node">
 <title>n2</title>
-<ellipse fill="#98D2A5" stroke="black" cx="598.6" cy="-37.48" rx="114.6" ry="37.45"/>
-<text text-anchor="middle" x="598.6" y="-48.78" font-family="Times,serif" font-size="14.00">México</text>
-<text text-anchor="middle" x="598.6" y="-33.78" font-family="Times,serif" font-size="14.00">np00000 (pobj)</text>
-<text text-anchor="middle" x="598.6" y="-18.78" font-family="Times,serif" font-size="14.00">t=no, r=yes, m=yes</text>
+<ellipse fill="#98D2A5" stroke="black" cx="595.6" cy="-37.48" rx="109.7" ry="37.45"/>
+<text text-anchor="middle" x="595.6" y="-48.78" font-family="Times,serif" font-size="14.00">México</text>
+<text text-anchor="middle" x="595.6" y="-33.78" font-family="Times,serif" font-size="14.00">np00000 (pobj)</text>
+<text text-anchor="middle" x="595.6" y="-18.78" font-family="Times,serif" font-size="14.00">t=no, r=no, m=yes</text>
 </g>
 <!-- n1&#45;&gt;n2 -->
 <g id="edge13" class="edge">
 <title>n1&#45;&gt;n2</title>
-<path fill="none" stroke="black" d="M598.6,-110.85C598.6,-102.67 598.6,-93.89 598.6,-85.37"/>
-<polygon fill="black" stroke="black" points="602.1,-85.15 598.6,-75.15 595.1,-85.15 602.1,-85.15"/>
+<path fill="none" stroke="black" d="M595.6,-110.85C595.6,-102.67 595.6,-93.89 595.6,-85.37"/>
+<polygon fill="black" stroke="black" points="599.1,-85.15 595.6,-75.15 592.1,-85.15 599.1,-85.15"/>
 </g>
 </g>
 </svg>

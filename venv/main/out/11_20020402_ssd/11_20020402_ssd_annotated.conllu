@@ -34,7 +34,7 @@
 34	forzara	forzar	vmsi3s0	vmsi3s0	recursive=no|theme=no|rheme=yes|main=yes	29	cobj
 35	la	el	da0fs0	da0fs0	recursive=no|theme=no|rheme=yes|main=yes	36	det
 36	marcha	marcha	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	34	dobj
-37	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	36	prepn
+37	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	36	prepn
 38	Arafat	Arafat	np00000	np00000	recursive=no|theme=no|rheme=yes|main=yes	37	pobj
 39	y	y	cc	cc	recursive=no|theme=no|rheme=yes|main=yes	37	pobj
 40	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|rheme=yes|main=yes	41	poss
@@ -54,7 +54,7 @@
 6	gentes	gente	ncfp000	ncfp000	recursive=no|theme=no|rheme=no|main=no	4	pobj
 7	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	3	punct
 
-1	A	a	sps00	sps00	recursive=no|theme=no|rheme=no|main=no	9	prepv
+1	A	a	sps00	sps00	recursive=yes|theme=no|rheme=no|main=no	9	prepv
 2	pesar	pesar	vmn0000	vmn0000	recursive=no|theme=no|rheme=no|main=no	1	pobj
 3	de	de	sps00	sps00	recursive=no|theme=no|rheme=no|main=no	2	iobj
 4	los	el	da0mp0	da0mp0	recursive=no|theme=no|rheme=no|main=no	5	det
@@ -67,16 +67,16 @@
 11	marcha	marcha	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	9	dobj
 12	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	9	punct
 
-1	Por	por	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	6	advmod
-2	lo	lo	da0ms0	da0ms0	recursive=no|theme=no|rheme=yes|main=yes	3	det
-3	tanto	tanto	rg	rg	recursive=no|theme=no|rheme=yes|main=yes	1	advmod
+1	Por	por	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	6	advmod
+2	lo	lo	da0ms0	da0ms0	recursive=yes|theme=no|rheme=no|main=yes	3	det
+3	tanto	tanto	rg	rg	recursive=yes|theme=no|rheme=no|main=yes	1	advmod
 4	Israel	Israel	np00000	np00000	recursive=no|theme=yes|rheme=no|main=yes	5	nsubj
 5	quiere	querer	vmip3s0	vmip3s0	recursive=no|theme=no|rheme=yes|main=yes	0	root
 6	eliminarle	eliminar	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	5	dobj
 7	política	políticamente	rg	rg	recursive=no|theme=no|rheme=yes|main=yes	8	advmod
 8	o	o	cc	cc	recursive=no|theme=no|rheme=yes|main=yes	6	dep
 9	físicamente	físicamente	rg	rg	recursive=no|theme=no|rheme=yes|main=yes	8	advmod
-10	para	para	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	6	prepv
+10	para	para	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	6	prepv
 11	crear	crear	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	10	pobj
 12	una	uno	di0fs0	di0fs0	recursive=no|theme=no|rheme=yes|main=yes	13	det
 13	situación	situación	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	11	dobj
@@ -136,7 +136,7 @@
 5	la	el	da0fs0	da0fs0	recursive=no|theme=no|rheme=yes|main=yes	6	det
 6	retirada	retirada	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	4	attr
 7	israelí	israelí	aq0cs0	aq0cs0	recursive=no|theme=no|rheme=yes|main=yes	6	amod
-8	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	6	prepn
+8	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	6	prepn
 9	los	el	da0mp0	da0mp0	recursive=no|theme=no|rheme=yes|main=yes	10	det
 10	territorios	territorio	ncmp000	ncmp000	recursive=no|theme=no|rheme=yes|main=yes	8	pobj
 11	ocupados	ocupado	aq0mpp	aq0mpp	recursive=no|theme=no|rheme=yes|main=yes	10	amod

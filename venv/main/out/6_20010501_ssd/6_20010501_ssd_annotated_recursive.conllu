@@ -56,7 +56,7 @@
 18	con	con	sps00	sps00	t=no|r=yes|m=yes	17	oobj
 19	un	uno	di0ms0	di0ms0	t=no|r=yes|m=yes	20	det
 20	calendario	calendario	ncms000	ncms000	t=no|r=yes|m=yes	18	pobj
-21	de	de	sps00	sps00	t=no|r=no|m=yes	20	prepn
+21	de	de	sps00	sps00	t=no|r=yes|m=yes	20	prepn
 22	negociación	negociación	ncfs000	ncfs000	t=no|r=yes|m=yes	21	pobj
 23	diseñado	diseñado	aq0msp	aq0msp	t=no|r=yes|m=yes	20	amod
 24	con	con	sps00	sps00	t=no|r=yes|m=yes	23	prepa
@@ -136,7 +136,7 @@
 13	ser	ser	vsn0000	vsn0000	t=no|r=yes|m=yes	12	dobj
 14	el	el	da0ms0	da0ms0	t=no|r=yes|m=yes	15	det
 15	reactivo	reactivo	ncms000	ncms000	t=no|r=yes|m=yes	13	dobj
-16	para	para	sps00	sps00	t=no|r=no|m=yes	15	prepn
+16	para	para	sps00	sps00	t=no|r=yes|m=yes	15	prepn
 17	recuperar	recuperar	vmn0000	vmn0000	t=no|r=yes|m=yes	16	pobj
 18	la	el	da0fs0	da0fs0	t=no|r=yes|m=yes	20	det
 19	deseable	deseable	aq0cs0	aq0cs0	t=no|r=yes|m=yes	20	amod
@@ -200,9 +200,9 @@
 38	que	que	pr0cn000	pr0cn000	t=yes|r=no|m=yes	40	nsubj
 39	no	no	rn	rn	t=no|r=yes|m=yes	40	neg
 40	están	estar	vmip3p0	vmip3p0	t=no|r=yes|m=yes	37	rcmod
-41	en	en	sps00	sps00	t=no|r=yes|m=yes	40	prepv
-42	números	número	ncmp000	ncmp000	t=no|r=yes|m=yes	41	pobj
-43	rojos	rojo	aq0mp0	aq0mp0	t=no|r=yes|m=yes	42	amod
+41	en	en	sps00	sps00	t=no|r=no|m=yes	40	prepv
+42	números	número	ncmp000	ncmp000	t=no|r=no|m=yes	41	pobj
+43	rojos	rojo	aq0mp0	aq0mp0	t=no|r=no|m=yes	42	amod
 44	,	,	fc	fc	t=no|r=no|m=yes	52	punct
 45	en	en	sps00	sps00	t=no|r=no|m=yes	52	coord
 46	el	el	da0ms0	da0ms0	t=no|r=no|m=yes	47	det

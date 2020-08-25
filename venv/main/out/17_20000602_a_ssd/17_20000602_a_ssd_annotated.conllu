@@ -22,7 +22,7 @@
 3	también	también	rg	rg	recursive=no|theme=no|rheme=no|main=no	2	advmod
 4	la	el	da0fs0	da0fs0	recursive=no|theme=no|rheme=yes|main=yes	5	det
 5	falta	falta	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	2	dobj
-6	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	5	prepn
+6	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	5	prepn
 7	teléfono	teléfono	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	6	pobj
 8	o	o	cc	cc	recursive=no|theme=no|rheme=yes|main=yes	6	pobj
 9	domicilio	domicilio	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	8	coord
@@ -48,7 +48,7 @@
 4	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	3	punct
 5	creo	creer	vmip1s0	vmip1s0	recursive=no|theme=no|rheme=yes|main=yes	3	dobj
 6	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	3	punct
-7	en	en	sps00	sps00	recursive=no|theme=no|rheme=no|main=no	3	prepv
+7	en	en	sps00	sps00	recursive=yes|theme=no|rheme=no|main=no	3	prepv
 8	San	san	ncms000	ncms000	recursive=no|theme=no|rheme=no|main=no	7	pobj
 9	Francisco	francisco	np00000	np00000	recursive=no|theme=no|rheme=no|main=no	8	appos
 10	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=no	8	punct
@@ -71,7 +71,7 @@
 27	160	160	z	z	recursive=no|theme=no|rheme=no|main=no	26	num
 28	años	año	ncmp000	ncmp000	recursive=no|theme=no|rheme=no|main=no	24	dobj
 29	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	3	punct
-30	hasta	hasta	sps00	sps00	recursive=no|theme=no|rheme=no|main=no	3	prepv
+30	hasta	hasta	sps00	sps00	recursive=yes|theme=no|rheme=no|main=no	3	prepv
 31	que	que	cs	cs	recursive=no|theme=no|rheme=no|main=no	30	pobj
 32	las	el	da0fp0	da0fp0	recursive=no|theme=no|rheme=no|main=no	33	det
 33	autoridades	autoridad	ncfp000	ncfp000	recursive=no|theme=no|rheme=no|main=no	34	nsubj

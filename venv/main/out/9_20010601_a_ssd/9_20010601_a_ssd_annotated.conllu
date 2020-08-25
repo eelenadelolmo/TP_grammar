@@ -5,10 +5,10 @@
 5	vehículos	vehículo	ncmp000	ncmp000	recursive=no|theme=no|rheme=no|main=yes	3	pobj
 6	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|rheme=no|main=yes	7	nsubj
 7	circulan	circular	vmip3p0	vmip3p0	recursive=no|theme=no|rheme=yes|main=yes	5	rcmod
-8	sin	sin	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	7	prepv
+8	sin	sin	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	7	prepv
 9	el	el	da0ms0	da0ms0	recursive=no|theme=no|rheme=yes|main=yes	10	det
 10	seguro	seguro	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	8	pobj
-11	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	10	prepn
+11	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	10	prepn
 12	responsabilidad	responsabilidad	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	11	pobj
 13	civil	civil	aq0cs0	aq0cs0	recursive=no|theme=no|rheme=yes|main=yes	12	amod
 14	obligatorio	obligatorio	aq0ms0	aq0ms0	recursive=no|theme=no|rheme=yes|main=yes	10	amod
@@ -107,12 +107,12 @@
 16	una	uno	di0fs0	di0fs0	recursive=no|theme=no|rheme=yes|main=yes	17	det
 17	potestad	potestad	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	15	attr
 18	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|rheme=yes|main=yes	20	dobj
-19	puede	poder	vmip3s0	vmip3s0	recursive=no|theme=no|rheme=yes|main=yes	17	rcmod
+19	puede	poder	vmip3s0	vmip3s0	recursive=yes|theme=no|rheme=no|main=yes	17	rcmod
 20	elegir	elegir	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	19	dobj
 21	libremente	libremente	rg	rg	recursive=no|theme=no|rheme=yes|main=yes	20	advmod
 22	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	15	punct
 
-1	Y	y	cc	cc	recursive=no|theme=no|rheme=yes|main=yes	10	te
+1	Y	y	cc	cc	recursive=yes|theme=no|rheme=no|main=yes	10	te
 2	en	en	sps00	sps00	recursive=no|theme=no|rheme=no|main=no	10	advmod
 3	todo	todo	di0fs0	di0fs0	recursive=no|theme=no|rheme=no|main=no	4	det
 4	caso	caso	ncfs000	ncfs000	recursive=no|theme=no|rheme=no|main=no	2	pobj
@@ -167,9 +167,9 @@
 13	provocado	provocar	vmp00sm	vmp00sm	recursive=no|theme=no|rheme=yes|main=yes	12	vobj
 14	el	el	da0ms0	da0ms0	recursive=no|theme=no|rheme=yes|main=yes	15	det
 15	aumento	aumento	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	13	dobj
-16	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	15	prepn
+16	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	15	prepn
 17	primas	prima	ncfp000	ncfp000	recursive=no|theme=no|rheme=yes|main=yes	16	pobj
-18	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	17	prepn
+18	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	17	prepn
 19	todos	todo	di0mp0	di0mp0	recursive=no|theme=no|rheme=yes|main=yes	21	det
 20	los	el	da0mp0	da0mp0	recursive=no|theme=no|rheme=yes|main=yes	21	det
 21	asegurados	asegurado	aq0mpp	aq0mpp	recursive=no|theme=no|rheme=yes|main=yes	18	pobj
@@ -194,7 +194,7 @@
 17	colocar	colocar	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	16	attr
 18	la	el	da0fs0	da0fs0	recursive=no|theme=no|rheme=yes|main=yes	19	det
 19	siniestralidad	siniestralidad	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	17	dobj
-20	en	en	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	17	prepv
+20	en	en	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	17	prepv
 21	límites	límite	ncmp000	ncmp000	recursive=no|theme=no|rheme=yes|main=yes	20	pobj
 22	razonables	razonable	aq0cp0	aq0cp0	recursive=no|theme=no|rheme=yes|main=yes	21	amod
 23	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	16	punct
@@ -390,7 +390,7 @@
 45	seguro	seguro	ncms000	ncms000	recursive=no|theme=no|rheme=no|main=yes	44	pobj
 46	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	40	punct
 
-1	Porque	porque	cs	cs	recursive=no|theme=no|rheme=yes|main=yes	7	te
+1	Porque	porque	cs	cs	recursive=yes|theme=no|rheme=no|main=yes	7	te
 2	claro	claro	rg	rg	recursive=no|theme=no|rheme=no|main=no	7	advmod
 3	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	7	punct
 4	¿	¿	fia	fia	recursive=no|theme=no|rheme=no|main=yes	7	punct

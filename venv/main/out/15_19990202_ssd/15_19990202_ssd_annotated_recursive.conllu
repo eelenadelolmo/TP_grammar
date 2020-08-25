@@ -16,9 +16,9 @@
 16	cartulina	cartulina	ncfs000	ncfs000	t=yes|r=no|m=yes	18	nsubj
 17	se	él	p0300000	p0300000	t=no|r=yes|m=yes	18	reflec
 18	alzó	alzar	vmis3s0	vmis3s0	t=no|r=yes|m=yes	13	coord
-19	con	con	sps00	sps00	t=no|r=yes|m=yes	18	prepv
-20	el	el	da0ms0	da0ms0	t=no|r=yes|m=yes	21	det
-21	no	no	rn	rn	t=no|r=yes|m=yes	19	neg
+19	con	con	sps00	sps00	t=no|r=no|m=yes	18	prepv
+20	el	el	da0ms0	da0ms0	t=no|r=no|m=yes	21	det
+21	no	no	rn	rn	t=no|r=no|m=yes	19	neg
 22	.	.	fp	fp	t=no|r=no|m=yes	13	punct
 
 1	En	en	sps00	sps00	t=no|r=no|m=no	24	prepv
@@ -47,7 +47,7 @@
 24	es	ser	vsip3s0	vsip3s0	t=no|r=yes|m=yes	0	root
 25	una	uno	di0fs0	di0fs0	t=no|r=yes|m=yes	26	det
 26	pieza	pieza	ncfs000	ncfs000	t=no|r=yes|m=yes	24	attr
-27	de	de	sps00	sps00	t=no|r=no|m=yes	26	prepn
+27	de	de	sps00	sps00	t=no|r=yes|m=yes	26	prepn
 28	considerable	considerable	aq0cs0	aq0cs0	t=no|r=yes|m=yes	29	amod
 29	valor	valor	ncms000	ncms000	t=no|r=yes|m=yes	27	pobj
 30	.	.	fp	fp	t=no|r=no|m=yes	24	punct
@@ -118,23 +118,23 @@
 7	es	ser	vsip3s0	vsip3s0	t=no|r=yes|m=yes	0	root
 8	un	uno	di0ms0	di0ms0	t=no|r=yes|m=yes	9	det
 9	lujo	lujo	ncms000	ncms000	t=no|r=yes|m=yes	7	attr
-10	de	de	sps00	sps00	t=no|r=no|m=yes	9	prepn
+10	de	de	sps00	sps00	t=no|r=yes|m=yes	9	prepn
 11	los	el	da0mp0	da0mp0	t=no|r=yes|m=yes	12	det
 12	partidos	partido	ncmp000	ncmp000	t=no|r=yes|m=yes	10	pobj
-13	que	que	pr0cn000	pr0cn000	t=no|r=yes|m=yes	14	nsubj
-14	intentan	intentar	vmip3p0	vmip3p0	t=no|r=yes|m=yes	12	rcmod
-15	la	el	da0fs0	da0fs0	t=no|r=yes|m=yes	16	det
-16	convivencia	convivencia	ncfs000	ncfs000	t=no|r=yes|m=yes	14	dobj
-17	en	en	sps00	sps00	t=no|r=yes|m=yes	16	prepn
-18	su	su	dp3cs0	dp3cs0	t=no|r=yes|m=yes	19	poss
-19	seno	seno	ncms000	ncms000	t=no|r=yes|m=yes	17	pobj
-20	de	de	sps00	sps00	t=no|r=yes|m=yes	16	prepn
-21	lo	el	da0ns0	da0ns0	t=no|r=yes|m=yes	22	det
-22	que	que	pr0cn000	pr0cn000	t=no|r=yes|m=yes	24	nsubj
-23	se	se	p0000000	p0000000	t=no|r=yes|m=yes	24	reflec
-24	llaman	llamar	vmip3p0	vmip3p0	t=no|r=yes|m=yes	20	rcmod
-25	diferentes	diferente	di0cp0	di0cp0	t=no|r=yes|m=yes	26	det
-26	sensibilidades	sensibilidad	ncfp000	ncfp000	t=no|r=yes|m=yes	24	dobj
+13	que	que	pr0cn000	pr0cn000	t=no|r=no|m=yes	14	nsubj
+14	intentan	intentar	vmip3p0	vmip3p0	t=no|r=no|m=yes	12	rcmod
+15	la	el	da0fs0	da0fs0	t=no|r=no|m=yes	16	det
+16	convivencia	convivencia	ncfs000	ncfs000	t=no|r=no|m=yes	14	dobj
+17	en	en	sps00	sps00	t=no|r=no|m=yes	16	prepn
+18	su	su	dp3cs0	dp3cs0	t=no|r=no|m=yes	19	poss
+19	seno	seno	ncms000	ncms000	t=no|r=no|m=yes	17	pobj
+20	de	de	sps00	sps00	t=no|r=no|m=yes	16	prepn
+21	lo	el	da0ns0	da0ns0	t=no|r=no|m=yes	22	det
+22	que	que	pr0cn000	pr0cn000	t=no|r=no|m=yes	24	nsubj
+23	se	se	p0000000	p0000000	t=no|r=no|m=yes	24	reflec
+24	llaman	llamar	vmip3p0	vmip3p0	t=no|r=no|m=yes	20	rcmod
+25	diferentes	diferente	di0cp0	di0cp0	t=no|r=no|m=yes	26	det
+26	sensibilidades	sensibilidad	ncfp000	ncfp000	t=no|r=no|m=yes	24	dobj
 27	.	.	fp	fp	t=no|r=no|m=yes	7	punct
 
 1	Rompen	romper	vmip3p0	vmip3p0	t=no|r=no|m=yes	0	root
@@ -303,10 +303,10 @@
 5	Rato	Rato	np00000	np00000	t=yes|r=no|m=yes	4	appos
 6	se	él	p0300000	p0300000	t=no|r=yes|m=yes	7	reflec
 7	muere	morir	vmip3s0	vmip3s0	t=no|r=yes|m=yes	2	cobj
-8	de	de	sps00	sps00	t=no|r=yes|m=yes	7	prepv
-9	ganas	gana	ncfp000	ncfp000	t=no|r=yes|m=yes	8	pobj
-10	de	de	sps00	sps00	t=no|r=yes|m=yes	7	prepv
-11	abrazarle	abrazar	vmn0000	vmn0000	t=no|r=yes|m=yes	10	pobj
+8	de	de	sps00	sps00	t=no|r=no|m=yes	7	prepv
+9	ganas	gana	ncfp000	ncfp000	t=no|r=no|m=yes	8	pobj
+10	de	de	sps00	sps00	t=no|r=no|m=yes	7	prepv
+11	abrazarle	abrazar	vmn0000	vmn0000	t=no|r=no|m=yes	10	pobj
 12	,	,	fc	fc	t=no|r=no|m=yes	0	root
 13	si	si	cs	cs	t=no|r=no|m=yes	12	coord
 14	es	ser	vsip3s0	vsip3s0	t=no|r=no|m=yes	15	cobj
@@ -328,7 +328,7 @@
 8	ahora	ahora	rg	rg	t=no|r=no|m=no	5	advmod
 9	el	el	da0ms0	da0ms0	t=no|r=yes|m=yes	10	det
 10	viaje	viaje	ncms000	ncms000	t=no|r=yes|m=yes	5	dobj
-11	al	al	spcms	spcms	t=no|r=no|m=yes	10	prepn
+11	al	al	spcms	spcms	t=no|r=yes|m=yes	10	prepn
 12	centro	centro	ncms000	ncms000	t=no|r=yes|m=yes	11	pobj
 13	.	.	fp	fp	t=no|r=no|m=yes	5	punct
 
@@ -385,8 +385,8 @@
 8	al	al	spcms	spcms	t=no|r=no|m=yes	6	iobj
 9	discrepante	discrepante	nccs000	nccs000	t=no|r=no|m=yes	8	pobj
 10	,	,	fc	fc	t=no|r=no|m=yes	16	punct
-11	al	al	spcms	spcms	t=no|r=yes|m=yes	17	iobj
-12	que	que	pr0cn000	pr0cn000	t=no|r=yes|m=yes	11	pobj
+11	al	al	spcms	spcms	t=no|r=no|m=yes	17	iobj
+12	que	que	pr0cn000	pr0cn000	t=no|r=no|m=yes	11	pobj
 13	el	el	da0ms0	da0ms0	t=yes|r=no|m=yes	14	det
 14	señor	señor	ncms000	ncms000	t=yes|r=no|m=yes	16	nsubj
 15	Aznar	Aznar	np00000	np00000	t=yes|r=no|m=yes	14	appos

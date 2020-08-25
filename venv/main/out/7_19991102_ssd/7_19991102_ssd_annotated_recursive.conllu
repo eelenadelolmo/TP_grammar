@@ -15,18 +15,18 @@
 15	acostumbrado	acostumbrado	aq0msp	aq0msp	t=no|r=yes|m=yes	12	amod
 16	desde	desde	sps00	sps00	t=no|r=yes|m=yes	15	prepa
 17	finales	final	ncmp000	ncmp000	t=no|r=yes|m=yes	16	pobj
-18	de	de	sps00	sps00	t=no|r=no|m=yes	17	prepn
+18	de	de	sps00	sps00	t=no|r=yes|m=yes	17	prepn
 19	los	el	da0mp0	da0mp0	t=no|r=yes|m=yes	20	det
 20	60	60	z	z	t=no|r=yes|m=yes	18	pobj
 21	a	a	sps00	sps00	t=no|r=yes|m=yes	15	oobj
 22	descorchar	descorchar	vmn0000	vmn0000	t=no|r=yes|m=yes	26	coord
 23	botellas	botella	ncfp000	ncfp000	t=no|r=yes|m=yes	22	dobj
-24	de	de	sps00	sps00	t=no|r=no|m=yes	23	prepn
+24	de	de	sps00	sps00	t=no|r=yes|m=yes	23	prepn
 25	cava	cava	ncfs000	ncfs000	t=no|r=yes|m=yes	24	pobj
 26	y	y	cc	cc	t=no|r=yes|m=yes	21	pobj
 27	coleccionar	coleccionar	vmn0000	vmn0000	t=no|r=yes|m=yes	26	coord
 28	coronas	corona	ncfp000	ncfp000	t=no|r=yes|m=yes	27	dobj
-29	de	de	sps00	sps00	t=no|r=no|m=yes	28	prepn
+29	de	de	sps00	sps00	t=no|r=yes|m=yes	28	prepn
 30	campeón	campeón	ncms000	ncms000	t=no|r=yes|m=yes	29	pobj
 31	.	.	fp	fp	t=no|r=no|m=yes	7	punct
 
@@ -73,7 +73,7 @@
 41	que	que	cs	cs	t=no|r=yes|m=yes	40	crobj
 42	23	23	z	z	t=no|r=yes|m=yes	43	num
 43	campeonatos	campeonato	ncmp000	ncmp000	t=no|r=yes|m=yes	36	dobj
-44	del	del	spcms	spcms	t=no|r=no|m=yes	43	prepn
+44	del	del	spcms	spcms	t=no|r=yes|m=yes	43	prepn
 45	mundo	mundo	ncms000	ncms000	t=no|r=yes|m=yes	44	pobj
 46	.	.	fp	fp	t=no|r=no|m=yes	36	punct
 
@@ -114,7 +114,7 @@
 35	sinónimo	sinónimo	aq0ms0	aq0ms0	t=no|r=yes|m=yes	34	attr
 36	de	de	sps00	sps00	t=no|r=yes|m=yes	35	prepa
 37	decadencia	decadencia	ncfs000	ncfs000	t=no|r=yes|m=yes	36	pobj
-38	en	en	sps00	sps00	t=no|r=no|m=yes	37	prepn
+38	en	en	sps00	sps00	t=no|r=yes|m=yes	37	prepn
 39	una	uno	di0fs0	di0fs0	t=no|r=yes|m=yes	40	det
 40	actividad	actividad	ncfs000	ncfs000	t=no|r=yes|m=yes	38	pobj
 41	con	con	sps00	sps00	t=no|r=yes|m=yes	40	prepn
@@ -154,9 +154,9 @@
 15	a	a	sps00	sps00	t=no|r=yes|m=yes	14	iobj
 16	la	el	da0fs0	da0fs0	t=no|r=yes|m=yes	17	det
 17	lista	lista	ncfs000	ncfs000	t=no|r=yes|m=yes	15	pobj
-18	de	de	sps00	sps00	t=no|r=no|m=yes	17	prepn
+18	de	de	sps00	sps00	t=no|r=yes|m=yes	17	prepn
 19	éxitos	éxito	ncmp000	ncmp000	t=no|r=yes|m=yes	18	pobj
-20	de	de	sps00	sps00	t=no|r=no|m=yes	17	prepn
+20	de	de	sps00	sps00	t=no|r=yes|m=yes	17	prepn
 21	1999	1999	z	z	t=no|r=yes|m=yes	20	pobj
 22	.	.	fp	fp	t=no|r=no|m=yes	13	punct
 
@@ -285,7 +285,7 @@
 17	Después	después	rg	rg	t=no|r=yes|m=yes	16	advmod
 18	el	el	da0ms0	da0ms0	t=no|r=yes|m=yes	19	det
 19	título	título	ncms000	ncms000	t=no|r=yes|m=yes	14	dobj
-20	de	de	sps00	sps00	t=no|r=no|m=yes	19	prepn
+20	de	de	sps00	sps00	t=no|r=yes|m=yes	19	prepn
 21	campeón	campeón	ncms000	ncms000	t=no|r=yes|m=yes	20	pobj
 22	de	de	sps00	sps00	t=no|r=yes|m=yes	21	prepn
 23	500cc	500	z	z	t=no|r=yes|m=yes	22	pobj
@@ -344,7 +344,7 @@
 12	la	el	da0fs0	da0fs0	t=no|r=yes|m=yes	14	det
 13	Mejor	mejor	aq0cs0	aq0cs0	t=no|r=yes|m=yes	14	amod
 14	moto	moto	ncms000	ncms000	t=no|r=yes|m=yes	11	pobj
-15	del	del	spcms	spcms	t=no|r=no|m=yes	14	prepn
+15	del	del	spcms	spcms	t=no|r=yes|m=yes	14	prepn
 16	Mundial	Mundial	np00000	np00000	t=no|r=yes|m=yes	15	pobj
 17	.	.	fp	fp	t=no|r=no|m=yes	5	punct
 

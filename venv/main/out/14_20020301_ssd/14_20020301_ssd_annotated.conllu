@@ -94,11 +94,11 @@
 2	situaciones	situación	ncfp000	ncfp000	recursive=no|theme=yes|rheme=no|main=yes	3	nsubj
 3	exigen	exigir	vmip3p0	vmip3p0	recursive=no|theme=no|rheme=yes|main=yes	0	root
 4	reflexionar	reflexionar	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	3	dobj
-5	sobre	sobre	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	4	prepv
+5	sobre	sobre	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	4	prepv
 6	el	el	da0ms0	da0ms0	recursive=no|theme=no|rheme=yes|main=yes	7	det
 7	déficit	déficit	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	5	pobj
 8	democrático	democrático	aq0ms0	aq0ms0	recursive=no|theme=no|rheme=yes|main=yes	7	amod
-9	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	7	prepn
+9	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	7	prepn
 10	la	el	da0fs0	da0fs0	recursive=no|theme=no|rheme=yes|main=yes	12	det
 11	actual	actual	aq0cs0	aq0cs0	recursive=no|theme=no|rheme=yes|main=yes	12	amod
 12	integración	integración	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	9	pobj

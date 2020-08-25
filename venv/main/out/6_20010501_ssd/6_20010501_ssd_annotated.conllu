@@ -56,7 +56,7 @@
 18	con	con	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	17	oobj
 19	un	uno	di0ms0	di0ms0	recursive=no|theme=no|rheme=yes|main=yes	20	det
 20	calendario	calendario	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	18	pobj
-21	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	20	prepn
+21	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	20	prepn
 22	negociación	negociación	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	21	pobj
 23	diseñado	diseñado	aq0msp	aq0msp	recursive=no|theme=no|rheme=yes|main=yes	20	amod
 24	con	con	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	23	prepa
@@ -136,7 +136,7 @@
 13	ser	ser	vsn0000	vsn0000	recursive=no|theme=no|rheme=yes|main=yes	12	dobj
 14	el	el	da0ms0	da0ms0	recursive=no|theme=no|rheme=yes|main=yes	15	det
 15	reactivo	reactivo	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	13	dobj
-16	para	para	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	15	prepn
+16	para	para	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	15	prepn
 17	recuperar	recuperar	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	16	pobj
 18	la	el	da0fs0	da0fs0	recursive=no|theme=no|rheme=yes|main=yes	20	det
 19	deseable	deseable	aq0cs0	aq0cs0	recursive=no|theme=no|rheme=yes|main=yes	20	amod
@@ -200,7 +200,7 @@
 38	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|rheme=no|main=yes	40	nsubj
 39	no	no	rn	rn	recursive=no|theme=no|rheme=yes|main=yes	40	neg
 40	están	estar	vmip3p0	vmip3p0	recursive=no|theme=no|rheme=yes|main=yes	37	rcmod
-41	en	en	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	40	prepv
+41	en	en	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	40	prepv
 42	números	número	ncmp000	ncmp000	recursive=no|theme=no|rheme=yes|main=yes	41	pobj
 43	rojos	rojo	aq0mp0	aq0mp0	recursive=no|theme=no|rheme=yes|main=yes	42	amod
 44	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	52	punct

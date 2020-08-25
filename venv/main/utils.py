@@ -105,6 +105,7 @@ def annotator_recursive(conllu_file):
             while len(hijos) > 0 and padre is None:
                 for hijo in hijos:
                     features_to_add = list()
+                    features_to_remove = list()
 
                     # Explore the tree until finding a recursive=yes annotated node
                     if hijo.token['feats']['recursive'] == 'yes':
@@ -113,6 +114,9 @@ def annotator_recursive(conllu_file):
                         for feature in hijo.token['feats']:
                             if hijo.token['feats'][feature] == 'yes':
                                 features_to_add.append(feature)
+                            if hijo.token['feats'][feature] == 'no':
+                                features_to_remove.append(feature)
+
 
                         # Stop the loop and delete the recursive=yes feature
                         # Now padre == the node to recursively propagate
@@ -133,6 +137,8 @@ def annotator_recursive(conllu_file):
                 for hijo in hijos:
                     for feature_to_add in features_to_add:
                         hijo.token['feats'][feature_to_add] = 'yes'
+                    for feature_to_remove in features_to_remove:
+                        hijo.token['feats'][feature_to_remove] = 'no'
                 nietos = []
                 for hijo in hijos:
                     nietos.extend(hijo.children)

@@ -1,6 +1,6 @@
-1	Cucharada	cucharada	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	7	dobj
+1	Cucharada	cucharada	ncfs000	ncfs000	recursive=yes|theme=no|rheme=no|main=yes	7	dobj
 2	a	a	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	1	prepn
-3	cucharada	cucharada	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	2	pobj
+3	cucharada	cucharada	ncfs000	ncfs000	recursive=yes|theme=no|rheme=no|main=yes	2	pobj
 4	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	7	punct
 5	el	el	da0ms0	da0ms0	recursive=no|theme=yes|rheme=no|main=yes	6	det
 6	chaval	chaval	ncms000	ncms000	recursive=no|theme=yes|rheme=no|main=yes	7	nsubj
@@ -11,7 +11,7 @@
 11	sopicaldo	sopicaldo	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	10	coord
 12	del	del	spcms	spcms	recursive=no|theme=no|rheme=yes|main=yes	10	coord
 13	día	día	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	12	pobj
-14	junto	junto	rg	rg	recursive=no|theme=no|rheme=no|main=no	7	prepv
+14	junto	junto	rg	rg	recursive=yes|theme=no|rheme=no|main=no	7	prepv
 15	a	a	sps00	sps00	recursive=no|theme=no|rheme=no|main=no	14	prep
 16	una	uno	di0fs0	di0fs0	recursive=no|theme=no|rheme=no|main=no	18	det
 17	paradójica	paradójico	aq0fs0	aq0fs0	recursive=no|theme=no|rheme=no|main=no	18	amod
@@ -25,7 +25,7 @@
 4	se	él	p0300000	p0300000	recursive=no|theme=no|rheme=yes|main=yes	5	reflec
 5	está	estar	vmip3s0	vmip3s0	recursive=no|theme=no|rheme=yes|main=yes	0	root
 6	desahogando	desahogar	vmg0000	vmg0000	recursive=no|theme=no|rheme=yes|main=yes	5	attr
-7	contra	contra	sps00	sps00	recursive=no|theme=no|rheme=no|main=no	5	prepv
+7	contra	contra	sps00	sps00	recursive=yes|theme=no|rheme=no|main=no	5	prepv
 8	compañeros	compañero	ncmp000	ncmp000	recursive=no|theme=no|rheme=no|main=no	9	coord
 9	y	y	cc	cc	recursive=no|theme=no|rheme=no|main=no	7	pobj
 10	vecinos	vecino	ncmp000	ncmp000	recursive=no|theme=no|rheme=no|main=no	9	coord
@@ -34,7 +34,7 @@
 13	y	y	cc	cc	recursive=no|theme=no|rheme=no|main=no	7	pobj
 14	minorías	minoría	ncfp000	ncfp000	recursive=no|theme=no|rheme=no|main=no	13	coord
 15	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=no	16	punct
-16	contra	contra	sps00	sps00	recursive=no|theme=no|rheme=no|main=no	5	prepv
+16	contra	contra	sps00	sps00	recursive=yes|theme=no|rheme=no|main=no	5	prepv
 17	&quot;	&quot;	fe	fe	recursive=no|theme=no|rheme=no|main=no	18	punct
 18	esos	ese	pd0mp000	pd0mp000	recursive=no|theme=no|rheme=no|main=no	16	pobj
 19	&quot;	&quot;	fe	fe	recursive=no|theme=no|rheme=no|main=no	18	punct
@@ -175,7 +175,7 @@
 11	provocado	provocar	vmp00sm	vmp00sm	recursive=no|theme=no|rheme=yes|main=yes	10	vobj
 12	el	el	da0ms0	da0ms0	recursive=no|theme=no|rheme=yes|main=yes	13	det
 13	escándalo	escándalo	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	11	dobj
-14	al	al	spcms	spcms	recursive=no|theme=no|rheme=yes|main=yes	11	prepv
+14	al	al	spcms	spcms	recursive=yes|theme=no|rheme=no|main=yes	11	prepv
 15	acusar	acusar	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	14	pobj
 16	a	a	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	15	dobj
 17	la	el	da0fs0	da0fs0	recursive=no|theme=no|rheme=yes|main=yes	19	det
@@ -220,7 +220,7 @@
 10	débil	débil	aq0cs0	aq0cs0	recursive=no|theme=no|rheme=no|main=yes	7	coord
 11	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	1	punct
 
-1	Pero	pero	cc	cc	recursive=no|theme=no|rheme=yes|main=yes	4	te
+1	Pero	pero	cc	cc	recursive=yes|theme=no|rheme=no|main=yes	4	te
 2	la	el	da0fs0	da0fs0	recursive=no|theme=yes|rheme=no|main=yes	3	det
 3	democracia	democracia	ncfs000	ncfs000	recursive=no|theme=yes|rheme=no|main=yes	4	nsubj
 4	tiene	tener	vmip3s0	vmip3s0	recursive=no|theme=no|rheme=yes|main=yes	0	root

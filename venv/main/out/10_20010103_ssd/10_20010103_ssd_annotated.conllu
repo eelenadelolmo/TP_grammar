@@ -3,7 +3,7 @@
 3	borrasca	borrasca	ncfs000	ncfs000	recursive=no|theme=yes|rheme=no|main=yes	4	nsubj
 4	cruzará	cruzar	vmif3s0	vmif3s0	recursive=no|theme=no|rheme=yes|main=yes	10	coord
 5	España	España	np00000	np00000	recursive=no|theme=no|rheme=yes|main=yes	4	dobj
-6	a	a	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	4	prepv
+6	a	a	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	4	prepv
 7	partir	partir	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	6	pobj
 8	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	7	iobj
 9	hoy	hoy	rg	rg	recursive=no|theme=no|rheme=yes|main=yes	8	advmod
@@ -55,7 +55,7 @@
 8	montañas	montaña	ncfp000	ncfp000	recursive=no|theme=yes|rheme=no|main=yes	6	coord
 9	se	él	p0300000	p0300000	recursive=no|theme=no|rheme=yes|main=yes	10	reflec
 10	normalizó	normalizar	vmis3s0	vmis3s0	recursive=no|theme=no|rheme=yes|main=yes	0	root
-11	en	en	sps00	sps00	recursive=no|theme=no|rheme=no|main=no	10	prepv
+11	en	en	sps00	sps00	recursive=yes|theme=no|rheme=no|main=no	10	prepv
 12	todas	todo	di0fp0	di0fp0	recursive=no|theme=no|rheme=no|main=no	14	det
 13	las	el	da0fp0	da0fp0	recursive=no|theme=no|rheme=no|main=no	14	det
 14	autonomías	autonomía	ncfp000	ncfp000	recursive=no|theme=no|rheme=no|main=no	11	pobj

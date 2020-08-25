@@ -1,4 +1,4 @@
-1	En	en	sps00	sps00	recursive=no|theme=no|rheme=no|main=no	9	prepv
+1	En	en	sps00	sps00	recursive=yes|theme=no|rheme=no|main=no	9	prepv
 2	esta	este	dd0fs0	dd0fs0	recursive=no|theme=no|rheme=no|main=no	3	det
 3	sociedad	sociedad	ncfs000	ncfs000	recursive=no|theme=no|rheme=no|main=no	1	pobj
 4	donde	donde	pr000000	pr000000	recursive=no|theme=no|rheme=no|main=no	5	dobj
@@ -34,7 +34,7 @@
 18	realidad	realidad	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	15	cobj
 19	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	7	punct
 
-1	Y	y	cc	cc	recursive=no|theme=no|rheme=yes|main=yes	11	te
+1	Y	y	cc	cc	recursive=yes|theme=no|rheme=no|main=yes	11	te
 2	los	el	da0mp0	da0mp0	recursive=no|theme=yes|rheme=no|main=yes	3	det
 3	informativos	informativo	ncmp000	ncmp000	recursive=no|theme=yes|rheme=no|main=yes	11	nsubj
 4	,	,	fc	fc	recursive=no|theme=yes|rheme=no|main=yes	3	punct
@@ -45,7 +45,7 @@
 9	realidad	realidad	ncfs000	ncfs000	recursive=no|theme=yes|rheme=no|main=yes	7	dobj
 10	,	,	fc	fc	recursive=no|theme=yes|rheme=no|main=yes	3	punct
 11	tratan	tratar	vmip3p0	vmip3p0	recursive=no|theme=no|rheme=yes|main=yes	0	root
-12	de	de	sps00	sps00	recursive=no|theme=no|rheme=no|main=no	11	prepv
+12	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=no	11	prepv
 13	convertirla	convertir	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	11	dobj
 14	en	en	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	11	oobj
 15	espectáculo	espectáculo	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	14	pobj
@@ -99,7 +99,7 @@
 8	ficción	ficción	ncfs000	ncfs000	recursive=no|theme=no|rheme=no|main=yes	6	pobj
 9	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	1	punct
 
-1	Pero	pero	cc	cc	recursive=no|theme=no|rheme=yes|main=yes	6	te
+1	Pero	pero	cc	cc	recursive=yes|theme=no|rheme=no|main=yes	6	te
 2	al	al	sps00	sps00	recursive=no|theme=yes|rheme=no|main=yes	5	advmod
 3	menos	menos	rg	rg	recursive=no|theme=yes|rheme=no|main=yes	2	advmod
 4	los	el	da0mp0	da0mp0	recursive=no|theme=yes|rheme=no|main=yes	5	det
@@ -121,7 +121,7 @@
 20	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	19	prep
 21	las	el	da0fp0	da0fp0	recursive=no|theme=no|rheme=yes|main=yes	22	det
 22	ratios	ratio	ncfp000	ncfp000	recursive=no|theme=no|rheme=yes|main=yes	20	pobj
-23	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	22	prepn
+23	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	22	prepn
 24	audiencia	audiencia	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	23	pobj
 25	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	6	punct
 

@@ -13,11 +13,11 @@
 13	en	en	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	21	oobj
 14	la	el	da0fs0	da0fs0	recursive=no|theme=no|rheme=yes|main=yes	15	det
 15	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|rheme=yes|main=yes	13	pobj
-16	hasta	hasta	rg	rg	recursive=no|theme=yes|rheme=yes|main=yes	18	advmod
-17	el	el	da0ms0	da0ms0	recursive=no|theme=yes|rheme=yes|main=yes	18	det
-18	president	president	ncms000	ncms000	recursive=no|theme=yes|rheme=yes|main=yes	20	nsubj
-19	Pujol	Pujol	np00000	np00000	recursive=no|theme=yes|rheme=yes|main=yes	18	appos
-20	ha	haber	vaip3s0	vaip3s0	recursive=yes|theme=no|rheme=no|main=yes	12	prepn
+16	hasta	hasta	rg	rg	recursive=no|theme=no|rheme=yes|main=yes	18	advmod
+17	el	el	da0ms0	da0ms0	recursive=no|theme=no|rheme=yes|main=yes	18	det
+18	president	president	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	20	nsubj
+19	Pujol	Pujol	np00000	np00000	recursive=no|theme=no|rheme=yes|main=yes	18	appos
+20	ha	haber	vaip3s0	vaip3s0	recursive=no|theme=no|rheme=yes|main=yes	12	prepn
 21	tenido	tener	vmp00sm	vmp00sm	recursive=no|theme=no|rheme=yes|main=yes	20	vobj
 22	que	que	cs	cs	recursive=no|theme=no|rheme=yes|main=yes	21	conj
 23	intervenir	intervenir	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	22	cobj
@@ -57,7 +57,7 @@
 15	éste	este	pd0ms000	pd0ms000	recursive=no|theme=no|rheme=no|main=yes	14	pobj
 16	un	uno	di0ms0	di0ms0	recursive=no|theme=no|rheme=no|main=yes	17	det
 17	país	país	ncms000	ncms000	recursive=no|theme=no|rheme=no|main=yes	13	dobj
-18	donde	donde	pr000000	pr000000	recursive=no|theme=no|rheme=yes|main=yes	22	dobj
+18	donde	donde	pr000000	pr000000	recursive=yes|theme=no|rheme=no|main=yes	22	dobj
 19	todo	todo	pi0ms000	pi0ms000	recursive=no|theme=yes|rheme=no|main=yes	20	nsubj
 20	tiene	tener	vmip3s0	vmip3s0	recursive=no|theme=no|rheme=yes|main=yes	17	rcmod
 21	que	que	cs	cs	recursive=no|theme=no|rheme=yes|main=yes	20	conj
@@ -136,7 +136,7 @@
 17	los	el	da0mp0	da0mp0	recursive=no|theme=no|rheme=yes|main=yes	18	det
 18	textos	texto	ncmp000	ncmp000	recursive=no|theme=no|rheme=yes|main=yes	13	appos
 19	magníficos	magnífico	aq0mp0	aq0mp0	recursive=no|theme=no|rheme=yes|main=yes	18	amod
-20	en	en	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	25	prepv
+20	en	en	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	25	prepv
 21	los	el	da0mp0	da0mp0	recursive=no|theme=no|rheme=yes|main=yes	22	det
 22	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|rheme=yes|main=yes	20	pobj
 23	Verdaguer	Verdaguer	np00000	np00000	recursive=no|theme=no|rheme=yes|main=yes	25	nsubj

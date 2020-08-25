@@ -23,18 +23,18 @@
 23	HERIDOS	herido	ncmp000	ncmp000	recursive=no|theme=no|rheme=no|main=yes	22	pobj
 24	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=no	2	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|theme=no|rheme=yes|main=yes	2	det
-2	12	12	z	z	recursive=no|theme=no|rheme=yes|main=yes	11	dobj
-3	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	2	prep
-4	octubre	octubre	ncfp000	ncfp000	recursive=no|theme=no|rheme=yes|main=yes	3	pobj
+1	El	el	da0ms0	da0ms0	recursive=yes|theme=no|rheme=no|main=yes	2	det
+2	12	12	z	z	recursive=yes|theme=no|rheme=no|main=yes	11	dobj
+3	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	2	prep
+4	octubre	octubre	ncfp000	ncfp000	recursive=yes|theme=no|rheme=no|main=yes	3	pobj
 5	del	del	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	4	prepn
-6	2001	2001	z	z	recursive=no|theme=no|rheme=yes|main=yes	5	pobj
+6	2001	2001	z	z	recursive=yes|theme=no|rheme=no|main=yes	5	pobj
 7	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	11	punct
 8	un	uno	di0ms0	di0ms0	recursive=no|theme=yes|rheme=no|main=yes	9	det
 9	coche	coche	ncms000	ncms000	recursive=no|theme=yes|rheme=no|main=yes	11	nsubj
 10	bomba	bomba	ncfs000	ncfs000	recursive=no|theme=yes|rheme=no|main=yes	9	appos
 11	explotó	explotar	vmis3s0	vmis3s0	recursive=no|theme=no|rheme=yes|main=yes	0	root
-12	en	en	sps00	sps00	recursive=no|theme=no|rheme=no|main=no	11	prepv
+12	en	en	sps00	sps00	recursive=yes|theme=no|rheme=no|main=no	11	prepv
 13	un	uno	di0ms0	di0ms0	recursive=no|theme=no|rheme=no|main=no	14	det
 14	párking	párking	ncms000	ncms000	recursive=no|theme=no|rheme=no|main=no	12	pobj
 15	al	al	spcms	spcms	recursive=no|theme=no|rheme=no|main=no	18	oobj
@@ -59,7 +59,7 @@
 7	30	30	z	z	recursive=no|theme=no|rheme=yes|main=yes	5	dobj
 8	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	7	prep
 9	octubre	octubre	ncfp000	ncfp000	recursive=no|theme=no|rheme=yes|main=yes	8	pobj
-10	del	del	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	9	prepn
+10	del	del	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	9	prepn
 11	2000	2000	z	z	recursive=no|theme=no|rheme=yes|main=yes	10	pobj
 12	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	5	punct
 
@@ -89,10 +89,10 @@
 13	estalló	estallar	vmis3s0	vmis3s0	recursive=no|theme=no|rheme=yes|main=yes	8	dep
 14	un	uno	di0ms0	di0ms0	recursive=no|theme=no|rheme=yes|main=yes	15	det
 15	coche	coche	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	13	nsubj
-16	ante	ante	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	13	prepv
+16	ante	ante	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	13	prepv
 17	la	el	da0fs0	da0fs0	recursive=no|theme=no|rheme=yes|main=yes	18	det
 18	sede	sede	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	16	pobj
-19	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	18	prepn
+19	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	18	prepn
 20	Repsol-YPF	Repsol-YPF	np00000	np00000	recursive=no|theme=no|rheme=yes|main=yes	19	pobj
 21	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	6	punct
 

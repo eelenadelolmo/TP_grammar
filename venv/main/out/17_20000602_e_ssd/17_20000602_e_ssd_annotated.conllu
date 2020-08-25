@@ -9,7 +9,7 @@
 9	en	en	sps00	sps00	recursive=no|theme=yes|rheme=no|main=yes	2	prepn
 10	España	España	np00000	np00000	recursive=no|theme=yes|rheme=no|main=yes	9	pobj
 11	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|rheme=yes|main=yes	16	coord
-12	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	11	prepv
+12	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	11	prepv
 13	45.000	45000	z	z	recursive=no|theme=no|rheme=yes|main=yes	14	num
 14	anuales	anual	aq0cp0	aq0cp0	recursive=no|theme=no|rheme=yes|main=yes	12	pobj
 15	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	16	punct
@@ -59,7 +59,7 @@
 13	fallecimientos	fallecimiento	ncmp000	ncmp000	recursive=no|theme=no|rheme=yes|main=yes	11	pobj
 14	anuales	anual	aq0cp0	aq0cp0	recursive=no|theme=no|rheme=yes|main=yes	16	coord
 15	,	,	fc	fc	recursive=no|theme=no|rheme=yes|main=yes	16	punct
-16	y	y	cc	cc	recursive=yes|theme=no|rheme=no|main=yes	13	prepn
+16	y	y	cc	cc	recursive=no|theme=no|rheme=yes|main=yes	13	prepn
 17	no	no	rn	rn	recursive=no|theme=no|rheme=yes|main=yes	18	neg
 18	diarios	diario	aq0mp0	aq0mp0	recursive=no|theme=no|rheme=yes|main=yes	16	coord
 19	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	10	punct

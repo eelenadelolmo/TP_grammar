@@ -1,6 +1,6 @@
-1	Cucharada	cucharada	ncfs000	ncfs000	t=no|r=yes|m=yes	7	dobj
+1	Cucharada	cucharada	ncfs000	ncfs000	t=no|r=no|m=yes	7	dobj
 2	a	a	sps00	sps00	t=no|r=no|m=yes	1	prepn
-3	cucharada	cucharada	ncfs000	ncfs000	t=no|r=yes|m=yes	2	pobj
+3	cucharada	cucharada	ncfs000	ncfs000	t=no|r=no|m=yes	2	pobj
 4	,	,	fc	fc	t=no|r=no|m=yes	7	punct
 5	el	el	da0ms0	da0ms0	t=yes|r=no|m=yes	6	det
 6	chaval	chaval	ncms000	ncms000	t=yes|r=no|m=yes	7	nsubj
@@ -175,12 +175,12 @@
 11	provocado	provocar	vmp00sm	vmp00sm	t=no|r=yes|m=yes	10	vobj
 12	el	el	da0ms0	da0ms0	t=no|r=yes|m=yes	13	det
 13	escándalo	escándalo	ncms000	ncms000	t=no|r=yes|m=yes	11	dobj
-14	al	al	spcms	spcms	t=no|r=yes|m=yes	11	prepv
-15	acusar	acusar	vmn0000	vmn0000	t=no|r=yes|m=yes	14	pobj
-16	a	a	sps00	sps00	t=no|r=yes|m=yes	15	dobj
-17	la	el	da0fs0	da0fs0	t=no|r=yes|m=yes	19	det
-18	sacrosanta	sacrosanto	aq0fs0	aq0fs0	t=no|r=yes|m=yes	19	amod
-19	institución	institución	ncfs000	ncfs000	t=no|r=yes|m=yes	16	pobj
+14	al	al	spcms	spcms	t=no|r=no|m=yes	11	prepv
+15	acusar	acusar	vmn0000	vmn0000	t=no|r=no|m=yes	14	pobj
+16	a	a	sps00	sps00	t=no|r=no|m=yes	15	dobj
+17	la	el	da0fs0	da0fs0	t=no|r=no|m=yes	19	det
+18	sacrosanta	sacrosanto	aq0fs0	aq0fs0	t=no|r=no|m=yes	19	amod
+19	institución	institución	ncfs000	ncfs000	t=no|r=no|m=yes	16	pobj
 20	.	.	fp	fp	t=no|r=no|m=yes	10	punct
 
 1	Se	él	p0300000	p0300000	t=no|r=no|m=yes	3	reflec
@@ -220,7 +220,7 @@
 10	débil	débil	aq0cs0	aq0cs0	t=no|r=no|m=yes	7	coord
 11	.	.	fp	fp	t=no|r=no|m=yes	1	punct
 
-1	Pero	pero	cc	cc	t=no|r=yes|m=yes	4	te
+1	Pero	pero	cc	cc	t=no|r=no|m=yes	4	te
 2	la	el	da0fs0	da0fs0	t=yes|r=no|m=yes	3	det
 3	democracia	democracia	ncfs000	ncfs000	t=yes|r=no|m=yes	4	nsubj
 4	tiene	tener	vmip3s0	vmip3s0	t=no|r=yes|m=yes	0	root

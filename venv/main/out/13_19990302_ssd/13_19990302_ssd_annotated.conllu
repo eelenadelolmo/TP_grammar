@@ -34,7 +34,7 @@
 8	Allende	Allende	np00000	np00000	recursive=no|theme=yes|rheme=no|main=yes	7	pobj
 9	se	se	p0000000	p0000000	recursive=no|theme=no|rheme=yes|main=yes	10	reflec
 10	encuentran	encontrar	vmip3p0	vmip3p0	recursive=no|theme=no|rheme=yes|main=yes	0	root
-11	en	en	sps00	sps00	recursive=no|theme=no|rheme=no|main=no	10	prepv
+11	en	en	sps00	sps00	recursive=yes|theme=no|rheme=no|main=no	10	prepv
 12	las	el	da0fp0	da0fp0	recursive=no|theme=no|rheme=no|main=no	13	det
 13	memorias	memoria	ncfp000	ncfp000	recursive=no|theme=no|rheme=no|main=no	11	pobj
 14	del	del	spcms	spcms	recursive=no|theme=no|rheme=no|main=no	13	prepn
@@ -73,11 +73,11 @@
 26	&quot;	&quot;	fe	fe	recursive=no|theme=no|rheme=yes|main=yes	28	punct
 27	su	su	dp3cs0	dp3cs0	recursive=no|theme=no|rheme=yes|main=yes	28	poss
 28	insistencia	insistencia	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	25	dobj
-29	en	en	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	28	prepn
+29	en	en	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	28	prepn
 30	hacer	hacer	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	29	pobj
 31	cualquier	cualquiera	di0cs0	di0cs0	recursive=no|theme=no|rheme=yes|main=yes	32	det
 32	cosa	cosa	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	30	dobj
-33	que	que	pr0cn000	pr0cn000	recursive=no|theme=yes|rheme=yes|main=yes	34	nsubj
+33	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|rheme=yes|main=yes	34	nsubj
 34	anulara	anular	vmsi3s0	vmsi3s0	recursive=no|theme=no|rheme=yes|main=yes	32	rcmod
 35	la	el	da0fs0	da0fs0	recursive=no|theme=no|rheme=yes|main=yes	36	det
 36	negligencia	negligencia	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	34	dobj

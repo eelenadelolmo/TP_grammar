@@ -26,14 +26,14 @@
 26	XXIII	XXIII	np00000	np00000	t=no|r=no|m=yes	25	appos
 27	y	y	cc	cc	t=no|r=no|m=yes	0	root
 28	,	,	fc	fc	t=no|r=no|m=yes	41	punct
-29	a	a	sps00	sps00	t=no|r=yes|m=yes	41	prepv
-30	comienzos	comienzo	ncfs000	ncfs000	t=no|r=yes|m=yes	29	pobj
+29	a	a	sps00	sps00	t=no|r=no|m=yes	41	prepv
+30	comienzos	comienzo	ncfs000	ncfs000	t=no|r=no|m=yes	29	pobj
 31	de	de	sps00	sps00	t=no|r=no|m=yes	30	prepn
-32	la	el	da0fs0	da0fs0	t=no|r=yes|m=yes	33	det
-33	década	década	ncfs000	ncfs000	t=no|r=yes|m=yes	31	pobj
-34	de	de	sps00	sps00	t=no|r=yes|m=yes	33	prepn
-35	los	el	da0mp0	da0mp0	t=no|r=yes|m=yes	36	det
-36	70	1970	z	z	t=no|r=yes|m=yes	34	pobj
+32	la	el	da0fs0	da0fs0	t=no|r=no|m=yes	33	det
+33	década	década	ncfs000	ncfs000	t=no|r=no|m=yes	31	pobj
+34	de	de	sps00	sps00	t=no|r=no|m=yes	33	prepn
+35	los	el	da0mp0	da0mp0	t=no|r=no|m=yes	36	det
+36	70	1970	z	z	t=no|r=no|m=yes	34	pobj
 37	,	,	fc	fc	t=no|r=no|m=yes	41	punct
 38	la	el	da0fs0	da0fs0	t=yes|r=no|m=yes	39	det
 39	prensa	prensa	ncfs000	ncfs000	t=yes|r=no|m=yes	41	nsubj
@@ -46,8 +46,8 @@
 46	próxima	próximo	aq0fs0	aq0fs0	t=no|r=yes|m=yes	44	amod
 47	.	.	fp	fp	t=no|r=no|m=yes	27	punct
 
-1	Sin	sin	sps00	sps00	t=no|r=yes|m=yes	10	advmod
-2	embargo	embargo	ncmp000	ncmp000	t=no|r=yes|m=yes	1	pobj
+1	Sin	sin	sps00	sps00	t=no|r=no|m=yes	10	advmod
+2	embargo	embargo	ncmp000	ncmp000	t=no|r=no|m=yes	1	pobj
 3	,	,	fc	fc	t=no|r=no|m=yes	9	punct
 4	la	el	da0fs0	da0fs0	t=yes|r=no|m=yes	5	det
 5	beatificación	beatificación	ncfs000	ncfs000	t=yes|r=no|m=yes	9	nsubj
@@ -84,7 +84,7 @@
 20	beatificación	beatificación	ncfs000	ncfs000	t=yes|r=no|m=yes	19	pobj
 21	no	no	rn	rn	t=no|r=yes|m=yes	22	neg
 22	llegó	llegar	vmis3s0	vmis3s0	t=no|r=yes|m=yes	16	cobj
-23	a	a	sps00	sps00	t=no|r=yes|m=yes	22	prepv
+23	a	a	sps00	sps00	t=no|r=no|m=yes	22	prepv
 24	detenerse	detener	vmn0000	vmn0000	t=no|r=yes|m=yes	22	dobj
 25	,	,	fc	fc	t=no|r=no|m=yes	26	punct
 26	ha	haber	vaip3s0	vaip3s0	t=no|r=no|m=yes	14	cobj
@@ -142,7 +142,7 @@
 7	mostró	mostrar	vmis3s0	vmis3s0	t=no|r=yes|m=yes	0	root
 8	ninguna	ninguno	di0fs0	di0fs0	t=no|r=yes|m=yes	9	det
 9	prisa	prisa	ncfs000	ncfs000	t=no|r=yes|m=yes	7	dobj
-10	por	por	sps00	sps00	t=no|r=no|m=yes	9	prepn
+10	por	por	sps00	sps00	t=no|r=yes|m=yes	9	prepn
 11	glorificar	glorificar	vmn0000	vmn0000	t=no|r=yes|m=yes	10	pobj
 12	al	al	spcms	spcms	t=no|r=yes|m=yes	11	dobj
 13	promotor	promotor	ncms000	ncms000	t=no|r=yes|m=yes	12	pobj

@@ -6,10 +6,10 @@
 6	?	?	fit	fit	t=no|r=no|m=yes	3	punct
 7	.	.	fp	fp	t=no|r=no|m=yes	3	punct
 
-1	Como	como	cs	cs	t=no|r=yes|m=yes	9	dep
-2	todos	todo	di0mp0	di0mp0	t=no|r=yes|m=yes	4	det
-3	los	el	da0mp0	da0mp0	t=no|r=yes|m=yes	4	det
-4	años	año	ncmp000	ncmp000	t=no|r=yes|m=yes	1	cobj
+1	Como	como	cs	cs	t=no|r=no|m=yes	9	dep
+2	todos	todo	di0mp0	di0mp0	t=no|r=no|m=yes	4	det
+3	los	el	da0mp0	da0mp0	t=no|r=no|m=yes	4	det
+4	años	año	ncmp000	ncmp000	t=no|r=no|m=yes	1	cobj
 5	,	,	fc	fc	t=no|r=no|m=yes	9	punct
 6	la	el	da0fs0	da0fs0	t=yes|r=no|m=yes	7	det
 7	pregunta	pregunta	ncfs000	ncfs000	t=yes|r=no|m=yes	9	nsubj
@@ -19,7 +19,7 @@
 11	como	como	cs	cs	t=no|r=yes|m=yes	9	dep
 12	un	uno	di0ms0	di0ms0	t=no|r=yes|m=yes	13	det
 13	reguero	reguero	ncms000	ncms000	t=no|r=yes|m=yes	11	cobj
-14	de	de	sps00	sps00	t=no|r=no|m=yes	13	prepn
+14	de	de	sps00	sps00	t=no|r=yes|m=yes	13	prepn
 15	pólvora	pólvora	ncfs000	ncfs000	t=no|r=yes|m=yes	14	pobj
 16	a	a	sps00	sps00	t=no|r=no|m=no	9	prepv
 17	partir	partir	vmn0000	vmn0000	t=no|r=no|m=no	16	pobj
@@ -143,10 +143,10 @@
 2	comprensible	comprensible	aq0cs0	aq0cs0	t=no|r=no|m=yes	1	cpred
 3	que	que	cc	cc	t=no|r=no|m=yes	1	csubj
 4	,	,	fc	fc	t=no|r=no|m=yes	12	punct
-5	ante	ante	sps00	sps00	t=no|r=yes|m=yes	12	prepv
-6	este	este	dd0ms0	dd0ms0	t=no|r=yes|m=yes	8	det
-7	fascinante	fascinante	aq0cs0	aq0cs0	t=no|r=yes|m=yes	8	amod
-8	programa	programa	ncms000	ncms000	t=no|r=yes|m=yes	5	pobj
+5	ante	ante	sps00	sps00	t=no|r=no|m=yes	12	prepv
+6	este	este	dd0ms0	dd0ms0	t=no|r=no|m=yes	8	det
+7	fascinante	fascinante	aq0cs0	aq0cs0	t=no|r=no|m=yes	8	amod
+8	programa	programa	ncms000	ncms000	t=no|r=no|m=yes	5	pobj
 9	,	,	fc	fc	t=no|r=no|m=yes	12	punct
 10	la	el	da0fs0	da0fs0	t=yes|r=no|m=yes	11	det
 11	gente	gente	ncfs000	ncfs000	t=yes|r=no|m=yes	12	nsubj

@@ -5,14 +5,14 @@
 5	sido	ser	vsp00sm	vsp00sm	recursive=no|theme=no|rheme=yes|main=yes	4	vobj
 6	muy	mucho	rg	rg	recursive=no|theme=no|rheme=yes|main=yes	7	advmod
 7	activa	activo	aq0fs0	aq0fs0	recursive=no|theme=no|rheme=yes|main=yes	5	cpred
-8	al	al	spcms	spcms	recursive=no|theme=no|rheme=yes|main=yes	5	prepv
+8	al	al	spcms	spcms	recursive=yes|theme=no|rheme=no|main=yes	5	prepv
 9	implantar	implantar	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	8	pobj
 10	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|rheme=yes|main=yes	11	poss
 11	actividades	actividad	ncfp000	ncfp000	recursive=no|theme=no|rheme=yes|main=yes	9	dobj
-12	al	al	spcms	spcms	recursive=no|theme=no|rheme=yes|main=yes	9	prepv
+12	al	al	spcms	spcms	recursive=yes|theme=no|rheme=no|main=yes	9	prepv
 13	otro	otro	di0ms0	di0ms0	recursive=no|theme=no|rheme=yes|main=yes	14	det
 14	lado	lado	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	12	pobj
-15	del	del	spcms	spcms	recursive=yes|theme=no|rheme=no|main=yes	14	prepn
+15	del	del	spcms	spcms	recursive=no|theme=no|rheme=yes|main=yes	14	prepn
 16	Atlántico	Atlántico	np00000	np00000	recursive=no|theme=no|rheme=yes|main=yes	15	pobj
 17	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	4	punct
 
@@ -21,17 +21,17 @@
 3	BSCH	BSCH	np00000	np00000	recursive=no|theme=yes|rheme=no|main=yes	2	coord
 4	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|rheme=yes|main=yes	0	root
 5	integrado	integrar	vmp00sm	vmp00sm	recursive=no|theme=no|rheme=yes|main=yes	4	vobj
-6	en	en	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	5	prepv
+6	en	en	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	5	prepv
 7	sus	su	dp3cp0	dp3cp0	recursive=no|theme=no|rheme=yes|main=yes	8	poss
 8	estructuras	estructura	ncfp000	ncfp000	recursive=no|theme=no|rheme=yes|main=yes	6	pobj
 9	bancos	banco	ncmp000	ncmp000	recursive=no|theme=no|rheme=yes|main=yes	5	dobj
-10	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	9	prepn
+10	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	9	prepn
 11	la	el	da0fs0	da0fs0	recursive=no|theme=no|rheme=yes|main=yes	12	det
 12	región	región	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	10	pobj
 13	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	4	punct
 
-1	En	en	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	7	prepv
-2	México	México	np00000	np00000	recursive=no|theme=no|rheme=yes|main=yes	1	pobj
+1	En	en	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	7	prepv
+2	México	México	np00000	np00000	recursive=yes|theme=no|rheme=no|main=yes	1	pobj
 3	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	6	punct
 4	el	el	da0ms0	da0ms0	recursive=no|theme=yes|rheme=no|main=yes	5	det
 5	BBVA	BBVA	np00000	np00000	recursive=no|theme=yes|rheme=no|main=yes	6	nsubj

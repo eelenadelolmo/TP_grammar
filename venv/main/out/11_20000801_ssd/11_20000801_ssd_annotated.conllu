@@ -33,7 +33,7 @@
 9	quienes	quien	pr0cp000	pr0cp000	recursive=no|theme=yes|rheme=no|main=yes	10	nsubj
 10	puedan	poder	vmsp3p0	vmsp3p0	recursive=no|theme=no|rheme=yes|main=yes	8	rcmod
 11	venir	venir	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	10	dobj
-12	a	a	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	11	prepv
+12	a	a	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	11	prepv
 13	la	el	da0fs0	da0fs0	recursive=no|theme=no|rheme=yes|main=yes	14	det
 14	zona	zona	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	12	pobj
 15	,	,	fc	fc	recursive=no|theme=no|rheme=no|main=yes	5	punct
@@ -74,16 +74,16 @@
 6	acostumbrados	acostumbrado	aq0mpp	aq0mpp	recursive=no|theme=no|rheme=yes|main=yes	5	attr
 7	a	a	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	6	oobj
 8	ir	ir	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	7	pobj
-9	a	a	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	8	prepv
+9	a	a	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	8	prepv
 10	comprar	comprar	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	9	pobj
-11	a	a	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	10	prepv
+11	a	a	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	10	prepv
 12	los	el	da0mp0	da0mp0	recursive=no|theme=no|rheme=yes|main=yes	13	det
 13	Encants	Encants	np00000	np00000	recursive=no|theme=no|rheme=yes|main=yes	11	pobj
-14	al	al	spcms	spcms	recursive=yes|theme=no|rheme=no|main=yes	13	prepn
+14	al	al	spcms	spcms	recursive=no|theme=no|rheme=yes|main=yes	13	prepn
 15	lugar	lugar	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	14	pobj
 16	donde	donde	pr000000	pr000000	recursive=no|theme=no|rheme=yes|main=yes	18	nsubj
 17	siempre	siempre	rg	rg	recursive=no|theme=no|rheme=yes|main=yes	19	advmod
-18	han	haber	vaip3p0	vaip3p0	recursive=no|theme=no|rheme=yes|main=yes	15	rcmod
+18	han	haber	vaip3p0	vaip3p0	recursive=yes|theme=no|rheme=no|main=yes	15	rcmod
 19	estado	estar	vmp00sm	vmp00sm	recursive=no|theme=no|rheme=yes|main=yes	18	vobj
 20	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	5	punct
 

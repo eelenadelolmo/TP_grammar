@@ -30,7 +30,7 @@
 30	libraron	librar	vmis3p0	vmis3p0	t=no|r=yes|m=yes	40	coord
 31	de	de	sps00	sps00	t=no|r=yes|m=yes	30	oobj
 32	uno	uno	pi0ms000	pi0ms000	t=no|r=yes|m=yes	31	pobj
-33	de	de	sps00	sps00	t=no|r=no|m=yes	32	prepn
+33	de	de	sps00	sps00	t=no|r=yes|m=yes	32	prepn
 34	los	el	da0mp0	da0mp0	t=no|r=yes|m=yes	35	det
 35	tabúes	tabú	ncmp000	ncmp000	t=no|r=yes|m=yes	33	pobj
 36	de	de	sps00	sps00	t=no|r=yes|m=yes	35	prepn
@@ -139,9 +139,9 @@
 4	los	el	da0mp0	da0mp0	t=yes|r=no|m=yes	5	det
 5	varones	varón	ncmp000	ncmp000	t=yes|r=no|m=yes	6	nsubj
 6	mirábamos	mirar	vmii1p0	vmii1p0	t=no|r=yes|m=yes	3	cobj
-7	con	con	sps00	sps00	t=no|r=yes|m=yes	6	prepv
-8	demasiada	demasiado	di0fs0	di0fs0	t=no|r=yes|m=yes	9	det
-9	avidez	avidez	ncfs000	ncfs000	t=no|r=yes|m=yes	7	pobj
+7	con	con	sps00	sps00	t=no|r=no|m=yes	6	prepv
+8	demasiada	demasiado	di0fs0	di0fs0	t=no|r=no|m=yes	9	det
+9	avidez	avidez	ncfs000	ncfs000	t=no|r=no|m=yes	7	pobj
 10	?	?	fit	fit	t=no|r=no|m=yes	2	punct
 11	.	.	fp	fp	t=no|r=no|m=yes	2	punct
 

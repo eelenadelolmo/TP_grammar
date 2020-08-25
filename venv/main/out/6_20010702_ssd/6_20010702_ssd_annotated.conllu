@@ -41,7 +41,7 @@
 20	que	que	pr0cn000	pr0cn000	recursive=no|theme=no|rheme=yes|main=yes	23	dobj
 21	el	el	da0ms0	da0ms0	recursive=no|theme=no|rheme=yes|main=yes	22	det
 22	Govern	Govern	np00000	np00000	recursive=no|theme=no|rheme=yes|main=yes	23	nsubj
-23	tiene	tener	vmip3s0	vmip3s0	recursive=no|theme=no|rheme=yes|main=yes	18	rcmod
+23	tiene	tener	vmip3s0	vmip3s0	recursive=yes|theme=no|rheme=no|main=yes	18	rcmod
 24	ahora	ahora	rg	rg	recursive=no|theme=no|rheme=yes|main=yes	23	advmod
 25	mismo	mismo	aq0ms0	aq0ms0	recursive=no|theme=no|rheme=yes|main=yes	24	amod
 26	encima	encima	rg	rg	recursive=no|theme=no|rheme=yes|main=yes	23	advmod
@@ -67,7 +67,7 @@
 15	el	el	da0ms0	da0ms0	recursive=no|theme=no|rheme=yes|main=yes	17	det
 16	principal	principal	aq0cs0	aq0cs0	recursive=no|theme=no|rheme=yes|main=yes	17	amod
 17	líder	líder	nccs000	nccs000	recursive=no|theme=no|rheme=yes|main=yes	14	pobj
-18	de	de	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	17	prepn
+18	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	17	prepn
 19	esa	ese	dd0fs0	dd0fs0	recursive=no|theme=no|rheme=yes|main=yes	20	det
 20	oposición	oposición	ncfs000	ncfs000	recursive=no|theme=no|rheme=yes|main=yes	18	pobj
 21	,	,	fc	fc	recursive=no|theme=no|rheme=yes|main=yes	17	punct
@@ -218,10 +218,10 @@
 39	de	de	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	41	advmod
 40	momento	momento	vmn0000	vmn0000	recursive=no|theme=no|rheme=yes|main=yes	39	pobj
 41	es	ser	vsip3s0	vsip3s0	recursive=no|theme=no|rheme=yes|main=yes	36	rcmod
-42	en	en	sps00	sps00	recursive=no|theme=no|rheme=yes|main=yes	41	prepv
+42	en	en	sps00	sps00	recursive=yes|theme=no|rheme=no|main=yes	41	prepv
 43	el	el	da0ms0	da0ms0	recursive=no|theme=no|rheme=yes|main=yes	44	det
 44	otoño	otoño	ncms000	ncms000	recursive=no|theme=no|rheme=yes|main=yes	42	pobj
-45	del	del	spcms	spcms	recursive=yes|theme=no|rheme=no|main=yes	44	prepn
+45	del	del	spcms	spcms	recursive=no|theme=no|rheme=yes|main=yes	44	prepn
 46	2003	2003	z	z	recursive=no|theme=no|rheme=yes|main=yes	45	pobj
 47	.	.	fp	fp	recursive=no|theme=no|rheme=no|main=yes	3	punct
 
