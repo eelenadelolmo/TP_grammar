@@ -338,7 +338,7 @@ rule rheme {
   }
 }
 
-strat S1 { Try ( Iter ( rheme ) ) }
+strat S1 { Iter ( Try ( rheme ) ) }
 """
 
 
@@ -394,10 +394,10 @@ grs_list.append(grs_nsubj_ellision_rep)
 grs_list.append(grs_preceding_subjects)
 grs_list.append(grs_preceding_subject_first)
 grs_list.append(grs_dealingWith_coordination)
-grs_list.append(grs_rheme_head)
 grs_list.append(grs_main_satellites_out)
 grs_list.append(grs_main_extra_in)
 grs_list.append(grs_main_extra_in_sub)
+grs_list.append(grs_rheme_head)
 grs_list.append(grs_rheme_cleaning)
 grs_list.append(grs_rep)
 # grs_list.append(grs_rheme_cleaning_not_main)
