@@ -76,7 +76,7 @@ def to_conllu(graph):
             conllu_str += '\t'
             conllu_str += morph['xpos']
             conllu_str += '\t'
-            conllu_str = conllu_str + 'recursive=' + morph['recursive'] + '|theme=' + morph['theme'] + '|rheme=' + morph['rheme'] + '|main=' + morph['main']
+            conllu_str = conllu_str + 'recursive=' + morph['recursive'] + '|rep=' + morph['rep'] + '|theme=' + morph['theme'] + '|rheme=' + morph['rheme'] + '|main=' + morph['main']
             conllu_str += '\t'
             conllu_str += str(heads[key][0]) if len(heads[key]) == 2 else '0'
             conllu_str += '\t'

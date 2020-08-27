@@ -5,10 +5,10 @@
         <title>Drawing the trees for the sentences in the text</title>
     
         <script>
-            function SyncScroll(phoneFaceId) {
+            function SyncScroll(page) {
               var div1 = document.getElementById("left");
               var div2 = document.getElementById("right");
-              if (phoneFaceId=="left") {
+              if (page=="left") {
                 div2.scrollTop = div1.scrollTop;
               }
               else {

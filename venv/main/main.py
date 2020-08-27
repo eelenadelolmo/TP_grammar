@@ -84,24 +84,43 @@ def copytree(src, dst, symlinks=False, ignore=None):
 grs_list = list()
 
 
+grs_solving_weirdAnn = """
+
+rule cobj_subordination {
+  pattern {
+    R -[cobj]-> A;
+    R -[cobj]-> B;
+    A << B;
+  }
+  commands {
+    del_edge R -[cobj]-> B;
+    add_edge A -[cobj]-> B;
+  }
+}
+
+strat S1 { Onf ( cobj_subordination ) }
+"""
+
+
 grs_main = """
+
 rule subordinate_dobj_clause {
   pattern {
+    N0 -[nsubj]-> S;
     N0 -[dobj]-> N1;
     N1 -[cobj]-> N2;
   }
   commands {
-    N1.main=yes;
-    N1.recursive=yes;
+    S.rep=yes;
+    S.recursive=yes;
+    N2.main=yes;
+    N2.recursive=yes;
   }
 }
 
-
-rule coordinated {
+rule main_root {
   pattern {
-    X -[root]-> X;
-    X -[coord]-> R;
-    R -[^advmod|prepv|cc|advcl]-> C;
+    X -[root]-> R;
   }
   commands {
     R.main=yes;
@@ -109,30 +128,165 @@ rule coordinated {
   }
 }
 
+strat S1 { Try ( If ( subordinate_dobj_clause, Iter ( subordinate_dobj_clause ), main_root ) ) }
+"""
+
+
+grs_nsubj_ellision_rep = """
+
+rule nsubj_ellision_rep {
+  pattern {
+    N0 -[nsubj]-> S;
+    N0 -[dobj]-> N1;
+    N1 -[cobj]-> N2;
+  }
+  without {
+    N2 -[nsubj]-> S2
+  }
+  commands {
+    del_edge N0 -[nsubj]-> S;
+    add_edge N2 -[nsubj]-> S;
+    N2.main=yes;
+    N2.rep=yes;
+    N2.recursive=yes;
+  }
+}
+
+strat S1 { Onf ( nsubj_ellision_rep ) }
+"""
+
+
+grs_main_satellites_out = """
 
 rule ignore_satellites {
   pattern {
-    X -[root]-> R;
-    R -[^advmod|prepv|cc|advcl]-> C;
+    R [ main="yes" ];
+    R -[ advmod|advcl|prepv|prep|cc ]-> C;
   }
   commands {
-    R.main=yes;
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+
+strat S1 { Try ( Iter ( ignore_satellites ) ) }
+"""
+
+
+grs_main_extra_in = """
+
+rule ignore_only_preps_satellites {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[prep|prepv]-> C;
+  }
+  without {
+    R -[dobj]-> *;
+  }
+  commands {
     C.main=yes;
     C.recursive=yes;
   }
 }
 
-strat S1 { Iter ( If ( subordinate_dobj_clause, subordinate_dobj_clause, If ( coordinated, coordinated, ignore_satellites ) ) ) }
+strat S1 { Try ( Iter ( ignore_only_preps_satellites ) ) }
 """
 
 
-grs_preceding_subject = """
+grs_main_extra_in_sub = """
+
+rule ignore_only_preps_satellites_sub {
+  pattern {
+    X -[^root]-> R;
+    R [ main="yes" ];
+    R -[prep|prepv]-> C;
+  }
+  without {
+    R -[dobj]-> *;
+  }
+  commands {
+    C.main=yes;
+    C.recursive=yes;
+  }
+}
+
+strat S1 { Try ( Iter ( ignore_only_preps_satellites_sub ) ) }
+"""
+
+
+grs_rep = """
+
+rule annotated_reported_advcl {
+  pattern {
+    X -[advcl]-> R;
+    R -[cobj]-> O;
+    O -[nsubj]-> S;
+    R [ form="según"];
+  }
+  commands {
+    S.rep=yes;
+    S.recursive=yes;
+  }
+}
+
+rule annotated_reported_advcl_bareN {
+  pattern {
+    X -[advcl]-> R;
+    R -[pobj]-> S;
+    R [ form="según"];
+  }
+  commands {
+    S.rep=yes;
+    S.recursive=yes;
+  }
+}
+
+rule annotated_reported_advcl_weirdAnn {
+  pattern {
+    X -[advcl]-> R;
+    R -[cobj]-> O;
+    O -[cobj]-> S;
+    O << S;
+    R [ form="según"];
+  }
+  commands {
+    S.rep=yes;
+    S.recursive=yes;
+  }
+}
+
+strat S1 { Try ( Iter ( Alt ( annotated_reported_advcl, annotated_reported_advcl_bareN, annotated_reported_advcl_weirdAnn ) ) ) }
+"""
+
+
+grs_dealingWith_coordination = """
+
+rule coordinated {
+  pattern {
+    X -[root]-> X;
+    X -[coord]-> R1;
+    X -[coord]-> R2;
+    R1 << R2;
+  }
+  commands {
+    R2.main=no;
+    R2.recursive=yes;
+  }
+}
+
+strat S1 { Try ( Iter ( coordinated ) ) }
+"""
+
+
+grs_preceding_subjects = """
+
 rule preceding_subject {
   pattern {
-    X -[root]-> R;
+    R [ main="yes" ];
+    S [ main="yes" ];
     R -[nsubj]-> S;
     S << R;
-    S.main=yes;
   }
   commands {
     S.theme=yes;
@@ -140,33 +294,42 @@ rule preceding_subject {
   }
 }
 
-rule subordinate_preceding_subject {
+strat S1 { Try ( Iter ( preceding_subject ) ) }
+"""
+
+
+grs_preceding_subject_first = """
+
+rule preceding_subject_first {
   pattern {
-    N1 -[nsubj]-> N2;
-    N2 << N1;
-    N2.main=yes;
-    }
-  without {
-    N0 -[root]-> N1;
+    R1 [ theme="no" ];
+    T1 [ theme="yes" ];
+    R1 -> T1;
+    R2 [ theme="no" ];
+    T2 [ theme="yes" ];
+    R2 -> T2;
+    T1 << T2;
   }
   commands {
-    N2.theme=yes;
-    N2.recursive=yes;
+    T2.theme=no;
+    T2.recursive=yes;
   }
 }
 
-strat S1 { Iter ( If (preceding_subject, preceding_subject, subordinate_preceding_subject) ) }
+strat S1 { Try ( Iter ( preceding_subject_first ) ) }
 """
 
-grs_rheme = """
+
+grs_rheme_head = """
+
 rule rheme {
   pattern {
-    T [ theme=yes ];
+    T [ theme="yes" ];
     V -> T;
-    T << V;
-    V [ theme=no, main=yes ];
-    V -[^punct]-> C;
-    C [ main=yes ];
+    V [ theme="no", main="yes" ];
+    C [ main=yes, theme="no" ];
+    V -[^advcl|advmod]-> C;
+    T << C;
   }
   commands {
     V.rheme=yes;
@@ -175,15 +338,26 @@ rule rheme {
   }
 }
 
-strat S1 { Iter ( Try ( rheme ) ) }
+strat S1 { Try ( Iter ( rheme ) ) }
 """
 
 
-grs_rheme_main = """
-rule rheme_not_main {
+grs_rheme_cleaning = """
+rule rheme_not_rcmod {
   pattern {
-    R [ rheme=yes ];
-    R -[rcmod|prepv]-> C;
+    R [ rheme="yes" ];
+    R -[rcmod]-> C;
+  }
+  commands {
+    C.rheme="no";
+    C.recursive=yes;
+  }
+}
+
+rule rheme_not_punct {
+  pattern {
+    R [ rheme="yes" ];
+    R -[punct]-> C;
   }
   commands {
     C.rheme=no;
@@ -191,11 +365,16 @@ rule rheme_not_main {
   }
 }
 
-rule rheme_preceding {
+strat S1 { Try ( Iter ( Alt ( rheme_not_rcmod, rheme_not_punct ) ) ) }
+"""
+
+
+grs_rheme_cleaning_not_main = """
+rule rheme_not_not_main {
   pattern {
-    R [ rheme=yes ];
-    T [ theme=yes ];
-    R << T;
+    R [ rheme="yes", main="no" ];
+    X -> R;
+    X [ main="yes" ];
   }
   commands {
     R.rheme=no;
@@ -203,16 +382,26 @@ rule rheme_preceding {
   }
 }
 
-strat S1 { Iter ( Try ( Alt ( rheme_not_main, rheme_preceding ) ) ) }
+strat S1 { Try ( Iter ( rheme_not_not_main ) ) }
 """
 
 
 # Ordering matters:
 # the features generated by the previous rule strategies are available for the subsequent ones no matter the strategies defined
+grs_list.append(grs_solving_weirdAnn)
 grs_list.append(grs_main)
-grs_list.append(grs_preceding_subject)
-grs_list.append(grs_rheme)
-grs_list.append(grs_rheme_main)
+grs_list.append(grs_nsubj_ellision_rep)
+grs_list.append(grs_preceding_subjects)
+grs_list.append(grs_preceding_subject_first)
+grs_list.append(grs_dealingWith_coordination)
+grs_list.append(grs_rheme_head)
+grs_list.append(grs_main_satellites_out)
+grs_list.append(grs_main_extra_in)
+grs_list.append(grs_main_extra_in_sub)
+grs_list.append(grs_rheme_cleaning)
+grs_list.append(grs_rep)
+# grs_list.append(grs_rheme_cleaning_not_main)
+
 
 for grs in grs_list:
     gram = grew.grs(grs)
@@ -220,9 +409,6 @@ for grs in grs_list:
 n_gram = 0
 n_exceptions = 0
 n_processed = 0
-# Results:
-# Número de estrategias aplicadas correctamente: 32109
-# Número de estrategias erróneas: 31
 
 for grs in grs_list:
 
@@ -481,10 +667,10 @@ for nombre in nombres_textos:
         <title>Drawing the trees for the sentences in the text</title>
     
         <script>
-            function SyncScroll(phoneFaceId) {
+            function SyncScroll(page) {
               var div1 = document.getElementById("left");
               var div2 = document.getElementById("right");
-              if (phoneFaceId=="left") {
+              if (page=="left") {
                 div2.scrollTop = div1.scrollTop;
               }
               else {
