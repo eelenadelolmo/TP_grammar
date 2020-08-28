@@ -204,17 +204,32 @@ rule coordinated {
     C -[coord]-> C1;
     C [ main="yes" ];
     e: X -> C;
-    C1 << C;
   }
   commands {
     del_edge C -[coord]-> C1;
     add_edge e: X -> C1;
-    del_edge e;
-    add_edge R -[coord_fix]-> C;
   }
 }
 
-strat S1 { Onf ( coordinated ) }
+strat S1 { Onf ( Iter ( coordinated ) ) }
+"""
+
+
+
+grs_dealingWith_coordination_ignore_cc = """
+
+rule coordinated_ignore_cc {
+  pattern {
+    B [ upos=cc ];
+    e: A -[^coord_fixed]-> B;
+  }
+  commands {
+    del_edge e;
+    add_edge A -[coord_fixed]-> B;
+  }
+}
+
+strat S1 { Onf ( Iter ( coordinated_ignore_cc ) ) }
 """
 
 
@@ -391,6 +406,7 @@ grs_list.append(grs_nsubj_ellision_rep)
 grs_list.append(grs_preceding_subjects)
 grs_list.append(grs_preceding_subject_first)
 grs_list.append(grs_dealingWith_coordination)
+grs_list.append(grs_dealingWith_coordination_ignore_cc)
 grs_list.append(grs_main_satellites_out)
 grs_list.append(grs_main_extra_in)
 grs_list.append(grs_main_extra_in_sub)
