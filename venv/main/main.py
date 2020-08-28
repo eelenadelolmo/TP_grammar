@@ -147,12 +147,71 @@ rule nsubj_ellision_rep {
     del_edge N0 -[nsubj]-> S;
     add_edge N2 -[nsubj]-> S;
     N2.main=yes;
-    N2.rep=yes;
     N2.recursive=yes;
   }
 }
 
 strat S1 { Onf ( nsubj_ellision_rep ) }
+"""
+
+
+grs_preceding_subjects = """
+
+rule preceding_subject {
+  pattern {
+    R [ main="yes" ];
+    S [ main="yes" ];
+    R -[nsubj]-> S;
+    S << R;
+  }
+  commands {
+    S.theme=yes;
+    S.recursive=yes;
+  }
+}
+
+strat S1 { Try ( Iter ( preceding_subject ) ) }
+"""
+
+
+grs_preceding_subject_first = """
+
+rule preceding_subject_first {
+  pattern {
+    R1 [ theme="no" ];
+    T1 [ theme="yes" ];
+    R1 -> T1;
+    R2 [ theme="no" ];
+    T2 [ theme="yes" ];
+    R2 -> T2;
+    T1 << T2;
+  }
+  commands {
+    T2.theme=no;
+    T2.recursive=yes;
+  }
+}
+
+strat S1 { Try ( Iter ( preceding_subject_first ) ) }
+"""
+
+
+grs_dealingWith_coordination = """
+
+rule coordinated {
+  pattern {
+    X -[root]-> X;
+    X -[coord]-> R1;
+    X -[coord]-> R2;
+    R1 << R2;
+  }
+  commands {
+    R2.main=no;
+    R2.recursive=yes;
+  }
+}
+
+strat S1 { Try ( Iter ( coordinated ) ) }
 """
 
 
@@ -215,111 +274,6 @@ strat S1 { Try ( Iter ( ignore_only_preps_satellites_sub ) ) }
 """
 
 
-grs_rep = """
-
-rule annotated_reported_advcl {
-  pattern {
-    X -[advcl]-> R;
-    R -[cobj]-> O;
-    O -[nsubj]-> S;
-    R [ form="según"];
-  }
-  commands {
-    S.rep=yes;
-    S.recursive=yes;
-  }
-}
-
-rule annotated_reported_advcl_bareN {
-  pattern {
-    X -[advcl]-> R;
-    R -[pobj]-> S;
-    R [ form="según"];
-  }
-  commands {
-    S.rep=yes;
-    S.recursive=yes;
-  }
-}
-
-rule annotated_reported_advcl_weirdAnn {
-  pattern {
-    X -[advcl]-> R;
-    R -[cobj]-> O;
-    O -[cobj]-> S;
-    O << S;
-    R [ form="según"];
-  }
-  commands {
-    S.rep=yes;
-    S.recursive=yes;
-  }
-}
-
-strat S1 { Try ( Iter ( Alt ( annotated_reported_advcl, annotated_reported_advcl_bareN, annotated_reported_advcl_weirdAnn ) ) ) }
-"""
-
-
-grs_dealingWith_coordination = """
-
-rule coordinated {
-  pattern {
-    X -[root]-> X;
-    X -[coord]-> R1;
-    X -[coord]-> R2;
-    R1 << R2;
-  }
-  commands {
-    R2.main=no;
-    R2.recursive=yes;
-  }
-}
-
-strat S1 { Try ( Iter ( coordinated ) ) }
-"""
-
-
-grs_preceding_subjects = """
-
-rule preceding_subject {
-  pattern {
-    R [ main="yes" ];
-    S [ main="yes" ];
-    R -[nsubj]-> S;
-    S << R;
-  }
-  commands {
-    S.theme=yes;
-    S.recursive=yes;
-  }
-}
-
-strat S1 { Try ( Iter ( preceding_subject ) ) }
-"""
-
-
-grs_preceding_subject_first = """
-
-rule preceding_subject_first {
-  pattern {
-    R1 [ theme="no" ];
-    T1 [ theme="yes" ];
-    R1 -> T1;
-    R2 [ theme="no" ];
-    T2 [ theme="yes" ];
-    R2 -> T2;
-    T1 << T2;
-  }
-  commands {
-    T2.theme=no;
-    T2.recursive=yes;
-  }
-}
-
-strat S1 { Try ( Iter ( preceding_subject_first ) ) }
-"""
-
-
 grs_rheme_head = """
 
 rule rheme {
@@ -369,20 +323,59 @@ strat S1 { Try ( Iter ( Alt ( rheme_not_rcmod, rheme_not_punct ) ) ) }
 """
 
 
-grs_rheme_cleaning_not_main = """
-rule rheme_not_not_main {
+grs_rep = """
+
+rule annotated_reported_ellided_nsubj {
   pattern {
-    R [ rheme="yes", main="no" ];
-    X -> R;
-    X [ main="yes" ];
+    V -[nsubj]-> S;
+    X -[cobj]-> V;
   }
   commands {
-    R.rheme=no;
-    R.recursive=yes;
+    S.rep=yes;
+    S.recursive=yes;
   }
 }
 
-strat S1 { Try ( Iter ( rheme_not_not_main ) ) }
+rule annotated_reported_advcl {
+  pattern {
+    X -[advcl]-> R;
+    R -[cobj]-> O;
+    O -[nsubj]-> S;
+    R [ form="según"];
+  }
+  commands {
+    S.rep=yes;
+    S.recursive=yes;
+  }
+}
+
+rule annotated_reported_advcl_bareN {
+  pattern {
+    X -[advcl]-> R;
+    R -[pobj]-> S;
+    R [ form="según"];
+  }
+  commands {
+    S.rep=yes;
+    S.recursive=yes;
+  }
+}
+
+rule annotated_reported_advcl_weirdAnn {
+  pattern {
+    X -[advcl]-> R;
+    R -[cobj]-> O;
+    O -[cobj]-> S;
+    O << S;
+    R [ form="según"];
+  }
+  commands {
+    S.rep=yes;
+    S.recursive=yes;
+  }
+}
+
+strat S1 { Try ( Iter ( Alt ( annotated_reported_ellided_nsubj, annotated_reported_advcl, annotated_reported_advcl_bareN, annotated_reported_advcl_weirdAnn ) ) ) }
 """
 
 
@@ -400,7 +393,7 @@ grs_list.append(grs_main_extra_in_sub)
 grs_list.append(grs_rheme_head)
 grs_list.append(grs_rheme_cleaning)
 grs_list.append(grs_rep)
-# grs_list.append(grs_rheme_cleaning_not_main)
+
 
 
 for grs in grs_list:

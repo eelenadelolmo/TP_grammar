@@ -21,13 +21,13 @@
 21	Rayan	Rayan	np00000	np00000	rep=no|t=no|r=no|m=no	20	appos
 22	,	,	fc	fc	rep=no|t=no|r=no|m=no	17	punct
 23	que	que	cs	cs	rep=no|t=no|r=no|m=no	11	dobj
-24	nunca	nunca	rg	rg	rep=yes|t=no|r=yes|m=yes	25	neg
-25	habían	haber	vaii3p0	vaii3p0	rep=yes|t=no|r=yes|m=yes	23	cobj
-26	tenido	tener	vmp00sm	vmp00sm	rep=yes|t=no|r=yes|m=yes	25	vobj
-27	un	uno	di0ms0	di0ms0	rep=yes|t=no|r=yes|m=yes	28	det
-28	accidente	accidente	ncms000	ncms000	rep=yes|t=no|r=yes|m=yes	26	dobj
-29	fatal	fatal	aq0cs0	aq0cs0	rep=yes|t=no|r=yes|m=yes	28	amod
-30	anteriormente	anteriormente	rg	rg	rep=yes|t=no|r=no|m=no	25	advmod
+24	nunca	nunca	rg	rg	rep=no|t=no|r=yes|m=yes	25	neg
+25	habían	haber	vaii3p0	vaii3p0	rep=no|t=no|r=yes|m=yes	23	cobj
+26	tenido	tener	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	25	vobj
+27	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	28	det
+28	accidente	accidente	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	26	dobj
+29	fatal	fatal	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	28	amod
+30	anteriormente	anteriormente	rg	rg	rep=no|t=no|r=no|m=no	25	advmod
 31	.	.	fp	fp	rep=no|t=no|r=no|m=no	11	punct
 
 1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	4	te
@@ -35,7 +35,7 @@
 3	informaciones	información	ncfp000	ncfp000	rep=yes|t=no|r=no|m=no	4	nsubj
 4	apuntan	apuntar	vmip3p0	vmip3p0	rep=no|t=no|r=no|m=no	0	root
 5	que	que	cs	cs	rep=no|t=no|r=no|m=no	4	dobj
-6	eso	ese	pd0ns000	pd0ns000	rep=no|t=yes|r=no|m=yes	8	nsubj
+6	eso	ese	pd0ns000	pd0ns000	rep=yes|t=yes|r=no|m=yes	8	nsubj
 7	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	8	neg
 8	es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=yes|m=yes	5	cobj
 9	verdad	verdad	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	8	attr
