@@ -200,27 +200,31 @@ grs_dealingWith_coordination = """
 
 rule coordinated {
   pattern {
-    X -[root]-> X;
-    X -[coord]-> R1;
-    X -[coord]-> R2;
-    R1 << R2;
+    A -[root]-> R;
+    C -[coord]-> C1;
+    C [ main="yes" ];
+    e: X -> C;
+    C1 << C;
   }
   commands {
-    R2.main=no;
-    R2.recursive=yes;
+    del_edge C -[coord]-> C1;
+    add_edge e: X -> C1;
+    del_edge e;
+    add_edge R -[coord_fix]-> C;
   }
 }
 
-strat S1 { Try ( Iter ( coordinated ) ) }
+strat S1 { Onf ( coordinated ) }
 """
 
 
 grs_main_satellites_out = """
 
-rule ignore_satellites {
+rule ignore_satellites_root {
   pattern {
+    X -[root]-> R;
     R [ main="yes" ];
-    R -[ advmod|advcl|prepv|prep|cc ]-> C;
+    R -[ advmod|advcl|prepv|prep|cc|rcmod|punct|coord_fix ]-> C;
   }
   commands {
     C.main=no;
@@ -228,7 +232,7 @@ rule ignore_satellites {
   }
 }
 
-strat S1 { Try ( Iter ( ignore_satellites ) ) }
+strat S1 { Try ( Iter ( Alt ( ignore_satellites_root ) ) ) }
 """
 
 
@@ -319,7 +323,7 @@ rule rheme_not_punct {
   }
 }
 
-strat S1 { Try ( Iter ( Alt ( rheme_not_rcmod, rheme_not_punct ) ) ) }
+strat S1 { Iter ( Try ( Alt ( rheme_not_rcmod, rheme_not_punct ) ) ) }
 """
 
 
@@ -375,7 +379,7 @@ rule annotated_reported_advcl_weirdAnn {
   }
 }
 
-strat S1 { Try ( Iter ( Alt ( annotated_reported_ellided_nsubj, annotated_reported_advcl, annotated_reported_advcl_bareN, annotated_reported_advcl_weirdAnn ) ) ) }
+strat S1 { Try ( Iter ( Alt ( annotated_reported_advcl, annotated_reported_advcl_bareN, annotated_reported_advcl_weirdAnn ) ) ) }
 """
 
 
@@ -448,11 +452,15 @@ for grs in grs_list:
             # Appending the unordered output of the GRS application to every ordered Grew graph sentence
             for g in ordered_graphs:
                 try:
-                    output_graphs.extend(grew.run(gram, g, "S1"))
+                    salida = grew.run(gram, g, "S1")
+                    output_graphs.extend(salida)
+                    if len(salida) > 1:
+                        print(grs[:grs.find('{')], '-  produce', len(salida), 'grafos  en el archivo', file, 'en la frase', g['W1'][0]['form'], g['W2'][0]['form'], g['W3'][0]['form'], g['W4'][0]['form'], '...')
                     n_processed += 1
                 except grew.utils.GrewError:
                     output_graphs.extend([g])
                     n_exceptions += 1
+                    print('\nFALLO:', grs[:grs.find('{')], '-  falla  en el archivo', file, 'en la frase', g['W1'][0]['form'], g['W2'][0]['form'], g['W3'][0]['form'], g['W4'][0]['form'], '...')
             unordered_graphs = disorder_graphs(output_graphs)
 
             ruta = dir_output + '/' + f_noExt + '/'
@@ -511,11 +519,15 @@ for grs in grs_list:
             # Appending the unordered output of the GRS application to every ordered Grew graph sentence
             for g in ordered_graphs:
                 try:
-                    output_graphs.extend(grew.run(gram, g, "S1"))
+                    salida = grew.run(gram, g, "S1")
+                    output_graphs.extend(salida)
+                    if len(salida) > 1:
+                        print(grs[:grs.find('{')], '-  produce', len(salida), 'grafos en el archivo', file, 'en la frase', g['W1'][0]['form'], g['W2'][0]['form'], g['W3'][0]['form'], g['W4'][0]['form'], '...')
                     n_processed += 1
                 except grew.utils.GrewError:
                     output_graphs.extend([g])
                     n_exceptions += 1
+                    print('\nFALLO:', grs[:grs.find('{')], '-  falla en el archivo', file, 'en la frase', g['W1'][0]['form'], g['W2'][0]['form'], g['W3'][0]['form'], g['W4'][0]['form'], '...')
 
             unordered_graphs = disorder_graphs(output_graphs)
 
@@ -528,6 +540,10 @@ for grs in grs_list:
             with open(ruta + f_noExt + '_annotated_recursive.conllu', "w") as output:
                 output.write(annotator_recursive(dir_output + '/' + f_noExt + '/' + f_noExt + '_annotated.conllu') + '\n')
 
+print('--------------------------------------------------------------------------------')
+print('--------------------------------------------------------------------------------')
+print('--------------------------------------------------------------------------------')
+print('--------------------------------------------------------------------------------')
 print('Numero de estrategias aplicadas correctamente: ' + str(n_processed))
 print('Numero de estrategias erróneas: ' + str(n_exceptions))
 os.remove(tmp_file)
