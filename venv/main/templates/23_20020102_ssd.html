@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Drawing the trees for the sentences in the text</title>
+    
+        <script>
+            function SyncScroll(page) {
+              var div1 = document.getElementById("left");
+              var div2 = document.getElementById("right");
+              if (page=="left") {
+                div2.scrollTop = div1.scrollTop;
+              }
+              else {
+                div1.scrollTop = div2.scrollTop;
+              }
+            }
+        </script>
+    
+        <style>
+    
+            .split {
+              height: 100%;
+              width: 50%;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              overflow-x: auto;
+              padding-top: 20px;
+            }
+    
+            /* Control the left side */
+            .original {
+              left: 0;
+            }
+    
+            /* Control the right side */
+            .rewriten {
+              right: 0;
+            }
+    
+        </style>
+    
+    </head>
+    
+    <body>
+    
+        <div class="split original" id="left" onscroll="SyncScroll('left')">
+    
+			<p> Los diarios británicos hacían hincapié en sus ediciones de ayer en las incertidumbres que conlleva la aparición de la nueva moneda , en un momento en el que el Reino Unido ha quedado al margen de este proceso.
+</p>
+			<a href="../svg/23_20020102_ssd_left/23_20020102_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/23_20020102_ssd_left/23_20020102_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> Los diarios británicos hacían hincapié en sus ediciones de ayer en las incertidumbres que conlleva la aparición de la nueva moneda , en un momento en el que el Reino Unido ha quedado al margen de este proceso.
+</p>
+			<a href="../svg/23_20020102_ssd_left/23_20020102_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/23_20020102_ssd_left/23_20020102_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> &quot; Europa se desliza hacia lo desconocido &quot; , rezaba el diario Daily Telegraph en su portada , mientras que The Times escogió el titular &quot; Europa se lanza al agua &quot;.
+</p>
+			<a href="../svg/23_20020102_ssd_left/23_20020102_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/23_20020102_ssd_left/23_20020102_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+			<p> Los sensacionalistas fueron aún más categóricos : The Sun tituló su primera portada del 2002 con &quot; El euro ha nacido y , gracias a Dios , el Reino Unido no forma parte de él &quot;.
+</p>
+			<a href="../svg/23_20020102_ssd_left/23_20020102_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/23_20020102_ssd_left/23_20020102_ssd_rewriten_complete-004.svg" border="1" width="100%"></a>
+
+        </div>
+
+        <div class="split rewriten" id="right" onscroll="SyncScroll('right')">
+    
+			<p> Los diarios británicos hacían hincapié en sus ediciones de ayer en las incertidumbres que conlleva la aparición de la nueva moneda , en un momento en el que el Reino Unido ha quedado al margen de este proceso.
+</p>
+			<a href="../svg/23_20020102_ssd_right/23_20020102_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/23_20020102_ssd_right/23_20020102_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> Los diarios británicos hacían hincapié en sus ediciones de ayer en las incertidumbres que conlleva la aparición de la nueva moneda , en un momento en el que el Reino Unido ha quedado al margen de este proceso.
+</p>
+			<a href="../svg/23_20020102_ssd_right/23_20020102_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/23_20020102_ssd_right/23_20020102_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> &quot; Europa se desliza hacia lo desconocido &quot; , rezaba el diario Daily Telegraph en su portada , mientras que The Times escogió el titular &quot; Europa se lanza al agua &quot;.
+</p>
+			<a href="../svg/23_20020102_ssd_right/23_20020102_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/23_20020102_ssd_right/23_20020102_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+			<p> Los sensacionalistas fueron aún más categóricos : The Sun tituló su primera portada del 2002 con &quot; El euro ha nacido y , gracias a Dios , el Reino Unido no forma parte de él &quot;.
+</p>
+			<a href="../svg/23_20020102_ssd_right/23_20020102_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/23_20020102_ssd_right/23_20020102_ssd_rewriten_complete-004.svg" border="1" width="100%"></a>
+
+        </div>
+    
+    </body>
+</html>
+    

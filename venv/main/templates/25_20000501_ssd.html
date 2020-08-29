@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Drawing the trees for the sentences in the text</title>
+    
+        <script>
+            function SyncScroll(page) {
+              var div1 = document.getElementById("left");
+              var div2 = document.getElementById("right");
+              if (page=="left") {
+                div2.scrollTop = div1.scrollTop;
+              }
+              else {
+                div1.scrollTop = div2.scrollTop;
+              }
+            }
+        </script>
+    
+        <style>
+    
+            .split {
+              height: 100%;
+              width: 50%;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              overflow-x: auto;
+              padding-top: 20px;
+            }
+    
+            /* Control the left side */
+            .original {
+              left: 0;
+            }
+    
+            /* Control the right side */
+            .rewriten {
+              right: 0;
+            }
+    
+        </style>
+    
+    </head>
+    
+    <body>
+    
+        <div class="split original" id="left" onscroll="SyncScroll('left')">
+    
+			<p> El Gobierno austriaco baraja la cifra de unos 6.000 millones de chelines ( casi 70.000 millones de pesetas ) para indemnizar a los esclavos del nazismo , según informó ayer la responsable gubernamental sobre este tema , Maria Schaumayer.
+</p>
+			<a href="../svg/25_20000501_ssd_left/25_20000501_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/25_20000501_ssd_left/25_20000501_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> Según explicó , esta cantidad saldría de un Fondo para la Reconciliación , Paz y Colaboración , que crearían el Estado austriaco y las empresas que emplearon mano de obra gratuita durante el régimen de Adolf Hitler.
+</p>
+			<a href="../svg/25_20000501_ssd_left/25_20000501_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/25_20000501_ssd_left/25_20000501_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> El dinero iría a parar a las 150.000 víctimas del Tercer Reich que aún viven.
+</p>
+			<a href="../svg/25_20000501_ssd_left/25_20000501_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/25_20000501_ssd_left/25_20000501_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+
+        </div>
+
+        <div class="split rewriten" id="right" onscroll="SyncScroll('right')">
+    
+			<p> El Gobierno austriaco baraja la cifra de unos 6.000 millones de chelines ( casi 70.000 millones de pesetas ) para indemnizar a los esclavos del nazismo , según informó ayer la responsable gubernamental sobre este tema , Maria Schaumayer.
+</p>
+			<a href="../svg/25_20000501_ssd_right/25_20000501_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/25_20000501_ssd_right/25_20000501_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> Según explicó , esta cantidad saldría de un Fondo para la Reconciliación , Paz y Colaboración , que crearían el Estado austriaco y las empresas que emplearon mano de obra gratuita durante el régimen de Adolf Hitler.
+</p>
+			<a href="../svg/25_20000501_ssd_right/25_20000501_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/25_20000501_ssd_right/25_20000501_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> El dinero iría a parar a las 150.000 víctimas del Tercer Reich que aún viven.
+</p>
+			<a href="../svg/25_20000501_ssd_right/25_20000501_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/25_20000501_ssd_right/25_20000501_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+
+        </div>
+    
+    </body>
+</html>
+    

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Drawing the trees for the sentences in the text</title>
+    
+        <script>
+            function SyncScroll(page) {
+              var div1 = document.getElementById("left");
+              var div2 = document.getElementById("right");
+              if (page=="left") {
+                div2.scrollTop = div1.scrollTop;
+              }
+              else {
+                div1.scrollTop = div2.scrollTop;
+              }
+            }
+        </script>
+    
+        <style>
+    
+            .split {
+              height: 100%;
+              width: 50%;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              overflow-x: auto;
+              padding-top: 20px;
+            }
+    
+            /* Control the left side */
+            .original {
+              left: 0;
+            }
+    
+            /* Control the right side */
+            .rewriten {
+              right: 0;
+            }
+    
+        </style>
+    
+    </head>
+    
+    <body>
+    
+        <div class="split original" id="left" onscroll="SyncScroll('left')">
+    
+			<p> Rechazado el recurso de fiscales progresistas contra Fungairiño.
+</p>
+			<a href="../svg/57_20000401_b_ssd_left/57_20000401_b_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/57_20000401_b_ssd_left/57_20000401_b_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> El Tribunal Supremo ha desestimado el recurso interpuesto por la Unión Progresista de Fiscales contra el ascenso de Eduardo Fungairiño a fiscal de Sala y su nombramiento como fiscal jefe de la Audiencia Nacional , acordado por decreto del Consejo de Ministros el 30 de mayo de 1997.
+</p>
+			<a href="../svg/57_20000401_b_ssd_left/57_20000401_b_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/57_20000401_b_ssd_left/57_20000401_b_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> La sentencia señala que el informe del Consejo Fiscal que consideró no idóneo a Fungairiño para su promoción a fiscal de Sala no era vinculante para el fiscal general del Estado , Jesús Cardenal , quien propuso el nombramiento.
+</p>
+			<a href="../svg/57_20000401_b_ssd_left/57_20000401_b_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/57_20000401_b_ssd_left/57_20000401_b_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+
+        </div>
+
+        <div class="split rewriten" id="right" onscroll="SyncScroll('right')">
+    
+			<p> Rechazado el recurso de fiscales progresistas contra Fungairiño.
+</p>
+			<a href="../svg/57_20000401_b_ssd_right/57_20000401_b_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/57_20000401_b_ssd_right/57_20000401_b_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> El Tribunal Supremo ha desestimado el recurso interpuesto por la Unión Progresista de Fiscales contra el ascenso de Eduardo Fungairiño a fiscal de Sala y su nombramiento como fiscal jefe de la Audiencia Nacional , acordado por decreto del Consejo de Ministros el 30 de mayo de 1997.
+</p>
+			<a href="../svg/57_20000401_b_ssd_right/57_20000401_b_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/57_20000401_b_ssd_right/57_20000401_b_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> La sentencia señala que el informe del Consejo Fiscal que consideró no idóneo a Fungairiño para su promoción a fiscal de Sala no era vinculante para el fiscal general del Estado , Jesús Cardenal , quien propuso el nombramiento.
+</p>
+			<a href="../svg/57_20000401_b_ssd_right/57_20000401_b_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/57_20000401_b_ssd_right/57_20000401_b_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+
+        </div>
+    
+    </body>
+</html>
+    

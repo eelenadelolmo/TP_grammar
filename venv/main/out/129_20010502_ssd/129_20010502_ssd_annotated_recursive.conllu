@@ -1,0 +1,47 @@
+1	El	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	2	det
+2	viaducto	viaducto	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	4	nsubj
+3	peatonal	peatonal	aq0cs0	aq0cs0	rep=no|t=yes|r=no|m=yes	2	amod
+4	conecta	conectar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	8	coord
+5	Mollet	Mollet	np00000	np00000	rep=no|t=no|r=yes|m=yes	4	dobj
+6	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	4	oobj
+7	Martorell	Martorell	np00000	np00000	rep=no|t=no|r=yes|m=yes	6	pobj
+8	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
+9	pasa	pasar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	8	coord
+10	sobre	sobre	sps00	sps00	rep=no|t=no|r=no|m=yes	9	prepv
+11	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	12	det
+12	autopista	autopista	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	10	pobj
+13	C-33	c-33	np00000	np00000	rep=no|t=no|r=no|m=yes	12	appos
+14	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	16	punct
+15	antigua	antiguo	aq0fs0	aq0fs0	rep=no|t=no|r=no|m=yes	16	amod
+16	A-17	a-17	np00000	np00000	rep=no|t=no|r=no|m=yes	12	appos
+17	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	16	punct
+18	y	y	cc	cc	rep=no|t=no|r=no|m=yes	10	coord_fixed
+19	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	20	det
+20	río	río	ncms000	ncms000	rep=no|t=no|r=no|m=yes	10	pobj
+21	Besòs	Besòs	np00000	np00000	rep=no|t=no|r=no|m=yes	20	appos
+22	.	.	fp	fp	rep=no|t=no|r=no|m=no	8	punct
+
+1	El	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	2	det
+2	consistorio	consistorio	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	3	nsubj
+3	pide	pedir	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	0	root
+4	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	3	iobj
+5	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	6	det
+6	concesionaria	concesionaria	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	4	pobj
+7	Acesa	Acesa	np00000	np00000	rep=no|t=no|r=yes|m=yes	6	appos
+8	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	9	poss
+9	reparación	reparación	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	3	dobj
+10	porque	porque	cs	cs	rep=no|t=no|r=no|m=no	3	advcl
+11	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=no	12	det
+12	Ministerio	ministerio	ncms000	ncms000	rep=no|t=no|r=no|m=no	15	nsubj
+13	de	de	spcms	spcms	rep=no|t=no|r=no|m=no	12	prepn
+14	Fomento	fomento	ncms000	ncms000	rep=no|t=no|r=no|m=no	13	pobj
+15	afirma	afirmar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=no	10	cobj
+16	que	que	cs	cs	rep=no|t=no|r=no|m=no	15	conj
+17	forma	formar	vmp00sm	vmp00sm	rep=no|t=no|r=no|m=no	16	cobj
+18	parte	parte	ncfp000	ncfp000	rep=no|t=no|r=no|m=no	17	dobj
+19	de	de	sps00	sps00	rep=no|t=no|r=no|m=no	17	oobj
+20	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=no	21	det
+21	autopista	autopista	ncfs000	ncfs000	rep=no|t=no|r=no|m=no	19	pobj
+22	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
+
+

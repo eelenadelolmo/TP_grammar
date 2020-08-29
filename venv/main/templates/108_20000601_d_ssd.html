@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Drawing the trees for the sentences in the text</title>
+    
+        <script>
+            function SyncScroll(page) {
+              var div1 = document.getElementById("left");
+              var div2 = document.getElementById("right");
+              if (page=="left") {
+                div2.scrollTop = div1.scrollTop;
+              }
+              else {
+                div1.scrollTop = div2.scrollTop;
+              }
+            }
+        </script>
+    
+        <style>
+    
+            .split {
+              height: 100%;
+              width: 50%;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              overflow-x: auto;
+              padding-top: 20px;
+            }
+    
+            /* Control the left side */
+            .original {
+              left: 0;
+            }
+    
+            /* Control the right side */
+            .rewriten {
+              right: 0;
+            }
+    
+        </style>
+    
+    </head>
+    
+    <body>
+    
+        <div class="split original" id="left" onscroll="SyncScroll('left')">
+    
+			<p> Fuerte caída en la venta de casas nuevas en EEUU.
+</p>
+			<a href="../svg/108_20000601_d_ssd_left/108_20000601_d_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/108_20000601_d_ssd_left/108_20000601_d_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> En abril pasado , la venta de viviendas registró un descenso del 5,8% , según el Departamento de Comercio.
+</p>
+			<a href="../svg/108_20000601_d_ssd_left/108_20000601_d_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/108_20000601_d_ssd_left/108_20000601_d_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> Es la mayor caída en siete meses y supone un indicio de que el mercado inmobiliario de EEUU puede estar desacelerándose , tras subir el 5,8% en marzo.
+</p>
+			<a href="../svg/108_20000601_d_ssd_left/108_20000601_d_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/108_20000601_d_ssd_left/108_20000601_d_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+			<p> El encarecimiento de las hipotecas ha contribuido a frenar las ventas , ya que el tipo de interés a 30 años es del 8,62% , un punto más que hace un año.
+</p>
+			<a href="../svg/108_20000601_d_ssd_left/108_20000601_d_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/108_20000601_d_ssd_left/108_20000601_d_ssd_rewriten_complete-004.svg" border="1" width="100%"></a>
+
+        </div>
+
+        <div class="split rewriten" id="right" onscroll="SyncScroll('right')">
+    
+			<p> Fuerte caída en la venta de casas nuevas en EEUU.
+</p>
+			<a href="../svg/108_20000601_d_ssd_right/108_20000601_d_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/108_20000601_d_ssd_right/108_20000601_d_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> En abril pasado , la venta de viviendas registró un descenso del 5,8% , según el Departamento de Comercio.
+</p>
+			<a href="../svg/108_20000601_d_ssd_right/108_20000601_d_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/108_20000601_d_ssd_right/108_20000601_d_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> Es la mayor caída en siete meses y supone un indicio de que el mercado inmobiliario de EEUU puede estar desacelerándose , tras subir el 5,8% en marzo.
+</p>
+			<a href="../svg/108_20000601_d_ssd_right/108_20000601_d_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/108_20000601_d_ssd_right/108_20000601_d_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+			<p> El encarecimiento de las hipotecas ha contribuido a frenar las ventas , ya que el tipo de interés a 30 años es del 8,62% , un punto más que hace un año.
+</p>
+			<a href="../svg/108_20000601_d_ssd_right/108_20000601_d_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/108_20000601_d_ssd_right/108_20000601_d_ssd_rewriten_complete-004.svg" border="1" width="100%"></a>
+
+        </div>
+    
+    </body>
+</html>
+    

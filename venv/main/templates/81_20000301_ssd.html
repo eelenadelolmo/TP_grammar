@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Drawing the trees for the sentences in the text</title>
+    
+        <script>
+            function SyncScroll(page) {
+              var div1 = document.getElementById("left");
+              var div2 = document.getElementById("right");
+              if (page=="left") {
+                div2.scrollTop = div1.scrollTop;
+              }
+              else {
+                div1.scrollTop = div2.scrollTop;
+              }
+            }
+        </script>
+    
+        <style>
+    
+            .split {
+              height: 100%;
+              width: 50%;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              overflow-x: auto;
+              padding-top: 20px;
+            }
+    
+            /* Control the left side */
+            .original {
+              left: 0;
+            }
+    
+            /* Control the right side */
+            .rewriten {
+              right: 0;
+            }
+    
+        </style>
+    
+    </head>
+    
+    <body>
+    
+        <div class="split original" id="left" onscroll="SyncScroll('left')">
+    
+			<p> Los Reyes de España y las infantas Elena y Cristina asistirán mañana a los funerales por Juana de Bulgaria , que tendrán lugar en Estoril ( Portugal ) , donde las familias reales de Bulgaria , Italia y España compartieron años de exilio.
+</p>
+			<a href="../svg/81_20000301_ssd_left/81_20000301_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/81_20000301_ssd_left/81_20000301_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> La madre de Simeón será enterrada el Sábado en la capilla de los franciscanos de la ciudad italiana de Asís , donde Juana se casó en 1930 con el rey Boris de Bulgaria , muerto en 1943.
+</p>
+			<a href="../svg/81_20000301_ssd_left/81_20000301_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/81_20000301_ssd_left/81_20000301_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> La fallecida dispuso ser enterrada en Asís , ya que los restos de su marido , que fue enterrado en Sofía ( Bulgaria ) , desaparecieron durante la Segunda guerra mundial.
+</p>
+			<a href="../svg/81_20000301_ssd_left/81_20000301_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/81_20000301_ssd_left/81_20000301_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+			<p> En 1991 , la familia real búlgara recuperó el corazón de Boris , que había sido conservado en formol.
+</p>
+			<a href="../svg/81_20000301_ssd_left/81_20000301_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/81_20000301_ssd_left/81_20000301_ssd_rewriten_complete-004.svg" border="1" width="100%"></a>
+
+        </div>
+
+        <div class="split rewriten" id="right" onscroll="SyncScroll('right')">
+    
+			<p> Los Reyes de España y las infantas Elena y Cristina asistirán mañana a los funerales por Juana de Bulgaria , que tendrán lugar en Estoril ( Portugal ) , donde las familias reales de Bulgaria , Italia y España compartieron años de exilio.
+</p>
+			<a href="../svg/81_20000301_ssd_right/81_20000301_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/81_20000301_ssd_right/81_20000301_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> La madre de Simeón será enterrada el Sábado en la capilla de los franciscanos de la ciudad italiana de Asís , donde Juana se casó en 1930 con el rey Boris de Bulgaria , muerto en 1943.
+</p>
+			<a href="../svg/81_20000301_ssd_right/81_20000301_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/81_20000301_ssd_right/81_20000301_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> La fallecida dispuso ser enterrada en Asís , ya que los restos de su marido , que fue enterrado en Sofía ( Bulgaria ) , desaparecieron durante la Segunda guerra mundial.
+</p>
+			<a href="../svg/81_20000301_ssd_right/81_20000301_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/81_20000301_ssd_right/81_20000301_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+			<p> En 1991 , la familia real búlgara recuperó el corazón de Boris , que había sido conservado en formol.
+</p>
+			<a href="../svg/81_20000301_ssd_right/81_20000301_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/81_20000301_ssd_right/81_20000301_ssd_rewriten_complete-004.svg" border="1" width="100%"></a>
+
+        </div>
+    
+    </body>
+</html>
+    

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Drawing the trees for the sentences in the text</title>
+    
+        <script>
+            function SyncScroll(page) {
+              var div1 = document.getElementById("left");
+              var div2 = document.getElementById("right");
+              if (page=="left") {
+                div2.scrollTop = div1.scrollTop;
+              }
+              else {
+                div1.scrollTop = div2.scrollTop;
+              }
+            }
+        </script>
+    
+        <style>
+    
+            .split {
+              height: 100%;
+              width: 50%;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              overflow-x: auto;
+              padding-top: 20px;
+            }
+    
+            /* Control the left side */
+            .original {
+              left: 0;
+            }
+    
+            /* Control the right side */
+            .rewriten {
+              right: 0;
+            }
+    
+        </style>
+    
+    </head>
+    
+    <body>
+    
+        <div class="split original" id="left" onscroll="SyncScroll('left')">
+    
+			<p> El historiador Javier Tusell gana el Premio Godó de Periodismo.
+</p>
+			<a href="../svg/71_19991201_g_ssd_left/71_19991201_g_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/71_19991201_g_ssd_left/71_19991201_g_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> El galardón le ha sido concedido por su artículo Cuba y el final de la guerra fría , publicado en el diario El País el 15 de mayo de 1998.
+</p>
+			<a href="../svg/71_19991201_g_ssd_left/71_19991201_g_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/71_19991201_g_ssd_left/71_19991201_g_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> El jurado valoró la &quot; importante y larga trayectoria &quot; de Tusell como articulista y destacó que el texto premiado trata de la transición en Cuba , &quot; con un estilo muy personal basado en una argumentación sólida y documentada &quot;.
+</p>
+			<a href="../svg/71_19991201_g_ssd_left/71_19991201_g_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/71_19991201_g_ssd_left/71_19991201_g_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+
+        </div>
+
+        <div class="split rewriten" id="right" onscroll="SyncScroll('right')">
+    
+			<p> El historiador Javier Tusell gana el Premio Godó de Periodismo.
+</p>
+			<a href="../svg/71_19991201_g_ssd_right/71_19991201_g_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/71_19991201_g_ssd_right/71_19991201_g_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> El galardón le ha sido concedido por su artículo Cuba y el final de la guerra fría , publicado en el diario El País el 15 de mayo de 1998.
+</p>
+			<a href="../svg/71_19991201_g_ssd_right/71_19991201_g_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/71_19991201_g_ssd_right/71_19991201_g_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> El jurado valoró la &quot; importante y larga trayectoria &quot; de Tusell como articulista y destacó que el texto premiado trata de la transición en Cuba , &quot; con un estilo muy personal basado en una argumentación sólida y documentada &quot;.
+</p>
+			<a href="../svg/71_19991201_g_ssd_right/71_19991201_g_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/71_19991201_g_ssd_right/71_19991201_g_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+
+        </div>
+    
+    </body>
+</html>
+    

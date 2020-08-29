@@ -1,5 +1,5 @@
-1	Aparcar	aparcar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=no	2	dobj
-2	pasará	pasar	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	0	root
+1	Aparcar	aparcar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	dobj
+2	pasará	pasar	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 3	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	2	prepv
 4	100	100	z	z	recursive=no|rep=no|theme=no|rheme=no|main=no	3	pobj
 5	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	2	prepv
@@ -48,11 +48,11 @@
 48	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=no	42	punct
 49	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 
-1	El	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=no	2	det
-2	consistorio	consistorio	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	3	nsubj
-3	justifica	justificar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	0	root
-4	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=no|main=no	5	poss
-5	decisión	decisión	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	3	dobj
+1	El	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
+2	consistorio	consistorio	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	nsubj
+3	justifica	justificar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
+4	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	poss
+5	decisión	decisión	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dobj
 6	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	3	prepv
 7	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=no	8	det
 8	voluntad	voluntad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	6	pobj

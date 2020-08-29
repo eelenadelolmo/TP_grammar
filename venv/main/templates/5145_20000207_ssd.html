@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Drawing the trees for the sentences in the text</title>
+    
+        <script>
+            function SyncScroll(page) {
+              var div1 = document.getElementById("left");
+              var div2 = document.getElementById("right");
+              if (page=="left") {
+                div2.scrollTop = div1.scrollTop;
+              }
+              else {
+                div1.scrollTop = div2.scrollTop;
+              }
+            }
+        </script>
+    
+        <style>
+    
+            .split {
+              height: 100%;
+              width: 50%;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              overflow-x: auto;
+              padding-top: 20px;
+            }
+    
+            /* Control the left side */
+            .original {
+              left: 0;
+            }
+    
+            /* Control the right side */
+            .rewriten {
+              right: 0;
+            }
+    
+        </style>
+    
+    </head>
+    
+    <body>
+    
+        <div class="split original" id="left" onscroll="SyncScroll('left')">
+    
+			<p> El Grupo Prosegur obtuvo un beneficio neto de 4.326 millones de pesetas en 1999 , un 14,6 por ciento más que en 1998 , lo que demuestra la &quot; positiva evolución &quot; de la compañía española de seguridad y de recursos humanos , anunció hoy la empresa.
+</p>
+			<a href="../svg/5145_20000207_ssd_left/5145_20000207_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/5145_20000207_ssd_left/5145_20000207_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> Las ventas del grupo aumentaron un 16,8 por ciento , con lo que la facturación alcanzó los 113.363 millones de pesetas , y el beneficio antes de impuestos ascendió a 6.826 millones de pesetas , un 12,6 por ciento más que en el ejercicio anterior.
+</p>
+			<a href="../svg/5145_20000207_ssd_left/5145_20000207_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/5145_20000207_ssd_left/5145_20000207_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> La compañía del grupo especializada en recursos humanos , Umano , aumentó sus ventas en un 60 por ciento ( un 13 por ciento si se descuenta la aportación de la empresa BCS recientemente adquirida ) a pesar de las modificaciones que en agosto de 1999 sufrió la normativa sobre el trabajo temporal.
+</p>
+			<a href="../svg/5145_20000207_ssd_left/5145_20000207_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/5145_20000207_ssd_left/5145_20000207_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+			<p> La división de alarmas residenciales y para pymes , Protección Activa , cerró el año con 90.000 conexiones en todo el mundo , mientras que en España consiguió duplicar el número de clientes hasta alcanzar las 40.000 conexiones.
+</p>
+			<a href="../svg/5145_20000207_ssd_left/5145_20000207_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/5145_20000207_ssd_left/5145_20000207_ssd_rewriten_complete-004.svg" border="1" width="100%"></a>
+
+        </div>
+
+        <div class="split rewriten" id="right" onscroll="SyncScroll('right')">
+    
+			<p> El Grupo Prosegur obtuvo un beneficio neto de 4.326 millones de pesetas en 1999 , un 14,6 por ciento más que en 1998 , lo que demuestra la &quot; positiva evolución &quot; de la compañía española de seguridad y de recursos humanos , anunció hoy la empresa.
+</p>
+			<a href="../svg/5145_20000207_ssd_right/5145_20000207_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/5145_20000207_ssd_right/5145_20000207_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> Las ventas del grupo aumentaron un 16,8 por ciento , con lo que la facturación alcanzó los 113.363 millones de pesetas , y el beneficio antes de impuestos ascendió a 6.826 millones de pesetas , un 12,6 por ciento más que en el ejercicio anterior.
+</p>
+			<a href="../svg/5145_20000207_ssd_right/5145_20000207_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/5145_20000207_ssd_right/5145_20000207_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> La compañía del grupo especializada en recursos humanos , Umano , aumentó sus ventas en un 60 por ciento ( un 13 por ciento si se descuenta la aportación de la empresa BCS recientemente adquirida ) a pesar de las modificaciones que en agosto de 1999 sufrió la normativa sobre el trabajo temporal.
+</p>
+			<a href="../svg/5145_20000207_ssd_right/5145_20000207_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/5145_20000207_ssd_right/5145_20000207_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+			<p> La división de alarmas residenciales y para pymes , Protección Activa , cerró el año con 90.000 conexiones en todo el mundo , mientras que en España consiguió duplicar el número de clientes hasta alcanzar las 40.000 conexiones.
+</p>
+			<a href="../svg/5145_20000207_ssd_right/5145_20000207_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/5145_20000207_ssd_right/5145_20000207_ssd_rewriten_complete-004.svg" border="1" width="100%"></a>
+
+        </div>
+    
+    </body>
+</html>
+    

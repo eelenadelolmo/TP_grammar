@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Drawing the trees for the sentences in the text</title>
+    
+        <script>
+            function SyncScroll(page) {
+              var div1 = document.getElementById("left");
+              var div2 = document.getElementById("right");
+              if (page=="left") {
+                div2.scrollTop = div1.scrollTop;
+              }
+              else {
+                div1.scrollTop = div2.scrollTop;
+              }
+            }
+        </script>
+    
+        <style>
+    
+            .split {
+              height: 100%;
+              width: 50%;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              overflow-x: auto;
+              padding-top: 20px;
+            }
+    
+            /* Control the left side */
+            .original {
+              left: 0;
+            }
+    
+            /* Control the right side */
+            .rewriten {
+              right: 0;
+            }
+    
+        </style>
+    
+    </head>
+    
+    <body>
+    
+        <div class="split original" id="left" onscroll="SyncScroll('left')">
+    
+			<p> Rescatados 16 marineros españoles de un pesquero incendiado en Irlanda.
+</p>
+			<a href="../svg/73_20000201_g_ssd_left/73_20000201_g_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/73_20000201_g_ssd_left/73_20000201_g_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> El suceso se produjo ayer a 150 millas de la costa del sur de Irlanda.
+</p>
+			<a href="../svg/73_20000201_g_ssd_left/73_20000201_g_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/73_20000201_g_ssd_left/73_20000201_g_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> La tripulación lanzó tres botes salvavidas al agua y abandonó el barco , el Milford Eagle , con base en el puerto de Milford Haven.
+</p>
+			<a href="../svg/73_20000201_g_ssd_left/73_20000201_g_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/73_20000201_g_ssd_left/73_20000201_g_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+			<p> Los marinos - - en la foto , a su llegada a la ciudad de Shannon - - no sufrieron heridas.
+</p>
+			<a href="../svg/73_20000201_g_ssd_left/73_20000201_g_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/73_20000201_g_ssd_left/73_20000201_g_ssd_rewriten_complete-004.svg" border="1" width="100%"></a>
+
+        </div>
+
+        <div class="split rewriten" id="right" onscroll="SyncScroll('right')">
+    
+			<p> Rescatados 16 marineros españoles de un pesquero incendiado en Irlanda.
+</p>
+			<a href="../svg/73_20000201_g_ssd_right/73_20000201_g_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/73_20000201_g_ssd_right/73_20000201_g_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> El suceso se produjo ayer a 150 millas de la costa del sur de Irlanda.
+</p>
+			<a href="../svg/73_20000201_g_ssd_right/73_20000201_g_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/73_20000201_g_ssd_right/73_20000201_g_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> La tripulación lanzó tres botes salvavidas al agua y abandonó el barco , el Milford Eagle , con base en el puerto de Milford Haven.
+</p>
+			<a href="../svg/73_20000201_g_ssd_right/73_20000201_g_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/73_20000201_g_ssd_right/73_20000201_g_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+			<p> Los marinos - - en la foto , a su llegada a la ciudad de Shannon - - no sufrieron heridas.
+</p>
+			<a href="../svg/73_20000201_g_ssd_right/73_20000201_g_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/73_20000201_g_ssd_right/73_20000201_g_ssd_rewriten_complete-004.svg" border="1" width="100%"></a>
+
+        </div>
+    
+    </body>
+</html>
+    
