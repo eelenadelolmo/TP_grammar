@@ -72,7 +72,7 @@
 19	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	20	det
 20	caso	caso	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	18	pobj
 21	Privanza	Privanza	np00000	np00000	rep=no|t=no|r=yes|m=yes	20	appos
-22	,	,	fc	fc	rep=no|t=no|r=no|m=yes	20	punct
+22	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	20	punct
 23	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	25	det
 24	supuesto	supuesto	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	25	amod
 25	fraude	fraude	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	20	appos
@@ -94,7 +94,7 @@
 6	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	7	det
 7	juez	juez	nccs000	nccs000	rep=no|t=yes|r=no|m=yes	15	nsubj
 8	Garzón	Garzón	np00000	np00000	rep=no|t=yes|r=no|m=yes	7	appos
-9	y	y	cc	cc	rep=no|t=no|r=no|m=no	15	coord_fixed
+9	y	y	cc	cc	rep=no|t=no|r=no|m=yes	15	coord_fixed
 10	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	11	det
 11	fiscal	fiscal	nccs000	nccs000	rep=no|t=yes|r=no|m=yes	15	nsubj
 12	David	David	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	11	appos

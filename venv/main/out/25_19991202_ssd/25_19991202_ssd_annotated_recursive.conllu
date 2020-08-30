@@ -437,7 +437,7 @@
 26	desee	desear	vmsp3s0	vmsp3s0	rep=no|t=no|r=no|m=yes	23	rcmod
 27	.	.	fp	fp	rep=no|t=no|r=no|m=no	15	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 2	tantos	tanto	di0mp0	di0mp0	rep=no|t=yes|r=no|m=yes	3	det
 3	millones	millón	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	4	nsubj
 4	pueden	poder	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	0	root
@@ -477,7 +477,7 @@
 11	voz	voz	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	9	attr
 12	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	11	prepn
 13	alma	alma	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	12	pobj
-14	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	9	punct
+14	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	9	punct
 15	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
 
 1	Conocemos	conocer	vmip1p0	vmip1p0	rep=no|t=no|r=no|m=yes	0	root

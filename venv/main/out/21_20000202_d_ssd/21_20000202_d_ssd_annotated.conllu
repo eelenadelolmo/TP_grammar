@@ -82,7 +82,7 @@
 75	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=no	57	punct
 76	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	15	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	coord_fixed
 2	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	15	prepv
 3	Los	Los	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=no	2	pobj
 4	orígenes	origen	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=no	3	appos
@@ -122,10 +122,10 @@
 38	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	det
 39	sola	solo	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	amod
 40	palabra	palabra	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	pobj
-41	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	40	punct
+41	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	punct
 42	palabra	palabra	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	appos
 43	mágica	mágico	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	amod
-44	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	42	punct
+44	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	punct
 45	creada	creado	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	amod
 46	también	también	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	45	advmod
 47	por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	45	agent
@@ -136,11 +136,11 @@
 52	nuestro	nuestro	dp1msp	dp1msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	53	poss
 53	maestro	maestro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	51	pobj
 54	Arana	Arana	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	53	appos
-55	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	57	punct
-56	¡	¡	faa	faa	recursive=no|rep=no|theme=no|rheme=no|main=yes	57	punct
+55	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	57	punct
+56	¡	¡	faa	faa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	57	punct
 57	Euzkadi	Euzkadi	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	appos
-58	!	!	fat	fat	recursive=no|rep=no|theme=no|rheme=no|main=yes	57	punct
-59	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	35	punct
+58	!	!	fat	fat	recursive=no|rep=no|theme=no|rheme=yes|main=yes	57	punct
+59	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	punct
 60	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	15	punct
 
 1	Sería	ser	vsic3s0	vsic3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root

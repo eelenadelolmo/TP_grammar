@@ -174,7 +174,7 @@
 19	mirall	mirall	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	17	appos
 20	-	-	fg	fg	recursive=no|rep=no|theme=yes|rheme=no|main=yes	10	punct
 21	-	-	fg	fg	recursive=no|rep=no|theme=yes|rheme=no|main=yes	10	punct
-22	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	44	coord_fixed
+22	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	44	coord_fixed
 23	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	24	det
 24	rescate	rescate	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	44	nsubj
 25	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	24	prepn
@@ -352,12 +352,12 @@
 8	Campanas	campana	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	2	dobj
 9	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	prepn
 10	Bastabales	Bastabales	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
-11	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
+11	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	punct
 12	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	prepn
 13	Rosalía	Rosalía	np0000a	np0000a	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
 14	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	prepn
 15	Castro	castro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	pobj
-16	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
+16	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	punct
 17	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	2	prepv
 18	integridad	integridad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
 19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct

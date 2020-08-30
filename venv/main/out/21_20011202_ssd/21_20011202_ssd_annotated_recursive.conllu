@@ -9,7 +9,7 @@
 9	tiempo	tiempo	ncms000	ncms000	rep=no|t=no|r=no|m=yes	7	dobj
 10	.	.	fp	fp	rep=no|t=no|r=no|m=no	7	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 2	¿	¿	fia	fia	rep=no|t=no|r=no|m=no	4	punct
 3	no	no	rn	rn	rep=no|t=no|r=no|m=yes	4	neg
 4	creen	creer	vmip3p0	vmip3p0	rep=no|t=no|r=no|m=yes	0	root
@@ -33,14 +33,14 @@
 
 1	Alguien	alguien	pi0cs000	pi0cs000	rep=no|t=yes|r=no|m=yes	2	nsubj
 2	dijo	decir	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	11	coord
-3	:	:	fd	fd	rep=no|t=no|r=no|m=yes	8	punct
-4	¡	¡	faa	faa	rep=no|t=no|r=no|m=yes	8	punct
+3	:	:	fd	fd	rep=no|t=no|r=yes|m=yes	8	punct
+4	¡	¡	faa	faa	rep=no|t=no|r=yes|m=yes	8	punct
 5	Año	Año	np00000	np00000	rep=no|t=no|r=yes|m=yes	2	dobj
 6	Nuevo	nuevo	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	5	amod
-7	,	,	fc	fc	rep=no|t=no|r=no|m=yes	2	punct
+7	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	2	punct
 8	moneda	moneda	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	2	dobj
 9	nueva	nuevo	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	8	amod
-10	!	!	fat	fat	rep=no|t=no|r=no|m=yes	8	punct
+10	!	!	fat	fat	rep=no|t=no|r=yes|m=yes	8	punct
 11	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 12	los	el	da0mp0	da0mp0	rep=no|t=no|r=no|m=yes	13	det
 13	comerciantes	comerciante	nccp000	nccp000	rep=no|t=no|r=no|m=yes	14	nsubj
@@ -109,7 +109,7 @@
 31	bancaria	bancario	aq0fs0	aq0fs0	rep=no|t=no|r=no|m=no	30	amod
 32	.	.	fp	fp	rep=no|t=no|r=no|m=no	18	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	6	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	6	coord_fixed
 2	¿	¿	fia	fia	rep=no|t=no|r=no|m=no	6	punct
 3	por	por	sps00	sps00	rep=no|t=no|r=no|m=no	6	prepv
 4	qué	qué	pt0cs000	pt0cs000	rep=no|t=no|r=no|m=no	3	pobj
@@ -117,7 +117,7 @@
 6	abren	abrir	vmip3p0	vmip3p0	rep=no|t=no|r=no|m=yes	0	root
 7	las	el	da0fp0	da0fp0	rep=no|t=no|r=no|m=yes	8	det
 8	cajas	caja	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	6	dobj
-9	y	y	cc	cc	rep=no|t=no|r=no|m=no	6	coord_fixed
+9	y	y	cc	cc	rep=no|t=no|r=no|m=yes	6	coord_fixed
 10	bancos	banco	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	6	dobj
 11	por	por	sps00	sps00	rep=no|t=no|r=no|m=no	6	prepv
 12	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=no	13	det
@@ -128,7 +128,7 @@
 17	?	?	fit	fit	rep=no|t=no|r=no|m=no	6	punct
 18	.	.	fp	fp	rep=no|t=no|r=no|m=no	6	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	9	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	9	coord_fixed
 2	ya	ya	rg	rg	rep=no|t=no|r=no|m=yes	3	advmod
 3	puestos	puesto	aq0mpp	aq0mpp	rep=no|t=no|r=no|m=yes	9	cpred
 4	,	,	fc	fc	rep=no|t=no|r=no|m=no	9	punct

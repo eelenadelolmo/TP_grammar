@@ -24,7 +24,7 @@
 24	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	19	dep
 25	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	26	det
 26	razón	razón	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	24	pobj
-27	,	,	fc	fc	rep=no|t=no|r=no|m=yes	28	punct
+27	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	28	punct
 28	sino	sino	cc	cc	rep=no|t=no|r=yes|m=yes	10	coord_fixed
 29	sólo	sólo	rg	rg	rep=no|t=no|r=yes|m=yes	28	advmod
 30	pensando	pensar	vmg0000	vmg0000	rep=no|t=no|r=yes|m=yes	29	dep

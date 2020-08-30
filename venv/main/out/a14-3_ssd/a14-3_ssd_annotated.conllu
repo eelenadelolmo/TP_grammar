@@ -1,4 +1,4 @@
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 2	sí	sí	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	3	advmod
 3	creo	creer	vmip1s0	vmip1s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 4	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	dobj
@@ -37,7 +37,7 @@
 37	somos	ser	vsip1p0	vsip1p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	rcmod
 38	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	17	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	coord_fixed
 2	aun	aun	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	3	advmod
 3	cuando	cuando	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	17	advcl
 4	la	él	pp3fsa00	pp3fsa00	recursive=no|rep=no|theme=no|rheme=no|main=no	5	dobj
@@ -57,8 +57,8 @@
 18	gracias	gracia	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	attr
 19	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	prepn
 20	ella	él	pp3fs000	pp3fs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	pobj
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	22	punct
-22	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	17	coord_fixed
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+22	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	coord_fixed
 23	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	attr
 24	gentes	gente	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	pobj
 25	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	dep

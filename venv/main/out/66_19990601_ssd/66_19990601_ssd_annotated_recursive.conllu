@@ -91,7 +91,7 @@
 9	estaciones	estación	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	7	dobj
 10	sin	sin	sps00	sps00	rep=no|t=no|r=yes|m=yes	7	dep
 11	parar	parar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	10	pobj
-12	y	y	cc	cc	rep=no|t=no|r=no|m=no	7	coord_fixed
+12	y	y	cc	cc	rep=no|t=no|r=no|m=yes	7	coord_fixed
 13	sin	sin	sps00	sps00	rep=no|t=no|r=yes|m=yes	7	dep
 14	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	15	poss
 15	conductor	conductor	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	13	pobj
@@ -442,7 +442,7 @@
 10	agosto	agosto	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	9	pobj
 11	de	de	spcms	spcms	rep=no|t=no|r=yes|m=yes	10	prepn
 12	1997	1997	zp	zp	rep=no|t=no|r=yes|m=yes	11	pobj
-13	,	,	fc	fc	rep=no|t=no|r=no|m=yes	10	punct
+13	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	10	punct
 14	cuando	cuando	pr000000	pr000000	rep=no|t=no|r=no|m=yes	17	dobj
 15	nueve	nueve	dn0cp0	dn0cp0	rep=no|t=no|r=no|m=yes	16	det
 16	personas	persona	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	17	nsubj

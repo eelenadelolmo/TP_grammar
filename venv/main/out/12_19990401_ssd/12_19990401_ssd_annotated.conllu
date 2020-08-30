@@ -49,7 +49,7 @@
 5	lo	él	pp3msa00	pp3msa00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	dobj
 6	perdonan	perdonar	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	coord
 7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
-8	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	17	coord_fixed
+8	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	coord_fixed
 9	él	él	pp3ms000	pp3ms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	nsubj
 10	cuida	cuidar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	coord
 11	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	oobj
@@ -61,7 +61,7 @@
 17	;	;	fx	fx	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 18	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	17	advcl
 19	ahí	ahí	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	18	advmod
-20	que	que	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	17	coord_fixed
+20	que	que	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	coord_fixed
 21	Joan	Joan	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=no|main=no	18	cobj
 22	Lerma	Lerma	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=no|main=no	21	appos
 23	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	18	punct
@@ -71,11 +71,11 @@
 27	era	ser	vsii3s0	vsii3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	26	cobj
 28	imprescindible	imprescindible	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=no|main=no	27	attr
 29	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	18	punct
-30	ahora	ahora	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	31	advmod
-31	esté	estar	vmsp3s0	vmsp3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	20	cobj
-32	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	31	prepv
-33	vía	vía	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	32	pobj
-34	muerta	muerto	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=no|main=no	33	amod
+30	ahora	ahora	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	advmod
+31	esté	estar	vmsp3s0	vmsp3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	cobj
+32	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	prepv
+33	vía	vía	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	pobj
+34	muerta	muerto	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	amod
 35	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	17	punct
 
 1	Ciscar	Ciscar	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	nsubj

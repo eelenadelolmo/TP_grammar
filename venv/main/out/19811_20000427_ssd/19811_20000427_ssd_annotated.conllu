@@ -20,10 +20,10 @@
 20	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	21	det
 21	Gobierno	Gobierno	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	24	nsubj
 22	vasco	vasco	aq0ms0	aq0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	21	amod
-23	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
+23	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	punct
 24	haya	haber	vasp3s0	vasp3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	cobj
 25	reaccionado	reaccionar	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	vobj
-26	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
+26	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	punct
 27	ante	ante	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	prepv
 28	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	det
 29	problema	problema	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	pobj
@@ -169,10 +169,10 @@
 15	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	prepn
 16	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	det
 17	Congreso	Congreso	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
-18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
+18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	punct
 19	Francisco	francisco	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	appos
 20	Rodríguez	Rodríguez	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	appos
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	punct
 22	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	prepn
 23	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	det
 24	debate	debate	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	pobj

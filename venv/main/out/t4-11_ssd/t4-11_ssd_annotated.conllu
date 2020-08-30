@@ -30,7 +30,7 @@
 20	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 
 1	Rara	raro	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	prepn
-2	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+2	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 3	triste	triste	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	prepn
 4	evidencia	evidencia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 5	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	prepn
@@ -78,7 +78,7 @@
 7	fiesta	fiesta	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dobj
 8	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 2	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	neg
 3	le	él	pp3csd00	pp3csd00	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	iobj
 4	vale	valer	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
@@ -165,7 +165,7 @@
 6	usar	usar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	dobj
 7	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	det
 8	tricornio	tricornio	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	cobj
-9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 10	es	ser	vsis3p0	vsis3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	dobj
 11	decir	decir	vmp00pm	vmp00pm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	attr
 12	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	det

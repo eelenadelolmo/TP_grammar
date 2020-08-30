@@ -23,16 +23,16 @@
 23	obras	obra	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	22	dobj
 24	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	23	prepn
 25	Turina	Turina	np00000	np00000	rep=no|t=no|r=yes|m=yes	24	pobj
-26	,	,	fc	fc	rep=no|t=no|r=no|m=yes	28	punct
+26	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	28	punct
 27	Brotons	Brotons	np00000	np00000	rep=no|t=no|r=yes|m=yes	24	pobj
 28	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	24	coord_fixed
 29	Chaikovski	Chaikovski	np00000	np00000	rep=no|t=no|r=yes|m=yes	24	pobj
 30	.	.	fp	fp	rep=no|t=no|r=no|m=no	22	punct
 
 1	Representación	representación	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	0	root
-2	hoy	hoy	rg	rg	rep=no|t=no|r=no|m=no	3	advmod
-3	y	y	cc	cc	rep=no|t=no|r=no|m=no	1	coord_fixed
-4	mañana	mañana	rg	rg	rep=no|t=no|r=no|m=no	3	advmod
+2	hoy	hoy	rg	rg	rep=no|t=no|r=no|m=yes	3	advmod
+3	y	y	cc	cc	rep=no|t=no|r=no|m=yes	1	coord_fixed
+4	mañana	mañana	rg	rg	rep=no|t=no|r=no|m=yes	3	advmod
 5	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	1	prepn
 6	esta	este	dd0fs0	dd0fs0	rep=no|t=no|r=no|m=yes	7	det
 7	obra	obra	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	5	pobj

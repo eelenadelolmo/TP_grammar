@@ -32,7 +32,7 @@
 32	choque	choque	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	pobj
 33	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	prepn
 34	Giovanella	Giovanella	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	pobj
-35	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	punct
+35	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	punct
 36	durante	durante	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	prepv
 37	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	det
 38	derbi	derbi	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	pobj
@@ -59,7 +59,7 @@
 10	necesitó	necesitar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 11	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	det
 12	hora	hora	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	dobj
-13	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	10	coord_fixed
+13	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	coord_fixed
 14	media	medio	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	dobj
 15	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	10	prepv
 16	colocar	colocar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=no	15	pobj
@@ -144,9 +144,9 @@
 9	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	prepn
 10	deportistas	deportista	nccp000	nccp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
 11	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	coord_fixed
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 13	especialmente	especialmente	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	advmod
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 15	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	dobj
 16	pilotos	piloto	nccp000	nccp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
 17	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	prepn
@@ -192,7 +192,7 @@
 1	Sancho	Sancho	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	18	nsubj
 2	recuerda	recordar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	0	root
 3	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	2	dobj
-4	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+4	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 5	antes	antes	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	advmod
 6	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	prep
 7	volver	volver	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	pobj
@@ -205,7 +205,7 @@
 14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
 15	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	prepv
 16	jugar	jugar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	pobj
-17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 18	habrá	haber	vaif3s0	vaif3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	cobj
 19	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	conj
 20	quitarle	quitar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	cobj
@@ -229,7 +229,7 @@
 14	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	det
 15	fuerte	fuerte	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	amod
 16	vendaje	vendaje	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
-17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
+17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	punct
 18	lo	el	da0ns0	da0ns0	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	det
 19	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	nsubj
 20	permitirá	permitir	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	rcmod
@@ -307,16 +307,16 @@
 12	presidente	presidente	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	pobj
 13	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	prepn
 14	Deportivo	Deportivo	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	punct
 16	Augusto	augusto	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	appos
 17	César	César	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	appos
 18	Lendoiro	Lendoiro	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	appos
-19	;	;	fx	fx	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
+19	;	;	fx	fx	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	punct
 20	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	prepn
 21	técnico	técnico	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	pobj
 22	Javier	Javier	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	appos
 23	Irureta	Irureta	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	appos
-24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	punct
+24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	punct
 25	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	poss
 26	ayudante	ayudante	nccs000	nccs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	pobj
 27	Paco	Paco	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	appos

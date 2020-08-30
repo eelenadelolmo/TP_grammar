@@ -43,7 +43,7 @@
 10	madera	madera	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
 11	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	coord_fixed
 12	palmas	palma	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 14	desde	desde	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	prepv
 15	donde	donde	pr000000	pr000000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	pobj
 16	contemplaban	contemplar	vmii3p0	vmii3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dep
@@ -52,7 +52,7 @@
 19	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	prepn
 20	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	det
 21	bañistas	bañista	nccp000	nccp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
-22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 23	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	prepn
 24	este	este	dd0ms0	dd0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	det
 25	caso	caso	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	pobj
@@ -239,7 +239,7 @@
 27	atraían	atraer	vmii3p0	vmii3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	conj
 28	mar	mar	nccs000	nccs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	dobj
 29	adentro	adentro	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	advmod
-30	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	25	coord_fixed
+30	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	coord_fixed
 31	le	él	pp3csa00	pp3csa00	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	iobj
 32	desplazaban	desplazar	vmii3p0	vmii3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	conj
 33	en_diagonal	en_diagonal	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	advmod
@@ -276,7 +276,7 @@
 18	firme	firme	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=no|main=no	17	amod
 19	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	1	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	coord_fixed
 2	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=no	6	prepv
 3	levantar	levantar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=no	2	pobj
 4	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=no	5	det
@@ -309,7 +309,7 @@
 31	desesperante	desesperante	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	amod
 32	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 2	además	además	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	4	advmod
 3	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 4	sonó	sonar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root

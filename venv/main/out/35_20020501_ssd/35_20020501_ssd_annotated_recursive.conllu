@@ -125,7 +125,7 @@
 13	fallecimiento	fallecimiento	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	12	pobj
 14	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	13	prepn
 15	Basayev	Basayev	np00000	np00000	rep=no|t=no|r=yes|m=yes	14	pobj
-16	,	,	fc	fc	rep=no|t=no|r=no|m=yes	20	punct
+16	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	20	punct
 17	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	21	dobj
 18	quien	quien	pr0cs000	pr0cs000	rep=no|t=no|r=yes|m=yes	17	pobj
 19	Moscú	Moscú	np00000	np00000	rep=no|t=no|r=yes|m=yes	20	nsubj
@@ -195,7 +195,7 @@
 
 1	Entre	entre	sps00	sps00	rep=no|t=no|r=no|m=yes	7	dep
 2	1996	1996	z	z	rep=no|t=no|r=no|m=yes	7	dep
-3	y	y	cc	cc	rep=no|t=no|r=no|m=no	7	coord_fixed
+3	y	y	cc	cc	rep=no|t=no|r=no|m=yes	7	coord_fixed
 4	1999	1999	z	z	rep=no|t=no|r=no|m=yes	7	dep
 5	,	,	fc	fc	rep=no|t=no|r=no|m=no	7	punct
 6	Basayev	Basayev	np00000	np00000	rep=no|t=yes|r=no|m=yes	7	nsubj

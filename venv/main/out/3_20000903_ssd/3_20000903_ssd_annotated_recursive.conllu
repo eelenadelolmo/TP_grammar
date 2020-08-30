@@ -76,7 +76,7 @@
 12	ha	haber	vaip3s0	vaip3s0	rep=no|t=no|r=yes|m=yes	0	root
 13	reconocido	reconocer	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	12	vobj
 14	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	13	dobj
-15	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+15	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 16	aunque	aunque	cs	cs	rep=no|t=no|r=yes|m=yes	26	advcl
 17	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	18	det
 18	causa	causa	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	22	nsubj
@@ -86,7 +86,7 @@
 22	llegó	llegar	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	16	cobj
 23	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	22	prepv
 24	detenerse	detener	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	22	dobj
-25	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+25	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 26	ha	haber	vaip3s0	vaip3s0	rep=no|t=no|r=yes|m=yes	14	cobj
 27	estado	estar	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	26	vobj
 28	plagada	plagado	aq0fsp	aq0fsp	rep=no|t=no|r=yes|m=yes	26	cpred
@@ -113,7 +113,7 @@
 16	para	para	sps00	sps00	rep=no|t=no|r=yes|m=yes	8	prepv
 17	evitar	evitar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	16	pobj
 18	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	17	dobj
-19	,	,	fc	fc	rep=no|t=no|r=no|m=yes	31	punct
+19	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	31	punct
 20	desde	desde	sps00	sps00	rep=no|t=no|r=yes|m=yes	31	prepv
 21	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	22	det
 22	sector	sector	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	20	pobj
@@ -122,7 +122,7 @@
 25	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	22	prepn
 26	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	27	det
 27	curia	curia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	25	pobj
-28	,	,	fc	fc	rep=no|t=no|r=no|m=yes	31	punct
+28	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	31	punct
 29	se	se	p0000000	p0000000	rep=no|t=no|r=yes|m=yes	31	reflec
 30	le	él	pp3csd00	pp3csd00	rep=no|t=no|r=yes|m=yes	31	iobj
 31	acusará	acusar	vmif3s0	vmif3s0	rep=no|t=no|r=yes|m=yes	18	cobj

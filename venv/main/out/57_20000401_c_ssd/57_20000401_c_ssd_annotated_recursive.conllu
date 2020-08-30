@@ -7,10 +7,10 @@
 7	España	España	np00000	np00000	rep=no|t=no|r=yes|m=yes	6	pobj
 8	tras	tras	sps00	sps00	rep=no|t=no|r=yes|m=yes	3	prepv
 9	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	11	det
-10	'	'	fz	fz	rep=no|t=no|r=no|m=yes	11	punct
+10	'	'	fz	fz	rep=no|t=no|r=yes|m=yes	11	punct
 11	caso	caso	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	8	pobj
 12	Pinochet	Pinochet	np00000	np00000	rep=no|t=no|r=yes|m=yes	11	appos
-13	'	'	fz	fz	rep=no|t=no|r=no|m=yes	11	punct
+13	'	'	fz	fz	rep=no|t=no|r=yes|m=yes	11	punct
 14	.	.	fp	fp	rep=no|t=no|r=no|m=no	2	punct
 
 1	El	el	da0ms0	da0ms0	rep=yes|t=no|r=no|m=no	2	det
@@ -41,15 +41,15 @@
 26	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	23	prepv
 27	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	28	poss
 28	país	país	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	26	pobj
-29	,	,	fc	fc	rep=no|t=no|r=no|m=yes	23	punct
+29	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	23	punct
 30	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	31	det
 31	Gobierno	Gobierno	np00000	np00000	rep=no|t=no|r=yes|m=yes	23	nsubj
 32	chileno	chileno	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	31	amod
 33	tiene	tener	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	23	cobj
-34	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	36	punct
+34	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	36	punct
 35	mucho	mucho	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	36	det
 36	interés	interés	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	23	dobj
-37	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	36	punct
+37	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	36	punct
 38	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	36	prepn
 39	relanzar	relanzar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	38	pobj
 40	sus	su	dp3cp0	dp3cp0	rep=no|t=no|r=yes|m=yes	41	poss

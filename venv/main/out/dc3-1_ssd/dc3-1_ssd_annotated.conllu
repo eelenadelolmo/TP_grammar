@@ -93,7 +93,7 @@
 11	complejos	complejo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
 12	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
 13	metalomacrociclos	metalomacrociclo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 15	generalmente	generalmente	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	advmod
 16	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
 17	naturaleza	naturaleza	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	pobj
@@ -149,10 +149,10 @@
 29	transferencia	transferencia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	pobj
 30	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	prepn
 31	carga	carga	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	pobj
-32	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	24	coord_fixed
-33	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	36	punct
+32	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	coord_fixed
+33	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	punct
 34	abreviadamente	abreviadamente	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	advmod
-35	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	36	punct
+35	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	punct
 36	C	C	np0000a	np0000a	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	attr
 37	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	24	punct
 
@@ -244,7 +244,7 @@
 8	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	prepn
 9	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
 10	ligereza	ligereza	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 12	flexibilidad	flexibilidad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
 13	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	coord_fixed
 14	moldeabilidad	moldeabilidad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
@@ -270,10 +270,10 @@
 15	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	prepn
 16	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	det
 17	polímero	polímero	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
-18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 19	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	det
 20	plástico	plástico	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	appos
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 22	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	prepn
 23	fibrillas	fibrilla	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	pobj
 24	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	coord_fixed
@@ -284,13 +284,13 @@
 29	otra	otro	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	det
 30	sustancia	sustancia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	pobj
 31	conductora	conductor	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	amod
-32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	punct
+32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	punct
 33	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	dep
 34	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	det
 35	grafito	grafito	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	cobj
 36	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	12	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	32	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	coord_fixed
 2	junto	junto	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	prepv
 3	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	prep
 4	estos	este	dd0mp0	dd0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	det

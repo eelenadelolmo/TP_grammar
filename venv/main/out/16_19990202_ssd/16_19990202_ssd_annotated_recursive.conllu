@@ -7,7 +7,7 @@
 7	asimila	asimilar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	0	root
 8	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	7	dobj
 9	consomé	consomé	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	7	dobj
-10	o	o	cc	cc	rep=no|t=no|r=no|m=no	7	coord_fixed
+10	o	o	cc	cc	rep=no|t=no|r=no|m=yes	7	coord_fixed
 11	sopicaldo	sopicaldo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	7	dobj
 12	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	7	dobj
 13	día	día	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	12	pobj
@@ -29,16 +29,16 @@
 8	compañeros	compañero	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	7	pobj
 9	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	7	coord_fixed
 10	vecinos	vecino	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	7	pobj
-11	,	,	fc	fc	rep=no|t=no|r=no|m=yes	13	punct
+11	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	13	punct
 12	emigrantes	emigrante	nccp000	nccp000	rep=no|t=no|r=yes|m=yes	7	pobj
 13	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	7	coord_fixed
 14	minorías	minoría	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	7	pobj
-15	,	,	fc	fc	rep=no|t=no|r=no|m=yes	16	punct
+15	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	16	punct
 16	contra	contra	sps00	sps00	rep=no|t=no|r=yes|m=yes	5	prepv
-17	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	18	punct
+17	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	18	punct
 18	esos	ese	pd0mp000	pd0mp000	rep=no|t=no|r=yes|m=yes	16	pobj
-19	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	18	punct
-20	,	,	fc	fc	rep=no|t=no|r=no|m=yes	18	punct
+19	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	18	punct
+20	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	18	punct
 21	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	22	nsubj
 22	son	ser	vsip3p0	vsip3p0	rep=no|t=no|r=no|m=yes	18	rcmod
 23	culpables	culpable	aq0cp0	aq0cp0	rep=no|t=no|r=no|m=yes	22	attr
@@ -220,7 +220,7 @@
 10	débil	débil	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=yes	4	pobj
 11	.	.	fp	fp	rep=no|t=no|r=no|m=no	1	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 2	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	3	det
 3	democracia	democracia	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	4	nsubj
 4	tiene	tener	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	0	root
@@ -233,7 +233,7 @@
 11	violencia	violencia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	9	pobj
 12	gratuita	gratuito	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	11	amod
 13	juvenil	juvenil	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	11	dep
-14	,	,	fc	fc	rep=no|t=no|r=no|m=yes	16	punct
+14	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	16	punct
 15	anárquica	anárquico	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	11	dep
 16	o	o	cc	cc	rep=no|t=no|r=yes|m=yes	11	coord_fixed
 17	xenófoba	xenófobo	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	11	dep

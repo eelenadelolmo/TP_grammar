@@ -19,7 +19,7 @@
 19	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	dobj
 20	Gobierno	Gobierno	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
 21	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	oobj
-22	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+22	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 23	falta	falta	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	pobj
 24	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	prepn
 25	respeto	respeto	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
@@ -27,8 +27,8 @@
 27	política	política	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	pobj
 28	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	prepn
 29	agua	agua	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	pobj
-30	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
-31	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	17	coord_fixed
+30	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
+31	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	coord_fixed
 32	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	oobj
 33	dilatar	dilatar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	pobj
 34	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	prepv
@@ -94,12 +94,12 @@
 5	Gobierno	Gobierno	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	pobj
 6	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	oobj
 7	practicar	practicar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	pobj
-8	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+8	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 9	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	det
 10	huida	huida	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	dobj
 11	hacia	hacia	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	prepn
 12	adelante	adelante	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	advmod
-13	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+13	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 14	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	prepv
 15	evitar	evitar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	pobj
 16	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	det
@@ -168,8 +168,8 @@
 4	críticas	crítica	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dobj
 5	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	prepn
 6	Tocino	Tocino	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	pobj
-7	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
-8	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+7	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
+8	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 9	Ocupa	ocupar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	cobj
 10	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	det
 11	último	último	ao0ms0	ao0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	amod
@@ -192,13 +192,13 @@
 28	restricciones	restricción	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	cobj
 29	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	prepn
 30	agua	agua	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	pobj
-31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 32	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	nsubj
 33	ya	ya	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	advmod
 34	afectan	afectar	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	rcmod
 35	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	dobj
 36	150.000	150000	z	z	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	num
 37	españoles	español	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	35	pobj
-38	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+38	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 39	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 

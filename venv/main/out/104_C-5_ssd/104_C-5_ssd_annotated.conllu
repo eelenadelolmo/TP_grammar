@@ -155,7 +155,7 @@
 11	errores	error	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	nsubj
 12	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
 13	pasado	pasado	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 15	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	nsubj
 16	obligaron	obligar	vmis3p0	vmis3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	rcmod
 17	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	dobj
@@ -237,7 +237,7 @@
 35	Tradung	Tradung	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	appos
 36	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	coord_fixed
 37	otras	otro	pi0fp000	pi0fp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	dep
-38	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+38	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 39	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	40	nsubj
 40	supusieron	suponer	vmis3p0	vmis3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	rcmod
 41	pérdidas	pérdida	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	40	dobj
@@ -265,7 +265,7 @@
 9	todos	todo	di0mp0	di0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	det
 10	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	det
 11	niveles	nivel	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	punct
 13	desde	desde	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	pobj
 14	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	poss
 15	director	director	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	conj
@@ -309,7 +309,7 @@
 22	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	prepn
 23	presente	presente	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	amod
 24	año	año	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	pobj
-25	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	14	coord_fixed
+25	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	coord_fixed
 26	otros	otro	di0mp0	di0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	det
 27	170	170	z	z	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	num
 28	funcionarios	funcionario	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	nsubj
@@ -392,12 +392,12 @@
 13	banco	banco	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	11	pobj
 14	belga	belga	aq0cs0	aq0cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	13	amod
 15	KBC	KBC	np0000o	np0000o	recursive=no|rep=no|theme=yes|rheme=no|main=yes	13	appos
-16	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	30	coord_fixed
+16	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	coord_fixed
 17	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	18	det
 18	Banco	banco	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	30	nsubj
 19	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	18	prepn
 20	Inversiones	inversión	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	19	pobj
-21	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	30	coord_fixed
+21	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	coord_fixed
 22	Postal	postal	aq0mp0	aq0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	30	nsubj
 23	(	(	fpa	fpa	recursive=no|rep=no|theme=yes|rheme=no|main=yes	24	punct
 24	IPB	IPB	np0000o	np0000o	recursive=no|rep=no|theme=yes|rheme=no|main=yes	18	appos
@@ -435,7 +435,7 @@
 18	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	prep
 19	8.000	8000	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	num
 20	funcionarios	funcionario	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 22	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 23	siguen	seguir	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	coord
 24	teniendo	tener	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	dobj
@@ -608,7 +608,7 @@
 16	Group	Group	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	appos
 17	Holding	holding	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	appos
 18	Limited	Limited	np0000a	np0000a	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	appos
-19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 20	uno	uno	pi0ms000	pi0ms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	dep
 21	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	prepn
 22	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	det
@@ -659,7 +659,7 @@
 16	,	,	fc	fc	recursive=no|rep=no|theme=yes|rheme=no|main=yes	10	punct
 17	señaló	señalar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	0	root
 18	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	17	dobj
-19	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	punct
+19	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	punct
 20	estoy	estar	vmip1s0	vmip1s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	cobj
 21	seguro	seguro	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	attr
 22	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	dep
@@ -697,7 +697,7 @@
 54	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	52	coord_fixed
 55	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	56	det
 56	embalado	embalar	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	52	pobj
-57	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	punct
+57	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	punct
 58	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	17	punct
 
 1	Por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	14	prepv
@@ -730,7 +730,7 @@
 28	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	prepn
 29	sus	su	dp3cp0	dp3cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	poss
 30	clientes	cliente	nccp000	nccp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	pobj
-31	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	punct
+31	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	punct
 32	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	14	punct
 
 1	Alcan	Alcan	np0000o	np0000o	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	nsubj
@@ -815,7 +815,7 @@
 40	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	prepn
 41	productos	producto	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	pobj
 42	alimentarios	alimentario	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	dep
-43	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	45	punct
+43	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	45	punct
 44	cosméticos	cosmético	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	dep
 45	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	coord_fixed
 46	farmacéuticos	farmacéutico	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	dep

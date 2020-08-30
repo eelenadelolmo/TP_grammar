@@ -12,7 +12,7 @@
 2	presidente	presidente	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	nsubj
 3	del	del	spcms	spcms	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	prepn
 4	GIL	GIL	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	pobj
-5	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	9	coord_fixed
+5	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	coord_fixed
 6	alcalde	alcalde	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	nsubj
 7	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	prepn
 8	Marbella	Marbella	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	pobj
@@ -38,17 +38,17 @@
 28	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	det
 29	términos	término	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	dobj
 30	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	prepn
-31	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	punct
+31	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	punct
 32	organización	organización	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	pobj
 33	mafiosa	mafioso	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	amod
-34	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	punct
+34	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	punct
 35	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	coord_fixed
-36	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	punct
+36	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	punct
 37	organización	organización	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	pobj
 38	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	prepn
 39	métodos	método	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	pobj
 40	gansteriles	gansteril	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	amod
-41	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	punct
+41	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	punct
 42	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	9	punct
 
 1	Gil	Gil	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	nsubj
@@ -62,7 +62,7 @@
 9	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	prepn
 10	caudales	caudal	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
 11	públicos	público	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	amod
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
 13	prevaricación	prevaricación	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	pobj
 14	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	coord_fixed
 15	cohecho	cohecho	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	pobj

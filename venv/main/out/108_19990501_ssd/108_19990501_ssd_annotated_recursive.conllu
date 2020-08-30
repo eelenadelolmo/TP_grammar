@@ -48,16 +48,16 @@
 13	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	12	prepn
 14	Endesa	Endesa	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	13	pobj
 15	España	España	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	14	appos
-16	,	,	fc	fc	rep=no|t=no|r=no|m=yes	12	punct
+16	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	12	punct
 17	Rodolfo	Rodolfo	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	12	appos
 18	Martín	Martín	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	17	appos
 19	Villa	villa	np00000	np00000	rep=no|t=no|r=yes|m=yes	18	appos
-20	,	,	fc	fc	rep=no|t=no|r=no|m=yes	12	punct
+20	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	12	punct
 21	sobre	sobre	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepn
 22	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	24	det
-23	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	24	punct
+23	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	24	punct
 24	persecución	persecución	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	21	pobj
-25	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	24	punct
+25	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	24	punct
 26	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	27	dobj
 27	está	estar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	24	rcmod
 28	sufriendo	sufrir	vmg0000	vmg0000	rep=no|t=no|r=no|m=yes	27	attr
@@ -122,7 +122,7 @@
 18	Bolsa	Bolsa	np0000a	np0000a	rep=no|t=no|r=yes|m=yes	16	pobj
 19	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	18	prepn
 20	Comercio	comercio	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	19	pobj
-21	y	y	cc	cc	rep=no|t=no|r=no|m=no	10	coord_fixed
+21	y	y	cc	cc	rep=no|t=no|r=no|m=yes	10	coord_fixed
 22	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	dep
 23	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	24	det
 24	Bolsa	Bolsa	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	22	pobj
@@ -160,7 +160,7 @@
 14	Fiscalía	Fiscalía	np00000	np00000	rep=no|t=no|r=yes|m=yes	12	pobj
 15	chilena	chileno	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	14	amod
 16	Antimonopolio	Antimonopolio	np00000	np00000	rep=no|t=no|r=yes|m=yes	14	appos
-17	,	,	fc	fc	rep=no|t=no|r=no|m=yes	11	punct
+17	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	11	punct
 18	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	22	nsubj
 19	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	20	det
 20	miércoles	miércoles	ncms000	ncms000	rep=no|t=no|r=no|m=yes	22	dobj
@@ -222,7 +222,7 @@
 23	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	19	prepn
 24	Estados	estado	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	23	pobj
 25	Unidos	unido	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	24	amod
-26	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
+26	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	14	punct
 27	ya	ya	rg	rg	rep=no|t=no|r=yes|m=yes	28	advmod
 28	que	que	pi0ms000	pi0ms000	rep=no|t=no|r=yes|m=yes	14	cobj
 29	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	30	det

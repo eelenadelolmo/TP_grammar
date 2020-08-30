@@ -7,7 +7,7 @@
 7	pasado	pasado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	amod
 8	16.686	16686	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	num
 9	servicios	servicio	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dobj
-10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 11	694	694	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	prepn
 12	menos	menos	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	advmod
 13	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	crobj
@@ -90,7 +90,7 @@
 10	vía	vía	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
 11	pública	público	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	amod
 12	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	2	te
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	punct
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	punct
 14	desglosando	desglosar	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	advcl
 15	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	det
 16	servicios	servicio	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	dobj
@@ -99,7 +99,7 @@
 19	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	prepn
 20	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	det
 21	semana	semana	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
-22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	punct
+22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	punct
 23	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	det
 24	sábados	sábado	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	nsubj
 25	son	ser	vsip3p0	vsip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	cobj
@@ -133,7 +133,7 @@
 17	fin	fin	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	pobj
 18	de	de	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	prepn
 19	semana	semana	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
-20	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
+20	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	punct
 21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	22	punct
 22	explica	explicar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 23	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	det
@@ -158,7 +158,7 @@
 4	ardieron	arder	vmis3p0	vmis3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 5	1.078	1078	z	z	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	num
 6	contenedores	contenedor	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	nsubj
-7	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+7	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 8	493	493	z	z	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	num
 9	vehículos	vehículo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	nsubj
 10	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	prepv
@@ -197,7 +197,7 @@
 14	situaciones	situación	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	dobj
 15	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	prepn
 16	riesgo	riesgo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
-17	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+17	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	19	punct
 19	apunta	apuntar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 20	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	det
@@ -377,7 +377,7 @@
 20	número	número	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	dobj
 21	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	prepn
 22	salidas	salida	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	pobj
-23	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
+23	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	punct
 24	7.586	7586	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	num
 25	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	14	punct
 

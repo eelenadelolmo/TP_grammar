@@ -29,7 +29,7 @@
 
 1	NTT	NTT	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	nsubj
 2	Docomo	Docomo	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	1	appos
-3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	5	coord_fixed
+3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	coord_fixed
 4	Sony	Sony	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	nsubj
 5	han	haber	vaip3p0	vaip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 6	firmado	firmar	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	vobj
@@ -57,10 +57,10 @@
 5	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	prepn
 6	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	det
 7	banco	banco	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	pobj
-8	'	'	fz	fz	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+8	'	'	fz	fz	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 9	on	on	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	amod
 10	line	line	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	amod
-11	'	'	fz	fz	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+11	'	'	fz	fz	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 12	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 
 1	La	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
@@ -75,13 +75,13 @@
 10	depósitos	depósito	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dobj
 11	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	prepn
 12	yenes	yen	zm	zm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	pobj
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	19	punct
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	punct
 14	fondos	fondo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dobj
 15	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	prepn
 16	inversión	inversión	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
-17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	19	punct
+17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	punct
 18	préstamos	préstamo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dobj
-19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 20	pagos	pago	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dobj
 21	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 

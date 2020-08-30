@@ -55,8 +55,8 @@
 12	sustituir	sustituir	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	pobj
 13	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	dobj
 14	Benitez	Benitez	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
-15	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	punct
-16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	punct
+15	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	punct
+16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	punct
 17	dijo	decir	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 18	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	17	punct
 
@@ -141,7 +141,7 @@
 
 1	Valero	Valero	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	nsubj
 2	Rivera	rivera	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	1	appos
-3	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
+3	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	punct
 4	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	neg
 5	disimuló	disimular	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	coord
 6	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	poss

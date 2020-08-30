@@ -30,7 +30,7 @@
 20	.	.	fp	fp	rep=no|t=no|r=no|m=no	2	punct
 
 1	Rara	raro	aq0fs0	aq0fs0	rep=no|t=no|r=no|m=yes	4	prepn
-2	y	y	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+2	y	y	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 3	triste	triste	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=yes	4	prepn
 4	evidencia	evidencia	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	0	root
 5	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	4	prepn
@@ -78,7 +78,7 @@
 7	fiesta	fiesta	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	3	dobj
 8	.	.	fp	fp	rep=no|t=no|r=no|m=no	2	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 2	no	no	rn	rn	rep=no|t=no|r=no|m=yes	4	neg
 3	le	él	pp3csd00	pp3csd00	rep=no|t=no|r=no|m=yes	4	iobj
 4	vale	valer	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	0	root
@@ -165,7 +165,7 @@
 6	usar	usar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	5	dobj
 7	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	8	det
 8	tricornio	tricornio	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	10	cobj
-9	,	,	fc	fc	rep=no|t=no|r=no|m=yes	10	punct
+9	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	10	punct
 10	es	ser	vsis3p0	vsis3p0	rep=no|t=no|r=yes|m=yes	6	dobj
 11	decir	decir	vmp00pm	vmp00pm	rep=no|t=no|r=yes|m=yes	10	attr
 12	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	14	det

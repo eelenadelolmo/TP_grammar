@@ -12,7 +12,7 @@
 12	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	det
 13	coalición	coalición	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	pobj
 14	gubernamental	gubernamental	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	amod
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 16	socialdemócratas	socialdemócrata	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	dep
 17	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	coord_fixed
 18	verdes	verde	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	dep
@@ -110,7 +110,7 @@
 12	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
 13	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	det
 14	reconciliación	reconciliación	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
-15	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+15	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 16	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	0	root
 17	apuntó	apuntar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	16	coord
 18	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	17	dobj
@@ -157,10 +157,10 @@
 22	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	det
 23	Unión	Unión	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	pobj
 24	Europea	europeo	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	amod
-25	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	punct
+25	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	punct
 26	UE	UE	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	appos
-27	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	punct
-28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	punct
+27	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	punct
+28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	punct
 29	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dep
 30	mejor	mejor	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	amod
 31	fórmula	fórmula	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	cobj
@@ -217,7 +217,7 @@
 38	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	iobj
 39	presidente	presidente	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	pobj
 40	yugoslavo	yugoslavo	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	amod
-41	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	39	punct
+41	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	punct
 42	Slobodan	Slobodan	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	appos
 43	Milosevic	Milosevic	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	appos
 44	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	15	punct
@@ -288,9 +288,9 @@
 12	Gernot	Gernot	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	appos
 13	Erler	Erler	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	12	appos
 14	consideró	considerar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	coord
-15	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+15	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 16	ilusoria	ilusorio	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	cpred
-17	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+17	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 18	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	det
 19	propuesta	propuesta	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	dobj
 20	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	prepn

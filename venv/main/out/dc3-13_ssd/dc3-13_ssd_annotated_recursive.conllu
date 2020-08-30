@@ -42,7 +42,7 @@
 14	tomos	tomo	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	13	pobj
 15	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	prepn
 16	selenio	selenio	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	15	pobj
-17	,	,	fc	fc	rep=no|t=no|r=no|m=yes	16	punct
+17	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	16	punct
 18	cuya	cuyo	pr0fs000	pr0fs000	rep=no|t=no|r=no|m=yes	20	det
 19	distancia	distancia	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	18	dep
 20	es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=no|m=yes	16	rcmod
@@ -112,9 +112,9 @@
 10	Bu4NaO4	Bu4NaO4	nc00000	nc00000	rep=no|t=no|r=yes|m=yes	9	pobj
 11	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	7	prepv
 12	1,1	1.1	z	z	rep=no|t=no|r=yes|m=yes	16	num
-13	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
+13	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	14	punct
 14	2	2	z	z	rep=no|t=no|r=yes|m=yes	16	num
-15	-	-	fg	fg	rep=no|t=no|r=no|m=yes	14	punct
+15	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	14	punct
 16	tricloroetano	tricloroetano	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	11	pobj
 17	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 18	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	19	det

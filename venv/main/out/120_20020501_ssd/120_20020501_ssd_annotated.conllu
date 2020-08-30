@@ -34,15 +34,15 @@
 4	limitó	limitar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 5	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	oobj
 6	decir	decir	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	pobj
-7	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
-8	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+7	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
+8	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 9	Tienen	tener	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	cobj
 10	posibilidades	posibilidad	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	dobj
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	punct
 12	claro	claro	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	advmod
 13	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	dep
 14	tienen	tener	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	cobj
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 16	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	coord_fixed
 17	menos	menos	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	advmod
 18	que	que	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	crobj
@@ -77,7 +77,7 @@
 7	Claro	claro	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	4	advmod
 8	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dep
 9	tienen	tener	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	cobj
-10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 11	son	ser	vsip3p0	vsip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	cobj
 12	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	det
 13	gran	gran	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	amod
@@ -85,7 +85,7 @@
 15	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 16	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 2	Charly	Charly	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
 3	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	punct
 4	cómo	cómo	pt0cp000	pt0cp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	dep
@@ -94,13 +94,13 @@
 7	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	reflec
 8	mojó	mojar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 9	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=no	8	punct
-10	&quot;	&quot;	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+10	&quot;	&quot;	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 11	Estamos	estar	vmip1p0	vmip1p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dobj
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 13	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	advmod
 14	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	coord_fixed
 15	menos	menos	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	advmod
-16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 17	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	det
 18	75%	75	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	attr
 19	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	prep
@@ -111,7 +111,7 @@
 24	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	det
 25	25%	25	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	attr
 26	nuestro	nuestro	px1ms0p0	px1ms0p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	poss
-27	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+27	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 28	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	8	punct
 
 1	&quot;	&quot;	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	5	punct

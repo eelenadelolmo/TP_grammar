@@ -2,9 +2,9 @@
 2	diputado	diputado	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
 3	Joan	Joan	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	appos
 4	Boada	Boada	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	appos
-5	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
+5	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	punct
 6	IC-V	IC-V	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	dep
-7	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
+7	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	punct
 8	ha	haber	vaip3s0	vaip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 9	pedido	pedir	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	vobj
 10	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	iobj
@@ -27,7 +27,7 @@
 27	juzgados	juzgado	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	pobj
 28	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	prepn
 29	Mollet	Mollet	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	pobj
-30	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+30	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 31	tras	tras	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	prepv
 32	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	det
 33	reciente	reciente	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	amod

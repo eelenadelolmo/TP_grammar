@@ -23,16 +23,16 @@
 23	obras	obra	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	dobj
 24	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	prepn
 25	Turina	Turina	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
-26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 27	Brotons	Brotons	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
 28	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	coord_fixed
 29	Chaikovski	Chaikovski	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
 30	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	22	punct
 
 1	Representación	representación	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
-2	hoy	hoy	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	3	advmod
-3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	1	coord_fixed
-4	mañana	mañana	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	3	advmod
+2	hoy	hoy	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	advmod
+3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	coord_fixed
+4	mañana	mañana	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	advmod
 5	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	prepn
 6	esta	este	dd0fs0	dd0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	det
 7	obra	obra	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	pobj

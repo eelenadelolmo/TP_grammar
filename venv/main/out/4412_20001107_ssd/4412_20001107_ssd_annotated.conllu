@@ -104,7 +104,7 @@
 12	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	oobj
 13	1.200	1200	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	num
 14	participantes	participante	nccp000	nccp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
 16	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	prepn
 17	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	det
 18	media	medio	pn0fs000	pn0fs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	pobj
@@ -112,7 +112,7 @@
 20	4,5	4.5	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
 21	por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	prep
 22	embarcación	embarcación	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	pobj
-23	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+23	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
 24	23	23	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	num
 25	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	prep
 26	ellos	él	pp3mp000	pp3mp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	pobj
@@ -120,7 +120,7 @@
 28	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	prepa
 29	dieciséis	dieciséis	dn0cp0	dn0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	det
 30	años	año	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	pobj
-31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
+31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	punct
 32	siendo	ser	vsg0000	vsg0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	dep
 33	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	det
 34	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	advmod
@@ -129,7 +129,7 @@
 37	niña	niña	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	nsubj
 38	Jessica	Jessica	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	appos
 39	Blatter	Blatter	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	appos
-40	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	punct
+40	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	punct
 41	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	rcmod
 42	tiene	tener	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	rcmod
 43	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	44	det
@@ -155,7 +155,7 @@
 8	estadounidense	estadounidense	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	attr
 9	Robert	Robert	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	appos
 10	Silverthom	Silverthom	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	appos
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 12	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	nsubj
 13	llevará	llevar	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	rcmod
 14	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	det
@@ -190,7 +190,7 @@
 21	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	coord_fixed
 22	Estados	estado	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
 23	Unidos	unido	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	amod
-24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
+24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	punct
 25	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
 26	20	20	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	pobj
 27	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
@@ -296,7 +296,7 @@
 10	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	prepn
 11	nuestro	nuestro	dp1msp	dp1msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	poss
 12	clima	clima	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 14	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	det
 15	adaptación	adaptación	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	dobj
 16	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	prepn
@@ -305,7 +305,7 @@
 19	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	prepn
 20	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	det
 21	vela	vela	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
-22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 23	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	det
 24	calidad	calidad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	dobj
 25	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	prepn
@@ -316,7 +316,7 @@
 30	hospitalidad	hospitalidad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	dobj
 31	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	prepn
 32	canario	canario	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	pobj
-33	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	punct
+33	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	punct
 34	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	35	punct
 35	enfatizó	enfatizar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 36	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	35	punct
@@ -339,7 +339,7 @@
 16	continuidad	continuidad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	pobj
 17	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	prepn
 18	evento	evento	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
-19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 20	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	iobj
 21	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	pobj
 22	aseguró	asegurar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	dep
@@ -350,7 +350,7 @@
 27	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	prepv
 28	próximas	próximo	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	amod
 29	ediciones	edición	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	pobj
-30	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+30	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
 31	ya	ya	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	advmod
 32	que	que	pi0ms000	pi0ms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	advcl
 33	próximamente	próximamente	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	advmod
@@ -365,7 +365,7 @@
 42	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	prepn
 43	Muelle	Muelle	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	pobj
 44	Deportivo	Deportivo	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	43	appos
-45	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	43	punct
+45	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	43	punct
 46	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	50	nsubj
 47	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	50	prepv
 48	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	49	det

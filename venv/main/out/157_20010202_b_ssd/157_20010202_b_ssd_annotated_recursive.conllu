@@ -1,23 +1,23 @@
 1	El	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	5	nsubj
 2	cantautor	cantautor	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	5	nsubj
-3	y	y	cc	cc	rep=no|t=no|r=no|m=no	5	coord_fixed
+3	y	y	cc	cc	rep=no|t=no|r=no|m=yes	5	coord_fixed
 4	guitarrista	guitarrista	nccs000	nccs000	rep=no|t=yes|r=no|m=yes	5	nsubj
 5	presenta	presentar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	0	root
 6	hoy	hoy	rg	rg	rep=no|t=no|r=no|m=no	5	advmod
 7	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	8	det
 8	disco	disco	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	5	dobj
-9	'	'	fz	fz	rep=no|t=no|r=no|m=yes	10	punct
+9	'	'	fz	fz	rep=no|t=no|r=yes|m=yes	10	punct
 10	Infinito	Infinito	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	8	appos
 11	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepn
 12	nos	yo	pp3fsa00	pp3fsa00	rep=no|t=no|r=yes|m=yes	13	dep
 13	dois	dois	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	11	pobj
-14	'	'	fz	fz	rep=no|t=no|r=no|m=yes	10	punct
-15	,	,	fc	fc	rep=no|t=no|r=no|m=yes	8	punct
+14	'	'	fz	fz	rep=no|t=no|r=yes|m=yes	10	punct
+15	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	8	punct
 16	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	17	det
 17	fusión	fusión	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	8	appos
 18	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	17	prepn
 19	clásica	clásico	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	18	pobj
-20	,	,	fc	fc	rep=no|t=no|r=no|m=yes	22	punct
+20	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	22	punct
 21	jazz	jazz	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	18	pobj
 22	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	18	coord_fixed
 23	música	música	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	18	pobj
@@ -26,7 +26,7 @@
 
 1	El	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	2	det
 2	Sábado	Sábado	ncms000	ncms000	rep=no|t=no|r=no|m=yes	8	dep
-3	y	y	cc	cc	rep=no|t=no|r=no|m=no	8	coord_fixed
+3	y	y	cc	cc	rep=no|t=no|r=no|m=yes	8	coord_fixed
 4	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	5	det
 5	domingo	domingo	ncms000	ncms000	rep=no|t=no|r=no|m=yes	8	dep
 6	,	,	fc	fc	rep=no|t=no|r=no|m=no	8	punct
@@ -58,9 +58,9 @@
 6	último	último	ao0ms0	ao0ms0	rep=no|t=no|r=yes|m=yes	7	amod
 7	trabajo	trabajo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	4	dobj
 8	,	,	fc	fc	rep=no|t=no|r=no|m=no	4	punct
-9	'	'	fz	fz	rep=no|t=no|r=no|m=yes	10	punct
+9	'	'	fz	fz	rep=no|t=no|r=yes|m=yes	10	punct
 10	Querencias	Querencias	np00000	np00000	rep=no|t=no|r=yes|m=yes	7	appos
-11	'	'	fz	fz	rep=no|t=no|r=no|m=yes	10	punct
+11	'	'	fz	fz	rep=no|t=no|r=yes|m=yes	10	punct
 12	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
 
 1	La	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	3	det
@@ -109,14 +109,14 @@
 10	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	9	prepn
 11	Alex	Alex	np00000	np00000	rep=no|t=no|r=yes|m=yes	8	pobj
 12	Olmedo	olmedo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	11	appos
-13	y	y	cc	cc	rep=no|t=no|r=no|m=no	7	coord_fixed
+13	y	y	cc	cc	rep=no|t=no|r=no|m=yes	7	coord_fixed
 14	bajo	bajo	sps00	sps00	rep=no|t=no|r=yes|m=yes	7	dep
 15	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	16	det
 16	nombre	nombre	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	14	pobj
 17	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	prepn
 18	Las	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	19	det
 19	Mentiras	mentira	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	17	pobj
-20	,	,	fc	fc	rep=no|t=no|r=no|m=yes	18	punct
+20	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	18	punct
 21	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	22	det
 22	proyecto	proyecto	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	18	appos
 23	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	25	nsubj

@@ -41,7 +41,7 @@
 41	guerrilleros	guerrillero	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	37	pobj
 42	.	.	fp	fp	rep=no|t=no|r=no|m=no	24	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 2	lo	él	pp3msa00	pp3msa00	rep=no|t=no|r=no|m=yes	3	dobj
 3	consiguió	conseguir	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	0	root
 4	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
@@ -112,7 +112,7 @@
 27	cuestión	cuestión	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	25	dobj
 28	.	.	fp	fp	rep=no|t=no|r=no|m=no	17	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 2	sólo	sólo	rg	rg	rep=no|t=no|r=no|m=no	3	advmod
 3	consigue	conseguir	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	0	root
 4	empujar	empujar	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	3	dobj

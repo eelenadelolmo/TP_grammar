@@ -81,7 +81,7 @@
 22	campo	campo	ncms000	ncms000	rep=no|t=no|r=no|m=no	21	pobj
 23	.	.	fp	fp	rep=no|t=no|r=no|m=no	14	punct
 
-1	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=no	11	punct
+1	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	11	punct
 2	Se	él	pp3cn000	pp3cn000	rep=no|t=no|r=no|m=yes	4	reflec
 3	lo	él	pp3msa00	pp3msa00	rep=no|t=no|r=no|m=yes	4	dobj
 4	dedico	dedicar	vmip1s0	vmip1s0	rep=no|t=no|r=no|m=yes	16	dobj
@@ -90,11 +90,11 @@
 7	,	,	fc	fc	rep=no|t=no|r=no|m=yes	8	punct
 8	a	a	sps00	sps00	rep=no|t=no|r=no|m=yes	4	prepv
 9	Catalunya	Catalunya	np00000	np00000	rep=no|t=no|r=no|m=yes	8	pobj
-10	,	,	fc	fc	rep=no|t=no|r=no|m=no	11	punct
-11	y	y	cc	cc	rep=no|t=no|r=no|m=no	16	coord_fixed
+10	,	,	fc	fc	rep=no|t=no|r=no|m=yes	11	punct
+11	y	y	cc	cc	rep=no|t=no|r=no|m=yes	16	coord_fixed
 12	viva	vivir	vmm03s0	vmm03s0	rep=no|t=no|r=no|m=yes	16	dobj
 13	Yugoslavia	Yugoslavia	np00000	np00000	rep=no|t=no|r=no|m=yes	12	nsubj
-14	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=no	11	punct
+14	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	11	punct
 15	,	,	fc	fc	rep=no|t=no|r=no|m=no	16	punct
 16	decía	decir	vmii3s0	vmii3s0	rep=no|t=no|r=no|m=yes	0	root
 17	sin	sin	sps00	sps00	rep=no|t=no|r=no|m=no	16	prepv
@@ -201,7 +201,7 @@
 5	vuelto	volver	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	4	cobj
 6	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	5	prepv
 7	ganar	ganar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	6	pobj
-8	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	4	punct
+8	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	4	punct
 9	,	,	fc	fc	rep=no|t=no|r=no|m=no	10	punct
 10	reconoció	reconocer	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	0	root
 11	.	.	fp	fp	rep=no|t=no|r=no|m=no	10	punct
@@ -314,8 +314,8 @@
 8	mantener	mantener	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	5	attr
 9	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	10	det
 10	ventaja	ventaja	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	8	dobj
-11	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
-12	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	14	punct
+11	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	14	punct
+12	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	14	punct
 13	y	y	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
 14	hemos	haber	vaip1p0	vaip1p0	rep=no|t=no|r=yes|m=yes	4	cobj
 15	sido	ser	vsp00sm	vsp00sm	rep=no|t=no|r=yes|m=yes	14	vobj
@@ -324,7 +324,7 @@
 18	aguantar	aguantar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	17	pobj
 19	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	20	det
 20	presión	presión	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	18	dobj
-21	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	14	punct
+21	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	14	punct
 22	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
 
 1	Su	su	dp3cs0	dp3cs0	rep=no|t=yes|r=no|m=yes	2	poss
@@ -339,19 +339,19 @@
 10	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	9	prepn
 11	Estudiantes	Estudiantes	np00000	np00000	rep=no|t=no|r=yes|m=yes	10	pobj
 12	:	:	fd	fd	rep=no|t=no|r=no|m=no	5	punct
-13	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=no	18	punct
+13	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	18	punct
 14	Hemos	haber	vaip1p0	vaip1p0	rep=no|t=no|r=yes|m=yes	5	dep
 15	fallado	fallar	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	14	vobj
 16	demasiadas	demasiado	di0fp0	di0fp0	rep=no|t=no|r=yes|m=yes	17	det
 17	cosas	cosa	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	15	dobj
-18	y	y	cc	cc	rep=no|t=no|r=no|m=no	5	coord_fixed
+18	y	y	cc	cc	rep=no|t=no|r=no|m=yes	5	coord_fixed
 19	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	23	iobj
 20	ellos	él	pp3mp000	pp3mp000	rep=no|t=no|r=yes|m=yes	19	pobj
 21	les	él	pp3cpd00	pp3cpd00	rep=no|t=no|r=yes|m=yes	23	iobj
 22	ha	haber	vaip3s0	vaip3s0	rep=no|t=no|r=yes|m=yes	5	dep
 23	salido	salir	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	22	vobj
 24	todo	todo	pi0ms000	pi0ms000	rep=no|t=no|r=yes|m=yes	22	nsubj
-25	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=no	18	punct
+25	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	18	punct
 26	.	.	fp	fp	rep=no|t=no|r=no|m=no	5	punct
 
 1	Josep	Josep	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	7	nsubj

@@ -50,7 +50,7 @@
 3	fallo	fallo	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	4	nsubj
 4	fue	ser	vsis3s0	vsis3s0	rep=no|t=no|r=yes|m=yes	7	coord
 5	justo	justo	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	4	attr
-6	,	,	fc	fc	rep=no|t=no|r=no|m=yes	4	punct
+6	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	4	punct
 7	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 8	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	9	det
 9	unanimidad	unanimidad	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	12	nsubj
@@ -203,7 +203,7 @@
 10	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	6	prepv
 11	tanta	tanto	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	12	det
 12	premura	premura	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	10	pobj
-13	,	,	fc	fc	rep=no|t=no|r=no|m=yes	12	punct
+13	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	12	punct
 14	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	12	dep
 15	nadie	nadie	pi0cs000	pi0cs000	rep=no|t=no|r=yes|m=yes	19	nsubj
 16	se	él	p0300000	p0300000	rep=no|t=no|r=yes|m=yes	19	reflec
@@ -244,7 +244,7 @@
 8	lúgubres	lúgubre	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	7	amod
 9	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	7	prepn
 10	puerto	puerto	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	9	pobj
-11	,	,	fc	fc	rep=no|t=no|r=no|m=yes	37	punct
+11	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	37	punct
 12	donde	donde	pr000000	pr000000	rep=no|t=no|r=no|m=yes	37	rcmod
 13	lo	él	pp3ms000	pp3ms000	rep=no|t=no|r=no|m=no	14	det
 14	mismo	mismo	rg	rg	rep=no|t=no|r=no|m=no	13	advmod
@@ -269,7 +269,7 @@
 33	rata	rata	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	32	pobj
 34	con	con	sps00	sps00	rep=no|t=no|r=no|m=yes	33	prepn
 35	girasoles	girasol	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	34	pobj
-36	,	,	fc	fc	rep=no|t=no|r=no|m=yes	37	punct
+36	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	37	punct
 37	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	7	coord_fixed
 38	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	42	prepv
 39	las	el	da0fp0	da0fp0	rep=no|t=no|r=yes|m=yes	40	det

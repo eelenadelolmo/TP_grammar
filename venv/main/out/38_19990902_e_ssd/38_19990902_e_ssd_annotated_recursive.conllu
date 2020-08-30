@@ -25,7 +25,7 @@
 15	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	prepn
 16	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	17	det
 17	Generalitat	Generalitat	np00000	np00000	rep=no|t=no|r=yes|m=yes	15	pobj
-18	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
+18	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	14	punct
 19	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	22	prepv
 20	las	el	da0fp0	da0fp0	rep=no|t=no|r=yes|m=yes	21	det
 21	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=yes|m=yes	19	pobj
@@ -36,9 +36,9 @@
 26	actuaciones	actuación	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	24	pobj
 27	actuó	actuar	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	23	cobj
 28	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	27	prepv
-29	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	30	punct
+29	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	30	punct
 30	pararrayos	pararrayo	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	28	pobj
-31	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	30	punct
+31	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	30	punct
 32	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	30	prepn
 33	Jordi	Jordi	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	32	pobj
 34	Pujol	Pujol	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	33	appos

@@ -22,10 +22,10 @@
 1	La	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
 2	peste	peste	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	17	nsubj
 3	porcina	porcino	aq0fs0	aq0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	amod
-4	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	7	punct
+4	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	punct
 5	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	det
 6	incendios	incendio	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	17	nsubj
-7	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	17	coord_fixed
+7	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	coord_fixed
 8	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	det
 9	malestar	malestar	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	17	nsubj
 10	por	por	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	prepn
@@ -50,7 +50,7 @@
 29	mesa	mesa	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	pobj
 30	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	17	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 2	también	también	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	3	advmod
 3	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 4	evidente	evidente	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	attr
@@ -70,7 +70,7 @@
 18	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	prepn
 19	esa	ese	dd0fs0	dd0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	det
 20	oposición	oposición	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 22	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	det
 23	socialista	socialista	nccs000	nccs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	appos
 24	Pasqual	Pasqual	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	appos
@@ -177,13 +177,13 @@
 13	brillantez	brillantez	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
 14	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	1	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 2	lo	él	pp3msa00	pp3msa00	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	dobj
 3	hace	hacer	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 4	desde	desde	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	dep
 5	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	det
 6	improvisación	improvisación	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	pobj
-7	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+7	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 8	sin	sin	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	dep
 9	asumir	asumir	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	pobj
 10	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	det

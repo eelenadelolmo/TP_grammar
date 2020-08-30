@@ -85,7 +85,7 @@
 15	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	prepn
 16	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	det
 17	Bernabéu	Bernabéu	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
-18	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	10	coord_fixed
+18	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	coord_fixed
 19	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	oobj
 20	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	det
 21	admirable	admirable	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	amod
@@ -106,7 +106,7 @@
 5	vez	vez	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	6	advmod
 6	fuera	ser	vssi3s0	vssi3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 7	injusto	injusto	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	attr
-8	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	coord_fixed
+8	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	coord_fixed
 9	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	neg
 10	ilógico	ilógico	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	attr
 11	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
@@ -127,7 +127,7 @@
 14	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	det
 15	verbos	verbo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
 16	querer	querer	nc00000	nc00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	dep
-17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	punct
+17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	punct
 18	poder	poder	nc00000	nc00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	dep
 19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	coord_fixed
 20	saber	saber	nc00000	nc00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	dep
@@ -169,17 +169,17 @@
 12	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	det
 13	Zubi	Zubi	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
 14	acertados	acertado	aq0mpp	aq0mpp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
-16	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	7	coord_fixed
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
+16	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	coord_fixed
 17	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	advmod
 18	aún	aún	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	advmod
 19	contra	contra	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	dep
 20	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	det
 21	imposibilidad	imposibilidad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
 22	ya	ya	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	advmod
-23	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
+23	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	punct
 24	inmemorial	inmemorial	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	amod
-25	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
+25	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	punct
 26	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	prepn
 27	colocar	colocar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	pobj
 28	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	det
@@ -212,7 +212,7 @@
 1	Cuestión	cuestión	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 2	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	dep
 3	empuje	empuje	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	pobj
-4	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	1	coord_fixed
+4	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	coord_fixed
 5	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	dep
 6	saturación	saturación	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	pobj
 7	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	1	punct

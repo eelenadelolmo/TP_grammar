@@ -151,7 +151,7 @@
 14	su	su	dp3cs0	dp3cs0	rep=no|t=yes|r=no|m=yes	15	poss
 15	alma	alma	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	16	nsubj
 16	cantaba	cantar	vmii3s0	vmii3s0	rep=no|t=no|r=yes|m=yes	7	coord
-17	,	,	fc	fc	rep=no|t=no|r=no|m=yes	16	punct
+17	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	16	punct
 18	Baby,	Baby,	np00000	np00000	rep=no|t=no|r=yes|m=yes	16	dobj
 19	won't	won't	np00000	np00000	rep=no|t=no|r=yes|m=yes	18	appos
 20	you	you	vmi0000	vmi0000	rep=no|t=no|r=yes|m=yes	19	appos
@@ -160,8 +160,8 @@
 23	home	home	np00000	np00000	rep=no|t=no|r=yes|m=yes	22	appos
 24	.	.	fp	fp	rep=no|t=no|r=no|m=no	7	punct
 
-1	O	o	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
-2	sea	sea	vsis3s0	vsis3s0	rep=no|t=no|r=no|m=no	1	rcmod
+1	O	o	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
+2	sea	sea	vsis3s0	vsis3s0	rep=no|t=no|r=no|m=yes	1	rcmod
 3	,	,	fc	fc	rep=no|t=no|r=no|m=no	4	punct
 4	niño,	niño,	np00000	np00000	rep=no|t=no|r=no|m=yes	0	root
 5	criatura,	criatura,	np00000	np00000	rep=no|t=no|r=no|m=yes	4	appos

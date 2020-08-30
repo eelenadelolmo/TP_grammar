@@ -68,12 +68,12 @@
 7	empresas	empresa	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	5	pobj
 8	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	7	prepn
 9	restauración	restauración	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	8	pobj
-10	,	,	fc	fc	rep=no|t=no|r=no|m=no	15	punct
+10	,	,	fc	fc	rep=no|t=no|r=no|m=yes	15	punct
 11	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	12	det
 12	58%	58/100	zp	zp	rep=no|t=no|r=no|m=yes	1	nsubj
 13	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	12	prep
 14	finanzas	finanzas	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	13	pobj
-15	y	y	cc	cc	rep=no|t=no|r=no|m=no	1	coord_fixed
+15	y	y	cc	cc	rep=no|t=no|r=no|m=yes	1	coord_fixed
 16	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	17	det
 17	45%	45/100	zp	zp	rep=no|t=no|r=no|m=yes	1	nsubj
 18	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	17	prep

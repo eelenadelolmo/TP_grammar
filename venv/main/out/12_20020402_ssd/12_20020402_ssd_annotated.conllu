@@ -9,7 +9,7 @@
 9	dormía	dormir	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	cobj
 10	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	1	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	2	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	coord_fixed
 2	llegó	llegar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 3	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	prepv
 4	dignidad	dignidad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	pobj
@@ -51,14 +51,14 @@
 30	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	prepa
 31	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	det
 32	Windsor	Windsor	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	pobj
-33	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	35	punct
+33	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	punct
 34	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	det
 35	abuela	abuela	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	dep
 36	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	49	prepv
 37	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	det
 38	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	pobj
 39	Carlos	Carlos	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	49	nsubj
-40	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	39	punct
+40	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	punct
 41	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	det
 42	malo	malo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	appos
 43	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	prepn
@@ -66,7 +66,7 @@
 45	decadente	decadente	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	46	amod
 46	monarquía	monarquía	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	43	pobj
 47	británica	británico	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	46	amod
-48	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	39	punct
+48	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	punct
 49	buscó	buscar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	dep
 50	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	51	det
 51	apoyo	apoyo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	49	dobj

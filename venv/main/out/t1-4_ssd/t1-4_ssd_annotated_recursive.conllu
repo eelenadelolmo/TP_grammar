@@ -21,7 +21,7 @@
 21	amortajadas	amortajado	aq0fpp	aq0fpp	rep=no|t=no|r=yes|m=yes	11	cpred
 22	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	21	oobj
 23	negro	negro	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	22	pobj
-24	y	y	cc	cc	rep=no|t=no|r=no|m=no	11	coord_fixed
+24	y	y	cc	cc	rep=no|t=no|r=no|m=yes	11	coord_fixed
 25	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	11	cpred
 26	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	27	det
 27	cuervo	cuervo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	25	pobj
@@ -83,13 +83,13 @@
 9	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	10	det
 10	viuda	viuda	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	19	nsubj
 11	desconsolada	desconsolado	aq0fsp	aq0fsp	rep=no|t=no|r=yes|m=yes	10	amod
-12	,	,	fc	fc	rep=no|t=no|r=no|m=yes	19	punct
+12	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	19	punct
 13	más	más	rg	rg	rep=no|t=no|r=yes|m=yes	10	advmod
 14	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	13	crobj
 15	cualquier	cualquiera	di0cs0	di0cs0	rep=no|t=no|r=yes|m=yes	17	det
 16	otra	otro	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	17	det
 17	mujer	mujer	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	14	cobj
-18	,	,	fc	fc	rep=no|t=no|r=no|m=yes	19	punct
+18	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	19	punct
 19	podía	poder	vmii3s0	vmii3s0	rep=no|t=no|r=yes|m=yes	8	cobj
 20	llevar	llevar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	19	dobj
 21	adentro	adentro	rg	rg	rep=no|t=no|r=yes|m=yes	20	advmod

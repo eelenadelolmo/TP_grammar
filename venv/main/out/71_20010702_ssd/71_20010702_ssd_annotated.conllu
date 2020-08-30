@@ -78,14 +78,14 @@
 33	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	34	det
 34	manifestantes	manifestante	nccp000	nccp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	35	nsubj
 35	gritaban	gritar	vmii3p0	vmii3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	dep
-36	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	punct
-37	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	punct
+36	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	punct
+37	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	punct
 38	Valdecasas	Valdecasas	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	dobj
-39	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	punct
+39	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	punct
 40	reina	reina	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	appos
 41	de	de	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	prepn
 42	bastos	basto	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	pobj
-43	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	punct
+43	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	punct
 44	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
 1	Las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
@@ -148,7 +148,7 @@
 22	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	det
 23	actuación	actuación	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	attr
 24	policial	policial	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	amod
-25	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	21	coord_fixed
+25	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	coord_fixed
 26	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	det
 27	recuerdos	recuerdo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	attr
 28	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	prepn

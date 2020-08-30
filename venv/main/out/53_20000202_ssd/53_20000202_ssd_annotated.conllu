@@ -97,7 +97,7 @@
 10	nacionalistas	nacionalista	nccp000	nccp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	pobj
 11	facilitará	facilitar	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	cobj
 12	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	cobj
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	punct
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	punct
 14	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	iobj
 15	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	det
 16	votantes	votante	nccp000	nccp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	pobj
@@ -105,8 +105,8 @@
 18	moderados	moderado	aq0mpp	aq0mpp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	amod
 19	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	prepn
 20	CiU	CiU	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	punct
-22	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	punct
+22	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	punct
 23	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	det
 24	PP	PP	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	nsubj
 25	quede	quedar	vmsp3s0	vmsp3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	cobj
@@ -120,18 +120,18 @@
 33	gobierne	gobernar	vmsp3s0	vmsp3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	cobj
 34	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	det
 35	PSOE	PSOE	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	nsubj
-36	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	punct
+36	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	punct
 37	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	coord_fixed
 38	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	prepn
 39	asegurar	asegurar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	pobj
-40	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	43	punct
+40	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	43	punct
 41	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	dobj
 42	se	se	p0000000	p0000000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	43	reflec
 43	consolide	consolidar	vmsp3s0	vmsp3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	cobj
 44	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	45	det
 45	progreso	progreso	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	43	nsubj
 46	económico	económico	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	45	amod
-47	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	43	punct
+47	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	43	punct
 48	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 
 1	Para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	prepv
@@ -169,7 +169,7 @@
 11	UGT	UGT	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
 12	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	prepn
 13	Catalunya	Catalunya	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 15	Josep	Josep	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	appos
 16	Maria	Maria	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	appos
 17	Alvarez	Alvarez	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	appos
@@ -195,7 +195,7 @@
 18	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	prepn
 19	siniestralidad	siniestralidad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
 20	laboral	laboral	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	amod
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	punct
 22	oportunidades	oportunidad	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
 23	laborales	laboral	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	amod
 24	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	prepn

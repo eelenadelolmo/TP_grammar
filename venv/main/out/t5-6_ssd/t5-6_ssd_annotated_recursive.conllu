@@ -43,7 +43,7 @@
 10	así	así	rg	rg	rep=no|t=no|r=no|m=no	9	advmod
 11	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 2	le	él	pp3csa00	pp3csa00	rep=no|t=no|r=no|m=yes	3	iobj
 3	echaba	echar	vmii3s0	vmii3s0	rep=no|t=no|r=no|m=yes	0	root
 4	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	3	prepv
@@ -174,11 +174,11 @@
 6	comedor	comedor	ncms000	ncms000	rep=no|t=no|r=no|m=yes	4	pobj
 7	,	,	fc	fc	rep=no|t=no|r=no|m=no	3	punct
 8	cansina	cansino	aq0fs0	aq0fs0	rep=no|t=no|r=no|m=yes	3	cpred
-9	,	,	fc	fc	rep=no|t=no|r=no|m=no	13	punct
-10	y	y	cc	cc	rep=no|t=no|r=no|m=no	13	coord_fixed
+9	,	,	fc	fc	rep=no|t=no|r=no|m=yes	13	punct
+10	y	y	cc	cc	rep=no|t=no|r=no|m=yes	13	coord_fixed
 11	escocida	escocido	aq0fsp	aq0fsp	rep=no|t=no|r=no|m=yes	3	cpred
-12	,	,	fc	fc	rep=no|t=no|r=no|m=no	13	punct
-13	y	y	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+12	,	,	fc	fc	rep=no|t=no|r=no|m=yes	13	punct
+13	y	y	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 14	despatarrada	despatarrado	aq0fsp	aq0fsp	rep=no|t=no|r=no|m=yes	3	cpred
 15	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
 
@@ -192,7 +192,7 @@
 8	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	3	prepv
 9	verborrea	verborrea	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	8	pobj
 10	mecánica	mecánico	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	9	amod
-11	:	:	fd	fd	rep=no|t=no|r=no|m=yes	15	punct
+11	:	:	fd	fd	rep=no|t=no|r=yes|m=yes	15	punct
 12	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	15	iobj
 13	Antonia	Antonia	np0000p	np0000p	rep=no|t=no|r=yes|m=yes	12	pobj
 14	le	él	pp3csd00	pp3csd00	rep=no|t=no|r=yes|m=yes	15	iobj
@@ -201,7 +201,7 @@
 17	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	18	det
 18	aparato	aparato	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	16	dobj
 19	encendido	encendido	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	18	amod
-20	,	,	fc	fc	rep=no|t=no|r=no|m=yes	18	punct
+20	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	18	punct
 21	lo	él	pp3msa00	pp3msa00	rep=no|t=no|r=yes|m=yes	23	dobj
 22	estuviera	estar	vmsi3s0	vmsi3s0	rep=no|t=no|r=yes|m=yes	18	dep
 23	viendo	ver	vmg0000	vmg0000	rep=no|t=no|r=yes|m=yes	22	attr

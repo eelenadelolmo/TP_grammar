@@ -1,6 +1,6 @@
 1	El	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	2	det
 2	dólar	dólar	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	6	nsubj
-3	y	y	cc	cc	rep=no|t=no|r=no|m=no	6	coord_fixed
+3	y	y	cc	cc	rep=no|t=no|r=no|m=yes	6	coord_fixed
 4	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	5	det
 5	euro	euro	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	6	nsubj
 6	ganaron	ganar	vmis3p0	vmis3p0	rep=no|t=no|r=yes|m=yes	0	root
@@ -45,7 +45,7 @@
 10	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	9	oobj
 11	109,27	109.27	z	z	rep=no|t=no|r=yes|m=yes	12	num
 12	yenes	yen	zm	zm	rep=no|t=no|r=yes|m=yes	10	pobj
-13	,	,	fc	fc	rep=no|t=no|r=no|m=yes	12	punct
+13	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	12	punct
 14	por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	12	prep
 15	encima	encima	rg	rg	rep=no|t=no|r=yes|m=yes	14	advmod
 16	de	de	spcms	spcms	rep=no|t=no|r=yes|m=yes	15	prep
@@ -108,7 +108,7 @@
 
 1	El	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	2	det
 2	dólar	dólar	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	6	nsubj
-3	y	y	cc	cc	rep=no|t=no|r=no|m=no	6	coord_fixed
+3	y	y	cc	cc	rep=no|t=no|r=no|m=yes	6	coord_fixed
 4	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	5	det
 5	euro	euro	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	6	nsubj
 6	subieron	subir	vmis3p0	vmis3p0	rep=no|t=no|r=yes|m=yes	0	root

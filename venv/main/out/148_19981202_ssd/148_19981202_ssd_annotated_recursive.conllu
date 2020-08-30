@@ -1,6 +1,6 @@
 1	Mel	Mel	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	6	nsubj
 2	Gibson	Gibson	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	1	appos
-3	y	y	cc	cc	rep=no|t=no|r=no|m=no	6	coord_fixed
+3	y	y	cc	cc	rep=no|t=no|r=no|m=yes	6	coord_fixed
 4	Michelle	Michelle	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	6	nsubj
 5	Pfeiffer	Pfeiffer	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	4	appos
 6	protagonizan	protagonizar	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	0	root
@@ -29,10 +29,10 @@
 29	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	28	prepn
 30	escenas	escena	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	29	pobj
 31	amorosas	amoroso	aq0fp0	aq0fp0	rep=no|t=no|r=yes|m=yes	30	amod
-32	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=yes|m=yes	33	nsubj
-33	escandalizaron	escandalizar	vmis3p0	vmis3p0	rep=no|t=no|r=yes|m=yes	30	rcmod
-34	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	33	prepv
-35	EEUU	EEUU	np00000	np00000	rep=no|t=no|r=yes|m=yes	34	pobj
+32	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	33	nsubj
+33	escandalizaron	escandalizar	vmis3p0	vmis3p0	rep=no|t=no|r=no|m=yes	30	rcmod
+34	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	33	prepv
+35	EEUU	EEUU	np00000	np00000	rep=no|t=no|r=no|m=yes	34	pobj
 36	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	26	punct
 37	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	26	punct
 38	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	20	coord_fixed

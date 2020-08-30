@@ -2,7 +2,7 @@
 2	Carne	carne	ncms000	ncms000	rep=no|t=no|r=no|m=yes	8	coord
 3	trémula	trémulo	aq0ms0	aq0ms0	rep=no|t=no|r=no|m=yes	2	amod
 4	'	'	fz	fz	rep=no|t=no|r=no|m=yes	2	punct
-5	y	y	cc	cc	rep=no|t=no|r=no|m=no	8	coord_fixed
+5	y	y	cc	cc	rep=no|t=no|r=no|m=yes	8	coord_fixed
 6	Javier	Javier	np0000l	np0000l	rep=no|t=no|r=no|m=yes	8	coord
 7	Bardem	Bardem	np0000l	np0000l	rep=no|t=no|r=no|m=yes	6	appos
 8	,	,	fc	fc	rep=no|t=no|r=no|m=yes	0	root
@@ -16,7 +16,7 @@
 3	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	2	prepn
 4	Pedro	Pedro	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	3	pobj
 5	Almodóvar	Almodóvar	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	4	appos
-6	y	y	cc	cc	rep=no|t=no|r=no|m=no	9	coord_fixed
+6	y	y	cc	cc	rep=no|t=no|r=no|m=yes	9	coord_fixed
 7	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	8	det
 8	intérprete	intérprete	nccs000	nccs000	rep=no|t=yes|r=no|m=yes	9	nsubj
 9	son	ser	vsip3p0	vsip3p0	rep=no|t=no|r=yes|m=yes	0	root
@@ -91,7 +91,7 @@
 23	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	20	coord_fixed
 24	Julio	Julio	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	20	appos
 25	Medem	Medem	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	24	appos
-26	,	,	fc	fc	rep=no|t=no|r=no|m=yes	31	punct
+26	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	31	punct
 27	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	28	det
 28	actriz	actriz	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	10	dep
 29	Najwa	Najwa	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	28	appos

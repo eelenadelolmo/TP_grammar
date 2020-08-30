@@ -55,7 +55,7 @@
 8	fin	fin	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	7	pobj
 9	.	.	fp	fp	rep=no|t=no|r=no|m=no	5	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	11	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	11	coord_fixed
 2	tú	tú	pp2csn00	pp2csn00	rep=no|t=yes|r=no|m=yes	11	nsubj
 3	con	con	sps00	sps00	rep=no|t=no|r=no|m=no	11	prepv
 4	tus	tu	dp2cps	dp2cps	rep=no|t=no|r=no|m=no	5	poss
@@ -119,7 +119,7 @@
 4	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	5	det
 5	gozo	gozo	ncms000	ncms000	rep=no|t=no|r=no|m=yes	3	pobj
 6	puesto	puesto	aq0msp	aq0msp	rep=no|t=no|r=no|m=yes	5	amod
-7	y	y	cc	cc	rep=no|t=no|r=no|m=no	1	coord_fixed
+7	y	y	cc	cc	rep=no|t=no|r=no|m=yes	1	coord_fixed
 8	a	a	sps00	sps00	rep=no|t=no|r=no|m=yes	1	attr
 9	punto	punto	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	8	pobj
 10	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	9	prepn

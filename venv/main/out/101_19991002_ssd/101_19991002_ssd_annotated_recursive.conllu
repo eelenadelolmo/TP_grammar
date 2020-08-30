@@ -67,12 +67,12 @@
 27	24	24	zp	zp	rep=no|t=no|r=yes|m=yes	24	dep
 28	de	de	spcms	spcms	rep=no|t=no|r=yes|m=yes	27	prep
 29	mayo	mayo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	28	pobj
-30	,	,	fc	fc	rep=no|t=no|r=no|m=yes	24	punct
+30	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	24	punct
 31	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	24	prepa
 32	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	34	det
 33	53	53	z	z	rep=no|t=no|r=yes|m=yes	32	num
 34	años	año	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	31	pobj
-35	,	,	fc	fc	rep=no|t=no|r=no|m=yes	24	punct
+35	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	24	punct
 36	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	24	prepa
 37	causa	causa	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	36	pobj
 38	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	37	prepn
@@ -191,7 +191,7 @@
 9	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	7	oobj
 10	este	este	dd0ms0	dd0ms0	rep=no|t=no|r=yes|m=yes	11	det
 11	homenaje	homenaje	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	9	pobj
-12	,	,	fc	fc	rep=no|t=no|r=no|m=yes	4	punct
+12	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	4	punct
 13	pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 14	no	no	rn	rn	rep=no|t=no|r=no|m=yes	16	neg
 15	ha	haber	vaip3s0	vaip3s0	rep=no|t=no|r=no|m=yes	13	coord
@@ -285,7 +285,7 @@
 14	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	15	det
 15	puta	puta	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	13	pobj
 16	mili	mili	np00000	np00000	rep=no|t=no|r=yes|m=yes	15	appos
-17	,	,	fc	fc	rep=no|t=no|r=no|m=yes	12	punct
+17	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	12	punct
 18	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	19	det
 19	montaje	montaje	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	12	appos
 20	teatral	teatral	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	19	amod
@@ -320,11 +320,11 @@
 6	Mesura	Mesura	np00000	np00000	rep=no|t=no|r=yes|m=yes	7	nsubj
 7	per	per	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	5	pobj
 8	mesura	mesura	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	7	dobj
-9	,	,	fc	fc	rep=no|t=no|r=no|m=yes	6	punct
+9	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	6	punct
 10	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	6	prepn
 11	William	William	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	10	pobj
 12	Shakespeare	Shakespeare	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	11	appos
-13	,	,	fc	fc	rep=no|t=no|r=no|m=yes	6	punct
+13	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	6	punct
 14	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	4	prepv
 15	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	16	det
 16	TNC	TNC	np00000	np00000	rep=no|t=no|r=yes|m=yes	14	pobj

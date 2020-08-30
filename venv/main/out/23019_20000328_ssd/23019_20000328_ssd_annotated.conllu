@@ -48,7 +48,7 @@
 
 1	El	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
 2	presidente	presidente	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	20	nsubj
-3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	20	coord_fixed
+3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	coord_fixed
 4	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	det
 5	secretario	secretario	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	20	nsubj
 6	general	general	aq0cs0	aq0cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	amod
@@ -59,12 +59,12 @@
 11	Angel	Angel	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	dep
 12	María	María	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	appos
 13	Villar	villar	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	appos
-14	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	20	coord_fixed
+14	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	coord_fixed
 15	Gerardo	Gerardo	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	dep
 16	González	González	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	appos
-17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	14	punct
-18	respectivamente	respectivamente	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	14	advmod
-19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	14	punct
+17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+18	respectivamente	respectivamente	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	advmod
+19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
 20	visitaron	visitar	vmis3p0	vmis3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 21	hoy	hoy	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	20	advmod
 22	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	det
@@ -131,7 +131,7 @@
 36	especializado	especializado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	amod
 37	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	oobj
 38	fútbol	fútbol	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	pobj
-39	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	40	punct
+39	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	punct
 40	además	además	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	dobj
 41	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	prep
 42	otro	otro	pi0ms000	pi0ms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	pobj

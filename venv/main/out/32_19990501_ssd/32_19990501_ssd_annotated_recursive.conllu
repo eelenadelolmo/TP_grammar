@@ -9,7 +9,7 @@
 9	Ministerio	ministerio	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	8	pobj
 10	de	de	spcms	spcms	rep=no|t=no|r=yes|m=yes	9	prepn
 11	Defensa	defensa	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	10	pobj
-12	y	y	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+12	y	y	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 13	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	14	det
 14	comandancia	comandancia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	4	dobj
 15	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	prepn
@@ -20,11 +20,11 @@
 20	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
 
 1	Entre	entre	sps00	sps00	rep=no|t=no|r=no|m=yes	0	root
-2	uno	uno	pi0ms000	pi0ms000	rep=no|t=no|r=no|m=no	6	conj
-3	y	y	cc	cc	rep=no|t=no|r=no|m=no	6	coord_fixed
-4	tres	tres	dn0cp0	dn0cp0	rep=no|t=no|r=no|m=no	5	det
-5	muertos	muerto	ncmp000	ncmp000	rep=no|t=no|r=no|m=no	6	conj
-6	y	y	cc	cc	rep=no|t=no|r=no|m=no	1	coord_fixed
+2	uno	uno	pi0ms000	pi0ms000	rep=no|t=no|r=no|m=yes	6	conj
+3	y	y	cc	cc	rep=no|t=no|r=no|m=yes	6	coord_fixed
+4	tres	tres	dn0cp0	dn0cp0	rep=no|t=no|r=no|m=yes	5	det
+5	muertos	muerto	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	6	conj
+6	y	y	cc	cc	rep=no|t=no|r=no|m=yes	1	coord_fixed
 7	40	40	z	z	rep=no|t=no|r=no|m=yes	8	num
 8	heridos	herido	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	1	pobj
 9	.	.	fp	fp	rep=no|t=no|r=no|m=no	1	punct
@@ -141,7 +141,7 @@
 6	,	,	fc	fc	rep=no|t=yes|r=no|m=yes	5	punct
 7	Pristina	Pristina	np00000	np00000	rep=no|t=yes|r=no|m=yes	5	appos
 8	,	,	fc	fc	rep=no|t=yes|r=no|m=yes	5	punct
-9	y	y	cc	cc	rep=no|t=no|r=no|m=no	22	coord_fixed
+9	y	y	cc	cc	rep=no|t=no|r=no|m=yes	22	coord_fixed
 10	una	uno	di0fs0	di0fs0	rep=no|t=yes|r=no|m=yes	12	det
 11	importante	importante	aq0cs0	aq0cs0	rep=no|t=yes|r=no|m=yes	12	amod
 12	planta	planta	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	22	nsubj
@@ -223,11 +223,11 @@
 11	pueden	poder	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	5	cobj
 12	lanzar	lanzar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	11	dobj
 13	pronto	pronto	rg	rg	rep=no|t=no|r=yes|m=yes	12	advmod
-14	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	16	punct
+14	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	16	punct
 15	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	16	det
 16	ataque	ataque	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	12	dobj
 17	intenso	intenso	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	16	amod
-18	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	16	punct
+18	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	16	punct
 19	contra	contra	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	prepn
 20	fuerzas	fuerza	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	19	pobj
 21	serbias	serbio	aq0fp0	aq0fp0	rep=no|t=no|r=yes|m=yes	20	amod
@@ -260,7 +260,7 @@
 25	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	24	prepn
 26	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	27	det
 27	OTAN	OTAN	np00000	np00000	rep=no|t=no|r=yes|m=yes	25	pobj
-28	,	,	fc	fc	rep=no|t=no|r=no|m=yes	24	punct
+28	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	24	punct
 29	Jamie	Jamie	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	24	appos
 30	Shea	Shea	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	29	appos
 31	.	.	fp	fp	rep=no|t=no|r=no|m=no	5	punct
@@ -369,25 +369,25 @@
 11	Macedonia	Macedonia	np00000	np00000	rep=no|t=no|r=no|m=yes	10	pobj
 12	.	.	fp	fp	rep=no|t=no|r=no|m=no	1	punct
 
-1	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=no	10	punct
-2	Después	después	rg	rg	rep=no|t=no|r=no|m=no	6	advmod
-3	de	de	sps00	sps00	rep=no|t=no|r=no|m=no	2	prep
-4	todo	todo	pi0ms000	pi0ms000	rep=no|t=no|r=no|m=no	3	pobj
-5	,	,	fc	fc	rep=no|t=no|r=no|m=no	6	punct
-6	es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=no|m=no	10	cobj
-7	un	uno	di0ms0	di0ms0	rep=no|t=no|r=no|m=no	8	det
-8	Ejército	Ejército	np00000	np00000	rep=no|t=no|r=no|m=no	6	attr
-9	plurinacional	plurinacional	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=no	8	amod
-10	y	y	cc	cc	rep=no|t=no|r=no|m=no	21	coord_fixed
-11	no	no	rn	rn	rep=no|t=no|r=no|m=no	13	neg
-12	les	él	pp3cpd00	pp3cpd00	rep=no|t=no|r=no|m=no	13	iobj
-13	gusta	gustar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=no	6	cobj
-14	lo	el	da0ns0	da0ns0	rep=no|t=no|r=no|m=no	15	det
-15	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=no	16	nsubj
-16	ocurre	ocurrir	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=no	13	rcmod
-17	en	en	sps00	sps00	rep=no|t=no|r=no|m=no	16	prepv
-18	Kosovo	Kosovo	np00000	np00000	rep=no|t=no|r=no|m=no	17	pobj
-19	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=no	10	punct
+1	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	10	punct
+2	Después	después	rg	rg	rep=no|t=no|r=no|m=yes	6	advmod
+3	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	2	prep
+4	todo	todo	pi0ms000	pi0ms000	rep=no|t=no|r=no|m=yes	3	pobj
+5	,	,	fc	fc	rep=no|t=no|r=no|m=yes	6	punct
+6	es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=no|m=yes	10	cobj
+7	un	uno	di0ms0	di0ms0	rep=no|t=no|r=no|m=yes	8	det
+8	Ejército	Ejército	np00000	np00000	rep=no|t=no|r=no|m=yes	6	attr
+9	plurinacional	plurinacional	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=yes	8	amod
+10	y	y	cc	cc	rep=no|t=no|r=no|m=yes	21	coord_fixed
+11	no	no	rn	rn	rep=no|t=no|r=no|m=yes	13	neg
+12	les	él	pp3cpd00	pp3cpd00	rep=no|t=no|r=no|m=yes	13	iobj
+13	gusta	gustar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	6	cobj
+14	lo	el	da0ns0	da0ns0	rep=no|t=yes|r=no|m=yes	15	det
+15	que	que	pr0cn000	pr0cn000	rep=no|t=yes|r=no|m=yes	16	nsubj
+16	ocurre	ocurrir	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	13	rcmod
+17	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	prepv
+18	Kosovo	Kosovo	np00000	np00000	rep=no|t=no|r=yes|m=yes	17	pobj
+19	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	10	punct
 20	,	,	fc	fc	rep=no|t=no|r=no|m=no	21	punct
 21	dijo	decir	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	0	root
 22	.	.	fp	fp	rep=no|t=no|r=no|m=no	21	punct
@@ -404,7 +404,7 @@
 10	apoyos	apoyo	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	8	dobj
 11	.	.	fp	fp	rep=no|t=no|r=no|m=no	2	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	2	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	2	coord_fixed
 2	añadió	añadir	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	0	root
 3	:	:	fd	fd	rep=no|t=no|r=no|m=yes	10	punct
 4	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	10	punct
@@ -416,7 +416,7 @@
 10	puede	poder	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	2	dobj
 11	hacer	hacer	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	10	cobj
 12	mucho	mucho	rg	rg	rep=no|t=no|r=yes|m=yes	11	advmod
-13	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	10	punct
+13	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	10	punct
 14	.	.	fp	fp	rep=no|t=no|r=no|m=no	2	punct
 
 

@@ -53,7 +53,7 @@
 7	Cela	cela	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	appos
 8	recoge	recoger	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 9	monda	monda	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dobj
-10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 11	mondá	mondá	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dobj
 12	por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	8	prepv
 13	pija	pija	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	12	pobj
@@ -65,7 +65,7 @@
 4	monden	monden	nc00000	nc00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	nsubj
 5	significa	significar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 6	playboy	playboy	nc00000	nc00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	dobj
-7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
+7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	punct
 8	tipo	tipo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	appos
 9	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	prepn
 10	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	det
@@ -78,11 +78,11 @@
 4	mondok	mondok	nc00000	nc00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	nsubj
 5	significa	significar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 6	bajo	bajar	nc00000	nc00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	dobj
-7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
+7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	punct
 8	gordo	gordo	nc00000	nc00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	appos
-9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
+9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	punct
 10	rechoncho	rechoncho	nc00000	nc00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	appos
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	punct
 12	rebolludo	rebolludo	nc00000	nc00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	appos
 13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	5	punct
 14	lo	el	da0ns0	da0ns0	recursive=no|rep=no|theme=no|rheme=no|main=no	15	det
@@ -123,7 +123,7 @@
 20	Mondego	Mondego	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	cpred
 21	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	13	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 2	ninguna	ninguno	pi0fs000	pi0fs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
 3	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	prepn
 4	estas	este	dd0fp0	dd0fp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	pobj
@@ -185,7 +185,7 @@
 10	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	prepv
 11	Hazañas	Hazañas	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
 12	Bélicas	Bélicas	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	appos
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 14	aquellas	aquel	dd0fp0	dd0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	det
 15	historietas	historieta	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	appos
 16	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	prepn
@@ -197,12 +197,12 @@
 22	corpulentos	corpulento	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	attr
 23	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	coord_fixed
 24	campechanos	campechano	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	attr
-25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	punct
+25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	punct
 26	e	e	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	coord_fixed
 27	iban	ir	vmii3p0	vmii3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	dep
 28	mal	mal	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	advmod
 29	afeitados	afeitado	aq0mpp	aq0mpp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	cpred
-30	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
+30	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	punct
 31	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	prepa
 32	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	det
 33	pitillo	pitillo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	pobj

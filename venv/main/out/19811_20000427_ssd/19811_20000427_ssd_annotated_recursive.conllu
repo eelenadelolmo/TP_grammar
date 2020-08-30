@@ -20,10 +20,10 @@
 20	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	21	det
 21	Gobierno	Gobierno	np00000	np00000	rep=no|t=yes|r=no|m=yes	24	nsubj
 22	vasco	vasco	aq0ms0	aq0ms0	rep=no|t=yes|r=no|m=yes	21	amod
-23	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	24	punct
+23	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	24	punct
 24	haya	haber	vasp3s0	vasp3s0	rep=no|t=no|r=yes|m=yes	17	cobj
 25	reaccionado	reaccionar	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	24	vobj
-26	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	24	punct
+26	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	24	punct
 27	ante	ante	sps00	sps00	rep=no|t=no|r=yes|m=yes	24	prepv
 28	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	29	det
 29	problema	problema	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	27	pobj
@@ -169,10 +169,10 @@
 15	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	12	prepn
 16	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	17	det
 17	Congreso	Congreso	np00000	np00000	rep=no|t=no|r=yes|m=yes	15	pobj
-18	,	,	fc	fc	rep=no|t=no|r=no|m=yes	12	punct
+18	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	12	punct
 19	Francisco	francisco	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	12	appos
 20	Rodríguez	Rodríguez	np00000	np00000	rep=no|t=no|r=yes|m=yes	19	appos
-21	,	,	fc	fc	rep=no|t=no|r=no|m=yes	12	punct
+21	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	12	punct
 22	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepn
 23	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	24	det
 24	debate	debate	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	22	pobj

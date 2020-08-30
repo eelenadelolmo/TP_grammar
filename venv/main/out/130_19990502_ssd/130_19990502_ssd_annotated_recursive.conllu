@@ -76,7 +76,7 @@
 10	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	6	coord_fixed
 11	Los	Los	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	6	pobj
 12	Planetas	Planetas	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	11	appos
-13	;	;	fx	fx	rep=no|t=no|r=no|m=yes	3	punct
+13	;	;	fx	fx	rep=no|t=no|r=yes|m=yes	3	punct
 14	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 15	las	él	pp3fpa00	pp3fpa00	rep=no|t=no|r=no|m=yes	16	dobj
 16	hay	haber	vaip3s0	vaip3s0	rep=no|t=no|r=no|m=yes	14	coord
@@ -306,9 +306,9 @@
 9	infinito	infinito	ncms000	ncms000	rep=no|t=no|r=no|m=no	8	pobj
 10	,	,	fc	fc	rep=no|t=no|r=no|m=no	16	punct
 11	Alfaro	Alfaro	np00000	np00000	rep=no|t=yes|r=no|m=yes	16	nsubj
-12	y	y	cc	cc	rep=no|t=no|r=no|m=no	16	coord_fixed
-13	los	él	pp3cno00	pp3cno00	rep=no|t=no|r=no|m=no	12	poss
-14	suyos	suyo	di0ms0	di0ms0	rep=no|t=no|r=no|m=no	13	det
+12	y	y	cc	cc	rep=no|t=no|r=no|m=yes	16	coord_fixed
+13	los	él	pp3cno00	pp3cno00	rep=no|t=no|r=no|m=yes	12	poss
+14	suyos	suyo	di0ms0	di0ms0	rep=no|t=no|r=no|m=yes	13	det
 15	aún	aún	rg	rg	rep=no|t=no|r=no|m=no	16	advmod
 16	hicieron	hacer	vmis3p0	vmis3p0	rep=no|t=no|r=yes|m=yes	0	root
 17	acopio	acopio	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	16	dobj

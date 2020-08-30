@@ -28,7 +28,7 @@
 17	Primera	primero	ao0fs0	ao0fs0	rep=no|t=no|r=yes|m=yes	18	amod
 18	División	División	np0000a	np0000a	rep=no|t=no|r=yes|m=yes	15	pobj
 19	española	español	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	17	amod
-20	-	-	fg	fg	rep=no|t=no|r=no|m=yes	24	punct
+20	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	24	punct
 21	360	360	z	z	rep=no|t=no|r=yes|m=yes	12	dep
 22	como	como	cs	cs	rep=no|t=no|r=yes|m=yes	21	dep
 23	jugador	jugador	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	22	cobj
@@ -36,7 +36,7 @@
 25	640	640	z	z	rep=no|t=no|r=yes|m=yes	12	dep
 26	como	como	cs	cs	rep=no|t=no|r=yes|m=yes	25	dep
 27	técnico	técnico	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	26	cobj
-28	-	-	fg	fg	rep=no|t=no|r=no|m=yes	24	punct
+28	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	24	punct
 29	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepv
 30	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	32	det
 31	buen	buen	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	32	amod
@@ -98,7 +98,7 @@
 24	dos	dos	dn0cp0	dn0cp0	rep=no|t=no|r=no|m=yes	25	det
 25	tantos	tanto	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	23	pobj
 26	,	,	fc	fc	rep=no|t=no|r=no|m=yes	19	punct
-27	y	y	cc	cc	rep=no|t=no|r=no|m=no	18	coord_fixed
+27	y	y	cc	cc	rep=no|t=no|r=no|m=yes	18	coord_fixed
 28	Donato	Donato	np00000	np00000	rep=no|t=no|r=no|m=yes	18	nsubj
 29	,	,	fc	fc	rep=no|t=no|r=no|m=yes	28	punct
 30	que	que	pr0cn000	pr0cn000	rep=no|t=yes|r=no|m=yes	31	nsubj

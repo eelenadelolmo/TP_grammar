@@ -2,7 +2,7 @@
 2	Reyes	Reyes	np0000o	np0000o	recursive=no|rep=no|theme=yes|rheme=no|main=yes	11	nsubj
 3	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	prepn
 4	España	España	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	pobj
-5	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	11	coord_fixed
+5	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	coord_fixed
 6	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	det
 7	infantas	infanta	ncfp000	ncfp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	11	nsubj
 8	Elena	Elena	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	dep
@@ -17,7 +17,7 @@
 17	Juana	Juana	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	pobj
 18	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	prepn
 19	Bulgaria	Bulgaria	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
-20	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+20	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 21	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	nsubj
 22	tendrán	tener	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	rcmod
 23	lugar	lugar	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	dobj
@@ -63,7 +63,7 @@
 18	italiana	italiano	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	amod
 19	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	prepn
 20	Asís	Asís	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 22	donde	donde	pr000000	pr000000	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	dobj
 23	Juana	Juana	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	nsubj
 24	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	reflec
@@ -127,7 +127,7 @@
 10	corazón	corazón	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dobj
 11	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	prepn
 12	Boris	Boris	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	pobj
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 14	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	nsubj
 15	había	haber	vaii3s0	vaii3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	dep
 16	sido	ser	vsp00sm	vsp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	vobj

@@ -5,7 +5,7 @@
 5	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	det
 6	auténtico	auténtico	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	amod
 7	sucesor	sucesor	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	pobj
-8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	1	coord_fixed
+8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	coord_fixed
 9	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	neg
 10	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	cobj
 11	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	det
@@ -200,8 +200,8 @@
 10	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	det
 11	mejores	mejor	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	amod
 12	tiempos	tiempo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	14	punct
-14	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	2	coord_fixed
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+14	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	coord_fixed
 15	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	2	oobj
 16	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	advmod
 17	velocidad	velocidad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
@@ -212,9 +212,9 @@
 1	Además	además	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	3	advmod
 2	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 3	reúne	reunir	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
-4	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	6	advmod
+4	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	advmod
 5	fuelle	fuelle	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	dobj
-6	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+6	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 7	resistencia	resistencia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	dobj
 8	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	prepn
 9	choque	choque	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	pobj
@@ -230,10 +230,10 @@
 19	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	18	prep
 20	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	21	det
 21	picardía	picardía	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	19	pobj
-22	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	4	crobj
-23	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	22	cobj
-24	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=no	25	det
-25	fragilidad	fragilidad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	23	pobj
+22	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	crobj
+23	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	cobj
+24	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	det
+25	fragilidad	fragilidad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	pobj
 26	,	,	fc	fc	recursive=no|rep=no|theme=yes|rheme=no|main=yes	13	punct
 27	era	ser	vsii3s0	vsii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	cobj
 28	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	coord_fixed

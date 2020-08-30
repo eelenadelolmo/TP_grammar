@@ -16,7 +16,7 @@
 16	Europea	europeo	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	15	amod
 17	desde	desde	sps00	sps00	rep=no|t=no|r=yes|m=yes	7	prepv
 18	ayer	ayer	rg	rg	rep=no|t=no|r=yes|m=yes	17	advmod
-19	,	,	fc	fc	rep=no|t=no|r=no|m=yes	6	punct
+19	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	6	punct
 20	tras	tras	sps00	sps00	rep=no|t=no|r=yes|m=yes	7	prepv
 21	levantarse	levantar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	20	pobj
 22	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	23	det
@@ -178,12 +178,12 @@
 13	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	12	prep
 14	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	15	det
 15	año	año	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	11	dobj
-16	,	,	fc	fc	rep=no|t=no|r=no|m=yes	11	punct
+16	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	11	punct
 17	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	11	prepv
 18	junio	junio	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	17	pobj
 19	de	de	spcms	spcms	rep=no|t=no|r=yes|m=yes	18	prepn
 20	1998	1998	zp	zp	rep=no|t=no|r=yes|m=yes	19	pobj
-21	,	,	fc	fc	rep=no|t=no|r=no|m=yes	11	punct
+21	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	11	punct
 22	porque	porque	cs	cs	rep=no|t=no|r=yes|m=yes	5	advcl
 23	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	24	det
 24	epidemia	epidemia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	25	nsubj
@@ -191,7 +191,7 @@
 26	allí	allí	rg	rg	rep=no|t=no|r=yes|m=yes	25	advmod
 27	menos	menos	rg	rg	rep=no|t=no|r=yes|m=yes	28	advmod
 28	estragos	estrago	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	25	dobj
-29	,	,	fc	fc	rep=no|t=no|r=no|m=yes	22	punct
+29	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	22	punct
 30	pero	pero	cc	cc	rep=no|t=no|r=yes|m=yes	25	coord_fixed
 31	sus	su	dp3cp0	dp3cp0	rep=no|t=no|r=yes|m=yes	32	poss
 32	ventas	venta	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	33	nsubj
@@ -288,12 +288,12 @@
 8	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	7	prepn
 9	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	10	det
 10	enfermedad	enfermedad	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	8	pobj
-11	,	,	fc	fc	rep=no|t=no|r=no|m=yes	10	punct
+11	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	10	punct
 12	denominada	denominado	aq0fsp	aq0fsp	rep=no|t=no|r=yes|m=yes	10	amod
 13	encefalopatía	encefalopatía	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	12	cpred
 14	espongiforme	espongiforme	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	13	amod
 15	bovina	bovino	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	13	amod
-16	,	,	fc	fc	rep=no|t=no|r=no|m=yes	10	punct
+16	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	10	punct
 17	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	21	dobj
 18	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	19	det
 19	ganado	ganado	ncms000	ncms000	rep=no|t=no|r=no|m=yes	20	nsubj

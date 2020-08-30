@@ -82,10 +82,10 @@
 31	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	32	det
 32	política	política	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	28	dobj
 33	industrial	industrial	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	32	amod
-34	-	-	fg	fg	rep=no|t=no|r=no|m=yes	36	punct
+34	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	36	punct
 35	más	más	rg	rg	rep=no|t=no|r=yes|m=yes	36	advmod
 36	activa	activo	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	32	amod
-37	-	-	fg	fg	rep=no|t=no|r=no|m=yes	36	punct
+37	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	36	punct
 38	.	.	fp	fp	rep=no|t=no|r=no|m=no	22	punct
 
 1	Juan	juan	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	6	nsubj
@@ -98,10 +98,10 @@
 8	hacer	hacer	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	7	cobj
 9	hincapié	hincapié	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	8	dobj
 10	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	8	oobj
-11	-	-	fg	fg	rep=no|t=no|r=no|m=yes	13	punct
+11	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	13	punct
 12	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	13	det
 13	calidad	calidad	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	10	pobj
-14	-	-	fg	fg	rep=no|t=no|r=no|m=yes	13	punct
+14	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	13	punct
 15	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
 
 

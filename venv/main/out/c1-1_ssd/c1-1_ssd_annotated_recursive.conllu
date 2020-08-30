@@ -12,9 +12,9 @@
 12	absurdas	absurdo	aq0fp0	aq0fp0	rep=no|t=no|r=no|m=no	10	amod
 13	.	.	fp	fp	rep=no|t=no|r=no|m=no	1	punct
 
-1	Por	por	sps00	sps00	rep=no|t=no|r=no|m=no	16	te
-2	ejemplo	ejemplo	ncmp000	ncmp000	rep=no|t=no|r=no|m=no	1	pobj
-3	,	,	fc	fc	rep=no|t=no|r=no|m=no	16	punct
+1	Por	por	sps00	sps00	rep=no|t=no|r=no|m=yes	16	te
+2	ejemplo	ejemplo	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	1	pobj
+3	,	,	fc	fc	rep=no|t=no|r=no|m=yes	16	punct
 4	a	a	sps00	sps00	rep=no|t=no|r=no|m=yes	23	coord
 5	Mario	Mario	np00000	np00000	rep=no|t=no|r=no|m=yes	4	pobj
 6	Conde	conde	ncms000	ncms000	rep=no|t=no|r=no|m=yes	5	appos
@@ -26,8 +26,8 @@
 12	J.	J.	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	11	pobj
 13	P.	P.	ncms000	ncms000	rep=no|t=no|r=no|m=yes	12	appos
 14	Morgan	morgan	np00000	np00000	rep=no|t=no|r=no|m=yes	13	appos
-15	,	,	fc	fc	rep=no|t=no|r=no|m=no	16	punct
-16	o	o	cc	cc	rep=no|t=no|r=no|m=no	23	coord_fixed
+15	,	,	fc	fc	rep=no|t=no|r=no|m=yes	16	punct
+16	o	o	cc	cc	rep=no|t=no|r=no|m=yes	23	coord_fixed
 17	al	al	spcms	spcms	rep=no|t=no|r=no|m=yes	23	coord
 18	ministro	ministro	ncms000	ncms000	rep=no|t=no|r=no|m=yes	17	pobj
 19	Asunción	Asunción	np0000p	np0000p	rep=no|t=no|r=no|m=yes	18	appos
@@ -107,7 +107,7 @@
 25	-	-	fg	fg	rep=no|t=no|r=no|m=yes	23	punct
 26	quedan	quedar	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	3	cobj
 27	bien	bien	rg	rg	rep=no|t=no|r=no|m=yes	26	advmod
-28	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+28	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 29	sin	sin	sps00	sps00	rep=no|t=no|r=yes|m=yes	26	prepv
 30	darse	darse	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	29	pobj
 31	cuenta	cuenta	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	30	dobj
@@ -118,10 +118,10 @@
 36	cosas	cosa	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	38	nsubj
 37	prácticas	práctico	aq0fp0	aq0fp0	rep=no|t=no|r=yes|m=yes	36	amod
 38	son	ser	vsip3p0	vsip3p0	rep=no|t=no|r=yes|m=yes	33	cobj
-39	,	,	fc	fc	rep=no|t=no|r=no|m=yes	38	punct
+39	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	38	punct
 40	por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	38	prepv
 41	definición	definición	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	40	pobj
-42	,	,	fc	fc	rep=no|t=no|r=no|m=yes	38	punct
+42	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	38	punct
 43	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	38	prepv
 44	mal	mal	rg	rg	rep=no|t=no|r=yes|m=yes	45	advmod
 45	gusto	gusto	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	43	pobj
@@ -161,7 +161,7 @@
 32	agradecer	agradecer	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	31	pobj
 33	.	.	fp	fp	rep=no|t=no|r=no|m=no	18	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	5	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	5	coord_fixed
 2	los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	4	det
 3	verdaderos	verdadero	aq0mp0	aq0mp0	rep=no|t=yes|r=no|m=yes	4	amod
 4	regalos	regalo	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	5	nsubj
@@ -173,9 +173,9 @@
 10	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	9	iobj
 11	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	12	det
 12	Susi	Susi	np0000p	np0000p	rep=no|t=no|r=yes|m=yes	10	pobj
-13	:	:	fd	fd	rep=no|t=no|r=no|m=no	15	punct
+13	:	:	fd	fd	rep=no|t=no|r=no|m=yes	15	punct
 14	caros	caro	aq0mp0	aq0mp0	rep=no|t=no|r=yes|m=yes	5	dep
-15	y	y	cc	cc	rep=no|t=no|r=no|m=no	5	coord_fixed
+15	y	y	cc	cc	rep=no|t=no|r=no|m=yes	5	coord_fixed
 16	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	5	dep
 17	vicio	vicio	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	16	pobj
 18	.	.	fp	fp	rep=no|t=no|r=no|m=no	5	punct
@@ -206,7 +206,7 @@
 24	cama	cama	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	22	pobj
 25	.	.	fp	fp	rep=no|t=no|r=no|m=no	5	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	5	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	5	coord_fixed
 2	todo	todo	di0ms0	di0ms0	rep=no|t=yes|r=no|m=yes	4	det
 3	lo	el	da0ns0	da0ns0	rep=no|t=yes|r=no|m=yes	4	det
 4	demás	demás	pi0cp000	pi0cp000	rep=no|t=yes|r=no|m=yes	5	nsubj

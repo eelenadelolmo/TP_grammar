@@ -18,7 +18,7 @@
 18	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	17	prepn
 19	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	20	det
 20	sector	sector	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	18	pobj
-21	,	,	fc	fc	rep=no|t=no|r=no|m=yes	17	punct
+21	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	17	punct
 22	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	23	nsubj
 23	creció	crecer	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	17	rcmod
 24	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	25	det
@@ -44,7 +44,7 @@
 15	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	prepn
 16	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	17	det
 17	construcción	construcción	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	15	pobj
-18	y	y	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+18	y	y	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 19	al	al	spcms	spcms	rep=no|t=no|r=yes|m=yes	4	oobj
 20	abuso	abuso	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	19	pobj
 21	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	20	prepn

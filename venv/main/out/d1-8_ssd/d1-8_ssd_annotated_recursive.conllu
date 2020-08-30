@@ -33,17 +33,17 @@
 
 1	Buyo	Buyo	np0000p	np0000p	rep=no|t=no|r=no|m=yes	19	coord
 2	siempre	siempre	rg	rg	rep=no|t=no|r=no|m=yes	1	advmod
-3	y	y	cc	cc	rep=no|t=no|r=no|m=no	19	coord_fixed
+3	y	y	cc	cc	rep=no|t=no|r=no|m=yes	19	coord_fixed
 4	alguna	alguno	di0fs0	di0fs0	rep=no|t=no|r=no|m=yes	5	det
 5	vez	vez	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	19	coord
 6	Alfonso	Alfonso	np0000p	np0000p	rep=no|t=no|r=no|m=yes	19	coord
 7	,	,	fc	fc	rep=no|t=no|r=no|m=no	19	punct
-8	y	y	cc	cc	rep=no|t=no|r=no|m=no	19	coord_fixed
+8	y	y	cc	cc	rep=no|t=no|r=no|m=yes	19	coord_fixed
 9	alguna	alguno	di0fs0	di0fs0	rep=no|t=no|r=no|m=yes	10	det
 10	vez	vez	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	19	coord
 11	Míchel	Míchel	np0000p	np0000p	rep=no|t=no|r=no|m=yes	19	coord
 12	,	,	fc	fc	rep=no|t=no|r=no|m=no	19	punct
-13	y	y	cc	cc	rep=no|t=no|r=no|m=no	19	coord_fixed
+13	y	y	cc	cc	rep=no|t=no|r=no|m=yes	19	coord_fixed
 14	alguna	alguno	di0fs0	di0fs0	rep=no|t=no|r=no|m=yes	15	det
 15	vez	vez	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	19	coord
 16	Luis	luis	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	19	coord
@@ -80,7 +80,7 @@
 23	blandos	blando	aq0mp0	aq0mp0	rep=no|t=no|r=yes|m=yes	15	cobj
 24	o	o	cc	cc	rep=no|t=no|r=yes|m=yes	15	coord_fixed
 25	egoístas	egoísta	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	15	cobj
-26	,	,	fc	fc	rep=no|t=no|r=no|m=yes	24	punct
+26	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	24	punct
 27	acaso	acaso	rg	rg	rep=no|t=no|r=yes|m=yes	28	advmod
 28	confiados	confiado	aq0mpp	aq0mpp	rep=no|t=no|r=yes|m=yes	15	cobj
 29	por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	28	prepa
@@ -103,14 +103,14 @@
 1	Esa	ese	dd0fs0	dd0fs0	rep=no|t=yes|r=no|m=yes	3	det
 2	misma	mismo	di0fs0	di0fs0	rep=no|t=yes|r=no|m=yes	3	det
 3	confianza	confianza	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	15	nsubj
-4	,	,	fc	fc	rep=no|t=no|r=no|m=no	11	punct
+4	,	,	fc	fc	rep=no|t=no|r=no|m=yes	11	punct
 5	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	6	det
 6	cansancio	cansancio	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	15	nsubj
 7	del	del	spcms	spcms	rep=no|t=yes|r=no|m=yes	6	prepn
 8	que	que	pr0cn000	pr0cn000	rep=no|t=yes|r=no|m=yes	9	nsubj
 9	golpea	golpear	vmip3s0	vmip3s0	rep=no|t=yes|r=no|m=yes	7	rcmod
-10	,	,	fc	fc	rep=no|t=no|r=no|m=no	11	punct
-11	o	o	cc	cc	rep=no|t=no|r=no|m=no	15	coord_fixed
+10	,	,	fc	fc	rep=no|t=no|r=no|m=yes	11	punct
+11	o	o	cc	cc	rep=no|t=no|r=no|m=yes	15	coord_fixed
 12	simplemente	simplemente	rg	rg	rep=no|t=yes|r=no|m=yes	14	advmod
 13	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	14	det
 14	sorpresa	sorpresa	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	15	nsubj
@@ -173,9 +173,9 @@
 2	penalti	penalti	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	3	nsubj
 3	fue	ser	vsis3s0	vsis3s0	rep=no|t=no|r=yes|m=yes	0	root
 4	justo	justo	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	3	attr
-5	,	,	fc	fc	rep=no|t=no|r=no|m=no	7	punct
+5	,	,	fc	fc	rep=no|t=no|r=no|m=yes	7	punct
 6	inesperado	inesperado	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	3	attr
-7	y	y	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+7	y	y	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 8	atemorizador	atemorizador	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	3	attr
 9	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
 
@@ -191,13 +191,13 @@
 10	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	5	oobj
 11	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	12	det
 12	amenaza	amenaza	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	10	pobj
-13	,	,	fc	fc	rep=no|t=no|r=no|m=yes	5	punct
+13	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	5	punct
 14	pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 15	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	5	neg
 16	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	15	prep
 17	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	18	det
 18	sentencia	sentencia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	16	pobj
-19	,	,	fc	fc	rep=no|t=no|r=no|m=yes	18	punct
+19	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	18	punct
 20	para	para	sps00	sps00	rep=no|t=no|r=yes|m=yes	18	prepn
 21	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	22	det
 22	Madrid	Madrid	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	20	pobj

@@ -18,9 +18,9 @@
 12	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	14	det
 13	colista	colista	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	14	amod
 14	Sevilla	Sevilla	np00000	np00000	rep=no|t=no|r=yes|m=yes	11	pobj
-15	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	16	punct
+15	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	16	punct
 16	1-1	1-1	z	z	rep=no|t=no|r=yes|m=yes	5	dobj
-17	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	16	punct
+17	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	16	punct
 18	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 19	ya	ya	rg	rg	rep=no|t=no|r=no|m=yes	20	advmod
 20	encadena	encadenar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	18	coord
@@ -80,7 +80,7 @@
 36	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	38	det
 37	decimotercer	decimotercer	ao0ms0	ao0ms0	rep=no|t=no|r=yes|m=yes	38	amod
 38	puesto	puesto	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	34	dobj
-39	,	,	fc	fc	rep=no|t=no|r=no|m=yes	38	punct
+39	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	38	punct
 40	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	38	prepn
 41	cinco	cinco	dn0cp0	dn0cp0	rep=no|t=no|r=yes|m=yes	42	det
 42	puntos	punto	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	40	pobj

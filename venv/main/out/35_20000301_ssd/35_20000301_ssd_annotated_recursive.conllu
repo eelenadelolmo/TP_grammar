@@ -62,7 +62,7 @@
 27	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	26	prepa
 28	escala	escala	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	27	pobj
 29	nacional	nacional	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	28	amod
-30	,	,	fc	fc	rep=no|t=no|r=no|m=yes	22	punct
+30	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	22	punct
 31	pues	pues	cs	cs	rep=no|t=no|r=no|m=yes	11	cobj
 32	si	si	cs	cs	rep=no|t=no|r=yes|m=yes	42	advcl
 33	las	el	da0fp0	da0fp0	rep=no|t=no|r=yes|m=yes	34	det
@@ -83,7 +83,7 @@
 48	probable	probable	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	49	amod
 49	candidato	candidato	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	47	pobj
 50	demócrata	demócrata	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	49	amod
-51	,	,	fc	fc	rep=no|t=no|r=no|m=yes	49	punct
+51	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	49	punct
 52	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	53	det
 53	vicepresidente	vicepresidente	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	49	appos
 54	Al	al	sps00	sps00	rep=no|t=no|r=yes|m=yes	53	appos
@@ -172,9 +172,9 @@
 9	primarias	primaria	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	7	dobj
 10	y	y	cc	cc	rep=no|t=no|r=no|m=yes	7	coord_fixed
 11	caucuses	caucuses	nc00000	nc00000	rep=no|t=no|r=yes|m=yes	7	dobj
-12	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	13	punct
+12	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	13	punct
 13	asambleas	asamblea	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	11	appos
-14	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	13	punct
+14	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	13	punct
 15	,	,	fc	fc	rep=no|t=no|r=no|m=yes	10	punct
 16	respectivamente	respectivamente	rg	rg	rep=no|t=no|r=no|m=yes	10	advmod
 17	,	,	fc	fc	rep=no|t=no|r=no|m=yes	10	punct

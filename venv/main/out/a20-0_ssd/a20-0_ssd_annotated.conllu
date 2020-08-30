@@ -3,9 +3,9 @@
 3	nada	nada	pi0cs000	pi0cs000	recursive=no|rep=no|theme=no|rheme=no|main=no	2	pobj
 4	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=no	1	punct
 5	amo	amar	vmip1s0	vmip1s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	dep
-6	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	punct
+6	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
 7	admiro	admirar	vmip1s0	vmip1s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	dep
-8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	1	coord_fixed
+8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	coord_fixed
 9	respeto	respetar	vmip1s0	vmip1s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	dep
 10	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	dobj
 11	Cayetana	cayetana	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	pobj
@@ -116,17 +116,17 @@
 41	agraria	agrario	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	amod
 42	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	13	punct
 
-1	Ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	11	coord_fixed
+1	Ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	coord_fixed
 2	sus	su	dp3cp0	dp3cp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	poss
 3	diez	diez	dn0cp0	dn0cp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	det
 4	palacios	palacio	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	20	nsubj
-5	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	11	punct
-6	ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	11	coord_fixed
+5	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+6	ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	coord_fixed
 7	sus	su	dp3cp0	dp3cp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	poss
 8	mil	mil	dn0cp0	dn0cp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	det
 9	fincas	finca	ncfp000	ncfp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	20	nsubj
-10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	11	punct
-11	ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	20	coord_fixed
+10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+11	ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	coord_fixed
 12	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	13	poss
 13	condición	condición	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	20	nsubj
 14	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	13	prepn
@@ -145,7 +145,7 @@
 
 1	Al	al	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 2	contrario	contrario	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	pobj
-3	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=no	11	punct
+3	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
 4	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	cobj
 5	campechana	campechano	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	attr
 6	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
@@ -153,7 +153,7 @@
 8	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	conj
 9	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	det
 10	ventera	ventera	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	cobj
-11	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	1	coord_fixed
+11	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	coord_fixed
 12	ha	haber	vaip3s0	vaip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	cobj
 13	conseguido	conseguir	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	vobj
 14	huir	huir	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	vobj
@@ -175,9 +175,9 @@
 30	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	1	punct
 
 1	Nació	nacer	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	conj
-2	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
+2	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	punct
 3	vivió	vivir	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	conj
-4	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	14	coord_fixed
+4	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	coord_fixed
 5	maduró	madurar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	conj
 6	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	conj
 7	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	det
@@ -222,7 +222,7 @@
 
 1	Los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
 2	capataces	capataz	nccp000	nccp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	nsubj
-3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	coord_fixed
+3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	coord_fixed
 4	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	det
 5	señoritos	señorito	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	nsubj
 6	fueron	ser	vsis3p0	vsis3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
@@ -348,7 +348,7 @@
 7	ante	ante	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	2	prepv
 8	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	det
 9	Generalísimo	Generalísimo	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	pobj
-10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 11	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	nsubj
 12	jamás	jamás	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	advmod
 13	pisó	pisar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	rcmod
@@ -413,7 +413,7 @@
 19	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	21	nsubj
 20	la	él	pp3fsa00	pp3fsa00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	dobj
 21	acompañaba	acompañar	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	cobj
-22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
+22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	punct
 23	la	él	pp3fsa00	pp3fsa00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	dobj
 24	insultó	insultar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	cobj
 25	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=no	29	punct

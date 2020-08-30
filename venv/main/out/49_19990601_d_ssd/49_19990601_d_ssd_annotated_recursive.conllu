@@ -33,10 +33,10 @@
 20	predilecta	predilecto	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	19	amod
 21	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	19	prepn
 22	Lizarza	Lizarza	np00000	np00000	rep=no|t=no|r=yes|m=yes	21	pobj
-23	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	24	punct
+23	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	24	punct
 24	Guipúzcoa	Guipúzcoa	np00000	np00000	rep=no|t=no|r=yes|m=yes	21	pobj
-25	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	24	punct
-26	,	,	fc	fc	rep=no|t=no|r=no|m=yes	21	punct
+25	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	24	punct
+26	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	21	punct
 27	municipio	municipio	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	21	pobj
 28	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	31	prepv
 29	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	30	det
@@ -47,9 +47,9 @@
 34	absoluta	absoluto	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	33	amod
 35	Herri	Herri	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	31	nsubj
 36	Batasuna	batasuno	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	35	appos
-37	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	38	punct
+37	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	38	punct
 38	HB	HB	np00000	np00000	rep=no|t=no|r=yes|m=yes	35	appos
-39	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	38	punct
+39	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	38	punct
 40	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
 
 1	Zeberio	Zeberio	np00000	np00000	rep=no|t=yes|r=no|m=yes	2	nsubj

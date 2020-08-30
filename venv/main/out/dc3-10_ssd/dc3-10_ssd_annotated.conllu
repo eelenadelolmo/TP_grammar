@@ -40,7 +40,7 @@
 16	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	poss
 17	plano	plano	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
 18	molecular	molecular	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	amod
-19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 20	tanto	tanto	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	advmod
 21	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	prepv
 22	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	det
@@ -59,7 +59,7 @@
 35	moléculas	molécula	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	pobj
 36	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	prepn
 37	TTF	TTF	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	pobj
-38	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	punct
+38	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	punct
 39	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	46	prepv
 40	lo	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	det
 41	largo	largo	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	pobj
@@ -257,7 +257,7 @@
 12	semiconductoras	semiconductor	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	amod
 13	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	9	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	12	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	coord_fixed
 2	si	si	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	12	advcl
 3	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=no	4	det
 4	banda	banda	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	8	nsubj
@@ -307,10 +307,10 @@
 
 1	Al	al	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	17	advcl
 2	igual	igual	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	1	advmod
-3	que	que	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	17	coord_fixed
-4	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	3	cobj
-5	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=no	6	det
-6	metales	metal	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=no	4	pobj
+3	que	que	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	coord_fixed
+4	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	cobj
+5	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	det
+6	metales	metal	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	pobj
 7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	17	punct
 8	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	prepv
 9	esta	este	dd0fs0	dd0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	det

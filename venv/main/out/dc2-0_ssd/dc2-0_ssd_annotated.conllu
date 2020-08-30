@@ -61,7 +61,7 @@
 1	Los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	nsubj
 2	cuarenta	cuarenta	dn0cp0	dn0cp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	det
 3	muertos	muerto	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	nsubj
-4	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	9	coord_fixed
+4	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	coord_fixed
 5	más	más	rg	rg	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	advmod
 6	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	prep
 7	doscientos	doscientos	dn0mp0	dn0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	det
@@ -200,10 +200,10 @@
 10	noticias	noticia	ncfp000	ncfp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	11	nsubj
 11	deberían	deber	vmic3p0	vmic3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 12	servir	servir	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	dobj
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 14	cuando	cuando	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	advmod
 15	menos	menos	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	advmod
-16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 17	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	dep
 18	materia	materia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	cobj
 19	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	prepn
@@ -211,10 +211,10 @@
 21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	11	punct
 22	ya	ya	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	advmod
 23	que	que	pi0ms000	pi0ms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	advcl
-24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	punct
+24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	punct
 25	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	advmod
 26	efecto	efecto	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	pobj
-27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	punct
+27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	punct
 28	algunos	alguno	pi0mp000	pi0mp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	nsubj
 29	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	prepn
 30	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	det
@@ -236,7 +236,7 @@
 46	máquinas	máquina	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	pobj
 47	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	46	prepn
 48	guerra	guerra	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	47	pobj
-49	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	51	punct
+49	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	51	punct
 50	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	51	det
 51	armas	arma	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	dep
 52	biológicas	biológico	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	51	amod
@@ -262,7 +262,7 @@
 18	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	dep
 19	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	det
 20	legionella	legionella	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	cobj
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 22	capaz	capaz	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	amod
 23	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	dep
 24	sobrevivir	sobrevivir	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	pobj

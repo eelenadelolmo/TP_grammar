@@ -76,7 +76,7 @@
 14	forzó	forzar	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	0	root
 15	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	14	dobj
 16	tercera	tercero	ao0fs0	ao0fs0	rep=no|t=no|r=yes|m=yes	14	dobj
-17	y	y	cc	cc	rep=no|t=no|r=no|m=no	14	coord_fixed
+17	y	y	cc	cc	rep=no|t=no|r=no|m=yes	14	coord_fixed
 18	última	último	ao0fs0	ao0fs0	rep=no|t=no|r=yes|m=yes	14	dobj
 19	al	al	spcms	spcms	rep=no|t=no|r=no|m=no	14	prepv
 20	imponerse	imponer	vmn0000	vmn0000	rep=no|t=no|r=no|m=no	19	pobj
@@ -153,7 +153,7 @@
 9	fue	ser	vsis3s0	vsis3s0	rep=no|t=no|r=yes|m=yes	0	root
 10	Jacobo	jacobo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	9	attr
 11	Díaz	Díaz	np00000	np00000	rep=no|t=no|r=yes|m=yes	10	appos
-12	,	,	fc	fc	rep=no|t=no|r=no|m=yes	10	punct
+12	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	10	punct
 13	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	15	nsubj
 14	no	no	rn	rn	rep=no|t=no|r=no|m=yes	15	neg
 15	pudo	poder	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	10	rcmod
@@ -178,14 +178,14 @@
 12	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	14	det
 13	primer	primero	ao0ms0	ao0ms0	rep=no|t=no|r=yes|m=yes	14	amod
 14	set	set	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	11	pobj
-15	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
+15	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	14	punct
 16	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	17	nsubj
 17	terminó	terminar	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	14	rcmod
 18	con	con	sps00	sps00	rep=no|t=no|r=no|m=yes	17	prepv
 19	un	uno	di0ms0	di0ms0	rep=no|t=no|r=no|m=yes	21	det
 20	contundente	contundente	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=yes	21	amod
 21	6-2	6-2	z	z	rep=no|t=no|r=no|m=yes	18	pobj
-22	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
+22	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	14	punct
 23	pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 24	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	28	prepv
 25	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	26	det

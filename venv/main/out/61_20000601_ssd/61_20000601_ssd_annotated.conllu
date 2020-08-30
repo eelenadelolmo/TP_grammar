@@ -46,7 +46,7 @@
 20	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	det
 21	escuela	escuela	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	pobj
 22	infantil	infantil	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	amod
-23	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	7	coord_fixed
+23	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	coord_fixed
 24	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	dobj
 25	dos	dos	pn0cp000	pn0cp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	pobj
 26	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	prepn
@@ -112,7 +112,7 @@
 7	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	dobj
 8	sus	su	dp3cp0	dp3cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	poss
 9	hijos	hijo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	pobj
-10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 11	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	oobj
 12	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	det
 13	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	pobj
@@ -276,7 +276,7 @@
 11	grupo	grupo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
 12	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
 13	niños	niño	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 15	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	nsubj
 16	pudieron	poder	vmis3p0	vmis3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	rcmod
 17	salir	salir	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	dobj

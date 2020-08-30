@@ -67,12 +67,12 @@
 10	asumen	asumir	vmip3p0	vmip3p0	rep=no|t=no|r=no|m=yes	7	rcmod
 11	esta	este	dd0fs0	dd0fs0	rep=no|t=no|r=no|m=yes	12	det
 12	cirugía	cirugía	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	10	dobj
-13	:	:	fd	fd	rep=no|t=no|r=no|m=yes	21	punct
+13	:	:	fd	fd	rep=no|t=no|r=yes|m=yes	21	punct
 14	Clínic	Clínic	np00000	np00000	rep=no|t=no|r=yes|m=yes	7	dep
-15	,	,	fc	fc	rep=no|t=no|r=no|m=yes	21	punct
+15	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	21	punct
 16	Sant	Sant	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	7	dep
 17	Pau	Pau	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	16	appos
-18	,	,	fc	fc	rep=no|t=no|r=no|m=yes	21	punct
+18	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	21	punct
 19	Vall	Vall	np0000o	np0000o	rep=no|t=no|r=yes|m=yes	20	nsubj
 20	d'Hebron	d'Hebron	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	7	dep
 21	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	7	coord_fixed

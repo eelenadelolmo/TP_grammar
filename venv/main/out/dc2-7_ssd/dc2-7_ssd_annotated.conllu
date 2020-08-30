@@ -6,24 +6,24 @@
 6	destruirán	destruir	vmif3p0	vmif3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 7	así	así	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	6	advmod
 8	toda	todo	pi0fs000	pi0fs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	dobj
-9	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	coord_fixed
+9	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	coord_fixed
 10	gran	gran	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	amod
 11	parte	parte	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	dobj
 12	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
 13	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	det
 14	vida	vida	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
 15	situada	situado	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	amod
-16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 17	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	prepa
 18	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	poss
 19	desgracia	desgracia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
-20	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+20	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 21	debajo	debajo	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	oobj
 22	del	del	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	prep
 23	agujero	agujero	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	pobj
 24	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	12	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	coord_fixed
 2	si	si	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	12	advcl
 3	alguna	alguno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=no|main=no	4	det
 4	potencia	potencia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	5	nsubj
@@ -50,7 +50,7 @@
 9	Antártida	Antártida	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	attr
 10	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 2	tampoco	tampoco	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	advmod
 3	podemos	poder	vmip1p0	vmip1p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 4	descartar	descartar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	dobj
@@ -61,7 +61,7 @@
 
 1	Al	al	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	8	advmod
 2	fin	fin	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	1	pobj
-3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 4	al	al	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	8	advmod
 5	cabo	cabo	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	4	pobj
 6	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	punct
@@ -138,7 +138,7 @@
 36	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	dobj
 37	ser	ser	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	pobj
 38	humano	humano	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	attr
-39	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	punct
+39	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	punct
 40	ya	ya	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	41	advmod
 41	que	que	pi0ms000	pi0ms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	advcl
 42	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	46	advmod
@@ -164,7 +164,7 @@
 8	cuerpo	cuerpo	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	pobj
 9	están	estar	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 10	paralizados	paralizado	aq0mpp	aq0mpp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	attr
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	punct
 12	agarrotados	agarrotado	aq0mpp	aq0mpp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	attr
 13	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	9	punct
 
@@ -178,7 +178,7 @@
 8	patético	patético	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	attr
 9	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	7	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	11	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	coord_fixed
 2	desde	desde	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	11	prepv
 3	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=no	4	det
 4	verano	verano	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	2	pobj
@@ -249,7 +249,7 @@
 53	ordenador	ordenador	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	51	pobj
 54	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 2	eso	ese	pd0ns000	pd0ns000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	dep
 3	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	neg
 4	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root

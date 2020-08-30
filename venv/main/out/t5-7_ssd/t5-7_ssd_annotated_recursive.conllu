@@ -69,16 +69,16 @@
 12	nuevo	nuevo	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	11	amod
 13	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
 
-1	-	-	fg	fg	rep=no|t=no|r=no|m=no	5	punct
-2	-	-	fg	fg	rep=no|t=no|r=no|m=no	5	punct
-3	¡	¡	faa	faa	rep=no|t=no|r=no|m=no	5	punct
-4	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	12	coord_fixed
-5	fíjate	fijar	vmm02s0	vmm02s0	rep=no|t=no|r=no|m=no	4	cobj
-6	qué	qué	de0cn0	de0cn0	rep=no|t=no|r=no|m=no	7	det
-7	pintas	pinta	ncfp000	ncfp000	rep=no|t=no|r=no|m=no	5	dobj
-8	!	!	fat	fat	rep=no|t=no|r=no|m=no	5	punct
-9	-	-	fg	fg	rep=no|t=no|r=no|m=no	5	punct
-10	-	-	fg	fg	rep=no|t=no|r=no|m=no	5	punct
+1	-	-	fg	fg	rep=no|t=no|r=no|m=yes	5	punct
+2	-	-	fg	fg	rep=no|t=no|r=no|m=yes	5	punct
+3	¡	¡	faa	faa	rep=no|t=no|r=no|m=yes	5	punct
+4	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	12	coord_fixed
+5	fíjate	fijar	vmm02s0	vmm02s0	rep=no|t=no|r=no|m=yes	4	cobj
+6	qué	qué	de0cn0	de0cn0	rep=no|t=no|r=no|m=yes	7	det
+7	pintas	pinta	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	5	dobj
+8	!	!	fat	fat	rep=no|t=no|r=no|m=yes	5	punct
+9	-	-	fg	fg	rep=no|t=no|r=no|m=yes	5	punct
+10	-	-	fg	fg	rep=no|t=no|r=no|m=yes	5	punct
 11	se	él	pp3cn000	pp3cn000	rep=no|t=no|r=no|m=yes	12	reflec
 12	dijo	decir	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	0	root
 13	a	a	sps00	sps00	rep=no|t=no|r=no|m=yes	12	iobj

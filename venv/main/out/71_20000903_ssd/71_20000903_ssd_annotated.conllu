@@ -50,7 +50,7 @@
 18	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	prepn
 19	23	23	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	num
 20	jugadores	jugador	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 22	donde	donde	pr000000	pr000000	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	dobj
 23	está	estar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	rcmod
 24	incluido	incluido	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	attr
@@ -78,7 +78,7 @@
 4	está	estar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	dobj
 5	cerrada	cerrado	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	attr
 6	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
-7	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	18	coord_fixed
+7	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	coord_fixed
 8	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	neg
 9	descarto	descartar	vmip1s0	vmip1s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	dobj
 10	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	dobj
@@ -253,7 +253,7 @@
 14	diciembre	diciembre	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	13	pobj
 15	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	10	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	22	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	coord_fixed
 2	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	det
 3	argentino	argentino	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	22	nsubj
 4	Javier	Javier	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	appos

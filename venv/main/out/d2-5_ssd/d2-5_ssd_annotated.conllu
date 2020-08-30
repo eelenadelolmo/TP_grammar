@@ -1,6 +1,6 @@
 1	Su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	poss
 2	capacidad	capacidad	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	10	nsubj
-3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	10	coord_fixed
+3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	coord_fixed
 4	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	poss
 5	posición	posición	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	10	nsubj
 6	en	en	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	prepn
@@ -95,12 +95,12 @@
 31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	43	punct
 32	crisis	crisis	ncfn000	ncfn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	43	nsubj
 33	políticas	político	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	amod
-34	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	39	punct
+34	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	39	punct
 35	encarcelamientos	encarcelamiento	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	43	nsubj
 36	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	35	prepn
 37	altas	alto	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	amod
 38	personalidades	personalidad	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	36	pobj
-39	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	43	coord_fixed
+39	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	43	coord_fixed
 40	otras	otro	di0fp0	di0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	41	det
 41	zarandajas	zarandaja	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	43	nsubj
 42	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	43	punct
@@ -126,7 +126,7 @@
 12	caso	caso	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	dobj
 13	Quini	Quini	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	appos
 14	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
-15	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	coord_fixed
+15	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	coord_fixed
 16	se	se	p0000000	p0000000	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	reflec
 17	desgarraron	desgarrar	vmis3p0	vmis3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	conj
 18	vestiduras	vestidura	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	nsubj
@@ -140,7 +140,7 @@
 2	gran	gran	aq0cs0	aq0cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	amod
 3	cuestión	cuestión	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	nsubj
 4	era	ser	vsii3s0	vsii3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
-5	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	punct
+5	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	punct
 6	Se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	reflec
 7	tendrá	tener	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	attr
 8	Romario	Romario	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	nsubj
@@ -167,7 +167,7 @@
 15	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	oobj
 16	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	det
 17	Bernabéu	Bernabéu	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	pobj
-18	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+18	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 19	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	oobj
 20	Atenas	Atenas	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	pobj
 21	?	?	fit	fit	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
@@ -262,9 +262,9 @@
 25	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	23	dobj
 26	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	reflec
 27	quedaba	quedar	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	cobj
-28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	punct
+28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	punct
 29	entrenaba	entrenar	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	cobj
-30	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	punct
+30	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	punct
 31	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	reflec
 32	concentraba	concentrar	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	cobj
 33	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	25	coord_fixed
@@ -337,7 +337,7 @@
 12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
 13	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	det
 14	mirada	mirada	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	coord
-15	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	9	coord_fixed
+15	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	coord_fixed
 16	ahí	ahí	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	advmod
 17	está	estar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	coord
 18	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	det

@@ -45,7 +45,7 @@
 8	estaba	estar	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	coord
 9	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	prepv
 10	Badalona	Badalona	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	pobj
-11	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	26	coord_fixed
+11	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	coord_fixed
 12	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	prepv
 13	muy	mucho	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	advmod
 14	niño	niño	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	pobj
@@ -68,8 +68,8 @@
 31	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	prepv
 32	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	det
 33	Joventut	Joventut	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	pobj
-34	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	35	punct
-35	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	26	coord_fixed
+34	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	35	punct
+35	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	coord_fixed
 36	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	39	prepv
 37	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	det
 38	Penya	Penya	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	36	pobj
@@ -157,12 +157,12 @@
 8	terreno	terreno	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	pobj
 9	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	prepn
 10	juego	juego	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	pobj
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	16	punct
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
 12	concebir	concebir	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	csubj
 13	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	det
 14	mejores	mejor	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	amod
 15	jugadas	jugada	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	dobj
-16	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+16	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 17	montar	montar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	csubj
 18	espectaculares	espectacular	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	amod
 19	contrataques	contrataque	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	dobj
@@ -211,7 +211,7 @@
 62	directivos	directivo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	57	pobj
 63	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	7	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	coord_fixed
 2	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	det
 3	nuevo	nuevo	aq0ms0	aq0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	amod
 4	presidente	presidente	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	nsubj
@@ -242,7 +242,7 @@
 2	en	en	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	1	prepa
 3	158	158	z	z	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	num
 4	ocasiones	ocasión	ncfp000	ncfp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	pobj
-5	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	32	coord_fixed
+5	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	coord_fixed
 6	ganador	ganador	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	32	nsubj
 7	con	con	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	prepn
 8	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	det

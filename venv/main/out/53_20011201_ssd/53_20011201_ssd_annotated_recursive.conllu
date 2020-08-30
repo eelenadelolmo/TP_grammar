@@ -3,12 +3,12 @@
 3	fiscal	fiscal	aq0cs0	aq0cs0	rep=no|t=yes|r=no|m=yes	2	amod
 4	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	2	prepn
 5	Euskadi	Euskadi	np00000	np00000	rep=no|t=yes|r=no|m=yes	4	pobj
-6	(	(	fpa	fpa	rep=no|t=no|r=no|m=no	7	punct
-7	y	y	cc	cc	rep=no|t=no|r=no|m=no	12	coord_fixed
+6	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	7	punct
+7	y	y	cc	cc	rep=no|t=no|r=no|m=yes	12	coord_fixed
 8	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	9	pobj
 9	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	12	nsubj
 10	Navarra	Navarra	np00000	np00000	rep=no|t=yes|r=no|m=yes	9	pobj
-11	)	)	fpt	fpt	rep=no|t=no|r=no|m=no	7	punct
+11	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	7	punct
 12	es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=yes|m=yes	0	root
 13	distinto	distinto	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	12	attr
 14	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	13	prepa

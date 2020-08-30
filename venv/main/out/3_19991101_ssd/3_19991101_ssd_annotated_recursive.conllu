@@ -60,12 +60,12 @@
 1	El	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	6	nsubj
 2	más	más	rg	rg	rep=no|t=yes|r=no|m=yes	3	advmod
 3	grave	grave	aq0cs0	aq0cs0	rep=no|t=yes|r=no|m=yes	6	nsubj
-4	y	y	cc	cc	rep=no|t=no|r=no|m=no	6	coord_fixed
+4	y	y	cc	cc	rep=no|t=no|r=no|m=yes	6	coord_fixed
 5	reciente	reciente	aq0cs0	aq0cs0	rep=no|t=yes|r=no|m=yes	6	nsubj
 6	ocurrió	ocurrir	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	0	root
 7	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	6	prepv
 8	1976	1976	z	z	rep=no|t=no|r=yes|m=yes	7	pobj
-9	,	,	fc	fc	rep=no|t=no|r=no|m=yes	8	punct
+9	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	8	punct
 10	cuando	cuando	pr000000	pr000000	rep=no|t=no|r=no|m=yes	8	rcmod
 11	un	uno	di0ms0	di0ms0	rep=no|t=no|r=no|m=yes	12	det
 12	avión	avión	ncms000	ncms000	rep=no|t=no|r=no|m=yes	17	nsubj
@@ -178,7 +178,7 @@
 24	gestiona	gestionar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	20	dep
 25	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	26	det
 26	aerolínea	aerolínea	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	24	nsubj
-27	,	,	fc	fc	rep=no|t=no|r=no|m=yes	15	punct
+27	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	15	punct
 28	pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 29	ha	haber	vaip3s0	vaip3s0	rep=no|t=no|r=no|m=yes	28	coord
 30	descartado	descartar	vmp00sm	vmp00sm	rep=no|t=no|r=no|m=yes	29	vobj

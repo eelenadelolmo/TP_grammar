@@ -59,7 +59,7 @@
 16	todo	todo	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	det
 17	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	det
 18	año	año	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
-19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 20	pues	pues	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	advcl
 21	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	prepv
 22	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	det
@@ -95,7 +95,7 @@
 7	Romano	Romano	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	appos
 8	Prodi	Prodi	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	appos
 9	,	,	fc	fc	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	punct
-10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	23	coord_fixed
+10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	coord_fixed
 11	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	12	det
 12	comisario	comisario	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	23	nsubj
 13	europeo	europeo	aq0ms0	aq0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	12	amod
@@ -150,7 +150,7 @@
 18	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	19	det
 19	Comisión	Comisión	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	17	pobj
 20	Europea	europeo	aq0ms0	aq0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	19	amod
-21	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+21	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
 22	marcará	marcar	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	dobj
 23	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	det
 24	pistas	pista	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	dobj
@@ -159,7 +159,7 @@
 27	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	prepn
 28	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	det
 29	reforma	reforma	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	pobj
-30	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+30	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
 31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	32	punct
 32	señalaron	señalar	vmis3p0	vmis3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 33	hoy	hoy	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	32	advmod
@@ -246,7 +246,7 @@
 20	reuniones	reunión	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dobj
 21	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	prepn
 22	negociación	negociación	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	pobj
-23	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	punct
+23	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	punct
 24	seis	seis	pn0cp000	pn0cp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	prepn
 25	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	prepn
 26	ellas	él	pp3fp000	pp3fp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	pobj

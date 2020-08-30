@@ -51,7 +51,7 @@
 7	cochecito	cochecito	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	pobj
 8	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	1	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	2	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	coord_fixed
 2	fueron	ser	vsis3p0	vsis3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 3	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	det
 4	jóvenes	joven	nccp000	nccp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	nsubj
@@ -67,7 +67,7 @@
 14	marcha	marcha	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
 15	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	prepv
 16	tambores	tambor	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
-17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	punct
+17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	punct
 18	bengalas	bengala	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
 19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	coord_fixed
 20	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	det

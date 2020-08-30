@@ -23,7 +23,7 @@
 23	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	prepv
 24	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	det
 25	ética	ética	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	pobj
-26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	punct
+26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	punct
 27	entendida	entender	vmp00sf	vmp00sf	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	dep
 28	ésta	este	pd0fs000	pd0fs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	nsubj
 29	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	prepv
@@ -36,7 +36,7 @@
 36	la	él	pp3fsa00	pp3fsa00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	dobj
 37	tomaba	tomar	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	prepn
 38	Kant	Kant	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	nsubj
-39	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	punct
+39	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	punct
 40	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	prepv
 41	unir	unir	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	pobj
 42	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	prepv
@@ -51,7 +51,7 @@
 51	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	50	prepn
 52	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	53	det
 53	costumbres	costumbre	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	51	pobj
-54	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	punct
+54	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	punct
 55	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	coord_fixed
 56	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	55	conj
 57	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	58	det
@@ -63,7 +63,7 @@
 63	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	62	prepn
 64	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	65	det
 65	Moralitat	Moralitat	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	63	pobj
-66	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	67	punct
+66	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	67	punct
 67	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	55	coord_fixed
 68	Max	Max	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	55	conj
 69	Weber	weber	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	68	appos
@@ -166,8 +166,8 @@
 28	fórmulas	fórmula	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	pobj
 29	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	prepn
 30	imperativo	imperativo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	pobj
-31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
-32	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	punct
+31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
+32	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	punct
 33	cada	cada	di0cs0	di0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	det
 34	una	uno	pi0fs000	pi0fs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	nsubj
 35	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	prepn
@@ -180,8 +180,8 @@
 42	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	44	det
 43	otras	otro	di0fp0	di0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	44	det
 44	dos	dos	pn0cp000	pn0cp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	pobj
-45	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	punct
-46	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	punct
+45	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	punct
+46	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	punct
 47	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	10	punct
 
 1	Es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
@@ -548,7 +548,7 @@
 13	sino	sino	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 14	oposición	oposición	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	cobj
 15	real	real	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	amod
-16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 17	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	det
 18	guerra	guerra	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	cobj
 19	intestina	intestino	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	amod
@@ -556,7 +556,7 @@
 21	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	det
 22	ser	ser	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	pobj
 23	individualizado	individualizado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	attr
-24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
 25	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	nsubj
 26	sólo	sólo	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	advmod
 27	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	reflec
@@ -574,7 +574,7 @@
 39	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	pobj
 40	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	pobj
 41	otras	otro	pi0fp000	pi0fp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	pobj
-42	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	punct
+42	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	punct
 43	resta	resta	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	prepn
 44	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	coord_fixed
 45	sustracción	sustracción	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	prepn
@@ -704,13 +704,13 @@
 9	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	prepv
 10	Kant	Kant	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
 11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
-12	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+12	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
 13	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	det
 14	salud	salud	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	attr
-15	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+15	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 16	status	status	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	appos
 17	salubritatis	salubritatis	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	amod
-18	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+18	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 19	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	prepn
 20	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	det
 21	razón	razón	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj

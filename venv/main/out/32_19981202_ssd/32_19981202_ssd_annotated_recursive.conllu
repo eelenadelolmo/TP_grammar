@@ -72,7 +72,7 @@
 6	son	ser	vsip3p0	vsip3p0	rep=no|t=no|r=yes|m=yes	4	vobj
 7	las	el	da0fp0	da0fp0	rep=no|t=no|r=yes|m=yes	8	det
 8	otras	otro	pi0fp000	pi0fp000	rep=no|t=no|r=yes|m=yes	6	attr
-9	,	,	fc	fc	rep=no|t=no|r=no|m=yes	3	punct
+9	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	3	punct
 10	pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 11	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	12	det
 12	lista	lista	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	16	nsubj
@@ -131,8 +131,8 @@
 18	bajar	bajar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	17	pobj
 19	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	18	prepv
 20	10%	10/100	zp	zp	rep=no|t=no|r=yes|m=yes	19	pobj
-21	,	,	fc	fc	rep=no|t=no|r=no|m=no	22	punct
-22	y	y	cc	cc	rep=no|t=no|r=no|m=no	2	coord_fixed
+21	,	,	fc	fc	rep=no|t=no|r=no|m=yes	22	punct
+22	y	y	cc	cc	rep=no|t=no|r=no|m=yes	2	coord_fixed
 23	un	uno	di0ms0	di0ms0	rep=no|t=no|r=no|m=yes	24	det
 24	acuerdo	acuerdo	ncms000	ncms000	rep=no|t=no|r=no|m=yes	2	nsubj
 25	con	con	sps00	sps00	rep=no|t=no|r=no|m=yes	24	prepn

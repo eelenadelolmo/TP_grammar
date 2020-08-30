@@ -1,11 +1,11 @@
 1	La	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
 2	compañía	compañía	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	nsubj
 3	estrena	estrenar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
-4	'	'	fz	fz	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
+4	'	'	fz	fz	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	punct
 5	Proyecto	proyecto	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dobj
 6	Amalgama	Amalgama	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	appos
-7	'	'	fz	fz	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
-8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
+7	'	'	fz	fz	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	punct
+8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	punct
 9	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	det
 10	espectáculo	espectáculo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	appos
 11	multidisciplinar	multidisciplinar	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	amod
@@ -13,9 +13,9 @@
 
 1	Los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	12	nsubj
 2	payasos	payaso	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	12	nsubj
-3	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	5	punct
+3	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
 4	acróbatas	acróbata	aq0cp0	aq0cp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	12	nsubj
-5	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	12	coord_fixed
+5	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	coord_fixed
 6	malabaristas	malabarista	aq0cp0	aq0cp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	12	nsubj
 7	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	12	nsubj
 8	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	det
@@ -52,7 +52,7 @@
 
 1	Desde	desde	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	dep
 2	mañana	mañana	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	advmod
-3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	16	coord_fixed
+3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	coord_fixed
 4	durante	durante	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	dep
 5	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	det
 6	próximos	próximo	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	amod
@@ -168,12 +168,12 @@
 5	La	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	det
 6	Carpa	Carpa	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dobj
 7	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	oobj
-8	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+8	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 9	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	det
 10	lugar	lugar	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	pobj
 11	polivalente	polivalente	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	amod
-12	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+12	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 14	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	nsubj
 15	abarque	abarcar	vmsp3s0	vmsp3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	rcmod
 16	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	neg
@@ -262,7 +262,7 @@
 7	punta	punta	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	attr
 8	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	prepn
 9	iceberg	iceberg	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
-10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	punct
+10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	punct
 11	ya	ya	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	advmod
 12	que	que	pi0ms000	pi0ms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	advcl
 13	este	este	pd0ms000	pd0ms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	nsubj
@@ -275,7 +275,7 @@
 20	teatral	teatral	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	prepn
 21	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	coord_fixed
 22	circense	circense	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	prepn
-23	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	punct
+23	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	punct
 24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	25	punct
 25	explica	explicar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 26	Cumellas	Cumellas	np00000	np00000	recursive=yes|rep=yes|theme=no|rheme=no|main=yes	25	nsubj
@@ -295,13 +295,13 @@
 12	compañías	compañía	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	nsubj
 13	Teatre	Teatre	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	nsubj
 14	Mòbil	Mòbil	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	appos
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	48	punct
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	48	punct
 16	Toni	Toni	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	nsubj
 17	Zafra	Zafra	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	appos
 18	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	punct
 19	marionetas	marioneta	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	appos
 20	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	punct
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	48	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	48	punct
 22	La	La	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	nsubj
 23	Companyia	Companyia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	prepn
 24	Marco	marco	np0000a	np0000a	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	appos
@@ -312,23 +312,23 @@
 29	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	coord_fixed
 30	payasos	payaso	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	dep
 31	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
-32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	48	punct
+32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	48	punct
 33	La	La	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	nsubj
 34	Pera	Pera	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	appos
 35	Llimonera	Llimonera	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	appos
 36	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	punct
 37	clown	clown	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	appos
 38	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	punct
-39	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	48	punct
+39	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	48	punct
 40	Cataclown	Cataclown	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	nsubj
-41	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	48	punct
+41	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	48	punct
 42	La	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	43	det
 43	Capsa	Capsa	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	nsubj
 44	Màgica	Màgica	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=no|main=yes	43	appos
 45	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	46	punct
 46	magia	magia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	42	appos
 47	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	46	punct
-48	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	10	coord_fixed
+48	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	coord_fixed
 49	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	51	det
 50	nueva	nuevo	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	51	amod
 51	Companyia	Companyia	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	nsubj
@@ -372,7 +372,7 @@
 17	pequeños	pequeño	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	pobj
 18	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	8	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	11	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	coord_fixed
 2	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	det
 3	intención	intención	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	11	nsubj
 4	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	prepn

@@ -9,7 +9,7 @@
 9	tiempo	tiempo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	dobj
 10	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	7	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 2	¿	¿	fia	fia	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 3	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	neg
 4	creen	creer	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
@@ -33,14 +33,14 @@
 
 1	Alguien	alguien	pi0cs000	pi0cs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	nsubj
 2	dijo	decir	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	coord
-3	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
-4	¡	¡	faa	faa	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+3	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
+4	¡	¡	faa	faa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 5	Año	Año	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	2	dobj
 6	Nuevo	nuevo	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	amod
-7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	punct
+7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	2	punct
 8	moneda	moneda	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	2	dobj
 9	nueva	nuevo	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	amod
-10	!	!	fat	fat	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+10	!	!	fat	fat	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 11	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 12	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	det
 13	comerciantes	comerciante	nccp000	nccp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	nsubj
@@ -109,7 +109,7 @@
 31	bancaria	bancario	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=no|main=no	30	amod
 32	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	18	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	coord_fixed
 2	¿	¿	fia	fia	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
 3	por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	6	prepv
 4	qué	qué	pt0cs000	pt0cs000	recursive=no|rep=no|theme=no|rheme=no|main=no	3	pobj
@@ -117,7 +117,7 @@
 6	abren	abrir	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 7	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	det
 8	cajas	caja	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	dobj
-9	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	coord_fixed
+9	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	coord_fixed
 10	bancos	banco	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	dobj
 11	por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	6	prepv
 12	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=no	13	det
@@ -128,7 +128,7 @@
 17	?	?	fit	fit	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
 18	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	9	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	coord_fixed
 2	ya	ya	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	advmod
 3	puestos	puesto	aq0mpp	aq0mpp	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	cpred
 4	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	9	punct

@@ -65,7 +65,7 @@
 23	hoyo	hoyo	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	22	pobj
 24	estaba	estar	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	cobj
 25	vacío	vacío	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	attr
-26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	punct
+26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	punct
 27	era	ser	vsii3s0	vsii3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	cobj
 28	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	advmod
 29	pega	pega	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	pobj
@@ -105,10 +105,10 @@
 11	persona	persona	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	attr
 12	ocupada	ocupado	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	dep
 13	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	coord_fixed
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	punct
+14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	punct
 15	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	prepa
 16	ocasiones	ocasión	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
-17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	punct
+17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	punct
 18	mal	mal	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	advmod
 19	educada	educado	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	dep
 20	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
@@ -150,7 +150,7 @@
 3	estudiar	estudiar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	2	dobj
 4	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	det
 5	fenómeno	fenómeno	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dobj
-6	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
+6	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	punct
 7	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	nsubj
 8	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	rcmod
 9	ampliable	ampliable	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	attr

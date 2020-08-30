@@ -24,7 +24,7 @@
 24	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	23	prepn
 25	Pancho	pancho	np00000	np00000	rep=no|t=no|r=yes|m=yes	24	pobj
 26	Villa	villa	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	25	appos
-27	,	,	fc	fc	rep=no|t=no|r=no|m=yes	29	punct
+27	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	29	punct
 28	esa	ese	dd0fs0	dd0fs0	rep=no|t=no|r=yes|m=yes	29	det
 29	ética	ética	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	16	dobj
 30	populachera	populachero	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	29	dep
@@ -134,7 +134,7 @@
 40	extremaunción	extremaunción	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	38	pobj
 41	.	.	fp	fp	rep=no|t=no|r=no|m=no	25	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	21	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	21	coord_fixed
 2	anoche	anoche	rg	rg	rep=no|t=no|r=no|m=no	21	advmod
 3	,	,	fc	fc	rep=no|t=no|r=no|m=no	21	punct
 4	sobre	sobre	sps00	sps00	rep=no|t=no|r=no|m=no	21	prepv
@@ -157,7 +157,7 @@
 21	tuvo	tener	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	0	root
 22	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	23	det
 23	coraje	coraje	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	21	dobj
-24	y	y	cc	cc	rep=no|t=no|r=no|m=no	21	coord_fixed
+24	y	y	cc	cc	rep=no|t=no|r=no|m=yes	21	coord_fixed
 25	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	26	det
 26	vergüenza	vergüenza	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	21	dobj
 27	necesaria	necesario	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	26	amod
@@ -166,7 +166,7 @@
 30	contra	contra	sps00	sps00	rep=no|t=no|r=yes|m=yes	29	prepv
 31	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	32	poss
 32	decrepitud	decrepitud	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	30	pobj
-33	,	,	fc	fc	rep=no|t=no|r=no|m=yes	36	punct
+33	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	36	punct
 34	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	35	poss
 35	desnorte	desnorte	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	30	pobj
 36	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	30	coord_fixed
@@ -179,13 +179,13 @@
 43	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	42	prepn
 44	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	45	det
 45	desheredados	desheredado	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	43	pobj
-46	:	:	fd	fd	rep=no|t=no|r=no|m=yes	55	punct
+46	:	:	fd	fd	rep=no|t=no|r=yes|m=yes	55	punct
 47	muchas	mucho	di0fp0	di0fp0	rep=no|t=no|r=yes|m=yes	48	det
 48	glándulas	glándula	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	42	dep
-49	,	,	fc	fc	rep=no|t=no|r=no|m=yes	55	punct
+49	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	55	punct
 50	mucho	mucho	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	51	det
 51	nervio	nervio	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	42	dep
-52	,	,	fc	fc	rep=no|t=no|r=no|m=yes	55	punct
+52	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	55	punct
 53	mucha	mucho	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	54	det
 54	embestida	embestida	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	42	dep
 55	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	42	coord_fixed
@@ -193,7 +193,7 @@
 57	arsenal	arsenal	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	42	dep
 58	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	57	prepn
 59	músculos	músculo	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	58	pobj
-60	,	,	fc	fc	rep=no|t=no|r=no|m=yes	62	punct
+60	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	62	punct
 61	fulgores	fulgor	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	58	pobj
 62	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	58	coord_fixed
 63	tosquedades	tosquedad	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	58	pobj
@@ -284,7 +284,7 @@
 54	ponerse	poner	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	53	dobj
 55	.	.	fp	fp	rep=no|t=no|r=no|m=no	12	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	7	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	7	coord_fixed
 2	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	3	det
 3	Real	real	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	7	nsubj
 4	Madrid	Madrid	np00000	np00000	rep=no|t=yes|r=no|m=yes	3	appos
@@ -293,7 +293,7 @@
 7	era	ser	vsii3s0	vsii3s0	rep=no|t=no|r=yes|m=yes	0	root
 8	tan	tanto	rg	rg	rep=no|t=no|r=yes|m=yes	9	advmod
 9	terrenal	terrenal	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	7	attr
-10	,	,	fc	fc	rep=no|t=no|r=no|m=yes	12	punct
+10	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	12	punct
 11	tan	tanto	rg	rg	rep=no|t=no|r=yes|m=yes	12	advmod
 12	rural	rural	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	7	attr
 13	incluso	incluso	rg	rg	rep=no|t=no|r=yes|m=yes	12	advmod
@@ -327,7 +327,7 @@
 15	ese	ese	dd0ms0	dd0ms0	rep=no|t=no|r=yes|m=yes	17	det
 16	pamplinoso	pamplinoso	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	17	amod
 17	nirvana	nirvana	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	14	pobj
-18	,	,	fc	fc	rep=no|t=no|r=no|m=yes	17	punct
+18	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	17	punct
 19	lleno	lleno	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	17	amod
 20	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	19	prepa
 21	ascetismo	ascetismo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	20	pobj
@@ -394,7 +394,7 @@
 14	domingo	domingo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	8	dobj
 15	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	16	nsubj
 16	viene	venir	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	14	rcmod
-17	,	,	fc	fc	rep=no|t=no|r=no|m=yes	7	punct
+17	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	7	punct
 18	porque	porque	cs	cs	rep=no|t=no|r=no|m=yes	7	advcl
 19	este	este	dd0ms0	dd0ms0	rep=no|t=no|r=no|m=yes	20	det
 20	Real	real	ncms000	ncms000	rep=no|t=no|r=no|m=yes	23	nsubj

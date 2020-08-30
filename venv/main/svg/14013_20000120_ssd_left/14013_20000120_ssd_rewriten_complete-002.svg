@@ -20,30 +20,30 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<ellipse fill="#98D2A5" stroke="black" cx="251.39" cy="-1257.96" rx="158.28" ry="37.45"/>
-<text text-anchor="middle" x="251.39" y="-1269.26" font-family="Times,serif" font-size="14.00">Agentes</text>
-<text text-anchor="middle" x="251.39" y="-1254.26" font-family="Times,serif" font-size="14.00">nccp000 (nsubj)</text>
-<text text-anchor="middle" x="251.39" y="-1239.26" font-family="Times,serif" font-size="14.00">rep=no, t=yes, r=no, m=yes</text>
+<ellipse fill="#98D2A5" stroke="black" cx="246.39" cy="-1257.96" rx="158.28" ry="37.45"/>
+<text text-anchor="middle" x="246.39" y="-1269.26" font-family="Times,serif" font-size="14.00">Agentes</text>
+<text text-anchor="middle" x="246.39" y="-1254.26" font-family="Times,serif" font-size="14.00">nccp000 (nsubj)</text>
+<text text-anchor="middle" x="246.39" y="-1239.26" font-family="Times,serif" font-size="14.00">rep=no, t=yes, r=no, m=yes</text>
 </g>
 <!-- n13&#45;&gt;n1 -->
 <g id="edge1" class="edge">
 <title>n13&#45;&gt;n1</title>
-<path fill="none" stroke="black" d="M931.5,-1355.38C799.21,-1343.23 600.24,-1322.65 428.39,-1295.44 411.14,-1292.71 393.01,-1289.44 375.21,-1285.99"/>
-<polygon fill="black" stroke="black" points="375.85,-1282.55 365.37,-1284.06 374.51,-1289.42 375.85,-1282.55"/>
+<path fill="none" stroke="black" d="M930.83,-1355.89C796.48,-1344.01 593.5,-1323.54 418.39,-1295.44 402.42,-1292.88 385.69,-1289.81 369.19,-1286.56"/>
+<polygon fill="black" stroke="black" points="369.46,-1283.05 358.97,-1284.52 368.09,-1289.91 369.46,-1283.05"/>
 </g>
 <!-- n3 -->
 <g id="node3" class="node">
 <title>n3</title>
-<ellipse fill="none" stroke="black" cx="586.39" cy="-1257.96" rx="149.4" ry="37.45"/>
-<text text-anchor="middle" x="586.39" y="-1269.26" font-family="Times,serif" font-size="14.00">y</text>
-<text text-anchor="middle" x="586.39" y="-1254.26" font-family="Times,serif" font-size="14.00">cc (coord_fixed)</text>
-<text text-anchor="middle" x="586.39" y="-1239.26" font-family="Times,serif" font-size="14.00">rep=no, t=no, r=no, m=no</text>
+<ellipse fill="#98D2A5" stroke="black" cx="581.39" cy="-1257.96" rx="154.3" ry="37.45"/>
+<text text-anchor="middle" x="581.39" y="-1269.26" font-family="Times,serif" font-size="14.00">y</text>
+<text text-anchor="middle" x="581.39" y="-1254.26" font-family="Times,serif" font-size="14.00">cc (coord_fixed)</text>
+<text text-anchor="middle" x="581.39" y="-1239.26" font-family="Times,serif" font-size="14.00">rep=no, t=no, r=no, m=yes</text>
 </g>
 <!-- n13&#45;&gt;n3 -->
 <g id="edge2" class="edge">
 <title>n13&#45;&gt;n3</title>
-<path fill="none" stroke="black" d="M963.77,-1343.18C899.43,-1329.33 817.93,-1311.63 745.39,-1295.44 732.16,-1292.49 718.31,-1289.36 704.55,-1286.23"/>
-<polygon fill="black" stroke="black" points="705.07,-1282.76 694.55,-1283.96 703.52,-1289.59 705.07,-1282.76"/>
+<path fill="none" stroke="black" d="M964.2,-1343.07C899.81,-1329.15 818.12,-1311.42 745.39,-1295.44 731.62,-1292.41 717.2,-1289.23 702.87,-1286.06"/>
+<polygon fill="black" stroke="black" points="703.49,-1282.61 692.97,-1283.86 701.98,-1289.44 703.49,-1282.61"/>
 </g>
 <!-- n4 -->
 <g id="node4" class="node">
@@ -112,8 +112,8 @@
 <!-- n1&#45;&gt;n2 -->
 <g id="edge7" class="edge">
 <title>n1&#45;&gt;n2</title>
-<path fill="none" stroke="black" d="M220.68,-1220.99C212.67,-1211.6 203.94,-1201.37 195.63,-1191.63"/>
-<polygon fill="black" stroke="black" points="198.22,-1189.28 189.07,-1183.95 192.9,-1193.83 198.22,-1189.28"/>
+<path fill="none" stroke="black" d="M217.33,-1220.99C209.82,-1211.69 201.66,-1201.57 193.86,-1191.92"/>
+<polygon fill="black" stroke="black" points="196.43,-1189.53 187.42,-1183.95 190.98,-1193.93 196.43,-1189.53"/>
 </g>
 <!-- n5 -->
 <g id="node9" class="node">

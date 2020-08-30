@@ -33,7 +33,7 @@
 21	Monza	Monza	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=no	20	pobj
 22	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 
-1	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=no	24	punct
+1	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
 2	Los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	det
 3	problemas	problema	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	21	nsubj
 4	en	en	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	prepn
@@ -56,13 +56,13 @@
 21	son	ser	vsip3p0	vsip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	dobj
 22	demasiado	demasiado	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	advmod
 23	graves	grave	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	attr
-24	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	32	coord_fixed
+24	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	coord_fixed
 25	así	así	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	advmod
 26	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	dobj
 27	prácticamente	prácticamente	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	advmod
 28	imposible	imposible	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	attr
 29	correr	correr	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	attr
-30	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=no	24	punct
+30	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
 31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	32	punct
 32	reconoció	reconocer	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 33	Schumacher	Schumacher	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	nsubj
@@ -77,24 +77,24 @@
 7	premios	premio	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dobj
 8	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	prepn
 9	Italia	Italia	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
-10	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+10	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 11	Monza	Monza	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	appos
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 13	12	12	zp	zp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	dep
 14	de	de	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	prep
 15	septiembre	septiembre	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	pobj
-16	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+16	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 17	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	coord_fixed
 18	Europa	Europa	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
-19	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	punct
+19	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	punct
 20	circuito	circuito	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	appos
 21	alemán	alemán	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	amod
 22	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	prepn
 23	Nurburgring	Nurburgring	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	pobj
-24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	punct
+24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	punct
 25	27	27	zp	zp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	dep
 26	de	de	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	prep
 27	septiembre	septiembre	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	pobj
-28	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	punct
+28	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	punct
 29	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 

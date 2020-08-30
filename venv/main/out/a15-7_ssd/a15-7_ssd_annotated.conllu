@@ -31,7 +31,7 @@
 31	planas	plano	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	dep
 32	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	coord_fixed
 33	dobladas	doblado	aq0fpp	aq0fpp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	dep
-34	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	punct
+34	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	punct
 35	cada	cada	di0cs0	di0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	det
 36	una	uno	pi0fs000	pi0fs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	nsubj
 37	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	prepn
@@ -97,7 +97,7 @@
 24	inglés	inglés	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	23	pobj
 25	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	22	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 2	eso	ese	pd0ns000	pd0ns000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	nsubj
 3	está	estar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 4	bien	bien	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	3	advmod
@@ -160,7 +160,7 @@
 15	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	reflec
 16	llama	llamar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	cobj
 17	Greenpeace	Greenpeace	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	dobj
-18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 19	tanto	tanto	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	advmod
 20	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	prepv
 21	Inglaterra	Inglaterra	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	pobj
@@ -184,13 +184,13 @@
 7	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	advmod
 8	sensibleras	sensiblero	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	amod
 9	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	17	nsubj
-10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 11	por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	prepv
 12	respeto	respeto	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	pobj
-13	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+13	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
 14	dicen	decir	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	pobj
-15	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
-16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+15	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
+16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 17	traducen	traducir	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	rcmod
 18	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	poss
 19	nombre	nombre	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	dobj

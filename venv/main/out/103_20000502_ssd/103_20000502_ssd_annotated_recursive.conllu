@@ -13,7 +13,7 @@
 13	El	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	15	det
 14	dulce	dulce	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	15	amod
 15	porvenir	porvenir	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	12	pobj
-16	,	,	fc	fc	rep=no|t=no|r=no|m=yes	13	punct
+16	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	13	punct
 17	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	21	det
 18	anterior	anterior	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	21	amod
 19	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	21	coord_fixed
@@ -24,7 +24,7 @@
 24	armeniocanadiense	armeniocanadiense	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	23	amod
 25	Atom	Atom	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	23	appos
 26	Egoyan	Egoyan	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	25	appos
-27	,	,	fc	fc	rep=no|t=no|r=no|m=yes	23	punct
+27	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	23	punct
 28	uno	uno	pi0ms000	pi0ms000	rep=no|t=no|r=yes|m=yes	23	appos
 29	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	28	prepn
 30	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	31	det
@@ -128,12 +128,12 @@
 21	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	20	prepn
 22	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	23	poss
 23	novio	novio	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	21	pobj
-24	,	,	fc	fc	rep=no|t=no|r=no|m=yes	23	punct
+24	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	23	punct
 25	alistado	alistado	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	23	amod
 26	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	25	prepa
 27	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	28	det
 28	ejército	ejército	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	26	pobj
-29	,	,	fc	fc	rep=no|t=no|r=no|m=yes	23	punct
+29	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	23	punct
 30	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 31	cae	caer	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	30	coord
 32	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	31	prepv
@@ -234,8 +234,8 @@
 10	cometido	cometido	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	8	dobj
 11	contrasta	contrastar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	0	root
 12	,	,	fc	fc	rep=no|t=no|r=no|m=no	11	punct
-13	y	y	cc	cc	rep=no|t=no|r=no|m=no	11	coord_fixed
-14	ahí	ahí	rg	rg	rep=no|t=no|r=no|m=no	13	advmod
+13	y	y	cc	cc	rep=no|t=no|r=no|m=yes	11	coord_fixed
+14	ahí	ahí	rg	rg	rep=no|t=no|r=no|m=yes	13	advmod
 15	radica	radicar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	11	te
 16	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	11	te
 17	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	prep

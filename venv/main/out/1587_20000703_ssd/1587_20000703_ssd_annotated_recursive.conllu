@@ -18,9 +18,9 @@
 18	brasileña	brasileño	aq0fs0	aq0fs0	rep=no|t=no|r=no|m=no	16	amod
 19	,	,	fc	fc	rep=no|t=no|r=no|m=no	8	punct
 20	haber	haber	van0000	van0000	rep=no|t=no|r=no|m=no	8	dobj
-21	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	22	punct
+21	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	22	punct
 22	driblado	driblar	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	20	cobj
-23	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	22	punct
+23	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	22	punct
 24	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	22	prepv
 25	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	26	det
 26	Aduana	Aduana	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	24	pobj
@@ -134,7 +134,7 @@
 21	Ciudad	ciudad	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	20	pobj
 22	del	del	sps00	sps00	rep=no|t=no|r=yes|m=yes	21	prepn
 23	Este	Este	np00000	np00000	rep=no|t=no|r=yes|m=yes	22	pobj
-24	,	,	fc	fc	rep=no|t=no|r=no|m=yes	21	punct
+24	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	21	punct
 25	situada	situado	aq0fsp	aq0fsp	rep=no|t=no|r=yes|m=yes	21	amod
 26	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	25	prepa
 27	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	28	det
@@ -214,9 +214,9 @@
 25	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	26	det
 26	Receita	Receita	np00000	np00000	rep=no|t=no|r=yes|m=yes	24	pobj
 27	Federal	federal	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	26	amod
-28	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	29	punct
+28	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	29	punct
 29	fisco	fisco	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	26	appos
-30	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	29	punct
+30	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	29	punct
 31	,	,	fc	fc	rep=no|t=no|r=no|m=no	11	punct
 32	contrario	contrario	aq0ms0	aq0ms0	rep=no|t=no|r=no|m=no	11	cpred
 33	a	a	sps00	sps00	rep=no|t=no|r=no|m=no	32	prepa
@@ -266,7 +266,7 @@
 32	fisioterapeuta	fisioterapeuta	nccs000	nccs000	rep=no|t=no|r=yes|m=yes	26	pobj
 33	Nílton	Nílton	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	32	appos
 34	Petrone	Petrone	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	33	appos
-35	,	,	fc	fc	rep=no|t=no|r=no|m=yes	32	punct
+35	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	32	punct
 36	quien	quien	pr0cs000	pr0cs000	rep=no|t=no|r=no|m=yes	37	nsubj
 37	fue	ser	vsis3s0	vsis3s0	rep=no|t=no|r=no|m=yes	32	rcmod
 38	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	39	det

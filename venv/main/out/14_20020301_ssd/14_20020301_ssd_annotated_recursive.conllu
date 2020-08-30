@@ -5,7 +5,7 @@
 5	muros	muro	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	3	nsubj
 6	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
 
-1	Ni	ni	cc	cc	rep=no|t=no|r=no|m=no	5	coord_fixed
+1	Ni	ni	cc	cc	rep=no|t=no|r=no|m=yes	5	coord_fixed
 2	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	3	pobj
 3	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	5	coord
 4	Berlín	Berlín	np00000	np00000	rep=no|t=no|r=no|m=yes	3	pobj
@@ -103,7 +103,7 @@
 11	actual	actual	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	12	amod
 12	integración	integración	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	9	pobj
 13	europea	europeo	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	12	amod
-14	,	,	fc	fc	rep=no|t=no|r=no|m=yes	12	punct
+14	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	12	punct
 15	centrada	centrado	aq0fsp	aq0fsp	rep=no|t=no|r=yes|m=yes	12	amod
 16	prioritariamente	prioritariamente	rg	rg	rep=no|t=no|r=yes|m=yes	15	advmod
 17	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	15	oobj

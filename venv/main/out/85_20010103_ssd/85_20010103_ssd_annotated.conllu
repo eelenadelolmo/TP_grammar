@@ -34,7 +34,7 @@
 
 1	Los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	nsubj
 2	robos	robo	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	nsubj
-3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	9	coord_fixed
+3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	coord_fixed
 4	altercados	altercado	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	nsubj
 5	registrados	registrado	aq0mpp	aq0mpp	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	nsubj
 6	durante	durante	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	prepa
@@ -48,7 +48,7 @@
 14	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	prepn
 15	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	det
 16	plaza	plaza	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	pobj
-17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 18	cubierta	cubierto	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	amod
 19	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	prepa
 20	botellas	botella	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
@@ -110,11 +110,11 @@
 17	transcurrió	transcurrir	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	cobj
 18	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	prepv
 19	forma	forma	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
-20	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+20	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
 21	intensa	intenso	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	dep
 22	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	coord_fixed
 23	alegre	alegre	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	dep
-24	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+24	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
 25	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	12	punct
 
 1	A	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	8	prepv
@@ -142,7 +142,7 @@
 23	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	prepn
 24	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	det
 25	policía	policía	nccs000	nccs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	pobj
-26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 27	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	prepv
 28	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	det
 29	vista	vista	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	pobj
@@ -164,7 +164,7 @@
 7	hora	hora	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	pobj
 8	propició	propiciar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 9	disputas	disputa	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dobj
-10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 11	agresiones	agresión	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dobj
 12	entre	entre	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dobj
 13	grupos	grupo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
@@ -278,7 +278,7 @@
 6	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	7	punct
 7	fue	ser	vsis3s0	vsis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 8	insuficiente	insuficiente	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	attr
-9	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+9	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 10	sólo	sólo	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	advmod
 11	seis	seis	dn0cp0	dn0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	det
 12	operarios	operario	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	nsubj
@@ -301,18 +301,18 @@
 1	Su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	poss
 2	función	función	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	nsubj
 3	era	ser	vsii3s0	vsii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
-4	dedicarse	dedicar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=no	10	cobj
-5	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=no	4	oobj
-6	perímetro	perímetro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	5	pobj
-7	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	6	prepn
-8	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=no	9	det
-9	plaza	plaza	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	7	pobj
-10	e	e	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
-11	iniciar	iniciar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=no	4	cobj
-12	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=no	13	det
-13	limpieza	limpieza	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	11	dobj
-14	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=no	13	prepn
-15	interior	interior	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	14	pobj
+4	dedicarse	dedicar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	cobj
+5	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	oobj
+6	perímetro	perímetro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	pobj
+7	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	prepn
+8	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	det
+9	plaza	plaza	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	pobj
+10	e	e	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
+11	iniciar	iniciar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	cobj
+12	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	det
+13	limpieza	limpieza	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	dobj
+14	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	prepn
+15	interior	interior	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	pobj
 16	cuando	cuando	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	3	advcl
 17	ésta	este	pd0fs000	pd0fs000	recursive=no|rep=no|theme=no|rheme=no|main=no	19	nsubj
 18	se	se	p0000000	p0000000	recursive=no|rep=no|theme=no|rheme=no|main=no	19	reflec
@@ -365,7 +365,7 @@
 23	camiones	camión	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	pobj
 24	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	prepn
 25	recogida	recogida	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
-26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	punct
+26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	punct
 27	dos	dos	dn0cp0	dn0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	det
 28	cisternas	cisterna	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	pobj
 29	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	prepn

@@ -51,14 +51,14 @@
 8	confunde	confundir	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	coord
 9	fácilmente	fácilmente	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	advmod
 10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
-11	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=no	12	neg
-12	va	ir	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	16	cobj
-13	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	12	prepv
-14	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=no|main=no	15	poss
-15	olivo	olivo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	13	pobj
-16	sino	sino	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	10	coord_fixed
-17	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=no	12	cobj
-18	ciprés	ciprés	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	17	pobj
+11	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	neg
+12	va	ir	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	cobj
+13	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	prepv
+14	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	poss
+15	olivo	olivo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	pobj
+16	sino	sino	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	coord_fixed
+17	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	cobj
+18	ciprés	ciprés	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	pobj
 19	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	10	punct
 
 1	Un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	det
@@ -75,8 +75,8 @@
 2	Inclán	Inclán	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	1	appos
 3	me	yo	pp1cs000	pp1cs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	iobj
 4	decía	decir	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
-5	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
-6	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+5	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
+6	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 7	Allí	allí	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	advmod
 8	donde	donde	pr000000	pr000000	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	oobj
 9	está	estar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	rcmod
@@ -87,7 +87,7 @@
 14	Dios	Dios	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	nsubj
 15	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	7	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	coord_fixed
 2	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	poss
 3	pequeña	pequeño	aq0fs0	aq0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	amod
 4	hija	hija	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	nsubj
@@ -95,8 +95,8 @@
 6	lo	él	pp3msa00	pp3msa00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dobj
 7	miraba	mirar	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 8	pensando	pensar	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	dobj
-9	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
-10	¿	¿	fia	fia	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+9	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
+10	¿	¿	fia	fia	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 11	Es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dobj
 12	posible	posible	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	attr
 13	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	csubj

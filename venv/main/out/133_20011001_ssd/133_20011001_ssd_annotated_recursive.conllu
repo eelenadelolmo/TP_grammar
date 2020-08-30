@@ -61,7 +61,7 @@
 12	usos	uso	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	11	pobj
 13	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	12	prepn
 14	Fòrum	Fòrum	np00000	np00000	rep=no|t=no|r=yes|m=yes	13	pobj
-15	,	,	fc	fc	rep=no|t=no|r=no|m=yes	10	punct
+15	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	10	punct
 16	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	dep
 17	fase	fase	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	16	pobj
 18	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	17	prepn
@@ -89,14 +89,14 @@
 7	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	9	det
 8	simple	simple	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	9	amod
 9	propuesta	propuesta	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	6	attr
-10	,	,	fc	fc	rep=no|t=no|r=no|m=yes	9	punct
+10	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	9	punct
 11	sin	sin	sps00	sps00	rep=no|t=no|r=yes|m=yes	9	prepn
 12	concreción	concreción	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	11	pobj
 13	urbanística	urbanístico	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	12	prepn
 14	ni	ni	cc	cc	rep=no|t=no|r=yes|m=yes	12	coord_fixed
 15	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	12	prepn
 16	utilización	utilización	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	15	pobj
-17	,	,	fc	fc	rep=no|t=no|r=no|m=yes	18	punct
+17	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	18	punct
 18	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	9	coord_fixed
 19	cuya	cuyo	pr0fs000	pr0fs000	rep=no|t=no|r=yes|m=yes	20	det
 20	construcción	construcción	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	21	nsubj
@@ -248,11 +248,11 @@
 3	del	del	spcms	spcms	rep=no|t=yes|r=no|m=yes	2	prepn
 4	Fòrum	Fòrum	np00000	np00000	rep=no|t=yes|r=no|m=yes	3	pobj
 5	nació	nacer	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	0	root
-6	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	7	punct
+6	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	7	punct
 7	sin	sin	sps00	sps00	rep=no|t=no|r=yes|m=yes	5	prepv
 8	este	este	dd0ms0	dd0ms0	rep=no|t=no|r=yes|m=yes	9	det
 9	nombre	nombre	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	7	pobj
-10	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	7	punct
+10	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	7	punct
 11	más	más	rg	rg	rep=no|t=no|r=yes|m=yes	12	advmod
 12	como	como	cs	cs	rep=no|t=no|r=yes|m=yes	5	dep
 13	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	14	det
@@ -359,7 +359,7 @@
 20	cuatro	cuatro	dn0cp0	dn0cp0	rep=no|t=yes|r=no|m=yes	21	det
 21	salas	sala	ncfp000	ncfp000	rep=no|t=yes|r=no|m=yes	13	pobj
 22	)	)	fpt	fpt	rep=no|t=yes|r=no|m=yes	21	punct
-23	y	y	cc	cc	rep=no|t=no|r=no|m=no	33	coord_fixed
+23	y	y	cc	cc	rep=no|t=no|r=no|m=yes	33	coord_fixed
 24	unos	uno	di0mp0	di0mp0	rep=no|t=yes|r=no|m=yes	25	det
 25	horarios	horario	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	33	nsubj
 26	no	no	rn	rn	rep=no|t=yes|r=no|m=yes	28	neg
@@ -395,7 +395,7 @@
 10	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	12	det
 11	80	80	z	z	rep=no|t=no|r=yes|m=yes	10	num
 12	pisos	piso	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	9	pobj
-13	y	y	cc	cc	rep=no|t=no|r=no|m=no	5	coord_fixed
+13	y	y	cc	cc	rep=no|t=no|r=no|m=yes	5	coord_fixed
 14	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	15	det
 15	colocación	colocación	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	5	dobj
 16	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	15	prepn
@@ -467,7 +467,7 @@
 15	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	13	prepa
 16	unos	uno	di0mp0	di0mp0	rep=no|t=no|r=yes|m=yes	17	det
 17	8.000	8000	z	z	rep=no|t=no|r=yes|m=yes	15	pobj
-18	,	,	fc	fc	rep=no|t=no|r=no|m=yes	17	punct
+18	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	17	punct
 19	máxima	máximo	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	20	amod
 20	edificabilidad	edificabilidad	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	17	dep
 21	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	22	dobj
@@ -563,7 +563,7 @@
 17	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	18	det
 18	línea	línea	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	16	pobj
 19	3	3	zm	zm	rep=no|t=no|r=yes|m=yes	18	num
-20	,	,	fc	fc	rep=no|t=no|r=no|m=yes	7	punct
+20	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	7	punct
 21	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	7	prepn
 22	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	23	det
 23	confluencia	confluencia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	21	pobj
@@ -577,7 +577,7 @@
 31	Remei	Remei	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	30	pobj
 32	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	26	coord_fixed
 33	Bòbila	Bòbila	np00000	np00000	rep=no|t=no|r=yes|m=yes	26	dep
-34	y	y	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+34	y	y	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 35	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	36	det
 36	construcción	construcción	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	4	dobj
 37	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	36	prepn
@@ -599,7 +599,7 @@
 11	las	el	da0fp0	da0fp0	rep=no|t=no|r=yes|m=yes	13	det
 12	80	80	z	z	rep=no|t=no|r=yes|m=yes	11	num
 13	viviendas	vivienda	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	10	pobj
-14	,	,	fc	fc	rep=no|t=no|r=no|m=yes	6	punct
+14	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	6	punct
 15	pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 16	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	17	det
 17	boca	boca	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	21	nsubj
@@ -607,11 +607,11 @@
 19	metro	metro	ncms000	ncms000	rep=no|t=no|r=no|m=yes	18	pobj
 20	ni	ni	cc	cc	rep=no|t=no|r=no|m=yes	21	coord_fixed
 21	existe	existir	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	15	coord
-22	ni	ni	cc	cc	rep=no|t=no|r=no|m=no	15	coord_fixed
+22	ni	ni	cc	cc	rep=no|t=no|r=no|m=yes	15	coord_fixed
 23	se	se	p0000000	p0000000	rep=no|t=no|r=no|m=yes	25	reflec
 24	la	él	pp3fsa00	pp3fsa00	rep=no|t=no|r=no|m=yes	25	dobj
 25	espera	esperar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	15	coord
-26	,	,	fc	fc	rep=no|t=no|r=no|m=yes	6	punct
+26	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	6	punct
 27	ya	ya	rg	rg	rep=no|t=no|r=no|m=yes	28	advmod
 28	que	que	pi0ms000	pi0ms000	rep=no|t=no|r=no|m=yes	15	coord
 29	ni	ni	cc	cc	rep=no|t=no|r=no|m=yes	31	coord_fixed

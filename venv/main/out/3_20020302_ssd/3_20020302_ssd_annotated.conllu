@@ -3,9 +3,9 @@
 3	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	prepn
 4	Barcelona	Barcelona	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	pobj
 5	instalará	instalar	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	coord
-6	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
+6	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	punct
 7	finalmente	finalmente	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	advmod
-8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
+8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	punct
 9	ocho	ocho	dn0cp0	dn0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	det
 10	cámaras	cámara	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	dobj
 11	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	prepv
@@ -95,7 +95,7 @@
 25	Ejecutivo	ejecutivo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	appos
 26	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	prepn
 27	ayuntamiento	ayuntamiento	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	pobj
-28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
+28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	punct
 29	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	nsubj
 30	dará	dar	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	rcmod
 31	luz	luz	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	dobj
@@ -311,7 +311,7 @@
 31	imprime	imprimir	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	dep
 32	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	det
 33	hora	hora	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	nsubj
-34	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	punct
+34	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	punct
 35	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	det
 36	punto	punto	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	nsubj
 37	kilométrico	kilométrico	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	amod
@@ -368,7 +368,7 @@
 14	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	oobj
 15	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	det
 16	cámaras	cámara	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	pobj
-17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
 18	conocerán	conocer	vmif3p0	vmif3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	cobj
 19	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	poss
 20	localización	localización	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	dobj
@@ -407,11 +407,11 @@
 3	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	neg
 4	podrá	poder	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 5	diferenciar	diferenciar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dobj
-6	qué	qué	dt0cn0	dt0cn0	recursive=no|rep=no|theme=no|rheme=no|main=no	7	det
-7	soportes	soporte	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=no	8	nsubj
-8	llevan	llevar	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=no|main=no	10	cobj
-9	cámara	cámara	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	8	dobj
-10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+6	qué	qué	dt0cn0	dt0cn0	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	det
+7	soportes	soporte	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	nsubj
+8	llevan	llevar	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	cobj
+9	cámara	cámara	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	dobj
+10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 11	cuáles	cuál	pt0cp000	pt0cp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dobj
 12	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	neg
 13	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct

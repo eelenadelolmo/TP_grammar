@@ -24,9 +24,9 @@
 12	al	al	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prep
 13	Real	real	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
 14	Madrid	Madrid	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	appos
-15	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+15	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 16	0-0	0-0	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dobj
-17	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+17	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 18	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 19	puso	poner	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	coord
 20	fin	fin	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	dobj
@@ -91,7 +91,7 @@
 8	rey	rey	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	attr
 9	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	prepn
 10	empate	empate	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 12	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	prepn
 13	13	13	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
 14	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct

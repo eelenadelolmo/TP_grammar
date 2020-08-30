@@ -14,18 +14,18 @@
 14	de	de	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	prepn
 15	Discapacitados	Discapacitados	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	pobj
 16	Intelectuales	intelectual	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	appos
-17	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+17	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 18	FEDDI	FEDDI	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	appos
-19	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+19	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 20	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	coord_fixed
 21	vicepresidente	vicepresidente	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	cobj
 22	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	prepn
 23	Comité	Comité	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	pobj
 24	Paralímpico	Paralímpico	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	appos
 25	Español	Español	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	appos
-26	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+26	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 27	CPE	CPE	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	appos
-28	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+28	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 29	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 
 1	Su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	poss
@@ -95,7 +95,7 @@
 18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
 19	sin	sin	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	prepn
 20	intencionalidad	intencionalidad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	pobj
-21	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	punct
+21	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	punct
 22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	23	punct
 23	afirmó	afirmar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 24	ayer	ayer	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	23	advmod
@@ -134,7 +134,7 @@
 5	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	reflec
 6	iba	ir	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	cobj
 7	ante	ante	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	prepv
-8	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+8	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 9	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	det
 10	denuncias	denuncia	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	pobj
 11	sobre	sobre	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	prepn
@@ -162,7 +162,7 @@
 33	baloncesto	baloncesto	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	pobj
 34	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	prepn
 35	Sydney	Sydney	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	pobj
-36	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+36	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 37	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 
 1	La	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
@@ -177,7 +177,7 @@
 10	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	agent
 11	reconocimiento	reconocimiento	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
 12	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
-13	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+13	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
 14	errores	error	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
 15	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
 16	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	det
@@ -193,7 +193,7 @@
 26	selección	selección	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
 27	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	prepn
 28	baloncesto	baloncesto	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	pobj
-29	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+29	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 30	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	8	punct
 
 1	Martín	Martín	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	nsubj

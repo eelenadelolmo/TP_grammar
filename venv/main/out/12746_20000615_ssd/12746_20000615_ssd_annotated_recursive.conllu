@@ -35,7 +35,7 @@
 35	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	39	coord_fixed
 36	contra	contra	sps00	sps00	rep=no|t=no|r=yes|m=yes	39	dep
 37	Bolivia	Bolivia	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	36	pobj
-38	,	,	fc	fc	rep=no|t=no|r=no|m=yes	30	punct
+38	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	30	punct
 39	correspondiente	correspondiente	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	30	cpred
 40	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	39	prepa
 41	las	el	da0fp0	da0fp0	rep=no|t=no|r=yes|m=yes	42	det
@@ -61,13 +61,13 @@
 13	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	14	det
 14	selección	selección	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	12	pobj
 15	venezolana	venezolano	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	14	amod
-16	,	,	fc	fc	rep=no|t=no|r=no|m=yes	11	punct
+16	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	11	punct
 17	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	19	det
 18	argentino	argentino	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	19	appos
 19	José	José	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	11	appos
 20	Omar	Omar	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	19	appos
 21	Pastoriza	Pastoriza	np00000	np00000	rep=no|t=no|r=yes|m=yes	20	appos
-22	,	,	fc	fc	rep=no|t=no|r=no|m=yes	11	punct
+22	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	11	punct
 23	para	para	sps00	sps00	rep=no|t=no|r=yes|m=yes	8	prepv
 24	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	25	det
 25	amistoso	amistoso	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	23	pobj
@@ -76,7 +76,7 @@
 28	Marítimo	Marítimo	np0000o	np0000o	rep=no|t=no|r=yes|m=yes	26	pobj
 29	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	28	prepn
 30	Portugal	Portugal	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	29	pobj
-31	,	,	fc	fc	rep=no|t=no|r=no|m=yes	7	punct
+31	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	7	punct
 32	pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 33	no	no	rn	rn	rep=no|t=no|r=no|m=yes	34	neg
 34	pudo	poder	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	32	coord

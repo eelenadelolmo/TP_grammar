@@ -22,12 +22,12 @@
 
 1	Con	con	sps00	sps00	rep=no|t=no|r=no|m=yes	11	dep
 2	verdad	verdad	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	1	pobj
-3	o	o	cc	cc	rep=no|t=no|r=no|m=no	11	coord_fixed
+3	o	o	cc	cc	rep=no|t=no|r=no|m=yes	11	coord_fixed
 4	sin	sin	sps00	sps00	rep=no|t=no|r=no|m=yes	11	dep
 5	ella	él	pp3fs000	pp3fs000	rep=no|t=no|r=no|m=yes	4	pobj
 6	,	,	fc	fc	rep=no|t=no|r=no|m=no	11	punct
 7	Gere	Gere	np0000p	np0000p	rep=no|t=yes|r=no|m=yes	11	nsubj
-8	y	y	cc	cc	rep=no|t=no|r=no|m=no	11	coord_fixed
+8	y	y	cc	cc	rep=no|t=no|r=no|m=yes	11	coord_fixed
 9	Jodie	Jodie	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	11	nsubj
 10	Foster	Foster	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	9	appos
 11	eran	ser	vsii3p0	vsii3p0	rep=no|t=no|r=yes|m=yes	0	root
@@ -116,10 +116,10 @@
 
 1	El	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	2	det
 2	hombre	hombre	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	8	nsubj
-3	,	,	fc	fc	rep=no|t=no|r=no|m=yes	8	punct
+3	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	8	punct
 4	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	8	advmod
 5	tanto	tanto	rg	rg	rep=no|t=no|r=no|m=yes	4	advmod
-6	,	,	fc	fc	rep=no|t=no|r=no|m=yes	8	punct
+6	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	8	punct
 7	se	él	p0300000	p0300000	rep=no|t=no|r=yes|m=yes	8	reflec
 8	asumisa	asumisar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	9	coord
 9	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
@@ -138,7 +138,7 @@
 3	a	a	sps00	sps00	rep=no|t=no|r=no|m=yes	2	dep
 4	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	5	det
 5	coquetería	coquetería	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	3	pobj
-6	y	y	cc	cc	rep=no|t=no|r=no|m=no	2	coord_fixed
+6	y	y	cc	cc	rep=no|t=no|r=no|m=yes	2	coord_fixed
 7	a	a	sps00	sps00	rep=no|t=no|r=no|m=yes	2	dep
 8	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	9	det
 9	seducción	seducción	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	7	pobj

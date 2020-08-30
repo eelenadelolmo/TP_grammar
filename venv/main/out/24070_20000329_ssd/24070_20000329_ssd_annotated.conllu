@@ -54,7 +54,7 @@
 37	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	det
 38	Eurocopa	Eurocopa	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	pobj
 39	sub`21	sub`21	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	appos
-40	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	punct
+40	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	punct
 41	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	43	nsubj
 42	se	se	p0000000	p0000000	recursive=no|rep=no|theme=no|rheme=no|main=yes	43	reflec
 43	disputará	disputar	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	rcmod
@@ -71,14 +71,14 @@
 54	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	26	punct
 
 1	Comentario	comentario	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
-2	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=no	9	punct
+2	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
 3	Inglaterra	Inglaterra	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	nsubj
 4	ganó	ganar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	1	dep
 5	por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	prepv
 6	3-0	3-0	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	pobj
 7	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dobj
 8	Yugoslavia	Yugoslavia	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	pobj
-9	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	1	coord_fixed
+9	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	coord_fixed
 10	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	prepv
 11	ello	él	pp3ns000	pp3ns000	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	pobj
 12	obtuvo	obtener	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	dep

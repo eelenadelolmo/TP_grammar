@@ -22,11 +22,11 @@
 22	montonera	montonera	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	pobj
 23	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	prepn
 24	negros	negro	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	pobj
-25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
 26	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	advcl
 27	ella	él	pp3fs000	pp3fs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	nsubj
 28	decía	decir	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	cobj
-29	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+29	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
 30	cuando	cuando	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	advcl
 31	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	det
 32	único	único	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	amod
@@ -59,7 +59,7 @@
 16	viaje	viaje	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	dobj
 17	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	prepn
 18	bodas	boda	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
-19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 20	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 21	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	det
 22	único	único	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	attr
@@ -102,8 +102,8 @@
 17	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	neg
 18	era	ser	vsii3s0	vsii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	rcmod
 19	suyo	suyo	px3ms000	px3ms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	poss
-20	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	punct
-21	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	45	coord_fixed
+20	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	punct
+21	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	45	coord_fixed
 22	había	haber	vaii3s0	vaii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	45	coord
 23	sufrido	sufrir	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	vobj
 24	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	det
@@ -235,7 +235,7 @@
 24	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 25	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	20	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	coord_fixed
 2	después	después	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	20	advmod
 3	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	20	punct
 4	celosa	celoso	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	cpred

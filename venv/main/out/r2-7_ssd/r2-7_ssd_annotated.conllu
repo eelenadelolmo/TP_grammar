@@ -27,12 +27,12 @@
 27	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	poss
 28	carrera	carrera	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	nsubj
 29	política	político	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	amod
-30	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+30	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 31	aunque	aunque	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	advcl
 32	él	él	pp3ms000	pp3ms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	nsubj
 33	afirma	afirmar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	cobj
 34	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	cobj
-35	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	42	punct
+35	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	punct
 36	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	det
 37	retiro	retiro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	dobj
 38	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	prepn
@@ -41,7 +41,7 @@
 41	lo	él	pp3msa00	pp3msa00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	dobj
 42	llevo	llevar	vmip1s0	vmip1s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	cobj
 43	bien	bien	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	advmod
-44	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	42	punct
+44	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	punct
 45	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	8	punct
 
 1	Daniel	daniel	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	10	nsubj
@@ -127,8 +127,8 @@
 28	Corcuera	Corcuera	np0000p	np0000p	recursive=no|rep=no|theme=yes|rheme=no|main=yes	27	pobj
 29	era	ser	vsii3s0	vsii3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	cobj
 30	otro	otro	pi0ms000	pi0ms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	attr
-31	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	punct
-32	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	punct
+31	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	punct
+32	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	punct
 33	Le	él	pp3csa00	pp3csa00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	dobj
 34	noté	notar	vmis1s0	vmis1s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	dep
 35	preocupado	preocupado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	cpred
@@ -192,7 +192,7 @@
 1	La	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
 2	crisis	crisis	ncfn000	ncfn000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	nsubj
 3	política	político	aq0fs0	aq0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	amod
-4	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	7	coord_fixed
+4	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	coord_fixed
 5	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	det
 6	elecciones	elección	ncfp000	ncfp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	nsubj
 7	son	ser	vsip3p0	vsip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
@@ -225,11 +225,11 @@
 5	le	él	pp3csa00	pp3csa00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	iobj
 6	han	haber	vaip3p0	vaip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 7	visto	ver	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	vobj
-8	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+8	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 9	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	det
 10	poco	poco	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	advmod
 11	deprimido	deprimido	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	cpred
-12	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+12	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
 14	pasando	pasar	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	advcl
 15	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	det
@@ -348,7 +348,7 @@
 12	política	político	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	amod
 13	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	5	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	coord_fixed
 2	al	al	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	5	advmod
 3	final	final	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=no	2	pobj
 4	le	él	pp3csd00	pp3csd00	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	iobj

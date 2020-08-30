@@ -29,7 +29,7 @@
 5	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	6	pobj
 6	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	4	attr
 7	Bellerofón	Bellerofón	np0000p	np0000p	rep=no|t=no|r=no|m=yes	6	pobj
-8	y	y	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+8	y	y	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 9	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	10	det
 10	Chimera	Chimera	np0000a	np0000a	rep=no|t=no|r=no|m=yes	4	attr
 11	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	10	prepn
@@ -93,7 +93,7 @@
 39	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	38	prepn
 40	los	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	41	det
 41	Ríos	Ríos	np00000	np00000	rep=no|t=no|r=yes|m=yes	39	pobj
-42	,	,	fc	fc	rep=no|t=no|r=no|m=yes	49	punct
+42	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	49	punct
 43	tan	tanto	rg	rg	rep=no|t=no|r=yes|m=yes	44	advmod
 44	genialmente	genialmente	rg	rg	rep=no|t=no|r=yes|m=yes	45	advmod
 45	líricas	lírico	aq0fp0	aq0fp0	rep=no|t=no|r=yes|m=yes	33	dep
@@ -117,7 +117,7 @@
 
 1	Definiciones	definición	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	0	root
 2	infantiles	infantil	aq0cp0	aq0cp0	rep=no|t=no|r=no|m=yes	1	amod
-3	:	:	fd	fd	rep=no|t=no|r=no|m=no	21	punct
+3	:	:	fd	fd	rep=no|t=no|r=no|m=yes	21	punct
 4	Todos	todo	di0mp0	di0mp0	rep=no|t=yes|r=no|m=yes	6	det
 5	los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	6	det
 6	primitos	primito	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	10	nsubj
@@ -135,7 +135,7 @@
 18	ellas	él	pp3fp000	pp3fp000	rep=no|t=no|r=no|m=yes	17	nsubj
 19	-	-	fg	fg	rep=no|t=no|r=no|m=yes	17	punct
 20	-	-	fg	fg	rep=no|t=no|r=no|m=yes	17	punct
-21	y	y	cc	cc	rep=no|t=no|r=no|m=no	1	coord_fixed
+21	y	y	cc	cc	rep=no|t=no|r=no|m=yes	1	coord_fixed
 22	las	el	da0fp0	da0fp0	rep=no|t=no|r=no|m=yes	23	det
 23	doncellas	doncella	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	31	nsubj
 24	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	23	prepn
@@ -215,7 +215,7 @@
 3	se	él	p0300000	p0300000	rep=no|t=no|r=yes|m=yes	4	reflec
 4	hace	hacer	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	15	coord
 5	vieja	viejo	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	4	cpred
-6	y	y	cc	cc	rep=no|t=no|r=no|m=no	15	coord_fixed
+6	y	y	cc	cc	rep=no|t=no|r=no|m=yes	15	coord_fixed
 7	tal	tal	pr0ms000	pr0ms000	rep=no|t=no|r=no|m=yes	8	nsubj
 8	vez	vez	ncms000	ncms000	rep=no|t=no|r=no|m=yes	10	advmod
 9	debería	deber	vmic3s0	vmic3s0	rep=no|t=no|r=no|m=yes	15	coord
@@ -227,7 +227,7 @@
 15	pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 16	sigue	seguir	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	15	coord
 17	fornicando	fornicar	vmg0000	vmg0000	rep=no|t=no|r=no|m=yes	16	dobj
-18	y	y	cc	cc	rep=no|t=no|r=no|m=no	15	coord_fixed
+18	y	y	cc	cc	rep=no|t=no|r=no|m=yes	15	coord_fixed
 19	engendrando	engendrar	vmg0000	vmg0000	rep=no|t=no|r=no|m=yes	15	coord
 20	monstruos	monstruo	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	19	dobj
 21	.	.	fp	fp	rep=no|t=no|r=no|m=no	15	punct

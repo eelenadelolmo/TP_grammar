@@ -32,13 +32,13 @@
 32	Olímpicos	Olímpicos	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	appos
 33	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	prepn
 34	Sydney	Sydney	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	pobj
-35	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	punct
+35	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	punct
 36	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	cobj
 37	mucho	mucho	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	advmod
 38	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	advmod
 39	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	crobj
 40	difícil	difícil	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	39	cobj
-41	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	punct
+41	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	punct
 42	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	22	punct
 
 1	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=no	22	punct
@@ -211,12 +211,12 @@
 21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	30	punct
 22	continuó	continuar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	attr
 23	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	30	punct
-24	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=no	26	punct
-25	recuperarnos	recuperar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=no	26	cobj
-26	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	30	coord_fixed
-27	ganar	ganar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=no	25	cobj
-28	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=no|main=no	29	det
-29	medalla	medalla	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	27	dobj
+24	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	punct
+25	recuperarnos	recuperar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	cobj
+26	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	coord_fixed
+27	ganar	ganar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	cobj
+28	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	det
+29	medalla	medalla	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	dobj
 30	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 31	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	det
 32	logro	logro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	attr
@@ -231,9 +231,9 @@
 5	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	punct
 6	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	nsubj
 7	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	rcmod
-8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	punct
+8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	punct
 9	probablemente	probablemente	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	advmod
-10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	punct
+10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	punct
 11	mi	mi	dp1css	dp1css	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	poss
 12	mejor	mejor	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	amod
 13	amigo	amigo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	attr
@@ -435,7 +435,7 @@
 38	golpe	golpe	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	42	nsubj
 39	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	38	prepn
 40	derecha	derecha	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	39	pobj
-41	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	42	punct
+41	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	punct
 42	ha	haber	vaip3s0	vaip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	cobj
 43	salido	salir	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	vobj
 44	gracias	gracia	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	36	cobj
@@ -462,8 +462,8 @@
 5	sido	ser	vsp00sm	vsp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	vobj
 6	muy	mucho	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	advmod
 7	importante	importante	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	cpred
-8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
-9	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	18	coord_fixed
+8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	punct
+9	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	coord_fixed
 10	ha	haber	vaip3s0	vaip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	dobj
 11	habido	haber	vap00sm	vap00sm	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	vobj
 12	muchos	mucho	di0mp0	di0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	det

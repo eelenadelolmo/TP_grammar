@@ -68,11 +68,11 @@
 5	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	prepn
 6	Asuntos	asunto	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	pobj
 7	Exteriores	exterior	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	amod
-8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	12	punct
+8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
 9	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	det
 10	Naciones	nación	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	nsubj
 11	Unidas	unido	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	appos
-12	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	2	coord_fixed
+12	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	coord_fixed
 13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
 14	finalmente	finalmente	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	advmod
 15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
@@ -104,11 +104,11 @@
 5	dedicado	dedicar	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	vobj
 6	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	oobj
 7	legislar	legislar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	pobj
-8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 9	reglamentar	reglamentar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	pobj
 10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	coord_fixed
 11	coordinar	coordinar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	pobj
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	punct
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	punct
 13	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 14	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	det
 15	resultado	resultado	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	nsubj
@@ -159,7 +159,7 @@
 10	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	prepv
 11	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
 12	bosnios	bosnio	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 14	niños	niño	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
 15	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	coord_fixed
 16	adultos	adulto	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
@@ -337,7 +337,7 @@
 25	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	det
 26	nubes	nube	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	pobj
 27	rosadas	rosado	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	amod
-28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
+28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	punct
 29	sin	sin	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	prepv
 30	haber	haber	van0000	van0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	pobj
 31	visto	ver	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	vobj

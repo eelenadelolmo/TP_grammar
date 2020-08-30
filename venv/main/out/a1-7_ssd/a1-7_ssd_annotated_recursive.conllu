@@ -115,7 +115,7 @@
 4	leemos	leer	vmip1p0	vmip1p0	rep=no|t=yes|r=no|m=yes	2	rcmod
 5	intenta	intentar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	8	cobj
 6	explicarlo	explicar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	5	dobj
-7	,	,	fc	fc	rep=no|t=no|r=no|m=yes	5	punct
+7	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	5	punct
 8	pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 9	sin	sin	sps00	sps00	rep=no|t=no|r=yes|m=yes	5	prepv
 10	exagerar	exagerar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	9	pobj

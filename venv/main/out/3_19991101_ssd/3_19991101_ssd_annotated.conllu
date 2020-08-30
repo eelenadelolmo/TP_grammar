@@ -60,12 +60,12 @@
 1	El	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	nsubj
 2	más	más	rg	rg	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	advmod
 3	grave	grave	aq0cs0	aq0cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	nsubj
-4	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	coord_fixed
+4	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	coord_fixed
 5	reciente	reciente	aq0cs0	aq0cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	nsubj
 6	ocurrió	ocurrir	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 7	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	prepv
 8	1976	1976	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	pobj
-9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 10	cuando	cuando	pr000000	pr000000	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	rcmod
 11	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	det
 12	avión	avión	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	nsubj
@@ -178,7 +178,7 @@
 24	gestiona	gestionar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	dep
 25	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	det
 26	aerolínea	aerolínea	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	nsubj
-27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 28	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 29	ha	haber	vaip3s0	vaip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	coord
 30	descartado	descartar	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	vobj

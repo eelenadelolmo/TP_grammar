@@ -57,7 +57,7 @@
 5	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	4	prepn
 6	Estados	estado	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	5	pobj
 7	Unidos	unido	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	6	amod
-8	,	,	fc	fc	rep=no|t=no|r=no|m=yes	4	punct
+8	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	4	punct
 9	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	10	nsubj
 10	estará	estar	vmif3s0	vmif3s0	rep=no|t=no|r=no|m=yes	4	rcmod
 11	formado	formado	aq0msp	aq0msp	rep=no|t=no|r=no|m=yes	10	attr
@@ -74,7 +74,7 @@
 
 1	Alex	Alex	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	6	nsubj
 2	O`Brien	O`Brien	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	1	appos
-3	y	y	cc	cc	rep=no|t=no|r=no|m=no	6	coord_fixed
+3	y	y	cc	cc	rep=no|t=no|r=no|m=yes	6	coord_fixed
 4	Jared	Jared	np00000	np00000	rep=no|t=yes|r=no|m=yes	6	nsubj
 5	Palmer	palmer	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	4	appos
 6	serán	ser	vsif3p0	vsif3p0	rep=no|t=no|r=yes|m=yes	0	root
@@ -184,18 +184,18 @@
 13	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	12	prepn
 14	Pete	Pete	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	13	pobj
 15	Sampras	Sampras	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	14	appos
-16	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
+16	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	14	punct
 17	siete	siete	dn0cp0	dn0cp0	rep=no|t=no|r=yes|m=yes	18	det
 18	veces	vez	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	19	appos
 19	campeón	campeón	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	14	appos
 20	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	19	prepn
 21	Wimbledon	Wimbledon	np00000	np00000	rep=no|t=no|r=yes|m=yes	20	pobj
-22	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
+22	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	14	punct
 23	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	13	coord_fixed
 24	Jean	jean	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	13	pobj
 25	Michael	Michael	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	24	appos
 26	Gambill	Gambill	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	24	appos
-27	,	,	fc	fc	rep=no|t=no|r=no|m=yes	23	punct
+27	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	23	punct
 28	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	29	nsubj
 29	declinaron	declinar	vmis3p0	vmis3p0	rep=no|t=no|r=no|m=yes	23	rcmod
 30	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	31	det
@@ -219,7 +219,7 @@
 15	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	prepn
 16	Copa	copa	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	15	pobj
 17	Davis	Davis	np00000	np00000	rep=no|t=no|r=yes|m=yes	16	appos
-18	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
+18	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	14	punct
 19	eliminatoria	eliminatoria	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	14	appos
 20	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	23	prepv
 21	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	22	det

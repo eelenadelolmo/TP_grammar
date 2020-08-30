@@ -43,7 +43,7 @@
 10	así	así	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	9	advmod
 11	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 2	le	él	pp3csa00	pp3csa00	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	iobj
 3	echaba	echar	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 4	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	prepv
@@ -174,11 +174,11 @@
 6	comedor	comedor	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	pobj
 7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 8	cansina	cansino	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	cpred
-9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	13	punct
-10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	13	coord_fixed
+9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	coord_fixed
 11	escocida	escocido	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	cpred
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	13	punct
-13	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+13	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 14	despatarrada	despatarrado	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	cpred
 15	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
@@ -192,7 +192,7 @@
 8	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	prepv
 9	verborrea	verborrea	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
 10	mecánica	mecánico	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	amod
-11	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+11	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 12	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	iobj
 13	Antonia	Antonia	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
 14	le	él	pp3csd00	pp3csd00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	iobj
@@ -201,7 +201,7 @@
 17	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	det
 18	aparato	aparato	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	dobj
 19	encendido	encendido	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	amod
-20	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+20	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 21	lo	él	pp3msa00	pp3msa00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	dobj
 22	estuviera	estar	vmsi3s0	vmsi3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	dep
 23	viendo	ver	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	attr

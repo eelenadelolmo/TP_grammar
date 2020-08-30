@@ -120,7 +120,7 @@
 19	6	6	zp	zp	rep=no|t=no|r=yes|m=yes	18	pobj
 20	de	de	spcms	spcms	rep=no|t=no|r=yes|m=yes	19	prep
 21	julio	julio	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	20	pobj
-22	,	,	fc	fc	rep=no|t=no|r=no|m=yes	17	punct
+22	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	17	punct
 23	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	27	prepv
 24	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=yes|m=yes	23	pobj
 25	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	26	det
@@ -132,16 +132,16 @@
 31	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	30	prepv
 32	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	33	det
 33	Mundiales	Mundiales	np00000	np00000	rep=no|t=no|r=yes|m=yes	31	pobj
-34	,	,	fc	fc	rep=no|t=no|r=no|m=yes	33	punct
+34	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	33	punct
 35	por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	38	prepv
 36	cuya	cuyo	pr0fs000	pr0fs000	rep=no|t=no|r=yes|m=yes	37	det
 37	candidatura	candidatura	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	35	pobj
 38	compiten	competir	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	33	dep
 39	también	también	rg	rg	rep=no|t=no|r=yes|m=yes	45	advmod
 40	Brasil	Brasil	np00000	np00000	rep=no|t=no|r=yes|m=yes	38	nsubj
-41	,	,	fc	fc	rep=no|t=no|r=no|m=yes	45	punct
+41	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	45	punct
 42	Inglaterra	Inglaterra	np00000	np00000	rep=no|t=no|r=yes|m=yes	38	nsubj
-43	,	,	fc	fc	rep=no|t=no|r=no|m=yes	45	punct
+43	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	45	punct
 44	Marruecos	Marruecos	np00000	np00000	rep=no|t=no|r=yes|m=yes	38	nsubj
 45	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	38	coord_fixed
 46	Sudáfrica	Sudáfrica	np00000	np00000	rep=no|t=no|r=yes|m=yes	38	nsubj
@@ -177,7 +177,7 @@
 28	más	más	rg	rg	rep=no|t=no|r=yes|m=yes	25	advmod
 29	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	28	crobj
 30	nunca	nunca	rg	rg	rep=no|t=no|r=yes|m=yes	29	neg
-31	,	,	fc	fc	rep=no|t=no|r=no|m=yes	25	punct
+31	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	25	punct
 32	ya	ya	rg	rg	rep=no|t=no|r=yes|m=yes	33	advmod
 33	que	que	pi0ms000	pi0ms000	rep=no|t=no|r=yes|m=yes	25	advcl
 34	así	así	rg	rg	rep=no|t=no|r=yes|m=yes	37	advmod
@@ -213,7 +213,7 @@
 17	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	12	iobj
 18	Erich	Erich	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	17	pobj
 19	Ribbeck	Ribbeck	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	18	appos
-20	,	,	fc	fc	rep=no|t=no|r=no|m=yes	18	punct
+20	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	18	punct
 21	quien	quien	pr0cs000	pr0cs000	rep=no|t=no|r=no|m=yes	22	nsubj
 22	dimitió	dimitir	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	18	rcmod
 23	como	como	cs	cs	rep=no|t=no|r=no|m=yes	22	dep

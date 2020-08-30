@@ -1,4 +1,4 @@
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	7	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	coord_fixed
 2	Sara	sara	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	nsubj
 3	Noriega	noriega	nc00000	nc00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	appos
 4	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	neg
@@ -51,18 +51,18 @@
 4	razón	razón	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	dobj
 5	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	prepn
 6	creerlo	creer	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	pobj
-7	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=no	18	punct
+7	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
 8	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	neg
 9	se	él	pp3cn000	pp3cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	reflec
 10	conocían	conocer	vmii3p0	vmii3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	cobj
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	18	punct
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
 12	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	neg
 13	se	él	pp3cn000	pp3cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	reflec
 14	habían	haber	vaii3p0	vaii3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	cobj
 15	visto	ver	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	vobj
 16	nunca	nunca	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	neg
 17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
-18	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	2	coord_fixed
+18	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	coord_fixed
 19	Fermina	Fermina	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	22	nsubj
 20	Daza	daza	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	19	appos
 21	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	neg
@@ -75,7 +75,7 @@
 28	decisiones	decisión	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	pobj
 29	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	prepn
 30	concurso	concurso	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	pobj
-31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
 32	si	si	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	advcl
 33	bien	bien	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	advmod
 34	estaba	estar	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	cobj
@@ -215,7 +215,7 @@
 19	reponer	reponer	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	pobj
 20	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 21	planchaban	planchar	vmii3p0	vmii3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	coord
-22	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	20	coord_fixed
+22	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	coord_fixed
 23	volvían	volver	vmii3p0	vmii3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	coord
 24	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	prepv
 25	planchar	planchar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	dobj
@@ -253,7 +253,7 @@
 17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 18	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	det
 19	plato	plato	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	coord
-20	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	17	coord_fixed
+20	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	coord_fixed
 21	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	det
 22	cubiertos	cubierto	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	coord
 23	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	coord
@@ -280,7 +280,7 @@
 44	vida	vida	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	43	pobj
 45	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	17	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	22	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	coord_fixed
 2	sin	sin	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	22	advmod
 3	embargo	embargo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=no	2	pobj
 4	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	22	punct

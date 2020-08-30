@@ -14,9 +14,9 @@
 14	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	13	prepn
 15	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	16	poss
 16	equipo	equipo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	14	pobj
-17	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	18	punct
+17	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	18	punct
 18	0-2	0-2	z	z	rep=no|t=no|r=yes|m=yes	13	prepn
-19	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	18	punct
+19	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	18	punct
 20	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	8	prepv
 21	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	22	det
 22	campo	campo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	20	pobj
@@ -63,9 +63,9 @@
 15	al	al	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	prep
 16	modesto	modesto	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	17	amod
 17	Portsmouth	Portsmouth	np00000	np00000	rep=no|t=no|r=yes|m=yes	15	pobj
-18	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	19	punct
+18	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	19	punct
 19	0-1	0-1	z	z	rep=no|t=no|r=yes|m=yes	10	dobj
-20	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	19	punct
+20	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	19	punct
 21	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
 
 

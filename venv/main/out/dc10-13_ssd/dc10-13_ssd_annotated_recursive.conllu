@@ -63,7 +63,7 @@
 38	-	-	fg	fg	rep=no|t=no|r=no|m=no	22	punct
 39	.	.	fp	fp	rep=no|t=no|r=no|m=no	8	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	8	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	8	coord_fixed
 2	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	8	prepv
 3	esa	ese	dd0fs0	dd0fs0	rep=no|t=no|r=no|m=yes	5	det
 4	terrible	terrible	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=yes	5	amod
@@ -80,7 +80,7 @@
 15	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	16	det
 16	lluvia	lluvia	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	11	pobj
 17	ácida	ácido	aq0fs0	aq0fs0	rep=no|t=no|r=no|m=yes	16	amod
-18	y	y	cc	cc	rep=no|t=no|r=no|m=no	8	coord_fixed
+18	y	y	cc	cc	rep=no|t=no|r=no|m=yes	8	coord_fixed
 19	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	21	det
 20	incesante	incesante	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=yes	21	amod
 21	deterioro	deterioro	ncms000	ncms000	rep=no|t=no|r=no|m=yes	8	nsubj
@@ -96,7 +96,7 @@
 5	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	4	prepv
 6	algunas	alguno	di0fp0	di0fp0	rep=no|t=no|r=yes|m=yes	7	det
 7	zonas	zona	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	5	pobj
-8	-	-	fg	fg	rep=no|t=no|r=no|m=yes	11	punct
+8	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	11	punct
 9	incluso	incluso	rg	rg	rep=no|t=no|r=yes|m=yes	11	advmod
 10	se	se	p0000000	p0000000	rep=no|t=no|r=yes|m=yes	11	reflec
 11	ha	haber	vaip3s0	vaip3s0	rep=no|t=no|r=yes|m=yes	4	dobj
@@ -111,7 +111,7 @@
 20	metros	metro	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	17	pobj
 21	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	20	prepn
 22	altura	altura	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	21	pobj
-23	-	-	fg	fg	rep=no|t=no|r=no|m=yes	11	punct
+23	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	11	punct
 24	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 25	se	él	p0300000	p0300000	rep=no|t=no|r=no|m=yes	26	reflec
 26	hunde	hundir	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	24	coord
@@ -244,7 +244,7 @@
 6	rastreaba	rastrear	vmii3s0	vmii3s0	rep=no|t=no|r=yes|m=yes	0	root
 7	fotográficamente	fotográficamente	rg	rg	rep=no|t=no|r=no|m=no	6	advmod
 8	todas	todo	pi0fp000	pi0fp000	rep=no|t=no|r=yes|m=yes	6	dobj
-9	y	y	cc	cc	rep=no|t=no|r=no|m=no	6	coord_fixed
+9	y	y	cc	cc	rep=no|t=no|r=no|m=yes	6	coord_fixed
 10	cada	cada	di0cs0	di0cs0	rep=no|t=no|r=yes|m=yes	11	det
 11	una	uno	pi0fs000	pi0fs000	rep=no|t=no|r=yes|m=yes	6	dobj
 12	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	11	prepn
@@ -252,7 +252,7 @@
 14	lunas	luna	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	12	pobj
 15	recién	recién	rg	rg	rep=no|t=no|r=yes|m=yes	16	advmod
 16	descubiertas	descubierto	aq0fpp	aq0fpp	rep=no|t=no|r=yes|m=yes	14	amod
-17	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
+17	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	14	punct
 18	todas	todo	di0fp0	di0fp0	rep=no|t=no|r=yes|m=yes	19	det
 19	ellas	él	pp3fp000	pp3fp000	rep=no|t=no|r=yes|m=yes	14	dep
 20	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	19	prepn
@@ -351,7 +351,7 @@
 28	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	27	prepn
 29	material	material	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	28	pobj
 30	rocoso	rocoso	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	29	amod
-31	,	,	fc	fc	rep=no|t=no|r=no|m=yes	29	punct
+31	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	29	punct
 32	mezclado	mezclado	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	29	amod
 33	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	32	prepa
 34	carbono	carbono	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	33	pobj

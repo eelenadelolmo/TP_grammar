@@ -3,7 +3,7 @@
 3	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	prepn
 4	refrescos	refresco	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	pobj
 5	Coca-Cola	Coca-Cola	np0000o	np0000o	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	appos
-6	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	13	coord_fixed
+6	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	coord_fixed
 7	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	det
 8	empresa	empresa	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	13	nsubj
 9	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	prepn
@@ -95,7 +95,7 @@
 24	mundo	mundo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	21	pobj
 25	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dobj
 26	servicios	servicio	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dobj
-27	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+27	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 28	productos	producto	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dobj
 29	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dobj
 30	American	American	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	pobj
@@ -174,10 +174,10 @@
 28	otras	otro	di0fp0	di0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	det
 29	grandes	grande	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	amod
 30	compañías	compañía	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	pobj
-31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	punct
+31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	punct
 32	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	dep
 33	Sears	Sears	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	cobj
-34	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	36	punct
+34	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	punct
 35	Wal-Mart	Wal-Mart	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	cobj
 36	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	coord_fixed
 37	General	general	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	cobj

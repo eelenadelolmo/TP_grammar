@@ -58,9 +58,9 @@
 12	muchísimas	muchísimo	aq0fp0	aq0fp0	rep=no|t=no|r=yes|m=yes	13	amod
 13	cosas	cosa	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	6	dobj
 14	,	,	fc	fc	rep=no|t=no|r=no|m=no	5	punct
-15	dentro	dentro	rg	rg	rep=no|t=no|r=no|m=no	16	advmod
-16	y	y	cc	cc	rep=no|t=no|r=no|m=no	5	coord_fixed
-17	fuera	fuera	rg	rg	rep=no|t=no|r=no|m=no	16	advmod
+15	dentro	dentro	rg	rg	rep=no|t=no|r=no|m=yes	16	advmod
+16	y	y	cc	cc	rep=no|t=no|r=no|m=yes	5	coord_fixed
+17	fuera	fuera	rg	rg	rep=no|t=no|r=no|m=yes	16	advmod
 18	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	5	dep
 19	campo	campo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	18	pobj
 20	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=no	5	punct

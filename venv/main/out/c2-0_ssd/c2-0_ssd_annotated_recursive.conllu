@@ -102,7 +102,7 @@
 2	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	17	nsubj
 3	andadura	andadura	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	2	pobj
 4	media	medio	aq0fs0	aq0fs0	rep=no|t=yes|r=no|m=yes	3	amod
-5	,	,	fc	fc	rep=no|t=no|r=no|m=yes	17	punct
+5	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	17	punct
 6	cuando	cuando	cs	cs	rep=no|t=no|r=no|m=yes	17	advcl
 7	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	8	det
 8	papelera	papelera	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	11	nsubj
@@ -113,7 +113,7 @@
 13	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	14	det
 14	empellón	empellón	ncms000	ncms000	rep=no|t=no|r=no|m=yes	12	pobj
 15	primero	primero	ao0ms0	ao0ms0	rep=no|t=no|r=no|m=yes	14	amod
-16	,	,	fc	fc	rep=no|t=no|r=no|m=yes	17	punct
+16	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	17	punct
 17	continúan	continuar	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	19	coord
 18	pataleando	patalear	vmg0000	vmg0000	rep=no|t=no|r=yes|m=yes	17	dobj
 19	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
@@ -165,7 +165,7 @@
 10	derribo	derribo	ncms000	ncms000	rep=no|t=no|r=no|m=yes	8	pobj
 11	.	.	fp	fp	rep=no|t=no|r=no|m=no	2	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	2	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	2	coord_fixed
 2	es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=no|m=yes	0	root
 3	que	que	cs	cs	rep=no|t=no|r=no|m=yes	2	attr
 4	-	-	fg	fg	rep=no|t=no|r=no|m=yes	7	punct
@@ -201,14 +201,14 @@
 1	¿	¿	fia	fia	rep=no|t=no|r=no|m=no	3	punct
 2	Qué	qué	pt0cs000	pt0cs000	rep=no|t=no|r=no|m=yes	3	dobj
 3	significa	significar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	0	root
-4	tirar	tirar	vmn0000	vmn0000	rep=no|t=no|r=no|m=no	6	cobj
-5	papeleras	papelera	ncfp000	ncfp000	rep=no|t=no|r=no|m=no	4	dobj
-6	y	y	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
-7	quemarlas	quemar	vmn0000	vmn0000	rep=no|t=no|r=no|m=no	4	cobj
-8	después	después	rg	rg	rep=no|t=no|r=no|m=no	7	advmod
-9	con	con	sps00	sps00	rep=no|t=no|r=no|m=no	7	prepv
-10	sus	su	dp3cp0	dp3cp0	rep=no|t=no|r=no|m=no	11	poss
-11	desperdicios	desperdicio	ncmp000	ncmp000	rep=no|t=no|r=no|m=no	9	pobj
+4	tirar	tirar	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	6	cobj
+5	papeleras	papelera	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	4	dobj
+6	y	y	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
+7	quemarlas	quemar	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	4	cobj
+8	después	después	rg	rg	rep=no|t=no|r=no|m=yes	7	advmod
+9	con	con	sps00	sps00	rep=no|t=no|r=no|m=yes	7	prepv
+10	sus	su	dp3cp0	dp3cp0	rep=no|t=no|r=no|m=yes	11	poss
+11	desperdicios	desperdicio	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	9	pobj
 12	?	?	fit	fit	rep=no|t=no|r=no|m=no	3	punct
 
 1	El	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	3	det

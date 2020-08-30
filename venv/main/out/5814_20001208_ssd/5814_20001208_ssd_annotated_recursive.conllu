@@ -159,7 +159,7 @@
 9	fue	ser	vsis3s0	vsis3s0	rep=no|t=no|r=yes|m=yes	0	root
 10	Tom	Tom	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	9	attr
 11	Feeney	Feeney	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	10	appos
-12	,	,	fc	fc	rep=no|t=no|r=no|m=yes	10	punct
+12	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	10	punct
 13	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	17	det
 14	ahora	ahora	rg	rg	rep=no|t=no|r=yes|m=yes	16	advmod
 15	también	también	rg	rg	rep=no|t=no|r=yes|m=yes	16	advmod
@@ -195,7 +195,7 @@
 19	duros	duro	aq0mp0	aq0mp0	rep=no|t=no|r=yes|m=yes	17	attr
 20	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	17	prepv
 21	Florida	Florida	np00000	np00000	rep=no|t=no|r=yes|m=yes	20	pobj
-22	,	,	fc	fc	rep=no|t=no|r=no|m=yes	17	punct
+22	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	17	punct
 23	pues	pues	cs	cs	rep=no|t=no|r=no|m=yes	12	cobj
 24	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	25	det
 25	demócratas	demócrata	nccp000	nccp000	rep=no|t=no|r=yes|m=yes	26	nsubj
@@ -303,8 +303,8 @@
 11	elecciones	elección	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	9	pobj
 12	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	11	prepn
 13	2002	2002	z	z	rep=no|t=no|r=yes|m=yes	12	pobj
-14	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	11	punct
-15	,	,	fc	fc	rep=no|t=no|r=no|m=yes	11	punct
+14	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	11	punct
+15	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	11	punct
 16	fecha	fecha	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	11	appos
 17	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	prepn
 18	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	19	det
@@ -315,7 +315,7 @@
 23	buscará	buscar	vmif3s0	vmif3s0	rep=no|t=no|r=yes|m=yes	17	pobj
 24	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	25	det
 25	reelección	reelección	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	23	dobj
-26	,	,	fc	fc	rep=no|t=no|r=no|m=yes	17	punct
+26	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	17	punct
 27	se	se	p0000000	p0000000	rep=no|t=no|r=yes|m=yes	28	reflec
 28	renovará	renovar	vmif3s0	vmif3s0	rep=no|t=no|r=yes|m=yes	17	pobj
 29	toda	todo	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	31	det

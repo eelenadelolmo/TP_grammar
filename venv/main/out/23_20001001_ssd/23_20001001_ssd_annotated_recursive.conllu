@@ -88,7 +88,7 @@
 13	Donostia	Donostia	np00000	np00000	rep=no|t=no|r=no|m=no	12	appos
 14	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	7	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	7	coord_fixed
 2	quienes	quien	pr0cp000	pr0cp000	rep=no|t=no|r=no|m=no	3	nsubj
 3	estuvieron	estar	vmis3p0	vmis3p0	rep=no|t=no|r=no|m=no	7	rcmod
 4	cerca	cerca	rg	rg	rep=no|t=no|r=no|m=no	3	advmod
@@ -123,7 +123,7 @@
 12	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	11	dep
 13	astado	astado	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	12	pobj
 14	furioso	furioso	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	13	amod
-15	,	,	fc	fc	rep=no|t=no|r=no|m=yes	16	punct
+15	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	16	punct
 16	o	o	cc	cc	rep=no|t=no|r=yes|m=yes	11	coord_fixed
 17	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	20	advmod
 18	lo	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	19	det
@@ -131,7 +131,7 @@
 20	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	11	dep
 21	boxeador	boxeador	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	20	pobj
 22	bravo	bravo	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	21	amod
-23	,	,	fc	fc	rep=no|t=no|r=no|m=yes	21	punct
+23	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	21	punct
 24	como	como	cs	cs	rep=no|t=no|r=yes|m=yes	21	dep
 25	ese	ese	dd0ms0	dd0ms0	rep=no|t=no|r=yes|m=yes	26	det
 26	Jake	Jake	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	24	cobj
@@ -151,13 +151,13 @@
 5	defraudó	defraudar	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	16	dobj
 6	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	5	dobj
 7	nadie	nadie	pi0cs000	pi0cs000	rep=no|t=no|r=yes|m=yes	6	pobj
-8	...	...	fs	fs	rep=no|t=no|r=no|m=yes	5	punct
+8	...	...	fs	fs	rep=no|t=no|r=yes|m=yes	5	punct
 9	quizá	quizá	rg	rg	rep=no|t=no|r=no|m=yes	10	advmod
 10	porque	porque	cs	cs	rep=no|t=no|r=no|m=yes	5	advcl
 11	apenas	apenas	rg	rg	rep=no|t=no|r=no|m=yes	12	advmod
 12	dijo	decir	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	10	cobj
 13	nada	nada	pi0cs000	pi0cs000	rep=no|t=no|r=no|m=yes	12	dobj
-14	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	5	punct
+14	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	5	punct
 15	,	,	fc	fc	rep=no|t=no|r=no|m=yes	16	punct
 16	observaba	observar	vmii3s0	vmii3s0	rep=no|t=no|r=no|m=yes	55	coord
 17	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	16	prepv
@@ -284,7 +284,7 @@
 29	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	26	punct
 30	.	.	fp	fp	rep=no|t=no|r=no|m=no	1	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	8	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	8	coord_fixed
 2	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	8	prepv
 3	ABC	ABC	np00000	np00000	rep=no|t=no|r=no|m=yes	2	pobj
 4	,	,	fc	fc	rep=no|t=no|r=no|m=no	8	punct
@@ -302,14 +302,14 @@
 16	mutismo	mutismo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	14	dobj
 17	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	prepn
 18	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	20	det
-19	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	20	punct
+19	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	20	punct
 20	alfarero	alfarero	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	17	pobj
 21	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	20	prepn
 22	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	23	det
 23	interpretación	interpretación	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	21	pobj
-24	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	20	punct
-25	...	...	fs	fs	rep=no|t=no|r=no|m=yes	20	punct
-26	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	20	punct
+24	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	20	punct
+25	...	...	fs	fs	rep=no|t=no|r=yes|m=yes	20	punct
+26	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	20	punct
 27	capaz	capaz	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	20	amod
 28	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	27	prepa
 29	moldearse	moldear	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	28	pobj
@@ -332,7 +332,7 @@
 46	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	45	prepv
 47	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	48	det
 48	cuerpo	cuerpo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	46	pobj
-49	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	20	punct
+49	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	20	punct
 50	.	.	fp	fp	rep=no|t=no|r=no|m=no	8	punct
 
 1	Ayer	ayer	rg	rg	rep=no|t=no|r=no|m=no	4	advmod

@@ -19,7 +19,7 @@
 19	matado	matar	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	vobj
 20	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	det
 21	romanticismo	romanticismo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	dobj
-22	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	16	coord_fixed
+22	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	coord_fixed
 23	porque	porque	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	cobj
 24	formas	formar	vmip2s0	vmip2s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	cobj
 25	ya	ya	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	advmod
@@ -39,13 +39,13 @@
 7	esperar	esperar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	pobj
 8	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	dobj
 9	rival	rival	nccs000	nccs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
-10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	16	punct
+10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
 11	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	oobj
 12	morderle	morder	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	pobj
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	16	punct
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
 14	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	oobj
 15	sujetarle	sujetar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	pobj
-16	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	5	coord_fixed
+16	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	coord_fixed
 17	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	oobj
 18	extorsionarle	extorsionar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
 19	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	5	punct
@@ -94,16 +94,16 @@
 10	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	8	punct
 
 1	Verás	ver	vmif2s0	vmif2s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
-2	qué	qué	dt0cn0	dt0cn0	recursive=no|rep=no|theme=no|rheme=no|main=no	3	det
-3	jugoso	jugoso	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=no|main=no	4	attr
-4	era	ser	vsii3s0	vsii3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	7	cobj
-5	todo	todo	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=no|main=no	6	det
-6	aquello	aquel	pd0ns000	pd0ns000	recursive=no|rep=no|theme=no|rheme=no|main=no	4	attr
-7	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	1	coord_fixed
-8	cuánta	cuánto	dt0fs0	dt0fs0	recursive=no|rep=no|theme=no|rheme=no|main=no	9	det
-9	gente	gente	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	11	nsubj
-10	te	tú	pp2cs000	pp2cs000	recursive=no|rep=no|theme=no|rheme=no|main=no	11	dobj
-11	quería	querer	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	4	cobj
+2	qué	qué	dt0cn0	dt0cn0	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	det
+3	jugoso	jugoso	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	attr
+4	era	ser	vsii3s0	vsii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	cobj
+5	todo	todo	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	det
+6	aquello	aquel	pd0ns000	pd0ns000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	attr
+7	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	coord_fixed
+8	cuánta	cuánto	dt0fs0	dt0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	det
+9	gente	gente	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	11	nsubj
+10	te	tú	pp2cs000	pp2cs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	dobj
+11	quería	querer	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	cobj
 12	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	1	punct
 
 1	Volverás	volver	vmif2s0	vmif2s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
@@ -112,7 +112,7 @@
 4	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	det
 5	aplausos	aplauso	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	dobj
 6	enemigos	enemigo	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	amod
-7	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	1	coord_fixed
+7	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	coord_fixed
 8	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	det
 9	admiraciones	admiración	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	dobj
 10	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	prepn
@@ -147,7 +147,7 @@
 7	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	prepa
 8	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	det
 9	Liga	Liga	np0000a	np0000a	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	pobj
-10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	16	coord_fixed
+10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	coord_fixed
 11	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	12	det
 12	Atleti	Atleti	np0000o	np0000o	recursive=no|rep=no|theme=yes|rheme=no|main=yes	16	nsubj
 13	bastante	bastante	rg	rg	recursive=no|rep=no|theme=yes|rheme=no|main=yes	14	advmod

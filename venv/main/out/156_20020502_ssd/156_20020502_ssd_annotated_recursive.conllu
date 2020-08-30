@@ -41,11 +41,11 @@
 24	reveló	revelar	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	14	dobj
 25	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	39	conj
 26	Björk	Björk	np00000	np00000	rep=no|t=no|r=yes|m=yes	33	nsubj
-27	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+27	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 28	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	26	prepn
 29	36	36	z	z	rep=no|t=no|r=yes|m=yes	30	num
 30	años	año	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	28	pobj
-31	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+31	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 32	espera	esperar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	25	cobj
 33	tener	tener	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	32	cobj
 34	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	35	det
@@ -64,12 +64,12 @@
 47	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	49	poss
 48	actual	actual	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	49	amod
 49	pareja	pareja	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	46	attr
-50	,	,	fc	fc	rep=no|t=no|r=no|m=yes	49	punct
+50	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	49	punct
 51	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	52	det
 52	norteamericano	norteamericano	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	49	appos
 53	Matthew	Matthew	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	52	appos
 54	Barney	Barney	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	53	appos
-55	,	,	fc	fc	rep=no|t=no|r=no|m=yes	49	punct
+55	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	49	punct
 56	escultor	escultor	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	49	dep
 57	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	49	coord_fixed
 58	director	director	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	49	dep
@@ -87,7 +87,7 @@
 8	sexo	sexo	ncms000	ncms000	rep=no|t=no|r=no|m=yes	4	dobj
 9	del	del	spcms	spcms	rep=no|t=no|r=no|m=yes	8	prepn
 10	bebé	bebé	ncms000	ncms000	rep=no|t=no|r=no|m=yes	9	pobj
-11	y	y	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+11	y	y	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 12	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	13	det
 13	quiniela	quiniela	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	4	dobj
 14	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	13	prepn
@@ -109,7 +109,7 @@
 9	se	él	p0300000	p0300000	rep=no|t=no|r=no|m=yes	10	reflec
 10	llama	llamar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	6	rcmod
 11	Sindri	Sindri	np00000	np00000	rep=no|t=no|r=no|m=yes	10	dobj
-12	,	,	fc	fc	rep=no|t=no|r=no|m=yes	6	punct
+12	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	6	punct
 13	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	14	nsubj
 14	nació	nacer	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	6	rcmod
 15	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	14	prepv

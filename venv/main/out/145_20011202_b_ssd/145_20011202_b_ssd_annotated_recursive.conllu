@@ -1,7 +1,7 @@
 1	Zahovic	Zahovic	np00000	np00000	rep=no|t=yes|r=no|m=yes	6	nsubj
-2	,	,	fc	fc	rep=no|t=no|r=no|m=no	4	punct
+2	,	,	fc	fc	rep=no|t=no|r=no|m=yes	4	punct
 3	Chilavert	Chilavert	np00000	np00000	rep=no|t=yes|r=no|m=yes	6	nsubj
-4	y	y	cc	cc	rep=no|t=no|r=no|m=no	6	coord_fixed
+4	y	y	cc	cc	rep=no|t=no|r=no|m=yes	6	coord_fixed
 5	Fortune	Fortune	np00000	np00000	rep=no|t=yes|r=no|m=yes	6	nsubj
 6	destacan	destacar	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	0	root
 7	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	6	prepv
@@ -83,7 +83,7 @@
 12	Clemente	clemente	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	11	appos
 13	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	7	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	7	coord_fixed
 2	Suráfrica	Suráfrica	np00000	np00000	rep=no|t=yes|r=no|m=yes	7	nsubj
 3	,	,	fc	fc	rep=no|t=yes|r=no|m=yes	2	punct
 4	una	uno	di0fs0	di0fs0	rep=no|t=yes|r=no|m=yes	5	det
@@ -93,7 +93,7 @@
 8	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	9	det
 9	equipo	equipo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	7	attr
 10	joven	joven	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	9	prepn
-11	,	,	fc	fc	rep=no|t=no|r=no|m=yes	13	punct
+11	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	13	punct
 12	luchador	luchador	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	9	prepn
 13	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	9	coord_fixed
 14	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	9	prepn

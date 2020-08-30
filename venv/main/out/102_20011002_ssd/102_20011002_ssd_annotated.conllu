@@ -182,7 +182,7 @@
 35	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	prepn
 36	sus	su	dp3cp0	dp3cp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	poss
 37	intereses	interés	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	35	pobj
-38	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+38	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 39	según	según	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	advcl
 40	fuentes	fuente	ncfp000	ncfp000	recursive=yes|rep=yes|theme=no|rheme=yes|main=yes	39	pobj
 41	docentes	docente	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	dep
@@ -316,15 +316,15 @@
 33	Lengua	lengua	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	pobj
 34	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	coord_fixed
 35	Literatura	Literatura	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	pobj
-36	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	42	punct
+36	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	punct
 37	Idioma	Idioma	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	pobj
 38	Extranjero	extranjero	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	appos
-39	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	42	punct
+39	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	punct
 40	Ciencias	ciencia	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	pobj
 41	Sociales	social	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	amod
 42	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	coord_fixed
 43	Matemáticas	Matemáticas	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	pobj
-44	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	punct
+44	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	punct
 
 1	Paralelamente	paralelamente	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	12	advmod
 2	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	12	punct
@@ -377,7 +377,7 @@
 27	600	600	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	pobj
 28	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	24	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	17	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	coord_fixed
 2	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	prepv
 3	ese	ese	dd0ms0	dd0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	det
 4	terreno	terreno	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	pobj

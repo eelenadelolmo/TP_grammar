@@ -151,7 +151,7 @@
 14	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	15	poss
 15	alma	alma	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	16	nsubj
 16	cantaba	cantar	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	coord
-17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 18	Baby,	Baby,	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	dobj
 19	won't	won't	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	appos
 20	you	you	vmi0000	vmi0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	appos
@@ -160,8 +160,8 @@
 23	home	home	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	appos
 24	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	7	punct
 
-1	O	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
-2	sea	sea	vsis3s0	vsis3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	1	rcmod
+1	O	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
+2	sea	sea	vsis3s0	vsis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	rcmod
 3	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 4	niño,	niño,	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 5	criatura,	criatura,	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	appos

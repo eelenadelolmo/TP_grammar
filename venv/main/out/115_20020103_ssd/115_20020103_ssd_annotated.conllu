@@ -41,7 +41,7 @@
 22	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	dobj
 23	DKV	DKV	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	pobj
 24	Seguros	seguro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	appos
-25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 26	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	det
 27	filial	filial	nccs000	nccs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	appos
 28	española	español	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	amod
@@ -49,7 +49,7 @@
 30	grupo	grupo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	pobj
 31	alemán	alemán	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	amod
 32	DKV	DKV	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	appos
-33	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	36	punct
+33	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	punct
 34	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	det
 35	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	advmod
 36	importante	importante	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	amod
@@ -58,8 +58,8 @@
 39	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	prepa
 40	seguros	seguro	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	pobj
 41	médicos	médico	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	amod
-42	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	36	punct
-43	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+42	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	punct
+43	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 44	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	dep
 45	primer	primero	ao0ms0	ao0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	46	amod
 46	espónsor	espónsor	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	44	cobj

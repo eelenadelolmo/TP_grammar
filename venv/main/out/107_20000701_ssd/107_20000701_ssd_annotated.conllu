@@ -21,11 +21,11 @@
 14	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
 
 1	Armstrong	Armstrong	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
-2	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
+2	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
 3	Zülle	Zülle	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
-4	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
+4	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
 5	Ullrich	Ullrich	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
-6	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+6	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 7	Olano	Olano	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
 8	pelearán	pelear	vmif3p0	vmif3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 9	por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	oobj
@@ -105,13 +105,13 @@
 
 1	Lance	lanzar	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	12	nsubj
 2	Armstrong	Armstrong	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	1	appos
-3	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	9	punct
+3	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
 4	Alex	Alex	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	12	nsubj
 5	Zülle	Zülle	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	appos
-6	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	9	punct
+6	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
 7	Jan	jan	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	12	nsubj
 8	Ullrich	Ullrich	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	appos
-9	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	12	coord_fixed
+9	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	coord_fixed
 10	Abraham	Abraham	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	12	nsubj
 11	Olano	Olano	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	10	appos
 12	parten	partir	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
@@ -123,7 +123,7 @@
 18	ganarse	ganar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
 19	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	det
 20	prenda	prenda	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	dobj
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 22	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	prepv
 23	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	det
 24	día	día	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	pobj
@@ -196,7 +196,7 @@
 20	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 21	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	det
 22	contrarrelojistas	contrarrelojista	nccp000	nccp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	2	cobj
-23	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+23	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
 24	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	prepn
 25	empezar	empezar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
 26	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	prepv
@@ -206,11 +206,11 @@
 30	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	det
 31	kilómetro	kilómetro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	pobj
 32	cero	cero	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	num
-33	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
-34	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	2	coord_fixed
+33	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
+34	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	coord_fixed
 35	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	det
 36	escaladores	escalador	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	2	cobj
-37	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	36	punct
+37	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	punct
 38	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	prepn
 39	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	neg
 40	ahogarse	ahogar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	pobj
@@ -339,7 +339,7 @@
 12	filas	fila	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	pobj
 13	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 2	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	neg
 3	tenía	tener	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 4	reparo	reparo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	dobj
@@ -359,7 +359,7 @@
 18	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	det
 19	año	año	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	cobj
 20	pasado	pasado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	amod
-21	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+21	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
 22	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
 1	Al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	iobj
@@ -499,7 +499,7 @@
 8	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	prepn
 9	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	det
 10	manga	manga	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
-11	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+11	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 12	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	poss
 13	triunfo	triunfo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	appos
 14	ante	ante	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	prepn
@@ -602,7 +602,7 @@
 50	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	46	coord_fixed
 51	Ulrich	Ulrich	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	46	attr
 52	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	46	punct
-53	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	20	coord_fixed
+53	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	coord_fixed
 54	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	55	det
 55	fuerzas	fuerza	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	56	nsubj
 56	estarán	estar	vmif3p0	vmif3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	cobj
@@ -685,7 +685,7 @@
 14	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	7	punct
 
 1	Pantani	Pantani	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	nsubj
-2	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+2	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 3	Escartín	Escartín	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	nsubj
 4	tratarán	tratar	vmif3p0	vmif3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 5	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	4	prepv
@@ -731,7 +731,7 @@
 6	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	neg
 7	me	yo	pp1cs000	pp1cs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	iobj
 8	desagrada	desagradar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	dobj
-9	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+9	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	11	punct
 11	avisó	avisar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 12	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	det

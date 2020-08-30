@@ -116,7 +116,7 @@
 13	George	George	np0000l	np0000l	rep=no|t=no|r=no|m=yes	12	pobj
 14	Grote	Grote	np0000l	np0000l	rep=no|t=no|r=no|m=yes	13	appos
 15	,	,	fc	fc	rep=no|t=no|r=no|m=yes	7	punct
-16	y	y	cc	cc	rep=no|t=no|r=no|m=no	35	coord_fixed
+16	y	y	cc	cc	rep=no|t=no|r=no|m=yes	35	coord_fixed
 17	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	20	prepv
 18	allí	allí	rg	rg	rep=no|t=no|r=no|m=yes	17	advmod
 19	se	él	p0300000	p0300000	rep=no|t=no|r=no|m=yes	20	reflec
@@ -172,7 +172,7 @@
 3	cambiar	cambiar	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	2	dobj
 4	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	3	oobj
 5	perspectiva	perspectiva	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	4	pobj
-6	:	:	fd	fd	rep=no|t=no|r=no|m=no	15	punct
+6	:	:	fd	fd	rep=no|t=no|r=no|m=yes	15	punct
 7	desprestigió	desprestigiar	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	2	cobj
 8	a	a	sps00	sps00	rep=no|t=no|r=no|m=yes	7	dobj
 9	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	10	det
@@ -181,7 +181,7 @@
 12	a	a	sps00	sps00	rep=no|t=no|r=no|m=yes	11	prepv
 13	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=no|m=yes	14	poss
 14	hogar	hogar	ncms000	ncms000	rep=no|t=no|r=no|m=yes	12	pobj
-15	y	y	cc	cc	rep=no|t=no|r=no|m=no	2	coord_fixed
+15	y	y	cc	cc	rep=no|t=no|r=no|m=yes	2	coord_fixed
 16	la	él	pp3fsa00	pp3fsa00	rep=no|t=no|r=no|m=yes	17	dobj
 17	convirtió	convertir	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	2	cobj
 18	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	17	oobj
@@ -204,12 +204,12 @@
 6	sus	su	dp3cp0	dp3cp0	rep=no|t=no|r=no|m=no	7	poss
 7	formalidades	formalidad	ncfp000	ncfp000	rep=no|t=no|r=no|m=no	5	pobj
 8	eruditas	erudito	aq0fp0	aq0fp0	rep=no|t=no|r=no|m=no	7	amod
-9	:	:	fd	fd	rep=no|t=no|r=no|m=no	42	punct
+9	:	:	fd	fd	rep=no|t=no|r=no|m=yes	42	punct
 10	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	11	det
 11	marido	marido	ncms000	ncms000	rep=no|t=no|r=no|m=yes	2	dobj
 12	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	11	prepn
 13	Penélope	Penélope	np0000p	np0000p	rep=no|t=no|r=no|m=yes	12	pobj
-14	,	,	fc	fc	rep=no|t=no|r=no|m=no	42	punct
+14	,	,	fc	fc	rep=no|t=no|r=no|m=yes	42	punct
 15	nuevamente	nuevamente	rg	rg	rep=no|t=no|r=no|m=yes	16	advmod
 16	Troya	Troya	np0000l	np0000l	rep=no|t=no|r=no|m=yes	2	dep
 17	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	16	prepn
@@ -220,7 +220,7 @@
 22	in	in	vmi0000	vmi0000	rep=no|t=no|r=no|m=yes	21	cobj
 23	Literature	Literature	np00000	np00000	rep=no|t=no|r=no|m=yes	22	dobj
 24	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	19	punct
-25	,	,	fc	fc	rep=no|t=no|r=no|m=no	42	punct
+25	,	,	fc	fc	rep=no|t=no|r=no|m=yes	42	punct
 26	Elena	Elena	np0000p	np0000p	rep=no|t=no|r=no|m=yes	2	dep
 27	otra	otro	di0fs0	di0fs0	rep=no|t=no|r=no|m=yes	28	det
 28	vez	vez	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	2	dep
@@ -235,9 +235,9 @@
 37	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	38	punct
 38	1947	1947	z	z	rep=no|t=no|r=no|m=yes	31	dep
 39	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	38	punct
-40	,	,	fc	fc	rep=no|t=no|r=no|m=no	42	punct
+40	,	,	fc	fc	rep=no|t=no|r=no|m=yes	42	punct
 41	Villon	Villon	np0000p	np0000p	rep=no|t=no|r=no|m=yes	2	dep
-42	y	y	cc	cc	rep=no|t=no|r=no|m=no	2	coord_fixed
+42	y	y	cc	cc	rep=no|t=no|r=no|m=yes	2	coord_fixed
 43	Galahad	Galahad	np0000p	np0000p	rep=no|t=no|r=no|m=yes	2	dep
 44	,	,	fc	fc	rep=no|t=no|r=no|m=no	2	punct
 45	un	uno	di0mp0	di0mp0	rep=no|t=no|r=no|m=yes	46	det

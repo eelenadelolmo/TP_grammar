@@ -26,7 +26,7 @@
 26	perjudicial	perjudicial	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	25	cpred
 27	para	para	sps00	sps00	rep=no|t=no|r=yes|m=yes	26	prepa
 28	Brasil	Brasil	np00000	np00000	rep=no|t=no|r=yes|m=yes	27	pobj
-29	,	,	fc	fc	rep=no|t=no|r=no|m=yes	28	punct
+29	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	28	punct
 30	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	28	dep
 31	mayor	mayor	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	32	amod
 32	productor	productor	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	28	dep
@@ -35,7 +35,7 @@
 35	mundial	mundial	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	34	amod
 36	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	28	dep
 37	grano	grano	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	36	pobj
-38	,	,	fc	fc	rep=no|t=no|r=no|m=yes	28	punct
+38	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	28	punct
 39	según	según	sps00	sps00	rep=no|t=no|r=yes|m=yes	25	advcl
 40	el	el	da0ms0	da0ms0	rep=yes|t=no|r=yes|m=yes	41	det
 41	presidente	presidente	ncms000	ncms000	rep=yes|t=no|r=yes|m=yes	39	pobj
@@ -74,7 +74,7 @@
 20	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	19	prepv
 21	perder	perder	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	20	pobj
 22	divisas	divisa	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	21	dobj
-23	,	,	fc	fc	rep=no|t=no|r=no|m=yes	24	punct
+23	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	24	punct
 24	volumen	volumen	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	21	dobj
 25	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	24	prepn
 26	exportaciones	exportación	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	25	pobj
@@ -321,11 +321,11 @@
 47	millones	millón	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	45	dobj
 48	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	47	prepn
 49	sacas	saca	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	48	pobj
-50	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	51	punct
+50	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	51	punct
 51	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	49	prepn
 52	60	60	z	z	rep=no|t=no|r=yes|m=yes	53	num
 53	kilos	kilo	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	51	pobj
-54	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	51	punct
+54	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	51	punct
 55	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	45	prepv
 56	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	57	det
 57	cosecha	cosecha	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	55	pobj
@@ -339,7 +339,7 @@
 2	productor	productor	ncms000	ncms000	rep=yes|t=no|r=no|m=no	3	nsubj
 3	asegura	asegurar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=no	0	root
 4	que	que	cs	cs	rep=no|t=no|r=no|m=no	3	dobj
-5	,	,	fc	fc	rep=no|t=no|r=no|m=yes	35	punct
+5	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	35	punct
 6	como	como	cs	cs	rep=no|t=no|r=no|m=yes	4	cobj
 7	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	8	det
 8	país	país	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	10	nsubj
@@ -355,7 +355,7 @@
 18	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	20	det
 19	nueva	nuevo	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	20	amod
 20	cosecha	cosecha	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	17	pobj
-21	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	23	punct
+21	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	23	punct
 22	2	2	z	z	rep=no|t=no|r=yes|m=yes	23	num
 23	millones	millón	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	12	dobj
 24	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	23	prepn
@@ -365,8 +365,8 @@
 28	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	27	cobj
 29	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	30	det
 30	última	último	ao0fs0	ao0fs0	rep=no|t=no|r=yes|m=yes	28	pobj
-31	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	23	punct
-32	,	,	fc	fc	rep=no|t=no|r=no|m=yes	35	punct
+31	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	23	punct
+32	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	35	punct
 33	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	34	det
 34	tendencia	tendencia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	35	nsubj
 35	es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=yes|m=yes	36	cobj
@@ -563,13 +563,13 @@
 44	millones	millón	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	42	pobj
 45	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	44	prepn
 46	sacas	saca	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	45	pobj
-47	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	49	punct
+47	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	49	punct
 48	85	85	z	z	rep=no|t=no|r=yes|m=yes	49	num
 49	millones	millón	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	18	dobj
 50	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	49	prepn
 51	12	12	z	z	rep=no|t=no|r=yes|m=yes	52	num
 52	meses	mes	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	50	pobj
-53	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	49	punct
+53	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	49	punct
 54	.	.	fp	fp	rep=no|t=no|r=no|m=no	17	punct
 
 1	En	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	18	prepv

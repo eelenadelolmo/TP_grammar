@@ -141,10 +141,10 @@
 18	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	det
 19	país	país	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	pobj
 20	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	coord_fixed
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	punct
 22	sobre	sobre	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	advmod
 23	todo	todo	pi0cs000	pi0cs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	pobj
-24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	punct
+24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	punct
 25	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	dep
 26	Florida	Florida	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	pobj
 27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	10	punct
@@ -207,7 +207,7 @@
 22	cultivado	cultivado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	amod
 23	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	prepa
 24	Luisiana	Luisiana	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	pobj
-25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	punct
+25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	punct
 26	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	dep
 27	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	det
 28	carne	carne	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	pobj
@@ -226,7 +226,7 @@
 41	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 
 1	Tejas	Tejas	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	nsubj
-2	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	5	coord_fixed
+2	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	coord_fixed
 3	Houston	Houston	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	nsubj
 4	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	reflec
 5	disputarán	disputar	vmif3p0	vmif3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
@@ -321,7 +321,7 @@
 10	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	det
 11	empresas	empresa	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
 12	estadounidenses	estadounidense	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	amod
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	punct
 14	sino	sino	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 15	que	que	pi0cs000	pi0cs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	cobj
 16	también	también	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	advmod
@@ -359,13 +359,13 @@
 9	archienemigos	archienemigo	nc00000	nc00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	10	nsubj
 10	pueden	poder	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dep
 11	negociar	negociar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	dobj
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 13	porque	porque	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	advcl
 14	están	estar	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	cobj
 15	excluidos	excluido	aq0mpp	aq0mpp	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	cobj
 16	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	prepa
 17	embargo	embargo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	pobj
-18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 19	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	dep
 20	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	det
 21	vuelos	vuelo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	cobj
@@ -426,7 +426,7 @@
 19	millones	millón	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
 20	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	prepn
 21	pesetas	peseta	zm	zm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	pobj
-22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	punct
+22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	punct
 23	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	det
 24	gota	gota	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	appos
 25	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	prepn

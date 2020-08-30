@@ -50,7 +50,7 @@
 21	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	20	dobj
 22	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	23	det
 23	austriacos	austriaco	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	21	pobj
-24	,	,	fc	fc	rep=no|t=no|r=no|m=yes	23	punct
+24	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	23	punct
 25	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	27	det
 26	única	único	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	27	amod
 27	selección	selección	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	23	appos
@@ -64,7 +64,7 @@
 35	cinco	cinco	dn0cp0	dn0cp0	rep=no|t=no|r=yes|m=yes	37	det
 36	últimos	último	ao0mp0	ao0mp0	rep=no|t=no|r=yes|m=yes	37	amod
 37	años	año	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	33	pobj
-38	,	,	fc	fc	rep=no|t=no|r=no|m=yes	30	punct
+38	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	30	punct
 39	incluido	incluir	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	30	advcl
 40	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	41	det
 41	partido	partido	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	39	nsubj

@@ -21,7 +21,7 @@
 21	mano	mano	ncfp000	ncfp000	rep=no|t=no|r=no|m=no	20	dobj
 22	.	.	fp	fp	rep=no|t=no|r=no|m=no	1	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	20	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	20	coord_fixed
 2	como	como	cs	cs	rep=no|t=no|r=no|m=no	20	advcl
 3	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=no	4	det
 4	epicentro	epicentro	ncms000	ncms000	rep=no|t=no|r=no|m=no	2	cobj
@@ -115,8 +115,8 @@
 20	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	22	det
 21	pasado	pasado	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	22	amod
 22	año	año	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	11	tmod
-23	-	-	fg	fg	rep=no|t=no|r=no|m=yes	11	punct
-24	-	-	fg	fg	rep=no|t=no|r=no|m=yes	11	punct
+23	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	11	punct
+24	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	11	punct
 25	,	,	fc	fc	rep=no|t=no|r=no|m=no	26	punct
 26	lidió	lidiar	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	0	root
 27	con	con	sps00	sps00	rep=no|t=no|r=no|m=no	26	prepv
@@ -237,10 +237,10 @@
 1	Pero	pero	cc	cc	rep=no|t=no|r=yes|m=yes	10	coord_fixed
 2	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	3	det
 3	fenómeno	fenómeno	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	9	nsubj
-4	,	,	fc	fc	rep=no|t=no|r=no|m=yes	9	punct
+4	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	9	punct
 5	aunque	aunque	cs	cs	rep=no|t=no|r=yes|m=yes	10	dep
 6	menor	menor	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	5	cobj
-7	,	,	fc	fc	rep=no|t=no|r=no|m=yes	9	punct
+7	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	9	punct
 8	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	9	neg
 9	ha	haber	vaip3s0	vaip3s0	rep=no|t=no|r=yes|m=yes	17	coord
 10	dejado	dejar	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	9	vobj
@@ -284,7 +284,7 @@
 16	experiencia	experiencia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	14	dobj
 17	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	prepv
 18	Bruselas	bruselas	np00000	np00000	rep=no|t=no|r=yes|m=yes	17	pobj
-19	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
+19	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	14	punct
 20	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	prepv
 21	busca	busca	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	20	pobj
 22	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	21	prepn

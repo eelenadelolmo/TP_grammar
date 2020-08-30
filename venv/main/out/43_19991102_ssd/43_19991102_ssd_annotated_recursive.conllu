@@ -101,7 +101,7 @@
 7	dos	dos	dn0cp0	dn0cp0	rep=no|t=no|r=yes|m=yes	8	det
 8	arqueólogos	arqueólogo	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	6	pobj
 9	norteamericanos	norteamericano	aq0mp0	aq0mp0	rep=no|t=no|r=yes|m=yes	8	amod
-10	,	,	fc	fc	rep=no|t=no|r=no|m=yes	5	punct
+10	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	5	punct
 11	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	5	prepn
 12	abierta	abierto	aq0fsp	aq0fsp	rep=no|t=no|r=yes|m=yes	13	amod
 13	contradicción	contradicción	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	11	pobj
@@ -144,7 +144,7 @@
 12	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	10	prepn
 13	Washington	Washington	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	12	pobj
 14	,	,	fc	fc	rep=no|t=yes|r=no|m=yes	1	punct
-15	y	y	cc	cc	rep=no|t=no|r=no|m=no	21	coord_fixed
+15	y	y	cc	cc	rep=no|t=no|r=no|m=yes	21	coord_fixed
 16	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	17	det
 17	arqueólogo	arqueólogo	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	21	nsubj
 18	independiente	independiente	aq0cs0	aq0cs0	rep=no|t=yes|r=no|m=yes	17	amod
@@ -167,12 +167,12 @@
 35	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	30	prepa
 36	Santa	santa	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	35	pobj
 37	Fe	Fe	np00000	np00000	rep=no|t=no|r=yes|m=yes	36	appos
-38	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	42	punct
+38	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	42	punct
 39	Nuevo	nuevo	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	40	amod
 40	México	México	np00000	np00000	rep=no|t=no|r=yes|m=yes	35	pobj
-41	,	,	fc	fc	rep=no|t=no|r=no|m=yes	35	punct
+41	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	35	punct
 42	EEUU	EEUU	np00000	np00000	rep=no|t=no|r=yes|m=yes	35	pobj
-43	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	42	punct
+43	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	42	punct
 44	.	.	fp	fp	rep=no|t=no|r=no|m=no	21	punct
 
 1	Basándose	basar	vmg0000	vmg0000	rep=no|t=no|r=no|m=no	24	dobj
@@ -208,7 +208,7 @@
 31	pudieron	poder	vmis3p0	vmis3p0	rep=no|t=no|r=yes|m=yes	25	cobj
 32	ser	ser	vsn0000	vsn0000	rep=no|t=no|r=yes|m=yes	31	dobj
 33	solutrenses	solutrense	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	32	dobj
-34	,	,	fc	fc	rep=no|t=no|r=no|m=yes	33	punct
+34	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	33	punct
 35	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	41	nsubj
 36	hace	hacer	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	41	dobj
 37	más	más	rg	rg	rep=no|t=no|r=no|m=yes	39	advmod
@@ -331,7 +331,7 @@
 16	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	17	det
 17	desiertos	desierto	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	15	pobj
 18	estadounidenses	estadounidense	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	17	amod
-19	,	,	fc	fc	rep=no|t=no|r=no|m=yes	23	punct
+19	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	23	punct
 20	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	21	det
 21	tundra	tundra	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	15	pobj
 22	canadiense	canadiense	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	21	amod
@@ -366,7 +366,7 @@
 16	estrecho	estrecho	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	14	pobj
 17	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	prepn
 18	Bering	Bering	np00000	np00000	rep=no|t=no|r=yes|m=yes	17	pobj
-19	,	,	fc	fc	rep=no|t=no|r=no|m=yes	9	punct
+19	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	9	punct
 20	aprovechando	aprovechar	vmg0000	vmg0000	rep=no|t=no|r=yes|m=yes	14	pobj
 21	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	14	pobj
 22	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	24	det

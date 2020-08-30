@@ -122,8 +122,8 @@
 17	cuadrados	cuadrados	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	16	amod
 18	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	prepn
 19	superficie	superficie	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	18	pobj
-20	-	-	fg	fg	rep=no|t=no|r=no|m=yes	25	punct
-21	-	-	fg	fg	rep=no|t=no|r=no|m=yes	25	punct
+20	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	25	punct
+21	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	25	punct
 22	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	25	prepv
 23	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	24	det
 24	Rambla	Rambla	np00000	np00000	rep=no|t=no|r=yes|m=yes	22	pobj
@@ -278,14 +278,14 @@
 58	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	60	det
 59	primer	primero	ao0ms0	ao0ms0	rep=no|t=no|r=yes|m=yes	60	amod
 60	piso	piso	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	56	dobj
-61	,	,	fc	fc	rep=no|t=no|r=no|m=yes	60	punct
+61	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	60	punct
 62	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	63	nsubj
 63	oculta	ocultar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	60	rcmod
 64	parcialmente	parcialmente	rg	rg	rep=no|t=no|r=no|m=yes	63	advmod
 65	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	66	det
 66	Palau	Palau	np0000l	np0000l	rep=no|t=no|r=no|m=yes	63	dobj
 67	Moja	Moja	np0000l	np0000l	rep=no|t=no|r=no|m=yes	66	appos
-68	,	,	fc	fc	rep=no|t=no|r=no|m=yes	60	punct
+68	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	60	punct
 69	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	42	coord_fixed
 70	se	se	p0000000	p0000000	rep=no|t=no|r=yes|m=yes	71	reflec
 71	devuelva	devolver	vmsp3s0	vmsp3s0	rep=no|t=no|r=yes|m=yes	42	cobj
@@ -329,7 +329,7 @@
 6	marqués	marqués	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	5	pobj
 7	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	6	prepn
 8	Comillas	Comillas	np00000	np00000	rep=no|t=no|r=yes|m=yes	7	pobj
-9	,	,	fc	fc	rep=no|t=no|r=no|m=yes	6	punct
+9	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	6	punct
 10	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	15	nsubj
 11	a	a	spcms	spcms	rep=no|t=no|r=no|m=yes	15	prepv
 12	mediados	mediado	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=yes	11	pobj
@@ -454,10 +454,10 @@
 
 1	El	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	2	det
 2	Sepu	Sepu	np00000	np00000	rep=no|t=yes|r=no|m=yes	7	nsubj
-3	,	,	fc	fc	rep=no|t=no|r=no|m=yes	7	punct
+3	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	7	punct
 4	mientras	mientras	cs	cs	rep=no|t=no|r=no|m=yes	7	advmod
 5	tanto	tanto	rg	rg	rep=no|t=no|r=no|m=yes	4	advmod
-6	,	,	fc	fc	rep=no|t=no|r=no|m=yes	7	punct
+6	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	7	punct
 7	apura	apurar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	22	coord
 8	sus	su	dp3cp0	dp3cp0	rep=no|t=no|r=yes|m=yes	10	poss
 9	últimos	último	ao0mp0	ao0mp0	rep=no|t=no|r=yes|m=yes	10	amod

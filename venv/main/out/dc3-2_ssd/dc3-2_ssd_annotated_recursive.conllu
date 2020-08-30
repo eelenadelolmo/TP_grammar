@@ -147,15 +147,15 @@
 14	lograr	lograr	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	13	dobj
 15	fácilmente	fácilmente	rg	rg	rep=no|t=no|r=yes|m=yes	14	advmod
 16	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	18	det
-17	-	-	fg	fg	rep=no|t=no|r=no|m=yes	18	punct
+17	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	18	punct
 18	dopado	dopado	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	14	dobj
-19	-	-	fg	fg	rep=no|t=no|r=no|m=yes	18	punct
+19	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	18	punct
 20	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	18	prepn
 21	polímero	polímero	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	20	pobj
-22	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	23	punct
+22	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	23	punct
 23	fig.	fig.	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	13	dobj
 24	1	1	z	z	rep=no|t=no|r=yes|m=yes	23	num
-25	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	23	punct
+25	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	23	punct
 26	.	.	fp	fp	rep=no|t=no|r=no|m=no	13	punct
 
 1	De	de	sps00	sps00	rep=no|t=no|r=no|m=no	19	prepv

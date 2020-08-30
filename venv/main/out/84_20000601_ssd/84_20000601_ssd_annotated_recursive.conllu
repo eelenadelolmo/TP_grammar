@@ -9,8 +9,8 @@
 9	contra	contra	sps00	sps00	rep=no|t=no|r=yes|m=yes	8	cobj
 10	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	11	det
 11	droga	droga	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	9	pobj
-12	-	-	fg	fg	rep=no|t=no|r=no|m=yes	3	punct
-13	-	-	fg	fg	rep=no|t=no|r=no|m=yes	3	punct
+12	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	3	punct
+13	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	3	punct
 14	aquí	aquí	rg	rg	rep=no|t=no|r=yes|m=yes	16	advmod
 15	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	16	neg
 16	es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=yes|m=yes	3	attr
@@ -26,8 +26,8 @@
 26	compadece	compadecer	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	3	advcl
 27	al	al	spcms	spcms	rep=no|t=no|r=no|m=yes	26	dobj
 28	delincuente	delincuente	nccs000	nccs000	rep=no|t=no|r=no|m=yes	27	pobj
-29	-	-	fg	fg	rep=no|t=no|r=no|m=yes	3	punct
-30	-	-	fg	fg	rep=no|t=no|r=no|m=yes	3	punct
+29	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	3	punct
+30	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	3	punct
 31	pueden	poder	vmip3p0	vmip3p0	rep=no|t=no|r=no|m=yes	0	root
 32	aplicarse	aplicar	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	31	dobj
 33	esta	este	dd0fs0	dd0fs0	rep=no|t=no|r=no|m=yes	34	det
@@ -73,7 +73,7 @@
 73	.	.	fp	fp	rep=no|t=no|r=no|m=no	31	punct
 
 1	Indocumentado	indocumentado	aq0msp	aq0msp	rep=no|t=no|r=no|m=yes	8	dep
-2	y	y	cc	cc	rep=no|t=no|r=no|m=no	8	coord_fixed
+2	y	y	cc	cc	rep=no|t=no|r=no|m=yes	8	coord_fixed
 3	a	a	sps00	sps00	rep=no|t=no|r=no|m=yes	8	dep
 4	esas	ese	dd0fp0	dd0fp0	rep=no|t=no|r=no|m=yes	5	det
 5	horas	hora	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	3	pobj
@@ -216,10 +216,10 @@
 11	coches	coche	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	12	nsubj
 12	son	ser	vsip3p0	vsip3p0	rep=no|t=no|r=no|m=yes	9	cobj
 13	menos	menos	rg	rg	rep=no|t=no|r=no|m=yes	12	advmod
-14	y	y	cc	cc	rep=no|t=no|r=no|m=no	9	coord_fixed
-15	no	no	rn	rn	rep=no|t=no|r=no|m=no	14	neg
-16	tan	tanto	rg	rg	rep=no|t=no|r=no|m=no	17	advmod
-17	raudos	raudo	aq0mp0	aq0mp0	rep=no|t=no|r=no|m=no	15	amod
+14	y	y	cc	cc	rep=no|t=no|r=no|m=yes	9	coord_fixed
+15	no	no	rn	rn	rep=no|t=no|r=no|m=yes	14	neg
+16	tan	tanto	rg	rg	rep=no|t=no|r=no|m=yes	17	advmod
+17	raudos	raudo	aq0mp0	aq0mp0	rep=no|t=no|r=no|m=yes	15	amod
 18	.	.	fp	fp	rep=no|t=no|r=no|m=no	9	punct
 
 1	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=no	6	punct

@@ -7,7 +7,7 @@
 7	pasado	pasado	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	6	amod
 8	16.686	16686	z	z	rep=no|t=no|r=yes|m=yes	9	num
 9	servicios	servicio	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	4	dobj
-10	,	,	fc	fc	rep=no|t=no|r=no|m=yes	9	punct
+10	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	9	punct
 11	694	694	z	z	rep=no|t=no|r=yes|m=yes	9	prepn
 12	menos	menos	rg	rg	rep=no|t=no|r=yes|m=yes	11	advmod
 13	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	12	crobj
@@ -90,7 +90,7 @@
 10	vía	vía	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	8	pobj
 11	pública	público	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	10	amod
 12	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	2	te
-13	,	,	fc	fc	rep=no|t=no|r=no|m=yes	25	punct
+13	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	25	punct
 14	desglosando	desglosar	vmg0000	vmg0000	rep=no|t=no|r=yes|m=yes	25	advcl
 15	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	16	det
 16	servicios	servicio	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	14	dobj
@@ -99,7 +99,7 @@
 19	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	18	prepn
 20	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	21	det
 21	semana	semana	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	19	pobj
-22	,	,	fc	fc	rep=no|t=no|r=no|m=yes	25	punct
+22	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	25	punct
 23	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	24	det
 24	sábados	sábado	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	25	nsubj
 25	son	ser	vsip3p0	vsip3p0	rep=no|t=no|r=yes|m=yes	12	cobj
@@ -133,7 +133,7 @@
 17	fin	fin	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	16	pobj
 18	de	de	spcms	spcms	rep=no|t=no|r=yes|m=yes	17	prepn
 19	semana	semana	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	18	pobj
-20	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	12	punct
+20	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	12	punct
 21	,	,	fc	fc	rep=no|t=no|r=no|m=no	22	punct
 22	explica	explicar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	0	root
 23	el	el	da0ms0	da0ms0	rep=yes|t=no|r=no|m=yes	24	det
@@ -158,7 +158,7 @@
 4	ardieron	arder	vmis3p0	vmis3p0	rep=no|t=no|r=no|m=yes	0	root
 5	1.078	1078	z	z	rep=no|t=no|r=no|m=yes	6	num
 6	contenedores	contenedor	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	4	nsubj
-7	y	y	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+7	y	y	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 8	493	493	z	z	rep=no|t=no|r=no|m=yes	9	num
 9	vehículos	vehículo	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	4	nsubj
 10	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	4	prepv
@@ -197,7 +197,7 @@
 14	situaciones	situación	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	10	dobj
 15	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	prepn
 16	riesgo	riesgo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	15	pobj
-17	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	10	punct
+17	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	10	punct
 18	,	,	fc	fc	rep=no|t=no|r=no|m=no	19	punct
 19	apunta	apuntar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	0	root
 20	el	el	da0ms0	da0ms0	rep=yes|t=no|r=no|m=yes	21	det
@@ -377,7 +377,7 @@
 20	número	número	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	14	dobj
 21	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	20	prepn
 22	salidas	salida	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	21	pobj
-23	:	:	fd	fd	rep=no|t=no|r=no|m=yes	24	punct
+23	:	:	fd	fd	rep=no|t=no|r=yes|m=yes	24	punct
 24	7.586	7586	z	z	rep=no|t=no|r=yes|m=yes	20	num
 25	.	.	fp	fp	rep=no|t=no|r=no|m=no	14	punct
 

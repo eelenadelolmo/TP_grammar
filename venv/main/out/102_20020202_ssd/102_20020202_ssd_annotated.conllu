@@ -1,5 +1,5 @@
 1	Gaspart	Gaspart	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	nsubj
-2	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+2	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 3	Rexach	Rexach	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	nsubj
 4	siguen	seguir	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 5	hablando	hablar	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dobj
@@ -33,7 +33,7 @@
 2	bien	bien	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	1	advmod
 3	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	1	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	2	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	coord_fixed
 2	hablan	hablar	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 3	mal	mal	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	2	advmod
 4	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
@@ -76,8 +76,8 @@
 18	les	él	pp3cpd00	pp3cpd00	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	iobj
 19	gusta	gustar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	cobj
 20	Rexach	Rexach	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	nsubj
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	22	punct
-22	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+22	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 23	hasta	hasta	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	advmod
 24	Gaspart	Gaspart	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	cobj
 25	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
@@ -134,7 +134,7 @@
 8	?	?	fit	fit	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 9	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	37	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	coord_fixed
 2	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	37	punct
 3	respecto	respecto	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=no	37	advcl
 4	del	del	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	3	prepn

@@ -79,12 +79,12 @@
 8	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	6	prepn
 9	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	10	det
 10	conductividad	conductividad	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	8	pobj
-11	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	12	punct
+11	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	12	punct
 12	véase	ver	vmm03s0	vmm03s0	rep=no|t=no|r=yes|m=yes	5	vobj
 13	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	14	det
 14	tabla	tabla	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	12	nsubj
 15	2	2	z	z	rep=no|t=no|r=yes|m=yes	14	num
-16	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	12	punct
+16	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	12	punct
 17	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
 
 1	A	a	sps00	sps00	rep=no|t=no|r=no|m=yes	22	prepv
@@ -146,10 +146,10 @@
 7	único	único	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	8	amod
 8	polímero	polímero	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	4	attr
 9	conductor	conductor	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	8	amod
-10	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	11	punct
+10	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	11	punct
 11	Tabla	Tabla	np00000	np00000	rep=no|t=no|r=yes|m=yes	4	dep
 12	2	2	z	z	rep=no|t=no|r=yes|m=yes	11	num
-13	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	11	punct
+13	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	11	punct
 14	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
 
 1	Junto	junto	rg	rg	rep=no|t=no|r=no|m=yes	5	prepv
@@ -167,11 +167,11 @@
 2	polisulfuro	polisulfuro	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	10	nsubj
 3	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	2	prepn
 4	fenileno	fenileno	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	3	pobj
-5	,	,	fc	fc	rep=no|t=no|r=no|m=yes	10	punct
+5	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	10	punct
 6	aunque	aunque	cs	cs	rep=no|t=no|r=no|m=yes	10	advcl
 7	no	no	rn	rn	rep=no|t=no|r=no|m=yes	6	neg
 8	conjugado	conjugado	aq0msp	aq0msp	rep=no|t=no|r=no|m=yes	6	cobj
-9	,	,	fc	fc	rep=no|t=no|r=no|m=yes	10	punct
+9	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	10	punct
 10	es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=yes|m=yes	20	cobj
 11	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepv
 12	estado	estado	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	11	pobj
@@ -179,14 +179,14 @@
 14	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	16	det
 15	excelente	excelente	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	16	amod
 16	aislante	aislante	nccs000	nccs000	rep=no|t=no|r=yes|m=yes	10	attr
-17	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	18	punct
+17	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	18	punct
 18	1016	1016	z	z	rep=no|t=no|r=yes|m=yes	16	num
-19	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	18	punct
+19	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	18	punct
 20	pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 21	al	al	spcms	spcms	rep=no|t=no|r=yes|m=yes	10	prepv
-22	-	-	fg	fg	rep=no|t=no|r=no|m=yes	23	punct
+22	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	23	punct
 23	doparlo	dopar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	21	pobj
-24	-	-	fg	fg	rep=no|t=no|r=no|m=yes	23	punct
+24	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	23	punct
 25	alcanza	alcanzar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	21	pobj
 26	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	27	det
 27	conductividad	conductividad	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	25	dobj
@@ -209,11 +209,11 @@
 
 1	El	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	2	det
 2	polipirrol	polipirrol	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	9	nsubj
-3	,	,	fc	fc	rep=no|t=no|r=no|m=yes	9	punct
+3	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	9	punct
 4	por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	9	prepv
 5	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	6	poss
 6	parte	parte	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	4	pobj
-7	,	,	fc	fc	rep=no|t=no|r=no|m=yes	9	punct
+7	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	9	punct
 8	se	se	pp3cn000	pp3cn000	rep=no|t=no|r=yes|m=yes	9	reflec
 9	obtiene	obtener	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	25	coord
 10	dopado	dopado	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	9	cpred
@@ -228,7 +228,7 @@
 19	electroquímicamente	electroquímicamente	rg	rg	rep=no|t=no|r=yes|m=yes	10	advmod
 20	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepa
 21	BF4	BF4	nc00000	nc00000	rep=no|t=no|r=yes|m=yes	20	pobj
-22	-	-	fg	fg	rep=no|t=no|r=no|m=yes	23	punct
+22	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	23	punct
 23	como	como	cs	cs	rep=no|t=no|r=yes|m=yes	10	dep
 24	contraión	contraión	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	23	cobj
 25	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
@@ -276,12 +276,12 @@
 26	película	película	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	35	nsubj
 27	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	26	prepn
 28	polímero	polímero	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	27	pobj
-29	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+29	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 30	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	26	prepn
 31	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	32	det
 32	electrólito	electrólito	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	30	pobj
 33	apropiado	apropiado	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	32	amod
-34	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+34	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 35	puede	poder	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	4	dobj
 36	actuar	actuar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	35	dobj
 37	como	como	cs	cs	rep=no|t=no|r=yes|m=yes	35	dep

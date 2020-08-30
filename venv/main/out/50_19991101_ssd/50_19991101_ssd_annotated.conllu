@@ -2,7 +2,7 @@
 2	Ayuntamiento	ayuntamiento	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
 3	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	prepn
 4	Manresa	Manresa	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	pobj
-5	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+5	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 6	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	det
 7	Generalitat	Generalitat	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
 8	negocian	negociar	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
@@ -29,7 +29,7 @@
 29	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	prepn
 30	Eix	Eix	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	pobj
 31	Transversal	transversal	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	amod
-32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 33	atravesando	atravesar	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	advcl
 34	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	det
 35	zona	zona	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	appos

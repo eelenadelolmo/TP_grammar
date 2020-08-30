@@ -141,11 +141,11 @@
 20	político	político	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	19	amod
 21	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	19	prepn
 22	España	España	np00000	np00000	rep=no|t=no|r=yes|m=yes	21	pobj
-23	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	25	punct
+23	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	25	punct
 24	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	25	neg
 25	es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=yes|m=yes	17	cobj
 26	favorable	favorable	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	25	attr
-27	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	26	punct
+27	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	26	punct
 28	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	26	prepa
 29	Pinochet	Pinochet	np00000	np00000	rep=no|t=no|r=yes|m=yes	28	pobj
 30	,	,	fc	fc	rep=no|t=no|r=no|m=no	13	punct
@@ -401,8 +401,8 @@
 11	dejados	dejar	vmp00pm	vmp00pm	rep=no|t=no|r=yes|m=yes	10	attr
 12	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	11	prepv
 13	lado	lado	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	12	pobj
-14	,	,	fc	fc	rep=no|t=no|r=no|m=yes	10	punct
-15	ni	ni	cc	cc	rep=no|t=no|r=no|m=no	16	coord_fixed
+14	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	10	punct
+15	ni	ni	cc	cc	rep=no|t=no|r=no|m=yes	16	coord_fixed
 16	deben	deber	vmip3p0	vmip3p0	rep=no|t=no|r=no|m=yes	0	root
 17	estar	estar	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	16	dobj
 18	reñidos	reñido	aq0mpp	aq0mpp	rep=no|t=no|r=no|m=yes	17	cpred
@@ -449,7 +449,7 @@
 35	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	22	punct
 36	.	.	fp	fp	rep=no|t=no|r=no|m=no	5	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	21	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	21	coord_fixed
 2	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	3	det
 3	abogado	abogado	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	21	nsubj
 4	Eduardo	Eduardo	np00000	np00000	rep=no|t=yes|r=no|m=yes	3	appos
@@ -474,9 +474,9 @@
 23	diplomático	diplomático	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	21	dobj
 24	chileno	chileno	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	23	amod
 25	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	21	oobj
-26	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	27	punct
+26	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	27	punct
 27	mentir	mentir	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	25	pobj
-28	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	27	punct
+28	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	27	punct
 29	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	27	dobj
 30	Madrid	Madrid	np00000	np00000	rep=no|t=no|r=yes|m=yes	29	pobj
 31	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	27	coord_fixed
@@ -574,7 +574,7 @@
 38	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	37	prepn
 39	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	40	det
 40	conversación	conversación	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	38	pobj
-41	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	34	punct
+41	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	34	punct
 42	.	.	fp	fp	rep=no|t=no|r=no|m=no	20	punct
 
 1	Insulza	Insulza	np00000	np00000	rep=no|t=yes|r=no|m=yes	12	nsubj

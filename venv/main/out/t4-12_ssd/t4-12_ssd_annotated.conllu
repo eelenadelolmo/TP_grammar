@@ -29,7 +29,7 @@
 5	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	pobj
 6	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	attr
 7	Bellerofón	Bellerofón	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	pobj
-8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 9	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	det
 10	Chimera	Chimera	np0000a	np0000a	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	attr
 11	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	prepn
@@ -93,7 +93,7 @@
 39	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	prepn
 40	los	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	det
 41	Ríos	Ríos	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	pobj
-42	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	49	punct
+42	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	49	punct
 43	tan	tanto	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	44	advmod
 44	genialmente	genialmente	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	45	advmod
 45	líricas	lírico	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	dep
@@ -117,7 +117,7 @@
 
 1	Definiciones	definición	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 2	infantiles	infantil	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	amod
-3	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=no	21	punct
+3	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
 4	Todos	todo	di0mp0	di0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	det
 5	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	det
 6	primitos	primito	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	10	nsubj
@@ -135,7 +135,7 @@
 18	ellas	él	pp3fp000	pp3fp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	nsubj
 19	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
 20	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
-21	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	1	coord_fixed
+21	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	coord_fixed
 22	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	det
 23	doncellas	doncella	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	nsubj
 24	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	prepn
@@ -215,7 +215,7 @@
 3	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	reflec
 4	hace	hacer	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	coord
 5	vieja	viejo	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	cpred
-6	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	15	coord_fixed
+6	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	coord_fixed
 7	tal	tal	pr0ms000	pr0ms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	nsubj
 8	vez	vez	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	advmod
 9	debería	deber	vmic3s0	vmic3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	coord
@@ -227,7 +227,7 @@
 15	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 16	sigue	seguir	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	coord
 17	fornicando	fornicar	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	dobj
-18	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	15	coord_fixed
+18	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	coord_fixed
 19	engendrando	engendrar	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	coord
 20	monstruos	monstruo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	dobj
 21	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	15	punct

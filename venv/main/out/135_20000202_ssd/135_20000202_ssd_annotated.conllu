@@ -70,7 +70,7 @@
 26	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	poss
 27	nuevo	nuevo	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	amod
 28	disco	disco	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	pobj
-29	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+29	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 30	Un	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	det
 31	mar	mar	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	appos
 32	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	prepn
@@ -160,7 +160,7 @@
 8	fáciles	fácil	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	cpred
 9	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	prepa
 10	grabar	grabar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	punct
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	punct
 12	mientras	mientras	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 13	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	cobj
 14	Sentir	Sentir	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	nsubj
@@ -209,7 +209,7 @@
 7	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	prepv
 8	mi	mi	dp1css	dp1css	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	poss
 9	casa	casa	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	pobj
-10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
+10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	punct
 11	relajados	relajado	aq0mpp	aq0mpp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	advcl
 12	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	coord_fixed
 13	tocando	tocar	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	advcl
@@ -225,8 +225,8 @@
 8	premeditado	premeditado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	amod
 9	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
 
-1	Ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
-2	siquiera	siquiera	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	1	advmod
+1	Ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
+2	siquiera	siquiera	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	advmod
 3	me	yo	p010s000	p010s000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	dobj
 4	planteé	plantear	vmis1s0	vmis1s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 5	hacer	hacer	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	dobj
@@ -298,7 +298,7 @@
 8	abundan	abundar	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 9	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	det
 10	atmósferas	atmósfera	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	nsubj
-11	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+11	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 12	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	det
 13	medios	medio	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	amod
 14	tiempos	tiempo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	nsubj
@@ -371,7 +371,7 @@
 4	La	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	det
 5	edad	edad	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	10	nsubj
 6	adulta	adulto	aq0fs0	aq0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	amod
-7	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	10	coord_fixed
+7	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	coord_fixed
 8	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	det
 9	rock	rock	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	10	nsubj
 10	son	ser	vsip3p0	vsip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
@@ -436,7 +436,7 @@
 17	cambiado	cambiar	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=no|main=no	16	vobj
 18	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	10	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	coord_fixed
 2	si	si	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	10	advcl
 3	hubiera	haber	vasi3s0	vasi3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	2	cobj
 4	cambiado	cambiar	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=no|main=no	3	vobj
@@ -531,7 +531,7 @@
 8	pleitesía	pleitesía	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	dobj
 9	7	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	iobj
 10	nadie	nadie	pi0cs000	pi0cs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 12	ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	coord_fixed
 13	siquiera	siquiera	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	advmod
 14	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	prepn
@@ -769,7 +769,7 @@
 4	pillan	pillar	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	coord
 5	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	advmod
 6	lejos	lejos	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	advmod
-7	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	16	coord_fixed
+7	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	coord_fixed
 8	puedo	poder	vmip1s0	vmip1s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	coord
 9	hablar	hablar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	dobj
 10	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	prepv
@@ -787,7 +787,7 @@
 22	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	oobj
 23	gente	gente	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	pobj
 24	española	español	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	amod
-25	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	16	coord_fixed
+25	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	coord_fixed
 26	me	yo	pp1cs000	pp1cs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	iobj
 27	parece	parecer	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	coord
 28	poco	poco	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	advmod

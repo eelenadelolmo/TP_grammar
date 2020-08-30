@@ -80,7 +80,7 @@
 24	terceros	tercero	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	22	pobj
 25	perjudicados	perjudicado	aq0mpp	aq0mpp	rep=no|t=no|r=no|m=yes	24	amod
 26	,	,	fc	fc	rep=no|t=no|r=no|m=yes	0	root
-27	pero	pero	cc	cc	rep=no|t=no|r=no|m=no	26	coord_fixed
+27	pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	26	coord_fixed
 28	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	14	prepv
 29	ningún	ninguno	di0ms0	di0ms0	rep=no|t=no|r=no|m=yes	30	det
 30	caso	caso	ncms000	ncms000	rep=no|t=no|r=no|m=yes	28	pobj
@@ -112,7 +112,7 @@
 21	libremente	libremente	rg	rg	rep=no|t=no|r=no|m=yes	20	advmod
 22	.	.	fp	fp	rep=no|t=no|r=no|m=no	15	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	10	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	10	coord_fixed
 2	en	en	sps00	sps00	rep=no|t=no|r=no|m=no	10	advmod
 3	todo	todo	di0fs0	di0fs0	rep=no|t=no|r=no|m=no	4	det
 4	caso	caso	ncfs000	ncfs000	rep=no|t=no|r=no|m=no	2	pobj
@@ -199,7 +199,7 @@
 22	razonables	razonable	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	21	amod
 23	.	.	fp	fp	rep=no|t=no|r=no|m=no	16	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	6	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	6	coord_fixed
 2	,	,	fc	fc	rep=no|t=no|r=no|m=no	6	punct
 3	¿	¿	fia	fia	rep=no|t=no|r=no|m=no	6	punct
 4	a	a	sps00	sps00	rep=no|t=no|r=no|m=yes	6	oobj

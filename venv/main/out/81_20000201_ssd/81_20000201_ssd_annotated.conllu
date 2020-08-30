@@ -55,7 +55,7 @@
 15	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	prepv
 16	modo	modo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
 17	inmediato	inmediato	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	amod
-18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 19	especialmente	especialmente	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	advmod
 20	por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
 21	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	det
@@ -74,7 +74,7 @@
 34	Ministerio	ministerio	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	pobj
 35	del	del	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	prepn
 36	Interior	Interior	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	pobj
-37	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	punct
+37	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	punct
 38	responsables	responsable	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	amod
 39	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	prepa
 40	tramitar	tramitar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	pobj
@@ -174,7 +174,7 @@
 5	sido	ser	vsp00sm	vsp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	vobj
 6	muy	mucho	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	advmod
 7	rápida	rápido	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	cpred
-8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	31	coord_fixed
+8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	coord_fixed
 9	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	det
 10	Administración	Administración	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	nsubj
 11	está	estar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	cobj
@@ -290,7 +290,7 @@
 33	1	1	zp	zp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	pobj
 34	de	de	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	prep
 35	junio	junio	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	pobj
-36	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	39	punct
+36	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	punct
 37	cuyo	cuyo	pr0ms000	pr0ms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	det
 38	borrador	borrador	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	nsubj
 39	fue	ser	vsis3s0	vsis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	prepn
@@ -329,8 +329,8 @@
 23	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	prepn
 24	dos	dos	dn0cp0	dn0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	det
 25	meses	mes	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	pobj
-26	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
-27	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+26	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
+27	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 28	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	prepn
 29	22	22	zp	zp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	pobj
 30	de	de	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	prep
@@ -339,8 +339,8 @@
 33	28	28	zp	zp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	pobj
 34	de	de	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	prep
 35	abril	abril	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	pobj
-36	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
-37	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+36	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
+37	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 38	previsto	previsto	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	amod
 39	inicialmente	inicialmente	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	advmod
 40	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	prepv

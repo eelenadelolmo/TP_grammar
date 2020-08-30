@@ -19,7 +19,7 @@
 19	Escolares	escolar	nccp000	nccp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
 20	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	prepn
 21	Badalona	Badalona	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	pobj
-22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	punct
+22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	punct
 23	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	nsubj
 24	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	reflec
 25	ahogaron	ahogar	vmis3p0	vmis3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	rcmod
@@ -49,12 +49,12 @@
 11	otros	otro	di0mp0	di0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	det
 12	tres	tres	dn0cp0	dn0cp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	det
 13	monitores	monitor	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	nsubj
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	19	punct
+14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	punct
 15	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	det
 16	profesor	profesor	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	nsubj
 17	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	prepn
 18	gimnasia	gimnasia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	pobj
-19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 20	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	det
 21	dueño	dueño	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	nsubj
 22	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	prepn
@@ -87,7 +87,7 @@
 20	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	det
 21	tres	tres	dn0cp0	dn0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	det
 22	monitores	monitor	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
-23	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	15	coord_fixed
+23	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	coord_fixed
 24	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	det
 25	orden	orden	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	dobj
 26	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	prepn
@@ -102,12 +102,12 @@
 35	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	prepn
 36	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	det
 37	hechos	hecho	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	pobj
-38	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	punct
+38	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	punct
 39	también	también	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	advmod
 40	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	det
 41	próxima	próximo	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	amod
 42	semana	semana	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	tmod
-43	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	punct
+43	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	punct
 44	según	según	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	15	advcl
 45	fuentes	fuente	ncfp000	ncfp000	recursive=yes|rep=yes|theme=no|rheme=no|main=no	44	pobj
 46	judiciales	judicial	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=no|main=no	45	amod
@@ -133,7 +133,7 @@
 18	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	prepn
 19	colegio	colegio	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
 20	Badalonès	Badalonès	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	appos
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	punct
 22	donde	donde	pr000000	pr000000	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	dobj
 23	estudiaban	estudiar	vmii3p0	vmii3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	rcmod
 24	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	det

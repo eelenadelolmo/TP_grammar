@@ -28,7 +28,7 @@
 17	Primera	primero	ao0fs0	ao0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	amod
 18	División	División	np0000a	np0000a	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
 19	española	español	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	amod
-20	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
+20	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	punct
 21	360	360	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	dep
 22	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	dep
 23	jugador	jugador	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	cobj
@@ -36,7 +36,7 @@
 25	640	640	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	dep
 26	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	dep
 27	técnico	técnico	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	cobj
-28	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
+28	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	punct
 29	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	prepv
 30	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	det
 31	buen	buen	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	amod
@@ -98,7 +98,7 @@
 24	dos	dos	dn0cp0	dn0cp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	det
 25	tantos	tanto	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	pobj
 26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	punct
-27	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	18	coord_fixed
+27	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	coord_fixed
 28	Donato	Donato	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	nsubj
 29	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
 30	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	31	nsubj

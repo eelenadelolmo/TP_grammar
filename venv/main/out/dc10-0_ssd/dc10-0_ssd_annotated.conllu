@@ -93,7 +93,7 @@
 16	presencia	presencia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	pobj
 17	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	prepn
 18	invasor	invasor	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
-19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	10	coord_fixed
+19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	coord_fixed
 20	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	oobj
 21	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	poss
 22	cruel	cruel	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	amod
@@ -247,7 +247,7 @@
 24	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	advmod
 25	momento	momento	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
 26	inatacables	inatacable	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	attr
-27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	punct
+27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	punct
 28	una	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	det
 29	vez	vez	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	dep
 30	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	nsubj
@@ -279,15 +279,15 @@
 19	forma	forma	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
 20	momentánea	momentáneo	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	amod
 21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
-22	sino	sino	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	21	coord_fixed
-23	que	que	pi0cs000	pi0cs000	recursive=no|rep=no|theme=no|rheme=no|main=no	22	cobj
-24	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=no	25	det
-25	organismo	organismo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	26	nsubj
-26	queda	quedar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	23	cobj
-27	prácticamente	prácticamente	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	28	advmod
-28	inmunizado	inmunizado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=no|main=no	26	cpred
-29	contra	contra	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	28	prepa
-30	ella	él	pp3fs000	pp3fs000	recursive=no|rep=no|theme=no|rheme=no|main=no	29	pobj
+22	sino	sino	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	coord_fixed
+23	que	que	pi0cs000	pi0cs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	cobj
+24	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	det
+25	organismo	organismo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	nsubj
+26	queda	quedar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	cobj
+27	prácticamente	prácticamente	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	advmod
+28	inmunizado	inmunizado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	cpred
+29	contra	contra	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	prepa
+30	ella	él	pp3fs000	pp3fs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	pobj
 31	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	21	punct
 
 1	Según	según	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	prepv

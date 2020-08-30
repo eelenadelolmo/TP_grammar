@@ -67,12 +67,12 @@
 10	asumen	asumir	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	rcmod
 11	esta	este	dd0fs0	dd0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	det
 12	cirugía	cirugía	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	dobj
-13	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
+13	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	punct
 14	Clínic	Clínic	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	dep
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	punct
 16	Sant	Sant	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	dep
 17	Pau	Pau	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	appos
-18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
+18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	punct
 19	Vall	Vall	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	nsubj
 20	d'Hebron	d'Hebron	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	dep
 21	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	coord_fixed

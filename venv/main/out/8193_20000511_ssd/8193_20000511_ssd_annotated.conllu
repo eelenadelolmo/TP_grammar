@@ -40,7 +40,7 @@
 4	aseguró	asegurar	vmis3s0	vmis3s0	recursive=no|rep=yes|theme=no|rheme=no|main=no	1	rcmod
 5	que	que	cs	cs	recursive=no|rep=yes|theme=no|rheme=no|main=no	4	dobj
 6	seguirá	seguir	vmif3s0	vmif3s0	recursive=no|rep=yes|theme=no|rheme=no|main=no	5	cobj
-7	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	47	punct
+7	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	47	punct
 8	luchando	luchar	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	46	advcl
 9	por	por	sps00	sps00	recursive=no|rep=yes|theme=no|rheme=no|main=no	6	oobj
 10	la	el	da0fs0	da0fs0	recursive=no|rep=yes|theme=no|rheme=no|main=no	11	det
@@ -61,7 +61,7 @@
 25	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	24	dobj
 26	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	27	poss
 27	pensamiento	pensamiento	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	41	nsubj
-28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	41	punct
+28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	punct
 29	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	punct
 30	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	advmod
 31	allá	allá	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	41	advmod
@@ -73,7 +73,7 @@
 37	ocurrir	ocurrir	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	36	dobj
 38	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	iobj
 39	mi	mi	pp1cso00	pp1cso00	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	pobj
-40	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	41	punct
+40	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	punct
 41	está	estar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	cobj
 42	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	prepv
 43	todas	todo	di0fp0	di0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	45	det
@@ -81,7 +81,7 @@
 45	víctimas	víctima	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	pobj
 46	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	45	prepn
 47	ETA	ETA	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
-48	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	41	punct
+48	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	punct
 49	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	24	punct
 
 1	Según	según	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	9	advcl
@@ -110,7 +110,7 @@
 24	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	det
 25	pasado	pasado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	amod
 26	lunes	lunes	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	dobj
-27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	punct
+27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	punct
 28	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	det
 29	día	día	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	dep
 30	después	después	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	advmod
@@ -418,10 +418,10 @@
 49	concejales	concejal	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	50	nsubj
 50	sufren	sufrir	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	65	cobj
 51	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	53	det
-52	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	53	punct
+52	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	53	punct
 53	violencia	violencia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	50	cobj
 54	urbana	urbano	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	53	amod
-55	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	53	punct
+55	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	53	punct
 56	contra	contra	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	53	prepn
 57	sus	su	dp3cp0	dp3cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	58	poss
 58	casas	casa	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	56	pobj
@@ -503,7 +503,7 @@
 23	aseguró	asegurar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	0	root
 24	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	23	dobj
 25	tiene	tener	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	cobj
-26	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
+26	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	punct
 27	cantidad	cantidad	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	amod
 28	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	prepn
 29	llamadas	llamada	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	dobj
@@ -512,7 +512,7 @@
 32	ha	haber	vaip3s0	vaip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	rcmod
 33	podido	poder	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	vobj
 34	atender	atender	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	vobj
-35	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
+35	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	punct
 36	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	23	punct
 
 1	Txiqui	Txiqui	np0000l	np0000l	recursive=no|rep=yes|theme=no|rheme=no|main=no	3	nsubj
@@ -535,7 +535,7 @@
 18	toda	todo	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	det
 19	mi	mi	dp1css	dp1css	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	poss
 20	vida	vida	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	tmod
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 22	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	det
 23	paz	paz	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	dep
 24	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	coord_fixed
@@ -644,7 +644,7 @@
 18	acuerdo	acuerdo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
 19	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	prep
 20	algo	algo	pi0cs000	pi0cs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
-21	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+21	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 22	tan	tanto	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	advmod
 23	simple	simple	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	amod
 24	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	dep
@@ -658,7 +658,7 @@
 32	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	dep
 33	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	det
 34	libertad	libertad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	pobj
-35	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+35	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 36	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	7	punct
 
 1	Sobre	sobre	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	advcl
@@ -722,7 +722,7 @@
 59	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	56	prepn
 60	EH	EH	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	59	pobj
 61	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	63	punct
-62	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	24	coord_fixed
+62	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	coord_fixed
 63	insistió	insistir	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	conj
 64	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	63	oobj
 65	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	64	pobj

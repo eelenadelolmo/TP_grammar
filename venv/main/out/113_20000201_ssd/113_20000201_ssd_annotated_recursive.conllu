@@ -35,12 +35,12 @@
 23	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	24	det
 24	problemas	problema	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	22	dobj
 25	sociales	social	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	24	amod
-26	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=yes|m=yes	27	dobj
-27	plantea	plantear	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	24	rcmod
-28	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	29	det
-29	mundialización	mundialización	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	27	nsubj
-30	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	29	prepn
-31	comercio	comercio	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	30	pobj
+26	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	27	dobj
+27	plantea	plantear	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	24	rcmod
+28	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	29	det
+29	mundialización	mundialización	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	27	nsubj
+30	del	del	spcms	spcms	rep=no|t=no|r=no|m=yes	29	prepn
+31	comercio	comercio	ncms000	ncms000	rep=no|t=no|r=no|m=yes	30	pobj
 32	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	10	punct
 33	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	10	punct
 34	tras	tras	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepv
@@ -307,7 +307,7 @@
 8	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	9	det
 9	Red	Red	np00000	np00000	rep=no|t=yes|r=no|m=yes	7	pobj
 10	sea	ser	vssp3s0	vssp3s0	rep=no|t=no|r=yes|m=yes	4	cobj
-11	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	10	punct
+11	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	10	punct
 12	respetuoso	respetuoso	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	10	attr
 13	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepv
 14	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	15	det
@@ -319,7 +319,7 @@
 20	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	21	poss
 21	sistema	sistema	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	13	pobj
 22	fiscal	fiscal	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	21	amod
-23	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	10	punct
+23	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	10	punct
 24	,	,	fc	fc	rep=no|t=no|r=no|m=no	25	punct
 25	indicó	indicar	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	0	root
 26	Case	Case	np00000	np00000	rep=no|t=no|r=no|m=yes	25	nsubj
@@ -421,7 +421,7 @@
 14	40	40	z	z	rep=no|t=no|r=yes|m=yes	11	num
 15	horas	hora	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	18	cobj
 16	mensuales	mensual	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	15	amod
-17	,	,	fc	fc	rep=no|t=no|r=no|m=yes	18	punct
+17	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	18	punct
 18	frente	frente	rg	rg	rep=no|t=no|r=yes|m=yes	8	dep
 19	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	18	prep
 20	las	el	da0fp0	da0fp0	rep=no|t=no|r=yes|m=yes	21	det

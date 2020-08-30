@@ -34,7 +34,7 @@
 8	ellos	él	pp3mp000	pp3mp000	rep=no|t=no|r=no|m=yes	7	pobj
 9	.	.	fp	fp	rep=no|t=no|r=no|m=no	5	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 2	sin	sin	sps00	sps00	rep=no|t=no|r=no|m=yes	4	te
 3	embargo	embargo	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	2	pobj
 4	son	ser	vsip3p0	vsip3p0	rep=no|t=no|r=no|m=yes	0	root
@@ -90,8 +90,8 @@
 4	mortal	mortal	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=yes	3	amod
 5	sucede	suceder	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	0	root
 6	otro	otro	pi0ms000	pi0ms000	rep=no|t=no|r=no|m=yes	5	nsubj
-7	,	,	fc	fc	rep=no|t=no|r=no|m=no	8	punct
-8	y	y	cc	cc	rep=no|t=no|r=no|m=no	5	coord_fixed
+7	,	,	fc	fc	rep=no|t=no|r=no|m=yes	8	punct
+8	y	y	cc	cc	rep=no|t=no|r=no|m=yes	5	coord_fixed
 9	otro	otro	pi0ms000	pi0ms000	rep=no|t=no|r=no|m=yes	5	nsubj
 10	más	más	rg	rg	rep=no|t=no|r=no|m=yes	9	advmod
 11	,	,	fc	fc	rep=no|t=no|r=no|m=no	5	punct
@@ -173,7 +173,7 @@
 27	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	26	prepv
 28	temperatura	temperatura	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	27	pobj
 29	corporal	corporal	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	28	amod
-30	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	25	punct
+30	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	25	punct
 31	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
 
 1	El	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	2	det
@@ -263,11 +263,11 @@
 11	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	9	prepn
 12	organismo	organismo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	11	pobj
 13	humano	humano	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	12	amod
-14	:	:	fd	fd	rep=no|t=no|r=no|m=yes	20	punct
+14	:	:	fd	fd	rep=no|t=no|r=yes|m=yes	20	punct
 15	sangre	sangre	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	9	dep
-16	,	,	fc	fc	rep=no|t=no|r=no|m=yes	20	punct
+16	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	20	punct
 17	saliva	saliva	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	9	dep
-18	,	,	fc	fc	rep=no|t=no|r=no|m=yes	20	punct
+18	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	20	punct
 19	lágrimas	lágrima	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	9	dep
 20	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	9	coord_fixed
 21	esperma	esperma	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	9	dep

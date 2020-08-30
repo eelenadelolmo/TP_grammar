@@ -62,18 +62,18 @@
 
 1	Aitor	Aitor	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	17	nsubj
 2	Garmendia	Garmendia	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	1	appos
-3	,	,	fc	fc	rep=no|t=no|r=no|m=no	14	punct
+3	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
 4	José	José	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	17	nsubj
 5	Luis	luis	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	4	appos
 6	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	4	prepn
 7	Santos	santo	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	6	pobj
-8	,	,	fc	fc	rep=no|t=no|r=no|m=no	14	punct
+8	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
 9	Marino	marino	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	17	nsubj
 10	Alonso	alonso	np00000	np00000	rep=no|t=yes|r=no|m=yes	9	appos
-11	,	,	fc	fc	rep=no|t=no|r=no|m=no	14	punct
+11	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
 12	Melchor	Melchor	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	17	nsubj
 13	Mauri	Mauri	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	12	appos
-14	y	y	cc	cc	rep=no|t=no|r=no|m=no	17	coord_fixed
+14	y	y	cc	cc	rep=no|t=no|r=no|m=yes	17	coord_fixed
 15	Carmelo	carmelo	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	17	nsubj
 16	Miranda	miranda	nc00000	nc00000	rep=no|t=yes|r=no|m=yes	15	appos
 17	fueron	ir	vmis3p0	vmis3p0	rep=no|t=no|r=yes|m=yes	0	root
@@ -82,7 +82,7 @@
 20	etapa	etapa	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	17	dobj
 21	.	.	fp	fp	rep=no|t=no|r=no|m=no	17	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	6	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	6	coord_fixed
 2	los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	4	det
 3	&quot;	&quot;	fe	fe	rep=no|t=yes|r=no|m=yes	4	punct
 4	mapei	mapei	ncmn000	ncmn000	rep=no|t=yes|r=no|m=yes	6	nsubj
@@ -159,7 +159,7 @@
 4	aguantaron	aguantar	vmis3p0	vmis3p0	rep=no|t=no|r=no|m=yes	0	root
 5	Mikel	Mikel	np0000l	np0000l	rep=no|t=no|r=no|m=yes	4	nsubj
 6	Zarrabeitia	Zarrabeitia	np0000l	np0000l	rep=no|t=no|r=no|m=yes	5	appos
-7	y	y	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+7	y	y	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 8	,	,	fc	fc	rep=no|t=no|r=no|m=yes	12	punct
 9	más	más	rg	rg	rep=no|t=no|r=no|m=yes	10	advmod
 10	retrasado	retrasado	aq0msp	aq0msp	rep=no|t=no|r=no|m=yes	12	amod
@@ -173,7 +173,7 @@
 3	siguen	seguir	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	0	root
 4	perdiendo	perder	vmg0000	vmg0000	rep=no|t=no|r=yes|m=yes	3	dobj
 5	minutos	minuto	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	3	dobj
-6	y	y	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+6	y	y	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 7	puestos	puesto	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	3	dobj
 8	en	en	sps00	sps00	rep=no|t=no|r=no|m=no	3	prepv
 9	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=no	10	det
@@ -193,7 +193,7 @@
 11	cabeza	cabeza	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	10	pobj
 12	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	5	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	5	coord_fixed
 2	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	3	det
 3	suizo	suizo	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	5	nsubj
 4	difícilmente	difícilmente	rg	rg	rep=no|t=no|r=no|m=no	5	advmod

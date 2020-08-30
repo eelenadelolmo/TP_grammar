@@ -1,6 +1,6 @@
 1	El	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
 2	Gobierno	Gobierno	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
-3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 4	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	det
 5	artistas	artista	nccp000	nccp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
 6	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	prepn
@@ -13,7 +13,7 @@
 13	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	prepn
 14	George	George	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
 15	Harrison	Harrison	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	appos
-16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
 17	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	nsubj
 18	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	prepv
 19	1971	1971	z	z	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	pobj
@@ -98,7 +98,7 @@
 18	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	prepn
 19	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	poss
 20	pueblo	pueblo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	punct
 22	independizado	independizado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	amod
 23	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	oobj
 24	Pakistán	Pakistán	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	pobj

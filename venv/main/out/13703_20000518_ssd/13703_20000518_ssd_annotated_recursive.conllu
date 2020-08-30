@@ -585,15 +585,15 @@
 21	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	22	poss
 22	papel	papel	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	20	dobj
 23	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	22	prepn
-24	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	25	punct
+24	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	25	punct
 25	patrones	patrón	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	23	pobj
-26	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	25	punct
+26	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	25	punct
 27	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	22	prepn
 28	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	29	det
 29	centro	centro	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	27	pobj
 30	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	29	prepn
 31	campo	campo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	30	pobj
-32	,	,	fc	fc	rep=no|t=no|r=no|m=yes	37	punct
+32	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	37	punct
 33	recuperaron	recuperar	vmis3p0	vmis3p0	rep=no|t=no|r=yes|m=yes	13	cobj
 34	cien	cien	dn0cp0	dn0cp0	rep=no|t=no|r=yes|m=yes	35	det
 35	balones	balón	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	33	dobj
@@ -607,7 +607,7 @@
 
 1	La	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	2	det
 2	posición	posición	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	10	nsubj
-3	y	y	cc	cc	rep=no|t=no|r=no|m=no	10	coord_fixed
+3	y	y	cc	cc	rep=no|t=no|r=no|m=yes	10	coord_fixed
 4	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	5	det
 5	esfuerzo	esfuerzo	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	10	nsubj
 6	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	5	prepn
@@ -639,7 +639,7 @@
 32	marcas	marca	ncfp000	ncfp000	rep=no|t=no|r=no|m=no	30	pobj
 33	.	.	fp	fp	rep=no|t=no|r=no|m=no	10	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	7	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	7	coord_fixed
 2	como	como	cs	cs	rep=no|t=no|r=no|m=yes	7	dep
 3	los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	4	det
 4	delanteros	delantero	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	6	nsubj
@@ -798,14 +798,14 @@
 8	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	6	prepn
 9	River	River	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	8	pobj
 10	Plate	Plate	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	9	appos
-11	,	,	fc	fc	rep=no|t=no|r=no|m=yes	9	punct
+11	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	9	punct
 12	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	9	rcmod
 13	retrasó	retrasar	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	9	rcmod
 14	un	uno	di0mp0	di0mp0	rep=no|t=no|r=no|m=yes	15	det
 15	poco	poco	rg	rg	rep=no|t=no|r=no|m=yes	13	advmod
 16	sus	su	dp3cp0	dp3cp0	rep=no|t=no|r=no|m=yes	17	poss
 17	líneas	línea	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	13	dobj
-18	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+18	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 19	resistió	resistir	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	9	rcmod
 20	los	el	da0mp0	da0mp0	rep=no|t=no|r=no|m=yes	22	det
 21	desordenados	desordenado	aq0mpp	aq0mpp	rep=no|t=no|r=no|m=yes	22	amod
@@ -824,11 +824,11 @@
 
 1	Los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	2	det
 2	boquenses	boquense	nc00000	nc00000	rep=no|t=yes|r=no|m=yes	9	nsubj
-3	,	,	fc	fc	rep=no|t=no|r=no|m=yes	9	punct
+3	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	9	punct
 4	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	9	prepv
 5	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	6	poss
 6	vez	vez	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	4	pobj
-7	,	,	fc	fc	rep=no|t=no|r=no|m=yes	9	punct
+7	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	9	punct
 8	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	9	neg
 9	mostraron	mostrar	vmis3p0	vmis3p0	rep=no|t=no|r=yes|m=yes	14	coord
 10	contundencia	contundencia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	9	dobj

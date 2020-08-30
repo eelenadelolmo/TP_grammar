@@ -28,7 +28,7 @@
 28	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	20	prepv
 29	dos	dos	dn0cp0	dn0cp0	rep=no|t=no|r=yes|m=yes	30	det
 30	sets	set	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	28	pobj
-31	,	,	fc	fc	rep=no|t=no|r=no|m=yes	30	punct
+31	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	30	punct
 32	7-6	7-6	z	z	rep=no|t=no|r=yes|m=yes	30	dep
 33	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	17	punct
 34	7-0	7-0	z	z	rep=no|t=no|r=no|m=yes	17	num
@@ -52,7 +52,7 @@
 13	checo	checo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	11	pobj
 14	Radek	Radek	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	13	appos
 15	Stepanek	Stepanek	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	14	appos
-16	,	,	fc	fc	rep=no|t=no|r=no|m=yes	13	punct
+16	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	13	punct
 17	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	18	nsubj
 18	dio	dar	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	13	rcmod
 19	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	20	det

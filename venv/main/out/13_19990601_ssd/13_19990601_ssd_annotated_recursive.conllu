@@ -33,7 +33,7 @@
 12	habitual	habitual	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	11	amod
 13	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	11	prepn
 14	litronas	litrona	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	13	pobj
-15	,	,	fc	fc	rep=no|t=no|r=no|m=yes	17	punct
+15	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	17	punct
 16	altercados	altercado	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	13	pobj
 17	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	13	coord_fixed
 18	temor	temor	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	13	pobj
@@ -49,7 +49,7 @@
 28	civilizado	civilizado	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	26	amod
 29	.	.	fp	fp	rep=no|t=no|r=no|m=no	8	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 2	¿	¿	fia	fia	rep=no|t=no|r=no|m=no	4	punct
 3	no	no	rn	rn	rep=no|t=no|r=no|m=yes	4	neg
 4	eran	ser	vsii3p0	vsii3p0	rep=no|t=no|r=no|m=yes	0	root
@@ -71,7 +71,7 @@
 6	gentleman	gentleman	ncmn000	ncmn000	rep=no|t=no|r=no|m=yes	3	nsubj
 7	del	del	spcms	spcms	rep=no|t=no|r=no|m=yes	6	prepn
 8	bombín	bombín	ncms000	ncms000	rep=no|t=no|r=no|m=yes	7	pobj
-9	y	y	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+9	y	y	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 10	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	12	det
 11	irónico	irónico	aq0ms0	aq0ms0	rep=no|t=no|r=no|m=yes	12	amod
 12	humor	humor	ncms000	ncms000	rep=no|t=no|r=no|m=yes	3	nsubj
@@ -188,7 +188,7 @@
 38	avinagrado	avinagrado	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	39	amod
 39	carácter	carácter	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	36	cobj
 40	flemático	flemático	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	39	dep
-41	,	,	fc	fc	rep=no|t=no|r=no|m=yes	43	punct
+41	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	43	punct
 42	inalterable	inalterable	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	39	dep
 43	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	39	coord_fixed
 44	estreñido	estreñido	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	39	dep
@@ -202,8 +202,8 @@
 6	cabe	caber	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	0	root
 7	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	8	det
 8	paciencia	paciencia	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	6	nsubj
-9	,	,	fc	fc	rep=no|t=no|r=no|m=no	10	punct
-10	y	y	cc	cc	rep=no|t=no|r=no|m=no	6	coord_fixed
+9	,	,	fc	fc	rep=no|t=no|r=no|m=yes	10	punct
+10	y	y	cc	cc	rep=no|t=no|r=no|m=yes	6	coord_fixed
 11	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	12	det
 12	ridículo	ridículo	ncms000	ncms000	rep=no|t=no|r=no|m=yes	6	nsubj
 13	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	12	prepn

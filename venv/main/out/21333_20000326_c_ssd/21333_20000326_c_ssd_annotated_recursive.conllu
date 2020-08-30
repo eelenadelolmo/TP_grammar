@@ -24,9 +24,9 @@
 12	al	al	sps00	sps00	rep=no|t=no|r=yes|m=yes	11	prep
 13	Real	real	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	9	pobj
 14	Madrid	Madrid	np00000	np00000	rep=no|t=no|r=yes|m=yes	13	appos
-15	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	16	punct
+15	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	16	punct
 16	0-0	0-0	z	z	rep=no|t=no|r=yes|m=yes	4	dobj
-17	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	16	punct
+17	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	16	punct
 18	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 19	puso	poner	vmp00sm	vmp00sm	rep=no|t=no|r=no|m=yes	18	coord
 20	fin	fin	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	19	dobj
@@ -91,7 +91,7 @@
 8	rey	rey	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	6	attr
 9	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	8	prepn
 10	empate	empate	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	9	pobj
-11	,	,	fc	fc	rep=no|t=no|r=no|m=yes	10	punct
+11	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	10	punct
 12	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepn
 13	13	13	z	z	rep=no|t=no|r=yes|m=yes	12	pobj
 14	.	.	fp	fp	rep=no|t=no|r=no|m=no	6	punct

@@ -181,7 +181,7 @@
 115	.	.	fp	fp	rep=no|t=no|r=no|m=no	73	punct
 
 1	Batallas	batalla	ncfp000	ncfp000	rep=no|t=yes|r=no|m=yes	4	nsubj
-2	y	y	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+2	y	y	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 3	condecoraciones	condecoración	ncfp000	ncfp000	rep=no|t=yes|r=no|m=yes	4	nsubj
 4	están	estar	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	0	root
 5	ridiculizadas	ridiculizado	aq0fpp	aq0fpp	rep=no|t=no|r=yes|m=yes	4	attr
@@ -227,10 +227,10 @@
 2	libro	libro	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	3	nsubj
 3	es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=yes|m=yes	9	coord
 4	divertido	divertido	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	3	attr
-5	,	,	fc	fc	rep=no|t=no|r=no|m=yes	3	punct
+5	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	3	punct
 6	muy	mucho	rg	rg	rep=no|t=no|r=yes|m=yes	7	advmod
 7	divertido	divertido	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	3	attr
-8	,	,	fc	fc	rep=no|t=no|r=no|m=yes	3	punct
+8	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	3	punct
 9	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 10	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=no|m=yes	11	poss
 11	estilo	estilo	ncms000	ncms000	rep=no|t=no|r=no|m=yes	9	coord
@@ -282,11 +282,11 @@
 26	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	27	det
 27	tipejo	tipejo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	25	attr
 28	cómico	cómico	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	27	amod
-29	,	,	fc	fc	rep=no|t=no|r=no|m=yes	31	punct
+29	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	31	punct
 30	trágico	trágico	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	27	amod
 31	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	27	coord_fixed
 32	burlesco	burlesco	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	27	amod
-33	,	,	fc	fc	rep=no|t=no|r=no|m=yes	25	punct
+33	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	25	punct
 34	según	según	cs	cs	rep=no|t=no|r=yes|m=yes	25	advcl
 35	nos	yo	pp1cp000	pp1cp000	rep=no|t=no|r=yes|m=yes	37	iobj
 36	lo	él	pp3msa00	pp3msa00	rep=no|t=no|r=yes|m=yes	38	dobj

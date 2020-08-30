@@ -9,7 +9,7 @@
 
 1	El	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
 2	Zaragoza	Zaragoza	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	16	nsubj
-3	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+3	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 4	gracias	gracia	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	prepv
 5	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	prepn
 6	dos	dos	dn0cp0	dn0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	det
@@ -20,7 +20,7 @@
 11	Miguel	miguel	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	appos
 12	`Toro`	`Toro`	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	appos
 13	Acuña	Acuña	np0000a	np0000a	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	appos
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 15	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	reflec
 16	hizo	hacer	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	coord
 17	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	oobj
@@ -31,9 +31,9 @@
 22	visita	visita	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	pobj
 23	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	prepn
 24	Vitoria	Vitoria	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	pobj
-25	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	punct
+25	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	punct
 26	0-2	0-2	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	dobj
-27	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	punct
+27	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	punct
 28	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 29	arrebató	arrebatar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	coord
 30	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	det

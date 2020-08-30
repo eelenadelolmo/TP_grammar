@@ -184,7 +184,7 @@
 26	convocado	convocado	aq0msp	aq0msp	rep=no|t=no|r=no|m=yes	25	attr
 27	.	.	fp	fp	rep=no|t=no|r=no|m=no	25	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	7	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	7	coord_fixed
 2	lo	el	da0ns0	da0ns0	rep=no|t=yes|r=no|m=yes	3	det
 3	restante	restante	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	7	nsubj
 4	del	del	spcms	spcms	rep=no|t=yes|r=no|m=yes	3	prepn
@@ -287,7 +287,7 @@
 16	hecho	hacer	vmp00sm	vmp00sm	rep=no|t=no|r=no|m=yes	15	vobj
 17	.	.	fp	fp	rep=no|t=no|r=no|m=no	11	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 2	ahí	ahí	rg	rg	rep=no|t=no|r=no|m=no	3	advmod
 3	está	estar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	0	root
 4	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	5	det
@@ -384,7 +384,7 @@
 15	-	-	fg	fg	rep=no|t=no|r=no|m=no	13	punct
 16	añadido	añadido	aq0msp	aq0msp	rep=no|t=no|r=no|m=no	13	amod
 17	)	)	fpt	fpt	rep=no|t=no|r=no|m=no	10	punct
-18	;	;	fx	fx	rep=no|t=no|r=no|m=no	38	punct
+18	;	;	fx	fx	rep=no|t=no|r=no|m=yes	38	punct
 19	cuando	cuando	cs	cs	rep=no|t=no|r=no|m=no	51	advcl
 20	se	se	p0000000	p0000000	rep=no|t=no|r=no|m=no	21	reflec
 21	cambia	cambiar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=no	19	cobj
@@ -403,8 +403,8 @@
 34	al	al	spcms	spcms	rep=no|t=no|r=no|m=no	25	dep
 35	tercer	tercero	ao0ms0	ao0ms0	rep=no|t=no|r=no|m=no	36	amod
 36	extranjero	extranjero	ncms000	ncms000	rep=no|t=no|r=no|m=no	34	pobj
-37	,	,	fc	fc	rep=no|t=no|r=no|m=no	38	punct
-38	y	y	cc	cc	rep=no|t=no|r=no|m=no	51	coord_fixed
+37	,	,	fc	fc	rep=no|t=no|r=no|m=yes	38	punct
+38	y	y	cc	cc	rep=no|t=no|r=no|m=yes	51	coord_fixed
 39	cuando	cuando	cs	cs	rep=no|t=no|r=no|m=no	51	advcl
 40	se	se	p0000000	p0000000	rep=no|t=no|r=no|m=no	41	reflec
 41	pasa	pasar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=no	39	cobj
@@ -449,7 +449,7 @@
 1	Aíto	Aíto	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	7	nsubj
 2	García	García	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	1	appos
 3	Reneses	Reneses	np00000	np00000	rep=no|t=yes|r=no|m=yes	2	appos
-4	y	y	cc	cc	rep=no|t=no|r=no|m=no	7	coord_fixed
+4	y	y	cc	cc	rep=no|t=no|r=no|m=yes	7	coord_fixed
 5	Clifford	Clifford	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	7	nsubj
 6	Luyk	Luyk	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	5	appos
 7	sabían	saber	vmii3p0	vmii3p0	rep=no|t=no|r=yes|m=yes	0	root

@@ -188,7 +188,7 @@
 8	incurable	incurable	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	dep
 9	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	coord_fixed
 10	mortal	mortal	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	dep
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	punct
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	punct
 12	llamada	llamado	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	amod
 13	estómago	estómago	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	cpred
 14	rojo	rojo	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	amod
@@ -245,16 +245,16 @@
 12	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	14	det
 13	viejo	viejo	aq0ms0	aq0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	14	amod
 14	padre	padre	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	11	pobj
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 16	me	yo	pp1cs000	pp1cs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	dobj
 17	conquistó	conquistar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	cobj
-18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 19	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	cobj
 20	hizo	hacer	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	cobj
 21	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	prepv
 22	muchas	mucho	di0fp0	di0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	det
 23	personas	persona	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	pobj
-24	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+24	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	26	punct
 26	ha	haber	vaip3s0	vaip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 27	explicado	explicar	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	vobj
@@ -268,7 +268,7 @@
 6	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	prepv
 7	proclamarlo	proclamar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	pobj
 8	santo	santo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	dobj
-9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	punct
+9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	punct
 10	porque	porque	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	advcl
 11	la	él	pp3fsa00	pp3fsa00	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	dobj
 12	ha	haber	vaip3s0	vaip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	cobj
@@ -281,7 +281,7 @@
 19	hecho	hacer	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	vobj
 20	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	advmod
 21	simpática	simpático	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	cpred
-22	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	punct
+22	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	punct
 23	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	24	punct
 24	subraya	subrayar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 25	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	24	punct
@@ -306,7 +306,7 @@
 18	otro	otro	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	det
 19	abogado	abogado	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
 20	celestial	celestial	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	amod
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	punct
 22	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	det
 23	Virgen	virgen	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	appos
 24	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	prepn
@@ -410,7 +410,7 @@
 5	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	det
 6	favor	favor	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dobj
 7	celestial	celestial	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	amod
-8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
+8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	punct
 9	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	det
 10	milagro	milagro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	appos
 11	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	dobj
@@ -431,7 +431,7 @@
 26	añadido	añadir	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	vobj
 27	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	25	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	15	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	coord_fixed
 2	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	det
 3	imposición	imposición	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	15	nsubj
 4	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	prepn
@@ -442,7 +442,7 @@
 9	sobre	sobre	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	prepn
 10	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	11	poss
 11	cuerpo	cuerpo	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	pobj
-12	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	15	coord_fixed
+12	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	coord_fixed
 13	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	14	det
 14	rezos	rezo	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	15	nsubj
 15	provocaron	provocar	vmis3p0	vmis3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root

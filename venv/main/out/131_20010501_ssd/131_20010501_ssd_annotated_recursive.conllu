@@ -68,7 +68,7 @@
 4	Valencia	Valencia	np00000	np00000	rep=no|t=no|r=no|m=yes	2	pobj
 5	.	.	fp	fp	rep=no|t=no|r=no|m=no	1	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	2	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	2	coord_fixed
 2	van	ir	vmip3p0	vmip3p0	rep=no|t=no|r=no|m=yes	0	root
 3	dos	dos	dn0cp0	dn0cp0	rep=no|t=no|r=no|m=yes	4	det
 4	años	año	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	2	nsubj
@@ -163,7 +163,7 @@
 46	infierno	infierno	ncms000	ncms000	rep=no|t=no|r=no|m=yes	44	pobj
 47	.	.	fp	fp	rep=no|t=no|r=no|m=no	36	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	15	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	15	coord_fixed
 2	aquí	aquí	rg	rg	rep=no|t=no|r=no|m=no	15	advmod
 3	,	,	fc	fc	rep=no|t=no|r=no|m=no	15	punct
 4	mientras	mientras	cs	cs	rep=no|t=no|r=no|m=no	15	advcl

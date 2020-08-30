@@ -66,21 +66,21 @@
 6	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	5	prepn
 7	esa	ese	dd0fs0	dd0fs0	rep=no|t=no|r=yes|m=yes	8	det
 8	experiencia	experiencia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	6	pobj
-9	,	,	fc	fc	rep=no|t=no|r=no|m=yes	11	punct
+9	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	11	punct
 10	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	11	det
 11	coche	coche	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	3	dep
 12	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	21	prepv
 13	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=yes|m=yes	12	pobj
-14	,	,	fc	fc	rep=no|t=no|r=no|m=yes	21	punct
+14	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	21	punct
 15	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	21	prepv
 16	1908	1908	z	z	rep=no|t=no|r=yes|m=yes	15	pobj
 17	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	prep
 18	1928	1928	z	z	rep=no|t=no|r=yes|m=yes	17	pobj
-19	,	,	fc	fc	rep=no|t=no|r=no|m=yes	21	punct
+19	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	21	punct
 20	se	se	p0000000	p0000000	rep=no|t=no|r=yes|m=yes	21	reflec
 21	vendieron	vender	vmis3p0	vmis3p0	rep=no|t=no|r=yes|m=yes	11	dep
 22	15.800.000	15800000	z	z	rep=no|t=no|r=yes|m=yes	21	nsubj
-23	,	,	fc	fc	rep=no|t=no|r=no|m=yes	22	punct
+23	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	22	punct
 24	récord	récord	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	22	dep
 25	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	24	prepn
 26	siglo	siglo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	25	pobj
@@ -185,7 +185,7 @@
 19	podrá	poder	vmif3s0	vmif3s0	rep=no|t=no|r=no|m=yes	12	conj
 20	comprar	comprar	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	19	dobj
 21	uno	uno	pi0ms000	pi0ms000	rep=no|t=no|r=no|m=yes	20	dobj
-22	y	y	cc	cc	rep=no|t=no|r=no|m=no	12	coord_fixed
+22	y	y	cc	cc	rep=no|t=no|r=no|m=yes	12	coord_fixed
 23	casi	casi	rg	rg	rep=no|t=no|r=no|m=yes	24	advmod
 24	todo	todo	di0ms0	di0ms0	rep=no|t=no|r=no|m=yes	26	det
 25	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	26	det
@@ -195,7 +195,7 @@
 29	.	.	fp	fp	rep=no|t=no|r=no|m=no	12	punct
 
 1	-	-	fg	fg	rep=no|t=no|r=no|m=yes	27	punct
-2	Y	y	cc	cc	rep=no|t=no|r=no|m=no	5	coord_fixed
+2	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	5	coord_fixed
 3	acto	acto	ncms000	ncms000	rep=no|t=no|r=no|m=yes	5	tmod
 4	seguido	seguido	aq0msp	aq0msp	rep=no|t=no|r=no|m=yes	3	amod
 5	anunció	anunciar	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	0	root
@@ -270,11 +270,11 @@
 
 1	Henry	henry	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	8	nsubj
 2	Ford	Ford	np00000	np00000	rep=no|t=yes|r=no|m=yes	1	appos
-3	,	,	fc	fc	rep=no|t=no|r=no|m=yes	8	punct
+3	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	8	punct
 4	por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	9	prepv
 5	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	6	poss
 6	parte	parte	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	4	pobj
-7	,	,	fc	fc	rep=no|t=no|r=no|m=yes	8	punct
+7	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	8	punct
 8	quiso	querer	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	18	coord
 9	dedicarse	dedicar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	8	dobj
 10	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	9	oobj

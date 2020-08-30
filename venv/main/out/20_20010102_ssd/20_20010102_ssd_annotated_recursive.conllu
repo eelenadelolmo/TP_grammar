@@ -59,12 +59,12 @@
 11	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepn
 12	Gerald	Gerald	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	11	pobj
 13	Ford	Ford	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	12	appos
-14	,	,	fc	fc	rep=no|t=no|r=no|m=yes	10	punct
+14	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	10	punct
 15	entre	entre	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepn
 16	1975	1975	z	z	rep=no|t=no|r=yes|m=yes	15	pobj
 17	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	15	coord_fixed
 18	1977	1977	z	z	rep=no|t=no|r=yes|m=yes	15	pobj
-19	,	,	fc	fc	rep=no|t=no|r=no|m=yes	10	punct
+19	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	10	punct
 20	pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 21	también	también	rg	rg	rep=no|t=no|r=no|m=yes	22	advmod
 22	fue	ser	vsis3s0	vsis3s0	rep=no|t=no|r=no|m=yes	20	coord

@@ -80,7 +80,7 @@
 24	terceros	tercero	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	pobj
 25	perjudicados	perjudicado	aq0mpp	aq0mpp	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	amod
 26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
-27	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	26	coord_fixed
+27	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	coord_fixed
 28	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	prepv
 29	ningún	ninguno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	det
 30	caso	caso	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	pobj
@@ -112,7 +112,7 @@
 21	libremente	libremente	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	advmod
 22	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	15	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	10	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	coord_fixed
 2	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	10	advmod
 3	todo	todo	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=no|main=no	4	det
 4	caso	caso	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	2	pobj
@@ -199,7 +199,7 @@
 22	razonables	razonable	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	amod
 23	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	16	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	coord_fixed
 2	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
 3	¿	¿	fia	fia	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
 4	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	oobj

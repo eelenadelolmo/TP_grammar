@@ -22,7 +22,7 @@
 22	países	país	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	21	pobj
 23	como	como	cs	cs	rep=no|t=no|r=yes|m=yes	22	dep
 24	España	España	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	23	cobj
-25	,	,	fc	fc	rep=no|t=no|r=no|m=yes	15	punct
+25	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	15	punct
 26	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	15	prepn
 27	fin	fin	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	26	pobj
 28	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	27	prepn
@@ -231,7 +231,7 @@
 33	para	para	sps00	sps00	rep=no|t=no|r=yes|m=yes	30	prepa
 34	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	35	det
 35	misma	mismo	pi0fs000	pi0fs000	rep=no|t=no|r=yes|m=yes	33	pobj
-36	-	-	fg	fg	rep=no|t=no|r=no|m=yes	38	punct
+36	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	38	punct
 37	68.000	68000	z	z	rep=no|t=no|r=yes|m=yes	38	num
 38	millones	millón	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	29	appos
 39	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	38	prepn
@@ -242,7 +242,7 @@
 44	2000	2000	z	z	rep=no|t=no|r=yes|m=yes	43	dep
 45	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	44	prep
 46	2006	2006	z	z	rep=no|t=no|r=yes|m=yes	45	pobj
-47	-	-	fg	fg	rep=no|t=no|r=no|m=yes	38	punct
+47	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	38	punct
 48	y	y	cc	cc	rep=no|t=no|r=no|m=no	0	root
 49	critica	criticar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=no	48	coord
 50	que	que	cs	cs	rep=no|t=no|r=no|m=no	49	dobj
@@ -399,7 +399,7 @@
 20	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	15	prepn
 21	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	22	det
 22	UE	UE	np0000o	np0000o	rep=no|t=no|r=no|m=yes	20	pobj
-23	y	y	cc	cc	rep=no|t=no|r=no|m=no	8	coord_fixed
+23	y	y	cc	cc	rep=no|t=no|r=no|m=yes	8	coord_fixed
 24	definir	definir	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	8	dobj
 25	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	26	det
 26	reparto	reparto	ncms000	ncms000	rep=no|t=no|r=no|m=yes	24	dobj
@@ -414,7 +414,7 @@
 35	ser	ser	vsn0000	vsn0000	rep=no|t=no|r=yes|m=yes	34	dobj
 36	entre	entre	sps00	sps00	rep=no|t=no|r=yes|m=yes	35	prepv
 37	Europa	Europa	np0000o	np0000o	rep=no|t=no|r=yes|m=yes	36	pobj
-38	,	,	fc	fc	rep=no|t=no|r=no|m=yes	41	punct
+38	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	41	punct
 39	las	el	da0fp0	da0fp0	rep=no|t=no|r=yes|m=yes	40	det
 40	naciones	nación	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	36	pobj
 41	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	36	coord_fixed

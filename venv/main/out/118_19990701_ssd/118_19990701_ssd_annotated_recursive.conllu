@@ -60,13 +60,13 @@
 6	jamaicano	jamaicano	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	5	pobj
 7	James	jamar	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	6	appos
 8	Beckford	Beckford	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	7	appos
-9	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	7	punct
+9	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	7	punct
 10	segundo	segundo	ao0ms0	ao0ms0	rep=no|t=no|r=yes|m=yes	7	amod
 11	ayer	ayer	rg	rg	rep=no|t=no|r=yes|m=yes	7	advmod
-12	,	,	fc	fc	rep=no|t=no|r=no|m=yes	7	punct
+12	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	7	punct
 13	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	7	prepn
 14	8,33	8.33	z	z	rep=no|t=no|r=yes|m=yes	13	pobj
-15	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	7	punct
+15	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	7	punct
 16	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 17	se	él	p0300000	p0300000	rep=no|t=no|r=no|m=yes	19	reflec
 18	ha	haber	vaip3s0	vaip3s0	rep=no|t=no|r=no|m=yes	16	coord
@@ -93,7 +93,7 @@
 8	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	4	prepv
 9	condiciones	condición	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	8	pobj
 10	legales	legal	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	9	amod
-11	,	,	fc	fc	rep=no|t=no|r=no|m=yes	3	punct
+11	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	3	punct
 12	mientras	mientras	cs	cs	rep=no|t=no|r=no|m=yes	0	root
 13	que	que	cs	cs	rep=no|t=no|r=no|m=yes	12	cobj
 14	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	15	det

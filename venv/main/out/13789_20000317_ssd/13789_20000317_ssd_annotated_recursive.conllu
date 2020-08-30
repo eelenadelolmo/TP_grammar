@@ -77,7 +77,7 @@
 2	con	con	sps00	sps00	rep=no|t=yes|r=no|m=yes	1	prepn
 3	28	28	z	z	rep=no|t=yes|r=no|m=yes	4	num
 4	puntos	punto	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	2	pobj
-5	y	y	cc	cc	rep=no|t=no|r=no|m=no	10	coord_fixed
+5	y	y	cc	cc	rep=no|t=no|r=no|m=yes	10	coord_fixed
 6	Cassell	Cassell	np0000p	np0000p	rep=no|t=yes|r=no|m=yes	10	nsubj
 7	con	con	sps00	sps00	rep=no|t=yes|r=no|m=yes	6	prepn
 8	22	22	z	z	rep=no|t=yes|r=no|m=yes	7	pobj
@@ -89,7 +89,7 @@
 14	pívot	pívot	nccs000	nccs000	rep=no|t=no|r=yes|m=yes	13	pobj
 15	Glenn	Glenn	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	14	appos
 16	Robinson	Robinson	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	15	appos
-17	,	,	fc	fc	rep=no|t=no|r=no|m=yes	15	punct
+17	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	15	punct
 18	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	19	nsubj
 19	consiguió	conseguir	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	15	rcmod
 20	19	19	z	z	rep=no|t=no|r=no|m=yes	21	num
@@ -143,7 +143,7 @@
 18	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	14	coord_fixed
 19	Cuttino	Cuttino	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	14	pobj
 20	Mobley	Mobley	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	19	appos
-21	,	,	fc	fc	rep=no|t=no|r=no|m=yes	18	punct
+21	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	18	punct
 22	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	32	nsubj
 23	con	con	sps00	sps00	rep=no|t=no|r=no|m=yes	33	prepv
 24	22	22	z	z	rep=no|t=no|r=no|m=yes	27	dep

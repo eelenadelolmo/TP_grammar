@@ -1,4 +1,4 @@
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 2	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	3	det
 3	situación	situación	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	4	nsubj
 4	ha	haber	vaip3s0	vaip3s0	rep=no|t=no|r=yes|m=yes	0	root
@@ -74,7 +74,7 @@
 1	Pequeños	pequeño	aq0mp0	aq0mp0	rep=no|t=yes|r=no|m=yes	2	amod
 2	aviones	avión	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	7	nsubj
 3	radiocontrolados	radiocontrolado	aq0mpp	aq0mpp	rep=no|t=yes|r=no|m=yes	2	amod
-4	y	y	cc	cc	rep=no|t=no|r=no|m=no	7	coord_fixed
+4	y	y	cc	cc	rep=no|t=no|r=no|m=yes	7	coord_fixed
 5	misiles	misil	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	7	nsubj
 6	programables	programable	aq0cp0	aq0cp0	rep=no|t=yes|r=no|m=yes	5	amod
 7	constituyen	constituir	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	0	root
@@ -132,12 +132,12 @@
 6	son	ser	vsip3p0	vsip3p0	rep=no|t=no|r=yes|m=yes	0	root
 7	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	16	det
 8	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=yes|m=yes	15	nsubj
-9	,	,	fc	fc	rep=no|t=no|r=no|m=yes	15	punct
+9	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	15	punct
 10	según	según	cs	cs	rep=no|t=no|r=yes|m=yes	15	advcl
 11	piensan	pensar	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	10	cobj
 12	los	el	da0mp0	da0mp0	rep=yes|t=no|r=yes|m=yes	13	det
 13	estrategas	estratega	nccp000	nccp000	rep=yes|t=no|r=yes|m=yes	11	nsubj
-14	,	,	fc	fc	rep=no|t=no|r=no|m=yes	15	punct
+14	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	15	punct
 15	podrían	poder	vmic3p0	vmic3p0	rep=no|t=no|r=yes|m=yes	6	attr
 16	sentirse	sentir	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	15	dobj
 17	más	más	rg	rg	rep=no|t=no|r=yes|m=yes	18	advmod
@@ -154,19 +154,19 @@
 4	cuentas	cuenta	ncfp000	ncfp000	rep=no|t=no|r=no|m=no	3	pobj
 5	siempre	siempre	rg	rg	rep=no|t=no|r=no|m=no	6	advmod
 6	resulta	resultar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	0	root
-7	más	más	rg	rg	rep=no|t=no|r=no|m=no	9	advmod
+7	más	más	rg	rg	rep=no|t=no|r=no|m=yes	9	advmod
 8	fácil	fácil	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=yes	6	cpred
-9	y	y	cc	cc	rep=no|t=no|r=no|m=no	6	coord_fixed
+9	y	y	cc	cc	rep=no|t=no|r=no|m=yes	6	coord_fixed
 10	barato	barato	aq0ms0	aq0ms0	rep=no|t=no|r=no|m=yes	6	cpred
 11	cultivar	cultivar	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	6	dobj
 12	bacterias	bacteria	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	11	dobj
 13	y	y	cc	cc	rep=no|t=no|r=no|m=yes	11	coord_fixed
 14	virus	virus	ncmn000	ncmn000	rep=no|t=no|r=no|m=yes	11	dobj
-15	que	que	cs	cs	rep=no|t=no|r=no|m=no	7	crobj
-16	fabricar	fabricar	vmn0000	vmn0000	rep=no|t=no|r=no|m=no	15	cobj
-17	una	uno	di0fs0	di0fs0	rep=no|t=no|r=no|m=no	18	det
-18	bomba	bomba	ncfs000	ncfs000	rep=no|t=no|r=no|m=no	16	dobj
-19	atómica	atómico	aq0fs0	aq0fs0	rep=no|t=no|r=no|m=no	18	amod
+15	que	que	cs	cs	rep=no|t=no|r=no|m=yes	7	crobj
+16	fabricar	fabricar	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	15	cobj
+17	una	uno	di0fs0	di0fs0	rep=no|t=no|r=no|m=yes	18	det
+18	bomba	bomba	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	16	dobj
+19	atómica	atómico	aq0fs0	aq0fs0	rep=no|t=no|r=no|m=yes	18	amod
 20	.	.	fp	fp	rep=no|t=no|r=no|m=no	6	punct
 
 1	Sin	sin	sps00	sps00	rep=no|t=no|r=no|m=yes	6	te
@@ -258,7 +258,7 @@
 32	prohibición	prohibición	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	30	pobj
 33	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	32	prepn
 34	desarrollo	desarrollo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	33	pobj
-35	,	,	fc	fc	rep=no|t=no|r=no|m=yes	37	punct
+35	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	37	punct
 36	producción	producción	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	33	pobj
 37	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	33	coord_fixed
 38	almacenamiento	almacenamiento	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	33	pobj

@@ -44,18 +44,18 @@
 11	se	se	p0000000	p0000000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	reflec
 12	faciliten	facilitar	vmsp3p0	vmsp3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	dep
 13	jeringuillas	jeringuilla	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	nsubj
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 15	asistencia	asistencia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	dobj
 16	médica	médico	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	dep
 17	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	coord_fixed
 18	social	social	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	dep
-19	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+19	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 20	alimentación	alimentación	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	dep
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 22	vestido	vestido	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	dep
 23	e	e	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	coord_fixed
 24	higiene	higiene	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	dep
-25	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+25	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 26	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
 1	Se	se	p0000000	p0000000	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	reflec
@@ -106,7 +106,7 @@
 20	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	coord_fixed
 21	atención	atención	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	pobj
 22	sanitaria	sanitario	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	amod
-23	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+23	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 24	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	nsubj
 25	además	además	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	advmod
 26	persigue	perseguir	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	rcmod

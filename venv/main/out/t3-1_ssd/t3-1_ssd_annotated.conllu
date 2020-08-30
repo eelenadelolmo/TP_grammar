@@ -95,7 +95,7 @@
 79	sociales	social	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	78	amod
 80	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	15	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	coord_fixed
 2	sin	sin	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	te
 3	embargo	embargo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	pobj
 4	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	det
@@ -180,7 +180,7 @@
 3	deletrearle	deletrear	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	cobj
 4	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	det
 5	nombre	nombre	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	dobj
-6	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	1	coord_fixed
+6	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	coord_fixed
 7	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	det
 8	apellido	apellido	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	dobj
 9	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	1	punct
@@ -221,7 +221,7 @@
 6	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 7	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 2	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	prepv
 3	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	det
 4	rostro	rostro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	pobj
@@ -291,12 +291,12 @@
 1	Informaba	informar	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 2	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	det
 3	hindú	hindú	nccs000	nccs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	nsubj
-4	alzando	alzar	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=no|main=no	9	advcl
-5	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=no	6	det
-6	brazos	brazo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=no	9	advcl
-7	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=no	6	prepn
-8	cielo	cielo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	7	pobj
-9	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	1	coord_fixed
+4	alzando	alzar	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	advcl
+5	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	det
+6	brazos	brazo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	advcl
+7	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	prepn
+8	cielo	cielo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	pobj
+9	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	coord_fixed
 10	cruzándolos	cruzar	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=no|main=no	1	advcl
 11	luego	luego	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	10	advmod
 12	sobre	sobre	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	10	prepv
@@ -341,7 +341,7 @@
 16	sopla	soplar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	conj
 17	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	det
 18	viento	viento	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	nsubj
-19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	9	coord_fixed
+19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	coord_fixed
 20	llueve	llover	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	conj
 21	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	9	punct
 
@@ -350,10 +350,10 @@
 3	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	cobj
 4	muy	mucho	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	advmod
 5	bonito	bonito	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	attr
-6	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	punct
+6	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	punct
 7	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 8	viento	viento	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	cobj
-9	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	7	coord_fixed
+9	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	coord_fixed
 10	lluvia	lluvia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	cobj
 11	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	7	punct
 

@@ -102,7 +102,7 @@
 5	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	6	punct
 6	HOL	HOL	np0000l	np0000l	rep=no|t=no|r=no|m=yes	1	dep
 7	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	6	punct
-8	y	y	cc	cc	rep=no|t=no|r=no|m=no	1	coord_fixed
+8	y	y	cc	cc	rep=no|t=no|r=no|m=yes	1	coord_fixed
 9	Gina	Gina	np0000l	np0000l	rep=no|t=no|r=no|m=yes	1	dep
 10	Spitaler	Spitaler	np0000l	np0000l	rep=no|t=no|r=no|m=yes	9	appos
 11	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	12	punct
@@ -117,7 +117,7 @@
 5	Johnson	Johnson	np0000p	np0000p	rep=no|t=no|r=no|m=yes	4	pobj
 6	y	y	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 7	Richardson	Richardson	np0000p	np0000p	rep=no|t=no|r=no|m=yes	4	pobj
-8	y	y	cc	cc	rep=no|t=no|r=no|m=no	15	coord_fixed
+8	y	y	cc	cc	rep=no|t=no|r=no|m=yes	15	coord_fixed
 9	amarilla	amarillo	aq0fs0	aq0fs0	rep=no|t=no|r=no|m=yes	15	coord
 10	a	a	sps00	sps00	rep=no|t=no|r=no|m=yes	9	prepa
 11	Walsh	Walsh	np0000p	np0000p	rep=no|t=no|r=no|m=yes	10	pobj
@@ -197,7 +197,7 @@
 28	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	27	prepa
 29	las	el	da0fp0	da0fp0	rep=no|t=no|r=yes|m=yes	30	det
 30	inglesas	inglesa	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	28	pobj
-31	,	,	fc	fc	rep=no|t=no|r=no|m=yes	30	punct
+31	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	30	punct
 32	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	30	rcmod
 33	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	37	prepv
 34	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	36	det
@@ -206,7 +206,7 @@
 37	crearon	crear	vmis3p0	vmis3p0	rep=no|t=no|r=no|m=yes	30	rcmod
 38	cierto	cierto	di0ms0	di0ms0	rep=no|t=no|r=no|m=yes	39	det
 39	peligro	peligro	ncms000	ncms000	rep=no|t=no|r=no|m=yes	37	dobj
-40	,	,	fc	fc	rep=no|t=no|r=no|m=yes	44	punct
+40	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	44	punct
 41	se	él	p0300000	p0300000	rep=no|t=no|r=no|m=yes	42	reflec
 42	cerraron	cerrar	vmis3p0	vmis3p0	rep=no|t=no|r=no|m=yes	30	rcmod
 43	mejor	mejor	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=yes	42	cpred
@@ -309,7 +309,7 @@
 21	inglesa	inglés	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	20	amod
 22	Hilary	Hilary	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	20	appos
 23	Rose	rosar	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	22	appos
-24	,	,	fc	fc	rep=no|t=no|r=no|m=yes	15	punct
+24	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	15	punct
 25	después	después	rg	rg	rep=no|t=no|r=yes|m=yes	15	advmod
 26	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	25	prep
 27	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	28	det

@@ -181,7 +181,7 @@
 115	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	73	punct
 
 1	Batallas	batalla	ncfp000	ncfp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	nsubj
-2	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+2	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 3	condecoraciones	condecoración	ncfp000	ncfp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	nsubj
 4	están	estar	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 5	ridiculizadas	ridiculizado	aq0fpp	aq0fpp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	attr
@@ -227,10 +227,10 @@
 2	libro	libro	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	nsubj
 3	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	coord
 4	divertido	divertido	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	attr
-5	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	punct
+5	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	punct
 6	muy	mucho	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	advmod
 7	divertido	divertido	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	attr
-8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	punct
+8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	punct
 9	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 10	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	poss
 11	estilo	estilo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	coord
@@ -282,11 +282,11 @@
 26	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	det
 27	tipejo	tipejo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	attr
 28	cómico	cómico	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	amod
-29	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	punct
+29	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	punct
 30	trágico	trágico	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	amod
 31	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	coord_fixed
 32	burlesco	burlesco	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	amod
-33	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	punct
+33	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	punct
 34	según	según	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	advcl
 35	nos	yo	pp1cp000	pp1cp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	iobj
 36	lo	él	pp3msa00	pp3msa00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	dobj

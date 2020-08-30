@@ -17,24 +17,24 @@
 17	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	16	dobj
 18	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	19	det
 19	palestinos	palestino	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	21	nsubj
-20	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
+20	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	punct
 21	mantienen	mantener	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	cobj
 22	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	advmod
 23	paralelo	paralelo	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	pobj
 24	dos	dos	dn0cp0	dn0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	det
 25	guerras	guerra	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	dobj
-26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	punct
+26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	punct
 27	una	uno	pi0fs000	pi0fs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	dep
 28	por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	prepn
 29	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	poss
 30	independencia	independencia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	pobj
-31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	punct
+31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	punct
 32	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	36	dobj
 33	toda	todo	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	det
 34	persona	persona	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	36	nsubj
 35	sensata	sensato	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	amod
 36	sostiene	sostener	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	rcmod
-37	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	punct
+37	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	punct
 38	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	coord_fixed
 39	otra	otro	pi0fs000	pi0fs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	dep
 40	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	prepn
@@ -46,7 +46,7 @@
 46	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	47	det
 47	islam	islam	ncmn000	ncmn000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	45	pobj
 48	fanático	fanático	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	47	amod
-49	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
+49	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	punct
 50	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	16	punct
 
 1	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct

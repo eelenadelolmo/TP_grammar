@@ -44,18 +44,18 @@
 11	se	se	p0000000	p0000000	rep=no|t=no|r=yes|m=yes	12	reflec
 12	faciliten	facilitar	vmsp3p0	vmsp3p0	rep=no|t=no|r=yes|m=yes	5	dep
 13	jeringuillas	jeringuilla	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	12	nsubj
-14	,	,	fc	fc	rep=no|t=no|r=no|m=yes	15	punct
+14	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	15	punct
 15	asistencia	asistencia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	12	dobj
 16	médica	médico	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	15	dep
 17	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	15	coord_fixed
 18	social	social	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	15	dep
-19	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	23	punct
+19	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	23	punct
 20	alimentación	alimentación	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	15	dep
-21	,	,	fc	fc	rep=no|t=no|r=no|m=yes	23	punct
+21	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	23	punct
 22	vestido	vestido	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	15	dep
 23	e	e	cc	cc	rep=no|t=no|r=yes|m=yes	15	coord_fixed
 24	higiene	higiene	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	15	dep
-25	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	23	punct
+25	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	23	punct
 26	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
 
 1	Se	se	p0000000	p0000000	rep=no|t=no|r=no|m=yes	2	reflec
@@ -106,7 +106,7 @@
 20	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	16	coord_fixed
 21	atención	atención	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	16	pobj
 22	sanitaria	sanitario	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	21	amod
-23	,	,	fc	fc	rep=no|t=no|r=no|m=yes	15	punct
+23	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	15	punct
 24	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	26	nsubj
 25	además	además	rg	rg	rep=no|t=no|r=no|m=yes	26	advmod
 26	persigue	perseguir	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	15	rcmod

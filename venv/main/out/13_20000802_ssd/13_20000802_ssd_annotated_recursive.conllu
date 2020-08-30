@@ -141,19 +141,19 @@
 
 1	Resulta	resultar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	0	root
 2	comprensible	comprensible	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=yes	1	cpred
-3	que	que	cc	cc	rep=no|t=no|r=no|m=no	1	coord_fixed
-4	,	,	fc	fc	rep=no|t=no|r=no|m=no	12	punct
-5	ante	ante	sps00	sps00	rep=no|t=no|r=no|m=no	12	prepv
-6	este	este	dd0ms0	dd0ms0	rep=no|t=no|r=no|m=no	8	det
-7	fascinante	fascinante	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=no	8	amod
-8	programa	programa	ncms000	ncms000	rep=no|t=no|r=no|m=no	5	pobj
-9	,	,	fc	fc	rep=no|t=no|r=no|m=no	12	punct
-10	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=no	11	det
-11	gente	gente	ncfs000	ncfs000	rep=no|t=no|r=no|m=no	12	nsubj
-12	anduviera	andar	vmsi3s0	vmsi3s0	rep=no|t=no|r=no|m=no	3	cobj
-13	nerviosa	nervioso	aq0fs0	aq0fs0	rep=no|t=no|r=no|m=no	3	cobj
-14	y	y	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
-15	expectante	expectante	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=no	3	cobj
+3	que	que	cc	cc	rep=no|t=no|r=no|m=yes	1	coord_fixed
+4	,	,	fc	fc	rep=no|t=no|r=no|m=yes	12	punct
+5	ante	ante	sps00	sps00	rep=no|t=no|r=no|m=yes	12	prepv
+6	este	este	dd0ms0	dd0ms0	rep=no|t=no|r=no|m=yes	8	det
+7	fascinante	fascinante	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=yes	8	amod
+8	programa	programa	ncms000	ncms000	rep=no|t=no|r=no|m=yes	5	pobj
+9	,	,	fc	fc	rep=no|t=no|r=no|m=yes	12	punct
+10	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	11	det
+11	gente	gente	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	12	nsubj
+12	anduviera	andar	vmsi3s0	vmsi3s0	rep=no|t=no|r=no|m=yes	3	cobj
+13	nerviosa	nervioso	aq0fs0	aq0fs0	rep=no|t=no|r=no|m=yes	3	cobj
+14	y	y	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
+15	expectante	expectante	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=yes	3	cobj
 16	.	.	fp	fp	rep=no|t=no|r=no|m=no	1	punct
 
 1	Lógico	lógico	aq0ms0	aq0ms0	rep=no|t=no|r=no|m=yes	0	root

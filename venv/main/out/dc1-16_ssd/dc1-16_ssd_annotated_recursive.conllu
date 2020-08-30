@@ -110,10 +110,10 @@
 10	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
 
 1	Es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=no|m=yes	0	root
-2	dúctil	dúctil	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=no	5	conj
-3	y	y	cc	cc	rep=no|t=no|r=no|m=no	5	coord_fixed
-4	flexible	flexible	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=no	5	conj
-5	y	y	cc	cc	rep=no|t=no|r=no|m=no	1	coord_fixed
+2	dúctil	dúctil	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=yes	5	conj
+3	y	y	cc	cc	rep=no|t=no|r=no|m=yes	5	coord_fixed
+4	flexible	flexible	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=yes	5	conj
+5	y	y	cc	cc	rep=no|t=no|r=no|m=yes	1	coord_fixed
 6	con	con	sps00	sps00	rep=no|t=no|r=no|m=yes	1	attr
 7	diferente	diferente	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=yes	8	amod
 8	espesor	espesor	ncms000	ncms000	rep=no|t=no|r=no|m=yes	6	pobj
@@ -163,7 +163,7 @@
 19	muestran	mostrar	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	0	root
 20	apariencias	apariencia	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	19	dobj
 21	fantasmagóricas	fantasmagórico	aq0fp0	aq0fp0	rep=no|t=no|r=yes|m=yes	20	amod
-22	,	,	fc	fc	rep=no|t=no|r=no|m=yes	20	punct
+22	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	20	punct
 23	semejantes	semejante	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	20	amod
 24	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	23	prepa
 25	nubes	nube	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	24	pobj
@@ -197,7 +197,7 @@
 22	astronómica	astronómico	aq0fs0	aq0fs0	rep=no|t=no|r=no|m=no	21	amod
 23	.	.	fp	fp	rep=no|t=no|r=no|m=no	7	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 2	su	su	dp3cs0	dp3cs0	rep=no|t=yes|r=no|m=yes	3	poss
 3	importancia	importancia	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	4	nsubj
 4	va	ir	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	0	root

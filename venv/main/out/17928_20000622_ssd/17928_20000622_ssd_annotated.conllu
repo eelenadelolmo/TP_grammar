@@ -53,10 +53,10 @@
 53	se	se	p0000000	p0000000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	54	reflec
 54	producirá	producir	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	51	cobj
 55	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	57	det
-56	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	57	punct
+56	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	57	punct
 57	desencuentro	desencuentro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	54	nsubj
 58	profundo	profundo	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	57	amod
-59	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	57	punct
+59	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	57	punct
 60	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	16	punct
 
 1	Jáuregui	Jáuregui	np0000p	np0000p	recursive=no|rep=yes|theme=no|rheme=no|main=no	17	nsubj
@@ -145,7 +145,7 @@
 30	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	31	det
 31	política	política	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	34	nsubj
 32	vasca	vasco	aq0fs0	aq0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	31	amod
-33	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	punct
+33	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	punct
 34	está	estar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	cobj
 35	colapsada	colapsado	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	cobj
 36	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	29	coord_fixed
@@ -168,7 +168,7 @@
 53	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	49	coord_fixed
 54	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	49	prepn
 55	central	central	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	54	pobj
-56	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	punct
+56	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	punct
 57	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	20	punct
 
 1	Entre	entre	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	17	prepv
@@ -265,25 +265,25 @@
 20	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	dobj
 21	ambos	ambos	pn0mp000	pn0mp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	nsubj
 22	representan	representar	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	rcmod
-23	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	punct
+23	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	punct
 24	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	det
 25	PP	PP	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	dep
 26	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	coord_fixed
 27	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	det
 28	PNV	PNV	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	dep
-29	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	punct
+29	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	punct
 30	respecto	respecto	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	advcl
 31	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	prepn
 32	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	det
 33	existencia	existencia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	pobj
 34	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	prepn
 35	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	det
-36	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	punct
+36	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	punct
 37	foro	foro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	pobj
 38	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	prepn
 39	unidad	unidad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	pobj
 40	democrática	democrático	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	amod
-41	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	punct
+41	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	punct
 42	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	prepn
 43	Euskadi	Euskadi	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	pobj
 44	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	5	punct

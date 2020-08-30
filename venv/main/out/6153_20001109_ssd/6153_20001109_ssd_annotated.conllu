@@ -5,13 +5,13 @@
 5	,	,	fc	fc	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	punct
 6	Fidel	Fidel	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	appos
 7	Castro	castro	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	appos
-8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 9	tal	tal	pd0cs000	pd0cs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	advcl
 10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	coord_fixed
 11	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	advcl
 12	había	haber	vaii3s0	vaii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	cobj
 13	prometido	prometer	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	vobj
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 15	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	reflec
 16	fue	ir	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	dobj
 17	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	prepv
@@ -47,7 +47,7 @@
 9	María	María	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	appos
 10	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	prepn
 11	Mar	mar	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	punct
 13	situada	situado	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	amod
 14	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	prepa
 15	poco	poco	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	advmod
@@ -60,7 +60,7 @@
 22	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	prepn
 23	La	La	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	pobj
 24	Habana	habano	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	appos
-25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
+25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	punct
 26	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 27	apareció	aparecer	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	coord
 28	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	prepv
@@ -297,7 +297,7 @@
 11	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	prepn
 12	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	det
 13	turistas	turista	nccp000	nccp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	pobj
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 15	quien	quien	pr0cs000	pr0cs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	nsubj
 16	exclamó	exclamar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	rcmod
 17	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	prepv
@@ -323,17 +323,17 @@
 11	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	det
 12	elecciones	elección	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
 13	estadounidenses	estadounidense	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	amod
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 15	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	dobj
 16	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	det
 17	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
 18	han	haber	vaip3p0	vaip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	prepn
 19	calificado	calificar	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	vobj
 20	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	prepv
-21	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+21	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 22	confusas	confuso	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	pobj
 23	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	coord_fixed
 24	corruptas	corrupto	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	pobj
-25	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+25	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 26	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 

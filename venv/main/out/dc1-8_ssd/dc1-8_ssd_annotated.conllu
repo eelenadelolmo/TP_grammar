@@ -6,13 +6,13 @@
 6	producto	producto	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	pobj
 7	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	prepn
 8	laboratorio	laboratorio	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	pobj
-9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	15	punct
-10	ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	15	coord_fixed
+9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+10	ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	coord_fixed
 11	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	oobj
 12	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	det
 13	fórmula	fórmula	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	pobj
 14	secreta	secreto	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	amod
-15	ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+15	ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 16	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	oobj
 17	magia	magia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	pobj
 18	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
@@ -32,7 +32,7 @@
 13	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	prepn
 14	elemento	elemento	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
 15	blanco	blanco	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	amod
-16	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	punct
+16	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	punct
 17	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	det
 18	aire	aire	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dep
 19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	coord_fixed
@@ -104,7 +104,7 @@
 11	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	prepv
 12	gotas	gota	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	pobj
 13	pequeñísimas	pequeñísimo	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	amod
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
+14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	punct
 15	enfriadas	enfriado	aq0fpp	aq0fpp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	amod
 16	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	advmod
 17	consecuencia	consecuencia	nccs000	nccs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	cobj

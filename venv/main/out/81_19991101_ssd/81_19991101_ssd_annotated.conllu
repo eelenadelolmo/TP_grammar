@@ -26,9 +26,9 @@
 26	Salas	sala	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 27	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 28	Icaria	Icaria	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
-29	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	31	punct
+29	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	punct
 30	Boliche	Boliche	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
-31	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	2	coord_fixed
+31	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	coord_fixed
 32	Verdi	Verdi	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 33	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=no	34	punct
 34	VOSE	VOSE	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=no	32	appos
@@ -106,7 +106,7 @@
 10	medios	medio	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	pobj
 11	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	5	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	2	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	coord_fixed
 2	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 3	obvio	obvio	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	attr
 4	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	csubj
@@ -257,7 +257,7 @@
 34	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	prepn
 35	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	poss
 36	familia	familia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	pobj
-37	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	43	punct
+37	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	43	punct
 38	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	det
 39	prometido	prometido	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	pobj
 40	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	prepn
@@ -324,7 +324,7 @@
 15	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	det
 16	adhesión	adhesión	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	dobj
 17	dramática	dramático	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	amod
-18	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	14	coord_fixed
+18	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	coord_fixed
 19	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	det
 20	disfrute	disfrute	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	dobj
 21	escénico	escénico	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	amod

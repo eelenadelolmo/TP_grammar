@@ -116,11 +116,11 @@
 
 1	Al	al	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	12	advcl
 2	igual	igual	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	1	advmod
-3	que	que	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	12	coord_fixed
-4	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=no|main=no	5	poss
-5	colega	colega	nccs000	nccs000	recursive=no|rep=no|theme=no|rheme=no|main=no	3	cobj
-6	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	5	prepn
-7	Leipzig	Leipzig	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=no|main=no	6	pobj
+3	que	que	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	coord_fixed
+4	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	poss
+5	colega	colega	nccs000	nccs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	cobj
+6	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	prepn
+7	Leipzig	Leipzig	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	pobj
 8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	12	punct
 9	Rainer	Rainer	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	12	nsubj
 10	Hanesch	Hanesch	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	appos
@@ -134,7 +134,7 @@
 18	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	prepn
 19	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	poss
 20	empresa	empresa	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	punct
 22	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	det
 23	inmobiliaria	inmobiliaria	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	appos
 24	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	12	punct
@@ -235,10 +235,10 @@
 14	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 15	da	dar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	cobj
 16	igual	igual	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	advmod
-17	lo	el	da0ns0	da0ns0	recursive=no|rep=no|theme=no|rheme=no|main=no	18	det
-18	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=no	19	dobj
-19	hicieran	hacer	vmsi3p0	vmsi3p0	recursive=no|rep=no|theme=no|rheme=no|main=no	20	rcmod
-20	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+17	lo	el	da0ns0	da0ns0	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	det
+18	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	dobj
+19	hicieran	hacer	vmsi3p0	vmsi3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	rcmod
+20	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 21	lo	el	da0ns0	da0ns0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	det
 22	duro	duro	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	nsubj
 23	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	dobj

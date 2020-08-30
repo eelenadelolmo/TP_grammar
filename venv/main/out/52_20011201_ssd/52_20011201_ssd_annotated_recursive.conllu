@@ -81,10 +81,10 @@
 12	prórroga	prórroga	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	14	nsubj
 13	unilateral	unilateral	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	12	amod
 14	supone	suponer	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	10	cobj
-15	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	17	punct
+15	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	17	punct
 16	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	17	det
 17	ruptura	ruptura	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	14	dobj
-18	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	17	punct
+18	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	17	punct
 19	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	17	prepn
 20	pacto	pacto	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	19	pobj
 21	institucional	institucional	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	20	amod
@@ -330,12 +330,12 @@
 8	Montoro	Montoro	np00000	np00000	rep=no|t=no|r=yes|m=yes	7	pobj
 9	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	6	oobj
 10	expandir	expandir	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	9	pobj
-11	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	12	punct
+11	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	12	punct
 12	como	como	cs	cs	rep=no|t=no|r=yes|m=yes	10	dep
 13	cortina	cortina	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	12	cobj
 14	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	13	prepn
 15	humo	humo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	14	pobj
-16	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	12	punct
+16	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	12	punct
 17	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	10	dobj
 18	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	19	det
 19	problema	problema	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	21	nsubj
@@ -357,9 +357,9 @@
 1	Ibarretxe	Ibarretxe	np00000	np00000	rep=no|t=yes|r=no|m=yes	2	nsubj
 2	rechazó	rechazar	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	7	coord
 3	las	el	da0fp0	da0fp0	rep=no|t=no|r=yes|m=yes	5	det
-4	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	5	punct
+4	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	5	punct
 5	imposiciones	imposición	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	2	dobj
-6	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	5	punct
+6	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	5	punct
 7	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 8	dijo	decir	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	7	coord
 9	que	que	cs	cs	rep=no|t=no|r=no|m=yes	8	dobj
@@ -413,7 +413,7 @@
 17	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	19	det
 18	nuevo	nuevo	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	19	amod
 19	cupo	cupo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	7	dobj
-20	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	21	punct
+20	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	21	punct
 21	dinero	dinero	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	19	appos
 22	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	24	dobj
 23	Euskadi	Euskadi	np00000	np00000	rep=no|t=no|r=no|m=yes	24	nsubj
@@ -427,7 +427,7 @@
 31	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	32	dobj
 32	presta	prestar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	29	rcmod
 33	éste	este	pd0ms000	pd0ms000	rep=no|t=no|r=no|m=yes	32	nsubj
-34	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	21	punct
+34	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	21	punct
 35	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 36	que	que	cs	cs	rep=no|t=no|r=no|m=yes	35	conj
 37	lo	él	pp3msa00	pp3msa00	rep=no|t=no|r=no|m=yes	38	dobj

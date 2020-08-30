@@ -34,7 +34,7 @@
 21	Gobierno	Gobierno	np00000	np00000	rep=no|t=yes|r=no|m=yes	20	pobj
 22	recuerda	recordar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	0	root
 23	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	22	dobj
-24	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	29	punct
+24	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	29	punct
 25	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	26	det
 26	poderes	poder	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	29	nsubj
 27	públicos	público	aq0mp0	aq0mp0	rep=no|t=no|r=yes|m=yes	26	amod
@@ -45,10 +45,10 @@
 32	tiempo	tiempo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	31	pobj
 33	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	32	prepn
 34	detenido	detenido	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	33	pobj
-35	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	29	punct
+35	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	29	punct
 36	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	23	coord_fixed
 37	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	36	cobj
-38	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	42	punct
+38	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	42	punct
 39	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	40	det
 40	detención	detención	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	42	nsubj
 41	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	42	neg
@@ -58,7 +58,7 @@
 45	mero	mero	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	46	amod
 46	castigo	castigo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	44	pobj
 47	social	social	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	46	amod
-48	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	42	punct
+48	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	42	punct
 49	.	.	fp	fp	rep=no|t=no|r=no|m=no	22	punct
 
 1	Si	si	cs	cs	rep=no|t=no|r=no|m=yes	23	advcl
@@ -68,7 +68,7 @@
 5	tiene	tener	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	18	cobj
 6	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	5	conj
 7	ser	ser	vsn0000	vsn0000	rep=no|t=no|r=yes|m=yes	6	cobj
-8	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	5	punct
+8	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	5	punct
 9	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	10	det
 10	lugar	lugar	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	7	dobj
 11	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	dep
@@ -77,7 +77,7 @@
 14	quizá	quizá	rg	rg	rep=no|t=no|r=yes|m=yes	15	advmod
 15	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	dep
 16	vicio	vicio	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	15	pobj
-17	,	,	fc	fc	rep=no|t=no|r=no|m=yes	5	punct
+17	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	5	punct
 18	sino	sino	cc	cc	rep=no|t=no|r=no|m=yes	1	coord_fixed
 19	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	7	prepv
 20	redención	redención	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	19	pobj
@@ -125,10 +125,10 @@
 3	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	4	neg
 4	pide	pedir	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	11	coord
 5	decisiones	decisión	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	4	dobj
-6	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	8	punct
+6	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	8	punct
 7	solamente	solamente	rg	rg	rep=no|t=no|r=yes|m=yes	8	advmod
 8	formales	formal	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	5	amod
-9	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	8	punct
+9	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	8	punct
 10	,	,	fc	fc	rep=no|t=no|r=no|m=no	11	punct
 11	sino	sino	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 12	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	14	punct

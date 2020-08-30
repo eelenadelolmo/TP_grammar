@@ -37,14 +37,14 @@
 10	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	prepn
 11	año	año	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
 12	pasado	pasado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	amod
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	punct
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	punct
 14	cuando	cuando	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	advcl
 15	fue	ser	vsis3s0	vsis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	cobj
 16	cuarto	cuarto	ao0ms0	ao0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	attr
 17	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	prepv
 18	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	det
 19	carrera	carrera	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	pobj
-20	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	punct
+20	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	punct
 21	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 22	ayer	ayer	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	advmod
 23	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	neg
@@ -110,12 +110,12 @@
 
 1	Carlos	Carlos	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	nsubj
 2	Galarreta	Galarreta	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	1	appos
-3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	9	coord_fixed
+3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	coord_fixed
 4	Luis	luis	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	nsubj
 5	Pérez	Pérez	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	appos
-6	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	punct
+6	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	punct
 7	Castellblanch	Castellblanch	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	dep
-8	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	punct
+8	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	punct
 9	fueron	ser	vsis3p0	vsis3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 10	dos	dos	pn0cp000	pn0cp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	attr
 11	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	prepn
@@ -135,11 +135,11 @@
 9	ambición	ambición	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	11	nsubj
 10	le	él	pp3csa00	pp3csa00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	iobj
 11	llevó	llevar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	coord
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 13	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepv
 14	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	det
 15	ocasión	ocasión	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
-16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 17	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	oobj
 18	chocar	chocar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
 19	contra	contra	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	prepv

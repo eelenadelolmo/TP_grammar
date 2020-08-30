@@ -17,17 +17,17 @@
 
 1	Iagoba	Iagoba	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	14	nsubj
 2	Terrones	Terrones	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	1	appos
-3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	14	coord_fixed
+3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	coord_fixed
 4	Jesús	Jesús	np0000o	np0000o	recursive=no|rep=no|theme=yes|rheme=no|main=yes	14	nsubj
 5	del	del	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	prepn
 6	Bado	Bado	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	pobj
-7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
+7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	punct
 8	acusados	acusado	aq0mpp	aq0mpp	recursive=no|rep=no|theme=yes|rheme=no|main=yes	14	nsubj
 9	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	oobj
 10	colaborar	colaborar	vmn0000	vmn0000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	pobj
 11	con	con	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	10	oobj
 12	ETA	ETA	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	11	pobj
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	punct
 14	han	haber	vaip3p0	vaip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 15	sido	ser	vsp00sm	vsp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	vobj
 16	puestos	poner	vmp00pm	vmp00pm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	attr
@@ -57,7 +57,7 @@
 5	José	José	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	attr
 6	Luis	luis	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	appos
 7	Elustondo	Elustondo	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	appos
-8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
+8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	punct
 9	condenado	condenado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	amod
 10	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	oobj
 11	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	advmod
@@ -68,7 +68,7 @@
 16	cárcel	cárcel	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
 17	por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	prepn
 18	asesinato	asesinato	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
-19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	punct
+19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	punct
 20	utilización	utilización	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
 21	ilegítima	ilegítimo	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	amod
 22	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	prepn
@@ -77,7 +77,7 @@
 25	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	coord_fixed
 26	detención	detención	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
 27	ilegal	ilegal	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	amod
-28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
+28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	punct
 29	quien	quien	pr0cs000	pr0cs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	nsubj
 30	ha	haber	vaip3s0	vaip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	rcmod
 31	quedado	quedar	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	vobj

@@ -32,10 +32,10 @@
 10	ministro	ministro	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	8	pobj
 11	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepn
 12	Fomento	Fomento	np00000	np00000	rep=no|t=no|r=yes|m=yes	11	pobj
-13	,	,	fc	fc	rep=no|t=no|r=no|m=yes	10	punct
+13	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	10	punct
 14	Francisco	francisco	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	10	appos
 15	Alvarez-Cascos	Alvarez-Cascos	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	14	appos
-16	,	,	fc	fc	rep=no|t=no|r=no|m=yes	10	punct
+16	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	10	punct
 17	para	para	sps00	sps00	rep=no|t=no|r=yes|m=yes	7	prepn
 18	tratar	tratar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	17	pobj
 19	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	18	oobj
@@ -111,7 +111,7 @@
 6	privatizar	privatizar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	5	pobj
 7	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	8	det
 8	servicios	servicio	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	6	dobj
-9	,	,	fc	fc	rep=no|t=no|r=no|m=yes	3	punct
+9	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	3	punct
 10	pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 11	manteniendo	mantener	vmg0000	vmg0000	rep=no|t=no|r=no|m=yes	3	advcl
 12	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	13	det
@@ -163,7 +163,7 @@
 16	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	15	cobj
 17	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	18	poss
 18	antecesor	antecesor	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	16	pobj
-19	,	,	fc	fc	rep=no|t=no|r=no|m=yes	18	punct
+19	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	18	punct
 20	Rafael	Rafael	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	18	appos
 21	Arias-Salgado	Arias-Salgado	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	20	appos
 22	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
@@ -182,14 +182,14 @@
 12	Sagrera	Sagrera	np00000	np00000	rep=no|t=no|r=yes|m=yes	14	nsubj
 13	se	él	p0300000	p0300000	rep=no|t=no|r=yes|m=yes	14	reflec
 14	convierta	convertir	vmsp3s0	vmsp3s0	rep=no|t=no|r=yes|m=yes	16	cobj
-15	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
+15	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	14	punct
 16	tal	tal	pd0cs000	pd0cs000	rep=no|t=no|r=yes|m=yes	10	cobj
 17	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	16	coord_fixed
 18	como	como	cs	cs	rep=no|t=no|r=yes|m=yes	17	advcl
 19	pretende	pretender	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	18	cobj
 20	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	21	det
 21	ayuntamiento	ayuntamiento	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	19	nsubj
-22	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
+22	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	14	punct
 23	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	oobj
 24	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	25	det
 25	estación	estación	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	23	pobj
@@ -265,7 +265,7 @@
 16	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	18	neg
 17	lo	él	pp3msa00	pp3msa00	rep=no|t=no|r=yes|m=yes	18	dobj
 18	cumplirá	cumplir	vmif3s0	vmif3s0	rep=no|t=no|r=yes|m=yes	20	cobj
-19	,	,	fc	fc	rep=no|t=no|r=no|m=yes	18	punct
+19	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	18	punct
 20	pese	pesar	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	12	cobj
 21	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	20	prepv
 22	que	que	pi0ms000	pi0ms000	rep=no|t=no|r=yes|m=yes	21	pobj

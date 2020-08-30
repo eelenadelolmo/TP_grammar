@@ -18,9 +18,9 @@
 18	brasileña	brasileño	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=no|main=no	16	amod
 19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	punct
 20	haber	haber	van0000	van0000	recursive=no|rep=no|theme=no|rheme=no|main=no	8	dobj
-21	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+21	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
 22	driblado	driblar	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	cobj
-23	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+23	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
 24	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	prepv
 25	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	det
 26	Aduana	Aduana	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
@@ -134,7 +134,7 @@
 21	Ciudad	ciudad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	pobj
 22	del	del	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	prepn
 23	Este	Este	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	pobj
-24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
+24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	punct
 25	situada	situado	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	amod
 26	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	prepa
 27	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	det
@@ -214,9 +214,9 @@
 25	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	det
 26	Receita	Receita	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
 27	Federal	federal	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	amod
-28	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
+28	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	punct
 29	fisco	fisco	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	appos
-30	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
+30	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	punct
 31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	11	punct
 32	contrario	contrario	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=no|main=no	11	cpred
 33	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	32	prepa
@@ -266,7 +266,7 @@
 32	fisioterapeuta	fisioterapeuta	nccs000	nccs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	pobj
 33	Nílton	Nílton	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	appos
 34	Petrone	Petrone	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	appos
-35	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	punct
+35	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	punct
 36	quien	quien	pr0cs000	pr0cs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	nsubj
 37	fue	ser	vsis3s0	vsis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	rcmod
 38	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	39	det

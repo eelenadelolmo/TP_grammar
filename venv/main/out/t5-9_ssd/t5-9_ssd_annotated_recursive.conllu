@@ -145,7 +145,7 @@
 1	Mi	mi	dp1css	dp1css	rep=no|t=yes|r=no|m=yes	2	poss
 2	familia	familia	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	3	nsubj
 3	tenía	tener	vmii3s0	vmii3s0	rep=no|t=no|r=yes|m=yes	5	cobj
-4	,	,	fc	fc	rep=no|t=no|r=no|m=yes	3	punct
+4	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	3	punct
 5	pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 6	ahora	ahora	rg	rg	rep=no|t=no|r=no|m=yes	3	advmod
 7	ya	ya	rg	rg	rep=no|t=no|r=no|m=yes	3	advmod
@@ -213,7 +213,7 @@
 14	una	uno	dn0fs0	dn0fs0	rep=no|t=no|r=yes|m=yes	15	det
 15	jornada	jornada	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	13	pobj
 16	cumbre	cumbre	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	15	appos
-17	,	,	fc	fc	rep=no|t=no|r=no|m=yes	12	punct
+17	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	12	punct
 18	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	12	prepn
 19	aquel	aquel	dd0ms0	dd0ms0	rep=no|t=no|r=yes|m=yes	20	det
 20	día	día	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	18	pobj
@@ -323,7 +323,7 @@
 12	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	11	prepn
 13	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	14	det
 14	hombre	hombre	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	12	pobj
-15	,	,	fc	fc	rep=no|t=no|r=no|m=yes	7	punct
+15	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	7	punct
 16	si	si	cs	cs	rep=no|t=no|r=no|m=yes	4	cobj
 17	usted	tú	pp2cs00p	pp2cs00p	rep=no|t=no|r=yes|m=yes	18	nsubj
 18	supiera	saber	vmsi3s0	vmsi3s0	rep=no|t=no|r=yes|m=yes	7	cobj
@@ -343,7 +343,7 @@
 5	señora	señora	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	0	root
 6	.	.	fp	fp	rep=no|t=no|r=no|m=no	5	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	10	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	10	coord_fixed
 2	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	10	prepv
 3	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	4	det
 4	casa	casa	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	2	pobj
@@ -388,9 +388,9 @@
 8	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	7	oobj
 9	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	10	det
 10	café	café	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	8	pobj
-11	;	;	fx	fx	rep=no|t=no|r=no|m=yes	7	punct
-12	-	-	fg	fg	rep=no|t=no|r=no|m=yes	7	punct
-13	y	y	cc	cc	rep=no|t=no|r=no|m=no	38	coord_fixed
+11	;	;	fx	fx	rep=no|t=no|r=yes|m=yes	7	punct
+12	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	7	punct
+13	y	y	cc	cc	rep=no|t=no|r=no|m=yes	38	coord_fixed
 14	aunque	aunque	cs	cs	rep=no|t=no|r=no|m=yes	30	advcl
 15	estaba	estar	vmii3s0	vmii3s0	rep=no|t=no|r=no|m=yes	14	cobj
 16	turbada	turbado	aq0fsp	aq0fsp	rep=no|t=no|r=no|m=yes	15	attr
@@ -438,10 +438,10 @@
 8	extrajo	extraer	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	0	root
 9	conclusiones	conclusión	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	8	dobj
 10	importantes	importante	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	9	amod
-11	,	,	fc	fc	rep=no|t=no|r=no|m=yes	20	punct
+11	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	20	punct
 12	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	15	cobj
 13	saber	saber	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	12	pobj
-14	:	:	fd	fd	rep=no|t=no|r=no|m=yes	20	punct
+14	:	:	fd	fd	rep=no|t=no|r=yes|m=yes	20	punct
 15	Que	que	cs	cs	rep=no|t=no|r=yes|m=yes	9	prepn
 16	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	20	iobj
 17	Rafael	Rafael	np0000p	np0000p	rep=no|t=no|r=yes|m=yes	16	pobj

@@ -56,18 +56,18 @@
 22	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	prepv
 23	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	det
 24	CNT	CNT	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	pobj
-25	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	57	punct
-26	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+25	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	57	punct
+26	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 27	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	coord_fixed
 28	cuando	cuando	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	57	te
 29	era	ser	vsii3s0	vsii3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	cobj
 30	muy	mucho	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	advmod
 31	joven	joven	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	attr
-32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
-33	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	punct
+32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
+33	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	punct
 34	eh	eh	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	dep
-35	?	?	fit	fit	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	punct
-36	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+35	?	?	fit	fit	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	punct
+36	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 37	porque	porque	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	cobj
 38	fui	ser	vsis1s0	vsis1s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	cobj
 39	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	prepv
@@ -86,10 +86,10 @@
 52	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	51	cobj
 53	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	54	det
 54	anarquistas	anarquista	nccp000	nccp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	52	pobj
-55	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
-56	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	57	punct
+55	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
+56	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	57	punct
 57	dice	decir	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	dobj
-58	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	57	punct
+58	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	57	punct
 59	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	prepv
 60	ser	ser	vsn0000	vsn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	59	pobj
 61	considerada	considerar	vmp00sf	vmp00sf	recursive=no|rep=no|theme=no|rheme=yes|main=yes	60	attr
@@ -102,7 +102,7 @@
 68	excelencia	excelencia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	67	pobj
 69	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 2	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	prepv
 3	ahí	ahí	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	advmod
 4	pasó	pasar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
@@ -364,7 +364,7 @@
 14	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	prepn
 15	13	13	z	z	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	num
 16	años	año	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	pobj
-17	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	11	coord_fixed
+17	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	coord_fixed
 18	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	det
 19	primo	primo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	dobj
 20	guardia	guardia	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	appos

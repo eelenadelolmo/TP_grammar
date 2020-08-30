@@ -76,21 +76,21 @@
 21	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=no	22	det
 22	periodistas	periodista	nccp000	nccp000	recursive=no|rep=no|theme=no|rheme=no|main=no	20	pobj
 23	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	19	dobj
-24	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	punct
+24	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	punct
 25	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	det
 26	operación	operación	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	nsubj
 27	política	político	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	amod
 28	siempre	siempre	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	advmod
 29	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	cobj
 30	legítima	legítimo	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	attr
-31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	punct
+31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	punct
 32	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	23	coord_fixed
 33	habrá	haber	vaif3s0	vaif3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	cobj
 34	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	dep
 35	estudiar	estudiar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	vobj
 36	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	det
 37	contenidos	contenido	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	dobj
-38	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	punct
+38	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	punct
 39	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	19	punct
 
 1	En	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	18	advcl
@@ -127,11 +127,11 @@
 32	35	35	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	num
 33	horas	hora	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	pobj
 34	semanales	semanal	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	amod
-35	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	punct
+35	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	punct
 36	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	neg
 37	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	cobj
 38	bueno	buen	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	cpred
-39	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	punct
+39	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	punct
 40	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	18	punct
 41	aunque	aunque	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	18	advcl
 42	precisó	precisar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	43	cobj
@@ -193,7 +193,7 @@
 2	insistió	insistir	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	cobj
 3	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	2	oobj
 4	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	pobj
-5	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+5	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 6	hay	haber	vaip3s0	vaip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	cobj
 7	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	conj
 8	ser	ser	vsn0000	vsn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	cobj
@@ -209,7 +209,7 @@
 18	ha	haber	vaip3s0	vaip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	rcmod
 19	tenido	tener	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	vobj
 20	finales	final	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	dobj
-21	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+21	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	23	punct
 23	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 24	la	el	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	det

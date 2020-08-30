@@ -62,10 +62,10 @@
 21	boda	boda	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	19	pobj
 22	.	.	fp	fp	rep=no|t=no|r=no|m=no	8	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	8	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	8	coord_fixed
 2	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	3	det
 3	lluvia	lluvia	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	8	nsubj
-4	y	y	cc	cc	rep=no|t=no|r=no|m=no	8	coord_fixed
+4	y	y	cc	cc	rep=no|t=no|r=no|m=yes	8	coord_fixed
 5	una	uno	di0fs0	di0fs0	rep=no|t=yes|r=no|m=yes	7	det
 6	doble	doble	aq0cs0	aq0cs0	rep=no|t=yes|r=no|m=yes	7	amod
 7	avería	avería	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	8	nsubj
@@ -90,13 +90,13 @@
 
 1	Así	así	rg	rg	rep=no|t=no|r=no|m=yes	12	te
 2	que	que	cs	cs	rep=no|t=no|r=no|m=yes	0	root
-3	ni	ni	cc	cc	rep=no|t=no|r=no|m=no	9	coord_fixed
+3	ni	ni	cc	cc	rep=no|t=no|r=no|m=yes	9	coord_fixed
 4	se	se	p0000000	p0000000	rep=no|t=no|r=no|m=yes	5	reflec
 5	cerró	cerrar	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	2	cobj
 6	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	8	det
 7	suculento	suculento	aq0ms0	aq0ms0	rep=no|t=no|r=no|m=yes	8	amod
 8	trato	trato	ncms000	ncms000	rep=no|t=no|r=no|m=yes	5	nsubj
-9	ni	ni	cc	cc	rep=no|t=no|r=no|m=no	2	coord_fixed
+9	ni	ni	cc	cc	rep=no|t=no|r=no|m=yes	2	coord_fixed
 10	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	11	det
 11	testigo	testigo	nccs000	nccs000	rep=no|t=yes|r=no|m=yes	12	nsubj
 12	entregó	entregar	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	2	cobj
@@ -216,7 +216,7 @@
 27	masas	masa	ncfp000	ncfp000	rep=no|t=no|r=no|m=no	25	pobj
 28	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 2	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	3	det
 3	daño	daño	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	4	nsubj
 4	estaba	estar	vmii3s0	vmii3s0	rep=no|t=no|r=yes|m=yes	0	root
@@ -286,12 +286,12 @@
 20	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	16	prepv
 21	otro	otro	di0ms0	di0ms0	rep=no|t=no|r=no|m=yes	22	det
 22	vuelo	vuelo	ncms000	ncms000	rep=no|t=no|r=no|m=yes	20	pobj
-23	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+23	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 24	pero	pero	cc	cc	rep=no|t=no|r=no|m=no	11	coord_fixed
-25	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	26	punct
+25	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	26	punct
 26	fue	ser	vsis3s0	vsis3s0	rep=no|t=no|r=yes|m=yes	11	cobj
 27	imposible	imposible	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	26	attr
-28	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	26	punct
+28	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	26	punct
 29	.	.	fp	fp	rep=no|t=no|r=no|m=no	10	punct
 
 1	La	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	2	det
@@ -355,8 +355,8 @@
 9	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	7	prepv
 10	estos	este	dd0mp0	dd0mp0	rep=no|t=no|r=yes|m=yes	11	det
 11	casos	caso	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	9	pobj
-12	?	?	fit	fit	rep=no|t=no|r=no|m=yes	7	punct
-13	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	7	punct
+12	?	?	fit	fit	rep=no|t=no|r=yes|m=yes	7	punct
+13	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	7	punct
 14	,	,	fc	fc	rep=no|t=no|r=no|m=no	15	punct
 15	pregunta	preguntar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	0	root
 16	Camp	Camp	np00000	np00000	rep=yes|t=no|r=no|m=yes	15	nsubj

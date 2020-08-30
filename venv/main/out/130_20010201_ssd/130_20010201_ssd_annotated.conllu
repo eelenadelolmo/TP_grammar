@@ -51,10 +51,10 @@
 24	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=no	21	punct
 25	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	det
 26	dinero	dinero	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	appos
-27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	punct
+27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	punct
 28	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	det
 29	dólares	dólar	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	appos
-30	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	punct
+30	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	punct
 31	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	det
 32	negocio	negocio	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	appos
 33	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	21	punct
@@ -120,7 +120,7 @@
 12	competición	competición	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	10	pobj
 13	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 2	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	punct
 3	ciertamente	ciertamente	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	8	advmod
 4	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	punct
@@ -130,7 +130,7 @@
 8	hay	haber	vaip3s0	vaip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 9	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	8	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	coord_fixed
 2	lo	el	da0ns0	da0ns0	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	det
 3	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	dobj
 4	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	advmod

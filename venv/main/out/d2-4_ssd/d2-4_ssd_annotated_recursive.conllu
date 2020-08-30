@@ -37,14 +37,14 @@
 10	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	7	prepn
 11	año	año	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	10	pobj
 12	pasado	pasado	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	11	amod
-13	,	,	fc	fc	rep=no|t=no|r=no|m=yes	4	punct
+13	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	4	punct
 14	cuando	cuando	cs	cs	rep=no|t=no|r=no|m=yes	4	advcl
 15	fue	ser	vsis3s0	vsis3s0	rep=no|t=no|r=no|m=yes	14	cobj
 16	cuarto	cuarto	ao0ms0	ao0ms0	rep=no|t=no|r=no|m=yes	15	attr
 17	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	15	prepv
 18	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	19	det
 19	carrera	carrera	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	17	pobj
-20	,	,	fc	fc	rep=no|t=no|r=no|m=yes	4	punct
+20	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	4	punct
 21	pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 22	ayer	ayer	rg	rg	rep=no|t=no|r=no|m=yes	24	advmod
 23	no	no	rn	rn	rep=no|t=no|r=no|m=yes	24	neg
@@ -110,12 +110,12 @@
 
 1	Carlos	Carlos	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	9	nsubj
 2	Galarreta	Galarreta	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	1	appos
-3	y	y	cc	cc	rep=no|t=no|r=no|m=no	9	coord_fixed
+3	y	y	cc	cc	rep=no|t=no|r=no|m=yes	9	coord_fixed
 4	Luis	luis	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	9	nsubj
 5	Pérez	Pérez	np00000	np00000	rep=no|t=yes|r=no|m=yes	4	appos
-6	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	7	punct
+6	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	7	punct
 7	Castellblanch	Castellblanch	np0000o	np0000o	rep=no|t=no|r=yes|m=yes	9	dep
-8	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	7	punct
+8	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	7	punct
 9	fueron	ser	vsis3p0	vsis3p0	rep=no|t=no|r=yes|m=yes	0	root
 10	dos	dos	pn0cp000	pn0cp000	rep=no|t=no|r=yes|m=yes	9	attr
 11	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepn
@@ -135,11 +135,11 @@
 9	ambición	ambición	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	11	nsubj
 10	le	él	pp3csa00	pp3csa00	rep=no|t=no|r=yes|m=yes	11	iobj
 11	llevó	llevar	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	7	coord
-12	,	,	fc	fc	rep=no|t=no|r=no|m=yes	11	punct
+12	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	11	punct
 13	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	11	prepv
 14	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	15	det
 15	ocasión	ocasión	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	13	pobj
-16	,	,	fc	fc	rep=no|t=no|r=no|m=yes	11	punct
+16	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	11	punct
 17	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	11	oobj
 18	chocar	chocar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	17	pobj
 19	contra	contra	sps00	sps00	rep=no|t=no|r=yes|m=yes	18	prepv

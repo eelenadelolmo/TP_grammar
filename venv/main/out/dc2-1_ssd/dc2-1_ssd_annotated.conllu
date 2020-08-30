@@ -21,9 +21,9 @@
 9	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	det
 10	resultado	resultado	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	attr
 11	directo	directo	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	amod
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 13	paradójicamente	paradójicamente	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	advmod
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 15	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	prepn
 16	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	det
 17	avances	avance	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
@@ -96,12 +96,12 @@
 22	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	det
 23	enemigo	enemigo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	pobj
 24	invisible	invisible	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	amod
-25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 26	aliado	aliado	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	appos
 27	inesperado	inesperado	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	amod
 28	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	prepn
 29	hombre	hombre	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	pobj
-30	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	punct
+30	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	punct
 31	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	det
 32	microorganismos	microorganismo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	appos
 33	causantes	causante	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	amod
@@ -144,7 +144,7 @@
 29	ciencia	ciencia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	pobj
 30	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	coord_fixed
 31	guerra	guerra	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	pobj
-32	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	46	punct
+32	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	46	punct
 33	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	det
 34	espantos	espanto	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	46	nsubj
 35	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	prepn
@@ -164,7 +164,7 @@
 49	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	51	det
 50	nuevo	nuevo	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	51	amod
 51	fantasma	fantasma	nccs000	nccs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	48	pobj
-52	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	51	punct
+52	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	51	punct
 53	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	50	det
 54	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	50	prepa
 55	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	56	det
@@ -189,7 +189,7 @@
 15	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	det
 16	aparente	aparente	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	amod
 17	milagro	milagro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	dobj
-18	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
+18	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	punct
 19	ninguno	ninguno	pi0ms000	pi0ms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	nsubj
 20	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	prepn
 21	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	det
@@ -198,15 +198,15 @@
 24	atrevió	atreverse	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	dep
 25	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	oobj
 26	usarlos	usar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	pobj
-27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
+27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	punct
 28	temerosos	temeroso	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	cpred
 29	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	prepa
 30	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	det
 31	reacción	reacción	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	pobj
-32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	punct
+32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	punct
 33	también	también	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	advmod
 34	química	químico	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	amod
-35	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	punct
+35	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	punct
 36	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	prepn
 37	contrario	contrario	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	pobj
 38	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	14	punct
@@ -242,7 +242,7 @@
 29	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	pobj
 30	estos	este	dd0mp0	dd0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	det
 31	productos	producto	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	pobj
-32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	punct
+32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	punct
 33	además	además	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	prepv
 34	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	prep
 35	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	det
@@ -254,7 +254,7 @@
 41	italiana	italiano	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	amod
 42	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	prepn
 43	Bari	Bari	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	pobj
-44	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	43	punct
+44	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	43	punct
 45	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	53	prepn
 46	cuyo	cuyo	pr0ms000	pr0ms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	47	det
 47	puerto	puerto	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	45	pobj
@@ -275,8 +275,8 @@
 
 1	En	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	dep
 2	1925	1925	z	z	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	pobj
-3	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
-4	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	15	coord_fixed
+3	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	punct
+4	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	coord_fixed
 5	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	dep
 6	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	det
 7	propósito	propósito	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	pobj
@@ -295,7 +295,7 @@
 20	Protocolo	protocolo	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	cpred
 21	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	prepn
 22	Ginebra	Ginebra	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	pobj
-23	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	punct
+23	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	punct
 24	por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	prepv
 25	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	det
 26	cual	cual	pr0cs000	pr0cs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
@@ -310,7 +310,7 @@
 35	bacteriológico	bacteriológico	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	dep
 36	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	15	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	15	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	coord_fixed
 2	pocos	poco	di0mp0	di0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	det
 3	años	año	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	tmod
 4	después	después	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	advmod
@@ -367,7 +367,7 @@
 30	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	prepn
 31	armas	arma	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	pobj
 32	bacteriológicas	bacteriológico	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	amod
-33	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	punct
+33	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	punct
 34	aunque	aunque	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	advcl
 35	afortunadamente	afortunadamente	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	advmod
 36	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	prepv
@@ -394,7 +394,7 @@
 17	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	prepn
 18	ese	ese	dd0ms0	dd0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	det
 19	terreno	terreno	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
-20	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+20	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 21	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	det
 22	mayoría	mayoría	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	appos
 23	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	prepn

@@ -164,8 +164,8 @@
 27	mañana	mañana	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	dep
 28	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	7	punct
 
-1	Ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
-2	siquiera	siquiera	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	1	advmod
+1	Ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
+2	siquiera	siquiera	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	advmod
 3	necesitaba	necesitar	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 4	despertador	despertador	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	dobj
 5	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
@@ -218,8 +218,8 @@
 21	pizca	pizca	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	dobj
 22	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	prepn
 23	azafrán	azafrán	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	pobj
-24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	25	punct
-25	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	7	coord_fixed
+24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	punct
+25	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	coord_fixed
 26	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	dep
 27	dar	dar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	pobj
 28	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	det
@@ -238,7 +238,7 @@
 4	Antonia	Antonia	np0000p	np0000p	recursive=no|rep=no|theme=yes|rheme=no|main=yes	18	nsubj
 5	sabía	saber	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	0	root
 6	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	5	dobj
-7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 8	tras	tras	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	prepv
 9	regresar	regresar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
 10	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	prepv
@@ -246,7 +246,7 @@
 12	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	prepv
 13	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	det
 14	pan	pan	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 16	ya	ya	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	advmod
 17	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	neg
 18	iba	ir	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	cobj

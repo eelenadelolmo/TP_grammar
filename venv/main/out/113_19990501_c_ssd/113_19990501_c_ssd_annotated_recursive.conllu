@@ -107,7 +107,7 @@
 8	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	9	det
 9	zona	zona	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	7	pobj
 10	euro	euro	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	9	appos
-11	y	y	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+11	y	y	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 12	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	4	dep
 13	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	14	det
 14	UE	UE	np00000	np00000	rep=no|t=no|r=yes|m=yes	12	pobj
@@ -129,9 +129,9 @@
 10	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	7	prepn
 11	este	este	dd0ms0	dd0ms0	rep=no|t=no|r=yes|m=yes	12	det
 12	periodo	periodo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	10	pobj
-13	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	14	punct
+13	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	14	punct
 14	1,6%	1.6	z	z	rep=no|t=no|r=yes|m=yes	7	prepn
-15	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	14	punct
+15	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	14	punct
 16	,	,	fc	fc	rep=no|t=no|r=no|m=no	17	punct
 17	mientras	mientras	cs	cs	rep=no|t=no|r=no|m=yes	0	root
 18	que	que	cs	cs	rep=no|t=no|r=no|m=yes	17	coord

@@ -164,8 +164,8 @@
 27	mañana	mañana	np00000	np00000	rep=no|t=no|r=no|m=yes	26	dep
 28	.	.	fp	fp	rep=no|t=no|r=no|m=no	7	punct
 
-1	Ni	ni	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
-2	siquiera	siquiera	rg	rg	rep=no|t=no|r=no|m=no	1	advmod
+1	Ni	ni	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
+2	siquiera	siquiera	rg	rg	rep=no|t=no|r=no|m=yes	1	advmod
 3	necesitaba	necesitar	vmii3s0	vmii3s0	rep=no|t=no|r=no|m=yes	0	root
 4	despertador	despertador	ncms000	ncms000	rep=no|t=no|r=no|m=yes	3	dobj
 5	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
@@ -218,8 +218,8 @@
 21	pizca	pizca	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	13	dobj
 22	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	21	prepn
 23	azafrán	azafrán	ncms000	ncms000	rep=no|t=no|r=no|m=yes	22	pobj
-24	,	,	fc	fc	rep=no|t=no|r=no|m=no	25	punct
-25	o	o	cc	cc	rep=no|t=no|r=no|m=no	7	coord_fixed
+24	,	,	fc	fc	rep=no|t=no|r=no|m=yes	25	punct
+25	o	o	cc	cc	rep=no|t=no|r=no|m=yes	7	coord_fixed
 26	a	a	sps00	sps00	rep=no|t=no|r=no|m=yes	7	dep
 27	dar	dar	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	26	pobj
 28	una	uno	di0fs0	di0fs0	rep=no|t=no|r=no|m=yes	29	det
@@ -238,7 +238,7 @@
 4	Antonia	Antonia	np0000p	np0000p	rep=no|t=yes|r=no|m=yes	18	nsubj
 5	sabía	saber	vmii3s0	vmii3s0	rep=no|t=no|r=no|m=no	0	root
 6	que	que	cs	cs	rep=no|t=no|r=no|m=no	5	dobj
-7	,	,	fc	fc	rep=no|t=no|r=no|m=yes	18	punct
+7	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	18	punct
 8	tras	tras	sps00	sps00	rep=no|t=no|r=yes|m=yes	18	prepv
 9	regresar	regresar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	8	pobj
 10	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	9	prepv
@@ -246,7 +246,7 @@
 12	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	9	prepv
 13	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	14	det
 14	pan	pan	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	12	pobj
-15	,	,	fc	fc	rep=no|t=no|r=no|m=yes	18	punct
+15	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	18	punct
 16	ya	ya	rg	rg	rep=no|t=no|r=no|m=yes	18	advmod
 17	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	18	neg
 18	iba	ir	vmii3s0	vmii3s0	rep=no|t=no|r=yes|m=yes	6	cobj

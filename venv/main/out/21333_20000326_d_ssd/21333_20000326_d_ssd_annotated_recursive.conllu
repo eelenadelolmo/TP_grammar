@@ -9,7 +9,7 @@
 
 1	El	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	2	det
 2	Zaragoza	Zaragoza	np00000	np00000	rep=no|t=yes|r=no|m=yes	16	nsubj
-3	,	,	fc	fc	rep=no|t=no|r=no|m=yes	16	punct
+3	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	16	punct
 4	gracias	gracia	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	16	prepv
 5	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	4	prepn
 6	dos	dos	dn0cp0	dn0cp0	rep=no|t=no|r=yes|m=yes	7	det
@@ -20,7 +20,7 @@
 11	Miguel	miguel	np0000o	np0000o	rep=no|t=no|r=yes|m=yes	10	appos
 12	`Toro`	`Toro`	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	10	appos
 13	Acuña	Acuña	np0000a	np0000a	rep=no|t=no|r=yes|m=yes	12	appos
-14	,	,	fc	fc	rep=no|t=no|r=no|m=yes	16	punct
+14	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	16	punct
 15	se	él	p0300000	p0300000	rep=no|t=no|r=yes|m=yes	16	reflec
 16	hizo	hacer	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	28	coord
 17	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	oobj
@@ -31,9 +31,9 @@
 22	visita	visita	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	20	pobj
 23	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	22	prepn
 24	Vitoria	Vitoria	np00000	np00000	rep=no|t=no|r=yes|m=yes	23	pobj
-25	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	26	punct
+25	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	26	punct
 26	0-2	0-2	z	z	rep=no|t=no|r=yes|m=yes	16	dobj
-27	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	26	punct
+27	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	26	punct
 28	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 29	arrebató	arrebatar	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	28	coord
 30	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	32	det

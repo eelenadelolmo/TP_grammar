@@ -43,9 +43,9 @@
 43	mayo	mayo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	42	pobj
 44	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	punct
 45	fue	ser	vsis3s0	vsis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	cobj
-46	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	47	punct
+46	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	47	punct
 47	exitoso	exitoso	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	45	attr
-48	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	47	punct
+48	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	47	punct
 49	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	10	punct
 
 1	La	el	da0fs0	da0fs0	recursive=no|rep=yes|theme=no|rheme=no|main=no	2	det
@@ -56,9 +56,9 @@
 6	simulacro	simulacro	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
 7	se	se	p0000000	p0000000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	reflec
 8	realizó	realizar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	cobj
-9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 10	progresivamente	progresivamente	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	advmod
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 12	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	prepv
 13	sus	su	dp3cp0	dp3cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	poss
 14	diversos	diverso	di0mp0	di0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	det
@@ -144,18 +144,18 @@
 43	Perú	Perú	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	appos
 44	2000	2000	w	w	recursive=no|rep=no|theme=no|rheme=yes|main=yes	43	dep
 45	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	punct
-46	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	47	nsubj
-47	presenta	presentar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	rcmod
-48	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	49	det
-49	candidatura	candidatura	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	47	dobj
-50	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	47	prepv
-51	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	53	det
-52	segunda	segundo	ao0fs0	ao0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	53	amod
-53	reelección	reelección	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	50	pobj
-54	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	53	prepn
-55	presidente	presidente	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	54	pobj
-56	Alberto	Alberto	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	55	appos
-57	Fujimori	Fujimori	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	56	appos
+46	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	47	nsubj
+47	presenta	presentar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	42	rcmod
+48	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	49	det
+49	candidatura	candidatura	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	47	dobj
+50	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	47	prepv
+51	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	53	det
+52	segunda	segundo	ao0fs0	ao0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	53	amod
+53	reelección	reelección	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	50	pobj
+54	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	53	prepn
+55	presidente	presidente	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	54	pobj
+56	Alberto	Alberto	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=no|main=yes	55	appos
+57	Fujimori	Fujimori	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=no|main=yes	56	appos
 58	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
 1	No	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=no	2	neg

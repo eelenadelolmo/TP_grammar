@@ -290,7 +290,7 @@
 22	-	-	fg	fg	rep=no|t=no|r=no|m=no	17	punct
 23	.	.	fp	fp	rep=no|t=no|r=no|m=no	13	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 2	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	3	det
 3	extorsión	extorsión	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	4	nsubj
 4	estaba	estar	vmii3s0	vmii3s0	rep=no|t=no|r=yes|m=yes	0	root
@@ -334,7 +334,7 @@
 25	etarra	etarra	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	24	amod
 26	contra	contra	sps00	sps00	rep=no|t=no|r=yes|m=yes	24	prepn
 27	oficinas	oficina	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	26	pobj
-28	,	,	fc	fc	rep=no|t=no|r=no|m=yes	30	punct
+28	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	30	punct
 29	delegaciones	delegación	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	26	pobj
 30	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	26	coord_fixed
 31	sucursales	sucursal	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	26	pobj
@@ -351,7 +351,7 @@
 5	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	6	det
 6	País	País	np00000	np00000	rep=no|t=no|r=yes|m=yes	4	pobj
 7	Vasco	vasco	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	6	appos
-8	y	y	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+8	y	y	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 9	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	3	dep
 10	Navarra	Navarra	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	9	pobj
 11	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
@@ -458,8 +458,8 @@
 34	más	más	rg	rg	rep=no|t=no|r=yes|m=yes	32	advmod
 35	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	34	dep
 36	económico	económico	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	35	amod
-37	:	:	fd	fd	rep=no|t=no|r=no|m=yes	40	punct
-38	-	-	fg	fg	rep=no|t=no|r=no|m=yes	40	punct
+37	:	:	fd	fd	rep=no|t=no|r=yes|m=yes	40	punct
+38	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	40	punct
 39	Se	se	p0000000	p0000000	rep=no|t=no|r=yes|m=yes	40	reflec
 40	trataría	tratar	vmic3s0	vmic3s0	rep=no|t=no|r=yes|m=yes	32	dep
 41	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	40	oobj
@@ -500,7 +500,7 @@
 76	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	77	det
 77	País	País	np00000	np00000	rep=no|t=no|r=no|m=yes	75	pobj
 78	Vasco	vasco	ncms000	ncms000	rep=no|t=no|r=no|m=yes	77	appos
-79	-	-	fg	fg	rep=no|t=no|r=no|m=yes	40	punct
+79	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	40	punct
 80	.	.	fp	fp	rep=no|t=no|r=no|m=no	9	punct
 
 1	Por	por	sps00	sps00	rep=no|t=no|r=no|m=no	7	advmod
@@ -577,7 +577,7 @@
 32	contra	contra	sps00	sps00	rep=no|t=no|r=yes|m=yes	29	oobj
 33	entidades	entidad	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	32	pobj
 34	bancarias	bancario	aq0fp0	aq0fp0	rep=no|t=no|r=yes|m=yes	33	amod
-35	,	,	fc	fc	rep=no|t=no|r=no|m=yes	40	punct
+35	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	40	punct
 36	empresas	empresa	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	32	pobj
 37	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	36	prepn
 38	capital	capital	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	37	pobj

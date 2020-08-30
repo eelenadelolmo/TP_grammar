@@ -23,9 +23,9 @@
 23	Republicana	republicano	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	amod
 24	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	prepn
 25	Catalunya	Catalunya	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
-26	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	punct
+26	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	punct
 27	ERC	ERC	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	appos
-28	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	punct
+28	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	punct
 29	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	12	punct
 
 1	Después	después	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	50	advmod
@@ -94,7 +94,7 @@
 10	Scylla	Scylla	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
 11	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	coord_fixed
 12	Caribdis	Caribdis	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
 14	entre	entre	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	prepn
 15	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	det
 16	PP	PP	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	conj
@@ -110,10 +110,10 @@
 26	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	prepn
 27	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	det
 28	Parlament	Parlament	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	pobj
-29	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	punct
+29	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	punct
 30	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	coord_fixed
 31	ERC	ERC	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	pobj
-32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	punct
+32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	punct
 33	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	dep
 34	frente	frente	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	cobj
 35	nacionalista	nacionalista	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	amod
@@ -142,26 +142,26 @@
 16	llamado	llamado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	amod
 17	Corazón	Corazón	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	cpred
 18	loco	loco	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	amod
-19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
+19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	punct
 20	historia	historia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	appos
 21	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	prepn
 22	dos	dos	dn0cp0	dn0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	det
 23	amores	amor	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	pobj
-24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 25	Catalunya	Catalunya	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	dep
 26	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	coord_fixed
 27	España	España	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	dep
-28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	punct
+28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	punct
 29	republicanos	republicano	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	dep
 30	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	coord_fixed
 31	conservadores	conservador	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	dep
-32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	punct
+32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	punct
 33	nacionalistas	nacionalista	nccp000	nccp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	dep
 34	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	coord_fixed
 35	españolistas	españolista	nccp000	nccp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	dep
 36	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	10	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 2	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	det
 3	convergentes	convergente	nccp000	nccp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 4	sin	sin	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	prepn
@@ -210,7 +210,7 @@
 38	2003	2003	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	pobj
 39	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 2	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	prepv
 3	este	este	dd0ms0	dd0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	det
 4	lío	lío	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	pobj
@@ -221,7 +221,7 @@
 9	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	prepv
 10	hacer	hacer	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	pobj
 11	UDC	UDC	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	nsubj
-12	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+12	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 13	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	det
 14	señor	señor	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	nsubj
 15	Josep	Josep	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	appos

@@ -20,11 +20,11 @@
 20	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	19	prepn
 21	próximo	próximo	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	22	amod
 22	sábado	sábado	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	20	pobj
-23	,	,	fc	fc	rep=no|t=no|r=no|m=yes	19	punct
+23	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	19	punct
 24	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	25	det
 25	FC	fc	y	y	rep=no|t=no|r=yes|m=yes	19	appos
 26	Barcelona	Barcelona	np00000	np00000	rep=no|t=no|r=yes|m=yes	25	dep
-27	,	,	fc	fc	rep=no|t=no|r=no|m=yes	19	punct
+27	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	19	punct
 28	al	al	spcms	spcms	rep=no|t=no|r=yes|m=yes	31	dobj
 29	cuál	cuál	pt0cs000	pt0cs000	rep=no|t=no|r=yes|m=yes	28	pobj
 30	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	31	neg
@@ -32,7 +32,7 @@
 32	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	31	oobj
 33	calificar	calificar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	32	pobj
 34	como	como	cs	cs	rep=no|t=no|r=yes|m=yes	33	cpred
-35	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	34	punct
+35	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	34	punct
 36	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	38	det
 37	mejor	mejor	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	38	amod
 38	equipo	equipo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	34	cobj
@@ -40,7 +40,7 @@
 40	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	42	det
 41	mejor	mejor	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	42	amod
 42	plantilla	plantilla	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	34	cobj
-43	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	42	punct
+43	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	42	punct
 44	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	42	prepn
 45	las	el	da0fp0	da0fp0	rep=no|t=no|r=no|m=yes	47	det
 46	dieciocho	dieciocho	dn0cp0	dn0cp0	rep=no|t=no|r=no|m=yes	47	det
@@ -129,14 +129,14 @@
 15	García	García	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	14	appos
 16	Reneses	Reneses	np00000	np00000	rep=no|t=yes|r=no|m=yes	15	appos
 17	supondría	suponer	vmic3s0	vmic3s0	rep=no|t=no|r=yes|m=yes	5	cobj
-18	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	20	punct
+18	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	20	punct
 19	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	20	det
 20	inyección	inyección	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	17	dobj
 21	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	20	prepn
 22	moral	moral	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	21	pobj
 23	bastante	bastante	rg	rg	rep=no|t=no|r=yes|m=yes	24	advmod
 24	grande	grande	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	20	amod
-25	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	20	punct
+25	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	20	punct
 26	para	para	sps00	sps00	rep=no|t=no|r=yes|m=yes	37	cobj
 27	mejorar	mejorar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	26	pobj
 28	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	30	det
@@ -147,7 +147,7 @@
 33	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	35	det
 34	últimos	último	ao0mp0	ao0mp0	rep=no|t=no|r=yes|m=yes	35	amod
 35	partidos	partido	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	32	pobj
-36	,	,	fc	fc	rep=no|t=no|r=no|m=yes	37	punct
+36	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	37	punct
 37	así	así	rg	rg	rep=no|t=no|r=yes|m=yes	20	dep
 38	como	como	cs	cs	rep=no|t=no|r=yes|m=yes	37	dep
 39	para	para	sps00	sps00	rep=no|t=no|r=yes|m=yes	38	cobj

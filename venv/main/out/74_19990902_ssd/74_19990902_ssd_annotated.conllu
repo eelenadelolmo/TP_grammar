@@ -2,10 +2,10 @@
 2	homenaje	homenaje	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	1	pobj
 3	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	2	prepn
 4	McCartney	McCartney	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	pobj
-5	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
+5	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	punct
 6	foto	foto	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	pobj
-7	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
-8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+7	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	punct
+8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 9	Lennon	Lennon	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	pobj
 10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	coord_fixed
 11	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	det
@@ -33,10 +33,10 @@
 33	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	det
 34	habitación	habitación	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	dobj
 35	especial	especial	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	amod
-36	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	punct
+36	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	punct
 37	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	det
 38	810	810	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	num
-39	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	punct
+39	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	punct
 40	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	prepn
 41	recuerdos	recuerdo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	pobj
 42	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	prepn

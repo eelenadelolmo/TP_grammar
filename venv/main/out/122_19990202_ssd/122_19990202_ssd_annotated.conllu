@@ -15,9 +15,9 @@
 8	12	12	z	z	recursive=no|rep=no|theme=no|rheme=no|main=no	9	num
 9	puntos	punto	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=no	7	pobj
 10	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	det
-11	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
+11	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	punct
 12	inexactitudes	inexactitud	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dobj
-13	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
+13	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	punct
 14	sobre	sobre	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	prepn
 15	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	poss
 16	forma	forma	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	pobj
@@ -30,16 +30,16 @@
 3	aclara	aclarar	vmm02s0	vmm02s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 4	dónde	dónde	pt000000	pt000000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	dobj
 5	vive	vivir	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dobj
-6	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	15	punct
+6	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
 7	qué	qué	pt0cs000	pt0cs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dobj
 8	cobra	cobrar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dobj
-9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	15	punct
+9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
 10	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	det
 11	valor	valor	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dobj
 12	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
 13	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	det
 14	regalos	regalo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
-15	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+15	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 16	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	det
 17	cargo	cargo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dobj
 18	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	dobj
@@ -188,7 +188,7 @@
 42	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	44	det
 43	últimos	último	ao0mp0	ao0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	44	amod
 44	días	día	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	pobj
-45	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	40	punct
+45	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	punct
 46	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	prepn
 47	persistentes	persistente	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	48	amod
 48	ataques	ataque	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	46	pobj
@@ -203,7 +203,7 @@
 57	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	54	prepn
 58	organismo	organismo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	57	pobj
 59	internacional	internacional	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	58	amod
-60	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	54	punct
+60	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	54	punct
 61	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	62	nsubj
 62	desmanteló	desmantelar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	54	rcmod
 63	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	64	dep
@@ -321,16 +321,16 @@
 12	suntuosa	suntuoso	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	amod
 13	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
 14	dirigente	dirigente	nccs000	nccs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	punct
 16	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	prepn
 17	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	det
 18	regalos	regalo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	pobj
 19	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	dobj
 20	recibe	recibir	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	rcmod
 21	e	e	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	coord_fixed
-22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	punct
+22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	punct
 23	incluso	incluso	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	advmod
-24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	punct
+24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	punct
 25	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	prepn
 26	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	det
 27	acusación	acusación	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	pobj
@@ -338,10 +338,10 @@
 29	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	pobj
 30	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	poss
 31	hija	hija	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	nsubj
-32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	punct
+32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	punct
 33	María	María	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	appos
 34	Teresa	teresa	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	appos
-35	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	punct
+35	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	punct
 36	trabajó	trabajar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	cobj
 37	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	prepv
 38	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	det
@@ -386,7 +386,7 @@
 34	documento	documento	ncms000	ncms000	recursive=yes|rep=yes|theme=no|rheme=no|main=no	32	nsubj
 35	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	32	punct
 
-1	Ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+1	Ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 2	ministro	ministro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord
 3	ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 4	'excelencia'	excelencia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord
@@ -531,9 +531,9 @@
 28	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	prepv
 29	tratar	tratar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	pobj
 30	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	prepv
-31	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	punct
+31	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	punct
 32	excelencia	excelencia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	pobj
-33	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	punct
+33	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	punct
 34	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	35	punct
 35	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	0	root
 36	recuerda	recordar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	35	coord
@@ -686,11 +686,11 @@
 23	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	det
 24	5.000	5000	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	num
 25	dólares	dólar	zm	zm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	dobj
-26	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
+26	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	punct
 27	unas	uno	di0fp0	di0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	det
 28	715.000	715000	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	num
 29	pesetas	peseta	zm	zm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	num
-30	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
+30	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	punct
 31	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
 1	El	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det

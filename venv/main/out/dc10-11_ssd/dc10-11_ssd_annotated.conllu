@@ -19,7 +19,7 @@
 19	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	prepv
 20	una	uno	pi0fs000	pi0fs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
 21	sola	solo	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	amod
-22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	punct
+22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	punct
 23	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	det
 24	DaimlerBenz	DaimlerBenz	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	dep
 25	A.	A.	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	appos
@@ -132,7 +132,7 @@
 13	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	det
 14	curiosa	curioso	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	amod
 15	solución	solución	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	dobj
-16	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+16	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 17	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	det
 18	caballo	caballo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	appos
 19	mecánico	mecánico	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	amod
@@ -166,7 +166,7 @@
 8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 9	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	det
 10	bocina	bocina	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord
-11	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+11	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 12	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	det
 13	guantera	guantera	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord
 14	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord

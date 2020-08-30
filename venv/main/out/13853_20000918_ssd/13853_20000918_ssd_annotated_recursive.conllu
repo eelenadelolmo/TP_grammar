@@ -224,7 +224,7 @@
 1	El	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	2	det
 2	portero	portero	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	8	nsubj
 3	Molina	Molina	np0000p	np0000p	rep=no|t=yes|r=no|m=yes	2	appos
-4	y	y	cc	cc	rep=no|t=no|r=no|m=no	8	coord_fixed
+4	y	y	cc	cc	rep=no|t=no|r=no|m=yes	8	coord_fixed
 5	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	6	det
 6	centrocampista	centrocampista	nccs000	nccs000	rep=no|t=yes|r=no|m=yes	8	nsubj
 7	Emerson	Emerson	np0000p	np0000p	rep=no|t=yes|r=no|m=yes	6	appos
@@ -432,7 +432,7 @@
 32	Liga	Liga	np0000a	np0000a	rep=no|t=no|r=yes|m=yes	30	pobj
 33	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	32	prepn
 34	Campeones	campeón	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	33	pobj
-35	:	:	fd	fd	rep=no|t=no|r=no|m=yes	37	punct
+35	:	:	fd	fd	rep=no|t=no|r=yes|m=yes	37	punct
 36	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	37	det
 37	dificultad	dificultad	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	24	dobj
 38	para	para	sps00	sps00	rep=no|t=no|r=yes|m=yes	37	prepn
@@ -614,11 +614,11 @@
 8	hacer	hacer	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	6	dobj
 9	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	10	poss
 10	fútbol	fútbol	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	6	dobj
-11	,	,	fc	fc	rep=no|t=no|r=no|m=yes	13	punct
-12	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	13	punct
+11	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	13	punct
+12	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	13	punct
 13	jugar	jugar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	5	cobj
 14	raso	raso	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	13	dep
-15	,	,	fc	fc	rep=no|t=no|r=no|m=yes	18	punct
+15	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	18	punct
 16	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	13	dep
 17	seguridad	seguridad	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	16	pobj
 18	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	13	coord_fixed

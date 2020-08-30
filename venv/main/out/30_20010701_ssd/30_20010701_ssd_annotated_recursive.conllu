@@ -86,7 +86,7 @@
 23	muerte	muerte	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	21	pobj
 24	.	.	fp	fp	rep=no|t=no|r=no|m=no	2	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 2	esto	este	pd0ns000	pd0ns000	rep=no|t=yes|r=no|m=yes	3	nsubj
 3	continuará	continuar	vmif3s0	vmif3s0	rep=no|t=no|r=no|m=yes	0	root
 4	si	si	cs	cs	rep=no|t=no|r=no|m=no	3	advcl
@@ -106,7 +106,7 @@
 3	conscientes	consciente	aq0cp0	aq0cp0	rep=no|t=no|r=no|m=yes	2	attr
 4	los	el	da0mp0	da0mp0	rep=no|t=no|r=no|m=yes	5	det
 5	políticos	político	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	2	nsubj
-6	y	y	cc	cc	rep=no|t=no|r=no|m=no	2	coord_fixed
+6	y	y	cc	cc	rep=no|t=no|r=no|m=yes	2	coord_fixed
 7	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	8	det
 8	Administración	Administración	np00000	np00000	rep=no|t=no|r=no|m=yes	2	nsubj
 9	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	2	prepv

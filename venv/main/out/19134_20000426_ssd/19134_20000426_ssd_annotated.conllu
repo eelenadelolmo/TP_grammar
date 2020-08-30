@@ -33,7 +33,7 @@
 33	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	prepn
 34	Fórmula	Fórmula	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	pobj
 35	Uno	uno	pi0ms000	pi0ms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	dep
-36	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	punct
+36	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	punct
 37	así	así	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	cobj
 38	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	dep
 39	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	det
@@ -60,7 +60,7 @@
 13	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	det
 14	canal	canal	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	nsubj
 15	catalán	catalán	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	amod
-16	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
+16	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	punct
 17	ha	haber	vaip3s0	vaip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	cobj
 18	alargado	alargar	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	vobj
 19	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	det
@@ -70,8 +70,8 @@
 23	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	dobj
 24	ha	haber	vaip3s0	vaip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	cobj
 25	podido	poder	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	vobj
-26	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
-27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
+26	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	punct
+27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	punct
 28	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	prepv
 29	el	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	det
 30	objetivo	objetivo	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	pobj
@@ -97,7 +97,7 @@
 50	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	49	prepn
 51	Fórmula	Fórmula	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	50	pobj
 52	Uno	uno	pd0fs000	pd0fs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	51	dep
-53	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	49	punct
+53	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	49	punct
 54	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	56	nsubj
 55	se	se	p0000000	p0000000	recursive=no|rep=no|theme=no|rheme=no|main=yes	56	reflec
 56	celebrará	celebrar	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	49	rcmod
@@ -261,7 +261,7 @@
 11	parte	parte	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	dobj
 12	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
 13	contrato	contrato	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
-14	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+14	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 15	suscrito	suscrito	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	amod
 16	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	det
 17	temporada	temporada	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	tmod

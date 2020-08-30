@@ -40,11 +40,11 @@
 5	agarrarse	agarrar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dobj
 6	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	oobj
 7	Rivaldo	Rivaldo	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	pobj
-8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 9	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	prepv
 10	Luis	luis	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
 11	Enrique	enrique	nc00000	nc00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	appos
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 13	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	prepv
 14	cualquiera	cualquiera	pi0cs000	pi0cs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
 15	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	prepn
@@ -68,7 +68,7 @@
 8	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	prepn
 9	esta	este	dd0fs0	dd0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	det
 10	tarde	tarde	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	punct
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	punct
 12	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	det
 13	partido	partido	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	appos
 14	frente	frente	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	prepn
@@ -78,10 +78,10 @@
 18	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	prepn
 19	Camp	camp	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
 20	Nou	Nou	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	appos
-21	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+21	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
 22	19	19	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	num
 23	horas	hora	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	dep
-24	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+24	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
 25	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	prepv
 26	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	det
 27	reanudación	reanudación	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	pobj
@@ -180,7 +180,7 @@
 5	va	ir	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	oobj
 6	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	prepv
 7	distraerme	distraer	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	pobj
-8	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
+8	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	punct
 9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	10	punct
 10	insistió	insistir	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 11	Serra	Serra	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	nsubj
@@ -229,7 +229,7 @@
 16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 17	Carles	Carles	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	nsubj
 18	Puyol	Puyol	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	appos
-19	e	e	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+19	e	e	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 20	Iván	Iván	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	nsubj
 21	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	prepn
 22	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	det

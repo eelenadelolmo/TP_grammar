@@ -19,7 +19,7 @@
 19	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	prepn
 20	última	último	ao0fs0	ao0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	amod
 21	hora	hora	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
-22	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	10	coord_fixed
+22	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	coord_fixed
 23	cerrar	cerrar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	dobj
 24	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	prepv
 25	alza	alza	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
@@ -87,31 +87,7 @@
 6	fue	ser	vsis3s0	vsis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 7	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	prepv
 8	Iberdrola	Iberdrola	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	pobj
-9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
-10	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	nsubj
-11	ganó	ganar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	rcmod
-12	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	det
-13	2,62%	2.62	z	z	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	dobj
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
-15	tras	tras	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	prepv
-16	anunciar	anunciar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	pobj
-17	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	det
-18	compra	compra	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	dobj
-19	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	prepn
-20	3,5%	3.5	z	z	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	pobj
-21	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	prep
-22	Repsol	Repsol	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	pobj
-23	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
-
-1	Una	uno	pi0fs000	pi0fs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	nsubj
-2	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	1	prepn
-3	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	det
-4	mayores	mayor	aq0cp0	aq0cp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	amod
-5	subidas	subida	ncfp000	ncfp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	pobj
-6	fue	ser	vsis3s0	vsis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
-7	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	prepv
-8	Iberdrola	Iberdrola	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	pobj
-9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 10	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	nsubj
 11	ganó	ganar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	rcmod
 12	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	det
@@ -128,7 +104,7 @@
 23	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
 
 1	París	París	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	nsubj
-2	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	5	coord_fixed
+2	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	coord_fixed
 3	Milán	Milán	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	nsubj
 4	también	también	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	5	advmod
 5	cerraron	cerrar	vmis3p0	vmis3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
@@ -158,12 +134,12 @@
 13	todo	todo	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	det
 14	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	det
 15	año	año	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
-16	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+16	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 17	69.715	69715	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	num
 18	millones	millón	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	appos
 19	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	prepn
 20	pesetas	peseta	zm	zm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
-21	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+21	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 22	debido	debido	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	prepv
 23	al	al	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	22	agent
 24	cierre	cierre	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	23	pobj

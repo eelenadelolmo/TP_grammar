@@ -2,7 +2,7 @@
 2	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	4	det
 3	propia	propio	di0fs0	di0fs0	rep=no|t=yes|r=no|m=yes	4	det
 4	competencia	competencia	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	10	nsubj
-5	y	y	cc	cc	rep=no|t=no|r=no|m=no	10	coord_fixed
+5	y	y	cc	cc	rep=no|t=no|r=no|m=yes	10	coord_fixed
 6	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	7	det
 7	ley	ley	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	10	nsubj
 8	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	7	prepn
@@ -15,7 +15,7 @@
 15	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	prepn
 16	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	17	det
 17	precios	precio	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	15	pobj
-18	o	o	cc	cc	rep=no|t=no|r=no|m=no	10	coord_fixed
+18	o	o	cc	cc	rep=no|t=no|r=no|m=yes	10	coord_fixed
 19	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	oobj
 20	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	21	det
 21	sistema	sistema	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	19	pobj
@@ -52,7 +52,7 @@
 3	las	el	da0fp0	da0fp0	rep=no|t=no|r=no|m=yes	4	det
 4	formas	forma	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	1	nsubj
 5	diplomáticas	diplomático	aq0fp0	aq0fp0	rep=no|t=no|r=no|m=yes	4	amod
-6	y	y	cc	cc	rep=no|t=no|r=no|m=no	16	coord_fixed
+6	y	y	cc	cc	rep=no|t=no|r=no|m=yes	16	coord_fixed
 7	hay	haber	vaip3s0	vaip3s0	rep=no|t=no|r=no|m=yes	16	dep
 8	que	que	cs	cs	rep=no|t=no|r=no|m=yes	7	conj
 9	cambiarlas	cambiar	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	8	cobj
@@ -194,7 +194,7 @@
 6	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	5	prepn
 7	exigir	exigir	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	6	pobj
 8	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	7	dobj
-9	,	,	fc	fc	rep=no|t=no|r=no|m=yes	30	punct
+9	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	30	punct
 10	por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	30	prepv
 11	simple	simple	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	12	amod
 12	ingeniería	ingeniería	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	10	pobj
@@ -203,16 +203,16 @@
 15	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	oobj
 16	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	17	det
 17	ampliación	ampliación	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	15	pobj
-18	,	,	fc	fc	rep=no|t=no|r=no|m=yes	30	punct
+18	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	30	punct
 19	varias	varios	di0fp0	di0fp0	rep=no|t=no|r=yes|m=yes	20	det
 20	regiones	región	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	30	nsubj
-21	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	26	punct
+21	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	26	punct
 22	Andalucía	Andalucía	np00000	np00000	rep=no|t=no|r=yes|m=yes	20	appos
-23	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+23	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 24	Galicia	Galicia	np00000	np00000	rep=no|t=no|r=yes|m=yes	20	appos
-25	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+25	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 26	Extremadura	Extremadura	np00000	np00000	rep=no|t=no|r=yes|m=yes	20	appos
-27	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	26	punct
+27	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	26	punct
 28	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	30	neg
 29	se	él	p0300000	p0300000	rep=no|t=no|r=yes|m=yes	30	reflec
 30	quedaran	quedar	vmsi3p0	vmsi3p0	rep=no|t=no|r=yes|m=yes	8	cobj
@@ -220,14 +220,14 @@
 32	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	34	det
 33	dichosos	dichoso	aq0mp0	aq0mp0	rep=no|t=no|r=yes|m=yes	34	amod
 34	fondos	fondo	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	31	pobj
-35	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	38	punct
+35	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	38	punct
 36	casi	casi	rg	rg	rep=no|t=no|r=yes|m=yes	37	advmod
 37	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	38	det
 38	billón	billón	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	34	appos
 39	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	38	prepn
 40	pesetas	peseta	zm	zm	rep=no|t=no|r=yes|m=yes	39	pobj
 41	anuales	anual	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	40	amod
-42	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	38	punct
+42	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	38	punct
 43	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
 
 1	Lo	el	da0ns0	da0ns0	rep=no|t=yes|r=no|m=yes	2	det
@@ -252,7 +252,7 @@
 12	las	el	da0fp0	da0fp0	rep=no|t=yes|r=no|m=yes	13	det
 13	ambiciones	ambición	ncfp000	ncfp000	rep=no|t=yes|r=no|m=yes	11	nsubj
 14	españolas	español	aq0fp0	aq0fp0	rep=no|t=yes|r=no|m=yes	13	amod
-15	y	y	cc	cc	rep=no|t=no|r=no|m=no	36	coord_fixed
+15	y	y	cc	cc	rep=no|t=no|r=no|m=yes	36	coord_fixed
 16	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	17	det
 17	exigencia	exigencia	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	36	nsubj
 18	abierta	abierto	aq0fsp	aq0fsp	rep=no|t=yes|r=no|m=yes	17	amod
@@ -278,7 +278,7 @@
 38	asunto	asunto	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	36	dobj
 39	.	.	fp	fp	rep=no|t=no|r=no|m=no	36	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	29	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	29	coord_fixed
 2	mientras	mientras	cs	cs	rep=no|t=no|r=no|m=no	29	advcl
 3	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=no	4	det
 4	Gobierno	Gobierno	np0000o	np0000o	rep=no|t=no|r=no|m=no	15	nsubj
@@ -560,14 +560,14 @@
 51	Vileda	Vileda	np00000	np00000	rep=no|t=no|r=no|m=yes	50	appos
 52	.	.	fp	fp	rep=no|t=no|r=no|m=no	5	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	7	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	7	coord_fixed
 2	que	que	cs	cs	rep=no|t=no|r=no|m=yes	7	te
 3	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	4	det
 4	factor	factor	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	7	nsubj
 5	humano	humano	aq0ms0	aq0ms0	rep=no|t=yes|r=no|m=yes	4	amod
 6	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	7	neg
 7	falte	faltar	vmsp3s0	vmsp3s0	rep=no|t=no|r=yes|m=yes	0	root
-8	:	:	fd	fd	rep=no|t=no|r=no|m=yes	29	punct
+8	:	:	fd	fd	rep=no|t=no|r=yes|m=yes	29	punct
 9	fines	fin	ncmp000	ncmp000	rep=no|t=no|r=no|m=no	7	advcl
 10	de	de	sps00	sps00	rep=no|t=no|r=no|m=no	9	prepn
 11	semana	semana	ncfs000	ncfs000	rep=no|t=no|r=no|m=no	10	pobj
@@ -587,19 +587,19 @@
 25	(	(	fpa	fpa	rep=no|t=no|r=no|m=no	26	punct
 26	Yusufi	Yusufi	np00000	np00000	rep=no|t=no|r=no|m=no	24	appos
 27	)	)	fpt	fpt	rep=no|t=no|r=no|m=no	26	punct
-28	,	,	fc	fc	rep=no|t=no|r=no|m=yes	29	punct
+28	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	29	punct
 29	excursiones	excursión	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	7	dobj
 30	mesetarias	mesetario	aq0fp0	aq0fp0	rep=no|t=no|r=yes|m=yes	29	amod
 31	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	29	prepn
 32	Lionel	Lionel	np00000	np00000	rep=no|t=no|r=yes|m=yes	31	pobj
-33	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	34	punct
+33	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	34	punct
 34	Jospin	Jospin	np00000	np00000	rep=no|t=no|r=yes|m=yes	32	appos
-35	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	34	punct
+35	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	34	punct
 36	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	31	coord_fixed
 37	António	António	np00000	np00000	rep=no|t=no|r=yes|m=yes	31	pobj
-38	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	34	punct
+38	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	34	punct
 39	Guterres	Guterres	np00000	np00000	rep=no|t=no|r=yes|m=yes	34	appos
-40	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	34	punct
+40	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	34	punct
 41	.	.	fp	fp	rep=no|t=no|r=no|m=no	7	punct
 
 1	Son	ser	vsip3p0	vsip3p0	rep=no|t=no|r=no|m=yes	0	root
@@ -655,7 +655,7 @@
 51	limitada	limitado	aq0fsp	aq0fsp	rep=no|t=no|r=no|m=yes	50	amod
 52	.	.	fp	fp	rep=no|t=no|r=no|m=no	1	punct
 
-1	O	o	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+1	O	o	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 2	esos	ese	dd0mp0	dd0mp0	rep=no|t=no|r=no|m=yes	3	det
 3	encuentros	encuentro	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	0	root
 4	casi	casi	rg	rg	rep=no|t=no|r=no|m=yes	5	advmod
@@ -684,7 +684,7 @@
 5	Qué	qué	pt0cs000	pt0cs000	rep=no|t=yes|r=no|m=yes	7	nsubj
 6	se	se	p0000000	p0000000	rep=no|t=no|r=yes|m=yes	7	reflec
 7	hicieron	hacer	vmis3p0	vmis3p0	rep=no|t=no|r=yes|m=yes	12	cobj
-8	?	?	fit	fit	rep=no|t=no|r=no|m=yes	7	punct
+8	?	?	fit	fit	rep=no|t=no|r=yes|m=yes	7	punct
 9	¿	¿	fia	fia	rep=no|t=no|r=no|m=no	12	punct
 10	para	para	sps00	sps00	rep=no|t=no|r=no|m=no	12	prepv
 11	Qué	qué	pt0cs000	pt0cs000	rep=no|t=no|r=no|m=no	10	pobj
@@ -709,7 +709,7 @@
 15	brillantes	brillante	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	13	prepn
 16	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	13	coord_fixed
 17	espectaculares	espectacular	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	13	prepn
-18	:	:	fd	fd	rep=no|t=no|r=no|m=yes	20	punct
+18	:	:	fd	fd	rep=no|t=no|r=yes|m=yes	20	punct
 19	yo	yo	pp1csn00	pp1csn00	rep=no|t=no|r=yes|m=yes	20	nsubj
 20	muevo	mover	vmip1s0	vmip1s0	rep=no|t=no|r=yes|m=yes	2	cobj
 21	ficha	ficha	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	20	dobj
@@ -736,12 +736,12 @@
 15	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	16	det
 16	tentación	tentación	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	14	pobj
 17	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	prepn
-18	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	19	punct
+18	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	19	punct
 19	hacer	hacer	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	17	pobj
 20	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	21	det
 21	Kissinger	Kissinger	np00000	np00000	rep=no|t=no|r=yes|m=yes	19	dobj
-22	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	21	punct
-23	,	,	fc	fc	rep=no|t=no|r=no|m=yes	21	punct
+22	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	21	punct
+23	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	21	punct
 24	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	25	det
 25	figura	figura	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	21	appos
 26	taurina	taurino	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	25	amod
@@ -764,7 +764,7 @@
 10	ancho	ancho	aq0ms0	aq0ms0	rep=no|t=no|r=no|m=no	8	cpred
 11	.	.	fp	fp	rep=no|t=no|r=no|m=no	5	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	5	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	5	coord_fixed
 2	todas	todo	di0fp0	di0fp0	rep=no|t=yes|r=no|m=yes	4	det
 3	las	el	da0fp0	da0fp0	rep=no|t=yes|r=no|m=yes	4	det
 4	miradas	mirada	ncfp000	ncfp000	rep=no|t=yes|r=no|m=yes	5	nsubj

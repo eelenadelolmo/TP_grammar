@@ -99,7 +99,7 @@
 21	huelga	huelga	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	19	pobj
 22	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	21	prepn
 23	hambre	hambre	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	22	pobj
-24	,	,	fc	fc	rep=no|t=no|r=no|m=yes	21	punct
+24	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	21	punct
 25	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	27	nsubj
 26	se	él	p0300000	p0300000	rep=no|t=no|r=no|m=yes	27	reflec
 27	desarrolló	desarrollar	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	21	rcmod
@@ -185,7 +185,7 @@
 29	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	27	prepn
 30	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	31	det
 31	ciudad	ciudad	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	29	pobj
-32	,	,	fc	fc	rep=no|t=no|r=no|m=yes	24	punct
+32	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	24	punct
 33	quienes	quien	pr0cp000	pr0cp000	rep=no|t=no|r=no|m=yes	34	nsubj
 34	vitorearon	vitorear	vmis3p0	vmis3p0	rep=no|t=no|r=no|m=yes	24	rcmod
 35	a	a	sps00	sps00	rep=no|t=no|r=no|m=yes	34	dobj
@@ -329,7 +329,7 @@
 15	durante	durante	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	prepa
 16	muchos	mucho	di0mp0	di0mp0	rep=no|t=no|r=yes|m=yes	17	det
 17	años	año	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	15	pobj
-18	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	4	punct
+18	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	4	punct
 19	,	,	fc	fc	rep=no|t=no|r=no|m=no	20	punct
 20	dijo	decir	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	0	root
 21	Blanco	Blanco	np00000	np00000	rep=yes|t=no|r=no|m=yes	20	nsubj
@@ -389,10 +389,10 @@
 13	presidente	presidente	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	12	pobj
 14	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	13	prepn
 15	país	país	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	14	pobj
-16	,	,	fc	fc	rep=no|t=no|r=no|m=yes	13	punct
+16	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	13	punct
 17	Alfonso	Alfonso	np00000	np00000	rep=no|t=no|r=yes|m=yes	13	appos
 18	Portillo	portillo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	17	appos
-19	,	,	fc	fc	rep=no|t=no|r=no|m=yes	13	punct
+19	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	13	punct
 20	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	11	prepn
 21	restablecer	restablecer	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	20	pobj
 22	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	23	det
@@ -406,7 +406,7 @@
 30	pasado	pasado	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	31	amod
 31	día	día	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	29	pobj
 32	24	24	zm	zm	rep=no|t=no|r=yes|m=yes	31	num
-33	,	,	fc	fc	rep=no|t=no|r=no|m=yes	31	punct
+33	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	31	punct
 34	cuando	cuando	pr000000	pr000000	rep=no|t=no|r=no|m=yes	35	dobj
 35	entró	entrar	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	31	rcmod
 36	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	35	prepv

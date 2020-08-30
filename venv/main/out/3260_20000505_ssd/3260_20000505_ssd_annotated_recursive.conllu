@@ -12,14 +12,14 @@
 12	por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	11	oobj
 13	superar	superar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	12	pobj
 14	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	17	det
-15	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	17	punct
+15	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	17	punct
 16	alto	alto	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	17	amod
 17	nivel	nivel	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	13	dobj
 18	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	17	prepn
 19	desconfianza	desconfianza	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	18	pobj
 20	e	e	cc	cc	rep=no|t=no|r=yes|m=yes	18	coord_fixed
 21	incertidumbre	incertidumbre	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	18	pobj
-22	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	17	punct
+22	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	17	punct
 23	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	24	dobj
 24	genera	generar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	17	rcmod
 25	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	26	det
@@ -144,7 +144,7 @@
 6	ex	ex	aq0cn0	aq0cn0	rep=no|t=yes|r=no|m=yes	7	amod
 7	presidente	presidente	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	22	nsubj
 8	uruguayo	uruguayo	aq0ms0	aq0ms0	rep=no|t=yes|r=no|m=yes	7	amod
-9	y	y	cc	cc	rep=no|t=no|r=no|m=no	22	coord_fixed
+9	y	y	cc	cc	rep=no|t=no|r=no|m=yes	22	coord_fixed
 10	portavoz	portavoz	nccs000	nccs000	rep=no|t=yes|r=no|m=yes	22	nsubj
 11	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	10	prepn
 12	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	13	det
@@ -152,11 +152,11 @@
 14	del	del	spcms	spcms	rep=no|t=yes|r=no|m=yes	13	prepn
 15	Centro	centro	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	14	pobj
 16	Carter	Carter	np00000	np00000	rep=no|t=yes|r=no|m=yes	15	appos
-17	,	,	fc	fc	rep=no|t=no|r=no|m=no	9	punct
+17	,	,	fc	fc	rep=no|t=no|r=no|m=yes	9	punct
 18	Luis	luis	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	22	nsubj
 19	Alberto	Alberto	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	18	appos
 20	Lacalle	Lacalle	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	18	appos
-21	,	,	fc	fc	rep=no|t=no|r=no|m=no	9	punct
+21	,	,	fc	fc	rep=no|t=no|r=no|m=yes	9	punct
 22	calificó	calificar	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	0	root
 23	de	de	sps00	sps00	rep=no|t=no|r=no|m=no	22	prepv
 24	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=no	26	punct
@@ -192,7 +192,7 @@
 14	elecciones	elección	ncfp000	ncfp000	rep=no|t=yes|r=no|m=yes	9	pobj
 15	en	en	sps00	sps00	rep=no|t=yes|r=no|m=yes	14	prepn
 16	Venezuela	Venezuela	np00000	np00000	rep=no|t=yes|r=no|m=yes	15	pobj
-17	-	-	fg	fg	rep=no|t=no|r=no|m=yes	18	punct
+17	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	18	punct
 18	haga	hacer	vmsp3s0	vmsp3s0	rep=no|t=no|r=yes|m=yes	3	cobj
 19	todo	todo	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	21	det
 20	lo	el	da0ns0	da0ns0	rep=no|t=no|r=yes|m=yes	21	det
@@ -203,13 +203,13 @@
 25	comité	comité	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	35	nsubj
 26	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	25	prepn
 27	auditoría	auditoría	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	26	pobj
-28	,	,	fc	fc	rep=no|t=no|r=no|m=yes	25	punct
+28	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	25	punct
 29	integrado	integrado	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	25	amod
 30	por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	29	agent
 31	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	32	det
 32	sociedad	sociedad	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	30	pobj
 33	civil	civil	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	32	amod
-34	,	,	fc	fc	rep=no|t=no|r=no|m=yes	25	punct
+34	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	25	punct
 35	culmine	culminar	vmsp3s0	vmsp3s0	rep=no|t=no|r=yes|m=yes	23	cobj
 36	sus	su	dp3cp0	dp3cp0	rep=no|t=no|r=yes|m=yes	37	poss
 37	funciones	función	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	35	dobj
@@ -250,7 +250,7 @@
 18	autoridades	autoridad	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	16	pobj
 19	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	18	prepn
 20	CNE	CNE	np00000	np00000	rep=no|t=no|r=yes|m=yes	19	pobj
-21	,	,	fc	fc	rep=no|t=no|r=no|m=yes	18	punct
+21	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	18	punct
 22	las	el	da0fp0	da0fp0	rep=no|t=no|r=no|m=yes	23	det
 23	cuales	cual	pr0cp000	pr0cp000	rep=no|t=no|r=no|m=yes	24	nsubj
 24	favorecerían	favorecer	vmic3p0	vmic3p0	rep=no|t=no|r=no|m=yes	18	rcmod
@@ -274,10 +274,10 @@
 42	porque	porque	cs	cs	rep=no|t=no|r=yes|m=yes	8	advcl
 43	fueron	ser	vsis3p0	vsis3p0	rep=no|t=no|r=yes|m=yes	42	cobj
 44	escogidas	escoger	vmp00pf	vmp00pf	rep=no|t=no|r=yes|m=yes	43	attr
-45	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	46	punct
+45	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	46	punct
 46	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	44	advmod
 47	dedo	dedo	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	46	pobj
-48	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	46	punct
+48	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	46	punct
 49	por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	44	prepv
 50	partidarios	partidario	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	49	pobj
 51	suyos	él	aq0mp0	aq0mp0	rep=no|t=no|r=yes|m=yes	50	amod
@@ -290,9 +290,9 @@
 58	Asamblea	Asamblea	np00000	np00000	rep=no|t=no|r=yes|m=yes	53	pobj
 59	Nacional	nacional	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	58	amod
 60	Constituyente	constituyente	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	58	amod
-61	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	62	punct
+61	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	62	punct
 62	ANC	ANC	np00000	np00000	rep=no|t=no|r=yes|m=yes	58	appos
-63	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	62	punct
+63	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	62	punct
 64	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
 
 1	El	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	2	det
@@ -323,12 +323,12 @@
 26	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	23	coord_fixed
 27	sus	su	dp3cp0	dp3cp0	rep=no|t=no|r=yes|m=yes	28	poss
 28	candidatos	candidato	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	23	pobj
-29	,	,	fc	fc	rep=no|t=no|r=no|m=yes	30	punct
+29	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	30	punct
 30	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	7	coord_fixed
 31	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	7	prepn
 32	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	31	pobj
 33	se	él	p0000000	p0000000	rep=no|t=no|r=yes|m=yes	35	reflec
-34	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	35	punct
+34	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	35	punct
 35	diseminen	diseminar	vmm03p0	vmm03p0	rep=no|t=no|r=yes|m=yes	32	cobj
 36	estas	este	dd0fp0	dd0fp0	rep=no|t=no|r=yes|m=yes	37	det
 37	informaciones	información	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	35	nsubj
@@ -336,12 +336,12 @@
 39	forma	forma	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	38	pobj
 40	pública	público	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	39	amod
 41	hasta	hasta	sps00	sps00	rep=no|t=no|r=yes|m=yes	35	prepv
-42	donde	donde	pr000000	pr000000	rep=no|t=no|r=no|m=yes	44	dobj
-43	lo	él	pp3msa00	pp3msa00	rep=no|t=no|r=no|m=yes	44	dobj
-44	permita	permitir	vmsp3s0	vmsp3s0	rep=no|t=no|r=no|m=yes	41	rcmod
-45	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	46	det
-46	ley	ley	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	44	nsubj
-47	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	35	punct
+42	donde	donde	pr000000	pr000000	rep=no|t=no|r=yes|m=yes	44	dobj
+43	lo	él	pp3msa00	pp3msa00	rep=no|t=no|r=yes|m=yes	44	dobj
+44	permita	permitir	vmsp3s0	vmsp3s0	rep=no|t=no|r=yes|m=yes	41	rcmod
+45	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	46	det
+46	ley	ley	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	44	nsubj
+47	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	35	punct
 48	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
 
 1	Invitó	invitar	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	0	root
@@ -357,13 +357,13 @@
 11	sean	ser	vssp3p0	vssp3p0	rep=no|t=no|r=yes|m=yes	13	cobj
 12	usadas	usar	vmp00pf	vmp00pf	rep=no|t=no|r=yes|m=yes	11	attr
 13	como	como	cs	cs	rep=no|t=no|r=no|m=yes	7	cobj
-14	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	15	punct
+14	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	15	punct
 15	instrumentos	instrumento	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	11	dep
 16	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	15	prepn
 17	apoyo	apoyo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	16	pobj
 18	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	17	prepn
 19	campaña	campaña	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	18	pobj
-20	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	15	punct
+20	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	15	punct
 21	,	,	fc	fc	rep=no|t=no|r=no|m=no	1	punct
 22	puesto	puesto	ncmp000	ncmp000	rep=no|t=no|r=no|m=no	1	advcl
 23	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=no	22	nsubj
@@ -405,11 +405,11 @@
 1	Lacalle	Lacalle	np00000	np00000	rep=no|t=yes|r=no|m=yes	9	nsubj
 2	destacó	destacar	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=no	0	root
 3	que	que	cs	cs	rep=no|t=no|r=no|m=no	2	dobj
-4	,	,	fc	fc	rep=no|t=no|r=no|m=yes	9	punct
+4	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	9	punct
 5	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	9	advcl
 6	ese	ese	dd0ms0	dd0ms0	rep=no|t=no|r=no|m=yes	7	det
 7	sentido	sentido	ncms000	ncms000	rep=no|t=no|r=no|m=yes	5	pobj
-8	,	,	fc	fc	rep=no|t=no|r=no|m=yes	9	punct
+8	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	9	punct
 9	aplauden	aplaudir	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	3	cobj
 10	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	11	det
 11	decisión	decisión	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	9	dobj
@@ -419,7 +419,7 @@
 15	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	16	det
 16	República	República	np00000	np00000	rep=no|t=no|r=yes|m=yes	14	pobj
 17	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	11	prepn
-18	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	19	punct
+18	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	19	punct
 19	suspender	suspender	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	17	pobj
 20	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	21	poss
 21	participación	participación	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	19	dobj
@@ -433,7 +433,7 @@
 29	por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	19	prepv
 30	voluntad	voluntad	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	29	pobj
 31	propia	propio	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	30	amod
-32	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	19	punct
+32	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	19	punct
 33	.	.	fp	fp	rep=no|t=no|r=no|m=no	2	punct
 
 1	El	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	2	det
@@ -515,7 +515,7 @@
 6	también	también	rg	rg	rep=no|t=no|r=no|m=no	7	advmod
 7	señaló	señalar	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=no	0	root
 8	que	que	cs	cs	rep=no|t=no|r=no|m=no	7	dobj
-9	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	10	punct
+9	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	10	punct
 10	han	haber	vaip3p0	vaip3p0	rep=no|t=no|r=yes|m=yes	8	cobj
 11	detectado	detectar	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	10	vobj
 12	desigualdad	desigualdad	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	8	cobj
@@ -537,7 +537,7 @@
 28	medios	medio	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	26	pobj
 29	y	y	cc	cc	rep=no|t=no|r=no|m=yes	26	coord_fixed
 30	periodistas	periodista	nccp000	nccp000	rep=no|t=no|r=no|m=yes	26	pobj
-31	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	10	punct
+31	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	10	punct
 32	.	.	fp	fp	rep=no|t=no|r=no|m=no	7	punct
 
 1	Por	por	sps00	sps00	rep=no|t=no|r=no|m=yes	4	prepv

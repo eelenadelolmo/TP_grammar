@@ -32,10 +32,10 @@
 10	ministro	ministro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
 11	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	prepn
 12	Fomento	Fomento	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	pobj
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 14	Francisco	francisco	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	appos
 15	Alvarez-Cascos	Alvarez-Cascos	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	appos
-16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 17	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	prepn
 18	tratar	tratar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
 19	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	oobj
@@ -111,7 +111,7 @@
 6	privatizar	privatizar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	pobj
 7	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	det
 8	servicios	servicio	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	dobj
-9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	punct
+9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	punct
 10	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 11	manteniendo	mantener	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	advcl
 12	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	det
@@ -163,7 +163,7 @@
 16	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	cobj
 17	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	poss
 18	antecesor	antecesor	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	pobj
-19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 20	Rafael	Rafael	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	appos
 21	Arias-Salgado	Arias-Salgado	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	appos
 22	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
@@ -182,14 +182,14 @@
 12	Sagrera	Sagrera	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	nsubj
 13	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	reflec
 14	convierta	convertir	vmsp3s0	vmsp3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	cobj
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
 16	tal	tal	pd0cs000	pd0cs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	cobj
 17	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	coord_fixed
 18	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	advcl
 19	pretende	pretender	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	cobj
 20	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	det
 21	ayuntamiento	ayuntamiento	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	nsubj
-22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
 23	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	oobj
 24	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	det
 25	estación	estación	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	pobj
@@ -265,7 +265,7 @@
 16	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	neg
 17	lo	él	pp3msa00	pp3msa00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	dobj
 18	cumplirá	cumplir	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	cobj
-19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 20	pese	pesar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	cobj
 21	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	prepv
 22	que	que	pi0ms000	pi0ms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	pobj

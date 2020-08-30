@@ -23,10 +23,10 @@
 23	)	)	fpt	fpt	rep=no|t=no|r=no|m=no	20	punct
 24	haber	haber	van0000	van0000	rep=no|t=no|r=yes|m=yes	8	dobj
 25	participado	participar	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	24	vobj
-26	,	,	fc	fc	rep=no|t=no|r=no|m=no	29	punct
+26	,	,	fc	fc	rep=no|t=no|r=no|m=yes	29	punct
 27	haber	haber	van0000	van0000	rep=no|t=no|r=yes|m=yes	8	dobj
 28	conspirado	conspirar	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	27	vobj
-29	o	o	cc	cc	rep=no|t=no|r=no|m=no	8	coord_fixed
+29	o	o	cc	cc	rep=no|t=no|r=no|m=yes	8	coord_fixed
 30	ser	ser	vsn0000	vsn0000	rep=no|t=no|r=yes|m=yes	8	dobj
 31	cómplice	cómplice	nccs000	nccs000	rep=no|t=no|r=yes|m=yes	30	attr
 32	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	31	prepn
@@ -174,9 +174,9 @@
 22	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	21	prepv
 23	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	24	det
 24	escueto	escueto	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	22	pobj
-25	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	26	punct
+25	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	26	punct
 26	sí	sí	rg	rg	rep=no|t=no|r=yes|m=yes	24	advmod
-27	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	26	punct
+27	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	26	punct
 28	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
 
 1	HASTA	hasta	sps00	sps00	rep=no|t=no|r=no|m=yes	0	root
@@ -275,7 +275,7 @@
 28	preparar	preparar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	27	pobj
 29	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	30	det
 30	causa	causa	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	28	dobj
-31	,	,	fc	fc	rep=no|t=no|r=no|m=yes	30	punct
+31	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	30	punct
 32	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	33	nsubj
 33	obliga	obligar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	30	rcmod
 34	a	a	sps00	sps00	rep=no|t=no|r=no|m=yes	33	oobj

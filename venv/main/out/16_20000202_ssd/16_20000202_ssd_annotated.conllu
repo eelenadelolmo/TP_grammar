@@ -11,7 +11,7 @@
 11	repatriación	repatriación	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
 12	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
 13	Eliancito	Eliancito	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 15	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	det
 16	niño	niño	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	appos
 17	balsero	balsero	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	appos
@@ -60,7 +60,7 @@
 7	victoria	victoria	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	dobj
 8	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	5	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 2	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	neg
 3	le	él	pp3csd00	pp3csd00	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	iobj
 4	durará	durar	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
@@ -268,7 +268,7 @@
 2	futuro	futuro	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	16	nsubj
 3	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	prepn
 4	Eliancito	Eliancito	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	pobj
-5	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+5	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 6	cuando	cuando	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	advcl
 7	ya	ya	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	advmod
 8	sea	ser	vssp3s0	vssp3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	cobj
@@ -278,7 +278,7 @@
 12	hecho	hecho	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	dep
 13	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	coord_fixed
 14	derecho	derecho	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	dep
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 16	será	ser	vsif3s0	vsif3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	coord
 17	triste	triste	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	attr
 18	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	coord_fixed
@@ -391,18 +391,18 @@
 10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	12	punct
 11	mejor	mejor	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	attr
 12	será	ser	vsif3s0	vsif3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
-13	dejar	dejar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=no	19	cobj
-14	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	13	prepv
-15	hablar	hablar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=no	13	dobj
-16	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	13	oobj
-17	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=no|main=no	18	poss
-18	futuro	futuro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	16	pobj
-19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	12	coord_fixed
-20	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	19	conj
-21	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=no|main=no	22	reflec
-22	vaya	ir	vmm03s0	vmm03s0	recursive=no|rep=no|theme=no|rheme=no|main=no	20	cobj
-23	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	22	prepv
-24	Cuba	Cuba	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=no	23	pobj
+13	dejar	dejar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	cobj
+14	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	prepv
+15	hablar	hablar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	dobj
+16	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	oobj
+17	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	poss
+18	futuro	futuro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	pobj
+19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	coord_fixed
+20	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	conj
+21	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	reflec
+22	vaya	ir	vmm03s0	vmm03s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	cobj
+23	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	prepv
+24	Cuba	Cuba	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	pobj
 25	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	12	punct
 
 1	Por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root

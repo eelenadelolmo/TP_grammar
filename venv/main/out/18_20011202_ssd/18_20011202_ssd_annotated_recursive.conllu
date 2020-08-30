@@ -32,7 +32,7 @@
 21	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	22	det
 22	gol	gol	ncms000	ncms000	rep=no|t=no|r=no|m=yes	20	dobj
 23	,	,	fc	fc	rep=no|t=no|r=no|m=yes	30	punct
-24	pero	pero	cc	cc	rep=no|t=no|r=no|m=no	14	coord_fixed
+24	pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	14	coord_fixed
 25	al	al	sps00	sps00	rep=no|t=no|r=no|m=yes	30	prepv
 26	final	final	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	25	pobj
 27	del	del	sps00	sps00	rep=no|t=no|r=no|m=yes	26	prepn
@@ -99,7 +99,7 @@
 21	manual	manual	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=yes	20	amod
 22	.	.	fp	fp	rep=no|t=no|r=no|m=no	1	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	7	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	7	coord_fixed
 2	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	3	det
 3	comité	comité	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	7	nsubj
 4	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	3	prepn

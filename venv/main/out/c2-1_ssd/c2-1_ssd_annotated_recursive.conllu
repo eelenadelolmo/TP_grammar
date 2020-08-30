@@ -34,7 +34,7 @@
 3	cierto	cierto	aq0ms0	aq0ms0	rep=no|t=no|r=no|m=yes	2	attr
 4	.	.	fp	fp	rep=no|t=no|r=no|m=no	2	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	18	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	18	coord_fixed
 2	como	como	cs	cs	rep=no|t=no|r=no|m=no	18	advcl
 3	he	haber	vaip1s0	vaip1s0	rep=no|t=no|r=no|m=no	14	cobj
 4	visto	ver	vmp00sm	vmp00sm	rep=no|t=no|r=no|m=no	3	vobj
@@ -75,8 +75,8 @@
 1	A	a	sps00	sps00	rep=no|t=no|r=no|m=yes	8	dep
 2	igual	igual	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=yes	3	amod
 3	título	título	ncms000	ncms000	rep=no|t=no|r=no|m=yes	1	pobj
-4	,	,	fc	fc	rep=no|t=no|r=no|m=no	5	punct
-5	y	y	cc	cc	rep=no|t=no|r=no|m=no	8	coord_fixed
+4	,	,	fc	fc	rep=no|t=no|r=no|m=yes	5	punct
+5	y	y	cc	cc	rep=no|t=no|r=no|m=yes	8	coord_fixed
 6	conectado	conectado	aq0msp	aq0msp	rep=no|t=no|r=no|m=yes	8	dep
 7	,	,	fc	fc	rep=no|t=no|r=no|m=no	8	punct
 8	deberíamos	deber	vmic1p0	vmic1p0	rep=no|t=no|r=no|m=yes	0	root
@@ -102,20 +102,20 @@
 9	presente	presente	ncms000	ncms000	rep=no|t=no|r=no|m=yes	4	pobj
 10	.	.	fp	fp	rep=no|t=no|r=no|m=no	2	punct
 
-1	Derribar	derribar	vmn0000	vmn0000	rep=no|t=no|r=no|m=no	6	cobj
-2	papeleras	papelera	ncfp000	ncfp000	rep=no|t=no|r=no|m=no	1	dobj
-3	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=no	4	nsubj
-4	son	ser	vsip3p0	vsip3p0	rep=no|t=no|r=no|m=no	2	rcmod
-5	cortesía	cortesía	ncfs000	ncfs000	rep=no|t=no|r=no|m=no	4	attr
-6	y	y	cc	cc	rep=no|t=no|r=no|m=no	16	coord_fixed
-7	provocar	provocar	vmn0000	vmn0000	rep=no|t=no|r=no|m=no	1	cobj
-8	las	el	da0fp0	da0fp0	rep=no|t=no|r=no|m=no	9	det
-9	llamas	llama	ncfp000	ncfp000	rep=no|t=no|r=no|m=no	7	dobj
-10	destructoras	destructor	aq0fp0	aq0fp0	rep=no|t=no|r=no|m=no	9	amod
-11	de	de	sps00	sps00	rep=no|t=no|r=no|m=no	9	prepn
-12	Hécate	Hécate	np0000p	np0000p	rep=no|t=no|r=no|m=no	11	pobj
-13	y	y	cc	cc	rep=no|t=no|r=no|m=no	11	coord_fixed
-14	Kali	Kali	np0000p	np0000p	rep=no|t=no|r=no|m=no	11	pobj
+1	Derribar	derribar	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	6	cobj
+2	papeleras	papelera	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	1	dobj
+3	que	que	pr0cn000	pr0cn000	rep=no|t=yes|r=no|m=yes	4	nsubj
+4	son	ser	vsip3p0	vsip3p0	rep=no|t=no|r=yes|m=yes	2	rcmod
+5	cortesía	cortesía	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	4	attr
+6	y	y	cc	cc	rep=no|t=no|r=no|m=yes	16	coord_fixed
+7	provocar	provocar	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	1	cobj
+8	las	el	da0fp0	da0fp0	rep=no|t=no|r=no|m=yes	9	det
+9	llamas	llama	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	7	dobj
+10	destructoras	destructor	aq0fp0	aq0fp0	rep=no|t=no|r=no|m=yes	9	amod
+11	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	9	prepn
+12	Hécate	Hécate	np0000p	np0000p	rep=no|t=no|r=no|m=yes	11	pobj
+13	y	y	cc	cc	rep=no|t=no|r=no|m=yes	11	coord_fixed
+14	Kali	Kali	np0000p	np0000p	rep=no|t=no|r=no|m=yes	11	pobj
 15	,	,	fc	fc	rep=no|t=no|r=no|m=no	16	punct
 16	es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=no|m=yes	0	root
 17	un	uno	di0ms0	di0ms0	rep=no|t=no|r=no|m=yes	18	det
@@ -160,7 +160,7 @@
 5	mierda	mierda	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	4	dobj
 6	?	?	fit	fit	rep=no|t=no|r=no|m=no	3	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 2	¿	¿	fia	fia	rep=no|t=no|r=no|m=no	4	punct
 3	qué	qué	pt0cs000	pt0cs000	rep=no|t=no|r=no|m=yes	5	dobj
 4	querrá	querer	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	0	root

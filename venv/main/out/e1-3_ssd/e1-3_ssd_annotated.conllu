@@ -51,7 +51,7 @@
 21	vivió	vivir	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	dep
 22	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	poss
 23	autor	autor	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	nsubj
-24	;	;	fx	fx	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+24	;	;	fx	fx	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 25	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 26	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	det
 27	chiste	chiste	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	36	nsubj
@@ -175,7 +175,7 @@
 8	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	det
 9	libro	libro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	dobj
 10	desternillante	desternillante	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	amod
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	punct
 12	capaz	capaz	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	amod
 13	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	prepa
 14	hacer	hacer	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
@@ -356,15 +356,15 @@
 8	molidos	moler	vmp00pm	vmp00pm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	attr
 9	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	prepv
 10	palos	palo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 12	mordiscos	mordisco	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 14	coces	coz	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 16	puñetazos	puñetazo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
-17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
-18	etc	etcétera	fs	fs	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
-19	...	...	fs	fs	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
+18	etc	etcétera	fs	fs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
+19	...	...	fs	fs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 20	cada	cada	di0cs0	di0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	det
 21	pocas	poco	di0fp0	di0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	det
 22	páginas	página	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dep
@@ -386,7 +386,7 @@
 38	dibujos	dibujo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	36	pobj
 39	animados	animado	aq0mpp	aq0mpp	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	amod
 40	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
-41	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	26	coord_fixed
+41	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	coord_fixed
 42	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	coord
 43	obvio	obvio	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	42	attr
 44	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	42	csubj
@@ -449,7 +449,7 @@
 35	clásica	clásico	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	amod
 36	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	23	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 2	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	det
 3	complacencias	complacencia	ncfp000	ncfp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
 4	sádicas	sádico	aq0fp0	aq0fp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	amod
@@ -473,8 +473,8 @@
 7	ZZPItres	ZZPItres	np0000a	np0000a	recursive=no|rep=no|theme=no|rheme=no|main=no	5	pobj
 8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	9	punct
 9	exclama	exclamar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
-10	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
-11	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+10	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
+11	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 12	Ambas	ambos	dn0fp0	dn0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	det
 13	partes	parte	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	nsubj
 14	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	prepn
@@ -486,6 +486,6 @@
 20	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	prepn
 21	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	det
 22	crueldad	crueldad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	pobj
-23	&quot;	&quot;	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+23	&quot;	&quot;	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 24	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	9	punct
 

@@ -15,10 +15,10 @@
 7	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	coord_fixed
 8	Real	Real	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	pobj
 9	Sociedad	sociedad	nc00000	nc00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	appos
-10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	punct
+10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	punct
 11	respectivamente	respectivamente	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	advmod
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	punct
-13	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	30	coord_fixed
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	punct
+13	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	coord_fixed
 14	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	reflec
 15	sitúan	situar	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	coord
 16	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	prepv
@@ -48,7 +48,7 @@
 40	borde	borde	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	39	pobj
 41	del	del	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	40	prepn
 42	abismo	abismo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	41	pobj
-43	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	13	punct
+43	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
 
 1	La	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
 2	Real	Real	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	nsubj

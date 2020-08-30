@@ -68,10 +68,10 @@
 29	presidente	presidente	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	pobj
 30	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	prepn
 31	EEUU	EEUU	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	pobj
-32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
+32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	punct
 33	Bill	bill	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	appos
 34	Clinton	Clinton	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	appos
-35	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
+35	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	punct
 36	primer	primero	ao0ms0	ao0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	amod
 37	jefe	jefe	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	appos
 38	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	prepn
@@ -87,7 +87,7 @@
 
 1	Estados	estado	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	nsubj
 2	Unidos	unido	aq0ms0	aq0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	1	amod
-3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	5	coord_fixed
+3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	coord_fixed
 4	Vietnam	Vietnam	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	nsubj
 5	son	ser	vsip3p0	vsip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 6	dos	dos	pn0cp000	pn0cp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	attr
@@ -100,7 +100,7 @@
 13	fabrican	fabricar	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	rcmod
 14	minas	mina	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	dobj
 15	antipersonas	antipersona	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	amod
-16	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	5	coord_fixed
+16	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	coord_fixed
 17	dos	dos	pn0cp000	pn0cp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	attr
 18	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	prepn
 19	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	det
@@ -200,7 +200,7 @@
 4	personas	persona	ncfp000	ncfp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	nsubj
 5	han	haber	vaip3p0	vaip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	dobj
 6	muerto	morir	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	vobj
-7	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	39	coord_fixed
+7	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	39	coord_fixed
 8	han	haber	vaip3p0	vaip3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	39	dobj
 9	resultado	resultar	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	vobj
 10	heridas	herido	aq0fpp	aq0fpp	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	cpred
@@ -221,7 +221,7 @@
 25	hace	hacer	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	cobj
 26	25	25	z	z	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	num
 27	años	año	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	dobj
-28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	7	punct
+28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	punct
 29	según	según	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	39	dobj
 30	datos	dato	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	pobj
 31	facilitados	facilitado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	amod
@@ -273,14 +273,14 @@
 4	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	3	dobj
 5	Estados	estado	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	15	nsubj
 6	Unidos	unido	aq0ms0	aq0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	amod
-7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 8	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	prepv
 9	11,3	11.3	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	num
 10	millones	millón	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
 11	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	prepn
 12	minas	mina	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	pobj
 13	antipersonas	antipersona	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	amod
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 15	posee	poseer	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	cobj
 16	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	det
 17	tercer	tercero	ao0ms0	ao0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	amod
@@ -291,7 +291,7 @@
 22	tipo	tipo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	pobj
 23	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	prepn
 24	armas	arma	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	pobj
-25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 26	después	después	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	advmod
 27	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	prep
 28	China	China	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	pobj
@@ -350,7 +350,7 @@
 14	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	det
 15	año	año	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
 16	2006	2006	zm	zm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	num
-17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 18	siempre	siempre	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	cobj
 19	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	dep
 20	encuentre	encontrar	vmsp3s0	vmsp3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	cobj

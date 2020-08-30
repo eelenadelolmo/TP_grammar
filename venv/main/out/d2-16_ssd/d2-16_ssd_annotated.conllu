@@ -81,11 +81,11 @@
 6	malsana	malsano	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	amod
 7	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	prepn
 8	Madrid	Madrid	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	pobj
-9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 10	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	poss
 11	espejo	espejo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dep
 12	oscuro	oscuro	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	amod
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 14	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	det
 15	representación	representación	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dep
 16	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	advmod
@@ -96,10 +96,10 @@
 21	siquiera	siquiera	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	advmod
 22	temporal	temporal	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	dep
 23	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	coord_fixed
-24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 25	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	det
 26	sábado	sábado	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	dep
-27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 28	dignísima	dignísimo	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	dep
 29	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	prepn
 30	juego	juego	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	pobj
@@ -121,9 +121,9 @@
 11	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 
 1	Alma	alma	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	conj
-2	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
+2	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	punct
 3	corazón	corazón	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	conj
-4	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	coord_fixed
+4	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	coord_fixed
 5	vida	vida	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	conj
 6	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 7	nada	nada	pi0cs000	pi0cs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	coord
@@ -243,7 +243,7 @@
 12	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	1	punct
 
 1	Real	Real	np0000o	np0000o	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	nsubj
-2	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+2	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 3	Barça	Barça	np0000o	np0000o	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	nsubj
 4	practican	practicar	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 5	desde	desde	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	4	prepv

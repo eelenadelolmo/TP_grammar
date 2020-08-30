@@ -29,7 +29,7 @@
 29	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	crobj
 30	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	cobj
 31	1996	1996	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	pobj
-32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
 33	pese	pesar	vmip2s0	vmip2s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	prepv
 34	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	prepv
 35	haber	haber	van0000	van0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	pobj
@@ -88,7 +88,7 @@
 43	Parlamento	Parlamento	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	pobj
 44	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	coord_fixed
 2	además	además	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	6	advmod
 3	Socialistas	socialista	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	nsubj
 4	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	prepn
@@ -103,7 +103,7 @@
 1	La	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
 2	tránsfuga	tránsfuga	nccs000	nccs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	nsubj
 3	socialista	socialista	aq0cs0	aq0cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	amod
-4	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	7	coord_fixed
+4	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	coord_fixed
 5	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	poss
 6	esposo	esposo	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	nsubj
 7	cobrarían	cobrar	vmic3p0	vmic3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
@@ -181,7 +181,7 @@
 9	cohecho	cohecho	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
 10	contra	contra	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	prepn
 11	Sampietro	Sampietro	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
 13	Bermúdez	Bermúdez	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
 14	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	coord_fixed
 15	sus	su	dp3cp0	dp3cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	poss

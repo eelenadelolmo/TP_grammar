@@ -5,7 +5,7 @@
 5	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	det
 6	páginas	página	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	pobj
 7	siguientes	siguiente	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	amod
-8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	1	coord_fixed
+8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	coord_fixed
 9	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	dep
 10	primera	primero	ao0fs0	ao0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	amod
 11	persona	persona	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	pobj
@@ -113,12 +113,12 @@
 17	veces	vez	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dep
 18	cada	cada	di0cs0	di0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	det
 19	año	año	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	appos
-20	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+20	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 21	sesenta	sesenta	dn0cp0	dn0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	dep
 22	u	u	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	coord_fixed
 23	ochenta	ochenta	dn0cp0	dn0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	dep
 24	años	año	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dep
-25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
+25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	punct
 26	uno	uno	pi0ms000	pi0ms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	dep
 27	tras	tras	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	prepn
 28	otro	otro	pi0ms000	pi0ms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	pobj

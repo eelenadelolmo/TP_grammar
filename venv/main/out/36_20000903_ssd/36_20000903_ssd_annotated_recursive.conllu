@@ -16,7 +16,7 @@
 16	congreso	congreso	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	32	nsubj
 17	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	16	prepn
 18	partido	partido	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	17	pobj
-19	,	,	fc	fc	rep=no|t=no|r=no|m=yes	16	punct
+19	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	16	punct
 20	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	22	nsubj
 21	se	se	p0000000	p0000000	rep=no|t=no|r=no|m=yes	22	reflec
 22	celebrará	celebrar	vmif3s0	vmif3s0	rep=no|t=no|r=no|m=yes	16	rcmod
@@ -28,7 +28,7 @@
 28	17	17	z	z	rep=no|t=no|r=no|m=yes	25	dep
 29	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	22	prepv
 30	Barcelona	Barcelona	np00000	np00000	rep=no|t=no|r=no|m=yes	29	pobj
-31	,	,	fc	fc	rep=no|t=no|r=no|m=yes	16	punct
+31	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	16	punct
 32	reforzará	reforzar	vmif3s0	vmif3s0	rep=no|t=no|r=yes|m=yes	13	cobj
 33	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	34	det
 34	independencia	independencia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	32	dobj
@@ -100,7 +100,7 @@
 5	reforzará	reforzar	vmif3s0	vmif3s0	rep=no|t=no|r=yes|m=yes	0	root
 6	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	7	det
 7	autonomía	autonomía	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	5	dobj
-8	y	y	cc	cc	rep=no|t=no|r=no|m=no	5	coord_fixed
+8	y	y	cc	cc	rep=no|t=no|r=no|m=yes	5	coord_fixed
 9	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	10	det
 10	capacidad	capacidad	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	5	dobj
 11	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepn
@@ -117,7 +117,7 @@
 4	ámbito	ámbito	ncms000	ncms000	rep=no|t=no|r=no|m=yes	2	nsubj
 5	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	4	prepn
 6	decisión	decisión	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	5	pobj
-7	y	y	cc	cc	rep=no|t=no|r=no|m=no	2	coord_fixed
+7	y	y	cc	cc	rep=no|t=no|r=no|m=yes	2	coord_fixed
 8	una	uno	di0fs0	di0fs0	rep=no|t=no|r=no|m=yes	9	det
 9	estrategia	estrategia	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	2	nsubj
 10	propia	propio	aq0fs0	aq0fs0	rep=no|t=no|r=no|m=yes	9	dep
@@ -294,7 +294,7 @@
 9	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	5	oobj
 10	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	11	det
 11	española	español	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	9	pobj
-12	,	,	fc	fc	rep=no|t=no|r=no|m=yes	4	punct
+12	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	4	punct
 13	primero	primero	rg	rg	rep=no|t=no|r=yes|m=yes	14	advmod
 14	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	5	dep
 15	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	16	det
@@ -414,7 +414,7 @@
 19	y	y	cc	cc	rep=no|t=no|r=no|m=yes	16	coord_fixed
 20	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	21	det
 21	eficacia	eficacia	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	16	pobj
-22	,	,	fc	fc	rep=no|t=no|r=no|m=yes	30	punct
+22	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	30	punct
 23	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	24	nsubj
 24	impulse	impulsar	vmsp3s0	vmsp3s0	rep=no|t=no|r=no|m=yes	30	rcmod
 25	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	26	det
@@ -691,7 +691,7 @@
 10	ponencias	ponencia	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	7	pobj
 11	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	10	prepn
 12	congreso	congreso	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	11	pobj
-13	,	,	fc	fc	rep=no|t=no|r=no|m=yes	12	punct
+13	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	12	punct
 14	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	17	oobj
 15	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	16	det
 16	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=yes|m=yes	14	pobj
@@ -710,11 +710,11 @@
 5	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	4	prepn
 6	Piqué	Piqué	np00000	np00000	rep=no|t=no|r=no|m=yes	5	pobj
 7	,	,	fc	fc	rep=no|t=no|r=no|m=no	1	punct
-8	como	como	cs	cs	rep=no|t=no|r=no|m=no	12	conj
-9	opción	opción	ncfs000	ncfs000	rep=no|t=no|r=no|m=no	8	cobj
-10	de	de	sps00	sps00	rep=no|t=no|r=no|m=no	9	prepn
-11	futuro	futuro	ncms000	ncms000	rep=no|t=no|r=no|m=no	10	pobj
-12	y	y	cc	cc	rep=no|t=no|r=no|m=no	1	coord_fixed
+8	como	como	cs	cs	rep=no|t=no|r=no|m=yes	12	conj
+9	opción	opción	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	8	cobj
+10	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	9	prepn
+11	futuro	futuro	ncms000	ncms000	rep=no|t=no|r=no|m=yes	10	pobj
+12	y	y	cc	cc	rep=no|t=no|r=no|m=yes	1	coord_fixed
 13	por	por	sps00	sps00	rep=no|t=no|r=no|m=yes	1	dep
 14	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=no|m=yes	15	poss
 15	condición	condición	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	13	pobj
@@ -952,7 +952,7 @@
 12	PP	PP	np00000	np00000	rep=no|t=no|r=yes|m=yes	10	pobj
 13	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 2	CiU	CiU	np00000	np00000	rep=no|t=yes|r=no|m=yes	3	nsubj
 3	haría	hacer	vmic3s0	vmic3s0	rep=no|t=no|r=yes|m=yes	0	root
 4	bien	bien	rg	rg	rep=no|t=no|r=no|m=no	3	advmod

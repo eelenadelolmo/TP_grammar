@@ -63,7 +63,7 @@
 4	corresponde	corresponder	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 5	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	iobj
 6	Navarra	Navarra	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	pobj
-7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
+7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	punct
 8	donde	donde	pr000000	pr000000	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	dobj
 9	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	det
 10	3.379	3379	z	z	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	num
@@ -195,10 +195,10 @@
 25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	26	punct
 26	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	13	prepv
 27	Canarias	Canarias	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=no	26	pobj
-28	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
+28	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	punct
 29	6,3	6,3	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	dobj
-30	%	%	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
-31	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
+30	%	%	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	punct
+31	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	punct
 32	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	13	punct
 
 1	Según	según	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	31	advcl
@@ -321,7 +321,7 @@
 11	destinan	destinar	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	rcmod
 12	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	oobj
 13	extranjero	extranjero	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 15	una	uno	pi0fs000	pi0fs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	dep
 16	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	prepn
 17	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	det
@@ -364,7 +364,7 @@
 23	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
 24	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	pobj
 25	Estado	Estado	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
-26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
+26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	punct
 27	Seguridad	seguridad	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
 28	Social	social	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	amod
 29	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	coord_fixed
@@ -498,7 +498,7 @@
 9	también	también	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	7	advmod
 10	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	pobj
 11	Navarra	Navarra	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
-12	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+12	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 13	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	advmod
 14	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	prep
 15	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	det
@@ -509,17 +509,17 @@
 20	al	al	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	prepn
 21	año	año	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	pobj
 22	2000	2000	zm	zm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	num
-23	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+23	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 24	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	coord_fixed
 25	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	pobj
 26	Murcia	Murcia	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	pobj
-27	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
+27	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	punct
 28	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	det
 29	220	220	zm	zm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	pobj
 30	por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	prep
 31	ciento	ciento	pi0ms000	pi0ms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	pobj
-32	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	punct
-33	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	punct
+32	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	punct
+33	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	punct
 34	además	además	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	prepv
 35	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	prep
 36	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	pobj
@@ -528,7 +528,7 @@
 39	Castilla	Castilla	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	pobj
 40	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	coord_fixed
 41	León	León	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	pobj
-42	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	punct
+42	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	punct
 43	donde	donde	pr000000	pr000000	recursive=no|rep=no|theme=no|rheme=no|main=yes	46	dobj
 44	casi	casi	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	46	advmod
 45	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=no|main=yes	46	reflec
@@ -556,11 +556,11 @@
 19	tres	tres	dn0cp0	dn0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	det
 20	comunidades	comunidad	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
 21	autónomas	autónomo	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	amod
-22	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
+22	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	punct
 23	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	advmod
 24	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	prepa
 25	Cantabria	Cantabria	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
-26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
+26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	punct
 27	aunque	aunque	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	dep
 28	también	también	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	advmod
 29	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	cobj
@@ -569,8 +569,8 @@
 32	Vasco	vasco	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	appos
 33	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	coord_fixed
 34	Asturias	Asturias	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	pobj
-35	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
-36	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	13	coord_fixed
+35	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	punct
+36	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	coord_fixed
 37	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	dep
 38	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	det
 39	ciudades	ciudad	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	pobj

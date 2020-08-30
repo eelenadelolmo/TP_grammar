@@ -70,7 +70,7 @@
 17	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	16	prepn
 18	escritor	escritor	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	17	pobj
 19	mallorquín	mallorquín	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	18	amod
-20	,	,	fc	fc	rep=no|t=no|r=no|m=yes	18	punct
+20	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	18	punct
 21	fallecido	fallecido	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	18	amod
 22	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	21	prepa
 23	diciembre	diciembre	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	22	pobj
@@ -78,7 +78,7 @@
 25	1997	1997	zp	zp	rep=no|t=no|r=yes|m=yes	24	pobj
 26	.	.	fp	fp	rep=no|t=no|r=no|m=no	5	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	19	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	19	coord_fixed
 2	,	,	fc	fc	rep=no|t=no|r=no|m=no	19	punct
 3	a	a	sps00	sps00	rep=no|t=no|r=no|m=no	19	advcl
 4	medida	medida	ncfs000	ncfs000	rep=no|t=no|r=no|m=no	3	pobj
@@ -248,7 +248,7 @@
 21	vida	vida	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	19	pobj
 22	,	,	fc	fc	rep=no|t=no|r=no|m=no	2	punct
 23	hablando	hablar	vmg0000	vmg0000	rep=no|t=no|r=no|m=no	2	advcl
-24	y	y	cc	cc	rep=no|t=no|r=no|m=no	2	coord_fixed
+24	y	y	cc	cc	rep=no|t=no|r=no|m=yes	2	coord_fixed
 25	dirigiéndome	dirigir	vmg0000	vmg0000	rep=no|t=no|r=no|m=no	2	advcl
 26	a	a	sps00	sps00	rep=no|t=no|r=no|m=no	2	advcl
 27	un	uno	di0ms0	di0ms0	rep=no|t=no|r=no|m=no	28	det

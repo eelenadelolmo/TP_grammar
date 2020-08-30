@@ -5,7 +5,7 @@
 5	muros	muro	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	nsubj
 6	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
-1	Ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	5	coord_fixed
+1	Ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	coord_fixed
 2	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	pobj
 3	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	coord
 4	Berlín	Berlín	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	pobj
@@ -103,7 +103,7 @@
 11	actual	actual	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	amod
 12	integración	integración	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
 13	europea	europeo	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	amod
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
+14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	punct
 15	centrada	centrado	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	amod
 16	prioritariamente	prioritariamente	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	advmod
 17	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	oobj

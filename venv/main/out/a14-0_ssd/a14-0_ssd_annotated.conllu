@@ -86,7 +86,7 @@
 13	huyendo	huir	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	dobj
 14	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	prepv
 15	hambre	hambre	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	pobj
-16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 17	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	prepv
 18	atraso	atraso	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
 19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	coord_fixed
@@ -99,7 +99,7 @@
 26	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	det
 27	ciudad	ciudad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	pobj
 28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	punct
-29	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	22	coord_fixed
+29	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	coord_fixed
 30	quedaron	quedar	vmis3p0	vmis3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	coord
 31	varados	varado	aq0mpp	aq0mpp	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	cpred
 32	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	prepa
@@ -172,13 +172,13 @@
 3	escapar	escapar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	2	dobj
 4	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	prepv
 5	allí	allí	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	advmod
-6	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	punct
+6	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	punct
 7	muy	mucho	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	advmod
 8	de	de	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	advmod
 9	tarde	tarde	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
 10	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	prepn
 11	tarde	tarde	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
-12	;	;	fx	fx	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	punct
+12	;	;	fx	fx	recursive=no|rep=no|theme=no|rheme=yes|main=yes	2	punct
 13	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 14	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	prepv
 15	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	det
@@ -263,7 +263,7 @@
 18	viviendo	vivir	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	dobj
 19	allí	allí	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	advmod
 20	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
-21	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	14	coord_fixed
+21	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	coord_fixed
 22	él	él	pp3ms000	pp3ms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	nsubj
 23	había	haber	vaii3s0	vaii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	coord
 24	conseguido	conseguir	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	vobj
@@ -281,7 +281,7 @@
 2	quería	querer	vmii1s0	vmii1s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	coord
 3	conocer	conocer	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	2	dobj
 4	aquello	aquel	pd0ns000	pd0ns000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dobj
-5	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
+5	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	punct
 6	hacer	hacer	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dobj
 7	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	det
 8	reportaje	reportaje	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	dobj

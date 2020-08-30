@@ -99,7 +99,7 @@
 21	huelga	huelga	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
 22	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	prepn
 23	hambre	hambre	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	pobj
-24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
+24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	punct
 25	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	nsubj
 26	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	reflec
 27	desarrolló	desarrollar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	rcmod
@@ -185,7 +185,7 @@
 29	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	prepn
 30	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	det
 31	ciudad	ciudad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	pobj
-32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
+32	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	punct
 33	quienes	quien	pr0cp000	pr0cp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	nsubj
 34	vitorearon	vitorear	vmis3p0	vmis3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	rcmod
 35	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	dobj
@@ -329,7 +329,7 @@
 15	durante	durante	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	prepa
 16	muchos	mucho	di0mp0	di0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	det
 17	años	año	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
-18	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	punct
+18	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	punct
 19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	20	punct
 20	dijo	decir	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 21	Blanco	Blanco	np00000	np00000	recursive=yes|rep=yes|theme=no|rheme=no|main=yes	20	nsubj
@@ -389,10 +389,10 @@
 13	presidente	presidente	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
 14	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	prepn
 15	país	país	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	pobj
-16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 17	Alfonso	Alfonso	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	appos
 18	Portillo	portillo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	appos
-19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 20	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
 21	restablecer	restablecer	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	pobj
 22	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	det
@@ -406,7 +406,7 @@
 30	pasado	pasado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	amod
 31	día	día	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	pobj
 32	24	24	zm	zm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	num
-33	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	punct
+33	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	punct
 34	cuando	cuando	pr000000	pr000000	recursive=no|rep=no|theme=no|rheme=no|main=yes	35	dobj
 35	entró	entrar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	rcmod
 36	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	35	prepv

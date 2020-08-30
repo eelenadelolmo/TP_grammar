@@ -37,21 +37,21 @@
 30	volumen	volumen	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	28	pobj
 31	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	30	prepn
 32	negocio	negocio	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	31	pobj
-33	,	,	fc	fc	rep=no|t=no|r=no|m=yes	24	punct
+33	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	24	punct
 34	por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	24	prepv
-35	lo	el	da0ns0	da0ns0	rep=no|t=no|r=no|m=yes	36	det
-36	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	39	nsubj
-37	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	38	det
-38	sector	sector	ncms000	ncms000	rep=no|t=no|r=no|m=yes	39	nsubj
-39	ha	haber	vaip3s0	vaip3s0	rep=no|t=no|r=no|m=yes	34	rcmod
-40	dado	dar	vmp00sm	vmp00sm	rep=no|t=no|r=no|m=yes	39	vobj
-41	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	40	advmod
-42	nuevo	nuevo	aq0msp	aq0msp	rep=no|t=no|r=no|m=yes	41	pobj
-43	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	44	punct
-44	muestras	muestra	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	40	dobj
-45	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	44	prepn
-46	alivio	alivio	ncms000	ncms000	rep=no|t=no|r=no|m=yes	45	pobj
-47	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	44	punct
+35	lo	el	da0ns0	da0ns0	rep=no|t=no|r=yes|m=yes	36	det
+36	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=yes|m=yes	39	nsubj
+37	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	38	det
+38	sector	sector	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	39	nsubj
+39	ha	haber	vaip3s0	vaip3s0	rep=no|t=no|r=yes|m=yes	34	rcmod
+40	dado	dar	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	39	vobj
+41	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	40	advmod
+42	nuevo	nuevo	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	41	pobj
+43	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	44	punct
+44	muestras	muestra	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	40	dobj
+45	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	44	prepn
+46	alivio	alivio	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	45	pobj
+47	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	44	punct
 48	.	.	fp	fp	rep=no|t=no|r=no|m=no	12	punct
 
 1	Bordes	Bordes	np00000	np00000	rep=no|t=yes|r=no|m=yes	45	nsubj
@@ -105,9 +105,9 @@
 49	Cervera	Cervera	np00000	np00000	rep=no|t=no|r=yes|m=yes	48	pobj
 50	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	45	prepv
 51	estado	estado	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	50	pobj
-52	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	53	punct
+52	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	53	punct
 53	crítico	crítico	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	51	amod
-54	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	53	punct
+54	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	53	punct
 55	.	.	fp	fp	rep=no|t=no|r=no|m=no	18	punct
 
 

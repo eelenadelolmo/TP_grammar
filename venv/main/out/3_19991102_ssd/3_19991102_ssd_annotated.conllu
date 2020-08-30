@@ -14,12 +14,12 @@
 14	Hermanos	hermano	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	appos
 15	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	prepn
 16	Changó	Changó	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
-17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 18	presididas	presidido	aq0fpp	aq0fpp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	amod
 19	por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	agent
 20	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	det
 21	sacerdotisa	sacerdotisa	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
-22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 23	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	prepv
 24	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	det
 25	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	pobj
@@ -66,7 +66,7 @@
 2	catedral	catedral	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
 3	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	prepn
 4	Barcelona	Barcelona	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	pobj
-5	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+5	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 6	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	poss
 7	entorno	entorno	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
 8	padecieron	padecer	vmis3p0	vmis3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
@@ -103,8 +103,8 @@
 19	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	prepn
 20	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	det
 21	catedral	catedral	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
-22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	23	punct
-23	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+23	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 24	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dep
 25	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	det
 26	curva	curva	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
@@ -112,7 +112,7 @@
 28	ábside	ábside	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	pobj
 29	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	prepn
 30	templo	templo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	pobj
-31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	punct
+31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	punct
 32	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	prepn
 33	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	det
 34	calle	calle	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	pobj
@@ -152,7 +152,7 @@
 7	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 8	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	oobj
 9	666	666	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
-10	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+10	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 11	número	número	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	dep
 12	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
 13	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	det
@@ -160,7 +160,7 @@
 15	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
 16	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	det
 17	Apocalipsis	Apocalipsis	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
-18	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+18	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 20	estaban	estar	vmii3p0	vmii3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	coord
 21	rodeadas	rodeado	aq0fpp	aq0fpp	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	attr
@@ -194,7 +194,7 @@
 6	Ordo	Ordo	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	pobj
 7	Templi	Templi	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	appos
 8	Orientis	Orientis	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	appos
-9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
+9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	punct
 10	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	det
 11	secta	secta	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	appos
 12	conocida	conocido	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	amod
@@ -219,7 +219,7 @@
 14	otros	otro	di0mp0	di0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	det
 15	dos	dos	dn0cp0	dn0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	det
 16	grupos	grupo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
-17	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	punct
+17	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	punct
 18	Iluminati	Iluminati	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	dep
 19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	coord_fixed
 20	Los	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	det

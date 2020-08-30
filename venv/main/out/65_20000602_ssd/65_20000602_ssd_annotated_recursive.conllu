@@ -20,7 +20,7 @@
 2	pequeños	pequeño	aq0mp0	aq0mp0	rep=no|t=no|r=no|m=yes	3	cpred
 3	salieron	salir	vmis3p0	vmis3p0	rep=no|t=no|r=no|m=yes	0	root
 4	sanos	sano	aq0mp0	aq0mp0	rep=no|t=no|r=no|m=yes	3	cpred
-5	y	y	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+5	y	y	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 6	salvos	salvo	aq0mp0	aq0mp0	rep=no|t=no|r=no|m=yes	3	cpred
 7	después	después	rg	rg	rep=no|t=no|r=no|m=no	3	advmod
 8	de	de	sps00	sps00	rep=no|t=no|r=no|m=no	7	prep
@@ -51,10 +51,10 @@
 17	infantil	infantil	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	16	amod
 18	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	prepn
 19	Wasserbillig	Wasserbillig	np00000	np00000	rep=no|t=no|r=yes|m=yes	18	pobj
-20	,	,	fc	fc	rep=no|t=no|r=no|m=yes	19	punct
+20	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	19	punct
 21	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	19	prepn
 22	Luxemburgo	Luxemburgo	np00000	np00000	rep=no|t=no|r=yes|m=yes	21	pobj
-23	,	,	fc	fc	rep=no|t=no|r=no|m=yes	19	punct
+23	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	19	punct
 24	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 25	lograron	lograr	vmis3p0	vmis3p0	rep=no|t=no|r=no|m=yes	24	coord
 26	liberar	liberar	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	25	dobj
@@ -87,7 +87,7 @@
 7	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	8	det
 8	operación	operación	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	6	pobj
 9	relámpago	relámpago	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	8	appos
-10	,	,	fc	fc	rep=no|t=no|r=no|m=yes	8	punct
+10	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	8	punct
 11	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	12	nsubj
 12	puso	poner	vmp00sm	vmp00sm	rep=no|t=no|r=no|m=yes	8	rcmod
 13	fin	fin	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	12	dobj
@@ -173,11 +173,11 @@
 2	Está	estar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	18	dobj
 3	agonizando	agonizar	vmg0000	vmg0000	rep=no|t=no|r=no|m=yes	2	attr
 4	,	,	fc	fc	rep=no|t=no|r=no|m=yes	18	dobj
-5	pero	pero	cc	cc	rep=no|t=no|r=no|m=no	18	coord_fixed
-6	aún	aún	rg	rg	rep=no|t=no|r=no|m=no	8	advmod
-7	no	no	rn	rn	rep=no|t=no|r=no|m=no	8	neg
-8	está	estar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=no	5	cobj
-9	muerto	muerto	aq0msp	aq0msp	rep=no|t=no|r=no|m=no	8	attr
+5	pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	18	coord_fixed
+6	aún	aún	rg	rg	rep=no|t=no|r=no|m=yes	8	advmod
+7	no	no	rn	rn	rep=no|t=no|r=no|m=yes	8	neg
+8	está	estar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	5	cobj
+9	muerto	muerto	aq0msp	aq0msp	rep=no|t=no|r=no|m=yes	8	attr
 10	.	.	fp	fp	rep=no|t=no|r=no|m=yes	18	dobj
 11	Su	su	dp3cs0	dp3cs0	rep=no|t=yes|r=no|m=yes	12	poss
 12	estado	estado	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	13	nsubj
@@ -205,7 +205,7 @@
 7	15.30	15.30	z	z	rep=no|t=no|r=yes|m=yes	5	pobj
 8	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	7	prep
 9	miércoles	miércoles	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	8	pobj
-10	,	,	fc	fc	rep=no|t=no|r=no|m=yes	7	punct
+10	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	7	punct
 11	cuando	cuando	pr000000	pr000000	rep=no|t=no|r=no|m=yes	27	dobj
 12	Neji	Neji	np0000l	np0000l	rep=no|t=no|r=no|m=yes	27	nsubj
 13	Bejaoui	Bejaoui	np0000l	np0000l	rep=no|t=no|r=no|m=yes	12	appos
@@ -248,7 +248,7 @@
 5	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	4	prepa
 6	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	7	det
 7	pistola	pistola	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	5	pobj
-8	,	,	fc	fc	rep=no|t=no|r=no|m=yes	13	punct
+8	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	13	punct
 9	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	10	det
 10	granada	granada	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	5	pobj
 11	de	de	spcms	spcms	rep=no|t=no|r=yes|m=yes	10	prepn
@@ -272,7 +272,7 @@
 12	a	a	sps00	sps00	rep=no|t=no|r=no|m=yes	11	prep
 13	7	7	z	z	rep=no|t=no|r=no|m=yes	14	num
 14	años	año	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	12	pobj
-15	y	y	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+15	y	y	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 16	tres	tres	dn0cp0	dn0cp0	rep=no|t=no|r=no|m=yes	17	det
 17	educadores	educador	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	4	dobj
 18	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
@@ -309,7 +309,7 @@
 6	varios	varios	di0mp0	di0mp0	rep=no|t=no|r=no|m=yes	7	det
 7	niños	niño	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	5	dobj
 8	franceses	francés	aq0mp0	aq0mp0	rep=no|t=no|r=no|m=yes	7	amod
-9	y	y	cc	cc	rep=no|t=no|r=no|m=no	5	coord_fixed
+9	y	y	cc	cc	rep=no|t=no|r=no|m=yes	5	coord_fixed
 10	,	,	fc	fc	rep=no|t=no|r=no|m=yes	15	punct
 11	al	al	sps00	sps00	rep=no|t=no|r=no|m=yes	15	advmod
 12	menos	menos	rg	rg	rep=no|t=no|r=no|m=yes	11	advmod
@@ -377,7 +377,7 @@
 5	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	4	prepv
 6	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	7	poss
 7	psiquiatra	psiquiatra	nccs000	nccs000	rep=no|t=no|r=yes|m=yes	5	pobj
-8	y	y	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+8	y	y	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 9	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	10	det
 10	minibús	minibús	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	3	dobj
 11	para	para	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepn
@@ -390,14 +390,14 @@
 18	grupo	grupo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	16	pobj
 19	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	18	prepn
 20	niños	niño	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	19	pobj
-21	,	,	fc	fc	rep=no|t=no|r=no|m=no	28	punct
+21	,	,	fc	fc	rep=no|t=no|r=no|m=yes	28	punct
 22	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	23	det
 23	avión	avión	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	3	dep
 24	para	para	sps00	sps00	rep=no|t=no|r=yes|m=yes	23	prepn
 25	llevarlo	llevar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	24	pobj
 26	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	25	prepv
 27	Libia	Libia	np00000	np00000	rep=no|t=no|r=yes|m=yes	26	pobj
-28	y	y	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+28	y	y	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 29	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	30	det
 30	rescate	rescate	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	3	dep
 31	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	30	prepn
@@ -405,12 +405,12 @@
 33	millones	millón	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	31	pobj
 34	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	33	prepn
 35	euros	euro	zm	zm	rep=no|t=no|r=yes|m=yes	34	pobj
-36	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	38	punct
+36	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	38	punct
 37	250	250	z	z	rep=no|t=no|r=yes|m=yes	38	num
 38	millones	millón	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	33	appos
 39	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	38	prepn
 40	pesetas	peseta	zm	zm	rep=no|t=no|r=yes|m=yes	39	pobj
-41	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	38	punct
+41	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	38	punct
 42	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
 
 1	Bejaoui	Bejaoui	np00000	np00000	rep=no|t=yes|r=no|m=yes	8	nsubj
@@ -478,7 +478,7 @@
 11	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	9	prepn
 12	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	13	det
 13	policía	policía	nccs000	nccs000	rep=no|t=no|r=yes|m=yes	11	pobj
-14	,	,	fc	fc	rep=no|t=no|r=no|m=yes	9	punct
+14	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	9	punct
 15	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	9	prepn
 16	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	17	det
 17	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=yes|m=yes	15	pobj
@@ -549,7 +549,7 @@
 4	pedir	pedir	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	3	pobj
 5	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	6	det
 6	rescate	rescate	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	4	dobj
-7	y	y	cc	cc	rep=no|t=no|r=no|m=no	2	coord_fixed
+7	y	y	cc	cc	rep=no|t=no|r=no|m=yes	2	coord_fixed
 8	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	2	oobj
 9	exigir	exigir	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	8	pobj
 10	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	9	dobj
@@ -566,7 +566,7 @@
 1	Por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	5	pobj
 2	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	3	det
 3	tarde	tarde	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	1	pobj
-4	,	,	fc	fc	rep=no|t=no|r=no|m=yes	5	punct
+4	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	5	punct
 5	tras	tras	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	prepv
 6	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	7	det
 7	noche	noche	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	5	pobj

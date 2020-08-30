@@ -9,8 +9,8 @@
 9	contra	contra	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	cobj
 10	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	det
 11	droga	droga	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
-12	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	punct
-13	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	punct
+12	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	punct
+13	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	punct
 14	aquí	aquí	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	advmod
 15	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	neg
 16	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	attr
@@ -26,8 +26,8 @@
 26	compadece	compadecer	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	advcl
 27	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	dobj
 28	delincuente	delincuente	nccs000	nccs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	pobj
-29	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	punct
-30	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	punct
+29	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	punct
+30	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	punct
 31	pueden	poder	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 32	aplicarse	aplicar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	dobj
 33	esta	este	dd0fs0	dd0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	det
@@ -73,7 +73,7 @@
 73	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	31	punct
 
 1	Indocumentado	indocumentado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	dep
-2	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+2	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 3	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	dep
 4	esas	ese	dd0fp0	dd0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	det
 5	horas	hora	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	pobj
@@ -216,10 +216,10 @@
 11	coches	coche	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	12	nsubj
 12	son	ser	vsip3p0	vsip3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	cobj
 13	menos	menos	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	advmod
-14	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	9	coord_fixed
-15	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=no	14	neg
-16	tan	tanto	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	17	advmod
-17	raudos	raudo	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=no|main=no	15	amod
+14	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	coord_fixed
+15	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	neg
+16	tan	tanto	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	advmod
+17	raudos	raudo	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	amod
 18	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	9	punct
 
 1	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct

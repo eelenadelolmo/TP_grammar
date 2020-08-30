@@ -64,7 +64,7 @@
 12	ciudades	ciudad	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	10	pobj
 13	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	12	prepn
 14	Serbia	Serbia	np00000	np00000	rep=no|t=no|r=no|m=yes	13	pobj
-15	y	y	cc	cc	rep=no|t=no|r=no|m=no	2	coord_fixed
+15	y	y	cc	cc	rep=no|t=no|r=no|m=yes	2	coord_fixed
 16	los	el	da0mp0	da0mp0	rep=no|t=no|r=no|m=yes	17	det
 17	paros	paro	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	2	nsubj
 18	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	17	prepn
@@ -118,14 +118,14 @@
 19	carretera	carretera	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	17	dobj
 20	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	19	prepn
 21	Lazarevac	Lazarevac	np00000	np00000	rep=no|t=no|r=yes|m=yes	20	pobj
-22	,	,	fc	fc	rep=no|t=no|r=no|m=yes	19	punct
+22	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	19	punct
 23	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	19	prepn
 24	unos	uno	di0mp0	di0mp0	rep=no|t=no|r=yes|m=yes	26	det
 25	50	50	z	z	rep=no|t=no|r=yes|m=yes	24	num
 26	kilómetros	kilómetro	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	23	pobj
 27	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	26	prepn
 28	Belgrado	Belgrado	np00000	np00000	rep=no|t=no|r=yes|m=yes	27	pobj
-29	,	,	fc	fc	rep=no|t=no|r=no|m=yes	19	punct
+29	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	19	punct
 30	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	19	prepn
 31	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	32	det
 32	altura	altura	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	30	pobj
@@ -488,9 +488,9 @@
 26	por	por	sps00	sps00	rep=no|t=no|r=no|m=no	25	prepv
 27	toda	todo	di0fs0	di0fs0	rep=no|t=no|r=no|m=no	28	det
 28	Serbia	Serbia	np00000	np00000	rep=no|t=no|r=no|m=no	26	pobj
-29	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	30	punct
+29	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	30	punct
 30	obligarán	obligar	vmif3p0	vmif3p0	rep=no|t=no|r=yes|m=yes	15	cobj
-31	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	30	punct
+31	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	30	punct
 32	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	30	dobj
 33	Milosevic	Milosevic	np00000	np00000	rep=no|t=no|r=yes|m=yes	32	pobj
 34	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	30	oobj
@@ -572,7 +572,7 @@
 13	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	15	det
 14	segunda	segundo	ao0fs0	ao0fs0	rep=no|t=no|r=yes|m=yes	15	amod
 15	vuelta	vuelta	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	12	pobj
-16	,	,	fc	fc	rep=no|t=no|r=no|m=yes	11	punct
+16	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	11	punct
 17	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	11	prepv
 18	pesar	pesar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	17	pobj
 19	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	18	iobj
@@ -587,7 +587,7 @@
 28	desaproveche	desaprovechar	vmsp3s0	vmsp3s0	rep=no|t=no|r=yes|m=yes	39	cobj
 29	esa	ese	dd0fs0	dd0fs0	rep=no|t=no|r=yes|m=yes	30	det
 30	oportunidad	oportunidad	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	28	dobj
-31	,	,	fc	fc	rep=no|t=no|r=no|m=yes	28	punct
+31	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	28	punct
 32	ya	ya	rg	rg	rep=no|t=no|r=yes|m=yes	33	advmod
 33	que	que	pi0ms000	pi0ms000	rep=no|t=no|r=yes|m=yes	26	cobj
 34	todas	todo	di0fp0	di0fp0	rep=no|t=no|r=yes|m=yes	36	det
@@ -621,7 +621,7 @@
 17	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	prepn
 18	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	19	det
 19	votos	voto	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	17	pobj
-20	,	,	fc	fc	rep=no|t=no|r=no|m=yes	7	punct
+20	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	7	punct
 21	rechazada	rechazado	aq0fsp	aq0fsp	rep=no|t=no|r=yes|m=yes	7	amod
 22	ya	ya	rg	rg	rep=no|t=no|r=yes|m=yes	21	advmod
 23	por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	21	agent

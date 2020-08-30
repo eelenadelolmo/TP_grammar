@@ -1,7 +1,7 @@
 1	Jaime	Jaime	np0000o	np0000o	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
 2	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	1	prepn
 3	Marichalar	Marichalar	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	pobj
-4	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+4	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 5	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	poss
 6	hijo	hijo	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
 7	Froilán	Froilán	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	appos
@@ -15,12 +15,12 @@
 15	Congresos	congreso	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	pobj
 16	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	prepn
 17	Madrid	Madrid	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	pobj
-18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 19	muy	mucho	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	advmod
 20	cerca	cerca	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	advmod
 21	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	prep
 22	Bernabéu	Bernabéu	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	pobj
-23	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+23	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 24	cuando	cuando	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	8	advcl
 25	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=no|main=no	26	reflec
 26	produjo	producir	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	24	cobj
@@ -53,7 +53,7 @@
 6	muestra	muestra	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	pobj
 7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	19	punct
 8	Marichalar	Marichalar	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	11	nsubj
-9	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+9	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 10	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	reflec
 11	mostró	mostrar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	coord
 12	impasible	impasible	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	cpred
@@ -62,7 +62,7 @@
 15	asustar	asustar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
 16	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	dobj
 17	niño	niño	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	pobj
-18	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+18	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 20	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	reflec
 21	quedó	quedar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	coord

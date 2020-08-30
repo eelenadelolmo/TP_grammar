@@ -25,9 +25,9 @@
 25	uno	uno	pi0ms000	pi0ms000	rep=no|t=no|r=yes|m=yes	24	dobj
 26	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	25	prepn
 27	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	29	det
-28	'	'	fz	fz	rep=no|t=no|r=no|m=yes	29	punct
+28	'	'	fz	fz	rep=no|t=no|r=yes|m=yes	29	punct
 29	corpus	corpus	ncmn000	ncmn000	rep=no|t=no|r=yes|m=yes	26	pobj
-30	'	'	fz	fz	rep=no|t=no|r=no|m=yes	29	punct
+30	'	'	fz	fz	rep=no|t=no|r=yes|m=yes	29	punct
 31	definitivos	definitivo	aq0mp0	aq0mp0	rep=no|t=no|r=yes|m=yes	29	amod
 32	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	29	prepn
 33	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	34	det
@@ -78,14 +78,14 @@
 10	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	12	det
 11	doble	doble	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	12	amod
 12	imagen	imagen	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	6	dobj
-13	:	:	fd	fd	rep=no|t=no|r=no|m=yes	37	punct
+13	:	:	fd	fd	rep=no|t=no|r=yes|m=yes	37	punct
 14	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	16	det
 15	alegre	alegre	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	16	amod
 16	concierto	concierto	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	12	dep
 17	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	prepn
 18	Año	Año	np00000	np00000	rep=no|t=no|r=yes|m=yes	17	pobj
 19	Nuevo	nuevo	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	18	amod
-20	,	,	fc	fc	rep=no|t=no|r=no|m=yes	16	punct
+20	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	16	punct
 21	tocado	tocado	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	16	amod
 22	por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	21	agent
 23	una	uno	pi0fs000	pi0fs000	rep=no|t=no|r=yes|m=yes	22	pobj
@@ -101,7 +101,7 @@
 33	vigoroso	vigoroso	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	34	amod
 34	Nikolaus	Nikolaus	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	31	pobj
 35	Harnoncourt	Harnoncourt	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	34	appos
-36	,	,	fc	fc	rep=no|t=no|r=no|m=yes	37	punct
+36	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	37	punct
 37	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	12	coord_fixed
 38	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	39	det
 39	tristeza	tristeza	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	12	dep

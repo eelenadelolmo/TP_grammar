@@ -39,13 +39,13 @@
 9	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	10	det
 10	eutanasia	eutanasia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	5	dobj
 11	activa	activo	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	10	amod
-12	,	,	fc	fc	rep=no|t=no|r=no|m=yes	11	punct
+12	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	11	punct
 13	despenalizada	despenalizado	aq0fsp	aq0fsp	rep=no|t=no|r=yes|m=yes	11	amod
 14	únicamente	únicamente	rg	rg	rep=no|t=no|r=yes|m=yes	15	advmod
 15	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	13	prepa
 16	Holanda	Holanda	np00000	np00000	rep=no|t=no|r=yes|m=yes	15	pobj
-17	,	,	fc	fc	rep=no|t=no|r=no|m=no	18	punct
-18	y	y	cc	cc	rep=no|t=no|r=no|m=no	5	coord_fixed
+17	,	,	fc	fc	rep=no|t=no|r=no|m=yes	18	punct
+18	y	y	cc	cc	rep=no|t=no|r=no|m=yes	5	coord_fixed
 19	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	20	det
 20	suspensión	suspensión	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	5	dobj
 21	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	20	prepn
@@ -59,7 +59,7 @@
 29	artificialmente	artificialmente	rg	rg	rep=no|t=no|r=no|m=yes	25	advmod
 30	con	con	sps00	sps00	rep=no|t=no|r=no|m=yes	25	prepv
 31	vida	vida	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	30	pobj
-32	,	,	fc	fc	rep=no|t=no|r=no|m=yes	23	punct
+32	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	23	punct
 33	vía	vía	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	23	appos
 34	aceptada	aceptado	aq0fsp	aq0fsp	rep=no|t=no|r=yes|m=yes	33	dep
 35	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	34	prepa
@@ -110,7 +110,7 @@
 23	propia	propio	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	22	amod
 24	.	.	fp	fp	rep=no|t=no|r=no|m=no	11	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	14	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	14	coord_fixed
 2	aunque	aunque	cs	cs	rep=no|t=no|r=no|m=no	14	advcl
 3	ésta	este	pd0fs000	pd0fs000	rep=no|t=no|r=no|m=no	4	nsubj
 4	sea	ser	vssp3s0	vssp3s0	rep=no|t=no|r=no|m=no	2	cobj

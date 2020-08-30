@@ -68,7 +68,7 @@
 3	magistrado	magistrado	ncms000	ncms000	rep=no|t=no|r=no|m=yes	1	nsubj
 4	Francisco	francisco	np0000l	np0000l	rep=no|t=no|r=no|m=yes	3	appos
 5	Querol	Querol	np0000l	np0000l	rep=no|t=no|r=no|m=yes	4	appos
-6	y	y	cc	cc	rep=no|t=no|r=no|m=no	1	coord_fixed
+6	y	y	cc	cc	rep=no|t=no|r=no|m=yes	1	coord_fixed
 7	otras	otro	di0fp0	di0fp0	rep=no|t=no|r=no|m=yes	9	det
 8	tres	tres	dn0cp0	dn0cp0	rep=no|t=no|r=no|m=yes	9	det
 9	personas	persona	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	1	nsubj
@@ -84,7 +84,7 @@
 8	22	22	zp	zp	rep=no|t=no|r=yes|m=yes	6	dobj
 9	de	de	spcms	spcms	rep=no|t=no|r=yes|m=yes	8	prep
 10	abril	abril	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	9	pobj
-11	,	,	fc	fc	rep=no|t=no|r=no|m=yes	8	punct
+11	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	8	punct
 12	cuando	cuando	pr00000	pr00000	rep=no|t=no|r=yes|m=yes	13	dobj
 13	estalló	estallar	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	8	dep
 14	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	15	det

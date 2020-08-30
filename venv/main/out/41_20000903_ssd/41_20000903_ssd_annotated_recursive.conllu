@@ -56,7 +56,7 @@
 3	nos	yo	pp1cp000	pp1cp000	rep=no|t=no|r=yes|m=yes	4	iobj
 4	queda	quedar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	0	root
 5	estrecho	estrecho	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	4	cpred
-6	e	e	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+6	e	e	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 7	ineficaz	ineficaz	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	4	cpred
 8	para	para	sps00	sps00	rep=no|t=no|r=yes|m=yes	4	prepv
 9	estos	este	dd0mp0	dd0mp0	rep=no|t=no|r=yes|m=yes	10	det
@@ -142,7 +142,7 @@
 18	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	17	prepn
 19	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	20	det
 20	droga	droga	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	18	pobj
-21	,	,	fc	fc	rep=no|t=no|r=no|m=yes	22	punct
+21	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	22	punct
 22	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	9	coord_fixed
 23	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	24	det
 24	economía	economía	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	9	dobj

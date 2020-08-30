@@ -47,7 +47,7 @@
 47	soldador	soldador	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	43	cobj
 48	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	32	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 2	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	te
 3	conste	constar	vmsp3s0	vmsp3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 4	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	csubj
@@ -196,14 +196,14 @@
 50	salga	salir	vmsp3s0	vmsp3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	43	cobj
 51	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	50	prepv
 52	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	51	pobj
-53	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	51	punct
+53	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	51	punct
 54	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	52	coord_fixed
 55	hay	haber	vaip3s0	vaip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	54	cobj
 56	pasta	pasta	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	55	dobj
 57	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	55	prepv
 58	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	59	det
 59	Liceo	Liceo	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	57	pobj
-60	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	55	punct
+60	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	55	punct
 61	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	54	coord_fixed
 62	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	67	prepn
 63	apoyo	apoyo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	62	pobj
@@ -231,7 +231,7 @@
 16	señor	señor	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	29	nsubj
 17	Rodríguez	Rodríguez	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	16	appos
 18	Ibarra	Ibarra	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	17	appos
-19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
+19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	punct
 20	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	prepv
 21	lo	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	det
 22	suyo	suyo	px2mp000	px2mp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	poss
@@ -240,7 +240,7 @@
 25	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	prepv
 26	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	det
 27	catalán	catalán	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	pobj
-28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
+28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	punct
 29	saldrá	salir	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	cobj
 30	diciendo	decir	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	dobj
 31	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	53	conj
@@ -256,15 +256,15 @@
 41	hecho	hecho	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	cpred
 42	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	43	det
 43	ruina	ruina	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	attr
-44	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	45	punct
+44	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	45	punct
 45	sic	sic	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	43	advmod
-46	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	45	punct
-47	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	41	punct
+46	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	45	punct
+47	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	punct
 48	sin	sin	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	prepa
 49	techo	techo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	48	pobj
 50	ni	ni	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	48	coord_fixed
 51	nada	nada	pi0cs000	pi0cs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	48	pobj
-52	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	53	punct
+52	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	53	punct
 53	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	coord_fixed
 54	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	53	conj
 55	ya	ya	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	56	advmod
@@ -351,10 +351,10 @@
 10	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	9	dobj
 11	yo	yo	pp1csn00	pp1csn00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	17	nsubj
 12	solita	solito	aq0fs0	aq0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	11	amod
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 14	pintura	pintura	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	dep
 15	incluida	incluido	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	amod
-16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 17	soy	ser	vsip1s0	vsip1s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	cobj
 18	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	det
 19	teatro	teatro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	attr
@@ -466,7 +466,7 @@
 3	ver	ver	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	dobj
 4	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	1	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	19	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	coord_fixed
 2	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	19	advcl
 3	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=no	4	det
 4	Mendicutti	Mendicutti	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=no|main=no	5	nsubj

@@ -321,14 +321,14 @@
 19	circuito	circuito	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
 20	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	prepn
 21	refrigeración	refrigeración	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	pobj
-22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 23	fuera	fuera	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	advmod
 24	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	prep
 25	compartimento	compartimento	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
 26	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	prepn
 27	reactor	reactor	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	pobj
 28	nuclear	nuclear	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	amod
-29	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+29	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 30	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 31	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	det
 32	análisis	análisis	ncmn000	ncmn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	nsubj
@@ -588,7 +588,7 @@
 16	fuera	ser	vssi3s0	vssi3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	cobj
 17	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	det
 18	contenedor	contenedor	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	attr
-19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 20	lo	el	da0ns0	da0ns0	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	det
 21	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	nsubj
 22	exigiría	exigir	vmic3s0	vmic3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	rcmod
@@ -596,7 +596,7 @@
 24	tecnología	tecnología	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	dobj
 25	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	neg
 26	disponible	disponible	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	amod
-27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	punct
+27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	punct
 28	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 29	tampoco	tampoco	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	advmod
 30	resulta	resultar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	coord

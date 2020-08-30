@@ -48,7 +48,7 @@
 
 1	El	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	2	det
 2	presidente	presidente	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	20	nsubj
-3	y	y	cc	cc	rep=no|t=no|r=no|m=no	20	coord_fixed
+3	y	y	cc	cc	rep=no|t=no|r=no|m=yes	20	coord_fixed
 4	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	5	det
 5	secretario	secretario	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	20	nsubj
 6	general	general	aq0cs0	aq0cs0	rep=no|t=yes|r=no|m=yes	5	amod
@@ -59,12 +59,12 @@
 11	Angel	Angel	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	20	dep
 12	María	María	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	11	appos
 13	Villar	villar	np00000	np00000	rep=no|t=no|r=yes|m=yes	12	appos
-14	y	y	cc	cc	rep=no|t=no|r=no|m=no	20	coord_fixed
+14	y	y	cc	cc	rep=no|t=no|r=no|m=yes	20	coord_fixed
 15	Gerardo	Gerardo	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	20	dep
 16	González	González	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	15	appos
-17	,	,	fc	fc	rep=no|t=no|r=no|m=no	14	punct
-18	respectivamente	respectivamente	rg	rg	rep=no|t=no|r=no|m=no	14	advmod
-19	,	,	fc	fc	rep=no|t=no|r=no|m=no	14	punct
+17	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
+18	respectivamente	respectivamente	rg	rg	rep=no|t=no|r=no|m=yes	14	advmod
+19	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
 20	visitaron	visitar	vmis3p0	vmis3p0	rep=no|t=no|r=yes|m=yes	0	root
 21	hoy	hoy	rg	rg	rep=no|t=no|r=no|m=no	20	advmod
 22	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	23	det
@@ -131,7 +131,7 @@
 36	especializado	especializado	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	34	amod
 37	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	36	oobj
 38	fútbol	fútbol	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	37	pobj
-39	,	,	fc	fc	rep=no|t=no|r=no|m=yes	40	punct
+39	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	40	punct
 40	además	además	rg	rg	rep=no|t=no|r=yes|m=yes	32	dobj
 41	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	40	prep
 42	otro	otro	pi0ms000	pi0ms000	rep=no|t=no|r=yes|m=yes	41	pobj

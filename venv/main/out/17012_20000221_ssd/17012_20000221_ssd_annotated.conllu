@@ -30,7 +30,7 @@
 30	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	det
 31	Banco	banco	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	nsubj
 32	Central	central	nc00000	nc00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	appos
-33	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	29	coord_fixed
+33	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	coord_fixed
 34	fuentes	fuente	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	nsubj
 35	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	prepn
 36	banco	banco	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	35	pobj
@@ -59,7 +59,7 @@
 21	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	prepn
 22	Buenos	buen	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	amod
 23	Aires	aire	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	pobj
-24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	punct
+24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	punct
 25	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	det
 26	cual	cual	pr0cs000	pr0cs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	nsubj
 27	será	ser	vsif3s0	vsif3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	dep
@@ -74,7 +74,7 @@
 36	presidente	presidente	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	pobj
 37	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	prepn
 38	banco	banco	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	pobj
-39	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	36	punct
+39	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	punct
 40	Fernando	Fernando	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	appos
 41	Verdonck	Verdonck	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	appos
 42	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	15	punct

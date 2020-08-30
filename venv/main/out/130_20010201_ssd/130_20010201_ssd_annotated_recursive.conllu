@@ -51,10 +51,10 @@
 24	:	:	fd	fd	rep=no|t=no|r=no|m=no	21	punct
 25	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	26	det
 26	dinero	dinero	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	23	appos
-27	,	,	fc	fc	rep=no|t=no|r=no|m=yes	32	punct
+27	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	32	punct
 28	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	29	det
 29	dólares	dólar	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	23	appos
-30	,	,	fc	fc	rep=no|t=no|r=no|m=yes	32	punct
+30	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	32	punct
 31	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	32	det
 32	negocio	negocio	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	23	appos
 33	.	.	fp	fp	rep=no|t=no|r=no|m=no	21	punct
@@ -120,7 +120,7 @@
 12	competición	competición	ncfs000	ncfs000	rep=no|t=no|r=no|m=no	10	pobj
 13	.	.	fp	fp	rep=no|t=no|r=no|m=no	2	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	8	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	8	coord_fixed
 2	,	,	fc	fc	rep=no|t=no|r=no|m=no	8	punct
 3	ciertamente	ciertamente	rg	rg	rep=no|t=no|r=no|m=no	8	advmod
 4	,	,	fc	fc	rep=no|t=no|r=no|m=no	8	punct
@@ -130,7 +130,7 @@
 8	hay	haber	vaip3s0	vaip3s0	rep=no|t=no|r=no|m=yes	0	root
 9	.	.	fp	fp	rep=no|t=no|r=no|m=no	8	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	6	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	6	coord_fixed
 2	lo	el	da0ns0	da0ns0	rep=no|t=no|r=no|m=yes	3	det
 3	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	5	dobj
 4	más	más	rg	rg	rep=no|t=no|r=no|m=yes	5	advmod

@@ -40,7 +40,7 @@
 4	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	det
 5	hotel	hotel	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	attr
 6	especial	especial	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	dep
-7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 8	familiar	familiar	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	dep
 9	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	coord_fixed
 10	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	nsubj
@@ -108,7 +108,7 @@
 9	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	prep
 10	tanatorio	tanatorio	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	pobj
 11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
-12	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	28	coord_fixed
+12	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	coord_fixed
 13	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	det
 14	nuevas	nuevo	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	cpred
 15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct

@@ -40,7 +40,7 @@
 40	inadvertida	inadvertido	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	38	cobj
 41	.	.	fp	fp	rep=no|t=no|r=no|m=no	2	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	2	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	2	coord_fixed
 2	sé	saber	vmip1s0	vmip1s0	rep=no|t=no|r=no|m=yes	0	root
 3	que	que	cs	cs	rep=no|t=no|r=no|m=yes	2	dobj
 4	este	este	dd0ms0	dd0ms0	rep=no|t=yes|r=no|m=yes	5	det
@@ -67,7 +67,7 @@
 25	mendigos	mendigo	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	24	pobj
 26	.	.	fp	fp	rep=no|t=no|r=no|m=no	2	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 2	ya	ya	rg	rg	rep=no|t=no|r=no|m=no	3	advmod
 3	digo	decir	vmip1s0	vmip1s0	rep=no|t=no|r=no|m=yes	0	root
 4	,	,	fc	fc	rep=no|t=no|r=no|m=no	3	punct
@@ -81,14 +81,14 @@
 1	Lo	el	da0ns0	da0ns0	rep=no|t=no|r=no|m=yes	2	det
 2	importante	importante	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=yes	3	attr
 3	es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=no|m=yes	0	root
-4	lo	el	da0ns0	da0ns0	rep=no|t=no|r=no|m=no	5	det
-5	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=no	6	nsubj
-6	ocurra	ocurrir	vmsp3s0	vmsp3s0	rep=no|t=no|r=no|m=no	11	rcmod
-7	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=no	8	det
-8	martes	martes	ncms000	ncms000	rep=no|t=no|r=no|m=no	6	dobj
-9	con	con	sps00	sps00	rep=no|t=no|r=no|m=no	6	prepv
-10	Banesto	Banesto	np0000o	np0000o	rep=no|t=no|r=no|m=no	9	pobj
-11	y	y	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+4	lo	el	da0ns0	da0ns0	rep=no|t=yes|r=no|m=yes	5	det
+5	que	que	pr0cn000	pr0cn000	rep=no|t=yes|r=no|m=yes	6	nsubj
+6	ocurra	ocurrir	vmsp3s0	vmsp3s0	rep=no|t=no|r=yes|m=yes	11	rcmod
+7	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	8	det
+8	martes	martes	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	6	dobj
+9	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	6	prepv
+10	Banesto	Banesto	np0000o	np0000o	rep=no|t=no|r=yes|m=yes	9	pobj
+11	y	y	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 12	las	el	da0fp0	da0fp0	rep=no|t=no|r=no|m=yes	13	det
 13	luchas	lucha	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	3	attr
 14	internas	interno	aq0fp0	aq0fp0	rep=no|t=no|r=no|m=yes	13	amod
@@ -178,7 +178,7 @@
 17	suspiro	suspiro	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	15	attr
 18	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	17	prepn
 19	alivio	alivio	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	18	pobj
-20	,	,	fc	fc	rep=no|t=no|r=no|m=yes	15	punct
+20	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	15	punct
 21	si	si	cs	cs	rep=no|t=no|r=no|m=yes	15	advcl
 22	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	25	advmod
 23	verdad	verdad	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	22	pobj
@@ -209,10 +209,10 @@
 12	todo	todo	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	14	det
 13	nuevo	nuevo	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	14	amod
 14	orden	orden	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	19	nsubj
-15	,	,	fc	fc	rep=no|t=no|r=no|m=yes	19	punct
+15	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	19	punct
 16	según	según	sps00	sps00	rep=no|t=no|r=yes|m=yes	19	prepv
 17	él	él	pp3ms000	pp3ms000	rep=no|t=no|r=yes|m=yes	16	pobj
-18	,	,	fc	fc	rep=no|t=no|r=no|m=yes	19	punct
+18	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	19	punct
 19	implica	implicar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	6	cobj
 20	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	21	det
 21	existencia	existencia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	19	dobj
@@ -283,9 +283,9 @@
 15	han	haber	vaip3p0	vaip3p0	rep=no|t=no|r=yes|m=yes	11	dep
 16	renunciado	renunciar	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	15	vobj
 17	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	11	prepn
-18	-	-	fg	fg	rep=no|t=no|r=no|m=yes	19	punct
+18	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	19	punct
 19	sheriff	sheriff	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	17	pobj
-20	-	-	fg	fg	rep=no|t=no|r=no|m=yes	19	punct
+20	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	19	punct
 21	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	19	prepn
 22	planeta	planeta	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	21	pobj
 23	;	;	fx	fx	rep=no|t=no|r=no|m=yes	0	root

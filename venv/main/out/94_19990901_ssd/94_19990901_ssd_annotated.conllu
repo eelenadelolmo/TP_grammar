@@ -53,7 +53,7 @@
 21	desesperado	desesperado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	cpred
 22	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	15	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	16	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	coord_fixed
 2	cuando	cuando	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	16	advcl
 3	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=no|main=no	4	reflec
 4	grita	gritar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	2	cobj
@@ -261,13 +261,13 @@
 18	sets	set	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=no	16	pobj
 19	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	10	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
-2	eso	ese	pd0ns000	pd0ns000	recursive=no|rep=no|theme=no|rheme=no|main=no	6	dobj
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
+2	eso	ese	pd0ns000	pd0ns000	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	dobj
 3	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
-4	este	este	dd0ms0	dd0ms0	recursive=no|rep=no|theme=no|rheme=no|main=no	5	det
-5	año	año	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	6	tmod
-6	tenía	tener	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	1	cobj
-7	confianza	confianza	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	6	dobj
+4	este	este	dd0ms0	dd0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	det
+5	año	año	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	tmod
+6	tenía	tener	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	cobj
+7	confianza	confianza	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	dobj
 8	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
 1	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
@@ -316,25 +316,25 @@
 4	antes	antes	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	advmod
 5	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	1	punct
 
-1	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=no	11	punct
-2	Llevas	llevar	vmip2s0	vmip2s0	recursive=no|rep=no|theme=no|rheme=no|main=no	11	cobj
-3	toda	todo	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=no|main=no	5	det
-4	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=no	5	det
-5	vida	vida	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	2	dobj
-6	queriendo	querer	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=no|main=no	2	dobj
-7	jugar	jugar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=no	6	dobj
-8	aquí	aquí	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	7	advmod
-9	...	...	fs	fs	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
-10	¡	¡	faa	faa	recursive=no|rep=no|theme=no|rheme=no|main=no	11	punct
-11	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	22	coord_fixed
-12	ahora	ahora	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	14	advmod
-13	te	tú	pp2cs000	pp2cs000	recursive=no|rep=no|theme=no|rheme=no|main=no	14	iobj
-14	vendrá	venir	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	2	cobj
-15	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	14	prepv
-16	dos	dos	dn0cp0	dn0cp0	recursive=no|rep=no|theme=no|rheme=no|main=no	17	det
-17	días	día	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=no	15	pobj
-18	!	!	fat	fat	recursive=no|rep=no|theme=no|rheme=no|main=no	11	punct
-19	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=no	11	punct
+1	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+2	Llevas	llevar	vmip2s0	vmip2s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	cobj
+3	toda	todo	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	det
+4	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	det
+5	vida	vida	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	dobj
+6	queriendo	querer	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	dobj
+7	jugar	jugar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	dobj
+8	aquí	aquí	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	advmod
+9	...	...	fs	fs	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	punct
+10	¡	¡	faa	faa	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+11	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	coord_fixed
+12	ahora	ahora	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	advmod
+13	te	tú	pp2cs000	pp2cs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	iobj
+14	vendrá	venir	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	cobj
+15	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	prepv
+16	dos	dos	dn0cp0	dn0cp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	det
+17	días	día	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	pobj
+18	!	!	fat	fat	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+19	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
 20	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	22	punct
 21	le	él	pp3csd00	pp3csd00	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	iobj
 22	espetó	espetar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
@@ -428,7 +428,7 @@
 10	ya	ya	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	11	advmod
 11	paso	pasar	vmip1s0	vmip1s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 12	cuatro	cuatro	pn0cp000	pn0cp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	dobj
-13	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	11	coord_fixed
+13	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	coord_fixed
 14	cinco	cinco	pn0cp000	pn0cp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	dobj
 15	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	11	advmod
 16	carrerilla	carrerilla	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=no	15	pobj

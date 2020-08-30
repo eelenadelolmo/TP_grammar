@@ -7,9 +7,9 @@
 7	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	9	det
 8	merecida	merecido	aq0fsp	aq0fsp	rep=no|t=no|r=yes|m=yes	9	amod
 9	victoria	victoria	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	6	dobj
-10	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	11	punct
+10	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	11	punct
 11	0-3	0-3	z	z	rep=no|t=no|r=yes|m=yes	6	dobj
-12	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	11	punct
+12	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	11	punct
 13	en	en	sps00	sps00	rep=no|t=no|r=no|m=no	6	prepv
 14	San	san	np0000l	np0000l	rep=no|t=no|r=no|m=no	13	pobj
 15	Mamés	Mamés	np0000l	np0000l	rep=no|t=no|r=no|m=no	14	appos
@@ -215,7 +215,7 @@
 41	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	40	prepn
 42	balón	balón	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	41	pobj
 43	parado	parado	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	42	amod
-44	,	,	fc	fc	rep=no|t=no|r=no|m=yes	40	punct
+44	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	40	punct
 45	dilapidadas	dilapidado	aq0fpp	aq0fpp	rep=no|t=no|r=yes|m=yes	40	amod
 46	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	45	prepa
 47	ocasiones	ocasión	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	46	pobj

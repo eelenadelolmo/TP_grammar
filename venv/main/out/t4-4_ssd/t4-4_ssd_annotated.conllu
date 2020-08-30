@@ -4,7 +4,7 @@
 4	hay	haber	vaip3s0	vaip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 5	llantos	llanto	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	dobj
 6	funerales	funeral	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	amod
-7	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+7	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 8	vagidos	vagido	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	dobj
 9	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	prepn
 10	bebés	bebé	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	pobj
@@ -20,7 +20,7 @@
 6	también	también	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	4	advmod
 7	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 2	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	det
 3	mediodías	mediodía	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 4	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
@@ -66,7 +66,7 @@
 6	Náyade	Náyade	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	attr
 7	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	5	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	2	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	coord_fixed
 2	verter	verter	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 3	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	det
 4	agua	agua	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	dobj
@@ -97,7 +97,7 @@
 6	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dep
 7	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	poss
 8	manera	manera	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	pobj
-9	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+9	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 10	según	según	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dep
 11	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	poss
 12	caso	caso	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
@@ -141,7 +141,7 @@
 3	universo	universo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	1	pobj
 4	no	no	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	neg
 5	hay	haber	vaip3s0	vaip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
-6	sino	sino	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	5	coord_fixed
+6	sino	sino	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	coord_fixed
 7	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	det
 8	presencia	presencia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	dobj
 9	permanente	permanente	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	dep
@@ -162,14 +162,14 @@
 2	demás	demás	pi0cp000	pi0cp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	nsubj
 3	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 4	existencia	existencia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	attr
-5	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
+5	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	punct
 6	simulacro	simulacro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dep
 7	transitorio	transitorio	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	dep
 8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	coord_fixed
 9	mudable	mudable	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	dep
 10	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	2	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	coord_fixed
 2	está	estar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 3	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
 4	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
@@ -187,7 +187,7 @@
 16	tomo	tomo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	dep
 17	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
 18	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
-19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	2	coord_fixed
+19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	coord_fixed
 20	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	dep
 21	lo	el	da0ns0	da0ns0	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	det
 22	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	advmod

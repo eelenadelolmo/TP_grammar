@@ -17,7 +17,7 @@
 17	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	det
 18	ceño	ceño	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	pobj
 19	fruncido	fruncido	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	amod
-20	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	14	coord_fixed
+20	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	coord_fixed
 21	gritando	gritar	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	attr
 22	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	14	punct
 
@@ -60,23 +60,23 @@
 16	centro	centro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	pobj
 17	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	8	punct
 
-1	En	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	8	prepv
-2	ésta	este	pd0fs000	pd0fs000	recursive=no|rep=no|theme=no|rheme=no|main=no	1	pobj
-3	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	punct
-4	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=no	5	det
-5	círculo	círculo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	8	nsubj
-6	rojo	rojo	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=no|main=no	5	amod
-7	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=no	8	neg
-8	estaba	estar	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	13	cobj
-9	exactamente	exactamente	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	10	advmod
-10	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	8	oobj
-11	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=no	12	det
-12	centro	centro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	10	pobj
-13	sino	sino	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	18	coord_fixed
-14	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	15	advmod
-15	cercano	cercano	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=no|main=no	8	cobj
-16	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=no	15	prepa
-17	mástil	mástil	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	16	pobj
+1	En	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	prepv
+2	ésta	este	pd0fs000	pd0fs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	pobj
+3	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+4	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	det
+5	círculo	círculo	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
+6	rojo	rojo	aq0ms0	aq0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	amod
+7	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	neg
+8	estaba	estar	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	cobj
+9	exactamente	exactamente	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	advmod
+10	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	oobj
+11	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	det
+12	centro	centro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
+13	sino	sino	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	coord_fixed
+14	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	advmod
+15	cercano	cercano	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	cobj
+16	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	prepa
+17	mástil	mástil	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	pobj
 18	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 19	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	prepv
 20	círculo	círculo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	pobj
@@ -108,7 +108,7 @@
 6	había	haber	vaii3s0	vaii3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	cobj
 7	sido	ser	vsp00sm	vsp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	vobj
 8	esa	ese	pd0fs000	pd0fs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	attr
-9	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	2	coord_fixed
+9	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	coord_fixed
 10	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	dobj
 11	tras	tras	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	prepv
 12	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	det
@@ -135,7 +135,7 @@
 13	cortado	cortar	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	vobj
 14	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	det
 15	rayos	rayo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	dobj
-16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
+16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	punct
 17	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	prepv
 18	plan	plan	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
 19	castración	castración	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	appos
@@ -171,7 +171,7 @@
 9	contra	contra	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	prepn
 10	Soichi	Soichi	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
 11	Chibana	Chibana	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	appos
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 13	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	det
 14	señor	señor	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	appos
 15	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	prepn

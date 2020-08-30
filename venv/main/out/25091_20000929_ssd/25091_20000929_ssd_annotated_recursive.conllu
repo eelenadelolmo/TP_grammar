@@ -80,7 +80,7 @@
 24	partido	partido	ncms000	ncms000	rep=no|t=no|r=no|m=yes	23	pobj
 25	es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=no|m=yes	20	cobj
 26	negativa	negativo	aq0fs0	aq0fs0	rep=no|t=no|r=no|m=yes	25	attr
-27	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	18	punct
+27	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	18	punct
 28	,	,	fc	fc	rep=no|t=no|r=no|m=no	29	punct
 29	y	y	cc	cc	rep=no|t=no|r=no|m=no	0	root
 30	abogó	abogar	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=no	29	coord

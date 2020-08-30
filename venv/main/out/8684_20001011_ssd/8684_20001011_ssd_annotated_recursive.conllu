@@ -214,7 +214,7 @@
 6	conocía	conocer	vmii3s0	vmii3s0	rep=no|t=no|r=no|m=yes	4	cobj
 7	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=no|m=yes	8	poss
 8	descalificación	descalificación	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	6	dobj
-9	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	14	punct
+9	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	14	punct
 10	y	y	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
 11	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	iobj
 12	mí	yo	pp1cso00	pp1cso00	rep=no|t=no|r=yes|m=yes	11	pobj
@@ -229,7 +229,7 @@
 21	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	20	prepn
 22	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	23	poss
 23	competencia	competencia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	21	pobj
-24	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	14	punct
+24	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	14	punct
 25	,	,	fc	fc	rep=no|t=no|r=no|m=no	3	punct
 26	tras	tras	sps00	sps00	rep=no|t=no|r=no|m=no	3	prepv
 27	de	de	sps00	sps00	rep=no|t=no|r=no|m=no	28	prep
@@ -317,14 +317,14 @@
 13	Comité	Comité	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	12	pobj
 14	Olímpico	Olímpico	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	13	appos
 15	Internacional	internacional	np00000	np00000	rep=no|t=no|r=yes|m=yes	14	appos
-16	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	17	punct
+16	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	17	punct
 17	COI	COI	np00000	np00000	rep=no|t=no|r=yes|m=yes	13	appos
-18	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	17	punct
-19	,	,	fc	fc	rep=no|t=no|r=no|m=yes	11	punct
+18	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	17	punct
+19	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	11	punct
 20	Juan	juan	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	11	appos
 21	Antonio	Antonio	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	20	appos
 22	Samaranch	Samaranch	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	20	appos
-23	,	,	fc	fc	rep=no|t=no|r=no|m=yes	11	punct
+23	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	11	punct
 24	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 25	al	al	spcms	spcms	rep=no|t=no|r=no|m=yes	34	prepv
 26	día	día	ncms000	ncms000	rep=no|t=no|r=no|m=yes	25	pobj
@@ -372,7 +372,7 @@
 14	regreso	regreso	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	12	dobj
 15	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	prepn
 16	México	México	np00000	np00000	rep=no|t=no|r=yes|m=yes	15	pobj
-17	,	,	fc	fc	rep=no|t=no|r=no|m=yes	20	punct
+17	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	20	punct
 18	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	21	prepv
 19	donde	donde	pr000000	pr000000	rep=no|t=no|r=yes|m=yes	18	pobj
 20	fue	ser	vsis3s0	vsis3s0	rep=no|t=no|r=yes|m=yes	16	dep
@@ -458,7 +458,7 @@
 24	cualquier	cualquiera	di0cs0	di0cs0	rep=no|t=no|r=no|m=yes	25	det
 25	persona	persona	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	26	nsubj
 26	aprovecharía	aprovechar	vmic3s0	vmic3s0	rep=no|t=no|r=no|m=yes	19	rcmod
-27	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	15	punct
+27	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	15	punct
 28	.	.	fp	fp	rep=no|t=no|r=no|m=no	1	punct
 
 1	Segura	Segura	np00000	np00000	rep=no|t=yes|r=no|m=yes	2	nsubj
@@ -472,9 +472,9 @@
 9	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	10	det
 10	Revolución	Revolución	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	8	pobj
 11	Democrática	Democrática	np00000	np00000	rep=no|t=no|r=yes|m=yes	10	appos
-12	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	13	punct
+12	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	13	punct
 13	PRD	PRD	np00000	np00000	rep=no|t=no|r=yes|m=yes	7	appos
-14	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	13	punct
+14	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	13	punct
 15	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	17	nsubj
 16	le	él	pp3csd00	pp3csd00	rep=no|t=no|r=no|m=yes	18	iobj
 17	ha	haber	vaip3s0	vaip3s0	rep=no|t=no|r=no|m=yes	5	rcmod

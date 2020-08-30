@@ -12,7 +12,7 @@
 12	petroleros	petrolero	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	amod
 13	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dep
 14	Montenegro	Montenegro	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
-15	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+15	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 16	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dep
 17	algunas	alguno	di0fp0	di0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	det
 18	ciudades	ciudad	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	pobj
@@ -44,9 +44,9 @@
 44	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	45	det
 45	Unión	Unión	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	43	pobj
 46	Europea	europeo	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	45	amod
-47	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	48	punct
+47	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	48	punct
 48	UE	UE	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	46	appos
-49	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	48	punct
+49	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	48	punct
 50	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 
 1	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
@@ -65,7 +65,7 @@
 14	ciudades	ciudad	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
 15	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	prepn
 16	Serbia	Serbia	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
-17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 18	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	dep
 19	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	det
 20	provincia	provincia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
@@ -77,7 +77,7 @@
 26	República	República	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
 27	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	prepn
 28	Montenegro	Montenegro	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	pobj
-29	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
+29	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	punct
 30	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	31	punct
 31	declaró	declarar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 32	hoy	hoy	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	31	advmod
@@ -110,7 +110,7 @@
 18	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	prepn
 19	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	det
 20	paz	paz	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
 22	así	así	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	prepn
 23	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	dep
 24	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	cobj
@@ -216,7 +216,7 @@
 32	levantamiento	levantamiento	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	dobj
 33	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	prepn
 34	embargo	embargo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	pobj
-35	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
+35	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	punct
 36	aunque	aunque	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	advcl
 37	viniera	venir	vmsi3s0	vmsi3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	36	cobj
 38	tarde	tarde	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	advmod
@@ -282,12 +282,12 @@
 58	Serbia	Serbia	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	57	pobj
 59	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	32	punct
 
-1	Tan	tan	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	2	advmod
-2	solo	solo	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=no|main=no	6	advmod
+1	Tan	tan	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	advmod
+2	solo	solo	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	advmod
 3	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	det
 4	operadores	operador	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	26	nsubj
 5	portuarios	portuario	aq0mp0	aq0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	amod
-6	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	26	coord_fixed
+6	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	coord_fixed
 7	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	det
 8	compañías	compañía	ncfp000	ncfp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	26	nsubj
 9	navales	naval	aq0cp0	aq0cp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	amod

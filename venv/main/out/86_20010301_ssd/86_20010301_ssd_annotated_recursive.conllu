@@ -14,7 +14,7 @@
 14	totalidad	totalidad	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	12	dobj
 15	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	14	prepn
 16	claustro	claustro	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	15	pobj
-17	,	,	fc	fc	rep=no|t=no|r=no|m=yes	16	punct
+17	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	16	punct
 18	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	23	nsubj
 19	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	25	prepv
 20	los	el	da0mp0	da0mp0	rep=no|t=no|r=no|m=yes	22	det
@@ -35,7 +35,7 @@
 5	promovieron	promover	vmis3p0	vmis3p0	rep=no|t=no|r=yes|m=yes	0	root
 6	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	7	det
 7	abstención	abstención	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	5	dobj
-8	y	y	cc	cc	rep=no|t=no|r=no|m=no	5	coord_fixed
+8	y	y	cc	cc	rep=no|t=no|r=no|m=yes	5	coord_fixed
 9	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	10	det
 10	instalación	instalación	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	5	dobj
 11	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepn

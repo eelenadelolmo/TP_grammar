@@ -8,7 +8,7 @@
 8	pequeñitos	pequeñito	aq0mp0	aq0mp0	rep=no|t=no|r=no|m=yes	7	amod
 9	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 2	nadie	nadie	pi0cs000	pi0cs000	rep=no|t=yes|r=no|m=yes	4	nsubj
 3	los	él	pp3mpa00	pp3mpa00	rep=no|t=no|r=yes|m=yes	4	dobj
 4	confundirá	confundir	vmif3s0	vmif3s0	rep=no|t=no|r=yes|m=yes	0	root
@@ -54,17 +54,17 @@
 11	vuelve	volver	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	9	coord
 12	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	11	prepv
 13	empezar	empezar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	11	dobj
-14	,	,	fc	fc	rep=no|t=no|r=no|m=yes	11	punct
+14	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	11	punct
 15	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	11	prepv
 16	ese	ese	dd0ms0	dd0ms0	rep=no|t=no|r=yes|m=yes	17	det
 17	ciclo	ciclo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	15	pobj
 18	ininterrumpido	ininterrumpido	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	17	amod
 19	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	17	prepn
 20	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	22	det
-21	-	-	fg	fg	rep=no|t=no|r=no|m=yes	22	punct
+21	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	22	punct
 22	era	era	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	19	pobj
 23	Gil	Gil	np0000p	np0000p	rep=no|t=no|r=yes|m=yes	22	appos
-24	-	-	fg	fg	rep=no|t=no|r=no|m=yes	22	punct
+24	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	22	punct
 25	.	.	fp	fp	rep=no|t=no|r=no|m=no	9	punct
 
 1	Adiós	adiós	ncms000	ncms000	rep=no|t=no|r=no|m=yes	3	dep
@@ -157,10 +157,10 @@
 5	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	4	prepn
 6	Chiapas	Chiapas	np0000l	np0000l	rep=no|t=no|r=no|m=yes	5	pobj
 7	que	que	pr0cn000	pr0cn000	rep=no|t=yes|r=no|m=yes	14	nsubj
-8	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
+8	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	14	punct
 9	secularmente	secularmente	rg	rg	rep=no|t=no|r=yes|m=yes	10	advmod
 10	desheredados	desheredado	aq0mpp	aq0mpp	rep=no|t=no|r=yes|m=yes	14	cpred
-11	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
+11	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	14	punct
 12	ya	ya	rg	rg	rep=no|t=no|r=no|m=yes	14	advmod
 13	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	14	neg
 14	creen	creer	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	4	rcmod
@@ -169,7 +169,7 @@
 17	modificación	modificación	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	15	pobj
 18	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	17	prepn
 19	sistema	sistema	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	18	pobj
-20	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
+20	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	14	punct
 21	aunque	aunque	cs	cs	rep=no|t=no|r=no|m=yes	14	advcl
 22	,	,	fc	fc	rep=no|t=no|r=no|m=yes	28	punct
 23	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	28	prepv

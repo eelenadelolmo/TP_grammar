@@ -13,7 +13,7 @@
 13	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	det
 14	fisco	fisco	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
 15	alemán	alemán	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	amod
-16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 17	aceptando	aceptar	vmg0000	vmg0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	dep
 18	pagar	pagar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	dobj
 19	cerca	cerca	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	advmod
@@ -22,7 +22,7 @@
 22	millones	millón	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	dobj
 23	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	prepn
 24	pesetas	peseta	zm	zm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	pobj
-25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 26	según	según	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	advcl
 27	explica	explicar	vmm02s0	vmm02s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	cobj
 28	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	det
@@ -66,7 +66,7 @@
 33	pagar	pagar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	vobj
 34	sus	su	dp3cp0	dp3cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	poss
 35	deudas	deuda	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	dobj
-36	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	punct
+36	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	punct
 37	porque	porque	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	advcl
 38	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	39	neg
 39	ha	haber	vaip3s0	vaip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	cobj
@@ -109,7 +109,7 @@
 17	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	prepn
 18	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	det
 19	tenista	tenista	nccs000	nccs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
-20	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+20	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 21	Peter	Peter	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	appos
 22	Graf	Graf	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	appos
 23	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	1	punct
@@ -146,7 +146,7 @@
 4	31	31	z	z	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	num
 5	años	año	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	pobj
 6	,	,	fc	fc	recursive=no|rep=no|theme=yes|rheme=no|main=yes	1	punct
-7	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	17	coord_fixed
+7	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	coord_fixed
 8	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	poss
 9	novio	novio	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	17	nsubj
 10	,	,	fc	fc	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	punct

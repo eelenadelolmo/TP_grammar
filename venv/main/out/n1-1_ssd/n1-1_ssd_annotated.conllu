@@ -19,7 +19,7 @@
 14	campo	campo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	nsubj
 15	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	prepn
 16	refugiados	refugiado	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	pobj
-17	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	punct
+17	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	2	punct
 18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	19	punct
 19	dice	decir	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 20	Rambarum	Rambarum	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	nsubj
@@ -113,7 +113,7 @@
 5	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	det
 6	mirada	mirada	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dobj
 7	extraviada	extraviado	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	amod
-8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 9	perdida	perdido	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	amod
 10	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 
@@ -167,7 +167,7 @@
 5	plato	plato	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	pobj
 6	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	prepn
 7	judías	judía	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	pobj
-8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	1	coord_fixed
+8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	coord_fixed
 9	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	dep
 10	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	det
 11	zumo	zumo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	pobj
@@ -251,7 +251,7 @@
 2	¡	¡	faa	faa	recursive=no|rep=no|theme=no|rheme=no|main=no	16	punct
 3	Este	este	dd0ms0	dd0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	det
 4	vestido	vestido	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	16	nsubj
-5	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
+5	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	punct
 6	exclama	exclamar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	attr
 7	Cristia	Cristia	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	nsubj
 8	Mngani	Mngani	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	appos
@@ -261,7 +261,7 @@
 12	agarra	agarrar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	cobj
 13	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	det
 14	ropa	ropa	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	dobj
-15	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	punct
+15	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	punct
 16	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 17	lo	el	da0ns0	da0ns0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	det
 18	único	único	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	attr

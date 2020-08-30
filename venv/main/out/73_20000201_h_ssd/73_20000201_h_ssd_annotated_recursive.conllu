@@ -35,7 +35,7 @@
 21	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	22	neg
 22	era	ser	vsii3s0	vsii3s0	rep=no|t=no|r=yes|m=yes	25	cobj
 23	fuel	fuel	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	22	attr
-24	,	,	fc	fc	rep=no|t=no|r=no|m=yes	22	punct
+24	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	22	punct
 25	sino	sino	cc	cc	rep=no|t=no|r=yes|m=yes	10	coord_fixed
 26	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	27	det
 27	mezcla	mezcla	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	22	dep
@@ -58,9 +58,9 @@
 9	,	,	fc	fc	rep=no|t=yes|r=no|m=yes	2	punct
 10	calificó	calificar	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	17	coord
 11	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepv
-12	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	13	punct
+12	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	13	punct
 13	mentira	mentira	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	11	pobj
-14	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	13	punct
+14	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	13	punct
 15	dicha	dicho	aq0fsp	aq0fsp	rep=no|t=no|r=yes|m=yes	16	amod
 16	información	información	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	10	dobj
 17	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root

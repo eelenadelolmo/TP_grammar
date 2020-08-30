@@ -184,7 +184,7 @@
 26	convocado	convocado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	attr
 27	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	25	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	7	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	coord_fixed
 2	lo	el	da0ns0	da0ns0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	det
 3	restante	restante	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	nsubj
 4	del	del	spcms	spcms	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	prepn
@@ -287,7 +287,7 @@
 16	hecho	hacer	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	vobj
 17	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	11	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 2	ahí	ahí	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	3	advmod
 3	está	estar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 4	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	det
@@ -384,7 +384,7 @@
 15	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=no	13	punct
 16	añadido	añadido	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=no|main=no	13	amod
 17	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=no	10	punct
-18	;	;	fx	fx	recursive=no|rep=no|theme=no|rheme=no|main=no	38	punct
+18	;	;	fx	fx	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	punct
 19	cuando	cuando	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	51	advcl
 20	se	se	p0000000	p0000000	recursive=no|rep=no|theme=no|rheme=no|main=no	21	reflec
 21	cambia	cambiar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	19	cobj
@@ -403,8 +403,8 @@
 34	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=no	25	dep
 35	tercer	tercero	ao0ms0	ao0ms0	recursive=no|rep=no|theme=no|rheme=no|main=no	36	amod
 36	extranjero	extranjero	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	34	pobj
-37	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	38	punct
-38	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	51	coord_fixed
+37	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	punct
+38	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	51	coord_fixed
 39	cuando	cuando	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	51	advcl
 40	se	se	p0000000	p0000000	recursive=no|rep=no|theme=no|rheme=no|main=no	41	reflec
 41	pasa	pasar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	39	cobj
@@ -449,7 +449,7 @@
 1	Aíto	Aíto	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	nsubj
 2	García	García	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	1	appos
 3	Reneses	Reneses	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	appos
-4	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	7	coord_fixed
+4	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	coord_fixed
 5	Clifford	Clifford	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	nsubj
 6	Luyk	Luyk	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	appos
 7	sabían	saber	vmii3p0	vmii3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root

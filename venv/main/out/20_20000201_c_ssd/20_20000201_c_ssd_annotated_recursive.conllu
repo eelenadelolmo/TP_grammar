@@ -6,13 +6,13 @@
 6	piden	pedir	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	0	root
 7	medios	medio	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	6	dobj
 8	coercitivos	coercitivo	aq0mp0	aq0mp0	rep=no|t=no|r=yes|m=yes	7	amod
-9	-	-	fg	fg	rep=no|t=no|r=no|m=yes	11	punct
-10	-	-	fg	fg	rep=no|t=no|r=no|m=yes	11	punct
+9	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	11	punct
+10	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	11	punct
 11	como	como	cs	cs	rep=no|t=no|r=yes|m=yes	7	dep
 12	esprays	espray	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	11	cobj
 13	paralizantes	paralizante	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	12	amod
-14	-	-	fg	fg	rep=no|t=no|r=no|m=yes	11	punct
-15	-	-	fg	fg	rep=no|t=no|r=no|m=yes	11	punct
+14	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	11	punct
+15	-	-	fg	fg	rep=no|t=no|r=yes|m=yes	11	punct
 16	para	para	sps00	sps00	rep=no|t=no|r=no|m=no	6	prepv
 17	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=no|m=no	18	poss
 18	función	función	ncfs000	ncfs000	rep=no|t=no|r=no|m=no	16	pobj
@@ -40,7 +40,7 @@
 8	partes	parte	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	6	pobj
 9	.	.	fp	fp	rep=no|t=no|r=no|m=no	2	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	2	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	2	coord_fixed
 2	debe	deber	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	0	root
 3	resaltarse	resaltar	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	2	dobj
 4	que	que	cs	cs	rep=no|t=no|r=no|m=yes	2	csubj
@@ -52,7 +52,7 @@
 10	tiene	tener	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	4	cobj
 11	dos	dos	dn0cp0	dn0cp0	rep=no|t=no|r=yes|m=yes	12	det
 12	planos	plano	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	10	dobj
-13	:	:	fd	fd	rep=no|t=no|r=no|m=yes	23	punct
+13	:	:	fd	fd	rep=no|t=no|r=yes|m=yes	23	punct
 14	impedir	impedir	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	19	attr
 15	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	14	dobj
 16	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	17	det
@@ -61,7 +61,7 @@
 19	es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=yes|m=yes	12	dep
 20	estrictamente	estrictamente	rg	rg	rep=no|t=no|r=yes|m=yes	21	advmod
 21	policial	policial	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	19	attr
-22	,	,	fc	fc	rep=no|t=no|r=no|m=yes	23	punct
+22	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	23	punct
 23	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	12	coord_fixed
 24	garantizar	garantizar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	28	dobj
 25	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	26	det
@@ -73,7 +73,7 @@
 31	civiles	civil	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	30	amod
 32	.	.	fp	fp	rep=no|t=no|r=no|m=no	2	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	6	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	6	coord_fixed
 2	esos	ese	dd0mp0	dd0mp0	rep=no|t=yes|r=no|m=yes	4	det
 3	dos	dos	dn0cp0	dn0cp0	rep=no|t=yes|r=no|m=yes	4	det
 4	planos	plano	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	6	nsubj

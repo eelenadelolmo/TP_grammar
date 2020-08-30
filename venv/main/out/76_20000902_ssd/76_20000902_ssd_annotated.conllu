@@ -81,14 +81,14 @@
 9	Gobierno	Gobierno	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	pobj
 10	explicó	explicar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	0	root
 11	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	10	dobj
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
 13	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	prepv
 14	garantizar	garantizar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
 15	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	det
 16	crecimiento	crecimiento	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	dobj
 17	económico	económico	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	amod
-18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
-19	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
+19	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	punct
 20	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	neg
 21	se	se	p0000000	p0000000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	reflec
 22	puede	poder	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	cobj
@@ -101,7 +101,7 @@
 29	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	prepn
 30	equilibrio	equilibrio	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	pobj
 31	presupuestario	presupuestario	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	amod
-32	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	punct
+32	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	punct
 33	previsto	previsto	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	amod
 34	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	prepa
 35	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	det
@@ -149,7 +149,7 @@
 18	barril	barril	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	17	pobj
 19	suba	subir	vmsp3s0	vmsp3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	cobj
 20	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	punct
-21	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	28	coord_fixed
+21	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	coord_fixed
 22	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	dobj
 23	lo	el	da0ns0	da0ns0	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	det
 24	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	dobj
@@ -163,10 +163,10 @@
 2	insistió	insistir	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	coord
 3	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	2	oobj
 4	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	pobj
-5	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+5	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 6	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	prepv
 7	España	España	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	pobj
-8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 9	hay	haber	vaip3s0	vaip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	cobj
 10	precios	precio	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	cobj
 11	menores	menor	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	amod
@@ -175,7 +175,7 @@
 14	fiscalidad	fiscalidad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	cobj
 15	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	advmod
 16	baja	bajo	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	amod
-17	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+17	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 18	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 19	dijo	decir	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	coord
 20	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	dobj
@@ -189,12 +189,12 @@
 28	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	det
 29	demás	demás	di0cp0	di0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	det
 30	países	país	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	pobj
-31	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	punct
+31	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	punct
 32	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	neg
 33	así	así	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	advmod
 34	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	cobj
 35	porcentaje	porcentaje	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	pobj
-36	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	punct
+36	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	punct
 37	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	18	punct
 
 1	El	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
@@ -208,7 +208,7 @@
 9	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	det
 10	economía	economía	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
 11	española	español	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	amod
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	punct
 13	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	prepn
 14	especial	especial	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	amod
 15	referencia	referencia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
@@ -257,7 +257,7 @@
 8	aprobadas	aprobada	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	amod
 9	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	prepa
 10	Junio	Junio	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	pobj
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	19	punct
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	punct
 12	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	oobj
 13	equilibrio	equilibrio	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	pobj
 14	presupuestario	presupuestario	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	amod
@@ -265,7 +265,7 @@
 16	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	prepa
 17	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	det
 18	2001	2001	z	z	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	pobj
-19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+19	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 20	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	oobj
 21	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	det
 22	ley	ley	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	pobj
@@ -358,7 +358,7 @@
 10	manifestó	manifestar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	0	root
 11	ayer	ayer	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	10	advmod
 12	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	10	dobj
-13	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+13	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
 14	actuar	actuar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	cobj
 15	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	prepv
 16	rebajar	rebajar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
@@ -379,7 +379,7 @@
 31	cero	cero	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	num
 32	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	prepn
 33	Gobierno	Gobierno	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	pobj
-34	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+34	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
 35	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	10	punct
 
 1	No	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	neg
@@ -421,7 +421,7 @@
 7	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	prepn
 8	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	det
 9	carburantes	carburante	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	pobj
-10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	34	coord_fixed
+10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	coord_fixed
 11	dijo	decir	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	cobj
 12	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	dobj
 13	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
@@ -538,7 +538,7 @@
 19	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	prepv
 20	este	este	dd0ms0	dd0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	det
 21	asunto	asunto	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
-22	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
+22	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	punct
 23	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 
 1	El	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
@@ -566,14 +566,14 @@
 23	sectores	sector	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	pobj
 24	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	advmod
 25	desfavorecidos	desfavorecido	aq0mpp	aq0mpp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	amod
-26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 27	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	dep
 28	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	det
 29	pesquero	pesquero	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	cobj
 30	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	coord_fixed
 31	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	det
 32	agrario	agrario	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	cobj
-33	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+33	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
 34	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	coord_fixed
 35	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	neg
 36	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	prep

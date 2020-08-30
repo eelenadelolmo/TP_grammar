@@ -145,7 +145,7 @@
 1	Mi	mi	dp1css	dp1css	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	poss
 2	familia	familia	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	nsubj
 3	tenía	tener	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	cobj
-4	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	punct
+4	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	punct
 5	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 6	ahora	ahora	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	advmod
 7	ya	ya	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	advmod
@@ -213,7 +213,7 @@
 14	una	uno	dn0fs0	dn0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	det
 15	jornada	jornada	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
 16	cumbre	cumbre	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	appos
-17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
+17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	punct
 18	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	prepn
 19	aquel	aquel	dd0ms0	dd0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	det
 20	día	día	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
@@ -323,7 +323,7 @@
 12	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
 13	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	det
 14	hombre	hombre	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	punct
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	punct
 16	si	si	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	cobj
 17	usted	tú	pp2cs00p	pp2cs00p	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	nsubj
 18	supiera	saber	vmsi3s0	vmsi3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	cobj
@@ -343,7 +343,7 @@
 5	señora	señora	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 6	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	5	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	10	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	coord_fixed
 2	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	prepv
 3	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	det
 4	casa	casa	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	pobj
@@ -388,9 +388,9 @@
 8	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	oobj
 9	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	det
 10	café	café	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
-11	;	;	fx	fx	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	punct
-12	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	punct
-13	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	38	coord_fixed
+11	;	;	fx	fx	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	punct
+12	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	punct
+13	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	coord_fixed
 14	aunque	aunque	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	advcl
 15	estaba	estar	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	cobj
 16	turbada	turbado	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	attr
@@ -438,10 +438,10 @@
 8	extrajo	extraer	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 9	conclusiones	conclusión	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dobj
 10	importantes	importante	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	amod
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	punct
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	punct
 12	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	cobj
 13	saber	saber	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
-14	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	punct
+14	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	punct
 15	Que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	prepn
 16	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	iobj
 17	Rafael	Rafael	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	pobj

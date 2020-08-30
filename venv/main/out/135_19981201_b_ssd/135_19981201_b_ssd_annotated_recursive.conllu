@@ -17,7 +17,7 @@
 6	Javier	Javier	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	5	pobj
 7	Rebollo	Rebollo	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	6	appos
 8	,	,	fc	fc	rep=no|t=yes|r=no|m=yes	1	punct
-9	y	y	cc	cc	rep=no|t=no|r=no|m=no	21	coord_fixed
+9	y	y	cc	cc	rep=no|t=no|r=no|m=yes	21	coord_fixed
 10	Pasternak	Pasternak	np00000	np00000	rep=no|t=yes|r=no|m=yes	21	nsubj
 11	,	,	fc	fc	rep=no|t=yes|r=no|m=yes	10	punct
 12	un	uno	di0ms0	di0ms0	rep=no|t=yes|r=no|m=yes	13	det
@@ -66,9 +66,9 @@
 21	Productores	productor	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	20	pobj
 22	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	21	prepn
 23	Films	film	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	22	pobj
-24	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	25	punct
+24	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	25	punct
 25	Fiap	Fiap	np00000	np00000	rep=no|t=no|r=yes|m=yes	16	appos
-26	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	25	punct
+26	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	25	punct
 27	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
 
 1	A	a	sps00	sps00	rep=no|t=no|r=no|m=yes	3	oobj

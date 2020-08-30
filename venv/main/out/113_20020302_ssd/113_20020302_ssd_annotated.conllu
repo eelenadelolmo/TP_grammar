@@ -13,7 +13,7 @@
 13	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	det
 14	ayuda	ayuda	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
 15	indudable	indudable	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	amod
-16	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+16	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 17	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	det
 18	papel	papel	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	appos
 19	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	prepn
@@ -78,7 +78,7 @@
 17	Día	Día	np0000a	np0000a	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	pobj
 18	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	prepn
 19	entrenamiento	entrenamiento	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	pobj
-20	;	;	fx	fx	recursive=no|rep=no|theme=no|rheme=no|main=no	46	punct
+20	;	;	fx	fx	recursive=no|rep=no|theme=no|rheme=no|main=yes	46	punct
 21	Will	Will	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	nsubj
 22	Smith	Smith	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	appos
 23	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
@@ -103,8 +103,8 @@
 42	patriotismo	patriotismo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	41	pobj
 43	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	punct
 44	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	punct
-45	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	46	punct
-46	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	coord_fixed
+45	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	46	punct
+46	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	coord_fixed
 47	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	50	det
 48	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	49	advmod
 49	desconocido	desconocido	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=no|main=yes	50	amod

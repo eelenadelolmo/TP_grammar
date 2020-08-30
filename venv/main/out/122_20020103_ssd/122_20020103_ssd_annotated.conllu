@@ -15,16 +15,16 @@
 
 1	El	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	nsubj
 2	actor	actor	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	nsubj
-3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	5	coord_fixed
+3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	coord_fixed
 4	director	director	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	nsubj
 5	estrena	estrenar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 6	mañana	mañana	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	5	advmod
 7	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	5	prepv
 8	España	España	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=no	7	pobj
-9	'	'	fz	fz	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+9	'	'	fz	fz	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 10	Zoolander	Zoolander	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	dobj
-11	'	'	fz	fz	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+11	'	'	fz	fz	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 13	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	det
 14	parodia	parodia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	appos
 15	sobre	sobre	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	prepn
@@ -84,7 +84,7 @@
 27	atentados	atentado	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	pobj
 28	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	17	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	2	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	coord_fixed
 2	había	haber	vaii3s0	vaii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 3	algo	algo	pi0cs000	pi0cs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	dobj
 4	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	nsubj
@@ -177,13 +177,13 @@
 5	EEUU	EEUU	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	pobj
 6	dos	dos	dn0cp0	dn0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	det
 7	semanas	semana	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dep
-8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 9	media	medio	pn0fs000	pn0fs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dep
-10	después	después	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	8	advmod
-11	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=no	10	prep
-12	11	11	zp	zp	recursive=no|rep=no|theme=no|rheme=no|main=no	11	pobj
-13	de	de	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=no	12	prep
-14	septiembre	septiembre	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	13	pobj
+10	después	después	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	advmod
+11	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	prep
+12	11	11	zp	zp	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	pobj
+13	de	de	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	prep
+14	septiembre	septiembre	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	pobj
 15	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
 1	El	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	2	det
@@ -355,9 +355,9 @@
 4	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 5	neoyorquino	neoyorquino	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	attr
 6	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
-7	¿	¿	fia	fia	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+7	¿	¿	fia	fia	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 8	verdad	verdad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	dep
-9	?	?	fit	fit	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+9	?	?	fit	fit	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 10	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 11	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 12	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
@@ -515,7 +515,7 @@
 20	iban	ir	vmii3p0	vmii3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	coord
 21	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	prepv
 22	ir	ir	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	pobj
-23	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	punct
+23	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	punct
 24	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	advcl
 25	modo	modo	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
 26	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	nsubj
@@ -575,7 +575,7 @@
 29	atrás	atrás	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	advmod
 30	alguna	alguno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	det
 31	vez	vez	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	tmod
-32	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	22	coord_fixed
+32	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	coord_fixed
 33	burlarse	burlar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	csubj
 34	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	oobj
 35	todo	todo	pi0ms000	pi0ms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	pobj
@@ -722,7 +722,7 @@
 5	aparecen	aparecer	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 6	sus	su	dp3cp0	dp3cp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	poss
 7	padres	padre	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	nsubj
-8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	5	coord_fixed
+8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	coord_fixed
 9	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	poss
 10	esposa	esposa	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	nsubj
 11	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	5	punct

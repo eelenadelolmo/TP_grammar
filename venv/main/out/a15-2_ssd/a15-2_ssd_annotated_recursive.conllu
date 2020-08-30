@@ -19,7 +19,7 @@
 6	galaxia	galaxia	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	4	pobj
 7	?	?	fit	fit	rep=no|t=no|r=no|m=no	2	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	2	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	2	coord_fixed
 2	ovnis	ovni	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	0	root
 3	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	2	prepn
 4	Barbastro	Barbastro	np0000l	np0000l	rep=no|t=no|r=no|m=yes	3	pobj
@@ -63,25 +63,25 @@
 4	lo	él	pp3msa00	pp3msa00	rep=no|t=no|r=yes|m=yes	5	dobj
 5	explicaba	explicar	vmii3s0	vmii3s0	rep=no|t=no|r=yes|m=yes	0	root
 6	así	así	rg	rg	rep=no|t=no|r=no|m=no	5	advmod
-7	:	:	fd	fd	rep=no|t=no|r=no|m=no	22	punct
-8	-	-	fg	fg	rep=no|t=no|r=no|m=no	22	punct
+7	:	:	fd	fd	rep=no|t=no|r=no|m=yes	22	punct
+8	-	-	fg	fg	rep=no|t=no|r=no|m=yes	22	punct
 9	Creerselo	creer	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	11	dobj
 10	todo	todo	pi0ms000	pi0ms000	rep=no|t=no|r=yes|m=yes	9	dobj
 11	requiere	requerir	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	5	cobj
 12	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	13	det
 13	aplicación	aplicación	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	11	dobj
 14	constante	constante	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	13	amod
-15	,	,	fc	fc	rep=no|t=no|r=no|m=yes	16	punct
+15	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	16	punct
 16	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	11	coord_fixed
 17	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	18	det
 18	especie	especie	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	11	dobj
 19	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	18	prepn
 20	genio	genio	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	19	pobj
-21	,	,	fc	fc	rep=no|t=no|r=no|m=no	22	punct
-22	y	y	cc	cc	rep=no|t=no|r=no|m=no	5	coord_fixed
+21	,	,	fc	fc	rep=no|t=no|r=no|m=yes	22	punct
+22	y	y	cc	cc	rep=no|t=no|r=no|m=yes	5	coord_fixed
 23	creérselo	creer	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	33	attr
 24	todo	todo	pi0ms000	pi0ms000	rep=no|t=no|r=yes|m=yes	23	dobj
-25	...	...	fs	fs	rep=no|t=no|r=no|m=yes	23	punct
+25	...	...	fs	fs	rep=no|t=no|r=yes|m=yes	23	punct
 26	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	33	advcl
 27	medida	medida	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	26	pobj
 28	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=yes|m=yes	27	nsubj
@@ -94,7 +94,7 @@
 35	vez	vez	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	33	attr
 36	más	más	rg	rg	rep=no|t=no|r=yes|m=yes	37	advmod
 37	difícil	difícil	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	35	amod
-38	-	-	fg	fg	rep=no|t=no|r=no|m=no	22	punct
+38	-	-	fg	fg	rep=no|t=no|r=no|m=yes	22	punct
 39	.	.	fp	fp	rep=no|t=no|r=no|m=no	5	punct
 
 1	El	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	3	det
@@ -207,19 +207,19 @@
 12	modelos	modelo	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	10	pobj
 13	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	9	prepv
 14	palabras	palabra	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	13	pobj
-15	:	:	fd	fd	rep=no|t=no|r=no|m=yes	26	punct
+15	:	:	fd	fd	rep=no|t=no|r=yes|m=yes	26	punct
 16	Escort	Escort	np0000a	np0000a	rep=no|t=no|r=yes|m=yes	14	appos
-17	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+17	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 18	Cortina	Cortina	np0000a	np0000a	rep=no|t=no|r=yes|m=yes	14	appos
-19	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+19	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 20	Sierra	Sierra	np0000a	np0000a	rep=no|t=no|r=yes|m=yes	14	appos
-21	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+21	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 22	Granada	Granada	np0000a	np0000a	rep=no|t=no|r=yes|m=yes	14	appos
-23	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+23	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 24	Scorpio	Scorpio	np0000a	np0000a	rep=no|t=no|r=yes|m=yes	14	appos
-25	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+25	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 26	Orion	Orion	np0000a	np0000a	rep=no|t=no|r=yes|m=yes	14	appos
-27	...	...	fs	fs	rep=no|t=no|r=no|m=yes	26	punct
+27	...	...	fs	fs	rep=no|t=no|r=yes|m=yes	26	punct
 28	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	35	iobj
 29	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	30	det
 30	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=yes|m=yes	28	pobj
@@ -245,7 +245,7 @@
 11	Mondeo	Mondeo	np0000l	np0000l	rep=no|t=no|r=no|m=yes	10	appos
 12	.	.	fp	fp	rep=no|t=no|r=no|m=no	2	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 2	-	-	fg	fg	rep=no|t=no|r=no|m=no	4	punct
 3	qué	qué	pt0cs000	pt0cs000	rep=no|t=no|r=no|m=yes	4	dobj
 4	significa	significar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	0	root
@@ -266,9 +266,9 @@
 1	Escort	Escort	np0000a	np0000a	rep=no|t=yes|r=no|m=yes	2	nsubj
 2	significa	significar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	0	root
 3	escolta	escolta	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	2	dobj
-4	,	,	fc	fc	rep=no|t=no|r=no|m=yes	7	punct
+4	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	7	punct
 5	compañía	compañía	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	2	dobj
-6	,	,	fc	fc	rep=no|t=no|r=no|m=yes	7	punct
+6	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	7	punct
 7	acompañante	acompañante	nccs000	nccs000	rep=no|t=no|r=yes|m=yes	2	dobj
 8	.	.	fp	fp	rep=no|t=no|r=no|m=no	2	punct
 

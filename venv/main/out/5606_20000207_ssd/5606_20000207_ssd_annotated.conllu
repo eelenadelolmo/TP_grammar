@@ -35,7 +35,7 @@
 35	mediante	mediante	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	prepv
 36	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	det
 37	arbitraje	arbitraje	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	pobj
-38	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	punct
+38	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	punct
 39	informó	informar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	54	dobj
 40	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=no	41	det
 41	empresa	empresa	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	39	nsubj
@@ -315,7 +315,7 @@
 12	Tele	Tele	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	20	nsubj
 13	Centro	centro	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	12	appos
 14	Sul	Sul	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	13	appos
-15	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	20	coord_fixed
+15	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	coord_fixed
 16	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	18	det
 17	demás	demás	pi0cp000	pi0cp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	16	dep
 18	accionistas	accionista	nccp000	nccp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	20	nsubj
@@ -430,10 +430,10 @@
 12	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	det
 13	arbitraje	arbitraje	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	dobj
 14	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	20	nsubj
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	punct
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	punct
 16	según	según	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	advcl
 17	Neves	Neves	np00000	np00000	recursive=yes|rep=yes|theme=no|rheme=no|main=yes	16	pobj
-18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	punct
+18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	punct
 19	probablemente	probablemente	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	advmod
 20	estará	estar	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	rcmod
 21	formado	formado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	attr

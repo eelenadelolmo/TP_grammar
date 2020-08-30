@@ -7,7 +7,7 @@
 7	directores	director	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	5	pobj
 8	.	.	fp	fp	rep=no|t=no|r=no|m=no	2	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	19	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	19	coord_fixed
 2	cuando	cuando	cs	cs	rep=no|t=no|r=no|m=no	19	advcl
 3	a	a	sps00	sps00	rep=no|t=no|r=no|m=no	6	prepv
 4	veces	vez	ncfp000	ncfp000	rep=no|t=no|r=no|m=no	3	pobj
@@ -81,7 +81,7 @@
 9	generaciones	generación	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	6	pobj
 10	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 2	nosotros	yo	pp1mp000	pp1mp000	rep=no|t=yes|r=no|m=yes	3	nsubj
 3	llevaremos	llevar	vmif1p0	vmif1p0	rep=no|t=no|r=yes|m=yes	0	root
 4	siempre	siempre	rg	rg	rep=no|t=no|r=no|m=no	3	advmod

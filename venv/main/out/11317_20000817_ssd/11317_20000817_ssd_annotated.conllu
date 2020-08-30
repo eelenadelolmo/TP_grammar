@@ -12,10 +12,10 @@
 12	Concesionario	Concesionario	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	appos
 13	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
 14	Oeste	oeste	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
-15	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+15	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 16	CGO	CGO	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	appos
-17	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
-18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+17	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
+18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 19	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	nsubj
 20	explota	explotar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	rcmod
 21	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	det
@@ -196,14 +196,14 @@
 17	acciones	acción	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	pobj
 18	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	prepn
 19	ACESA	ACESA	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
-20	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
-22	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+20	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
+22	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 23	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	prepv
 24	través	través	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	pobj
 25	del	del	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	prepn
 26	cual	cual	pi0cs000	pi0cs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	pobj
-27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+27	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 28	quedará	quedar	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	prepn
 29	fijado	fijado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	cpred
 30	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	det
@@ -212,7 +212,7 @@
 33	final	final	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	amod
 34	por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	prepn
 35	acción	acción	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	pobj
-36	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+36	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 37	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	10	punct
 
 1	Mediante	mediante	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	prepv
@@ -272,11 +272,11 @@
 4	sujeta	sujeto	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	attr
 5	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	oobj
 6	ciertas	cierto	di0fp0	di0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	det
-7	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+7	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 8	condiciones	condición	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	pobj
 9	suspensivas	suspensivo	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	amod
-10	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+10	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 12	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dep
 13	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	det
 14	obtención	obtención	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	cobj
@@ -299,7 +299,7 @@
 31	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	prepn
 32	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	det
 33	competencia	competencia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	pobj
-34	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+34	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 35	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	coord_fixed
 36	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	oobj
 37	otros	otro	di0mp0	di0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	det
@@ -333,7 +333,7 @@
 9	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	prepn
 10	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	det
 11	carretera	carretera	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 13	uno	uno	pi0ms000	pi0ms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	dep
 14	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	prepn
 15	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	det
@@ -384,7 +384,7 @@
 34	Autopista	Autopista	np0000a	np0000a	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	pobj
 35	del	del	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	prepn
 36	Oeste	oeste	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	pobj
-37	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	punct
+37	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	punct
 38	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	det
 39	carretera	carretera	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	appos
 40	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	prepn

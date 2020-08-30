@@ -13,12 +13,12 @@
 6	mujeres	mujer	ncfp000	ncfp000	rep=no|t=yes|r=no|m=yes	7	nsubj
 7	fueron	ser	vsis3p0	vsis3p0	rep=no|t=no|r=yes|m=yes	15	coord
 8	agredidas	agredir	vmp00pf	vmp00pf	rep=no|t=no|r=yes|m=yes	7	attr
-9	,	,	fc	fc	rep=no|t=no|r=no|m=yes	7	punct
+9	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	7	punct
 10	una	uno	pi0fs000	pi0fs000	rep=no|t=no|r=yes|m=yes	8	dep
 11	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepn
 12	ellas	él	pp3fp000	pp3fp000	rep=no|t=no|r=yes|m=yes	11	pobj
 13	mortalmente	mortalmente	rg	rg	rep=no|t=no|r=yes|m=yes	10	advmod
-14	,	,	fc	fc	rep=no|t=no|r=no|m=yes	7	punct
+14	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	7	punct
 15	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 16	dos	dos	dn0cp0	dn0cp0	rep=no|t=no|r=no|m=yes	17	det
 17	niños	niño	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	22	dobj
@@ -107,10 +107,10 @@
 14	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	13	prepn
 15	2001	2001	z	z	rep=no|t=no|r=yes|m=yes	14	pobj
 16	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	10	oobj
-17	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	19	punct
+17	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	19	punct
 18	difícil	difícil	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	19	amod
 19	control	control	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	16	pobj
-20	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	19	punct
+20	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	19	punct
 21	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	19	prepn
 22	acatamiento	acatamiento	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	21	pobj
 23	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	22	prepn
@@ -172,7 +172,7 @@
 8	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	7	prepn
 9	faltas	falta	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	8	pobj
 10	absolutorias	absolutorio	aq0fp0	aq0fp0	rep=no|t=no|r=no|m=yes	7	amod
-11	y	y	cc	cc	rep=no|t=no|r=no|m=no	5	coord_fixed
+11	y	y	cc	cc	rep=no|t=no|r=no|m=yes	5	coord_fixed
 12	56	56	z	z	rep=no|t=no|r=no|m=yes	5	nsubj
 13	condenatorias	condenatorio	aq0fp0	aq0fp0	rep=no|t=no|r=no|m=yes	12	amod
 14	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	16	punct
@@ -184,7 +184,7 @@
 20	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	19	prepv
 21	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	22	det
 22	víctima	víctima	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	20	pobj
-23	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	16	punct
+23	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	16	punct
 24	.	.	fp	fp	rep=no|t=no|r=no|m=no	5	punct
 
 1	Los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	2	det
@@ -204,10 +204,10 @@
 15	sola	solo	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	16	amod
 16	sentencia	sentencia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	3	dobj
 17	absolutoria	absolutorio	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	16	amod
-18	y	y	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+18	y	y	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 19	18	18	z	z	rep=no|t=no|r=yes|m=yes	3	dobj
 20	condenatorias	condenatorio	aq0fp0	aq0fp0	rep=no|t=no|r=yes|m=yes	19	amod
-21	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	25	punct
+21	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	25	punct
 22	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	25	prepv
 23	12	12	z	z	rep=no|t=no|r=yes|m=yes	22	pobj
 24	se	se	p0000000	p0000000	rep=no|t=no|r=yes|m=yes	25	reflec
@@ -216,7 +216,7 @@
 27	pena	pena	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	25	nsubj
 28	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	27	prepn
 29	alejamiento	alejamiento	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	28	pobj
-30	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	25	punct
+30	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	25	punct
 31	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
 
 1	Los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	2	det
@@ -235,7 +235,7 @@
 14	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	13	dep
 15	mayor	mayor	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	16	amod
 16	asiduidad	asiduidad	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	14	pobj
-17	y	y	cc	cc	rep=no|t=no|r=no|m=no	13	coord_fixed
+17	y	y	cc	cc	rep=no|t=no|r=no|m=yes	13	coord_fixed
 18	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	13	dep
 19	forma	forma	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	18	pobj
 20	cautelar	cautelar	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	19	amod
@@ -435,7 +435,7 @@
 
 1	Los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	2	det
 2	fiscales	fiscal	nccp000	nccp000	rep=no|t=yes|r=no|m=yes	6	nsubj
-3	y	y	cc	cc	rep=no|t=no|r=no|m=no	6	coord_fixed
+3	y	y	cc	cc	rep=no|t=no|r=no|m=yes	6	coord_fixed
 4	los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	5	det
 5	jueces	juez	nccp000	nccp000	rep=no|t=yes|r=no|m=yes	6	nsubj
 6	aplican	aplicar	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	0	root

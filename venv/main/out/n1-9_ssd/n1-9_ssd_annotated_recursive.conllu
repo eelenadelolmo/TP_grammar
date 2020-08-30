@@ -116,11 +116,11 @@
 
 1	Al	al	sps00	sps00	rep=no|t=no|r=no|m=no	12	advcl
 2	igual	igual	rg	rg	rep=no|t=no|r=no|m=no	1	advmod
-3	que	que	cc	cc	rep=no|t=no|r=no|m=no	12	coord_fixed
-4	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=no|m=no	5	poss
-5	colega	colega	nccs000	nccs000	rep=no|t=no|r=no|m=no	3	cobj
-6	de	de	sps00	sps00	rep=no|t=no|r=no|m=no	5	prepn
-7	Leipzig	Leipzig	np0000l	np0000l	rep=no|t=no|r=no|m=no	6	pobj
+3	que	que	cc	cc	rep=no|t=no|r=no|m=yes	12	coord_fixed
+4	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=no|m=yes	5	poss
+5	colega	colega	nccs000	nccs000	rep=no|t=no|r=no|m=yes	3	cobj
+6	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	5	prepn
+7	Leipzig	Leipzig	np0000l	np0000l	rep=no|t=no|r=no|m=yes	6	pobj
 8	,	,	fc	fc	rep=no|t=no|r=no|m=no	12	punct
 9	Rainer	Rainer	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	12	nsubj
 10	Hanesch	Hanesch	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	9	appos
@@ -134,7 +134,7 @@
 18	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	17	prepn
 19	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	20	poss
 20	empresa	empresa	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	18	pobj
-21	,	,	fc	fc	rep=no|t=no|r=no|m=yes	20	punct
+21	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	20	punct
 22	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	23	det
 23	inmobiliaria	inmobiliaria	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	20	appos
 24	.	.	fp	fp	rep=no|t=no|r=no|m=no	12	punct
@@ -235,10 +235,10 @@
 14	:	:	fd	fd	rep=no|t=no|r=no|m=no	3	punct
 15	da	dar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	3	cobj
 16	igual	igual	rg	rg	rep=no|t=no|r=yes|m=yes	15	advmod
-17	lo	el	da0ns0	da0ns0	rep=no|t=no|r=no|m=no	18	det
-18	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=no	19	dobj
-19	hicieran	hacer	vmsi3p0	vmsi3p0	rep=no|t=no|r=no|m=no	20	rcmod
-20	o	o	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+17	lo	el	da0ns0	da0ns0	rep=no|t=no|r=no|m=yes	18	det
+18	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	19	dobj
+19	hicieran	hacer	vmsi3p0	vmsi3p0	rep=no|t=no|r=no|m=yes	20	rcmod
+20	o	o	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 21	lo	el	da0ns0	da0ns0	rep=no|t=no|r=yes|m=yes	22	det
 22	duro	duro	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	3	nsubj
 23	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	24	dobj

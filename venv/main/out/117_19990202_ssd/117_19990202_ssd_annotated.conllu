@@ -39,11 +39,11 @@
 8	deje	dejar	vmsp3s0	vmsp3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	cobj
 9	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	prepv
 10	hablarse	hablar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dobj
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 12	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	prepv
 13	forma	forma	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
 14	definitiva	definitivo	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	amod
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 16	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	oobj
 17	Barça	Barça	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	pobj
 18	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	coord_fixed
@@ -237,7 +237,7 @@
 16	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	prepn
 17	Andre	Andre	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	pobj
 18	Turner	Turner	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	appos
-19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 20	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	advcl
 21	había	haber	vaii3s0	vaii3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	cobj
 22	demostrado	demostrar	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	vobj
@@ -249,7 +249,7 @@
 28	Barcelona	Barcelona	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	pobj
 29	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	1	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	5	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	coord_fixed
 2	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	det
 3	Tau	Tau	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	nsubj
 4	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	neg
@@ -368,7 +368,7 @@
 15	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	det
 16	juguete	juguete	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	cobj
 17	roto	roto	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	amod
-18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	punct
+18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	punct
 19	sin	sin	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	prepv
 20	capacidad	capacidad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
 21	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	prepn
@@ -424,7 +424,7 @@
 9	remontada	remontado	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	pobj
 10	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	5	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	11	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	coord_fixed
 2	lo	el	da0ns0	da0ns0	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	det
 3	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	dobj
 4	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	neg

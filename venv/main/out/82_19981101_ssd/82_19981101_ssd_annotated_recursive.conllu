@@ -37,7 +37,7 @@
 5	año	año	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	3	dobj
 6	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	5	prepn
 7	prisión	prisión	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	6	pobj
-8	y	y	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+8	y	y	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 9	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	10	det
 10	indemnización	indemnización	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	3	dobj
 11	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepn
@@ -116,7 +116,7 @@
 9	años	año	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	4	dobj
 10	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	9	prepn
 11	prisión	prisión	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	10	pobj
-12	y	y	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+12	y	y	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 13	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	14	det
 14	indemnización	indemnización	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	4	dobj
 15	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	prepn
@@ -148,7 +148,7 @@
 20	Roger	Roger	np0000a	np0000a	rep=no|t=no|r=yes|m=yes	19	pobj
 21	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	20	prepn
 22	Flor	flor	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	21	pobj
-23	,	,	fc	fc	rep=no|t=no|r=no|m=yes	29	punct
+23	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	29	punct
 24	tras	tras	sps00	sps00	rep=no|t=no|r=yes|m=yes	29	prepv
 25	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	26	det
 26	cuales	cual	pr0cp000	pr0cp000	rep=no|t=no|r=yes|m=yes	24	pobj
@@ -157,18 +157,18 @@
 29	avisó	avisar	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	9	cobj
 30	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	29	oobj
 31	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	36	det
-32	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	36	punct
+32	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	36	punct
 33	urgente	urgente	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	36	dep
 34	e	e	cc	cc	rep=no|t=no|r=yes|m=yes	36	coord_fixed
 35	imperiosa	imperioso	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	36	dep
 36	necesidad	necesidad	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	30	pobj
-37	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	36	punct
+37	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	36	punct
 38	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	36	prepn
 39	realizar	realizar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	38	pobj
 40	obras	obra	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	39	dobj
 41	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	40	prepn
 42	reparación	reparación	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	41	pobj
-43	,	,	fc	fc	rep=no|t=no|r=no|m=yes	40	punct
+43	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	40	punct
 44	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	51	dobj
 45	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	46	det
 46	empresa	empresa	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	51	nsubj
@@ -220,7 +220,7 @@
 13	reparar	reparar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	12	pobj
 14	este	este	dd0ms0	dd0ms0	rep=no|t=no|r=yes|m=yes	15	det
 15	balcón	balcón	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	13	dobj
-16	,	,	fc	fc	rep=no|t=no|r=no|m=yes	7	punct
+16	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	7	punct
 17	pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 18	éste	este	pd0ms000	pd0ms000	rep=no|t=no|r=no|m=yes	19	nsubj
 19	cometió	cometer	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	17	cobj
@@ -238,7 +238,7 @@
 31	y	y	cc	cc	rep=no|t=no|r=no|m=yes	29	coord_fixed
 32	previsión	previsión	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	29	pobj
 33	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	22	punct
-34	y	y	cc	cc	rep=no|t=no|r=no|m=no	17	coord_fixed
+34	y	y	cc	cc	rep=no|t=no|r=no|m=yes	17	coord_fixed
 35	no	no	rn	rn	rep=no|t=no|r=no|m=yes	36	neg
 36	ordenó	ordenar	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	44	dep
 37	,	,	fc	fc	rep=no|t=no|r=no|m=yes	42	punct
@@ -360,7 +360,7 @@
 12	febrero	febrero	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	11	pobj
 13	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	12	prepn
 14	1998	1998	z	z	rep=no|t=no|r=yes|m=yes	13	pobj
-15	,	,	fc	fc	rep=no|t=no|r=no|m=yes	10	punct
+15	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	10	punct
 16	cuando	cuando	pr000000	pr000000	rep=no|t=no|r=no|m=yes	31	dobj
 17	un	uno	di0ms0	di0ms0	rep=no|t=no|r=no|m=yes	18	det
 18	cascote	cascote	ncms000	ncms000	rep=no|t=no|r=no|m=yes	31	nsubj

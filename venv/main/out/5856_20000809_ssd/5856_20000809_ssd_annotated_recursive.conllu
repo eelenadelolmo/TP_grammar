@@ -9,12 +9,12 @@
 9	millones	millón	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	7	pobj
 10	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	9	prepn
 11	euros	euro	zm	zm	rep=no|t=no|r=yes|m=yes	10	pobj
-12	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	14	punct
+12	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	14	punct
 13	157.734	157734	z	z	rep=no|t=no|r=yes|m=yes	14	num
 14	millones	millón	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	9	appos
 15	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	prepn
 16	pesetas	peseta	zm	zm	rep=no|t=no|r=yes|m=yes	15	pobj
-17	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	14	punct
+17	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	14	punct
 18	,	,	fc	fc	rep=no|t=no|r=no|m=no	3	punct
 19	aunque	aunque	cs	cs	rep=no|t=no|r=no|m=no	3	advcl
 20	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=no	21	det

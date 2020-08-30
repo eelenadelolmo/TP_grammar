@@ -19,7 +19,7 @@
 9	durante	durante	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	prepv
 10	largos	largo	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	amod
 11	años	año	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	punct
 13	sin	sin	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	prepv
 14	ser	ser	vsn0000	vsn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
 15	advertidos	advertir	vmp00pm	vmp00pm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	attr
@@ -27,7 +27,7 @@
 17	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	det
 18	sistema	sistema	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	pobj
 19	inmunológico	inmunológico	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	amod
-20	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
+20	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	punct
 21	hasta	hasta	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	prepv
 22	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	pobj
 23	llega	llegar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	cobj
@@ -112,22 +112,22 @@
 22	individuos	individuo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	pobj
 23	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 2	esto	este	pd0ns000	pd0ns000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	nsubj
 3	parece	parecer	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 4	cierto	cierto	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	attr
 5	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
-6	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=no	7	neg
-7	sólo	sólo	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	12	advmod
-8	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	12	cobj
-9	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=no	10	det
-10	virus	virus	ncmn000	ncmn000	recursive=no|rep=no|theme=no|rheme=no|main=no	8	pobj
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	12	punct
-12	sino	sino	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
-13	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	8	cobj
-14	otras	otro	di0fp0	di0fp0	recursive=no|rep=no|theme=no|rheme=no|main=no	16	det
-15	muchas	mucho	di0fp0	di0fp0	recursive=no|rep=no|theme=no|rheme=no|main=no	16	det
-16	enfermedades	enfermedad	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=no	13	pobj
+6	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	neg
+7	sólo	sólo	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	advmod
+8	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	cobj
+9	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	det
+10	virus	virus	ncmn000	ncmn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	pobj
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
+12	sino	sino	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
+13	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	cobj
+14	otras	otro	di0fp0	di0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	det
+15	muchas	mucho	di0fp0	di0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	det
+16	enfermedades	enfermedad	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	pobj
 17	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
 1	El	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
@@ -148,7 +148,7 @@
 16	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	crobj
 17	otra	otro	pi0fs000	pi0fs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	cobj
 18	extrovertida	extrovertido	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	amod
-19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+19	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 20	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	cobj
 21	pudieron	poder	vmis3p0	vmis3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	cobj
 22	demostrar	demostrar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	dobj
@@ -243,7 +243,7 @@
 15	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	det
 16	año	año	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	dep
 17	1918	1918	zm	zm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	num
-18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 19	durante	durante	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	prepv
 20	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	det
 21	cual	cual	pr0cs000	pr0cs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj

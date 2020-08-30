@@ -10,12 +10,12 @@
 10	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	iobj
 11	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	det
 12	jóvenes	joven	nccp000	nccp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
-13	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	punct
+13	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	punct
 14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	15	punct
 15	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 16	pocas	poco	di0fp0	di0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	det
 17	sonrisas	sonrisa	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	coord
-18	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	15	coord_fixed
+18	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	coord_fixed
 19	menos	menos	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	advmod
 20	aún	aún	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	advmod
 21	bromas	broma	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	coord
@@ -24,7 +24,7 @@
 1	El	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
 2	frío	frío	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	20	nsubj
 3	ambiental	ambiental	aq0cs0	aq0cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	amod
-4	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	20	coord_fixed
+4	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	coord_fixed
 5	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	det
 6	visita	visita	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	20	nsubj
 7	anterior	anterior	aq0cs0	aq0cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	amod
@@ -164,7 +164,7 @@
 20	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	12	punct
 
 1	Él	él	pp3ms000	pp3ms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	nsubj
-2	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	coord_fixed
+2	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	coord_fixed
 3	toda	todo	di0fs0	di0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	det
 4	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	poss
 5	familia	familia	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	nsubj

@@ -6,7 +6,7 @@
 6	interpreta	interpretar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	0	root
 7	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	6	dobj
 8	Maximus	Maximus	np00000	np00000	rep=no|t=no|r=yes|m=yes	7	pobj
-9	,	,	fc	fc	rep=no|t=no|r=no|m=yes	8	punct
+9	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	8	punct
 10	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	11	det
 11	protagonista	protagonista	nccs000	nccs000	rep=no|t=no|r=yes|m=yes	8	appos
 12	.	.	fp	fp	rep=no|t=no|r=no|m=no	6	punct
@@ -75,7 +75,7 @@
 10	llevaban	llevar	vmii3p0	vmii3p0	rep=no|t=no|r=no|m=yes	6	rcmod
 11	los	el	da0mp0	da0mp0	rep=no|t=no|r=no|m=yes	12	det
 12	romanos	romano	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	10	nsubj
-13	,	,	fc	fc	rep=no|t=no|r=no|m=no	21	punct
+13	,	,	fc	fc	rep=no|t=no|r=no|m=yes	21	punct
 14	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	15	det
 15	grado	grado	ncms000	ncms000	rep=no|t=no|r=no|m=yes	3	nsubj
 16	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	15	prepn
@@ -83,7 +83,7 @@
 18	al	al	spcms	spcms	rep=no|t=no|r=no|m=yes	20	oobj
 19	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	18	pobj
 20	llegaron	llegar	vmis3p0	vmis3p0	rep=no|t=no|r=no|m=yes	15	dep
-21	y	y	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
+21	y	y	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
 22	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	23	det
 23	brutalidad	brutalidad	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	3	nsubj
 24	con	con	sps00	sps00	rep=no|t=no|r=no|m=yes	28	prepv
@@ -119,7 +119,7 @@
 9	cambiado	cambiar	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	8	vobj
 10	demasiado	demasiado	rg	rg	rep=no|t=no|r=yes|m=yes	9	advmod
 11	:	:	fd	fd	rep=no|t=no|r=no|m=no	8	punct
-12	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	22	punct
+12	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	22	punct
 13	Los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	14	det
 14	protagonistas	protagonista	nccp000	nccp000	rep=no|t=no|r=yes|m=yes	18	nsubj
 15	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	prepn
@@ -134,7 +134,7 @@
 24	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	26	det
 25	antiguos	antiguo	aq0mp0	aq0mp0	rep=no|t=no|r=yes|m=yes	26	amod
 26	romanos	romano	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	23	cobj
-27	,	,	fc	fc	rep=no|t=no|r=no|m=yes	32	punct
+27	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	32	punct
 28	también	también	rg	rg	rep=no|t=no|r=yes|m=yes	29	advmod
 29	hoy	hoy	rg	rg	rep=no|t=no|r=yes|m=yes	32	advmod
 30	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	31	det
@@ -149,7 +149,7 @@
 39	guerras	guerra	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	37	pobj
 40	por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	32	prepv
 41	televisión	televisión	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	40	pobj
-42	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	22	punct
+42	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	22	punct
 43	.	.	fp	fp	rep=no|t=no|r=no|m=no	8	punct
 
 1	Había	haber	vaii3s0	vaii3s0	rep=no|t=no|r=no|m=yes	21	dobj
@@ -163,7 +163,7 @@
 9	físicos	físico	aq0mp0	aq0mp0	rep=no|t=no|r=yes|m=yes	8	amod
 10	,	,	fc	fc	rep=no|t=no|r=no|m=yes	1	punct
 11	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	14	punct
-12	pero	pero	cc	cc	rep=no|t=no|r=no|m=no	21	coord_fixed
+12	pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	21	coord_fixed
 13	Gladiator	Gladiator	np00000	np00000	rep=no|t=no|r=no|m=yes	14	nsubj
 14	va	ir	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	21	dobj
 15	más	más	rg	rg	rep=no|t=no|r=no|m=yes	16	advmod
@@ -217,14 +217,14 @@
 6	,	,	fc	fc	rep=no|t=yes|r=no|m=yes	3	punct
 7	Maximus	Maximus	np00000	np00000	rep=no|t=yes|r=no|m=yes	3	appos
 8	,	,	fc	fc	rep=no|t=yes|r=no|m=yes	3	punct
-9	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	10	punct
+9	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	10	punct
 10	parece	parecer	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	18	dobj
 11	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	13	det
 12	bruto	bruto	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	13	amod
 13	jugador	jugador	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	10	dobj
 14	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	13	prepn
 15	rugby	rugby	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	14	pobj
-16	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	10	punct
+16	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	10	punct
 17	,	,	fc	fc	rep=no|t=no|r=no|m=no	18	punct
 18	confiesa	confesar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	0	root
 19	.	.	fp	fp	rep=no|t=no|r=no|m=no	18	punct
@@ -237,11 +237,11 @@
 6	poder	poder	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	10	nsubj
 7	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	6	prepn
 8	convocatoria	convocatoria	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	7	pobj
-9	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	10	punct
+9	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	10	punct
 10	es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=yes|m=yes	2	dep
 11	realmente	realmente	rg	rg	rep=no|t=no|r=yes|m=yes	12	advmod
 12	increíble	increíble	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	10	attr
-13	&quot;	&quot;	ncms000	ncms000	rep=no|t=no|r=no|m=yes	10	punct
+13	&quot;	&quot;	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	10	punct
 14	.	.	fp	fp	rep=no|t=no|r=no|m=no	2	punct
 
 1	Pienso	pensar	vmip1s0	vmip1s0	rep=no|t=no|r=no|m=yes	17	dobj
@@ -268,10 +268,10 @@
 
 1	Crowe	Crowe	np00000	np00000	rep=no|t=yes|r=no|m=yes	2	nsubj
 2	disfruta	disfrutar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	0	root
-3	describiendo	describir	vmg0000	vmg0000	rep=no|t=no|r=no|m=no	6	advcl
-4	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=no|m=no	5	poss
-5	personaje	personaje	ncms000	ncms000	rep=no|t=no|r=no|m=no	6	advcl
-6	y	y	cc	cc	rep=no|t=no|r=no|m=no	2	coord_fixed
+3	describiendo	describir	vmg0000	vmg0000	rep=no|t=no|r=no|m=yes	6	advcl
+4	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=no|m=yes	5	poss
+5	personaje	personaje	ncms000	ncms000	rep=no|t=no|r=no|m=yes	6	advcl
+6	y	y	cc	cc	rep=no|t=no|r=no|m=yes	2	coord_fixed
 7	reflexionando	reflexionar	vmg0000	vmg0000	rep=no|t=no|r=no|m=no	2	advcl
 8	sobre	sobre	sps00	sps00	rep=no|t=no|r=no|m=no	7	oobj
 9	sus	su	dp3cp0	dp3cp0	rep=no|t=no|r=no|m=no	10	poss

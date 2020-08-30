@@ -48,7 +48,7 @@
 2	míticos	mítico	aq0mp0	aq0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
 3	Jacques	Jacques	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
 4	Anquetil	Anquetil	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	appos
-5	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+5	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 6	Eddy	Eddy	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	8	nsubj
 7	Merckx	Merckx	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	appos
 8	ganaron	ganar	vmis3p0	vmis3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
@@ -209,13 +209,13 @@
 4	contentar	contentar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dobj
 5	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dobj
 6	todos	todo	pi0mp000	pi0mp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	pobj
-7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	punct
+7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	punct
 8	incluso	incluso	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	advmod
 9	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	prepv
 10	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	det
 11	familia	familia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
-12	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
-13	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
+12	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	punct
+13	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	punct
 14	Estoy	estar	vmip1s0	vmip1s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	dep
 15	al	al	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	prepv
 16	servicio	servicio	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
@@ -240,7 +240,7 @@
 35	sin	sin	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	dep
 36	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	det
 37	apoyo	apoyo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	pobj
-38	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	41	punct
+38	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	punct
 39	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	det
 40	comprensión	comprensión	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	pobj
 41	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	coord_fixed
@@ -249,7 +249,7 @@
 44	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	pobj
 45	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	46	det
 46	tuyos	tuyo	px2mp000	px2mp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	44	poss
-47	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	48	punct
+47	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	48	punct
 48	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	coord_fixed
 49	sin	sin	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	dep
 50	compartir	compartir	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	49	pobj
@@ -258,7 +258,7 @@
 53	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	51	coord_fixed
 54	también	también	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	55	advmod
 55	malos	malo	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	51	dep
-56	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	punct
+56	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	punct
 57	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
 1	Los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
@@ -266,7 +266,7 @@
 3	impacientes	impaciente	aq0cp0	aq0cp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	amod
 4	hacen	hacer	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 5	cola	cola	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dobj
-6	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=no	16	punct
+6	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
 7	Artur	Artur	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=no	10	nsubj
 8	Mas	mas	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	10	coord_fixed
 9	se	él	p0300000	p0300000	recursive=no|rep=no|theme=no|rheme=no|main=no	10	reflec
@@ -275,8 +275,8 @@
 12	bien	bien	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	13	advmod
 13	situado	situado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=no|main=no	10	cpred
 14	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=no	13	punct
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	16	punct
-16	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+16	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 17	Josep	Josep	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	21	nsubj
 18	Antoni	Antoni	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=no|main=no	17	appos
 19	Duran	Duran	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	17	appos
@@ -292,39 +292,6 @@
 29	posición	posición	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	27	pobj
 30	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=no	26	punct
 31	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
-
-1	El	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
-2	equilibrista	equilibrista	nccs000	nccs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	nsubj
-3	miedoso	miedoso	aq0ms0	aq0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	amod
-4	Josep	Josep	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	appos
-5	Lluís	Lluís	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	appos
-6	Carod-Rovira	Carod-Rovira	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	appos
-7	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
-8	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	det
-9	único	único	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	attr
-10	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	nsubj
-11	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	neg
-12	va	ir	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	rcmod
-13	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	prepv
-14	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	det
-15	actos	acto	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	pobj
-16	oficiales	oficial	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	amod
-17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
-18	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	neg
-19	sea	ser	vsif3s0	vsif3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	advcl
-20	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	attr
-21	alguien	alguien	pi0cs000	pi0cs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	cobj
-22	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	dep
-23	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	24	det
-24	derecha	derecha	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	pobj
-25	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	coord_fixed
-26	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	dep
-27	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	det
-28	izquierda	izquierda	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	pobj
-29	le	él	pp3csd00	pp3csd00	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	iobj
-30	pida	pedir	vmsp3s0	vmsp3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	cobj
-31	gobernar	gobernar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	cobj
-32	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	7	punct
 
 1	El	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
 2	equilibrista	equilibrista	nccs000	nccs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	nsubj
@@ -450,7 +417,7 @@
 5	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	conj
 6	estar	estar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	cobj
 7	colocados	colocado	aq0mpp	aq0mpp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	cpred
-8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	punct
+8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	punct
 9	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 10	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	neg
 11	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	prep
@@ -494,7 +461,7 @@
 11	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	prepn
 12	corrupción	corrupción	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	pobj
 13	tercermundista	tercermundista	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	amod
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 15	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	2	prepv
 16	dignidad	dignidad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	15	pobj
 17	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	15	coord_fixed
@@ -614,7 +581,7 @@
 9	ganador	ganador	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	pobj
 10	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	prepn
 11	Tour	Tour	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
-12	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+12	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 13	dejarnos	dejar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dep
 14	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	det
 15	país	país	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	dobj
@@ -632,7 +599,7 @@
 27	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	det
 28	tormentas	tormenta	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	pobj
 29	mediterráneas	mediterráneo	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	amod
-30	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+30	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 31	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	32	nsubj
 32	inundan	inundar	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	rcmod
 33	nuestras	nuestro	dp1fpp	dp1fpp	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	poss

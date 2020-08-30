@@ -17,7 +17,7 @@
 17	bajo	bajo	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	prepn
 18	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	det
 19	brazo	brazo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
-20	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+20	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 21	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dep
 22	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	det
 23	objetivo	objetivo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	pobj
@@ -34,7 +34,7 @@
 34	plazo	plazo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	pobj
 35	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	prepn
 36	tiempo	tiempo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	pobj
-37	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	punct
+37	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	punct
 38	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	39	dobj
 39	sitúa	situar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	rcmod
 40	antes	antes	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	39	advmod
@@ -89,7 +89,7 @@
 5	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	oobj
 6	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	det
 7	populares	popular	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	pobj
-8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 9	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	oobj
 10	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	det
 11	partidos	partido	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	pobj
@@ -323,10 +323,10 @@
 22	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	prepn
 23	hacer	hacer	vmsp3p0	vmsp3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	pobj
 24	frente	frente	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	advmod
-25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 26	por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	advmod
 27	ejemplo	ejemplo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	pobj
-28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 29	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	oobj
 30	problemas	problema	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	pobj
 31	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	dep

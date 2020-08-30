@@ -43,7 +43,7 @@
 10	Beatles	Beatles	np00000	np00000	rep=no|t=no|r=no|m=yes	8	pobj
 11	más	más	rg	rg	rep=no|t=no|r=no|m=yes	12	advmod
 12	pomposos	pomposo	aq0mp0	aq0mp0	rep=no|t=no|r=no|m=yes	10	amod
-13	y	y	cc	cc	rep=no|t=no|r=no|m=no	27	coord_fixed
+13	y	y	cc	cc	rep=no|t=no|r=no|m=yes	27	coord_fixed
 14	servir	servir	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	27	csubj
 15	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	16	det
 16	mezcla	mezcla	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	14	dobj
@@ -85,7 +85,7 @@
 20	Fears	Fears	np00000	np00000	rep=no|t=no|r=yes|m=yes	19	dep
 21	o	o	cc	cc	rep=no|t=no|r=yes|m=yes	17	coord_fixed
 22	Pulp	Pulp	np00000	np00000	rep=no|t=no|r=yes|m=yes	17	pobj
-23	,	,	fc	fc	rep=no|t=no|r=no|m=yes	21	punct
+23	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	21	punct
 24	por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	17	pobj
 25	poner	poner	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	24	pobj
 26	dos	dos	dn0cp0	dn0cp0	rep=no|t=no|r=yes|m=yes	27	det
@@ -227,7 +227,7 @@
 23	cantar	cantar	vmn0000	vmn0000	rep=no|t=no|r=no|m=yes	21	dobj
 24	.	.	fp	fp	rep=no|t=no|r=no|m=no	8	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	6	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	6	coord_fixed
 2	así	así	rg	rg	rep=no|t=no|r=no|m=no	6	advmod
 3	,	,	fc	fc	rep=no|t=no|r=no|m=no	6	punct
 4	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	5	det
@@ -239,17 +239,17 @@
 10	Dream	Dream	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	9	cobj
 11	another	another	nccn000	nccn000	rep=no|t=no|r=yes|m=yes	10	appos
 12	dream	dream	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	10	amod
-13	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+13	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 14	Lucky	Lucky	np00000	np00000	rep=no|t=no|r=yes|m=yes	9	cobj
 15	number	number	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	14	amod
-16	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+16	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 17	Broken	Broken	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	9	cobj
 18	barbie	barbie	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	17	appos
 19	doll	doll	np00000	np00000	rep=no|t=no|r=yes|m=yes	18	appos
-20	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+20	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 21	Hard	Hard	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	9	cobj
 22	candy	candy	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	21	appos
-23	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+23	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 24	Summer's	Summer's	np00000	np00000	rep=no|t=no|r=yes|m=yes	9	cobj
 25	over	over	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	24	appos
 26	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	9	coord_fixed
@@ -295,7 +295,7 @@
 12	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=no|m=yes	14	poss
 13	único	único	aq0ms0	aq0ms0	rep=no|t=no|r=no|m=yes	14	amod
 14	disco	disco	ncms000	ncms000	rep=no|t=no|r=no|m=yes	11	pobj
-15	y	y	cc	cc	rep=no|t=no|r=no|m=no	1	coord_fixed
+15	y	y	cc	cc	rep=no|t=no|r=no|m=yes	1	coord_fixed
 16	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	17	det
 17	show	show	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	20	nsubj
 18	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	20	neg

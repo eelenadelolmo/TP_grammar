@@ -24,10 +24,10 @@
 24	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	prepn
 25	esta	este	dd0fs0	dd0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	det
 26	noche	noche	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
-27	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+27	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 28	22.30	22.30	z	z	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	num
 29	horas	hora	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	dep
-30	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+30	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 31	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	prepv
 32	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	det
 33	sección	sección	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	pobj
@@ -37,7 +37,7 @@
 37	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	prepn
 38	cine	cine	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	pobj
 39	NET-99	NET-99	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	appos
-40	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	36	punct
+40	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	punct
 41	dedicado	dedicado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	amod
 42	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	oobj
 43	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	45	det
@@ -69,7 +69,7 @@
 21	vino	vino	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	20	pobj
 22	tinto	tinto	aq0ms0	aq0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	21	amod
 23	,	,	fc	fc	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	punct
-24	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	33	coord_fixed
+24	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	coord_fixed
 25	Mireia	Mireia	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	33	nsubj
 26	Ros	ro	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	25	appos
 27	,	,	fc	fc	recursive=no|rep=no|theme=yes|rheme=no|main=yes	25	punct
@@ -168,7 +168,7 @@
 18	próximo	próximo	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	amod
 19	trabajo	trabajo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	dobj
 20	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	cpred
-21	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+21	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 22	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	det
 23	grito	grito	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	cobj
 24	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	prepn
@@ -176,6 +176,6 @@
 26	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	prepn
 27	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	det
 28	receptor	receptor	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	pobj
-29	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+29	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 30	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	16	punct
 

@@ -236,10 +236,10 @@ rule preceding_subject_first {
   pattern {
     R1 [ theme="no" ];
     T1 [ theme="yes" ];
-    R1 -> T1;
+    R1 -[nsubj]-> T1;
     R2 [ theme="no" ];
     T2 [ theme="yes" ];
-    R2 -> T2;
+    R2 -[nsubj]-> T2;
     T1 << T2;
   }
   commands {
@@ -254,11 +254,11 @@ strat S1 { Try ( Iter ( preceding_subject_first ) ) }
 
 grs_main_satellites_out = """
 
-rule ignore_satellites_root {
+rule ignore_satellites_root_advmod {
   pattern {
     X -[root]-> R;
     R [ main="yes" ];
-    R -[ advmod|advcl|prepv|prep|cc|rcmod|punct|coord_fixed ]-> C;
+    R -[advmod]-> C;
   }
   commands {
     C.main=no;
@@ -266,7 +266,91 @@ rule ignore_satellites_root {
   }
 }
 
-strat S1 { Try ( Iter ( Alt ( ignore_satellites_root ) ) ) }
+rule ignore_satellites_root_advcl {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[advcl]-> C;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+
+rule ignore_satellites_root_prepv {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[prepv]-> C;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+
+rule ignore_satellites_root_prep {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[prep]-> C;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+
+rule ignore_satellites_root_cc {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[cc]-> C;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+
+rule ignore_satellites_root_rcmod {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[rcmod]-> C;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+
+rule ignore_satellites_root_punct {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[punct]-> C;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+
+rule ignore_satellites_root_coord_fixed {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[punct]-> C;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+
+strat S1 { Try ( Iter ( Alt ( ignore_satellites_root_advmod, ignore_satellites_root_advcl, ignore_satellites_root_prepv, ignore_satellites_root_prep, ignore_satellites_root_cc, ignore_satellites_root_rcmod, ignore_satellites_root_punct, ignore_satellites_root_coord_fixed ) ) ) }
 """
 
 
@@ -339,6 +423,7 @@ grs_rheme_cleaning = """
 rule rheme_not_rcmod {
   pattern {
     R [ rheme="yes" ];
+    X -[^prepv]-> R;
     R -[rcmod]-> C;
   }
   commands {
@@ -358,7 +443,7 @@ rule rheme_not_punct {
   }
 }
 
-strat S1 { Iter ( Try ( Alt ( rheme_not_rcmod, rheme_not_punct ) ) ) }
+strat S1 { Iter ( Try ( Alt ( rheme_not_rcmod ) ) ) }
 """
 
 

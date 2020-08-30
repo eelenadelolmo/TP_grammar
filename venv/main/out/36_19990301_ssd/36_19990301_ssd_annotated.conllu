@@ -17,7 +17,7 @@
 2	millar	millar	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	14	nsubj
 3	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	prepn
 4	padres	padre	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	pobj
-5	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	14	coord_fixed
+5	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	coord_fixed
 6	niños	niño	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	14	nsubj
 7	procedentes	procedente	aq0cp0	aq0cp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	14	nsubj
 8	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	prepa
@@ -176,9 +176,9 @@
 2	periodista	periodista	nccs000	nccs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	20	nsubj
 3	Toni	Toni	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	appos
 4	Soler	soler	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	appos
-5	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
-6	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
-7	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+5	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
+6	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
+7	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 8	gracias	gracia	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	dobj
 9	por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	prepn
 10	invitar	invitar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
@@ -186,11 +186,11 @@
 12	este	este	dd0ms0	dd0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	det
 13	antiguo	antiguo	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	amod
 14	escolapio	escolapio	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	pobj
-15	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
-16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+15	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
+16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 17	dijo	decir	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	dobj
-18	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
-19	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+18	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
+19	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 20	leyó	leer	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 21	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	det
 22	documento	documento	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	dobj

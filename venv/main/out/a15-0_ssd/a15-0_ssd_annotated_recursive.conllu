@@ -119,7 +119,7 @@
 4	caducado	caducar	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	3	vobj
 5	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	10	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	10	coord_fixed
 2	de	de	sps00	sps00	rep=no|t=no|r=no|m=no	10	advmod
 3	golpe	golpe	vmn0000	vmn0000	rep=no|t=no|r=no|m=no	2	pobj
 4	,	,	fc	fc	rep=no|t=no|r=no|m=no	10	punct
@@ -158,14 +158,14 @@
 4	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	3	prepv
 5	todas	todo	di0fp0	di0fp0	rep=no|t=no|r=yes|m=yes	6	det
 6	partes	parte	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	4	pobj
-7	:	:	fd	fd	rep=no|t=no|r=no|m=yes	15	punct
+7	:	:	fd	fd	rep=no|t=no|r=yes|m=yes	15	punct
 8	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	3	prepv
 9	noticiarios	noticiario	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	8	pobj
 10	televisivos	televisivo	aq0mp0	aq0mp0	rep=no|t=no|r=yes|m=yes	9	amod
-11	,	,	fc	fc	rep=no|t=no|r=no|m=yes	15	punct
+11	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	15	punct
 12	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	3	prepv
 13	diarios	diario	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	12	pobj
-14	,	,	fc	fc	rep=no|t=no|r=no|m=yes	15	punct
+14	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	15	punct
 15	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	3	prepv
 16	revistas	revista	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	15	pobj
 17	gays	gay	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	16	dep
@@ -173,7 +173,7 @@
 19	científicas	científico	aq0fp0	aq0fp0	rep=no|t=no|r=yes|m=yes	16	dep
 20	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	7	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	7	coord_fixed
 2	a	a	sps00	sps00	rep=no|t=no|r=no|m=no	7	prepv
 3	los	el	da0mp0	da0mp0	rep=no|t=no|r=no|m=no	5	det
 4	dos	dos	dn0cp0	dn0cp0	rep=no|t=no|r=no|m=no	5	det
@@ -203,7 +203,7 @@
 3	chasquean	chasquear	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	0	root
 4	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	5	det
 5	lengua	lengua	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	3	dobj
-6	:	:	fd	fd	rep=no|t=no|r=no|m=yes	11	punct
+6	:	:	fd	fd	rep=no|t=no|r=yes|m=yes	11	punct
 7	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	8	det
 8	noticia	noticia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	11	nsubj
 9	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	11	neg
@@ -213,27 +213,6 @@
 13	ningún	ninguno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	14	det
 14	lado	lado	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	12	pobj
 15	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
-
-1	El	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	2	det
-2	desmentido	desmentido	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	7	nsubj
-3	,	,	fc	fc	rep=no|t=no|r=no|m=no	7	punct
-4	curiosamente	curiosamente	rg	rg	rep=no|t=no|r=no|m=no	7	advmod
-5	,	,	fc	fc	rep=no|t=no|r=no|m=no	7	punct
-6	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	7	neg
-7	ocupa	ocupar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	0	root
-8	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	10	det
-9	mismo	mismo	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	10	det
-10	espacio	espacio	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	7	dobj
-11	informativo	informativo	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	10	amod
-12	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	13	dobj
-13	ocupó	ocupar	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	10	rcmod
-14	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	15	det
-15	noticia	noticia	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	13	nsubj
-16	,	,	fc	fc	rep=no|t=no|r=no|m=yes	13	punct
-17	dos	dos	dn0cp0	dn0cp0	rep=no|t=no|r=no|m=yes	18	det
-18	días	día	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	13	tmod
-19	antes	antes	rg	rg	rep=no|t=no|r=no|m=yes	18	advmod
-20	.	.	fp	fp	rep=no|t=no|r=no|m=no	7	punct
 
 1	El	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	2	det
 2	desmentido	desmentido	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	7	nsubj
@@ -266,7 +245,7 @@
 8	alguno	alguno	di0ms0	di0ms0	rep=no|t=no|r=no|m=yes	7	det
 9	.	.	fp	fp	rep=no|t=no|r=no|m=no	6	punct
 
-1	Y	y	cc	cc	rep=no|t=no|r=no|m=no	12	coord_fixed
+1	Y	y	cc	cc	rep=no|t=no|r=no|m=yes	12	coord_fixed
 2	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	12	prepv
 3	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	5	det
 4	mayor	mayor	aq0cs0	aq0cs0	rep=no|t=no|r=no|m=yes	5	amod

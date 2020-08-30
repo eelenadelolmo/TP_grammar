@@ -16,7 +16,7 @@
 5	genios	genio	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	pobj
 6	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	13	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	coord_fixed
 2	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	det
 3	duquesa	duquesa	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	13	nsubj
 4	,	,	fc	fc	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	punct
@@ -29,8 +29,8 @@
 11	voz	voz	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	dobj
 12	,	,	fc	fc	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	punct
 13	contestó	contestar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
-14	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
-15	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+14	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
+15	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 16	Es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	dobj
 17	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	attr
 18	ahora	ahora	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	advmod
@@ -120,7 +120,7 @@
 18	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	det
 19	otra	otro	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	det
 20	Cayetana	Cayetana	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	punct
 22	aquella	aquel	dd0fs0	dd0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	det
 23	gran	gran	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	amod
 24	española	española	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	appos
@@ -141,7 +141,7 @@
 39	Godoy	Godoy	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	pobj
 40	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	7	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	coord_fixed
 2	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	prepn
 3	ahí	ahí	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	advmod
 4	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct

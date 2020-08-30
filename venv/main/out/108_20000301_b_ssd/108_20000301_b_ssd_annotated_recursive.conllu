@@ -55,8 +55,8 @@
 12	sustituir	sustituir	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	11	pobj
 13	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	12	dobj
 14	Benitez	Benitez	np00000	np00000	rep=no|t=no|r=yes|m=yes	13	pobj
-15	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	4	punct
-16	,	,	fc	fc	rep=no|t=no|r=no|m=yes	4	punct
+15	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	4	punct
+16	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	4	punct
 17	dijo	decir	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	0	root
 18	.	.	fp	fp	rep=no|t=no|r=no|m=no	17	punct
 
@@ -141,7 +141,7 @@
 
 1	Valero	Valero	np00000	np00000	rep=no|t=yes|r=no|m=yes	5	nsubj
 2	Rivera	rivera	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	1	appos
-3	,	,	fc	fc	rep=no|t=no|r=no|m=yes	5	punct
+3	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	5	punct
 4	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	5	neg
 5	disimuló	disimular	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	11	coord
 6	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	7	poss

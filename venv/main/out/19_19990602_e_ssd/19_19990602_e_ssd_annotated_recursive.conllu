@@ -18,7 +18,7 @@
 18	del	del	spcms	spcms	rep=no|t=no|r=no|m=yes	17	prepn
 19	señor	señor	ncms000	ncms000	rep=no|t=no|r=no|m=yes	18	pobj
 20	Núñez	Núñez	np00000	np00000	rep=no|t=no|r=no|m=yes	19	appos
-21	y	y	cc	cc	rep=no|t=no|r=no|m=no	11	coord_fixed
+21	y	y	cc	cc	rep=no|t=no|r=no|m=yes	11	coord_fixed
 22	me	yo	p010s000	p010s000	rep=no|t=no|r=no|m=yes	23	dobj
 23	di	dar	vmis1s0	vmis1s0	rep=no|t=no|r=no|m=yes	11	cobj
 24	de	de	sps00	sps00	rep=no|t=no|r=no|m=yes	23	advmod
@@ -41,7 +41,7 @@
 7	Gaal	Gaal	np0000l	np0000l	rep=no|t=no|r=no|m=yes	6	appos
 8	sus	su	dp3cp0	dp3cp0	rep=no|t=no|r=no|m=yes	9	poss
 9	impertinencias	impertinencia	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	4	dobj
-10	y	y	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+10	y	y	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 11	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=no|m=yes	13	poss
 12	mala	malo	aq0fs0	aq0fs0	rep=no|t=no|r=no|m=yes	13	amod
 13	educación	educación	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	4	dobj

@@ -106,9 +106,9 @@
 15	no	no	rn	rn	rep=no|t=no|r=no|m=yes	16	neg
 16	faltará	faltar	vmif3s0	vmif3s0	rep=no|t=no|r=no|m=yes	0	root
 17	tampoco	tampoco	rg	rg	rep=no|t=no|r=no|m=no	16	advmod
-18	ni	ni	cc	cc	rep=no|t=no|r=no|m=no	20	coord_fixed
+18	ni	ni	cc	cc	rep=no|t=no|r=no|m=yes	20	coord_fixed
 19	Elvis	Elvis	np00000	np00000	rep=no|t=no|r=no|m=yes	16	nsubj
-20	ni	ni	cc	cc	rep=no|t=no|r=no|m=no	16	coord_fixed
+20	ni	ni	cc	cc	rep=no|t=no|r=no|m=yes	16	coord_fixed
 21	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	22	det
 22	italiano	italiano	ncms000	ncms000	rep=no|t=no|r=no|m=yes	16	nsubj
 23	Arturo	Arturo	np0000l	np0000l	rep=no|t=no|r=no|m=yes	22	appos

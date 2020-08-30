@@ -5,13 +5,13 @@
 5	,	,	fc	fc	rep=no|t=yes|r=no|m=yes	2	punct
 6	Fidel	Fidel	np00000	np00000	rep=no|t=yes|r=no|m=yes	2	appos
 7	Castro	castro	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	6	appos
-8	,	,	fc	fc	rep=no|t=no|r=no|m=yes	16	punct
+8	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	16	punct
 9	tal	tal	pd0cs000	pd0cs000	rep=no|t=no|r=no|m=yes	16	advcl
 10	y	y	cc	cc	rep=no|t=no|r=no|m=yes	9	coord_fixed
 11	como	como	cs	cs	rep=no|t=no|r=no|m=yes	10	advcl
 12	había	haber	vaii3s0	vaii3s0	rep=no|t=no|r=no|m=yes	11	cobj
 13	prometido	prometer	vmp00sm	vmp00sm	rep=no|t=no|r=no|m=yes	12	vobj
-14	,	,	fc	fc	rep=no|t=no|r=no|m=yes	16	punct
+14	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	16	punct
 15	se	él	p0300000	p0300000	rep=no|t=no|r=yes|m=yes	16	reflec
 16	fue	ir	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	32	dobj
 17	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	prepv
@@ -47,7 +47,7 @@
 9	María	María	np0000p	np0000p	rep=no|t=no|r=yes|m=yes	8	appos
 10	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	8	prepn
 11	Mar	mar	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	10	pobj
-12	,	,	fc	fc	rep=no|t=no|r=no|m=yes	6	punct
+12	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	6	punct
 13	situada	situado	aq0fsp	aq0fsp	rep=no|t=no|r=yes|m=yes	6	amod
 14	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	13	prepa
 15	poco	poco	rg	rg	rep=no|t=no|r=yes|m=yes	16	advmod
@@ -60,7 +60,7 @@
 22	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	21	prepn
 23	La	La	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	22	pobj
 24	Habana	habano	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	23	appos
-25	,	,	fc	fc	rep=no|t=no|r=no|m=yes	6	punct
+25	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	6	punct
 26	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 27	apareció	aparecer	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	26	coord
 28	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	27	prepv
@@ -297,7 +297,7 @@
 11	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepn
 12	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	13	det
 13	turistas	turista	nccp000	nccp000	rep=no|t=no|r=yes|m=yes	11	pobj
-14	,	,	fc	fc	rep=no|t=no|r=no|m=yes	10	punct
+14	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	10	punct
 15	quien	quien	pr0cs000	pr0cs000	rep=no|t=no|r=no|m=yes	16	nsubj
 16	exclamó	exclamar	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	10	rcmod
 17	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	16	prepv
@@ -323,18 +323,18 @@
 11	las	el	da0fp0	da0fp0	rep=no|t=no|r=yes|m=yes	12	det
 12	elecciones	elección	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	10	pobj
 13	estadounidenses	estadounidense	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	12	amod
-14	,	,	fc	fc	rep=no|t=no|r=no|m=yes	18	punct
+14	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	18	punct
 15	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	19	dobj
 16	las	el	da0fp0	da0fp0	rep=no|t=no|r=yes|m=yes	17	det
 17	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=yes|m=yes	15	pobj
 18	han	haber	vaip3p0	vaip3p0	rep=no|t=no|r=yes|m=yes	12	prepn
 19	calificado	calificar	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	18	vobj
 20	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	19	prepv
-21	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	23	punct
+21	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	23	punct
 22	confusas	confuso	aq0fp0	aq0fp0	rep=no|t=no|r=yes|m=yes	20	pobj
 23	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	20	coord_fixed
 24	corruptas	corrupto	aq0fp0	aq0fp0	rep=no|t=no|r=yes|m=yes	20	pobj
-25	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	23	punct
+25	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	23	punct
 26	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
 
 

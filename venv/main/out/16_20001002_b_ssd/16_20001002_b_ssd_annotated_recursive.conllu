@@ -11,7 +11,7 @@
 11	poco	poco	pi0cs000	pi0cs000	rep=no|t=no|r=no|m=no	10	pobj
 12	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	8	oobj
 13	Milosevic	Milosevic	np00000	np00000	rep=no|t=no|r=yes|m=yes	12	pobj
-14	,	,	fc	fc	rep=no|t=no|r=no|m=yes	13	punct
+14	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	13	punct
 15	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	16	det
 16	presidente	presidente	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	13	appos
 17	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	prepn
@@ -32,9 +32,9 @@
 32	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	31	prepn
 33	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	34	det
 34	oposición	oposición	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	32	pobj
-35	,	,	fc	fc	rep=no|t=no|r=no|m=yes	31	punct
+35	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	31	punct
 36	Kostunica	Kostunica	np00000	np00000	rep=no|t=no|r=yes|m=yes	31	appos
-37	,	,	fc	fc	rep=no|t=no|r=no|m=yes	36	punct
+37	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	36	punct
 38	quien	quien	pr0cs000	pr0cs000	rep=no|t=no|r=no|m=yes	40	nsubj
 39	se	él	p0300000	p0300000	rep=no|t=no|r=no|m=yes	40	reflec
 40	niega	negar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	36	rcmod
@@ -116,7 +116,7 @@
 41	Rusia	Rusia	np00000	np00000	rep=no|t=no|r=yes|m=yes	42	nsubj
 42	haya	haber	vasp3s0	vasp3s0	rep=no|t=no|r=yes|m=yes	40	cobj
 43	reconocido	reconocer	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	42	vobj
-44	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	46	punct
+44	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	46	punct
 45	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	46	det
 46	voluntad	voluntad	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	43	dobj
 47	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	46	prepn
@@ -128,7 +128,7 @@
 53	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	54	det
 54	cambio	cambio	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	52	pobj
 55	democrático	democrático	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	54	amod
-56	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	46	punct
+56	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	46	punct
 57	.	.	fp	fp	rep=no|t=no|r=no|m=no	17	punct
 
 

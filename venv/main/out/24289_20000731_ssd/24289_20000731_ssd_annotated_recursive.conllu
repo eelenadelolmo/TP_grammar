@@ -26,7 +26,7 @@
 26	mundial	mundial	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	25	pobj
 27	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	26	prepn
 28	2002	2002	z	z	rep=no|t=no|r=yes|m=yes	27	pobj
-29	,	,	fc	fc	rep=no|t=no|r=no|m=yes	13	punct
+29	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	13	punct
 30	pese	pesar	vmip2s0	vmip2s0	rep=no|t=no|r=yes|m=yes	13	prepv
 31	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	30	prepv
 32	manifestar	manifestar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	31	pobj
@@ -191,7 +191,7 @@
 9	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	8	prepn
 10	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	11	neg
 11	volver	volver	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	9	pobj
-12	,	,	fc	fc	rep=no|t=no|r=no|m=yes	6	punct
+12	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	6	punct
 13	para	para	sps00	sps00	rep=no|t=no|r=yes|m=yes	6	prepv
 14	no	no	rn	rn	rep=no|t=no|r=yes|m=yes	15	neg
 15	perjudicar	perjudicar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	13	pobj
@@ -397,12 +397,12 @@
 36	Uruguay	Uruguay	np00000	np00000	rep=no|t=no|r=yes|m=yes	35	pobj
 37	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	33	prepn
 38	Bogotá	Bogotá	np00000	np00000	rep=no|t=no|r=yes|m=yes	37	pobj
-39	,	,	fc	fc	rep=no|t=no|r=no|m=yes	33	punct
+39	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	33	punct
 40	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	41	det
 41	15	15	zp	zp	rep=no|t=no|r=yes|m=yes	33	prepn
 42	de	de	spcms	spcms	rep=no|t=no|r=yes|m=yes	41	prep
 43	agosto	agosto	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	42	pobj
-44	,	,	fc	fc	rep=no|t=no|r=no|m=yes	33	punct
+44	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	33	punct
 45	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	33	prepn
 46	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	48	det
 47	séptima	séptimo	ao0fs0	ao0fs0	rep=no|t=no|r=yes|m=yes	48	amod

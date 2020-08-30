@@ -90,25 +90,25 @@
 31	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	26	punct
 
 1	Dicen	decir	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
-2	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	6	conj
-3	disminuye	disminuir	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	2	cobj
-4	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=no	5	det
-5	paro	paro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	3	nsubj
-6	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	1	coord_fixed
-7	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	6	conj
-8	se	se	p0000000	p0000000	recursive=no|rep=no|theme=no|rheme=no|main=no	9	reflec
-9	nota	notar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	7	cobj
-10	ya	ya	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	9	advmod
-11	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=no	12	det
-12	cambio	cambio	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	9	nsubj
-13	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	12	prepn
-14	aire	aire	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	13	pobj
-15	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	12	prepn
-16	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=no	17	det
-17	recesión	recesión	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	15	pobj
+2	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	conj
+3	disminuye	disminuir	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	cobj
+4	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	det
+5	paro	paro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	nsubj
+6	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	1	coord_fixed
+7	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	conj
+8	se	se	p0000000	p0000000	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	reflec
+9	nota	notar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	cobj
+10	ya	ya	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	advmod
+11	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	det
+12	cambio	cambio	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	nsubj
+13	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	prepn
+14	aire	aire	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	pobj
+15	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	prepn
+16	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	det
+17	recesión	recesión	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	pobj
 18	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	1	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	7	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	coord_fixed
 2	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	det
 3	vida	vida	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	nsubj
 4	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	prepn
@@ -116,7 +116,7 @@
 6	Administración	Administración	np0000o	np0000o	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	pobj
 7	está	estar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 8	paralizada	paralizado	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	amod
-9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 10	expectante	expectante	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	attr
 11	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	7	punct
 
@@ -217,7 +217,7 @@
 5	oposición	oposición	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	14	nsubj
 6	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	prepn
 7	Aznar	Aznar	np0000p	np0000p	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	pobj
-8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	14	coord_fixed
+8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	coord_fixed
 9	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	10	det
 10	denuncias	denuncia	ncfp000	ncfp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	14	nsubj
 11	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	10	prepn

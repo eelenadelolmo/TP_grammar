@@ -8,7 +8,7 @@
 8	(	(	fpa	fpa	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	punct
 9	Barcelona	Barcelona	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	appos
 10	)	)	fpt	fpt	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	punct
-11	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	23	coord_fixed
+11	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	coord_fixed
 12	miembro	miembro	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	23	nsubj
 13	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	12	prepn
 14	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	15	det
@@ -29,14 +29,14 @@
 29	puede	poder	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	45	cobj
 30	actuar	actuar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	dobj
 31	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	cobj
-32	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	punct
+32	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	punct
 33	bálsamo	bálsamo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	pobj
-34	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	punct
+34	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	punct
 35	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	coord_fixed
 36	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	cobj
-37	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	punct
+37	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	punct
 38	bisagra	bisagra	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	pobj
-39	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	punct
+39	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	punct
 40	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	prepv
 41	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	det
 42	crisis	crisis	ncfn000	ncfn000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	pobj
@@ -82,7 +82,7 @@
 13	Parlamento	Parlamento	np0000o	np0000o	recursive=no|rep=no|theme=yes|rheme=no|main=yes	11	pobj
 14	catalán	catalán	aq0ms0	aq0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	13	amod
 15	,	,	fc	fc	recursive=no|rep=no|theme=yes|rheme=no|main=yes	1	punct
-16	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	27	coord_fixed
+16	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	coord_fixed
 17	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	18	det
 18	alcalde	alcalde	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	27	nsubj
 19	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	18	prepn
@@ -105,12 +105,12 @@
 36	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	det
 37	comisión	comisión	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	pobj
 38	política	político	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	amod
-39	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	37	punct
+39	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	punct
 40	presidida	presidido	aq0fsp	aq0fsp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	amod
 41	por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	agent
 42	Manuel	Manuel	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	pobj
 43	Chaves	chavar	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	appos
-44	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	42	punct
+44	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	42	punct
 45	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	47	dobj
 46	debe	deber	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	42	rcmod
 47	conducir	conducir	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	46	dobj
@@ -126,7 +126,7 @@
 1	La	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
 2	dirigente	dirigente	nccs000	nccs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	14	nsubj
 3	socialista	socialista	aq0cs0	aq0cs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	amod
-4	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+4	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
 5	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	prepv
 6	declaraciones	declaración	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	pobj
 7	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	prepn
@@ -135,7 +135,7 @@
 10	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	prepn
 11	Parlamento	Parlamento	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
 12	catalán	catalán	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	amod
-13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+13	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
 14	ha	haber	vaip3s0	vaip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	coord
 15	subrayado	subrayar	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	vobj
 16	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	dobj
@@ -279,7 +279,7 @@
 12	política	político	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
 13	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	coord_fixed
 14	gestora	gestor	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
-15	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+15	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 16	refleja	reflejar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	cobj
 17	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	cobj
 18	lo	el	da0ns0	da0ns0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	det
@@ -297,7 +297,7 @@
 30	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	prepn
 31	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	det
 32	PSOE	PSOE	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	pobj
-33	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	38	punct
+33	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	38	punct
 34	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	oobj
 35	todas	todo	di0fp0	di0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	det
 36	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	det
@@ -315,7 +315,7 @@
 48	algo	algo	pi0cs000	pi0cs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	47	dobj
 49	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	50	dobj
 50	decir	decir	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	48	rcmod
-51	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+51	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	punct
 52	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 
 1	En	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	te

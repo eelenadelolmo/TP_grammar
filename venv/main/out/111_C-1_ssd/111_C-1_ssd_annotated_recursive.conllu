@@ -125,7 +125,7 @@
 28	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	29	det
 29	Comunidad	comunidad	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	27	pobj
 30	Andina	Andina	np00000	np00000	rep=no|t=no|r=yes|m=yes	29	appos
-31	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	15	punct
+31	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	15	punct
 32	.	.	fp	fp	rep=no|t=no|r=no|m=no	2	punct
 
 1	A	a	sps00	sps00	rep=no|t=no|r=no|m=no	7	prepv
@@ -212,7 +212,7 @@
 14	hoy	hoy	rg	rg	rep=no|t=no|r=no|m=no	13	advmod
 15	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	13	prepv
 16	Parlamento	Parlamento	np0000o	np0000o	rep=no|t=no|r=yes|m=yes	15	pobj
-17	,	,	fc	fc	rep=no|t=no|r=no|m=yes	16	punct
+17	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	16	punct
 18	donde	donde	pr000000	pr000000	rep=no|t=no|r=no|m=yes	19	dobj
 19	tiene	tener	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	16	rcmod
 20	retenidas	retenido	aq0fpp	aq0fpp	rep=no|t=no|r=no|m=yes	19	cpred
@@ -220,7 +220,7 @@
 22	unas	uno	di0fp0	di0fp0	rep=no|t=no|r=no|m=yes	24	det
 23	treinta	treinta	dn0cp0	dn0cp0	rep=no|t=no|r=no|m=yes	24	det
 24	personas	persona	ncfp000	ncfp000	rep=no|t=no|r=no|m=yes	21	pobj
-25	,	,	fc	fc	rep=no|t=no|r=no|m=yes	16	punct
+25	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	16	punct
 26	para	para	sps00	sps00	rep=no|t=no|r=yes|m=yes	13	prepv
 27	reunirse	reunir	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	26	pobj
 28	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	27	oobj
@@ -313,11 +313,11 @@
 32	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	33	det
 33	ley	ley	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	31	pobj
 34	marcial	marcial	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	33	amod
-35	,	,	fc	fc	rep=no|t=no|r=no|m=yes	33	punct
+35	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	33	punct
 36	impuesta	impuesto	aq0fsp	aq0fsp	rep=no|t=no|r=yes|m=yes	33	amod
 37	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	38	det
 38	lunes	lunes	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	36	dep
-39	,	,	fc	fc	rep=no|t=no|r=no|m=yes	33	punct
+39	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	33	punct
 40	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	28	coord_fixed
 41	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	42	det
 42	retorno	retorno	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	28	nsubj
@@ -325,7 +325,7 @@
 44	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	45	det
 45	gobierno	gobierno	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	43	pobj
 46	civil	civil	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	45	amod
-47	,	,	fc	fc	rep=no|t=no|r=no|m=yes	45	punct
+47	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	45	punct
 48	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	50	advmod
 49	concreto	concreto	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	48	pobj
 50	uno	uno	pi0ms000	pi0ms000	rep=no|t=no|r=yes|m=yes	45	prepn
@@ -349,12 +349,12 @@
 13	de	de	spcms	spcms	rep=no|t=yes|r=no|m=yes	12	prep
 14	mayo	mayo	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	13	pobj
 15	tiene	tener	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	4	cobj
-16	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	18	punct
+16	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	18	punct
 17	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	18	det
 18	mandato	mandato	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	15	dobj
 19	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	18	prepn
 20	pueblo	pueblo	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	19	pobj
-21	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	18	punct
+21	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	18	punct
 22	,	,	fc	fc	rep=no|t=no|r=no|m=no	3	punct
 23	según	según	sps00	sps00	rep=no|t=no|r=no|m=no	3	prepv
 24	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=no	25	det
@@ -380,7 +380,7 @@
 17	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	prepn
 18	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	19	det
 19	rehenes	rehén	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	17	pobj
-20	y	y	cc	cc	rep=no|t=no|r=no|m=no	11	coord_fixed
+20	y	y	cc	cc	rep=no|t=no|r=no|m=yes	11	coord_fixed
 21	cuándo	cuándo	pt000000	pt000000	rep=no|t=no|r=yes|m=yes	22	dobj
 22	tendrá	tener	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	11	dobj
 23	lugar	lugar	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	22	dobj
@@ -444,18 +444,18 @@
 5	Speight	Speight	np0000p	np0000p	rep=no|t=yes|r=no|m=yes	6	nsubj
 6	ha	haber	vaip3s0	vaip3s0	rep=no|t=no|r=yes|m=yes	0	root
 7	logrado	lograr	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	6	vobj
-8	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
+8	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	14	punct
 9	menos	menos	rg	rg	rep=no|t=no|r=yes|m=yes	10	advmod
 10	gobernar	gobernar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	14	dep
-11	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
+11	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	14	punct
 12	todas	todo	di0fp0	di0fp0	rep=no|t=no|r=yes|m=yes	14	det
 13	sus	su	dp3cp0	dp3cp0	rep=no|t=no|r=yes|m=yes	14	poss
 14	demandas	demanda	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	7	dobj
-15	:	:	fd	fd	rep=no|t=no|r=no|m=yes	36	punct
+15	:	:	fd	fd	rep=no|t=no|r=yes|m=yes	36	punct
 16	derogar	derogar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	14	dep
 17	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	18	det
 18	Constitución	Constitución	np0000a	np0000a	rep=no|t=no|r=yes|m=yes	16	dobj
-19	,	,	fc	fc	rep=no|t=no|r=no|m=yes	36	punct
+19	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	36	punct
 20	derribar	derribar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	14	dep
 21	al	al	spcms	spcms	rep=no|t=no|r=yes|m=yes	20	dobj
 22	gobierno	gobierno	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	21	pobj
@@ -465,7 +465,7 @@
 26	ministro	ministro	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	24	pobj
 27	Mahendra	Mahendra	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	26	appos
 28	Chaudhry	Chaudhry	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	27	appos
-29	,	,	fc	fc	rep=no|t=no|r=no|m=yes	36	punct
+29	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	36	punct
 30	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	31	det
 31	retirada	retirada	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	14	dep
 32	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	31	prepn
@@ -543,7 +543,7 @@
 11	jueves	jueves	ncms000	ncms000	rep=no|t=no|r=no|m=no	10	dep
 12	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	9	prepv
 13	Lisboa	Lisboa	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	12	pobj
-14	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+14	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 15	donde	donde	pr000000	pr000000	rep=no|t=no|r=no|m=yes	17	dobj
 16	se	él	p0300000	p0300000	rep=no|t=no|r=no|m=yes	17	reflec
 17	entrevistará	entrevistar	vmif3s0	vmif3s0	rep=no|t=no|r=no|m=yes	26	rcmod
@@ -589,10 +589,10 @@
 13	8.15	8.15	z	z	rep=no|t=no|r=yes|m=yes	11	pobj
 14	hora	hora	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	13	dep
 15	local	local	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	14	amod
-16	(	(	fpa	fpa	rep=no|t=no|r=no|m=yes	18	punct
+16	(	(	fpa	fpa	rep=no|t=no|r=yes|m=yes	18	punct
 17	07.15	07.15	z	z	rep=no|t=no|r=yes|m=yes	18	num
 18	gmt	gmt	nc00000	nc00000	rep=no|t=no|r=yes|m=yes	14	appos
-19	)	)	fpt	fpt	rep=no|t=no|r=no|m=yes	18	punct
+19	)	)	fpt	fpt	rep=no|t=no|r=yes|m=yes	18	punct
 20	,	,	fc	fc	rep=no|t=no|r=no|m=no	10	punct
 21	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepv
 22	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	23	det
@@ -601,7 +601,7 @@
 25	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	23	prepn
 26	Figo	Figo	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	25	pobj
 27	Maduro	Maduro	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	26	appos
-28	,	,	fc	fc	rep=no|t=no|r=no|m=yes	23	punct
+28	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	23	punct
 29	anexa	anexo	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	23	amod
 30	al	al	spcms	spcms	rep=no|t=no|r=yes|m=yes	29	prepa
 31	aeropuerto	aeropuerto	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	30	pobj
@@ -636,10 +636,10 @@
 24	su	su	dp3cs0	dp3cs0	rep=no|t=no|r=yes|m=yes	26	poss
 25	homólogo	homólogo	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	26	amod
 26	portugués	portugués	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	23	pobj
-27	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+27	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 28	Antonio	Antonio	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	26	appos
 29	Guterres	Guterres	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	28	appos
-30	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+30	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 31	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	32	nsubj
 32	preside	presidir	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	26	rcmod
 33	este	este	dd0ms0	dd0ms0	rep=no|t=no|r=no|m=yes	34	det
@@ -671,7 +671,7 @@
 20	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	21	det
 21	Oriente	Oriente	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	19	pobj
 22	Medio	medio	nc00000	nc00000	rep=no|t=no|r=yes|m=yes	21	appos
-23	,	,	fc	fc	rep=no|t=no|r=no|m=yes	13	punct
+23	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	13	punct
 24	tras	tras	sps00	sps00	rep=no|t=no|r=yes|m=yes	13	prepn
 25	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	26	det
 26	retirada	retirada	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	24	pobj
@@ -682,7 +682,7 @@
 31	sur	sur	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	30	pobj
 32	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	31	prepn
 33	Líbano	Líbano	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	32	pobj
-34	,	,	fc	fc	rep=no|t=no|r=no|m=yes	35	punct
+34	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	35	punct
 35	así	así	rg	rg	rep=no|t=no|r=yes|m=yes	10	dobj
 36	como	como	cs	cs	rep=no|t=no|r=yes|m=yes	35	dep
 37	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	38	det
@@ -725,7 +725,7 @@
 27	Autoridad	autoridad	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	25	pobj
 28	Nacional	nacional	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	27	amod
 29	Palestina	palestino	aq0fsp	aq0fsp	rep=no|t=no|r=yes|m=yes	27	amod
-30	,	,	fc	fc	rep=no|t=no|r=no|m=yes	24	punct
+30	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	24	punct
 31	Yasser	Yasser	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	24	appos
 32	Arafat	Arafat	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	31	appos
 33	.	.	fp	fp	rep=no|t=no|r=no|m=no	13	punct
@@ -761,7 +761,7 @@
 29	invitado	invitado	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	26	pobj
 30	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	29	prepn
 31	piedra	piedra	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	30	pobj
-32	:	:	fd	fd	rep=no|t=no|r=no|m=yes	34	punct
+32	:	:	fd	fd	rep=no|t=no|r=yes|m=yes	34	punct
 33	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	34	det
 34	presidente	presidente	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	29	appos
 35	Hugo	Hugo	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	34	appos

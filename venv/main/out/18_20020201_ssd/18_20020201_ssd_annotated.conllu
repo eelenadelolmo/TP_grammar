@@ -23,7 +23,7 @@
 23	otros	otro	pi0mp000	pi0mp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	pobj
 24	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 2	algo	algo	pi0cs000	pi0cs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	nsubj
 3	tendrá	tener	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 4	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	conj
@@ -34,15 +34,15 @@
 9	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	det
 10	cultura	cultura	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	nsubj
 11	política	político	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	amod
-12	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+12	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 13	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	det
 14	nacionalismo	nacionalismo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	nsubj
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	16	punct
-16	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
-17	también	también	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	20	advmod
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	punct
+16	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
+17	también	también	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	advmod
 18	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	det
 19	rentas	renta	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	nsubj
-20	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+20	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 21	esas	ese	dd0fp0	dd0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	det
 22	cosas	cosa	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	nsubj
 23	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	prepn
@@ -67,7 +67,7 @@
 16	claridad	claridad	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	10	pobj
 17	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	7	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	11	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	coord_fixed
 2	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	11	prepv
 3	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=no|main=no	4	det
 4	foro	foro	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=no	2	pobj
@@ -107,7 +107,7 @@
 9	precisó	precisar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 10	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	9	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 2	catalanes	catalán	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord
 3	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 4	vascos	vasco	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord
@@ -138,7 +138,7 @@
 20	mano	mano	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	19	pobj
 21	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	12	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 2	ya	ya	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	4	advmod
 3	se	se	p0000000	p0000000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	reflec
 4	sabe	saber	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
@@ -151,16 +151,16 @@
 11	Trillo	trillar	np0000l	np0000l	recursive=no|rep=no|theme=yes|rheme=no|main=yes	10	appos
 12	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	cobj
 13	comunicar	comunicar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	cobj
-14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 15	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	dep
 16	fuerza	fuerza	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
 17	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	coord_fixed
 18	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	dep
 19	huevos	huevo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
 20	...	...	fs	fs	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
-21	¿	¿	fia	fia	recursive=no|rep=no|theme=no|rheme=no|main=no	22	punct
-22	O	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
-23	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=no	22	neg
-24	?	?	fit	fit	recursive=no|rep=no|theme=no|rheme=no|main=no	22	punct
+21	¿	¿	fia	fia	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
+22	O	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
+23	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	neg
+24	?	?	fit	fit	recursive=no|rep=no|theme=no|rheme=no|main=yes	22	punct
 25	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 

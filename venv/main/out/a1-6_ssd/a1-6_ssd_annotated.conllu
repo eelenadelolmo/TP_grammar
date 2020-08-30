@@ -8,7 +8,7 @@
 8	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	prepn
 9	varia	vario	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	amod
 10	lección	lección	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	pobj
-11	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	5	coord_fixed
+11	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	coord_fixed
 12	aquellas	aquel	dd0fp0	dd0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	det
 13	tentativas	tentativa	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	nsubj
 14	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	dobj
@@ -17,9 +17,9 @@
 17	Montaigne	Montaigne	np0000p	np0000p	recursive=no|rep=no|theme=yes|rheme=no|main=yes	18	nsubj
 18	llamó	llamar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	dep
 19	sencillamente	sencillamente	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	advmod
-20	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
+20	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	punct
 21	ensayos	ensayo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	dobj
-22	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
+22	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	punct
 23	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	5	punct
 
 1	También	también	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	advmod
@@ -48,7 +48,7 @@
 7	unas	uno	di0fp0	di0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	det
 8	tareas	tarea	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	pobj
 9	difíciles	difícil	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	amod
-10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	punct
+10	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	punct
 11	lo	el	da0ns0	da0ns0	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	det
 12	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	nsubj
 13	sirve	servir	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	rcmod
@@ -101,11 +101,11 @@
 16	años	año	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	pobj
 17	?	?	fit	fit	recursive=no|rep=no|theme=no|rheme=no|main=no	6	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	9	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	coord_fixed
 2	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	det
 3	clases	clase	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	coord
 4	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	9	punct
-5	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	9	coord_fixed
+5	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	coord_fixed
 6	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	det
 7	alumnos	alumno	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	coord
 8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	9	punct
@@ -121,8 +121,8 @@
 5	Ramón	Ramón	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	pobj
 6	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 7	Cajal	Cajal	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	pobj
-8	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
-9	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
+8	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	punct
+9	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	punct
 10	Cuando	cuando	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	cobj
 11	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	12	det
 12	español	español	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	13	nsubj
@@ -131,14 +131,14 @@
 15	ganas	gana	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	pobj
 16	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	prepn
 17	trabajar	trabajar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	pobj
-18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
+18	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	punct
 19	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	te
 20	le	él	pp3csd00	pp3csd00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	iobj
 21	echen	echar	vmsp3p0	vmsp3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	cobj
 22	alemanes	alemán	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	dobj
 23	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	prepn
 24	ésos	ese	pd0mp000	pd0mp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	pobj
-25	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
+25	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	punct
 26	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	1	punct
 
 1	Germán	Germán	np0000o	np0000o	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	nsubj
@@ -201,13 +201,13 @@
 58	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	55	prepn
 59	lenguas	lengua	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	58	pobj
 60	africanas	africano	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	59	amod
-61	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	65	punct
-62	lo	el	da0ns0	da0ns0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	63	det
-63	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	65	nsubj
-64	también	también	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	65	advmod
-65	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	rcmod
-66	coherente	coherente	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	65	attr
-67	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	65	punct
+61	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	65	punct
+62	lo	el	da0ns0	da0ns0	recursive=no|rep=no|theme=no|rheme=no|main=yes	63	det
+63	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	65	nsubj
+64	también	también	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	65	advmod
+65	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	25	rcmod
+66	coherente	coherente	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	65	attr
+67	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	65	punct
 68	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	5	punct
 
 1	Podemos	poder	vmip1p0	vmip1p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	coord
@@ -284,10 +284,10 @@
 10	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	12	nsubj
 11	se	se	p0000000	p0000000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	reflec
 12	llamó	llamar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	rcmod
-13	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+13	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
 14	español	español	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	dobj
 15	atlántico	atlántico	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	amod
-16	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+16	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
 17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	punct
 18	Germán	Germán	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	nsubj
 19	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	prepn
@@ -365,7 +365,7 @@
 49	una	uno	di0fs0	di0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	50	det
 50	base	base	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	48	pobj
 51	andaluza	andaluz	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	50	amod
-52	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	55	punct
+52	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	55	punct
 53	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	54	det
 54	historia	historia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	55	nsubj
 55	deberá	deber	vmif3s0	vmif3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	47	cobj

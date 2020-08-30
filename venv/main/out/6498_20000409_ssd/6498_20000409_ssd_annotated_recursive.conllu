@@ -19,7 +19,7 @@
 19	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	18	prepn
 20	diez	diez	dn0cp0	dn0cp0	rep=no|t=no|r=yes|m=yes	21	det
 21	compañías	compañía	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	19	pobj
-22	,	,	fc	fc	rep=no|t=no|r=no|m=yes	21	punct
+22	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	21	punct
 23	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	24	nsubj
 24	suman	sumar	vmip3p0	vmip3p0	rep=no|t=no|r=no|m=yes	21	rcmod
 25	una	uno	di0fs0	di0fs0	rep=no|t=no|r=no|m=yes	26	det
@@ -133,7 +133,7 @@
 18	español	español	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	17	amod
 19	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	17	prepn
 20	Economía	Economía	np00000	np00000	rep=no|t=no|r=yes|m=yes	19	pobj
-21	,	,	fc	fc	rep=no|t=no|r=no|m=yes	15	punct
+21	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	15	punct
 22	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	24	dobj
 23	posteriormente	posteriormente	rg	rg	rep=no|t=no|r=no|m=yes	24	advmod
 24	desarrolló	desarrollar	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	15	rcmod
@@ -274,11 +274,11 @@
 21	español	español	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	18	appos
 22	se	él	p0300000	p0300000	rep=no|t=no|r=yes|m=yes	23	reflec
 23	denominará	denominar	vmif3s0	vmif3s0	rep=no|t=no|r=yes|m=yes	29	coord
-24	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	25	punct
+24	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	25	punct
 25	Ibex	Ibex	np00000	np00000	rep=no|t=no|r=yes|m=yes	27	appos
 26	Nuevo	nuevo	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	27	amod
 27	Mercado	mercado	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	23	dobj
-28	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	25	punct
+28	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	25	punct
 29	y	y	cc	cc	rep=no|t=no|r=no|m=yes	0	root
 30	tendrá	tener	vmif3s0	vmif3s0	rep=no|t=no|r=no|m=yes	29	coord
 31	como	como	cs	cs	rep=no|t=no|r=no|m=yes	30	cpred

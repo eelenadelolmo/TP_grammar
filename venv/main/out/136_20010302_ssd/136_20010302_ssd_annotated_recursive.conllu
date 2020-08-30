@@ -125,7 +125,7 @@
 37	física	físico	aq0fs0	aq0fs0	rep=yes|t=no|r=no|m=yes	36	amod
 38	.	.	fp	fp	rep=no|t=no|r=no|m=no	29	punct
 
-1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+1	Pero	pero	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 2	Serra	Serra	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	4	nsubj
 3	Ferrer	Ferrer	np0000l	np0000l	rep=no|t=yes|r=no|m=yes	2	appos
 4	tiene	tener	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	0	root
@@ -144,10 +144,10 @@
 17	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	prepn
 18	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	19	det
 19	defensa	defensa	nccs000	nccs000	rep=no|t=no|r=yes|m=yes	17	pobj
-20	,	,	fc	fc	rep=no|t=no|r=no|m=yes	11	punct
+20	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	11	punct
 21	Michael	Michael	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	11	appos
 22	Reiziger	Reiziger	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	21	appos
-23	,	,	fc	fc	rep=no|t=no|r=no|m=yes	11	punct
+23	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	11	punct
 24	volvió	volver	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	4	cobj
 25	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	24	prepv
 26	Holanda	Holanda	np00000	np00000	rep=no|t=no|r=yes|m=yes	25	pobj

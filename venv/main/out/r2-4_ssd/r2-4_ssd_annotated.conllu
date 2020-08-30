@@ -290,7 +290,7 @@
 22	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=no	17	punct
 23	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	13	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 2	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	det
 3	extorsión	extorsión	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	nsubj
 4	estaba	estar	vmii3s0	vmii3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
@@ -334,7 +334,7 @@
 25	etarra	etarra	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	amod
 26	contra	contra	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	prepn
 27	oficinas	oficina	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	pobj
-28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	punct
+28	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	punct
 29	delegaciones	delegación	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	pobj
 30	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	coord_fixed
 31	sucursales	sucursal	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	pobj
@@ -351,7 +351,7 @@
 5	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	det
 6	País	País	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	pobj
 7	Vasco	vasco	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	appos
-8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 9	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dep
 10	Navarra	Navarra	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
 11	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	3	punct
@@ -458,8 +458,8 @@
 34	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	advmod
 35	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	dep
 36	económico	económico	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	amod
-37	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	40	punct
-38	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	40	punct
+37	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	punct
+38	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	punct
 39	Se	se	p0000000	p0000000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	reflec
 40	trataría	tratar	vmic3s0	vmic3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	dep
 41	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	oobj
@@ -500,7 +500,7 @@
 76	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	77	det
 77	País	País	np00000	np00000	recursive=no|rep=no|theme=no|rheme=no|main=yes	75	pobj
 78	Vasco	vasco	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	77	appos
-79	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	40	punct
+79	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	punct
 80	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	9	punct
 
 1	Por	por	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	7	advmod
@@ -577,7 +577,7 @@
 32	contra	contra	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	oobj
 33	entidades	entidad	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	pobj
 34	bancarias	bancario	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	33	amod
-35	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	40	punct
+35	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	punct
 36	empresas	empresa	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	32	pobj
 37	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	prepn
 38	capital	capital	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	pobj

@@ -22,7 +22,7 @@
 22	paz	paz	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	pobj
 23	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	prepn
 24	Colombia	Colombia	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	pobj
-25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	punct
+25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	punct
 26	al	al	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	dep
 27	igual	igual	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	advmod
 28	que	que	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	coord_fixed
@@ -170,7 +170,7 @@
 7	manifestó	manifestar	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=no	0	root
 8	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	7	dobj
 9	EEUU	EEUU	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	11	nsubj
-10	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+10	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 11	está	estar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	cobj
 12	especialmente	especialmente	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	advmod
 13	agradecido	agradecido	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	attr
@@ -188,7 +188,7 @@
 25	millones	millón	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	pobj
 26	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	25	prepn
 27	dólares	dólar	zm	zm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	pobj
-28	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+28	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 29	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	7	punct
 
 1	También	también	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	2	advmod
@@ -204,7 +204,7 @@
 11	aliados	aliado	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	pobj
 12	europeos	europeo	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	amod
 13	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	prepv
-14	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+14	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 15	combatir	combatir	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
 16	las	el	da0fp0	da0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	det
 17	múltiples	múltiple	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	amod
@@ -216,7 +216,7 @@
 23	tiene	tener	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	prepn
 24	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	conj
 25	enfrentarse	enfrentar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	cobj
-26	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	punct
+26	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	punct
 27	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 
 1	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	punct
@@ -272,15 +272,15 @@
 19	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	dep
 20	Asuntos	asunto	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
 21	Globales	Globales	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	appos
-22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	punct
+22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	punct
 23	Thomas	Thomas	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	appos
 24	Pickering	Pickering	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	appos
-25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	punct
+25	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	punct
 26	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	coord_fixed
 27	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	dep
 28	Asuntos	asunto	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	pobj
 29	Interamericanos	Interamericanos	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	appos
-30	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+30	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 31	Peter	Peter	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	appos
 32	Romero	romero	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	appos
 33	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	11	punct
@@ -350,10 +350,10 @@
 4	(	(	fpa	fpa	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	punct
 5	BM	BM	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	appos
 6	)	)	fpt	fpt	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	punct
-7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	10	punct
+7	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
 8	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	det
 9	BID	BID	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	18	nsubj
-10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	18	coord_fixed
+10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	coord_fixed
 11	Corporación	Corporación	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	18	nsubj
 12	Andina	Andina	ncms000	ncms000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	11	appos
 13	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	11	prepn
@@ -379,7 +379,7 @@
 8	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	poss
 9	Plan	plan	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	dobj
 10	Colombia	Colombia	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	appos
-11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	9	punct
+11	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	punct
 12	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	det
 13	proyecto	proyecto	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	appos
 14	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	nsubj

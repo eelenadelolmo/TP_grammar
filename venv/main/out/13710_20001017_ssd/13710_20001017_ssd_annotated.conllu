@@ -53,7 +53,7 @@
 10	volvió	volver	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	conj
 11	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	prepv
 12	innovar	innovar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	dobj
-13	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+13	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 14	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	prepv
 15	poner	poner	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	conj
 16	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	prepv
@@ -109,9 +109,9 @@
 24	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	prepn
 25	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	det
 26	columna	columna	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
-27	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+27	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 28	h	h	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	appos
-29	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	28	punct
+29	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	punct
 30	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 
 1	Los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	det
@@ -222,7 +222,7 @@
 3	nada	nada	pi0cs000	pi0cs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	dobj
 4	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	dobj
 5	hacer	hacer	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	rcmod
-6	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	18	coord_fixed
+6	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	coord_fixed
 7	analistas	analista	nccp000	nccp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	11	nsubj
 8	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	coord_fixed
 9	grandes	grande	aq0cp0	aq0cp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	10	amod
@@ -246,7 +246,7 @@
 27	rematar	rematar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	dobj
 28	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	det
 29	partida	partida	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	27	dobj
-30	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	18	coord_fixed
+30	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	coord_fixed
 31	después	después	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	36	advmod
 32	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	31	prep
 33	66	66	z	z	recursive=no|rep=no|theme=no|rheme=no|main=yes	34	num

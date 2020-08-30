@@ -6,13 +6,13 @@
 6	piden	pedir	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
 7	medios	medio	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	dobj
 8	coercitivos	coercitivo	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	amod
-9	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
-10	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+9	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
+10	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 11	como	como	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	dep
 12	esprays	espray	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	cobj
 13	paralizantes	paralizante	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	amod
-14	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
-15	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	punct
+14	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
+15	-	-	fg	fg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	punct
 16	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	6	prepv
 17	su	su	dp3cs0	dp3cs0	recursive=no|rep=no|theme=no|rheme=no|main=no	18	poss
 18	función	función	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=no	16	pobj
@@ -40,7 +40,7 @@
 8	partes	parte	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	pobj
 9	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	2	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	coord_fixed
 2	debe	deber	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 3	resaltarse	resaltar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	dobj
 4	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=yes	2	csubj
@@ -52,7 +52,7 @@
 10	tiene	tener	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	cobj
 11	dos	dos	dn0cp0	dn0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	det
 12	planos	plano	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	dobj
-13	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+13	:	:	fd	fd	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 14	impedir	impedir	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	attr
 15	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	dobj
 16	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	det
@@ -61,7 +61,7 @@
 19	es	ser	vsip3s0	vsip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	dep
 20	estrictamente	estrictamente	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	advmod
 21	policial	policial	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	attr
-22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+22	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 23	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	coord_fixed
 24	garantizar	garantizar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	dobj
 25	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	det
@@ -73,7 +73,7 @@
 31	civiles	civil	aq0cp0	aq0cp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	amod
 32	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	2	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	coord_fixed
 2	esos	ese	dd0mp0	dd0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	det
 3	dos	dos	dn0cp0	dn0cp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	det
 4	planos	plano	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	6	nsubj

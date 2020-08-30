@@ -23,10 +23,10 @@
 23	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=no	20	punct
 24	haber	haber	van0000	van0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dobj
 25	participado	participar	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	vobj
-26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	29	punct
+26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	29	punct
 27	haber	haber	van0000	van0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dobj
 28	conspirado	conspirar	vmp00sm	vmp00sm	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	vobj
-29	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
+29	o	o	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
 30	ser	ser	vsn0000	vsn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	dobj
 31	cómplice	cómplice	nccs000	nccs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	attr
 32	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	31	prepn
@@ -174,9 +174,9 @@
 22	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	21	prepv
 23	un	uno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	det
 24	escueto	escueto	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	pobj
-25	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	punct
+25	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	punct
 26	sí	sí	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	advmod
-27	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	26	punct
+27	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	punct
 28	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 
 1	HASTA	hasta	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
@@ -275,7 +275,7 @@
 28	preparar	preparar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	pobj
 29	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	det
 30	causa	causa	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	28	dobj
-31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	punct
+31	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	30	punct
 32	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	nsubj
 33	obliga	obligar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	30	rcmod
 34	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	33	oobj

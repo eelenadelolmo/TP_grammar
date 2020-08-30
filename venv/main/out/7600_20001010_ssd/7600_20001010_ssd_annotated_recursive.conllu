@@ -22,7 +22,7 @@
 22	esta	este	dd0fs0	dd0fs0	rep=no|t=yes|r=no|m=yes	23	det
 23	nación	nación	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	21	pobj
 24	andina	andino	aq0fs0	aq0fs0	rep=no|t=yes|r=no|m=yes	23	amod
-25	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
+25	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	26	punct
 26	juró	jurar	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	33	coord
 27	como	como	cs	cs	rep=no|t=no|r=yes|m=yes	26	cpred
 28	miembro	miembro	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	27	cobj
@@ -67,7 +67,7 @@
 22	scouts	scout	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	21	amod
 23	asegurándole	asegurar	vmg0000	vmg0000	rep=no|t=no|r=yes|m=yes	15	dobj
 24	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	23	dep
-25	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	27	punct
+25	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	27	punct
 26	ahora	ahora	rg	rg	rep=no|t=no|r=yes|m=yes	27	advmod
 27	forma	formar	vmp00sm	vmp00sm	rep=no|t=no|r=yes|m=yes	24	cobj
 28	parte	parte	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	27	dobj
@@ -82,7 +82,7 @@
 37	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	36	prepv
 38	el	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	39	det
 39	mundo	mundo	ncms000	ncms000	rep=no|t=no|r=no|m=yes	37	pobj
-40	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=yes	27	punct
+40	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	27	punct
 41	.	.	fp	fp	rep=no|t=no|r=no|m=no	15	punct
 
 1	&quot;	&quot;	fe	fe	rep=no|t=no|r=no|m=no	12	punct

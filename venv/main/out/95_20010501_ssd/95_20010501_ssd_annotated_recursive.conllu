@@ -30,7 +30,7 @@
 30	durante	durante	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	prepv
 31	tres	tres	dn0cp0	dn0cp0	rep=no|t=no|r=yes|m=yes	32	det
 32	meses	mes	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	30	pobj
-33	,	,	fc	fc	rep=no|t=no|r=no|m=yes	14	punct
+33	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	14	punct
 34	prorrogable	prorrogable	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	14	cpred
 35	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	34	prepa
 36	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	37	det
@@ -78,7 +78,7 @@
 18	Asociaciones	asociación	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	17	pobj
 19	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	18	prepn
 20	Vecinos	vecino	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	19	pobj
-21	,	,	fc	fc	rep=no|t=no|r=no|m=yes	16	punct
+21	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	16	punct
 22	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	24	nsubj
 23	también	también	rg	rg	rep=no|t=no|r=no|m=yes	24	advmod
 24	reclama	reclamar	vmip3s0	vmip3s0	rep=no|t=no|r=no|m=yes	16	rcmod

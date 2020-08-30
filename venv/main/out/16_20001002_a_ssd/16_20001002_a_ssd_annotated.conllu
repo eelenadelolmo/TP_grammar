@@ -81,8 +81,8 @@
 42	distribución	distribución	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	pobj
 43	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	40	prepn
 44	hidrocarburos	hidrocarburo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	43	pobj
-45	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	46	punct
-46	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+45	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	46	punct
+46	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 47	ratificaron	ratificar	vmis3p0	vmis3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	cobj
 48	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	47	dobj
 49	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	50	det
@@ -114,7 +114,7 @@
 10	Gobierno	Gobierno	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	pobj
 11	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	5	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 2	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	3	det
 3	transportistas	transportista	nccp000	nccp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	4	nsubj
 4	inician	iniciar	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root

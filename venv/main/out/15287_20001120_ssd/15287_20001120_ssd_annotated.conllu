@@ -18,12 +18,12 @@
 18	partido	partido	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	pobj
 19	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	prepn
 20	miércoles	miércoles	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 22	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	prepn
 23	Liga	Liga	np0000a	np0000a	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	pobj
 24	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	prepn
 25	Campeones	campeón	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	24	pobj
-26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	punct
+26	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	punct
 27	contra	contra	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	prepn
 28	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	29	det
 29	Leeds	Leeds	np0000o	np0000o	recursive=no|rep=no|theme=no|rheme=yes|main=yes	27	pobj
@@ -107,9 +107,9 @@
 3	decir	decir	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	2	dobj
 4	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dobj
 5	Sanchis	Sanchis	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	cobj
-6	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+6	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 7	Illgner	Illgner	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	cobj
-8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	punct
 9	Tote	Tote	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	cobj
 10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	coord_fixed
 11	Rivera	Rivera	np0000p	np0000p	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	cobj
@@ -122,7 +122,7 @@
 18	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	oobj
 19	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	det
 20	expedición	expedición	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
-21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	punct
+21	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	punct
 22	para	para	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	prepv
 23	volar	volar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	pobj
 24	después	después	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	advmod
@@ -170,10 +170,10 @@
 9	físico	físico	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	amod
 10	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	prepn
 11	equipo	equipo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
-12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+12	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 13	Javier	Javier	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	appos
 14	Miñano	Miñano	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	appos
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	punct
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	8	punct
 16	pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 17	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	prepv
 18	ningún	ninguno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	det
@@ -267,7 +267,7 @@
 44	Morientes	Morientes	np0000p	np0000p	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	dep
 45	y	y	cc	cc	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	coord_fixed
 46	Conceicao	Conceicao	np0000p	np0000p	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	dep
-47	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	48	punct
+47	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	48	punct
 48	saldrán	salir	vmif3p0	vmif3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	59	coord
 49	mañana	mañana	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	48	advmod
 50	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	48	prepv

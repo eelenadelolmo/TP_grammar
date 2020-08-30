@@ -36,7 +36,7 @@
 30	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	29	prepv
 31	la	el	da0fs0	da0fs0	rep=no|t=no|r=no|m=yes	32	det
 32	ciudad	ciudad	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	30	pobj
-33	,	,	fc	fc	rep=no|t=no|r=no|m=yes	21	punct
+33	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	21	punct
 34	en	en	sps00	sps00	rep=no|t=no|r=no|m=yes	21	advcl
 35	referencia	referencia	ncfs000	ncfs000	rep=no|t=no|r=no|m=yes	34	pobj
 36	a	a	sps00	sps00	rep=no|t=no|r=no|m=yes	35	prepn

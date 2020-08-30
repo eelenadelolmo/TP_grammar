@@ -59,9 +59,9 @@
 19	Ràdio	Ràdio	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	18	pobj
 20	i	i	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	appos
 21	Televisió	Televisió	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	appos
-22	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+22	(	(	fpa	fpa	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 23	CCRTV	CCRTV	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	16	appos
-24	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=no|main=yes	23	punct
+24	)	)	fpt	fpt	recursive=no|rep=no|theme=no|rheme=yes|main=yes	23	punct
 25	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	1	punct
 
 1	El	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	det
@@ -135,7 +135,7 @@
 5	informativos	informativo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	dobj
 6	Telenotícies	Telenotícies	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
 7	migdia	migdia	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	6	appos
-8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+8	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 9	Telenotícies	Telenotícies	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
 10	vespre	vespre	np0000l	np0000l	recursive=no|rep=no|theme=no|rheme=yes|main=yes	9	appos
 11	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	coord_fixed
@@ -143,7 +143,7 @@
 13	Telenotícies	Telenotícies	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	pobj
 14	última	último	aq0fp0	aq0fp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	amod
 15	hora	hora	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	appos
-16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 17	además	además	rg	rg	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	prepn
 18	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	prep
 19	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	20	pobj
@@ -201,7 +201,7 @@
 10	de	de	sps00	sps00	recursive=no|rep=no|theme=yes|rheme=no|main=yes	9	prepn
 11	campaña	campaña	ncfs000	ncfs000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	10	pobj
 12	,	,	fc	fc	recursive=no|rep=no|theme=yes|rheme=no|main=yes	2	punct
-13	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	16	coord_fixed
+13	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	16	coord_fixed
 14	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	15	det
 15	PSC	PSC	np00000	np00000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	16	nsubj
 16	han	haber	vaip3p0	vaip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	0	root
@@ -226,9 +226,9 @@
 35	promociona	promocionar	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	cobj
 36	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	prepv
 37	forma	forma	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	pobj
-38	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	39	punct
+38	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	punct
 39	sistemática	sistemático	aq0fs0	aq0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	37	amod
-40	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	39	punct
+40	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	punct
 41	al	al	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	35	dobj
 42	president	president	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	41	pobj
 43	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	34	coord_fixed

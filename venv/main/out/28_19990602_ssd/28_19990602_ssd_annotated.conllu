@@ -14,7 +14,7 @@
 14	frontera	frontera	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
 15	con	con	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	prepn
 16	Albania	Albania	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	15	pobj
-17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	punct
+17	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	14	punct
 18	donde	donde	pr000000	pr000000	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	dobj
 19	se	se	p0000000	p0000000	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	reflec
 20	registran	registrar	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	rcmod
@@ -85,16 +85,16 @@
 3	que	que	cs	cs	recursive=no|rep=no|theme=no|rheme=no|main=no	2	dobj
 4	esos	ese	dd0mp0	dd0mp0	recursive=no|rep=no|theme=yes|rheme=no|main=yes	5	det
 5	ataques	ataque	ncmp000	ncmp000	recursive=no|rep=no|theme=yes|rheme=no|main=yes	7	nsubj
-6	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	punct
+6	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	punct
 7	benefician	beneficiar	vmip3p0	vmip3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	cobj
 8	indirectamente	indirectamente	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	advmod
-9	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	punct
+9	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	punct
 10	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	7	dobj
 11	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	det
 12	guerrilla	guerrilla	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	pobj
 13	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	prepn
 14	UCK	UCK	np00000	np00000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	punct
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	punct
 16	que	que	pr0cn000	pr0cn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	nsubj
 17	combate	combatir	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	rcmod
 18	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	prepv
@@ -123,7 +123,7 @@
 10	estén	estar	vmsp3p0	vmsp3p0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	5	cobj
 11	a	a	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	10	advmod
 12	salvo	salvo	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	pobj
-13	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	punct
+13	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	4	punct
 14	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	15	punct
 15	dijo	decir	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 16	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	15	punct
@@ -233,7 +233,7 @@
 20	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	det
 21	últimos	último	ao0mp0	ao0mp0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	22	amod
 22	días	día	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	19	pobj
-23	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	punct
+23	&quot;	&quot;	fe	fe	recursive=no|rep=no|theme=no|rheme=yes|main=yes	3	punct
 24	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	25	punct
 25	dijo	decir	vmis3s0	vmis3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 26	Shea	Shea	np00000	np00000	recursive=yes|rep=yes|theme=no|rheme=no|main=yes	25	nsubj

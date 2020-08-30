@@ -81,7 +81,7 @@
 3	les	él	pp3cpd00	pp3cpd00	rep=no|t=no|r=yes|m=yes	4	iobj
 4	da	dar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	0	root
 5	calidad	calidad	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	4	dobj
-6	y	y	cc	cc	rep=no|t=no|r=no|m=no	4	coord_fixed
+6	y	y	cc	cc	rep=no|t=no|r=no|m=yes	4	coord_fixed
 7	dimensión	dimensión	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	4	dobj
 8	lírica	lírico	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	4	dobj
 9	.	.	fp	fp	rep=no|t=no|r=no|m=no	4	punct
@@ -99,7 +99,7 @@
 11	nos	yo	p010p000	p010p000	rep=no|t=no|r=no|m=yes	13	dobj
 12	las	él	pp3fpa00	pp3fpa00	rep=no|t=no|r=no|m=yes	13	dobj
 13	comemos	comer	vmip1p0	vmip1p0	rep=no|t=no|r=no|m=yes	10	cobj
-14	y	y	cc	cc	rep=no|t=no|r=no|m=no	10	coord_fixed
+14	y	y	cc	cc	rep=no|t=no|r=no|m=yes	10	coord_fixed
 15	se	él	p0300000	p0300000	rep=no|t=no|r=no|m=yes	16	reflec
 16	acabó	acabar	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	10	cobj
 17	.	.	fp	fp	rep=no|t=no|r=no|m=no	10	punct

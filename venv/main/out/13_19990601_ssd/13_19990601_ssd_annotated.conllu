@@ -33,7 +33,7 @@
 12	habitual	habitual	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	amod
 13	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=yes|main=yes	11	prepn
 14	litronas	litrona	ncfp000	ncfp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
-15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	punct
+15	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	17	punct
 16	altercados	altercado	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
 17	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	coord_fixed
 18	temor	temor	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	13	pobj
@@ -49,7 +49,7 @@
 28	civilizado	civilizado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	26	amod
 29	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	8	punct
 
-1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	4	coord_fixed
+1	Pero	pero	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	coord_fixed
 2	¿	¿	fia	fia	recursive=no|rep=no|theme=no|rheme=no|main=no	4	punct
 3	no	no	rn	rn	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	neg
 4	eran	ser	vsii3p0	vsii3p0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
@@ -71,7 +71,7 @@
 6	gentleman	gentleman	ncmn000	ncmn000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	nsubj
 7	del	del	spcms	spcms	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	prepn
 8	bombín	bombín	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	7	pobj
-9	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	3	coord_fixed
+9	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	coord_fixed
 10	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	det
 11	irónico	irónico	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	amod
 12	humor	humor	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	nsubj
@@ -188,7 +188,7 @@
 38	avinagrado	avinagrado	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	amod
 39	carácter	carácter	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	36	cobj
 40	flemático	flemático	aq0ms0	aq0ms0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	dep
-41	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	43	punct
+41	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	43	punct
 42	inalterable	inalterable	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	dep
 43	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	coord_fixed
 44	estreñido	estreñido	aq0msp	aq0msp	recursive=no|rep=no|theme=no|rheme=yes|main=yes	39	dep
@@ -202,8 +202,8 @@
 6	cabe	caber	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 7	la	el	da0fs0	da0fs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	det
 8	paciencia	paciencia	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	nsubj
-9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=no	10	punct
-10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	6	coord_fixed
+9	,	,	fc	fc	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	punct
+10	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	coord_fixed
 11	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	det
 12	ridículo	ridículo	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	6	nsubj
 13	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	12	prepn

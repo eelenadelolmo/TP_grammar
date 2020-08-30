@@ -39,7 +39,7 @@
 39	estreno	estreno	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	37	pobj
 40	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	39	prepn
 41	Leo	Leo	np00000	np00000	rep=no|t=no|r=yes|m=yes	40	pobj
-42	,	,	fc	fc	rep=no|t=no|r=no|m=yes	41	punct
+42	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	41	punct
 43	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	44	det
 44	filme	filme	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	41	appos
 45	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	44	prepn
@@ -231,10 +231,10 @@
 5	Bollaín	Bollaín	np0000l	np0000l	rep=no|t=no|r=no|m=yes	4	appos
 6	,	,	fc	fc	rep=no|t=no|r=no|m=yes	4	punct
 7	que	que	pr0cn000	pr0cn000	rep=no|t=yes|r=no|m=yes	12	nsubj
-8	,	,	fc	fc	rep=no|t=no|r=no|m=yes	12	punct
+8	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	12	punct
 9	sin	sin	sps00	sps00	rep=no|t=no|r=yes|m=yes	12	te
 10	embargo	embargo	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	9	pobj
-11	,	,	fc	fc	rep=no|t=no|r=no|m=yes	12	punct
+11	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	12	punct
 12	es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=yes|m=yes	4	rcmod
 13	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	14	det
 14	urbanita	urbanita	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	12	attr
@@ -286,7 +286,7 @@
 15	estudiar	estudiar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	14	pobj
 16	Bellas	bello	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	17	amod
 17	Artes	arte	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	15	dobj
-18	,	,	fc	fc	rep=no|t=no|r=no|m=yes	15	punct
+18	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	15	punct
 19	lo	el	da0ns0	da0ns0	rep=no|t=no|r=no|m=yes	20	det
 20	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	21	dobj
 21	hizo	hacer	vmis3s0	vmis3s0	rep=no|t=no|r=no|m=yes	15	rcmod

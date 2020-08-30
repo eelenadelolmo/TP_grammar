@@ -139,9 +139,9 @@
 21	también	también	rg	rg	rep=no|t=no|r=no|m=no	22	advmod
 22	participan	participar	vmip3p0	vmip3p0	rep=no|t=no|r=no|m=yes	0	root
 23	Sonera	Sonera	np00000	np00000	rep=no|t=no|r=no|m=yes	22	nsubj
-24	,	,	fc	fc	rep=no|t=no|r=no|m=no	26	punct
+24	,	,	fc	fc	rep=no|t=no|r=no|m=yes	26	punct
 25	Atlanet	Atlanet	np00000	np00000	rep=no|t=no|r=no|m=yes	22	nsubj
-26	y	y	cc	cc	rep=no|t=no|r=no|m=no	22	coord_fixed
+26	y	y	cc	cc	rep=no|t=no|r=no|m=yes	22	coord_fixed
 27	Banca	Banca	np0000o	np0000o	rep=no|t=yes|r=no|m=yes	28	nsubj
 28	di	dar	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	22	nsubj
 29	Roma	Roma	np0000l	np0000l	rep=no|t=no|r=yes|m=yes	28	dobj

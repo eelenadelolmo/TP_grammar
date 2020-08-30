@@ -27,7 +27,7 @@
 27	cáncer	cáncer	nccn000	nccn000	rep=no|t=no|r=yes|m=yes	25	pobj
 28	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	27	prepn
 29	hígado	hígado	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	28	pobj
-30	,	,	fc	fc	rep=no|t=no|r=no|m=yes	27	punct
+30	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	27	punct
 31	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=no|m=yes	33	nsubj
 32	le	él	pp3csd00	pp3csd00	rep=no|t=no|r=no|m=yes	33	iobj
 33	fue	ser	vsis3s0	vsis3s0	rep=no|t=no|r=no|m=yes	27	rcmod
@@ -223,7 +223,7 @@
 8	algo	algo	pi0cs000	pi0cs000	rep=no|t=no|r=yes|m=yes	7	dobj
 9	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	8	prepn
 10	cross	cross	ncmn000	ncmn000	rep=no|t=no|r=yes|m=yes	9	pobj
-11	:	:	fd	fd	rep=no|t=no|r=no|m=yes	13	punct
+11	:	:	fd	fd	rep=no|t=no|r=yes|m=yes	13	punct
 12	se	él	p0300000	p0300000	rep=no|t=no|r=yes|m=yes	13	reflec
 13	adaptó	adaptar	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	7	cobj
 14	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	13	oobj
@@ -253,9 +253,9 @@
 1	Su	su	dp3cs0	dp3cs0	rep=no|t=yes|r=no|m=yes	2	poss
 2	fórmula	fórmula	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	3	nsubj
 3	era	ser	vsii3s0	vsii3s0	rep=no|t=no|r=no|m=yes	0	root
-4	talento	talento	ncms000	ncms000	rep=no|t=no|r=no|m=no	5	cobj
-5	más	más	cc	cc	rep=no|t=no|r=no|m=no	3	coord_fixed
-6	esfuerzo	esfuerzo	ncms000	ncms000	rep=no|t=no|r=no|m=no	4	cobj
+4	talento	talento	ncms000	ncms000	rep=no|t=no|r=no|m=yes	5	cobj
+5	más	más	cc	cc	rep=no|t=no|r=no|m=yes	3	coord_fixed
+6	esfuerzo	esfuerzo	ncms000	ncms000	rep=no|t=no|r=no|m=yes	4	cobj
 7	.	.	fp	fp	rep=no|t=no|r=no|m=no	3	punct
 
 1	El	el	da0ms0	da0ms0	rep=no|t=no|r=no|m=yes	2	det

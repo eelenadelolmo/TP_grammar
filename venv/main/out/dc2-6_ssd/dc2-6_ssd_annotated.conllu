@@ -14,7 +14,7 @@
 14	cuestión	cuestión	ncfs000	ncfs000	recursive=no|rep=no|theme=no|rheme=yes|main=yes	12	pobj
 15	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	7	punct
 
-1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	5	coord_fixed
+1	Y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	coord_fixed
 2	el	el	da0ms0	da0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	det
 3	más	más	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	4	advmod
 4	importante	importante	aq0cs0	aq0cs0	recursive=no|rep=no|theme=no|rheme=no|main=yes	5	attr
@@ -34,18 +34,18 @@
 8	constituye	constituir	vmip3s0	vmip3s0	recursive=no|rep=no|theme=no|rheme=no|main=yes	0	root
 9	ningún	ninguno	di0ms0	di0ms0	recursive=no|rep=no|theme=no|rheme=no|main=yes	10	det
 10	problema	problema	ncms000	ncms000	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	dobj
-11	modificar	modificar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=no	18	cobj
-12	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=no	13	det
-13	genes	gen	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=no	11	dobj
-14	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	13	prepn
-15	microorganismos	microorganismo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=no	14	pobj
-16	absolutamente	absolutamente	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=no	17	advmod
-17	inofensivos	inofensivo	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=no|main=no	15	amod
-18	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=no	8	coord_fixed
-19	convertirlos	convertir	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=no	11	cobj
-20	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=no	19	oobj
-21	agentes	agente	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=no	20	pobj
-22	tóxicos	tóxico	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=no|main=no	21	amod
+11	modificar	modificar	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	18	cobj
+12	los	el	da0mp0	da0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	det
+13	genes	gen	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	dobj
+14	de	de	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	13	prepn
+15	microorganismos	microorganismo	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	14	pobj
+16	absolutamente	absolutamente	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	17	advmod
+17	inofensivos	inofensivo	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	15	amod
+18	y	y	cc	cc	recursive=no|rep=no|theme=no|rheme=no|main=yes	8	coord_fixed
+19	convertirlos	convertir	vmn0000	vmn0000	recursive=no|rep=no|theme=no|rheme=no|main=yes	11	cobj
+20	en	en	sps00	sps00	recursive=no|rep=no|theme=no|rheme=no|main=yes	19	oobj
+21	agentes	agente	ncmp000	ncmp000	recursive=no|rep=no|theme=no|rheme=no|main=yes	20	pobj
+22	tóxicos	tóxico	aq0mp0	aq0mp0	recursive=no|rep=no|theme=no|rheme=no|main=yes	21	amod
 23	.	.	fp	fp	recursive=no|rep=no|theme=no|rheme=no|main=no	8	punct
 
 1	Incluso	incluso	rg	rg	recursive=no|rep=no|theme=no|rheme=no|main=yes	3	advmod
