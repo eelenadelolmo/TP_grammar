@@ -25,8 +25,8 @@ grew.init()
 ## Directories paths
 
 # Input directory
-dir_original = 'in/AnCora_Surface_Syntax_Dependencies/conllu'
-# dir_original = 'in_short'
+# dir_original = 'in/AnCora_Surface_Syntax_Dependencies/conllu'
+dir_original = 'in_short'
 
 # Output directory
 # Deleting previous output directory (subfolder creation inside loop)
@@ -342,7 +342,7 @@ rule ignore_satellites_root_coord_fixed {
   pattern {
     X -[root]-> R;
     R [ main="yes" ];
-    R -[punct]-> C;
+    R -[coord_fixed]-> C;
   }
   commands {
     C.main=no;
@@ -423,7 +423,7 @@ grs_rheme_cleaning = """
 rule rheme_not_rcmod {
   pattern {
     R [ rheme="yes" ];
-    X -[^prepv]-> R;
+    X -[^prepv|prepn]-> R;
     R -[rcmod]-> C;
   }
   commands {
