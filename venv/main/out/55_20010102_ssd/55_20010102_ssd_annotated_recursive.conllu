@@ -1,0 +1,38 @@
+1	De	de	sps00	sps00	rep=no|t=no|r=no|m=yes	0	root
+2	los	el	da0mp0	da0mp0	rep=no|t=no|r=no|m=yes	3	det
+3	catalanes	catalán	ncmp000	ncmp000	rep=no|t=no|r=no|m=yes	1	pobj
+4	como	como	cs	cs	rep=no|t=no|r=no|m=yes	1	dep
+5	ahora	ahora	rg	rg	rep=no|t=no|r=no|m=yes	4	advmod
+6	.	.	fp	fp	rep=no|t=no|r=no|m=no	1	punct
+
+1	Para	para	sps00	sps00	rep=no|t=no|r=no|m=no	9	advcl
+2	Maragall	Maragall	np00000	np00000	rep=no|t=no|r=no|m=no	1	pobj
+3	,	,	fc	fc	rep=no|t=no|r=no|m=no	9	punct
+4	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	6	det
+5	actual	actual	aq0cs0	aq0cs0	rep=no|t=yes|r=no|m=yes	6	amod
+6	Gobierno	Gobierno	np00000	np00000	rep=no|t=yes|r=no|m=yes	9	nsubj
+7	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	6	prepn
+8	Pujol	Pujol	np00000	np00000	rep=no|t=yes|r=no|m=yes	7	pobj
+9	es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=yes|m=yes	0	root
+10	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	12	punct
+11	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	12	det
+12	peor	peor	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	9	attr
+13	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	12	prepa
+14	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	15	det
+15	Catalunya	Catalunya	np00000	np00000	rep=no|t=no|r=yes|m=yes	13	pobj
+16	autónoma	autónomo	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	15	amod
+17	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	12	punct
+18	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	9	prepv
+19	causa	causa	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	18	pobj
+20	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	19	prepn
+21	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	23	det
+22	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	23	punct
+23	errores	error	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	20	pobj
+24	sin	sin	sps00	sps00	rep=no|t=no|r=yes|m=yes	23	prepn
+25	precedentes	precedente	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	24	pobj
+26	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	23	punct
+27	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	23	prepn
+28	president	president	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	27	pobj
+29	.	.	fp	fp	rep=no|t=no|r=no|m=no	9	punct
+
+

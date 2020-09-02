@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Drawing the trees for the sentences in the text</title>
+    
+        <script>
+            function SyncScroll(page) {
+              var div1 = document.getElementById("left");
+              var div2 = document.getElementById("right");
+              if (page=="left") {
+                div2.scrollTop = div1.scrollTop;
+              }
+              else {
+                div1.scrollTop = div2.scrollTop;
+              }
+            }
+        </script>
+    
+        <style>
+    
+            .split {
+              height: 100%;
+              width: 50%;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              overflow-x: auto;
+              padding-top: 20px;
+            }
+    
+            /* Control the left side */
+            .original {
+              left: 0;
+            }
+    
+            /* Control the right side */
+            .rewriten {
+              right: 0;
+            }
+    
+        </style>
+    
+    </head>
+    
+    <body>
+    
+        <div class="split original" id="left" onscroll="SyncScroll('left')">
+    
+			<p> Creo que el título más apropiado para una colección de artículos de crítica cinematográfica es el que Guiliermo Cabrera Infante escogió para su libro &quot; Un oficio del siglo XX &quot;.
+</p>
+			<a href="../svg/a19-0_ssd_left/a19-0_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/a19-0_ssd_left/a19-0_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> ¿ Cuál si no se habría podido designar un trabajo surgido en torno a un quehacer que los griegos no pudieron imaginar entre sus seis categorías artísticas y hoy llamamos &quot; el séptimo arte &quot;.
+</p>
+			<a href="../svg/a19-0_ssd_left/a19-0_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/a19-0_ssd_left/a19-0_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> Está bien que Guillemmo lo califique de oficio.
+</p>
+			<a href="../svg/a19-0_ssd_left/a19-0_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/a19-0_ssd_left/a19-0_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+			<p> Así le quita solemnidad a la tarea que desempeñó durante mucho tiempo como &quot; el cronista &quot; que suscribía con el seudónimo de G. Caín sus comentarios sobre la nueva y deslumbrante ficción nacida con el siglo.
+</p>
+			<a href="../svg/a19-0_ssd_left/a19-0_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/a19-0_ssd_left/a19-0_ssd_rewriten_complete-004.svg" border="1" width="100%"></a>
+
+        </div>
+
+        <div class="split rewriten" id="right" onscroll="SyncScroll('right')">
+    
+			<p> Creo que el título más apropiado para una colección de artículos de crítica cinematográfica es el que Guiliermo Cabrera Infante escogió para su libro &quot; Un oficio del siglo XX &quot;.
+</p>
+			<a href="../svg/a19-0_ssd_right/a19-0_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/a19-0_ssd_right/a19-0_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> ¿ Cuál si no se habría podido designar un trabajo surgido en torno a un quehacer que los griegos no pudieron imaginar entre sus seis categorías artísticas y hoy llamamos &quot; el séptimo arte &quot;.
+</p>
+			<a href="../svg/a19-0_ssd_right/a19-0_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/a19-0_ssd_right/a19-0_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> Está bien que Guillemmo lo califique de oficio.
+</p>
+			<a href="../svg/a19-0_ssd_right/a19-0_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/a19-0_ssd_right/a19-0_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+			<p> Así le quita solemnidad a la tarea que desempeñó durante mucho tiempo como &quot; el cronista &quot; que suscribía con el seudónimo de G. Caín sus comentarios sobre la nueva y deslumbrante ficción nacida con el siglo.
+</p>
+			<a href="../svg/a19-0_ssd_right/a19-0_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/a19-0_ssd_right/a19-0_ssd_rewriten_complete-004.svg" border="1" width="100%"></a>
+
+        </div>
+    
+    </body>
+</html>
+    

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Drawing the trees for the sentences in the text</title>
+    
+        <script>
+            function SyncScroll(page) {
+              var div1 = document.getElementById("left");
+              var div2 = document.getElementById("right");
+              if (page=="left") {
+                div2.scrollTop = div1.scrollTop;
+              }
+              else {
+                div1.scrollTop = div2.scrollTop;
+              }
+            }
+        </script>
+    
+        <style>
+    
+            .split {
+              height: 100%;
+              width: 50%;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              overflow-x: auto;
+              padding-top: 20px;
+            }
+    
+            /* Control the left side */
+            .original {
+              left: 0;
+            }
+    
+            /* Control the right side */
+            .rewriten {
+              right: 0;
+            }
+    
+        </style>
+    
+    </head>
+    
+    <body>
+    
+        <div class="split original" id="left" onscroll="SyncScroll('left')">
+    
+			<p> El Tesoro ha reducido en 0,242 puntos la rentabilidad de las letras a 12 y 18 meses , hasta situarla en el 4,584 por ciento y el 4,590 por ciento , respectivamente , según datos del Banco de España.
+</p>
+			<a href="../svg/15311_20001220_ssd_left/15311_20001220_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/15311_20001220_ssd_left/15311_20001220_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> Estas letras se emitirán el próximo 21 de diciembre y conllevan una reducción con respecto a la última subasta , en la que se adjudicaron letras a un año al 4,826 por ciento , y letras a 18 meses al 4,832 por ciento.
+</p>
+			<a href="../svg/15311_20001220_ssd_left/15311_20001220_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/15311_20001220_ssd_left/15311_20001220_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> En letras a 12 meses , el Tesoro ha adjudicado 231 millones de euros ( 38.435 millones de pesetas ) de los 1.864 millones solicitados , en tanto que en letras a 18 meses el Tesoro emitirá 669 millones de euros ( 111.312 millones de pesetas ) de los 2.866 millones de euros demandados.
+</p>
+			<a href="../svg/15311_20001220_ssd_left/15311_20001220_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/15311_20001220_ssd_left/15311_20001220_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+
+        </div>
+
+        <div class="split rewriten" id="right" onscroll="SyncScroll('right')">
+    
+			<p> El Tesoro ha reducido en 0,242 puntos la rentabilidad de las letras a 12 y 18 meses , hasta situarla en el 4,584 por ciento y el 4,590 por ciento , respectivamente , según datos del Banco de España.
+</p>
+			<a href="../svg/15311_20001220_ssd_right/15311_20001220_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/15311_20001220_ssd_right/15311_20001220_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> Estas letras se emitirán el próximo 21 de diciembre y conllevan una reducción con respecto a la última subasta , en la que se adjudicaron letras a un año al 4,826 por ciento , y letras a 18 meses al 4,832 por ciento.
+</p>
+			<a href="../svg/15311_20001220_ssd_right/15311_20001220_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/15311_20001220_ssd_right/15311_20001220_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> En letras a 12 meses , el Tesoro ha adjudicado 231 millones de euros ( 38.435 millones de pesetas ) de los 1.864 millones solicitados , en tanto que en letras a 18 meses el Tesoro emitirá 669 millones de euros ( 111.312 millones de pesetas ) de los 2.866 millones de euros demandados.
+</p>
+			<a href="../svg/15311_20001220_ssd_right/15311_20001220_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/15311_20001220_ssd_right/15311_20001220_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+
+        </div>
+    
+    </body>
+</html>
+    

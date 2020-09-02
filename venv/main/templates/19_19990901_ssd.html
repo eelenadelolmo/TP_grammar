@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Drawing the trees for the sentences in the text</title>
+    
+        <script>
+            function SyncScroll(page) {
+              var div1 = document.getElementById("left");
+              var div2 = document.getElementById("right");
+              if (page=="left") {
+                div2.scrollTop = div1.scrollTop;
+              }
+              else {
+                div1.scrollTop = div2.scrollTop;
+              }
+            }
+        </script>
+    
+        <style>
+    
+            .split {
+              height: 100%;
+              width: 50%;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              overflow-x: auto;
+              padding-top: 20px;
+            }
+    
+            /* Control the left side */
+            .original {
+              left: 0;
+            }
+    
+            /* Control the right side */
+            .rewriten {
+              right: 0;
+            }
+    
+        </style>
+    
+    </head>
+    
+    <body>
+    
+        <div class="split original" id="left" onscroll="SyncScroll('left')">
+    
+			<p> Los tres españoles liberados regresarán a España en el primer vuelo disponible , según informó a Efe el subdirector de la Oficina de Información Diplomática ( OID ) , José Luis Solano.
+</p>
+			<a href="../svg/19_19990901_ssd_left/19_19990901_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/19_19990901_ssd_left/19_19990901_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> Los liberados , los religiosos Cosme Puerto y Joaquín Fernández y el informático Pedro García , serán trasladados a Teherán hoy.
+</p>
+			<a href="../svg/19_19990901_ssd_left/19_19990901_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/19_19990901_ssd_left/19_19990901_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> Una vez en la capital iraní , regresarán a España en cuanto puedan , a última hora de hoy o mañana.
+</p>
+			<a href="../svg/19_19990901_ssd_left/19_19990901_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/19_19990901_ssd_left/19_19990901_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+			<p> Los cautivos iban en principio a pasar la noche en un hotel de Kerman , a 700 kilómetros de la capital iraní , adonde iban a ser conducidos desde la zona del secuestro.
+</p>
+			<a href="../svg/19_19990901_ssd_left/19_19990901_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/19_19990901_ssd_left/19_19990901_ssd_rewriten_complete-004.svg" border="1" width="100%"></a>
+			<p> Finalmente decidieron pernoctar en la ciudad de Zahedan por encontrarse muy cansados , según informó Juan Carlos Gafo , consejero de la Embajada de España en Teherán.
+</p>
+			<a href="../svg/19_19990901_ssd_left/19_19990901_ssd_rewriten_complete-005.svg" target="_blank"><img src="../svg/19_19990901_ssd_left/19_19990901_ssd_rewriten_complete-005.svg" border="1" width="100%"></a>
+
+        </div>
+
+        <div class="split rewriten" id="right" onscroll="SyncScroll('right')">
+    
+			<p> Los tres españoles liberados regresarán a España en el primer vuelo disponible , según informó a Efe el subdirector de la Oficina de Información Diplomática ( OID ) , José Luis Solano.
+</p>
+			<a href="../svg/19_19990901_ssd_right/19_19990901_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/19_19990901_ssd_right/19_19990901_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> Los liberados , los religiosos Cosme Puerto y Joaquín Fernández y el informático Pedro García , serán trasladados a Teherán hoy.
+</p>
+			<a href="../svg/19_19990901_ssd_right/19_19990901_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/19_19990901_ssd_right/19_19990901_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> Una vez en la capital iraní , regresarán a España en cuanto puedan , a última hora de hoy o mañana.
+</p>
+			<a href="../svg/19_19990901_ssd_right/19_19990901_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/19_19990901_ssd_right/19_19990901_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+			<p> Los cautivos iban en principio a pasar la noche en un hotel de Kerman , a 700 kilómetros de la capital iraní , adonde iban a ser conducidos desde la zona del secuestro.
+</p>
+			<a href="../svg/19_19990901_ssd_right/19_19990901_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/19_19990901_ssd_right/19_19990901_ssd_rewriten_complete-004.svg" border="1" width="100%"></a>
+			<p> Finalmente decidieron pernoctar en la ciudad de Zahedan por encontrarse muy cansados , según informó Juan Carlos Gafo , consejero de la Embajada de España en Teherán.
+</p>
+			<a href="../svg/19_19990901_ssd_right/19_19990901_ssd_rewriten_complete-005.svg" target="_blank"><img src="../svg/19_19990901_ssd_right/19_19990901_ssd_rewriten_complete-005.svg" border="1" width="100%"></a>
+
+        </div>
+    
+    </body>
+</html>
+    

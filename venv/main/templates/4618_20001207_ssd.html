@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Drawing the trees for the sentences in the text</title>
+    
+        <script>
+            function SyncScroll(page) {
+              var div1 = document.getElementById("left");
+              var div2 = document.getElementById("right");
+              if (page=="left") {
+                div2.scrollTop = div1.scrollTop;
+              }
+              else {
+                div1.scrollTop = div2.scrollTop;
+              }
+            }
+        </script>
+    
+        <style>
+    
+            .split {
+              height: 100%;
+              width: 50%;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              overflow-x: auto;
+              padding-top: 20px;
+            }
+    
+            /* Control the left side */
+            .original {
+              left: 0;
+            }
+    
+            /* Control the right side */
+            .rewriten {
+              right: 0;
+            }
+    
+        </style>
+    
+    </head>
+    
+    <body>
+    
+        <div class="split original" id="left" onscroll="SyncScroll('left')">
+    
+			<p> El delantero colombiano Carlos Castro que milita en Millonarios , equipo que quedó eliminado del cuadrangular final del Campeonato Profesional Colombiano , se afianza cada vez más como el goleador general del torneo , pues sus adversarios que están en competencia , se alejan cada vez más de la opción de alcanzarlo.
+</p>
+			<a href="../svg/4618_20001207_ssd_left/4618_20001207_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/4618_20001207_ssd_left/4618_20001207_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> Castro que sumó 24 goles en la temporada , espera pacientemente a que termine la final colombiana , en la que sus más inmediatos rivales el brasileño Marquinho y el colombiano Orlando Ballesteros , ambos del Junior , suman tan solo 16 y 15 goles , respectivamente , y quienes en la jornada de hoy no tuvieron opción de acortar la ventaja.
+</p>
+			<a href="../svg/4618_20001207_ssd_left/4618_20001207_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/4618_20001207_ssd_left/4618_20001207_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> El único que sumó hoy en la tabla fue Edison Mafla de Santa Fe , que llegó a 13 anotaciones , mientras que Juan Carlos Ramírez del Junior que también anotó gol hoy , está muy lejos de llegar a la cabeza de la tabla.
+</p>
+			<a href="../svg/4618_20001207_ssd_left/4618_20001207_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/4618_20001207_ssd_left/4618_20001207_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+
+        </div>
+
+        <div class="split rewriten" id="right" onscroll="SyncScroll('right')">
+    
+			<p> El delantero colombiano Carlos Castro que milita en Millonarios , equipo que quedó eliminado del cuadrangular final del Campeonato Profesional Colombiano , se afianza cada vez más como el goleador general del torneo , pues sus adversarios que están en competencia , se alejan cada vez más de la opción de alcanzarlo.
+</p>
+			<a href="../svg/4618_20001207_ssd_right/4618_20001207_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/4618_20001207_ssd_right/4618_20001207_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> Castro que sumó 24 goles en la temporada , espera pacientemente a que termine la final colombiana , en la que sus más inmediatos rivales el brasileño Marquinho y el colombiano Orlando Ballesteros , ambos del Junior , suman tan solo 16 y 15 goles , respectivamente , y quienes en la jornada de hoy no tuvieron opción de acortar la ventaja.
+</p>
+			<a href="../svg/4618_20001207_ssd_right/4618_20001207_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/4618_20001207_ssd_right/4618_20001207_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> El único que sumó hoy en la tabla fue Edison Mafla de Santa Fe , que llegó a 13 anotaciones , mientras que Juan Carlos Ramírez del Junior que también anotó gol hoy , está muy lejos de llegar a la cabeza de la tabla.
+</p>
+			<a href="../svg/4618_20001207_ssd_right/4618_20001207_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/4618_20001207_ssd_right/4618_20001207_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+
+        </div>
+    
+    </body>
+</html>
+    

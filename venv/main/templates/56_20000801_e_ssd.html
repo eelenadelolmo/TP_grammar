@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Drawing the trees for the sentences in the text</title>
+    
+        <script>
+            function SyncScroll(page) {
+              var div1 = document.getElementById("left");
+              var div2 = document.getElementById("right");
+              if (page=="left") {
+                div2.scrollTop = div1.scrollTop;
+              }
+              else {
+                div1.scrollTop = div2.scrollTop;
+              }
+            }
+        </script>
+    
+        <style>
+    
+            .split {
+              height: 100%;
+              width: 50%;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              overflow-x: auto;
+              padding-top: 20px;
+            }
+    
+            /* Control the left side */
+            .original {
+              left: 0;
+            }
+    
+            /* Control the right side */
+            .rewriten {
+              right: 0;
+            }
+    
+        </style>
+    
+    </head>
+    
+    <body>
+    
+        <div class="split original" id="left" onscroll="SyncScroll('left')">
+    
+			<p> Enlace de la C-240 con la variante de Montblanc.
+</p>
+			<a href="../svg/56_20000801_e_ssd_left/56_20000801_e_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/56_20000801_e_ssd_left/56_20000801_e_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> Las obras del enlace de la carretera C-240 con la recién inaugurada variante de la carretera N-240 a su paso por Montblanc , presupuestadas en 570 millones de pesetas , ya se han iniciado y está previsto que finalicen a principios del próximo mes de enero.
+</p>
+			<a href="../svg/56_20000801_e_ssd_left/56_20000801_e_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/56_20000801_e_ssd_left/56_20000801_e_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> Este nuevo vial permitirá que los vehículos que proceden de las comarcas del Baix Camp y Alt Camp puedan incorporarse a la circunvalación que se abrió al tráfico el pasado viernes y que ha permitido eliminar el paso de más de 5.000 vehículos diarios por el casco urbano de la población.
+</p>
+			<a href="../svg/56_20000801_e_ssd_left/56_20000801_e_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/56_20000801_e_ssd_left/56_20000801_e_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+
+        </div>
+
+        <div class="split rewriten" id="right" onscroll="SyncScroll('right')">
+    
+			<p> Enlace de la C-240 con la variante de Montblanc.
+</p>
+			<a href="../svg/56_20000801_e_ssd_right/56_20000801_e_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/56_20000801_e_ssd_right/56_20000801_e_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> Las obras del enlace de la carretera C-240 con la recién inaugurada variante de la carretera N-240 a su paso por Montblanc , presupuestadas en 570 millones de pesetas , ya se han iniciado y está previsto que finalicen a principios del próximo mes de enero.
+</p>
+			<a href="../svg/56_20000801_e_ssd_right/56_20000801_e_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/56_20000801_e_ssd_right/56_20000801_e_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> Este nuevo vial permitirá que los vehículos que proceden de las comarcas del Baix Camp y Alt Camp puedan incorporarse a la circunvalación que se abrió al tráfico el pasado viernes y que ha permitido eliminar el paso de más de 5.000 vehículos diarios por el casco urbano de la población.
+</p>
+			<a href="../svg/56_20000801_e_ssd_right/56_20000801_e_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/56_20000801_e_ssd_right/56_20000801_e_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+
+        </div>
+    
+    </body>
+</html>
+    

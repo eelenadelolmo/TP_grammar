@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Drawing the trees for the sentences in the text</title>
+    
+        <script>
+            function SyncScroll(page) {
+              var div1 = document.getElementById("left");
+              var div2 = document.getElementById("right");
+              if (page=="left") {
+                div2.scrollTop = div1.scrollTop;
+              }
+              else {
+                div1.scrollTop = div2.scrollTop;
+              }
+            }
+        </script>
+    
+        <style>
+    
+            .split {
+              height: 100%;
+              width: 50%;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              overflow-x: auto;
+              padding-top: 20px;
+            }
+    
+            /* Control the left side */
+            .original {
+              left: 0;
+            }
+    
+            /* Control the right side */
+            .rewriten {
+              right: 0;
+            }
+    
+        </style>
+    
+    </head>
+    
+    <body>
+    
+        <div class="split original" id="left" onscroll="SyncScroll('left')">
+    
+			<p> Tres personas fallecidas y dos heridas es el balance de los dos accidentes que se produjeron en la madrugada de ayer como resultado de colisiones contra caballos.
+</p>
+			<a href="../svg/29_19990802_ssd_left/29_19990802_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/29_19990802_ssd_left/29_19990802_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> En la localidad de Las Navas del Marqués ( Avila ) , un turismo impactó sobre las 3.15 horas contra un caballo que se encontraba suelto en la carretera.
+</p>
+			<a href="../svg/29_19990802_ssd_left/29_19990802_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/29_19990802_ssd_left/29_19990802_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> Como consecuencia de la colisión , el vehículo invadió el carril del sentido contrario y se estrelló contra otros dos coches.
+</p>
+			<a href="../svg/29_19990802_ssd_left/29_19990802_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/29_19990802_ssd_left/29_19990802_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+			<p> Fruto del choque murieron dos jóvenes de 22 años y otras dos personas resultaron heridas.
+</p>
+			<a href="../svg/29_19990802_ssd_left/29_19990802_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/29_19990802_ssd_left/29_19990802_ssd_rewriten_complete-004.svg" border="1" width="100%"></a>
+			<p> En Huelva , una persona falleció en la localidad de Manzanilla también después de atropellar a un caballo a las 4.05 horas.
+</p>
+			<a href="../svg/29_19990802_ssd_left/29_19990802_ssd_rewriten_complete-005.svg" target="_blank"><img src="../svg/29_19990802_ssd_left/29_19990802_ssd_rewriten_complete-005.svg" border="1" width="100%"></a>
+
+        </div>
+
+        <div class="split rewriten" id="right" onscroll="SyncScroll('right')">
+    
+			<p> Tres personas fallecidas y dos heridas es el balance de los dos accidentes que se produjeron en la madrugada de ayer como resultado de colisiones contra caballos.
+</p>
+			<a href="../svg/29_19990802_ssd_right/29_19990802_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/29_19990802_ssd_right/29_19990802_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> En la localidad de Las Navas del Marqués ( Avila ) , un turismo impactó sobre las 3.15 horas contra un caballo que se encontraba suelto en la carretera.
+</p>
+			<a href="../svg/29_19990802_ssd_right/29_19990802_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/29_19990802_ssd_right/29_19990802_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> Como consecuencia de la colisión , el vehículo invadió el carril del sentido contrario y se estrelló contra otros dos coches.
+</p>
+			<a href="../svg/29_19990802_ssd_right/29_19990802_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/29_19990802_ssd_right/29_19990802_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+			<p> Fruto del choque murieron dos jóvenes de 22 años y otras dos personas resultaron heridas.
+</p>
+			<a href="../svg/29_19990802_ssd_right/29_19990802_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/29_19990802_ssd_right/29_19990802_ssd_rewriten_complete-004.svg" border="1" width="100%"></a>
+			<p> En Huelva , una persona falleció en la localidad de Manzanilla también después de atropellar a un caballo a las 4.05 horas.
+</p>
+			<a href="../svg/29_19990802_ssd_right/29_19990802_ssd_rewriten_complete-005.svg" target="_blank"><img src="../svg/29_19990802_ssd_right/29_19990802_ssd_rewriten_complete-005.svg" border="1" width="100%"></a>
+
+        </div>
+    
+    </body>
+</html>
+    

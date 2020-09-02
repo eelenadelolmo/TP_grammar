@@ -5,6 +5,7 @@ import grew
 import os
 import shutil
 import webbrowser
+import natsort
 import re
 
 # Install Grew and its requirements, and the Grew package must be loaded for the project. Installation nstructions can be found here: http://grew.fr/install/
@@ -25,12 +26,13 @@ grew.init()
 ## Directories paths
 
 # Input directory
-# dir_original = 'in/AnCora_Surface_Syntax_Dependencies/conllu'
-dir_original = 'in_short'
+dir_original = 'in/AnCora_Surface_Syntax_Dependencies/conllu'
+# dir_original = 'in_short'
 
 # Output directory
 # Deleting previous output directory (subfolder creation inside loop)
 dir_output = 'out'
+# dir_output = 'out_short'
 shutil.rmtree(dir_output, ignore_errors=True)
 os.makedirs(dir_output)
 
@@ -732,7 +734,7 @@ for d in os.listdir(dir_svg):
     os.rename(dir_svg + '/' + d, dir_svg + '/' + d + '_left')
 
 
-## Colouring in background green nodes corresponding to main clauses
+## Colouring specific nodes
 
 # Creating the dictionary of annotation types and the corresponding color for the ellipses containing that feature
 # colors_right = {'main': '#98D2A5', 'theme': '#BEDA48'}            # Testing more than one
@@ -882,7 +884,7 @@ for nombre in nombres_textos:
 
     n_sentence = 0
     left_img_html = ""
-    nombres_imgs_left.sort()
+    nombres_imgs_left = natsort.natsorted(nombres_imgs_left)
 
     for nombre_img in nombres_imgs_left:
         left_img_html = left_img_html + '\t\t\t' + '<p>' + text_sentences[n_sentence] + '</p>' + '\n\t\t\t<a href="../svg/' + nombre + '_left/' + nombre_img + '" target="_blank"><img src="../svg/' + nombre + '_left/' + nombre_img + '" border="1" width="100%"></a>' + '\n'
@@ -890,7 +892,7 @@ for nombre in nombres_textos:
 
     n_sentence = 0
     right_img_html = ""
-    nombres_imgs_right.sort()
+    nombres_imgs_right = natsort.natsorted(nombres_imgs_right)
 
     for nombre_img in nombres_imgs_right:
         right_img_html = right_img_html + '\t\t\t' + '<p>' + text_sentences[n_sentence] + '</p>' + '\n\t\t\t<a href="../svg/' + nombre + '_right/' + nombre_img + '" target="_blank"><img src="../svg/' + nombre + '_right/' + nombre_img + '" border="1" width="100%"></a>' + '\n'

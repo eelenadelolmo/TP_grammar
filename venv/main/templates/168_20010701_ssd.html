@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Drawing the trees for the sentences in the text</title>
+    
+        <script>
+            function SyncScroll(page) {
+              var div1 = document.getElementById("left");
+              var div2 = document.getElementById("right");
+              if (page=="left") {
+                div2.scrollTop = div1.scrollTop;
+              }
+              else {
+                div1.scrollTop = div2.scrollTop;
+              }
+            }
+        </script>
+    
+        <style>
+    
+            .split {
+              height: 100%;
+              width: 50%;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              overflow-x: auto;
+              padding-top: 20px;
+            }
+    
+            /* Control the left side */
+            .original {
+              left: 0;
+            }
+    
+            /* Control the right side */
+            .rewriten {
+              right: 0;
+            }
+    
+        </style>
+    
+    </head>
+    
+    <body>
+    
+        <div class="split original" id="left" onscroll="SyncScroll('left')">
+    
+			<p> Josep Maria Ollé , concejal de Hacienda del Ayuntamiento de Valls ( PSC-ERC ) y máximo responsable del Pius Hospital de la ciudad , está siendo investigado por la fiscalía de Tarragona.
+</p>
+			<a href="../svg/168_20010701_ssd_left/168_20010701_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/168_20010701_ssd_left/168_20010701_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> Las primeras informaciones apuntan a que existen documentos con fundados indicios de que Ollé , edil independiente adscrito al grupo del PSC , &quot; habría utilizado indebidamente y para usos personales unos 14 millones de la sociedad municipal que rige el centro médico &quot; , según fuentes conocedoras del caso.
+</p>
+			<a href="../svg/168_20010701_ssd_left/168_20010701_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/168_20010701_ssd_left/168_20010701_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> Josep Maria Ollé , EX militante de UDC , fue una de las apuestas del actual alcalde , el socialista Francesc Moreno , al confeccionar la candidatura para las elecciones de 1999 y ocupó el tercer puesto de la lista.
+</p>
+			<a href="../svg/168_20010701_ssd_left/168_20010701_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/168_20010701_ssd_left/168_20010701_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+			<p> El edil podría dimitir en las próximas horas.
+</p>
+			<a href="../svg/168_20010701_ssd_left/168_20010701_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/168_20010701_ssd_left/168_20010701_ssd_rewriten_complete-004.svg" border="1" width="100%"></a>
+
+        </div>
+
+        <div class="split rewriten" id="right" onscroll="SyncScroll('right')">
+    
+			<p> Josep Maria Ollé , concejal de Hacienda del Ayuntamiento de Valls ( PSC-ERC ) y máximo responsable del Pius Hospital de la ciudad , está siendo investigado por la fiscalía de Tarragona.
+</p>
+			<a href="../svg/168_20010701_ssd_right/168_20010701_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/168_20010701_ssd_right/168_20010701_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> Las primeras informaciones apuntan a que existen documentos con fundados indicios de que Ollé , edil independiente adscrito al grupo del PSC , &quot; habría utilizado indebidamente y para usos personales unos 14 millones de la sociedad municipal que rige el centro médico &quot; , según fuentes conocedoras del caso.
+</p>
+			<a href="../svg/168_20010701_ssd_right/168_20010701_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/168_20010701_ssd_right/168_20010701_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> Josep Maria Ollé , EX militante de UDC , fue una de las apuestas del actual alcalde , el socialista Francesc Moreno , al confeccionar la candidatura para las elecciones de 1999 y ocupó el tercer puesto de la lista.
+</p>
+			<a href="../svg/168_20010701_ssd_right/168_20010701_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/168_20010701_ssd_right/168_20010701_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+			<p> El edil podría dimitir en las próximas horas.
+</p>
+			<a href="../svg/168_20010701_ssd_right/168_20010701_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/168_20010701_ssd_right/168_20010701_ssd_rewriten_complete-004.svg" border="1" width="100%"></a>
+
+        </div>
+    
+    </body>
+</html>
+    
