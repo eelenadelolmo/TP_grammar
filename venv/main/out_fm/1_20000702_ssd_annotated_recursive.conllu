@@ -1,329 +1,358 @@
-22	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	23	det
-23	Real	real	ncfp000	ncfp000	rep=no|t=yes|r=no|m=yes	29	nsubj
-24	Academia	academia	ncfp000	ncfp000	rep=no|t=yes|r=no|m=yes	23	appos
-25	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	23	prepn
-26	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	27	det
-27	Historia	Historia	np00000	np00000	rep=no|t=yes|r=no|m=yes	25	pobj
-28	se	él	p0300000	p0300000	rep=no|t=no|r=yes|m=yes	29	reflec
-29	equivocó	equivocar	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	21	cobj
-30	al	al	spcms	spcms	rep=no|t=no|r=yes|m=yes	29	prepv
-31	asegurar	asegurar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	30	pobj
-32	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	31	dobj
-33	las	el	da0fp0	da0fp0	rep=no|t=no|r=yes|m=yes	34	det
-34	comunidades	comunidad	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	36	nsubj
-35	autónomas	autónomo	aq0fp0	aq0fp0	rep=no|t=no|r=yes|m=yes	34	amod
-36	tergiversan	tergiversar	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	32	cobj
-37	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	38	det
-38	pasado	pasado	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	36	dobj
-39	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	32	coord_fixed
-40	silencian	silenciar	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	32	cobj
-41	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	42	det
-42	concepto	concepto	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	40	dobj
-43	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	42	prepn
-44	España	España	np00000	np00000	rep=no|t=no|r=yes|m=yes	43	pobj
+1	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	2	de	_	_
+2	Real	real	ncfp000	ncfp000	rep=no|t=yes|r=no|m=yes	1	Informatio	_	_
+3	Academia	academia	ncfp000	ncfp000	rep=no|t=yes|r=no|m=yes	1	Informatio	_	_
+4	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	1	Informatio	_	_
+5	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	1	Informatio	_	_
+6	Historia	Historia	np00000	np00000	rep=no|t=yes|r=no|m=yes	1	Informatio	_	_
+7	se	él	p0300000	p0300000	rep=no|t=no|r=yes|m=yes	8	refle	_	_
+8	equivocó	equivocar	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	21	cob	_	_
+9	al	al	spcms	spcms	rep=no|t=no|r=yes|m=yes	8	prep	_	_
+10	asegurar	asegurar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	9	Informatio	_	_
+11	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	9	Informatio	_	_
+12	las	el	da0fp0	da0fp0	rep=no|t=no|r=yes|m=yes	9	Informatio	_	_
+13	comunidades	comunidad	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	9	Informatio	_	_
+14	autónomas	autónomo	aq0fp0	aq0fp0	rep=no|t=no|r=yes|m=yes	9	Informatio	_	_
+15	tergiversan	tergiversar	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	9	Informatio	_	_
+16	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	9	Informatio	_	_
+17	pasado	pasado	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	9	Informatio	_	_
+18	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	11	coord_fixe	_	_
+19	silencian	silenciar	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	11	cob	_	_
+20	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	21	de	_	_
+21	concepto	concepto	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	20	Topi	_	_
+22	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	20	Topi	_	_
+23	España	España	np00000	np00000	rep=no|t=no|r=yes|m=yes	22	pob	_	_
 
-1	La	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	2	det
-2	mayoría	mayoría	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	5	nsubj
-3	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	2	prepn
-4	manuales	manual	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	3	pobj
-5	desarrolla	desarrollar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	0	root
-6	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	7	det
-7	pasado	pasado	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	5	dobj
-8	común	común	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	7	amod
 
-1	Los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	2	det
-2	libros	libro	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	5	nsubj
-3	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	2	prepn
-4	texto	texto	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	3	pobj
-5	ofrecen	ofrecer	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	0	root
-6	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	5	iobj
-7	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	8	det
-8	escolares	escolar	nccp000	nccp000	rep=no|t=no|r=yes|m=yes	6	pobj
-9	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	10	det
-10	visión	visión	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	5	dobj
-11	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepn
-12	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	13	det
-13	historia	historia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	11	pobj
-14	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	13	prepn
-15	España	España	np00000	np00000	rep=no|t=no|r=yes|m=yes	14	pobj
-16	equilibrada	equilibrado	aq0fsp	aq0fsp	rep=no|t=no|r=yes|m=yes	10	prepn
-17	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	19	punct
-18	universal	universal	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	10	prepn
-19	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	10	coord_fixed
-20	ajustada	ajustado	aq0fsp	aq0fsp	rep=no|t=no|r=yes|m=yes	10	prepn
-21	al	al	spcms	spcms	rep=no|t=no|r=yes|m=yes	20	oobj
-22	espíritu	espíritu	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	21	pobj
-23	plural	plural	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	22	dep
-24	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	22	coord_fixed
-25	democrático	democrático	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	22	dep
-26	inspirado	inspirado	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	22	amod
-27	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	26	oobj
-28	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	29	det
-29	Constitución	Constitución	np00000	np00000	rep=no|t=no|r=yes|m=yes	27	pobj
-30	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	29	prepn
-31	1978	1978	z	z	rep=no|t=no|r=yes|m=yes	30	pobj
+1	La	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	2	de	_	_
+2	mayoría	mayoría	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	5	nsub	_	_
+3	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	2	Agen	_	_
+4	manuales	manual	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	2	Agen	_	_
+5	desarrolla	desarrollar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	0	roo	_	_
+6	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	7	de	_	_
+7	pasado	pasado	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	6	Projec	_	_
+8	común	común	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	7	amo	_	_
 
-1	Un	uno	di0ms0	di0ms0	rep=no|t=yes|r=no|m=yes	2	det
-2	informe	informe	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	14	nsubj
-3	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	2	prepn
-4	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	5	det
-5	Real	real	ncfp000	ncfp000	rep=no|t=yes|r=no|m=yes	3	pobj
-6	Academia	academia	ncfp000	ncfp000	rep=no|t=yes|r=no|m=yes	5	appos
-7	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	5	prepn
-8	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	9	det
-9	Historia	Historia	np00000	np00000	rep=no|t=yes|r=no|m=yes	7	pobj
-10	hecho	hecho	aq0msp	aq0msp	rep=no|t=yes|r=no|m=yes	2	amod
-11	público	público	aq0ms0	aq0ms0	rep=no|t=yes|r=no|m=yes	10	amod
-12	esta	este	dd0fs0	dd0fs0	rep=no|t=yes|r=no|m=yes	13	det
-13	semana	semana	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	10	tmod
-14	acusó	acusar	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	0	root
-15	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	dobj
-16	las	el	da0fp0	da0fp0	rep=no|t=no|r=yes|m=yes	17	det
-17	comunidades	comunidad	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	15	pobj
-18	autónomas	autónomo	aq0fp0	aq0fp0	rep=no|t=no|r=yes|m=yes	17	amod
-31	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	oobj
-32	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	33	punct
-33	tergiversar	tergiversar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	31	pobj
-34	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	33	punct
-35	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	36	det
-36	enseñanza	enseñanza	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	33	dobj
-37	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	36	prepn
-38	esta	este	dd0fs0	dd0fs0	rep=no|t=no|r=yes|m=yes	39	det
-39	disciplina	disciplina	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	37	pobj
-40	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	41	punct
-41	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	31	coord_fixed
-42	convertirla	convertir	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	31	pobj
-43	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	42	oobj
-44	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	46	punct
-45	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	46	det
-46	historia	historia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	43	pobj
-47	local	local	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	46	dep
-48	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	50	punct
-49	discontinua	discontinuo	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	46	dep
-50	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	46	coord_fixed
-51	particularista	particularista	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	46	dep
-52	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	46	punct
 
-39	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	40	det
-40	informe	informe	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	41	nsubj
+1	Los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	2	de	_	_
+2	libros	libro	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	5	nsub	_	_
+3	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	2	prep	_	_
+4	texto	texto	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	3	pob	_	_
+5	ofrecen	ofrecer	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	0	roo	_	_
+6	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	5	Them	_	_
+7	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	5	Them	_	_
+8	escolares	escolar	nccp000	nccp000	rep=no|t=no|r=yes|m=yes	5	Them	_	_
+9	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	5	Them	_	_
+10	visión	visión	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	5	Them	_	_
+11	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	5	Them	_	_
+12	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	5	Them	_	_
+13	historia	historia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	5	Them	_	_
+14	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	5	Them	_	_
+15	España	España	np00000	np00000	rep=no|t=no|r=yes|m=yes	5	Them	_	_
+16	equilibrada	equilibrado	aq0fsp	aq0fsp	rep=no|t=no|r=yes|m=yes	5	Them	_	_
+17	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	5	Them	_	_
+18	universal	universal	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	5	Them	_	_
+19	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	5	Them	_	_
+20	ajustada	ajustado	aq0fsp	aq0fsp	rep=no|t=no|r=yes|m=yes	5	Them	_	_
+21	al	al	spcms	spcms	rep=no|t=no|r=yes|m=yes	5	Them	_	_
+22	espíritu	espíritu	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	5	Them	_	_
+23	plural	plural	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	22	Entit	_	_
+24	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	22	Entit	_	_
+25	democrático	democrático	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	22	Entit	_	_
+26	inspirado	inspirado	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	5	Them	_	_
+27	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	5	Them	_	_
+28	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	27	Plac	_	_
+29	Constitución	Constitución	np00000	np00000	rep=no|t=no|r=yes|m=yes	27	Plac	_	_
+30	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	27	Plac	_	_
+31	1978	1978	z	z	rep=no|t=no|r=yes|m=yes	30	pob	_	_
 
-1	La	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	3	det
-2	mayor	mayor	aq0cs0	aq0cs0	rep=no|t=yes|r=no|m=yes	3	amod
-3	proporción	proporción	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	55	nsubj
-4	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	3	prepn
-5	temas	tema	ncfp000	ncfp000	rep=no|t=yes|r=no|m=yes	4	pobj
-6	relativos	relativo	aq0mp0	aq0mp0	rep=no|t=yes|r=no|m=yes	5	amod
-7	a	a	sps00	sps00	rep=no|t=yes|r=no|m=yes	6	prepa
-8	toda	todo	di0fs0	di0fs0	rep=no|t=yes|r=no|m=yes	9	det
-9	España	España	np00000	np00000	rep=no|t=yes|r=no|m=yes	7	pobj
-10	frente	frente	rg	rg	rep=no|t=yes|r=no|m=yes	5	prepn
-11	a	a	sps00	sps00	rep=no|t=yes|r=no|m=yes	10	prep
-12	los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	13	det
-13	específicos	específico	aq0mp0	aq0mp0	rep=no|t=yes|r=no|m=yes	11	pobj
-14	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	13	prepa
-15	cada	cada	di0cs0	di0cs0	rep=no|t=yes|r=no|m=yes	16	det
-16	territorio	territorio	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	14	pobj
-18	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	19	det
-19	ecuanimidad	ecuanimidad	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	55	nsubj
-20	con	con	sps00	sps00	rep=no|t=yes|r=no|m=yes	23	prepv
-21	que	que	pr0cn000	pr0cn000	rep=no|t=yes|r=no|m=yes	20	pobj
-22	se	se	p0000000	p0000000	rep=no|t=yes|r=no|m=yes	23	reflec
-23	explica	explicar	vmip3s0	vmip3s0	rep=no|t=yes|r=no|m=yes	19	dep
-24	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	25	det
-25	fenómeno	fenómeno	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	23	nsubj
-26	nacionalista	nacionalista	aq0cs0	aq0cs0	rep=no|t=yes|r=no|m=yes	25	amod
-27	junto	junto	rg	rg	rep=no|t=yes|r=no|m=yes	25	prepn
-28	a	a	sps00	sps00	rep=no|t=yes|r=no|m=yes	27	prep
-29	los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	30	det
-30	hechos	hecho	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	28	pobj
-31	históricos	histórico	aq0mp0	aq0mp0	rep=no|t=yes|r=no|m=yes	30	amod
-32	comunes	común	aq0cp0	aq0cp0	rep=no|t=yes|r=no|m=yes	30	amod
-35	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	36	det
-36	énfasis	énfasis	ncmn000	ncmn000	rep=no|t=yes|r=no|m=yes	55	nsubj
-37	con	con	sps00	sps00	rep=no|t=yes|r=no|m=yes	49	prepv
-38	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	39	det
-39	que	que	pr0cn000	pr0cn000	rep=no|t=yes|r=no|m=yes	37	pobj
-40	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	41	det
-41	Constitución	Constitución	np00000	np00000	rep=no|t=yes|r=no|m=yes	48	nsubj
-42	y	y	cc	cc	rep=no|t=yes|r=no|m=yes	48	coord_fixed
-43	los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	45	det
-44	correspondientes	correspondiente	aq0cp0	aq0cp0	rep=no|t=yes|r=no|m=yes	45	amod
-45	estatutos	estatuto	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	48	nsubj
-46	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	45	prepn
-47	autonomía	autonomía	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	46	pobj
-48	son	ser	vsip3p0	vsip3p0	rep=no|t=yes|r=no|m=yes	36	dep
-49	presentados	presentar	vmp00pm	vmp00pm	rep=no|t=yes|r=no|m=yes	48	attr
-50	como	como	cs	cs	rep=no|t=yes|r=no|m=yes	49	cpred
-51	pilares	pilar	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	50	cobj
-52	del	del	spcms	spcms	rep=no|t=yes|r=no|m=yes	51	prepn
-53	régimen	régimen	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	52	pobj
-54	democrático	democrático	aq0ms0	aq0ms0	rep=no|t=yes|r=no|m=yes	53	amod
-55	desmienten	desmentir	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	0	root
-60	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	61	det
-61	ejes	eje	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	55	dobj
-62	centrales	central	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	61	amod
-63	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	61	prepn
-64	informe	informe	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	63	pobj
-65	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	64	prepn
-66	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	67	det
-67	academia	academia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	65	pobj
 
-2	Los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	3	det
-3	libros	libro	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	17	nsubj
-4	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	3	prepn
-5	texto	texto	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	4	pobj
-6	que	que	pr0cn000	pr0cn000	rep=no|t=yes|r=no|m=yes	8	nsubj
-7	no	no	rn	rn	rep=no|t=yes|r=no|m=yes	8	neg
-8	respetan	respetar	vmip3p0	vmip3p0	rep=no|t=yes|r=no|m=yes	3	rcmod
-9	una	uno	di0fs0	di0fs0	rep=no|t=yes|r=no|m=yes	10	det
-10	visión	visión	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	8	dobj
-11	neutra	neutro	aq0fs0	aq0fs0	rep=no|t=yes|r=no|m=yes	10	prepn
-12	y	y	cc	cc	rep=no|t=yes|r=no|m=yes	10	coord_fixed
-13	sensata	sensato	aq0fs0	aq0fs0	rep=no|t=yes|r=no|m=yes	10	prepn
-14	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	10	prepn
-15	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	16	det
-16	historia	historia	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	14	pobj
-17	son	ser	vsip3p0	vsip3p0	rep=no|t=no|r=yes|m=yes	22	dobj
-18	pura	puro	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	19	amod
-19	excepción	excepción	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	17	attr
-20	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	17	punct
+1	Un	uno	di0ms0	di0ms0	rep=no|t=yes|r=no|m=yes	2	de	_	_
+2	informe	informe	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	14	nsub	_	_
+3	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	2	Purpos	_	_
+4	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	3	Speake	_	_
+5	Real	real	ncfp000	ncfp000	rep=no|t=yes|r=no|m=yes	3	Speake	_	_
+6	Academia	academia	ncfp000	ncfp000	rep=no|t=yes|r=no|m=yes	3	Speake	_	_
+7	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	3	Speake	_	_
+8	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	3	Speake	_	_
+9	Historia	Historia	np00000	np00000	rep=no|t=yes|r=no|m=yes	2	Mediu	_	_
+10	hecho	hecho	aq0msp	aq0msp	rep=no|t=yes|r=no|m=yes	2	Mediu	_	_
+11	público	público	aq0ms0	aq0ms0	rep=no|t=yes|r=no|m=yes	2	Mediu	_	_
+12	esta	este	dd0fs0	dd0fs0	rep=no|t=yes|r=no|m=yes	2	Mediu	_	_
+13	semana	semana	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	2	Mediu	_	_
+14	acusó	acusar	vmis3s0	vmis3s0	rep=no|t=no|r=yes|m=yes	2	Mediu	_	_
+15	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	2	Mediu	_	_
+16	las	el	da0fp0	da0fp0	rep=no|t=no|r=yes|m=yes	17	de	_	_
+17	comunidades	comunidad	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	16	Reaso	_	_
+18	autónomas	autónomo	aq0fp0	aq0fp0	rep=no|t=no|r=yes|m=yes	16	Reaso	_	_
+19	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	Reaso	_	_
+20	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	16	Reaso	_	_
+21	tergiversar	tergiversar	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	16	Reaso	_	_
+22	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	16	Reaso	_	_
+23	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	16	Reaso	_	_
+24	enseñanza	enseñanza	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	16	Reaso	_	_
+25	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	16	Reaso	_	_
+26	esta	este	dd0fs0	dd0fs0	rep=no|t=no|r=yes|m=yes	16	Reaso	_	_
+27	disciplina	disciplina	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	16	Reaso	_	_
+28	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	29	punc	_	_
+29	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	19	coord_fixe	_	_
+30	convertirla	convertir	vmn0000	vmn0000	rep=no|t=no|r=yes|m=yes	19	pob	_	_
+31	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	30	oob	_	_
+32	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	31	Final_categor	_	_
+33	una	uno	di0fs0	di0fs0	rep=no|t=no|r=yes|m=yes	31	Final_categor	_	_
+34	historia	historia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	31	Final_categor	_	_
+35	local	local	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	31	Final_categor	_	_
+36	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	31	Final_categor	_	_
+37	discontinua	discontinuo	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	31	Final_categor	_	_
+38	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	37	Time_spa	_	_
+39	particularista	particularista	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	34	de	_	_
+40	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	34	punc	_	_
 
-1	La	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	2	det
-2	academia	academia	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	3	nsubj
-3	lamenta	lamentar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	0	root
-12	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	14	punct
-13	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	14	det
-14	impresión	impresión	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	3	dobj
-15	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	14	prepn
-16	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	15	pobj
-17	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	19	det
-18	vieja	viejo	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	19	amod
-19	historia	historia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	23	nsubj
-20	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	19	prepn
-21	España	España	np00000	np00000	rep=no|t=no|r=yes|m=yes	20	pobj
-22	se	él	p0300000	p0300000	rep=no|t=no|r=yes|m=yes	23	reflec
-23	fragmenta	fragmentar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	16	cobj
-24	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	23	prepv
-25	múltiples	múltiple	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	26	amod
-26	historias	historia	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	24	pobj
-27	regionales	regional	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	26	amod
-28	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	23	punct
-29	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	23	punct
-30	pese	pesar	vmip2s0	vmip2s0	rep=no|t=no|r=yes|m=yes	23	prepv
-31	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	30	prepv
-32	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	33	det
-33	criterios	criterio	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	31	pobj
-34	comunes	común	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	33	dep
-35	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	33	coord_fixed
-36	mínimos	mínimo	aq0mp0	aq0mp0	rep=no|t=no|r=yes|m=yes	33	dep
-37	dictados	dictado	aq0mpp	aq0mpp	rep=no|t=no|r=yes|m=yes	33	amod
-38	por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	37	agent
-39	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	40	det
-40	Ministerio	ministerio	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	38	pobj
-41	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	40	prepn
-42	Educación	Educación	np00000	np00000	rep=no|t=no|r=yes|m=yes	41	pobj
 
-4	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	5	det
-5	volumen	volumen	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	24	nsubj
-6	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	5	prepn
-7	Anaya	Anaya	np00000	np00000	rep=no|t=yes|r=no|m=yes	6	pobj
-8	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	5	prepn
-9	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	10	det
-10	serie	serie	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	8	pobj
-11	Nuestro	nuestro	dp3cs0	dp3cs0	rep=no|t=yes|r=no|m=yes	12	poss
-12	Mundo	mundo	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	10	appos
-13	,	,	fc	fc	rep=no|t=yes|r=no|m=yes	5	punct
-14	uno	uno	pi0ms000	pi0ms000	rep=no|t=yes|r=no|m=yes	5	dep
-15	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	14	prepn
-16	los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	18	det
-17	más	más	rg	rg	rep=no|t=yes|r=no|m=yes	18	advmod
-18	usados	usado	aq0mpp	aq0mpp	rep=no|t=yes|r=no|m=yes	15	pobj
-19	en	en	sps00	sps00	rep=no|t=yes|r=no|m=yes	18	prepa
-20	las	el	da0fp0	da0fp0	rep=no|t=yes|r=no|m=yes	21	det
-21	aulas	aula	ncfp000	ncfp000	rep=no|t=yes|r=no|m=yes	19	pobj
-22	vascas	vasco	aq0fp0	aq0fp0	rep=no|t=yes|r=no|m=yes	21	amod
-23	,	,	fc	fc	rep=no|t=yes|r=no|m=yes	5	punct
-24	excede	exceder	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	0	root
-26	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	27	det
-27	55%	55/100	zp	zp	rep=no|t=no|r=yes|m=yes	24	dobj
-28	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	27	prep
-29	temario	temario	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	28	pobj
-30	común	común	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	29	amod
-31	fijado	fijado	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	27	amod
-32	por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	31	agent
-33	Educación	Educación	np00000	np00000	rep=no|t=no|r=yes|m=yes	32	pobj
-34	para	para	sps00	sps00	rep=no|t=no|r=yes|m=yes	31	prepa
-35	las	el	da0fp0	da0fp0	rep=no|t=no|r=yes|m=yes	36	det
-36	comunidades	comunidad	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	34	pobj
-37	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	36	prepn
-38	lengua	lengua	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	37	pobj
-39	propia	propio	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	38	amod
+1	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	2	de	_	_
+2	informe	informe	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	41	nsub	_	_
 
-15	tan	tanto	rg	rg	rep=no|t=yes|r=no|m=yes	16	advmod
-16	sólo	sólo	rg	rg	rep=no|t=yes|r=no|m=yes	17	advmod
-17	6	6	z	z	rep=no|t=yes|r=no|m=yes	25	nsubj
-18	-	-	fg	fg	rep=no|t=yes|r=no|m=yes	21	punct
-19	-	-	fg	fg	rep=no|t=yes|r=no|m=yes	21	punct
-20	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	21	det
-21	5,7%	5.7/100	zp	zp	rep=no|t=yes|r=no|m=yes	17	num
-22	-	-	fg	fg	rep=no|t=yes|r=no|m=yes	21	punct
-23	-	-	fg	fg	rep=no|t=yes|r=no|m=yes	21	punct
-24	se	él	p0300000	p0300000	rep=no|t=no|r=yes|m=yes	25	reflec
-25	centran	centrar	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	0	root
-26	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	25	oobj
-27	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	28	det
-28	País	País	np00000	np00000	rep=no|t=no|r=yes|m=yes	26	pobj
-29	Vasco	vasco	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	28	appos
 
-1	Este	este	dd0ms0	dd0ms0	rep=no|t=yes|r=no|m=yes	2	det
-2	manual	manual	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	13	nsubj
-3	,	,	fc	fc	rep=no|t=yes|r=no|m=yes	2	punct
-4	del	del	spcms	spcms	rep=no|t=yes|r=no|m=yes	6	prepv
-5	que	que	pr0cn000	pr0cn000	rep=no|t=yes|r=no|m=yes	4	pobj
-6	existe	existir	vmip3s0	vmip3s0	rep=no|t=yes|r=no|m=yes	2	dep
-7	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	9	det
-8	correspondiente	correspondiente	aq0cs0	aq0cs0	rep=no|t=yes|r=no|m=yes	9	amod
-9	versión	versión	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	6	nsubj
-10	en	en	sps00	sps00	rep=no|t=yes|r=no|m=yes	9	prepn
-11	euskera	euskera	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	10	pobj
-12	,	,	fc	fc	rep=no|t=yes|r=no|m=yes	2	punct
-13	incluye	incluir	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	0	root
-14	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	16	det
-15	amplio	amplio	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	16	amod
-16	bloque	bloque	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	13	dobj
 
-1	La	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	3	det
-2	fabulosa	fabuloso	aq0fs0	aq0fs0	rep=no|t=yes|r=no|m=yes	3	amod
-3	herencia	herencia	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	14	nsubj
-4	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	3	prepn
-5	Carlos	Carlos	np00000	np00000	rep=no|t=yes|r=no|m=yes	4	pobj
-6	V	v	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	5	appos
-8	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	9	det
-9	monarquía	monarquía	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	14	nsubj
-10	hispánica	hispánico	aq0fs0	aq0fs0	rep=no|t=yes|r=no|m=yes	9	amod
-12	Reyes	Reyes	np00000	np00000	rep=no|t=yes|r=no|m=yes	14	nsubj
-13	Poderosos	poderoso	aq0mp0	aq0mp0	rep=no|t=yes|r=no|m=yes	12	amod
-14	son	ser	vsip3p0	vsip3p0	rep=no|t=no|r=yes|m=yes	0	root
-15	tres	tres	dn0cp0	dn0cp0	rep=no|t=no|r=yes|m=yes	16	det
-16	apartados	apartado	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	14	attr
+1	La	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	3	de	_	_
+2	mayor	mayor	aq0cs0	aq0cs0	rep=no|t=yes|r=no|m=yes	3	amo	_	_
+3	proporción	proporción	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	2	Messag	_	_
+4	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	2	Messag	_	_
+5	temas	tema	ncfp000	ncfp000	rep=no|t=yes|r=no|m=yes	2	Messag	_	_
+6	relativos	relativo	aq0mp0	aq0mp0	rep=no|t=yes|r=no|m=yes	5	amo	_	_
+7	a	a	sps00	sps00	rep=no|t=yes|r=no|m=yes	6	prep	_	_
+8	toda	todo	di0fs0	di0fs0	rep=no|t=yes|r=no|m=yes	7	Messag	_	_
+9	España	España	np00000	np00000	rep=no|t=yes|r=no|m=yes	7	pob	_	_
+10	frente	frente	rg	rg	rep=no|t=yes|r=no|m=yes	5	prep	_	_
+11	a	a	sps00	sps00	rep=no|t=yes|r=no|m=yes	10	pre	_	_
+12	los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	13	de	_	_
+13	específicos	específico	aq0mp0	aq0mp0	rep=no|t=yes|r=no|m=yes	11	pob	_	_
+14	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	13	prep	_	_
+15	cada	cada	di0cs0	di0cs0	rep=no|t=yes|r=no|m=yes	16	de	_	_
+16	territorio	territorio	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	14	pob	_	_
+17	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	18	de	_	_
+18	ecuanimidad	ecuanimidad	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	52	nsub	_	_
+19	con	con	sps00	sps00	rep=no|t=yes|r=no|m=yes	22	prep	_	_
+20	que	que	pr0cn000	pr0cn000	rep=no|t=yes|r=no|m=yes	19	pob	_	_
+21	se	se	p0000000	p0000000	rep=no|t=yes|r=no|m=yes	22	refle	_	_
+22	explica	explicar	vmip3s0	vmip3s0	rep=no|t=yes|r=no|m=yes	18	de	_	_
+23	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	24	de	_	_
+24	fenómeno	fenómeno	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	23	Fac	_	_
+25	nacionalista	nacionalista	aq0cs0	aq0cs0	rep=no|t=yes|r=no|m=yes	23	Fac	_	_
+26	junto	junto	rg	rg	rep=no|t=yes|r=no|m=yes	24	prep	_	_
+27	a	a	sps00	sps00	rep=no|t=yes|r=no|m=yes	26	Partner_	_	_
+28	los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	26	Partner_	_	_
+29	hechos	hecho	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	26	Partner_	_	_
+30	históricos	histórico	aq0mp0	aq0mp0	rep=no|t=yes|r=no|m=yes	26	Partner_	_	_
+31	comunes	común	aq0cp0	aq0cp0	rep=no|t=yes|r=no|m=yes	26	Partner_	_	_
+32	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	26	Partner_	_	_
+33	énfasis	énfasis	ncmn000	ncmn000	rep=no|t=yes|r=no|m=yes	26	Partner_	_	_
+34	con	con	sps00	sps00	rep=no|t=yes|r=no|m=yes	26	Partner_	_	_
+35	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	26	Partner_	_	_
+36	que	que	pr0cn000	pr0cn000	rep=no|t=yes|r=no|m=yes	26	Partner_	_	_
+37	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	26	Partner_	_	_
+38	Constitución	Constitución	np00000	np00000	rep=no|t=yes|r=no|m=yes	26	Partner_	_	_
+39	y	y	cc	cc	rep=no|t=yes|r=no|m=yes	45	coord_fixe	_	_
+40	los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	42	de	_	_
+41	correspondientes	correspondiente	aq0cp0	aq0cp0	rep=no|t=yes|r=no|m=yes	42	amo	_	_
+42	estatutos	estatuto	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	45	nsub	_	_
+43	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	42	prep	_	_
+44	autonomía	autonomía	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	43	pob	_	_
+45	son	ser	vsip3p0	vsip3p0	rep=no|t=yes|r=no|m=yes	33	de	_	_
+46	presentados	presentar	vmp00pm	vmp00pm	rep=no|t=yes|r=no|m=yes	45	att	_	_
+47	como	como	cs	cs	rep=no|t=yes|r=no|m=yes	46	Speake	_	_
+48	pilares	pilar	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	46	Speake	_	_
+49	del	del	spcms	spcms	rep=no|t=yes|r=no|m=yes	46	Speake	_	_
+50	régimen	régimen	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	46	Speake	_	_
+51	democrático	democrático	aq0ms0	aq0ms0	rep=no|t=yes|r=no|m=yes	46	Speake	_	_
+52	desmienten	desmentir	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	0	roo	_	_
+53	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	54	de	_	_
+54	ejes	eje	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	53	Messag	_	_
+55	centrales	central	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	53	Messag	_	_
+56	del	del	spcms	spcms	rep=no|t=no|r=yes|m=yes	53	Messag	_	_
+57	informe	informe	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	53	Messag	_	_
+58	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	53	Messag	_	_
+59	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	53	Messag	_	_
+60	academia	academia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	58	pob	_	_
 
-1	Otro	otro	di0ms0	di0ms0	rep=no|t=yes|r=no|m=yes	2	det
-2	temor	temor	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	7	nsubj
-3	invocado	invocado	aq0msp	aq0msp	rep=no|t=yes|r=no|m=yes	2	amod
-4	por	por	sps00	sps00	rep=no|t=yes|r=no|m=yes	3	agent
-5	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	6	det
-6	academia	academia	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	4	pobj
-7	es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=yes|m=yes	0	root
-8	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	10	det
-9	posible	posible	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	10	amod
-10	tratamiento	tratamiento	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	7	attr
-11	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	12	punct
-12	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	prepn
-13	todo	todo	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	15	det
-14	lo	el	da0ns0	da0ns0	rep=no|t=no|r=yes|m=yes	15	det
-15	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=yes|m=yes	17	nsubj
-16	nos	yo	pp1cp000	pp1cp000	rep=no|t=no|r=yes|m=yes	17	dobj
-17	separa	separar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	12	rcmod
-18	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	12	punct
-19	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	10	punct
+
+1	Los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	2	de	_	_
+2	libros	libro	ncmp000	ncmp000	rep=no|t=yes|r=no|m=yes	16	nsub	_	_
+3	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	2	Cognize	_	_
+4	texto	texto	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	2	Cognize	_	_
+5	que	que	pr0cn000	pr0cn000	rep=no|t=yes|r=no|m=yes	2	Cognize	_	_
+6	no	no	rn	rn	rep=no|t=yes|r=no|m=yes	7	ne	_	_
+7	respetan	respetar	vmip2p0	vmip2p0	rep=no|t=yes|r=no|m=yes	2	rcmo	_	_
+8	una	uno	di0fs0	di0fs0	rep=no|t=yes|r=no|m=yes	9	de	_	_
+9	visión	visión	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	8	Evalue	_	_
+10	neutra	neutro	aq0fs0	aq0fs0	rep=no|t=yes|r=no|m=yes	8	Evalue	_	_
+11	y	y	cc	cc	rep=no|t=yes|r=no|m=yes	8	Evalue	_	_
+12	sensata	sensato	aq0fs0	aq0fs0	rep=no|t=yes|r=no|m=yes	8	Evalue	_	_
+13	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	8	Evalue	_	_
+14	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	8	Evalue	_	_
+15	historia	historia	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	14	Opinio	_	_
+16	son	ser	vsip3p0	vsip3p0	rep=no|t=no|r=yes|m=yes	8	Evalue	_	_
+17	pura	puro	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	8	Evalue	_	_
+18	excepción	excepción	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	8	Evalue	_	_
+19	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	16	punc	_	_
+
+
+1	La	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	2	de	_	_
+2	academia	academia	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	3	nsub	_	_
+3	lamenta	lamentar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	0	roo	_	_
+4	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	6	punc	_	_
+5	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	6	de	_	_
+6	impresión	impresión	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	3	dob	_	_
+7	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	6	prep	_	_
+8	que	que	cs	cs	rep=no|t=no|r=yes|m=yes	7	pob	_	_
+9	la	el	da0fs0	da0fs0	rep=no|t=no|r=yes|m=yes	11	de	_	_
+10	vieja	viejo	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	9	Whole_patien	_	_
+11	historia	historia	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	9	Whole_patien	_	_
+12	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	9	Whole_patien	_	_
+13	España	España	np00000	np00000	rep=no|t=no|r=yes|m=yes	12	pob	_	_
+14	se	él	p0300000	p0300000	rep=no|t=no|r=yes|m=yes	15	refle	_	_
+15	fragmenta	fragmentar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	8	cob	_	_
+16	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	15	prep	_	_
+17	múltiples	múltiple	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	16	Whole_patien	_	_
+18	historias	historia	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	16	Whole_patien	_	_
+19	regionales	regional	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	18	Individual	_	_
+20	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	15	punc	_	_
+21	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	15	punc	_	_
+22	pese	pesar	vmip2s0	vmip2s0	rep=no|t=no|r=yes|m=yes	15	prep	_	_
+23	a	a	sps00	sps00	rep=no|t=no|r=yes|m=yes	22	prep	_	_
+24	los	el	da0mp0	da0mp0	rep=no|t=no|r=yes|m=yes	25	de	_	_
+25	criterios	criterio	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	23	pob	_	_
+26	comunes	común	aq0cp0	aq0cp0	rep=no|t=no|r=yes|m=yes	25	de	_	_
+27	y	y	cc	cc	rep=no|t=no|r=yes|m=yes	25	coord_fixe	_	_
+28	mínimos	mínimo	aq0mp0	aq0mp0	rep=no|t=no|r=yes|m=yes	25	de	_	_
+29	dictados	dictado	aq0mpp	aq0mpp	rep=no|t=no|r=yes|m=yes	25	amo	_	_
+30	por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	29	agen	_	_
+31	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	32	de	_	_
+32	Ministerio	ministerio	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	30	pob	_	_
+33	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	32	prep	_	_
+34	Educación	Educación	np00000	np00000	rep=no|t=no|r=yes|m=yes	33	pob	_	_
+
+
+1	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	2	de	_	_
+2	volumen	volumen	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	21	nsub	_	_
+3	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	2	prep	_	_
+4	Anaya	Anaya	np00000	np00000	rep=no|t=yes|r=no|m=yes	3	pob	_	_
+5	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	2	prep	_	_
+6	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	7	de	_	_
+7	serie	serie	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	5	pob	_	_
+8	Nuestro	nuestro	dp3cs0	dp3cs0	rep=no|t=yes|r=no|m=yes	9	pos	_	_
+9	Mundo	mundo	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	7	appo	_	_
+10	,	,	fc	fc	rep=no|t=yes|r=no|m=yes	2	punc	_	_
+11	uno	uno	pi0ms000	pi0ms000	rep=no|t=yes|r=no|m=yes	2	de	_	_
+12	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	11	Figur	_	_
+13	los	el	da0mp0	da0mp0	rep=no|t=yes|r=no|m=yes	11	Figur	_	_
+14	más	más	rg	rg	rep=no|t=yes|r=no|m=yes	11	Figur	_	_
+15	usados	usado	aq0mpp	aq0mpp	rep=no|t=yes|r=no|m=yes	11	Figur	_	_
+16	en	en	sps00	sps00	rep=no|t=yes|r=no|m=yes	12	Entit	_	_
+17	las	el	da0fp0	da0fp0	rep=no|t=yes|r=no|m=yes	12	Entit	_	_
+18	aulas	aula	ncfp000	ncfp000	rep=no|t=yes|r=no|m=yes	12	Entit	_	_
+19	vascas	vasco	aq0fp0	aq0fp0	rep=no|t=yes|r=no|m=yes	18	Groun	_	_
+20	,	,	fc	fc	rep=no|t=yes|r=no|m=yes	2	punc	_	_
+21	excede	exceder	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	0	roo	_	_
+22	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	23	de	_	_
+23	55%	55/100	zp	zp	rep=no|t=no|r=yes|m=yes	21	dob	_	_
+24	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	23	pre	_	_
+25	temario	temario	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	24	pob	_	_
+26	común	común	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	25	amo	_	_
+27	fijado	fijado	aq0msp	aq0msp	rep=no|t=no|r=yes|m=yes	23	amo	_	_
+28	por	por	sps00	sps00	rep=no|t=no|r=yes|m=yes	27	agen	_	_
+29	Educación	Educación	np00000	np00000	rep=no|t=no|r=yes|m=yes	28	pob	_	_
+30	para	para	sps00	sps00	rep=no|t=no|r=yes|m=yes	27	prep	_	_
+31	las	el	da0fp0	da0fp0	rep=no|t=no|r=yes|m=yes	30	Subjec	_	_
+32	comunidades	comunidad	ncfp000	ncfp000	rep=no|t=no|r=yes|m=yes	30	Subjec	_	_
+33	con	con	sps00	sps00	rep=no|t=no|r=yes|m=yes	30	Subjec	_	_
+34	lengua	lengua	ncfs000	ncfs000	rep=no|t=no|r=yes|m=yes	30	Subjec	_	_
+35	propia	propio	aq0fs0	aq0fs0	rep=no|t=no|r=yes|m=yes	34	amo	_	_
+
+
+1	tan	tanto	rg	rg	rep=no|t=yes|r=no|m=yes	2	advmo	_	_
+2	sólo	sólo	rg	rg	rep=no|t=yes|r=no|m=yes	3	advmo	_	_
+3	6	6	z	z	rep=no|t=yes|r=no|m=yes	11	nsub	_	_
+4	-	-	fg	fg	rep=no|t=yes|r=no|m=yes	7	punc	_	_
+5	-	-	fg	fg	rep=no|t=yes|r=no|m=yes	7	punc	_	_
+6	el	el	da0ms0	da0ms0	rep=no|t=yes|r=no|m=yes	7	de	_	_
+7	5,7%	5.7/100	zp	zp	rep=no|t=yes|r=no|m=yes	3	nu	_	_
+8	-	-	fg	fg	rep=no|t=yes|r=no|m=yes	7	punc	_	_
+9	-	-	fg	fg	rep=no|t=yes|r=no|m=yes	7	punc	_	_
+10	se	él	p0300000	p0300000	rep=no|t=no|r=yes|m=yes	11	refle	_	_
+11	centran	centrar	vmip3p0	vmip3p0	rep=no|t=no|r=yes|m=yes	0	roo	_	_
+12	en	en	sps00	sps00	rep=no|t=no|r=yes|m=yes	11	oob	_	_
+13	el	el	da0ms0	da0ms0	rep=no|t=no|r=yes|m=yes	14	de	_	_
+14	País	País	np00000	np00000	rep=no|t=no|r=yes|m=yes	12	pob	_	_
+15	Vasco	vasco	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	14	appo	_	_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1	Este	este	dd0ms0	dd0ms0	rep=no|t=yes|r=no|m=yes	2	de	_	_
+2	manual	manual	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	1	Figur	_	_
+3	,	,	fc	fc	rep=no|t=yes|r=no|m=yes	2	punc	_	_
+4	del	del	spcms	spcms	rep=no|t=yes|r=no|m=yes	6	prep	_	_
+5	que	que	pr0cn000	pr0cn000	rep=no|t=yes|r=no|m=yes	4	Tota	_	_
+6	existe	existir	vmip3s0	vmip3s0	rep=no|t=yes|r=no|m=yes	2	de	_	_
+7	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	6	Groun	_	_
+8	correspondiente	correspondiente	aq0cs0	aq0cs0	rep=no|t=yes|r=no|m=yes	6	Groun	_	_
+9	versión	versión	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	6	Groun	_	_
+10	en	en	sps00	sps00	rep=no|t=yes|r=no|m=yes	6	Groun	_	_
+11	euskera	euskera	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	10	Categor	_	_
+12	,	,	fc	fc	rep=no|t=yes|r=no|m=yes	2	punc	_	_
+13	incluye	incluir	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	0	roo	_	_
+14	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	16	de	_	_
+15	amplio	amplio	aq0ms0	aq0ms0	rep=no|t=no|r=yes|m=yes	16	amo	_	_
+16	bloque	bloque	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	13	dob	_	_
+
+
+1	La	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	3	de	_	_
+2	fabulosa	fabuloso	aq0fs0	aq0fs0	rep=no|t=yes|r=no|m=yes	3	amo	_	_
+3	herencia	herencia	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	12	nsub	_	_
+4	de	de	sps00	sps00	rep=no|t=yes|r=no|m=yes	3	Evalue	_	_
+5	Carlos	Carlos	np00000	np00000	rep=no|t=yes|r=no|m=yes	3	Evalue	_	_
+6	V	v	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	3	Evalue	_	_
+7	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	3	Evalue	_	_
+8	monarquía	monarquía	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	12	nsub	_	_
+9	hispánica	hispánico	aq0fs0	aq0fs0	rep=no|t=yes|r=no|m=yes	8	amo	_	_
+10	Reyes	Reyes	np00000	np00000	rep=no|t=yes|r=no|m=yes	12	nsub	_	_
+11	Poderosos	poderoso	aq0mp0	aq0mp0	rep=no|t=yes|r=no|m=yes	10	amo	_	_
+12	son	ser	vsip3p0	vsip3p0	rep=no|t=no|r=yes|m=yes	0	roo	_	_
+13	tres	tres	dn0cp0	dn0cp0	rep=no|t=no|r=yes|m=yes	14	de	_	_
+14	apartados	apartado	ncmp000	ncmp000	rep=no|t=no|r=yes|m=yes	12	att	_	_
+
+
+1	Otro	otro	di0ms0	di0ms0	rep=no|t=yes|r=no|m=yes	2	de	_	_
+2	temor	temor	ncms000	ncms000	rep=no|t=yes|r=no|m=yes	7	nsub	_	_
+3	invocado	invocado	aq0msp	aq0msp	rep=no|t=yes|r=no|m=yes	2	Clas	_	_
+4	por	por	sps00	sps00	rep=no|t=yes|r=no|m=yes	2	Clas	_	_
+5	la	el	da0fs0	da0fs0	rep=no|t=yes|r=no|m=yes	2	Clas	_	_
+6	academia	academia	ncfs000	ncfs000	rep=no|t=yes|r=no|m=yes	2	Clas	_	_
+7	es	ser	vsip3s0	vsip3s0	rep=no|t=no|r=yes|m=yes	0	roo	_	_
+8	un	uno	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	10	de	_	_
+9	posible	posible	aq0cs0	aq0cs0	rep=no|t=no|r=yes|m=yes	10	amo	_	_
+10	tratamiento	tratamiento	ncms000	ncms000	rep=no|t=no|r=yes|m=yes	7	att	_	_
+11	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	10	Hypothetical_even	_	_
+12	de	de	sps00	sps00	rep=no|t=no|r=yes|m=yes	10	Hypothetical_even	_	_
+13	todo	todo	di0ms0	di0ms0	rep=no|t=no|r=yes|m=yes	10	Hypothetical_even	_	_
+14	lo	el	da0ns0	da0ns0	rep=no|t=no|r=yes|m=yes	10	Hypothetical_even	_	_
+15	que	que	pr0cn000	pr0cn000	rep=no|t=no|r=yes|m=yes	10	Hypothetical_even	_	_
+16	nos	yo	pp1cp000	pp1cp000	rep=no|t=no|r=yes|m=yes	10	Hypothetical_even	_	_
+17	separa	separar	vmip3s0	vmip3s0	rep=no|t=no|r=yes|m=yes	10	Hypothetical_even	_	_
+18	&quot;	&quot;	fe	fe	rep=no|t=no|r=yes|m=yes	12	punc	_	_
+19	,	,	fc	fc	rep=no|t=no|r=yes|m=yes	10	punc	_	_
+
+
 
