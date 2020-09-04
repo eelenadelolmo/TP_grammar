@@ -100,7 +100,7 @@ def reset_ids(sent):
     # Creating a tmp file with both new a original ids
     tmp = ""
 
-    # Keeping previous and new ids with de format new_id-prev_id
+    # Keeping previous and new ids with the format new_id-prev_id
     for line in sent_lines:
         if len(line) > 1:
             tmp += str(id_new) + '-' + line + '\n'
@@ -126,10 +126,25 @@ def reset_ids(sent):
                     line_modified = re.sub(r'^' + id_old + '(.+?)', str(id_new) + r'\1', line_resetted)
                 else:
                     line_modified = line_resetted
-                resetted += line_modified + '\n'
+
+                if (len(line_modified)>1):
+                    resetted += line_modified + '\n'
 
 
     return resetted
+
+
+def to_conllu(sentence):
+    lines = sentence.split('\n')
+    ok = ""
+    for l in lines:
+        if len(l) > 1:
+            line_ok = l[:-1] + '\t_\t_\n'
+            ok += line_ok
+        else:
+            ok += (l + '\n')
+    return ok
+
 
 
 # Transforms a conllu sentence into the string with its forms
@@ -146,6 +161,21 @@ def txt_transformer(file_conllu):
     return s_list
 
 
+
+# Transforms a conllu sentence into the string with its forms
+def txt_transformer_str(sentence):
+    try:
+        conll = pc.load_from_string(sentence)
+    except pc.exception.ParseError:
+        conll = pc.load_from_string(to_conllu(sentence))
+    sent = conll[0]
+    s_txt = ""
+    for word in sent:
+        s_txt = s_txt + " " + word.form
+    s_txt = s_txt + ".\n"
+    return s_txt
+
+
 # Takes the id of the selected head token and the list of ids of its selected dependants and rewrites the sentence dependencies accordingly
 def rewrite_dep(head_id, dep_id, arg, sentence):
 
@@ -156,6 +186,46 @@ def rewrite_dep(head_id, dep_id, arg, sentence):
 
     # print(head_id, dep_id, arg, sentence[0].serialize())
     return sentence[0].serialize()
+
+
+def compress(list_ids, sent):
+
+    # Cleaning repeated empty lines in the sentence
+    while True:
+        sent_clean = re.sub('\n\n', '\n', sent)
+        if sent_clean == sent:
+            break
+        sent = sent_clean
+
+    sent_lines = sent.split('\n')
+    sent_compressed = ""
+
+    # First token position
+    id_first = int(list_ids[0])
+
+    # Las token position
+    id_last = int(list_ids[-1])
+
+    # Getting the line of the first token of the ids list and its form
+    line_first_from_form = '\t'.join(sent_lines[id_first].split('\t')[2:])
+    token_compressed = sent_lines[id_first].split('\t')[1]
+
+    for line in sent_lines[:id_first]:
+        if len(line) > 1:
+            sent_compressed += line + '\n'
+
+    for line in sent_lines[(id_first + 1):(id_last + 1)]:
+        if len(line) > 1:
+            token_compressed += '__' + line.split('\t')[1]
+
+    sent_compressed += str(id_first + 1) + '\t' + token_compressed + '\t' + line_first_from_form + '\n'
+
+    for line in sent_lines[(id_last + 1):]:
+        sent_compressed += line + '\n'
+
+    return sent_compressed
+
+
 
 
 def previous_and_next(some_iterable):
@@ -226,6 +296,8 @@ with open(dir_TP_annotated + '/' + file_grew) as f:
         fm_anns = FN_annotated_list[n_sentence]
         n_sentence += 1
 
+        print('\n\n\n\nOración principal: \n' + txt_transformer_str(sentence_main))
+
         # Getting the ids of the tokens conforming the head of a FrameNet frame
         for frame_head in fm_anns:
 
@@ -237,6 +309,8 @@ with open(dir_TP_annotated + '/' + file_grew) as f:
 
             # --> List of the ids (ordered) of the tokens corresponding to the head of the arguments
             h_ids = search_id(frame_tokens, sentence_main)
+
+            print('--> Marco de tipo ' + frame + ' (' + frame_tokens + ')' + ' con los argumentos: ')
 
             for dep_ann in fm_anns[frame_head]:
 
@@ -250,13 +324,17 @@ with open(dir_TP_annotated + '/' + file_grew) as f:
                 h_dep_ids = search_id(argument_tokens, sentence_main)
                 # print(argument_tokens, h_dep_ids, '\n' + sentence_main)
 
+                # sentence_main_compressed = compress(h_dep_ids, sentence_main)
+
+                """
                 # Making the tokens of a dependency depend on its first token
                 for h_dep_id in h_dep_ids[1:]:
                     sentence_main = rewrite_dep(h_dep_ids[0], h_dep_id, argument_type, parse(sentence_main))
+                """
 
+                print('- ' + argument_type + ': ' + argument_tokens)
 
         fm_annotated += (sentence_main + '\n')
-        print(fm_annotated)
 
     # Creating a new file with the selected subtree with the FrameNet annotations
     with open(dir_output + '/' + file_grew, "w") as h:
@@ -377,5 +455,8 @@ for nombre in nombres_textos:
 texts_to_show_after_execution = [
     '1_20000702_ssd_annotated_recursive.conllu'
 ]
+
+"""
 for text in texts_to_show_after_execution:
     webbrowser.open(dir_html + '/' + text + '.html', new=1, autoraise=True)
+"""

@@ -26,13 +26,13 @@ grew.init()
 ## Directories paths
 
 # Input directory
-dir_original = 'in/AnCora_Surface_Syntax_Dependencies/conllu'
-# dir_original = 'in_short'
+# dir_original = 'in/AnCora_Surface_Syntax_Dependencies/conllu'
+dir_original = 'in_short'
 
 # Output directory
 # Deleting previous output directory (subfolder creation inside loop)
-dir_output = 'out'
-# dir_output = 'out_short'
+# dir_output = 'out'
+dir_output = 'out_short'
 shutil.rmtree(dir_output, ignore_errors=True)
 os.makedirs(dir_output)
 
