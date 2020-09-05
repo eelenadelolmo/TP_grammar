@@ -9,6 +9,31 @@ from ast import literal_eval
 from itertools import tee, islice, chain
 
 
+# Input dirs
+dir_FN_annotated = 'framenet_annotated'
+dir_TP_annotated = 'grew_annotated'
+
+# Output dir for conllu
+dir_output = 'out_fm'
+shutil.rmtree(dir_output, ignore_errors=True)
+os.makedirs(dir_output)
+
+# Output dir for xml
+dir_output_xml = 'out_xml'
+shutil.rmtree(dir_output_xml, ignore_errors=True)
+os.makedirs(dir_output_xml)
+
+# Output dir for svg
+dir_svg = 'svg_fm'
+shutil.rmtree(dir_svg, ignore_errors=True, onerror=None)
+os.makedirs(dir_svg)
+
+# Output dir for html
+dir_html = 'template_fm'
+shutil.rmtree(dir_html, ignore_errors=True, onerror=None)
+os.makedirs(dir_html)
+
+
 # Given a string composed of one or several tokens and a sentence
 # Returns the ordered list of ids of the tokens in the sentence
 def search_id(toks, sent):
@@ -88,6 +113,42 @@ def keep_theme_rheme(sent):
             main += line + '\n'
 
     return main
+
+
+# Given a sentence
+# Returns a tuple with the tokens composing its theme and its rheme
+def forms_theme_rheme(sent):
+
+    lines = sent.split('\n')
+    theme = ""
+    rheme = ""
+
+    for line in lines:
+        line_fields = line.split('\t')
+        if len(line_fields)>=5 and ("t=yes" in line_fields[5]):
+            theme += line_fields[1] + ' '
+        if len(line_fields)>=5 and ("r=yes" in line_fields[5]):
+            rheme += line_fields[1] + ' '
+
+    return (theme, rheme)
+
+
+
+# Given a sentence
+# Returns a tuple with the lists with the ids of the elements of its theme and rheme
+def ids_theme_rheme(sent):
+
+    lines = sent.split('\n')
+    theme = list()
+    rheme = list()
+
+    for line in lines:
+        line_fields = line.split('\t')
+        if len(line_fields)>=5 and ("t=yes" in line_fields[5]):
+            theme.append(line_fields[0])
+        if len(line_fields)>=5 and ("r=yes" in line_fields[5]):
+            rheme.append(line_fields[0])
+    return (theme, rheme)
 
 
 # Reindexing the tokens of a sentence to avoid gaps in order to match continuous annotations along them
@@ -188,6 +249,11 @@ def rewrite_dep(head_id, dep_id, arg, sentence):
     return sentence[0].serialize()
 
 
+# Returns a file name without the extension
+def remove_ext(filename):
+    return filename[:filename.rfind(".")]
+
+"""
 def compress(list_ids, sent):
 
     # Cleaning repeated empty lines in the sentence
@@ -224,9 +290,7 @@ def compress(list_ids, sent):
         sent_compressed += line + '\n'
 
     return sent_compressed
-
-
-
+"""
 
 def previous_and_next(some_iterable):
     prevs, items, nexts = tee(some_iterable, 3)
@@ -234,29 +298,6 @@ def previous_and_next(some_iterable):
     nexts = chain(islice(nexts, 1, None), [None])
     return zip(prevs, items, nexts)
 
-
-# def xml_transformer(text):
-# PENDING
-
-
-# Input dirs
-dir_FN_annotated = 'framenet_annotated'
-dir_TP_annotated = 'grew_annotated'
-
-# Output dir for conllu
-dir_output = 'out_fm'
-shutil.rmtree(dir_output, ignore_errors=True)
-os.makedirs(dir_output)
-
-# Output dir for svg
-dir_svg = 'svg_fm'
-shutil.rmtree(dir_svg, ignore_errors=True, onerror=None)
-os.makedirs(dir_svg)
-
-# Output dir for html
-dir_html = 'template_fm'
-shutil.rmtree(dir_html, ignore_errors=True, onerror=None)
-os.makedirs(dir_html)
 
 
 # List of FrameNet annotations (one list element per sentence)
@@ -276,81 +317,143 @@ for file in files_fm:
         dict_ann = literal_eval(f.read())
         FN_annotated_list.append(dict_ann)
 
-file_grew = os.listdir(dir_TP_annotated)[0]
-n_sentence = 0
+files_grew = os.listdir(dir_TP_annotated)
 
-with open(dir_TP_annotated + '/' + file_grew) as f:
-    sentences = parse(f.read())
+## Creating a XML file with the theme/rheme and the FrameNet annotations information
 
-    # --> String representation of the conllu structure of the sentences in a text
-    fm_annotated = ""
+# XML content to save for the text
+xml = '''<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 
-    for sentence in sentences:
-
-        # Reducing every sentence to the theme + rheme of the main clause
-        sentence_main = keep_theme_rheme(sentence.serialize())
-
-        # Rewriting the ids: beginning from 1 and with no gaps
-        sentence_main = reset_ids(sentence_main)
-
-        fm_anns = FN_annotated_list[n_sentence]
-        n_sentence += 1
-
-        print('\n\n\n\nOración principal: \n' + txt_transformer_str(sentence_main))
-
-        # Getting the ids of the tokens conforming the head of a FrameNet frame
-        for frame_head in fm_anns:
-
-            # --> FrameNet frame
-            frame = frame_head[0]
-
-            # --> Tokens representing the head of the arguments
-            frame_tokens = frame_head[1]
-
-            # --> List of the ids (ordered) of the tokens corresponding to the head of the arguments
-            h_ids = search_id(frame_tokens, sentence_main)
-
-            print('--> Marco de tipo ' + frame + ' (' + frame_tokens + ')' + ' con los argumentos: ')
-
-            for dep_ann in fm_anns[frame_head]:
-
-                # --> The type of argument
-                argument_type = dep_ann[0]
-
-                # --> The tokens representing the argument
-                argument_tokens = dep_ann[1]
-
-                # --> List of the ids (ordered) of the tokens correponding to the argument
-                h_dep_ids = search_id(argument_tokens, sentence_main)
-                # print(argument_tokens, h_dep_ids, '\n' + sentence_main)
-
-                # sentence_main_compressed = compress(h_dep_ids, sentence_main)
-
-                """
-                # Making the tokens of a dependency depend on its first token
-                for h_dep_id in h_dep_ids[1:]:
-                    sentence_main = rewrite_dep(h_dep_ids[0], h_dep_id, argument_type, parse(sentence_main))
-                """
-
-                print('- ' + argument_type + ': ' + argument_tokens)
-
-        fm_annotated += (sentence_main + '\n')
-
-    # Creating a new file with the selected subtree with the FrameNet annotations
-    with open(dir_output + '/' + file_grew, "w") as h:
-        lines = fm_annotated.split('\n')
-        ok = ""
-        for l in lines:
-            if len(l) > 1:
-                line_ok = l[:-1] + '\t_\t_\n'
-                ok += line_ok
-            else:
-                ok += (l + '\n')
-        h.write(ok)
-        h.close()
+<!DOCTYPE texto [
+	<!ELEMENT texto (oracion+)>
+	    <!ATTLIST texto id ID #REQUIRED>
+	<!ELEMENT oracion (tema, rema, semantic_roles)>
+		<!ELEMENT tema (#PCDATA)>
+		<!ELEMENT rema (#PCDATA)>
+		<!ELEMENT semantic_roles (frame)>
+		<!ELEMENT frame (argument*)>
+            <!ATTLIST frame type CDATA #REQUIRED>
+            <!ATTLIST frame head CDATA #REQUIRED>
+		<!ELEMENT argument EMPTY>
+            <!ATTLIST argument type CDATA #REQUIRED>
+            <!ATTLIST argument dependent CDATA #REQUIRED>
+]>
 
 
-## Obtaing CSV trees from conllu annotations
+'''
+
+for file_grew in files_grew:
+    with open(dir_TP_annotated + '/' + file_grew) as f:
+        n_sentence = 0
+        sentences = parse(f.read())
+        xml += '<texto id="' + remove_ext(file_grew) + '">\n\n\n'
+
+
+        # --> String representation of the conllu structure of the sentences in a text
+        fm_annotated = ""
+
+        for sentence in sentences:
+
+            # Reducing every sentence to the theme + rheme of the main clause
+            sentence_main = keep_theme_rheme(sentence.serialize())
+
+            # Rewriting the ids: beginning from 1 and with no gaps
+            sentence_main = reset_ids(sentence_main)
+
+            fm_anns = FN_annotated_list[n_sentence]
+            n_sentence += 1
+
+            xml += '\t<oracion>\n'
+            xml += '\t\t<tema>\n\t\t\t' + forms_theme_rheme(sentence_main)[0] + '\n\t\t</tema>\n'
+            xml += '\t\t<rema>\n\t\t\t' + forms_theme_rheme(sentence_main)[1] + '\n\t\t</rema>\n'
+            xml += '\t\t<semantic_roles>\n'
+
+            # Getting the ids of the tokens conforming the head of a FrameNet frame
+            for frame_head in fm_anns:
+
+                # --> FrameNet frame
+                frame = frame_head[0]
+
+                # --> Tokens representing the head of the arguments
+                frame_tokens = frame_head[1]
+
+                # --> List of the ids (ordered) of the tokens corresponding to the head of the arguments
+                h_ids = search_id(frame_tokens, sentence_main)
+
+                xml += '\t\t\t<frame type="' + frame + '" head="' + frame_tokens + '">'
+
+                for dep_ann in fm_anns[frame_head]:
+
+                    # --> The type of argument
+                    argument_type = dep_ann[0]
+
+                    # --> The tokens representing the argument
+                    argument_tokens = dep_ann[1]
+
+                    # --> List of the ids (ordered) of the tokens correponding to the argument
+                    h_dep_ids = search_id(argument_tokens, sentence_main)
+                    # print(argument_tokens, h_dep_ids, '\n' + sentence_main)
+
+                    # sentence_main_compressed = compress(h_dep_ids, sentence_main)
+
+                    """
+                    # Making the tokens of a dependency depend on its first token
+                    for h_dep_id in h_dep_ids[1:]:
+                        sentence_main = rewrite_dep(h_dep_ids[0], h_dep_id, argument_type, parse(sentence_main))
+                    """
+
+                    xml += '\n\t\t\t\t<argument type="' + argument_type + '" dependent="' + argument_tokens + '"/>'
+                xml += '</frame>\n'
+            xml += '\t\t</semantic_roles>\n'
+            xml += '\t</oracion>\n\n\n'
+
+            fm_annotated += (sentence_main + '\n')
+
+        # Creating a new file with the selected subtree with the FrameNet annotations
+        with open(dir_output + '/' + file_grew, "w") as h:
+            lines = fm_annotated.split('\n')
+            ok = ""
+            for l in lines:
+                if len(l) > 1:
+                    line_ok = l[:-1] + '\t_\t_\n'
+                    ok += line_ok
+                else:
+                    ok += (l + '\n')
+            h.write(ok)
+            h.close()
+
+        xml += '</texto>'
+
+        with open(dir_output_xml + '/' + remove_ext(file_grew) + '.xml', "w") as xml_file:
+            xml_file.write(xml)
+            xml_file.close()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
+
+## Obtaing SVG trees from conllu annotations
 
 # For relative commands execution
 os.chdir("/home/elena/PycharmProjects/TP_grammar/venv/main")
@@ -456,7 +559,7 @@ texts_to_show_after_execution = [
     '1_20000702_ssd_annotated_recursive.conllu'
 ]
 
-"""
+
 for text in texts_to_show_after_execution:
     webbrowser.open(dir_html + '/' + text + '.html', new=1, autoraise=True)
-"""
+'''
