@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 
-<!DOCTYPE texto [
-	<!ELEMENT texto (oracion+)>
-	    <!ATTLIST texto id ID #REQUIRED>
-	<!ELEMENT oracion (tema, rema, semantic_roles)>
-		<!ELEMENT tema (#PCDATA)>
-		<!ELEMENT rema (#PCDATA)>
+<!DOCTYPE text [
+	<!ELEMENT text (sentence+)>
+	    <!ATTLIST text id ID #REQUIRED>
+	<!ELEMENT sentence (theme, rheme, semantic_roles)>
+		<!ELEMENT theme (#PCDATA)>
+		<!ELEMENT rheme (#PCDATA)>
 		<!ELEMENT semantic_roles (frame)>
 		<!ELEMENT frame (argument*)>
             <!ATTLIST frame type CDATA #REQUIRED>
@@ -16,16 +16,16 @@
 ]>
 
 
-<texto id="1_20000702_ssd_annotated_recursive">
+<text id="1_20000702_ssd_annotated_recursive">
 
 
-	<oracion>
-		<tema>
+	<sentence>
+		<theme>
 			la Real Academia de la Historia 
-		</tema>
-		<rema>
+		</theme>
+		<rheme>
 			se equivocó al asegurar que las comunidades autónomas tergiversan el pasado y silencian el concepto de España 
-		</rema>
+		</rheme>
 		<semantic_roles>
 			<frame type="Aggregate" head="comunidades"></frame>
 			<frame type="Becoming_silent" head="silencian">
@@ -36,16 +36,16 @@
 			<frame type="Individual_history" head="la Historia"></frame>
 			<frame type="Relative_time" head="pasado"></frame>
 		</semantic_roles>
-	</oracion>
+	</sentence>
 
 
-	<oracion>
-		<tema>
+	<sentence>
+		<theme>
 			La mayoría de manuales 
-		</tema>
-		<rema>
+		</theme>
+		<rheme>
 			desarrolla el pasado común 
-		</rema>
+		</rheme>
 		<semantic_roles>
 			<frame type="Cause_to_make_progress" head="desarrolla">
 				<argument type="Agent" dependent="mayoría de manuales"/>
@@ -53,47 +53,47 @@
 			<frame type="Relative_time" head="pasado"></frame>
 			<frame type="Text" head="manuales"></frame>
 		</semantic_roles>
-	</oracion>
+	</sentence>
 
 
-	<oracion>
-		<tema>
+	<sentence>
+		<theme>
 			Los libros de texto 
-		</tema>
-		<rema>
-			ofrecen a los escolares una visión de la historia de España equilibrada , universal y ajustada al espíritu plural y democrático inspirado en la Constitución de 1978 
-		</rema>
+		</theme>
+		<rheme>
+			ofrecen a los escolares una visión de la historia de España equilibrada, universal y ajustada al espíritu plural y democrático inspirado en la Constitución de 1978 
+		</rheme>
 		<semantic_roles>
 			<frame type="Individual_history" head="historia">
 				<argument type="Events" dependent="de la"/></frame>
 			<frame type="Offering" head="ofrecen">
-				<argument type="Theme" dependent="ofrecen a los escolares una visión de la historia de España equilibrada , universal y ajustada al espíritu plural y democrático inspirado en la"/>
+				<argument type="Theme" dependent="ofrecen a los escolares una visión de la historia de España equilibrada, universal y ajustada al espíritu plural y democrático inspirado en la"/>
 				<argument type="Potential_recipient" dependent="en la Constitución de"/></frame>
 			<frame type="Subjective_influence" head="inspirado">
 				<argument type="Entity" dependent="espíritu plural y democrático"/>
 				<argument type="Place" dependent="en la Constitución de"/></frame>
 		</semantic_roles>
-	</oracion>
+	</sentence>
 
 
-	<oracion>
-		<tema>
+	<sentence>
+		<theme>
 			Un informe de la Real Academia de la Historia hecho público esta semana 
-		</tema>
-		<rema>
-			acusó a las comunidades autónomas de &quot; tergiversar &quot; la enseñanza de esta disciplina , y convertirla en &quot; una historia local , discontinua y particularista &quot; 
-		</rema>
+		</theme>
+		<rheme>
+			acusó a las comunidades autónomas de tergiversar la enseñanza de esta disciplina, y convertirla en una historia local, discontinua y particularista 
+		</rheme>
 		<semantic_roles>
 			<frame type="Aggregate" head="comunidades"></frame>
 			<frame type="Calendric_unit" head="semana"></frame>
 			<frame type="Cause_change" head="convertirla">
 				<argument type="Cause" dependent="enseñanza de esta disciplina"/>
-				<argument type="Final_category" dependent="en & quot ; una historia local , discontinua y"/></frame>
+				<argument type="Final_category" dependent="en una historia local, discontinua y"/></frame>
 			<frame type="Individual_history" head="la Historia">
 				<argument type="Time_span" dependent="discontinua y"/></frame>
 			<frame type="Judgment_communication" head="tergiversar">
 				<argument type="Medium" dependent="informe de la Real Academia de la Historia hecho público esta semana acusó a"/>
-				<argument type="Reason" dependent="las comunidades autónomas de & quot ; tergiversar & quot ; la enseñanza de esta disciplina"/></frame>
+				<argument type="Reason" dependent="las comunidades autónomas de tergiversar la enseñanza de esta disciplina"/></frame>
 			<frame type="Means" head="de la">
 				<argument type="Purpose" dependent="informe de"/>
 				<argument type="Means" dependent="la Real Academia de"/></frame>
@@ -102,28 +102,28 @@
 			<frame type="Statement" head="informe de">
 				<argument type="Speaker" dependent="de la Real Academia de la"/></frame>
 		</semantic_roles>
-	</oracion>
+	</sentence>
 
 
-	<oracion>
-		<tema>
+	<sentence>
+		<theme>
 			el informe 
-		</tema>
-		<rema>
+		</theme>
+		<rheme>
 			
-		</rema>
+		</rheme>
 		<semantic_roles>
 		</semantic_roles>
-	</oracion>
+	</sentence>
 
 
-	<oracion>
-		<tema>
+	<sentence>
+		<theme>
 			La mayor proporción de temas relativos a toda España frente a los específicos de cada territorio la ecuanimidad con que se explica el fenómeno nacionalista junto a los hechos históricos comunes el énfasis con el que la Constitución y los correspondientes estatutos de autonomía son presentados como pilares del régimen democrático 
-		</tema>
-		<rema>
+		</theme>
+		<rheme>
 			desmienten los ejes centrales del informe de la academia 
-		</rema>
+		</rheme>
 		<semantic_roles>
 			<frame type="Affirm_or_deny" head="de">
 				<argument type="Speaker" dependent="presentados como pilares del régimen democrático"/>
@@ -144,16 +144,16 @@
 				<argument type="Message" dependent="a toda"/></frame>
 			<frame type="Statement" head="informe de"></frame>
 		</semantic_roles>
-	</oracion>
+	</sentence>
 
 
-	<oracion>
-		<tema>
+	<sentence>
+		<theme>
 			Los libros de texto que no respetan una visión neutra y sensata de la historia 
-		</tema>
-		<rema>
-			son pura excepción &quot; 
-		</rema>
+		</theme>
+		<rheme>
+			son pura excepción 
+		</rheme>
 		<semantic_roles>
 			<frame type="Individual_history" head="historia"></frame>
 			<frame type="Judgment" head="respetan">
@@ -163,16 +163,16 @@
 				<argument type="Opinion" dependent="la historia"/></frame>
 			<frame type="Partiality" head="neutra"></frame>
 		</semantic_roles>
-	</oracion>
+	</sentence>
 
 
-	<oracion>
-		<tema>
+	<sentence>
+		<theme>
 			La academia 
-		</tema>
-		<rema>
-			lamenta &quot; la impresión de que la vieja historia de España se fragmenta en múltiples historias regionales &quot; , pese a los criterios comunes y mínimos dictados por el Ministerio de Educación 
-		</rema>
+		</theme>
+		<rheme>
+			lamenta la impresión de que la vieja historia de España se fragmenta en múltiples historias regionales, pese a los criterios comunes y mínimos dictados por el Ministerio de Educación 
+		</rheme>
 		<semantic_roles>
 			<frame type="Age" head="vieja">
 				<argument type="Entity" dependent="historia de"/></frame>
@@ -185,16 +185,16 @@
 			<frame type="Quantified_mass" head="múltiples">
 				<argument type="Individuals" dependent="historias regionales"/></frame>
 		</semantic_roles>
-	</oracion>
+	</sentence>
 
 
-	<oracion>
-		<tema>
-			el volumen de Anaya de la serie Nuestro Mundo , uno de los más usados en las aulas vascas , 
-		</tema>
-		<rema>
+	<sentence>
+		<theme>
+			el volumen de Anaya de la serie Nuestro Mundo, uno de los más usados en las aulas vascas, 
+		</theme>
+		<rheme>
 			excede el 55% de temario común fijado por Educación para las comunidades con lengua propia 
-		</rema>
+		</rheme>
 		<semantic_roles>
 			<frame type="Aggregate" head="comunidades"></frame>
 			<frame type="Aggregate" head="fijado"></frame>
@@ -209,29 +209,29 @@
 				<argument type="Author" dependent="Anaya"/></frame>
 			<frame type="Timetable" head="temario"></frame>
 		</semantic_roles>
-	</oracion>
+	</sentence>
 
 
-	<oracion>
-		<tema>
+	<sentence>
+		<theme>
 			tan sólo 6 - - el 5,7% - - 
-		</tema>
-		<rema>
+		</theme>
+		<rheme>
 			se centran en el País Vasco 
-		</rema>
+		</rheme>
 		<semantic_roles>
 			<frame type="Political_locales" head="País"></frame>
 		</semantic_roles>
-	</oracion>
+	</sentence>
 
 
-	<oracion>
-		<tema>
-			Este manual , del que existe la correspondiente versión en euskera , 
-		</tema>
-		<rema>
+	<sentence>
+		<theme>
+			Este manual, del que existe la correspondiente versión en euskera, 
+		</theme>
+		<rheme>
 			incluye un amplio bloque 
-		</rema>
+		</rheme>
 		<semantic_roles>
 			<frame type="Inclusion" head="incluye">
 				<argument type="Total" dependent="Este manual"/>
@@ -245,31 +245,31 @@
 			<frame type="Type" head="versión">
 				<argument type="Category" dependent="en euskera"/></frame>
 		</semantic_roles>
-	</oracion>
+	</sentence>
 
 
-	<oracion>
-		<tema>
+	<sentence>
+		<theme>
 			La fabulosa herencia de Carlos V la monarquía hispánica Reyes Poderosos 
-		</tema>
-		<rema>
+		</theme>
+		<rheme>
 			son tres apartados 
-		</rema>
+		</rheme>
 		<semantic_roles>
 			<frame type="Cardinal_numbers" head="tres"></frame>
 			<frame type="Desirability" head="fabulosa">
 				<argument type="Evaluee" dependent="herencia de Carlos V la"/></frame>
 		</semantic_roles>
-	</oracion>
+	</sentence>
 
 
-	<oracion>
-		<tema>
+	<sentence>
+		<theme>
 			Otro temor invocado por la academia 
-		</tema>
-		<rema>
-			es un posible tratamiento &quot; de todo lo que nos separa &quot; , 
-		</rema>
+		</theme>
+		<rheme>
+			es un posible tratamiento de todo lo que nos separa, 
+		</rheme>
 		<semantic_roles>
 			<frame type="Cure" head="tratamiento"></frame>
 			<frame type="Fear" head="temor">
@@ -277,9 +277,9 @@
 			<frame type="Increment" head="Otro">
 				<argument type="Class" dependent="temor invocado por la academia"/></frame>
 			<frame type="Likelihood" head="posible">
-				<argument type="Hypothetical_event" dependent="tratamiento & quot ; de todo lo que nos separa"/></frame>
+				<argument type="Hypothetical_event" dependent="tratamiento de todo lo que nos separa"/></frame>
 		</semantic_roles>
-	</oracion>
+	</sentence>
 
 
-</texto>
+</text>

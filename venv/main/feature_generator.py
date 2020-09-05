@@ -324,12 +324,12 @@ files_grew = os.listdir(dir_TP_annotated)
 # XML content to save for the text
 xml = '''<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 
-<!DOCTYPE texto [
-	<!ELEMENT texto (oracion+)>
-	    <!ATTLIST texto id ID #REQUIRED>
-	<!ELEMENT oracion (tema, rema, semantic_roles)>
-		<!ELEMENT tema (#PCDATA)>
-		<!ELEMENT rema (#PCDATA)>
+<!DOCTYPE text [
+	<!ELEMENT text (sentence+)>
+	    <!ATTLIST text id ID #REQUIRED>
+	<!ELEMENT sentence (theme, rheme, semantic_roles)>
+		<!ELEMENT theme (#PCDATA)>
+		<!ELEMENT rheme (#PCDATA)>
 		<!ELEMENT semantic_roles (frame)>
 		<!ELEMENT frame (argument*)>
             <!ATTLIST frame type CDATA #REQUIRED>
@@ -346,7 +346,7 @@ for file_grew in files_grew:
     with open(dir_TP_annotated + '/' + file_grew) as f:
         n_sentence = 0
         sentences = parse(f.read())
-        xml += '<texto id="' + remove_ext(file_grew) + '">\n\n\n'
+        xml += '<text id="' + remove_ext(file_grew) + '">\n\n\n'
 
 
         # --> String representation of the conllu structure of the sentences in a text
@@ -363,9 +363,9 @@ for file_grew in files_grew:
             fm_anns = FN_annotated_list[n_sentence]
             n_sentence += 1
 
-            xml += '\t<oracion>\n'
-            xml += '\t\t<tema>\n\t\t\t' + forms_theme_rheme(sentence_main)[0] + '\n\t\t</tema>\n'
-            xml += '\t\t<rema>\n\t\t\t' + forms_theme_rheme(sentence_main)[1] + '\n\t\t</rema>\n'
+            xml += '\t<sentence>\n'
+            xml += '\t\t<theme>\n\t\t\t' + forms_theme_rheme(sentence_main)[0] + '\n\t\t</theme>\n'
+            xml += '\t\t<rheme>\n\t\t\t' + forms_theme_rheme(sentence_main)[1] + '\n\t\t</rheme>\n'
             xml += '\t\t<semantic_roles>\n'
 
             # Getting the ids of the tokens conforming the head of a FrameNet frame
@@ -405,7 +405,7 @@ for file_grew in files_grew:
                     xml += '\n\t\t\t\t<argument type="' + argument_type + '" dependent="' + argument_tokens + '"/>'
                 xml += '</frame>\n'
             xml += '\t\t</semantic_roles>\n'
-            xml += '\t</oracion>\n\n\n'
+            xml += '\t</sentence>\n\n\n'
 
             fm_annotated += (sentence_main + '\n')
 
@@ -422,7 +422,11 @@ for file_grew in files_grew:
             h.write(ok)
             h.close()
 
-        xml += '</texto>'
+        xml += '</text>'
+        xml = re.sub(" & quot ;", "", xml)
+        xml = re.sub(" & quot;", "", xml)
+        xml = re.sub(" &quot;", "", xml)
+        xml = re.sub(" , ", ", ", xml)
 
         with open(dir_output_xml + '/' + remove_ext(file_grew) + '.xml', "w") as xml_file:
             xml_file.write(xml)
