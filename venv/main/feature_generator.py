@@ -2,6 +2,7 @@ import os
 import re
 import natsort
 import shutil
+import operator
 import webbrowser
 from conllu import parse
 import pyconll as pc
@@ -106,9 +107,54 @@ def keep_theme_rheme(sent):
 
     lines = sent.split('\n')
     main = ""
+    new_root = False
 
+    # Solving the problem of sentences whose main clause does not include root
     for line in lines:
         line_fields = line.split('\t')
+
+        # Getting the root when not in main theme or rheme
+        if len(line_fields) >= 5 and "t=no" in line_fields[5] and "r=no" in line_fields[5]:
+            new_root = True
+
+    # When the original sentence root is not included in the compressed sentence
+    if new_root:
+
+        # Getting the conllu parsed version of the sentence
+        try:
+            sentences = parse(sent)
+        except pc.exception.ParseError:
+            sentences = parse(to_conllu(sent))
+        sentence = sentences[0]
+
+        # Getting the immediate sons of the head of the original root
+        found = False
+        hijos = [sentence.to_tree()]
+
+        # While the head of the main clause hasn't been found
+        while not found and len(hijos) > 0:
+            for hijo in hijos:
+
+                # Explore the tree until finding a t=yes or r=yes annotated node (the head of the main clause necessary)
+                if hijo.token['feats']['t'] == 'yes' or hijo.token['feats']['r'] == 'yes':
+                    hijo.token['deprel'] = 'root'
+                    hijo.token['head'] = 0
+                    found = True
+                    break
+
+            # Searching in the sons of every son in case immediate sons aren't the head of the selected main clause
+            nietos = []
+            for hijo in hijos:
+                nietos.extend(hijo.children)
+            hijos = nietos
+
+        # Updating lines with the new root token annotated as such
+        lines = sentence.serialize().split('\n')
+
+    # Keeping only the lines corresponding to the main theme and rheme of the sentence
+    for line in lines:
+        line_fields = line.split('\t')
+
         if len(line_fields)>=5 and ("t=yes" in line_fields[5] or "r=yes" in line_fields[5]):
             main += line + '\n'
 
@@ -131,7 +177,6 @@ def forms_theme_rheme(sent):
             rheme += line_fields[1] + ' '
 
     return (theme, rheme)
-
 
 
 # Given a sentence
@@ -253,6 +298,143 @@ def rewrite_dep(head_id, dep_id, arg, sentence):
 def remove_ext(filename):
     return filename[:filename.rfind(".")]
 
+
+# Getting the list of ids of the sons of
+# the id corresponding to the first argument
+# in the sentence corresponding to the second argument
+def get_sons_ids(id, sent):
+    try:
+        sentences = parse(sent)
+    except pc.exception.ParseError:
+        sentences = parse(to_conllu(sent))
+    sentence = sentences[0]
+
+    ids = [id]
+    ids_sons = list()
+    hijos = [sentence.to_tree()]
+
+    while len(hijos) > 0:
+        for hijo in hijos:
+            if str(hijo.token['head']) in ids:
+                ids_sons.append(hijo.token['id'])
+                ids.append(str(hijo.token['id']))
+                deps = hijo.children
+                for dep in deps:
+                    ids.append(str(dep.token['id']))
+
+        # Searching in the sons of every son in case immediate sons aren't the head of the selected main clause
+        nietos = []
+        for hijo in hijos:
+            nietos.extend(hijo.children)
+        hijos = nietos
+
+    # print(sentence.serialize())
+    # print(id, ids_sons)
+    return ids_sons
+
+
+def coord_to_sentence(sent):
+
+    heads = list()
+
+    try:
+        sentences = parse(sent)
+    except pc.exception.ParseError:
+        sentences = parse(to_conllu(sent))
+    sentence = sentences[0]
+
+    while "coord_fixed" in sentence.serialize():
+        hijos = [sentence.to_tree()]
+
+        # Getting the head token of a coord_fixed dependency
+        while len(hijos) > 0:
+            for hijo in hijos:
+                deps = hijo.children
+
+                # Explore the tree until finding a coord_fixed dependency
+                for dep in deps:
+                    if dep.token['deprel'] == 'coord_fixed':
+                        dep.token['deprel'] = 'coord_separated'
+
+                        # Getting the node which is head of the coordinated dependencies
+                        heads.append(hijo)
+                        break
+
+            # Searching in the sons of every son in case immediate sons aren't the head of the selected main clause
+            nietos = []
+            for hijo in hijos:
+                nietos.extend(hijo.children)
+            hijos = nietos
+
+    sentences_no_coord = list()
+    id_dep_to_separate = list()
+
+    # If a coordination to be fixed has been found
+    if len(heads) > 0:
+        for head in heads:
+
+            # Creating a dictionary with the frequencies of dependencies from the head node of the coordination
+            freq = dict()
+            list_deps_coord = [h.token['deprel'] for h in head.children]
+            for dep_coord in list_deps_coord:
+                if dep_coord != 'punct':
+                    if dep_coord in freq:
+                        freq[dep_coord] += 1
+                    else:
+                        freq[dep_coord] = 1
+
+            # Choosing the most frequent dependency type (except for punct) of the head of the coordination
+            id_head_to_separate = head.token['id']
+            dep_to_separate = max(freq.items(), key=operator.itemgetter(1))[0]
+
+            # Keeping the frequency of the dependency chosen in order to avoid conjunction removal when more than two coordinates are involved
+            id_dep_to_separate.append((id_head_to_separate, dep_to_separate, freq[dep_to_separate]))
+
+
+    # Obtaining list of subtrees depeding on the head of the coordinate clauses as the chosen dependency
+    sent_lines = sentence.serialize().split('\n')
+    ids_to_delete = list()
+    # print(id_dep_to_separate)
+    for rewr in id_dep_to_separate:
+
+        # Getting the id of the dependent
+        for l in sent_lines:
+            if len(l.split('\t')) > 1 and str(l.split('\t')[6]) == str(rewr[0]) and l.split('\t')[7] == rewr[1]:
+                ids_to_delete.append(l.split('\t')[0])
+
+        n_ids_to_delete = 0
+        for id_to_delete in ids_to_delete:
+            n_ids_to_delete += 1
+
+            # Obtaining the subtree immediately containing the coordinate clauses
+            dependents_ids_list = get_sons_ids(str(id_to_delete), sentence.serialize())
+            dependents_ids_list.append(int(id_to_delete))
+            # print(dependents_ids_list)
+
+            main = ""
+
+            for line in sent_lines:
+
+                # For those lines not depending on the head of the coordination
+                # not being conjunctions depending on the head of the coordination when there are more than two coordinates
+                # not being punctuaction depending on the head of the coordination when there are more than three coordinates
+                #
+                if len(line) > 1 and int(line.split('\t')[0]) not in dependents_ids_list and (
+                not (int(line.split('\t')[6]) == rewr[0] and line.split('\t')[7] == "coord_separated" and rewr[2] <= 2)) and (
+                not (int(line.split('\t')[6]) == rewr[0] and line.split('\t')[7] == "coord_separated" and rewr[2] > 2 and n_ids_to_delete == len(ids_to_delete))) and (
+                not (int(line.split('\t')[6]) == rewr[0] and line.split('\t')[7] == "punct" and rewr[2] <= 3)):
+                    main += line + '\n'
+
+            sentences_no_coord.append(main)
+
+    # print(sentence.serialize())
+    # print(id_dep_to_separate)
+    # print("\n".join(sentences_no_coord))
+    # print("___________________________________________________________________________________")
+    return "\n".join(sentences_no_coord)
+
+
+
 """
 def compress(list_ids, sent):
 
@@ -326,11 +508,11 @@ xml = '''<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 
 <!DOCTYPE text [
 	<!ELEMENT text (sentence+)>
-	    <!ATTLIST text id ID #REQUIRED>
+	    <!ATTLIST text id CDATA #REQUIRED>
 	<!ELEMENT sentence (theme, rheme, semantic_roles)>
 		<!ELEMENT theme (#PCDATA)>
 		<!ELEMENT rheme (#PCDATA)>
-		<!ELEMENT semantic_roles (frame)>
+		<!ELEMENT semantic_roles (frame*)>
 		<!ELEMENT frame (argument*)>
             <!ATTLIST frame type CDATA #REQUIRED>
             <!ATTLIST frame head CDATA #REQUIRED>
@@ -360,8 +542,14 @@ for file_grew in files_grew:
             # Rewriting the ids: beginning from 1 and with no gaps
             sentence_main = reset_ids(sentence_main)
 
+            # Transforming every coordinate to a sentence
+            sentence_main_coords = coord_to_sentence(sentence_main)
+
             fm_anns = FN_annotated_list[n_sentence]
             n_sentence += 1
+
+            print('________________________________________________________')
+            print(sentence_main)
 
             xml += '\t<sentence>\n'
             xml += '\t\t<theme>\n\t\t\t' + forms_theme_rheme(sentence_main)[0] + '\n\t\t</theme>\n'
@@ -408,6 +596,7 @@ for file_grew in files_grew:
             xml += '\t</sentence>\n\n\n'
 
             fm_annotated += (sentence_main + '\n')
+
 
         # Creating a new file with the selected subtree with the FrameNet annotations
         with open(dir_output + '/' + file_grew, "w") as h:

@@ -2,11 +2,11 @@
 
 <!DOCTYPE text [
 	<!ELEMENT text (sentence+)>
-	    <!ATTLIST text id ID #REQUIRED>
+	    <!ATTLIST text id CDATA #REQUIRED>
 	<!ELEMENT sentence (theme, rheme, semantic_roles)>
 		<!ELEMENT theme (#PCDATA)>
 		<!ELEMENT rheme (#PCDATA)>
-		<!ELEMENT semantic_roles (frame)>
+		<!ELEMENT semantic_roles (frame*)>
 		<!ELEMENT frame (argument*)>
             <!ATTLIST frame type CDATA #REQUIRED>
             <!ATTLIST frame head CDATA #REQUIRED>
