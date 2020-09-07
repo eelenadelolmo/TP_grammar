@@ -24,6 +24,7 @@ dir_output_xml = 'out_xml'
 shutil.rmtree(dir_output_xml, ignore_errors=True)
 os.makedirs(dir_output_xml)
 
+"""
 # Output dir for svg
 dir_svg = 'svg_fm'
 shutil.rmtree(dir_svg, ignore_errors=True, onerror=None)
@@ -33,6 +34,7 @@ os.makedirs(dir_svg)
 dir_html = 'template_fm'
 shutil.rmtree(dir_html, ignore_errors=True, onerror=None)
 os.makedirs(dir_html)
+"""
 
 
 # Given a string composed of one or several tokens and a sentence
@@ -373,6 +375,8 @@ def coord_to_sentence(sent):
     if len(heads) > 0:
         for head in heads:
 
+            # Choosing the most frequent dependency type (except for punct) of the head of the coordination
+            """
             # Creating a dictionary with the frequencies of dependencies from the head node of the coordination
             freq = dict()
             list_deps_coord = [h.token['deprel'] for h in head.children]
@@ -382,55 +386,91 @@ def coord_to_sentence(sent):
                         freq[dep_coord] += 1
                     else:
                         freq[dep_coord] = 1
-
-            # Choosing the most frequent dependency type (except for punct) of the head of the coordination
+                        
             id_head_to_separate = head.token['id']
             dep_to_separate = max(freq.items(), key=operator.itemgetter(1))[0]
+            id_dep_to_separate.append((id_head_to_separate, dep_to_separate, freq[dep_to_separate]))
+            """
+
+            id_head_to_separate = head.token['id']
+
+            for d in head.children:
+                print(d.token['form'])
+                if d.token['feats']['c'] == "yes":
+                    dep_to_separate = d.token['deprel']
+                    break
+
+            print('Coordinated depedency: ', dep_to_separate)
 
             # Keeping the frequency of the dependency chosen in order to avoid conjunction removal when more than two coordinates are involved
-            id_dep_to_separate.append((id_head_to_separate, dep_to_separate, freq[dep_to_separate]))
+            id_dep_to_separate.append((id_head_to_separate, dep_to_separate))
 
 
     # Obtaining list of subtrees depeding on the head of the coordinate clauses as the chosen dependency
     sent_lines = sentence.serialize().split('\n')
-    ids_to_delete = list()
-    # print(id_dep_to_separate)
+
     for rewr in id_dep_to_separate:
+        ids_to_maintain = list()
 
         # Getting the id of the dependent
         for l in sent_lines:
-            if len(l.split('\t')) > 1 and str(l.split('\t')[6]) == str(rewr[0]) and l.split('\t')[7] == rewr[1]:
-                ids_to_delete.append(l.split('\t')[0])
+            if len(l.split('\t')) > 1 and int(l.split('\t')[6]) == int(rewr[0]) and l.split('\t')[7] == rewr[1] and "c=yes" in l.split('\t')[5]:
+                ids_to_maintain.append(l.split('\t')[0])
 
-        n_ids_to_delete = 0
-        for id_to_delete in ids_to_delete:
-            n_ids_to_delete += 1
+        # n_ids_to_maintain = 0
+        for id_to_maintain in ids_to_maintain:
+            # n_ids_to_maintain += 1
 
-            # Obtaining the subtree immediately containing the coordinate clauses
-            dependents_ids_list = get_sons_ids(str(id_to_delete), sentence.serialize())
-            dependents_ids_list.append(int(id_to_delete))
-            # print(dependents_ids_list)
+            # Getting the ids of the rest of coordinates' heads
+            ids_to_delete = list()
+            for id in ids_to_maintain:
+                if id != id_to_maintain:
+                    ids_to_delete.append(id)
+            print(ids_to_delete)
+            # Obtaining the subtree immediately containing the coordinate
+            dependents_ids_list_maintain = get_sons_ids(str(id_to_maintain), sentence.serialize())
+            dependents_ids_list_maintain.append(int(id_to_maintain))
+
+            # Obtaining the subtrees of the rest of the coordinates
+            dependents_ids_list_delete = list()
+            for id_del in ids_to_delete:
+                dependents_ids_list_delete.extend(get_sons_ids(str(id_del), sentence.serialize()))
+                dependents_ids_list_delete.append(int(id_del))
+
+
+
+            print("Keep: ", dependents_ids_list_maintain)   # Unnecessary now
+            print("Delete: ", dependents_ids_list_delete)
 
             main = ""
 
+            # Getting the id of the conjuntion
             for line in sent_lines:
+                if len(line.split('\t')) > 1 and int(line.split('\t')[6]) == rewr[0] and line.split('\t')[7] == "coord_separated":
+                    id_conj = int(line.split('\t')[0])
+                    break
+
 
                 # For those lines not depending on the head of the coordination
                 # not being conjunctions depending on the head of the coordination when there are more than two coordinates
-                # not being punctuaction depending on the head of the coordination when there are more than three coordinates
-                #
-                if len(line) > 1 and int(line.split('\t')[0]) not in dependents_ids_list and (
-                not (int(line.split('\t')[6]) == rewr[0] and line.split('\t')[7] == "coord_separated" and rewr[2] <= 2)) and (
-                not (int(line.split('\t')[6]) == rewr[0] and line.split('\t')[7] == "coord_separated" and rewr[2] > 2 and n_ids_to_delete == len(ids_to_delete))) and (
-                not (int(line.split('\t')[6]) == rewr[0] and line.split('\t')[7] == "punct" and rewr[2] <= 3)):
+                # not being punctuation depending on the conjunction
+            for line in sent_lines:
+                if len(line) > 1 and int(line.split('\t')[0]) not in dependents_ids_list_delete and (
+                        not (int(line.split('\t')[6]) == rewr[0] and line.split('\t')[7] == "coord_separated")) and (
+                        not (int(line.split('\t')[6]) == id_conj and line.split('\t')[7] == "punct")):
+                    # Dealing with conjuctions and punctuation in coordination when only one coordinate is deleted (keeping the when there are more than two coordinates but deleting them when the removed coordinate is the last one)
+                    # not (int(line.split('\t')[6]) == rewr[0] and line.split('\t')[7] == "coord_separated" and rewr[2] <= 2)) and (
+                    # not (int(line.split('\t')[6]) == rewr[0] and line.split('\t')[7] == "coord_separated" and rewr[2] > 2 and n_ids_to_maintain == len(ids_to_maintain))) and (
+                    # not (int(line.split('\t')[6]) == rewr[0] and line.split('\t')[7] == "punct" and rewr[2] <= 3)):
                     main += line + '\n'
 
             sentences_no_coord.append(main)
 
-    # print(sentence.serialize())
-    # print(id_dep_to_separate)
-    # print("\n".join(sentences_no_coord))
-    # print("___________________________________________________________________________________")
+
+    print(sentence.serialize())
+    print(id_dep_to_separate)
+    print("\n".join(sentences_no_coord))
+    print("___________________________________________________________________________________")
     return "\n".join(sentences_no_coord)
 
 
@@ -539,17 +579,34 @@ for file_grew in files_grew:
             # Reducing every sentence to the theme + rheme of the main clause
             sentence_main = keep_theme_rheme(sentence.serialize())
 
+            # Cleaning repeated empty lines in the sentence
+            while True:
+                sent_clean = re.sub('\n\n', '\n', sentence_main)
+                if sent_clean == sentence_main:
+                    break
+                sentence_main = sent_clean
+
             # Rewriting the ids: beginning from 1 and with no gaps
             sentence_main = reset_ids(sentence_main)
 
-            # Transforming every coordinate to a sentence
-            sentence_main_coords = coord_to_sentence(sentence_main)
+            # Cleaning repeated empty lines in the sentence
+            while True:
+                sent_clean = re.sub('\n\n', '\n', sentence_main)
+                if sent_clean == sentence_main:
+                    break
+                sentence_main = sent_clean
+
+            if len(sentence_main) > 1:
+                # Transforming every coordinate to a sentence
+                sentence_main_coords = coord_to_sentence(sentence_main)
+            else:
+                print("No se ha podido extraer el tema y el rema de la oración", txt_transformer_str(sentence.serialize()))
 
             fm_anns = FN_annotated_list[n_sentence]
             n_sentence += 1
 
-            print('________________________________________________________')
-            print(sentence_main)
+            # print('________________________________________________________')
+            # print(sentence_main)
 
             xml += '\t<sentence>\n'
             xml += '\t\t<theme>\n\t\t\t' + forms_theme_rheme(sentence_main)[0] + '\n\t\t</theme>\n'
