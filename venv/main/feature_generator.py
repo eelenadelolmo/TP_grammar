@@ -103,9 +103,9 @@ def search_id(toks, sent):
     return ids
 
 
-# Given a sentence
-# Returns the subtree composed of the theme and rheme of its main clause
-def keep_theme_rheme(sent):
+# Given a list of features and a sentence
+# Returns the subtree composed of the tokens of the sentence with a "yes" value in the features selected
+def keep_annotations(anns, sent):
 
     lines = sent.split('\n')
     main = ""
@@ -138,11 +138,12 @@ def keep_theme_rheme(sent):
             for hijo in hijos:
 
                 # Explore the tree until finding a t=yes or r=yes annotated node (the head of the main clause necessary)
-                if hijo.token['feats']['t'] == 'yes' or hijo.token['feats']['r'] == 'yes':
-                    hijo.token['deprel'] = 'root'
-                    hijo.token['head'] = 0
-                    found = True
-                    break
+                for ann in anns:
+                    if hijo.token['feats'][ann] == 'yes':
+                        hijo.token['deprel'] = 'root'
+                        hijo.token['head'] = 0
+                        found = True
+                        break
 
             # Searching in the sons of every son in case immediate sons aren't the head of the selected main clause
             nietos = []
@@ -284,7 +285,11 @@ def txt_transformer_str(sentence):
     return s_txt
 
 
-# Takes the id of the selected head token and the list of ids of its selected dependants and rewrites the sentence dependencies accordingly
+# Takes the id of a token as the first argument,
+# the id of another token as the second argument
+# a dependency relation type as the third argument and
+# a sentence as the fourth argument
+# returning the rewriten sentence with the second token depending on the first one
 def rewrite_dep(head_id, dep_id, arg, sentence):
 
     for token in sentence[0]:
@@ -532,15 +537,6 @@ FN_annotated_list = list()
 # - Every argument is a Python tuple (type of FrameNet relation, string)
 
 
-# Getting the ordered list with the FrameNet annotations for every sentence
-files_fm = natsort.natsorted(os.listdir(dir_FN_annotated))
-for file in files_fm:
-    with open(dir_FN_annotated + '/' + file, 'r') as f:
-        dict_ann = literal_eval(f.read())
-        FN_annotated_list.append(dict_ann)
-
-files_grew = os.listdir(dir_TP_annotated)
-
 ## Creating a XML file with the theme/rheme and the FrameNet annotations information
 
 # XML content to save for the text
@@ -564,11 +560,21 @@ xml = '''<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 
 '''
 
+
+# Getting the ordered list with the FrameNet annotations for every sentence
+files_fm = natsort.natsorted(os.listdir(dir_FN_annotated))
+for file in files_fm:
+    with open(dir_FN_annotated + '/' + file, 'r') as f:
+        dict_ann = literal_eval(f.read())
+        FN_annotated_list.append(dict_ann)
+
+
+n_sentence = 0
+files_grew = natsort.natsorted(os.listdir(dir_TP_annotated))
 for file_grew in files_grew:
     with open(dir_TP_annotated + '/' + file_grew) as f:
-        n_sentence = 0
         sentences = parse(f.read())
-        xml += '<text id="' + remove_ext(file_grew) + '">\n\n\n'
+        xml_sentence = xml + '<text id="' + remove_ext(file_grew) + '">\n\n\n'
 
 
         # --> String representation of the conllu structure of the sentences in a text
@@ -577,7 +583,7 @@ for file_grew in files_grew:
         for sentence in sentences:
 
             # Reducing every sentence to the theme + rheme of the main clause
-            sentence_main = keep_theme_rheme(sentence.serialize())
+            sentence_main = keep_annotations(['t', 'r'], sentence.serialize())
 
             # Cleaning repeated empty lines in the sentence
             while True:
@@ -608,10 +614,10 @@ for file_grew in files_grew:
             # print('________________________________________________________')
             # print(sentence_main)
 
-            xml += '\t<sentence>\n'
-            xml += '\t\t<theme>\n\t\t\t' + forms_theme_rheme(sentence_main)[0] + '\n\t\t</theme>\n'
-            xml += '\t\t<rheme>\n\t\t\t' + forms_theme_rheme(sentence_main)[1] + '\n\t\t</rheme>\n'
-            xml += '\t\t<semantic_roles>\n'
+            xml_sentence += '\t<sentence>\n'
+            xml_sentence += '\t\t<theme>\n\t\t\t' + forms_theme_rheme(sentence_main)[0] + '\n\t\t</theme>\n'
+            xml_sentence += '\t\t<rheme>\n\t\t\t' + forms_theme_rheme(sentence_main)[1] + '\n\t\t</rheme>\n'
+            xml_sentence += '\t\t<semantic_roles>\n'
 
             # Getting the ids of the tokens conforming the head of a FrameNet frame
             for frame_head in fm_anns:
@@ -625,7 +631,7 @@ for file_grew in files_grew:
                 # --> List of the ids (ordered) of the tokens corresponding to the head of the arguments
                 h_ids = search_id(frame_tokens, sentence_main)
 
-                xml += '\t\t\t<frame type="' + frame + '" head="' + frame_tokens + '">'
+                xml_sentence += '\t\t\t<frame type="' + frame + '" head="' + frame_tokens + '">'
 
                 for dep_ann in fm_anns[frame_head]:
 
@@ -647,10 +653,10 @@ for file_grew in files_grew:
                         sentence_main = rewrite_dep(h_dep_ids[0], h_dep_id, argument_type, parse(sentence_main))
                     """
 
-                    xml += '\n\t\t\t\t<argument type="' + argument_type + '" dependent="' + argument_tokens + '"/>'
-                xml += '</frame>\n'
-            xml += '\t\t</semantic_roles>\n'
-            xml += '\t</sentence>\n\n\n'
+                    xml_sentence += '\n\t\t\t\t<argument type="' + argument_type + '" dependent="' + argument_tokens + '"/>'
+                xml_sentence += '</frame>\n'
+            xml_sentence += '\t\t</semantic_roles>\n'
+            xml_sentence += '\t</sentence>\n\n\n'
 
             fm_annotated += (sentence_main + '\n')
 
@@ -668,14 +674,14 @@ for file_grew in files_grew:
             h.write(ok)
             h.close()
 
-        xml += '</text>'
-        xml = re.sub(" & quot ;", "", xml)
-        xml = re.sub(" & quot;", "", xml)
-        xml = re.sub(" &quot;", "", xml)
-        xml = re.sub(" , ", ", ", xml)
+        xml_sentence += '</text>'
+        xml_sentence = re.sub(" & quot ;", "", xml_sentence)
+        xml_sentence = re.sub(" & quot;", "", xml_sentence)
+        xml_sentence = re.sub(" &quot;", "", xml_sentence)
+        xml_sentence = re.sub(" , ", ", ", xml_sentence)
 
         with open(dir_output_xml + '/' + remove_ext(file_grew) + '.xml', "w") as xml_file:
-            xml_file.write(xml)
+            xml_file.write(xml_sentence)
             xml_file.close()
 
 
