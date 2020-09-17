@@ -4,8 +4,9 @@
 	<!ELEMENT text (sentence+)>
 	    <!ATTLIST text id CDATA #REQUIRED>
 	<!ELEMENT sentence (theme, rheme, semantic_roles)>
-		<!ELEMENT theme (#PCDATA)>
-		<!ELEMENT rheme (#PCDATA)>
+		<!ELEMENT theme (token*)>
+		<!ELEMENT rheme (token*)>
+		<!ELEMENT token (#PCDATA)>
 		<!ELEMENT semantic_roles (frame*)>
 		<!ELEMENT frame (argument*)>
             <!ATTLIST frame type CDATA #REQUIRED>
@@ -21,10 +22,10 @@
 
 	<sentence>
 		<theme>
-			Egypt Air, compañía estatal creada hace 67 años, 
+			<token>Egypt</token><token>Air</token><token>,</token><token>compañía</token><token>estatal</token><token>creada</token><token>hace</token><token>67</token><token>años</token><token>,</token>
 		</theme>
 		<rheme>
-			nunca habían tenido un accidente fatal 
+			<token>nunca</token><token>habían</token><token>tenido</token><token>un</token><token>accidente</token><token>fatal</token>
 		</rheme>
 		<semantic_roles>
 			<frame type="Appellations" head="presidente"></frame>
@@ -48,10 +49,10 @@
 
 	<sentence>
 		<theme>
-			eso 
+			<token>eso</token>
 		</theme>
 		<rheme>
-			no es verdad 
+			<token>no</token><token>es</token><token>verdad</token>
 		</rheme>
 		<semantic_roles>
 			<frame type="Be_in_agreement_on_action" head="según">
@@ -83,10 +84,10 @@
 
 	<sentence>
 		<theme>
-			El más grave y reciente 
+			<token>El</token><token>más</token><token>grave</token><token>y</token><token>reciente</token>
 		</theme>
 		<rheme>
-			ocurrió en 1976, 
+			<token>ocurrió</token><token>en</token><token>1976</token><token>,</token>
 		</rheme>
 		<semantic_roles>
 			<frame type="Architectural_part" head="aterrizaje"></frame>
@@ -147,10 +148,10 @@
 
 	<sentence>
 		<theme>
-			La compañía, una de las más antiguas de Oriente Próximo, 
+			<token>La</token><token>compañía</token><token>,</token><token>una</token><token>de</token><token>las</token><token>más</token><token>antiguas</token><token>de</token><token>Oriente</token><token>Próximo</token><token>,</token>
 		</theme>
 		<rheme>
-			tiene numerosos críticos en su propio país 
+			<token>tiene</token><token>numerosos</token><token>críticos</token><token>en</token><token>su</token><token>propio</token><token>país</token>
 		</rheme>
 		<semantic_roles>
 			<frame type="Businesses" head="compañía"></frame>
@@ -176,10 +177,10 @@
 
 	<sentence>
 		<theme>
-			Rayan, un ex general que dirige la empresa con mano de hierro, 
+			<token>Rayan</token><token>,</token><token>un</token><token>ex</token><token>general</token><token>que</token><token>dirige</token><token>la</token><token>empresa</token><token>con</token><token>mano</token><token>de</token><token>hierro</token><token>,</token>
 		</theme>
 		<rheme>
-			ha reconocido errores en la forma en que se gestiona la aerolínea, 
+			<token>ha</token><token>reconocido</token><token>errores</token><token>en</token><token>la</token><token>forma</token><token>en</token><token>que</token><token>se</token><token>gestiona</token><token>la</token><token>aerolínea</token><token>,</token>
 		</rheme>
 		<semantic_roles>
 			<frame type="Abandonment" head="abandone">
@@ -229,10 +230,10 @@
 
 	<sentence>
 		<theme>
-			Su flota 
+			<token>Su</token><token>flota</token>
 		</theme>
 		<rheme>
-			tiene 38 aviones 
+			<token>tiene</token><token>38</token><token>aviones</token>
 		</rheme>
 		<semantic_roles>
 		</semantic_roles>

@@ -4,8 +4,9 @@
 	<!ELEMENT text (sentence+)>
 	    <!ATTLIST text id CDATA #REQUIRED>
 	<!ELEMENT sentence (theme, rheme, semantic_roles)>
-		<!ELEMENT theme (#PCDATA)>
-		<!ELEMENT rheme (#PCDATA)>
+		<!ELEMENT theme (token*)>
+		<!ELEMENT rheme (token*)>
+		<!ELEMENT token (#PCDATA)>
 		<!ELEMENT semantic_roles (frame*)>
 		<!ELEMENT frame (argument*)>
             <!ATTLIST frame type CDATA #REQUIRED>
@@ -21,10 +22,10 @@
 
 	<sentence>
 		<theme>
-			El Gobierno de Portugal 
+			<token>El</token><token>Gobierno</token><token>de</token><token>Portugal</token>
 		</theme>
 		<rheme>
-			decidió abrir una cuenta de ahorro con 50 euros ( 8.319 pesetas ) a los bebés nacidos el 1 de enero del 2002 
+			<token>decidió</token><token>abrir</token><token>una</token><token>cuenta</token><token>de</token><token>ahorro</token><token>con</token><token>50</token><token>euros</token><token>(</token><token>8.319</token><token>pesetas</token><token>)</token><token>a</token><token>los</token><token>bebés</token><token>nacidos</token><token>el</token><token>1</token><token>de</token><token>enero</token><token>del</token><token>2002</token>
 		</rheme>
 		<semantic_roles>
 			<frame type="Bringing" head="nacidos el">
@@ -50,10 +51,10 @@
 
 	<sentence>
 		<theme>
-			El ministro 
+			<token>El</token><token>ministro</token>
 		</theme>
 		<rheme>
-			con este gesto se pretendía destacar un momento histórico asociando para siempre a los recién nacidos del primer día del año con la construcción de una Europa de paz y solidaridad 
+			<token>con</token><token>este</token><token>gesto</token><token>se</token><token>pretendía</token><token>destacar</token><token>&quot;</token><token>un</token><token>momento</token><token>histórico</token><token>&quot;</token><token>asociando</token><token>para</token><token>siempre</token><token>a</token><token>los</token><token>recién</token><token>nacidos</token><token>del</token><token>primer</token><token>día</token><token>del</token><token>año</token><token>&quot;</token><token>con</token><token>la</token><token>construcción</token><token>de</token><token>una</token><token>Europa</token><token>de</token><token>paz</token><token>y</token><token>solidaridad</token><token>&quot;</token>
 		</rheme>
 		<semantic_roles>
 			<frame type="Building" head="construcción">
@@ -76,10 +77,10 @@
 
 	<sentence>
 		<theme>
-			El Ejecutivo portugués 
+			<token>El</token><token>Ejecutivo</token><token>portugués</token>
 		</theme>
 		<rheme>
-			quería saludar de esta forma el nacimiento de una generación euro 
+			<token>quería</token><token>saludar</token><token>de</token><token>esta</token><token>forma</token><token>el</token><token>nacimiento</token><token>de</token><token>una</token><token>generación</token><token>euro</token>
 		</rheme>
 		<semantic_roles>
 			<frame type="Desiring" head="quería">

@@ -546,8 +546,9 @@ xml = '''<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 	<!ELEMENT text (sentence+)>
 	    <!ATTLIST text id CDATA #REQUIRED>
 	<!ELEMENT sentence (theme, rheme, semantic_roles)>
-		<!ELEMENT theme (#PCDATA)>
-		<!ELEMENT rheme (#PCDATA)>
+		<!ELEMENT theme (token*)>
+		<!ELEMENT rheme (token*)>
+		<!ELEMENT token (#PCDATA)>
 		<!ELEMENT semantic_roles (frame*)>
 		<!ELEMENT frame (argument*)>
             <!ATTLIST frame type CDATA #REQUIRED>
@@ -615,8 +616,20 @@ for file_grew in files_grew:
             # print(sentence_main)
 
             xml_sentence += '\t<sentence>\n'
-            xml_sentence += '\t\t<theme>\n\t\t\t' + forms_theme_rheme(sentence_main)[0] + '\n\t\t</theme>\n'
-            xml_sentence += '\t\t<rheme>\n\t\t\t' + forms_theme_rheme(sentence_main)[1] + '\n\t\t</rheme>\n'
+
+            tokens_theme = forms_theme_rheme(sentence_main)[0].split()
+            tokens_rheme = forms_theme_rheme(sentence_main)[1].split()
+
+            xml_sentence += '\t\t<theme>\n\t\t\t'
+            for token in tokens_theme:
+                xml_sentence += '<token>' + token + '</token>'
+            xml_sentence += '\n\t\t</theme>\n'
+
+            xml_sentence += '\t\t<rheme>\n\t\t\t'
+            for token in tokens_rheme:
+                xml_sentence += '<token>' + token + '</token>'
+            xml_sentence += '\n\t\t</rheme>\n'
+
             xml_sentence += '\t\t<semantic_roles>\n'
 
             # Getting the ids of the tokens conforming the head of a FrameNet frame
