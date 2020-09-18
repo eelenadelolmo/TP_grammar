@@ -183,6 +183,41 @@ def forms_theme_rheme(sent):
 
 
 # Given a sentence
+# Returns a tuple with the PoS of the tokens composing its theme and its rheme
+def pos_theme_rheme(sent):
+
+    lines = sent.split('\n')
+    theme_pos_list = list()
+    rheme_pos_list = list()
+
+    for line in lines:
+        line_fields = line.split('\t')
+        if len(line_fields)>=5 and ("t=yes" in line_fields[5]):
+            theme_pos_list.append(line_fields[3])
+        if len(line_fields)>=5 and ("r=yes" in line_fields[5]):
+            rheme_pos_list.append(line_fields[3])
+
+    return (theme_pos_list, rheme_pos_list)
+
+
+# Given a sentence
+# Returns a tuple with a boolean True value if a reported speech subject if annotated and its string; or a boolean False value and an empty string otherwise
+def get_modalitySpeaker(sent):
+
+    lines = sent.split('\n')
+    modality_speaker = ""
+    found = False
+
+    for line in lines:
+        line_fields = line.split('\t')
+        if len(line_fields)>=5 and ("rep=yes" in line_fields[5]):
+            found = True
+            modality_speaker += line_fields[1] + ' '
+
+    return (found, modality_speaker)
+
+
+# Given a sentence
 # Returns a tuple with the lists with the ids of the elements of its theme and rheme
 def ids_theme_rheme(sent):
 
@@ -400,12 +435,12 @@ def coord_to_sentence(sent):
             id_head_to_separate = head.token['id']
 
             for d in head.children:
-                print(d.token['form'])
+                # print(d.token['form'])
                 if d.token['feats']['c'] == "yes":
                     dep_to_separate = d.token['deprel']
                     break
 
-            print('Coordinated depedency: ', dep_to_separate)
+            # print('Coordinated depedency: ', dep_to_separate)
 
             # Keeping the frequency of the dependency chosen in order to avoid conjunction removal when more than two coordinates are involved
             id_dep_to_separate.append((id_head_to_separate, dep_to_separate))
@@ -431,7 +466,7 @@ def coord_to_sentence(sent):
             for id in ids_to_maintain:
                 if id != id_to_maintain:
                     ids_to_delete.append(id)
-            print(ids_to_delete)
+            # print(ids_to_delete)
             # Obtaining the subtree immediately containing the coordinate
             dependents_ids_list_maintain = get_sons_ids(str(id_to_maintain), sentence.serialize())
             dependents_ids_list_maintain.append(int(id_to_maintain))
@@ -444,8 +479,8 @@ def coord_to_sentence(sent):
 
 
 
-            print("Keep: ", dependents_ids_list_maintain)   # Unnecessary now
-            print("Delete: ", dependents_ids_list_delete)
+            # print("Keep: ", dependents_ids_list_maintain)   # Unnecessary now
+            # print("Delete: ", dependents_ids_list_delete)
 
             main = ""
 
@@ -472,10 +507,10 @@ def coord_to_sentence(sent):
             sentences_no_coord.append(main)
 
 
-    print(sentence.serialize())
-    print(id_dep_to_separate)
-    print("\n".join(sentences_no_coord))
-    print("___________________________________________________________________________________")
+    # print(sentence.serialize())
+    # print(id_dep_to_separate)
+    # print("\n".join(sentences_no_coord))
+    # print("___________________________________________________________________________________")
     return "\n".join(sentences_no_coord)
 
 
@@ -549,6 +584,7 @@ xml = '''<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 		<!ELEMENT theme (token*)>
 		<!ELEMENT rheme (token*)>
 		<!ELEMENT token (#PCDATA)>
+		    <!ATTLIST token pos CDATA #REQUIRED>
 		<!ELEMENT semantic_roles (frame*)>
 		<!ELEMENT frame (argument*)>
             <!ATTLIST frame type CDATA #REQUIRED>
@@ -582,6 +618,9 @@ for file_grew in files_grew:
         fm_annotated = ""
 
         for sentence in sentences:
+
+            # Keeping the reporter modality marker before transforming the original sentence
+            reporter = get_modalitySpeaker(sentence.serialize())
 
             # Reducing every sentence to the theme + rheme of the main clause
             sentence_main = keep_annotations(['t', 'r'], sentence.serialize())
@@ -619,18 +658,25 @@ for file_grew in files_grew:
 
             tokens_theme = forms_theme_rheme(sentence_main)[0].split()
             tokens_rheme = forms_theme_rheme(sentence_main)[1].split()
+            pos_theme = pos_theme_rheme(sentence_main)[0]
+            pos_rheme = pos_theme_rheme(sentence_main)[1]
+            tokens_pos_theme = zip(tokens_theme, pos_theme)
+            tokens_pos_rheme = zip(tokens_rheme, pos_rheme)
 
             xml_sentence += '\t\t<theme>\n\t\t\t'
-            for token in tokens_theme:
-                xml_sentence += '<token>' + token + '</token>'
+            for token_pos in tokens_pos_theme:
+                xml_sentence += '<token pos="' + token_pos[1] + '">' + token_pos[0] + '</token>'
             xml_sentence += '\n\t\t</theme>\n'
 
             xml_sentence += '\t\t<rheme>\n\t\t\t'
-            for token in tokens_rheme:
-                xml_sentence += '<token>' + token + '</token>'
+            for token_pos in tokens_pos_rheme:
+                xml_sentence += '<token pos="' + token_pos[1] + '">' + token_pos[0] + '</token>'
             xml_sentence += '\n\t\t</rheme>\n'
 
             xml_sentence += '\t\t<semantic_roles>\n'
+
+            if reporter[0]:
+                xml_sentence += '\t\t\t<frame type="Modality_Reporter" head="' + reporter[1] + '"></frame>\n'
 
             # Getting the ids of the tokens conforming the head of a FrameNet frame
             for frame_head in fm_anns:

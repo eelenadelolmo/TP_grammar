@@ -7,6 +7,7 @@
 		<!ELEMENT theme (token*)>
 		<!ELEMENT rheme (token*)>
 		<!ELEMENT token (#PCDATA)>
+		    <!ATTLIST token pos CDATA #REQUIRED>
 		<!ELEMENT semantic_roles (frame*)>
 		<!ELEMENT frame (argument*)>
             <!ATTLIST frame type CDATA #REQUIRED>
@@ -22,10 +23,10 @@
 
 	<sentence>
 		<theme>
-			<token>Egypt</token><token>Air</token><token>,</token><token>compañía</token><token>estatal</token><token>creada</token><token>hace</token><token>67</token><token>años</token><token>,</token>
+			<token pos="np0000l">Egypt</token><token pos="np0000l">Air</token><token pos="fc">,</token><token pos="ncfs000">compañía</token><token pos="aq0cs0">estatal</token><token pos="aq0fsp">creada</token><token pos="vmip3s0">hace</token><token pos="z">67</token><token pos="ncmp000">años</token><token pos="fc">,</token>
 		</theme>
 		<rheme>
-			<token>nunca</token><token>habían</token><token>tenido</token><token>un</token><token>accidente</token><token>fatal</token>
+			<token pos="rg">nunca</token><token pos="vaii3p0">habían</token><token pos="vmp00sm">tenido</token><token pos="di0ms0">un</token><token pos="ncms000">accidente</token><token pos="aq0cs0">fatal</token>
 		</rheme>
 		<semantic_roles>
 			<frame type="Appellations" head="presidente"></frame>
@@ -49,12 +50,13 @@
 
 	<sentence>
 		<theme>
-			<token>eso</token>
+			<token pos="pd0ns000">eso</token>
 		</theme>
 		<rheme>
-			<token>no</token><token>es</token><token>verdad</token>
+			<token pos="rn">no</token><token pos="vsip3s0">es</token><token pos="ncfs000">verdad</token>
 		</rheme>
 		<semantic_roles>
+			<frame type="Modality_Reporter" head="algunas informaciones Associated Press "></frame>
 			<frame type="Be_in_agreement_on_action" head="según">
 				<argument type="Obligation" dependent="según informa Associated Press"/></frame>
 			<frame type="Goal" head="según">
@@ -84,10 +86,10 @@
 
 	<sentence>
 		<theme>
-			<token>El</token><token>más</token><token>grave</token><token>y</token><token>reciente</token>
+			<token pos="da0ms0">El</token><token pos="rg">más</token><token pos="aq0cs0">grave</token><token pos="cc">y</token><token pos="aq0cs0">reciente</token>
 		</theme>
 		<rheme>
-			<token>ocurrió</token><token>en</token><token>1976</token><token>,</token>
+			<token pos="vmis3s0">ocurrió</token><token pos="sps00">en</token><token pos="z">1976</token><token pos="fc">,</token>
 		</rheme>
 		<semantic_roles>
 			<frame type="Architectural_part" head="aterrizaje"></frame>
@@ -148,10 +150,10 @@
 
 	<sentence>
 		<theme>
-			<token>La</token><token>compañía</token><token>,</token><token>una</token><token>de</token><token>las</token><token>más</token><token>antiguas</token><token>de</token><token>Oriente</token><token>Próximo</token><token>,</token>
+			<token pos="da0fs0">La</token><token pos="ncfs000">compañía</token><token pos="fc">,</token><token pos="pi0fs000">una</token><token pos="sps00">de</token><token pos="da0fp0">las</token><token pos="rg">más</token><token pos="aq0fp0">antiguas</token><token pos="sps00">de</token><token pos="np0000l">Oriente</token><token pos="np0000l">Próximo</token><token pos="fc">,</token>
 		</theme>
 		<rheme>
-			<token>tiene</token><token>numerosos</token><token>críticos</token><token>en</token><token>su</token><token>propio</token><token>país</token>
+			<token pos="vmip3s0">tiene</token><token pos="aq0mp0">numerosos</token><token pos="ncmp000">críticos</token><token pos="sps00">en</token><token pos="dp3cs0">su</token><token pos="di0ms0">propio</token><token pos="ncms000">país</token>
 		</rheme>
 		<semantic_roles>
 			<frame type="Businesses" head="compañía"></frame>
@@ -177,10 +179,10 @@
 
 	<sentence>
 		<theme>
-			<token>Rayan</token><token>,</token><token>un</token><token>ex</token><token>general</token><token>que</token><token>dirige</token><token>la</token><token>empresa</token><token>con</token><token>mano</token><token>de</token><token>hierro</token><token>,</token>
+			<token pos="np00000">Rayan</token><token pos="fc">,</token><token pos="di0ms0">un</token><token pos="aq0cn0">ex</token><token pos="nccs000">general</token><token pos="pr0cn000">que</token><token pos="vmip3s0">dirige</token><token pos="da0fs0">la</token><token pos="ncfs000">empresa</token><token pos="sps00">con</token><token pos="ncfs000">mano</token><token pos="sps00">de</token><token pos="ncms000">hierro</token><token pos="fc">,</token>
 		</theme>
 		<rheme>
-			<token>ha</token><token>reconocido</token><token>errores</token><token>en</token><token>la</token><token>forma</token><token>en</token><token>que</token><token>se</token><token>gestiona</token><token>la</token><token>aerolínea</token><token>,</token>
+			<token pos="vaip3s0">ha</token><token pos="vmp00sm">reconocido</token><token pos="ncmp000">errores</token><token pos="sps00">en</token><token pos="da0fs0">la</token><token pos="ncfs000">forma</token><token pos="sps00">en</token><token pos="pr0cn000">que</token><token pos="p0000000">se</token><token pos="vmip3s0">gestiona</token><token pos="da0fs0">la</token><token pos="ncfs000">aerolínea</token><token pos="fc">,</token>
 		</rheme>
 		<semantic_roles>
 			<frame type="Abandonment" head="abandone">
@@ -230,10 +232,10 @@
 
 	<sentence>
 		<theme>
-			<token>Su</token><token>flota</token>
+			<token pos="dp3cs0">Su</token><token pos="ncfs000">flota</token>
 		</theme>
 		<rheme>
-			<token>tiene</token><token>38</token><token>aviones</token>
+			<token pos="vmip3s0">tiene</token><token pos="z">38</token><token pos="ncmp000">aviones</token>
 		</rheme>
 		<semantic_roles>
 		</semantic_roles>
