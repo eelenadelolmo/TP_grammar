@@ -660,6 +660,7 @@ for file_grew in files_grew:
             tokens_rheme = forms_theme_rheme(sentence_main)[1].split()
             pos_theme = pos_theme_rheme(sentence_main)[0]
             pos_rheme = pos_theme_rheme(sentence_main)[1]
+            pos_rheme = pos_theme_rheme(sentence_main)[1]
             tokens_pos_theme = zip(tokens_theme, pos_theme)
             tokens_pos_rheme = zip(tokens_rheme, pos_rheme)
 

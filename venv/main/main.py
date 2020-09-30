@@ -176,6 +176,7 @@ rule preceding_subject {
   }
 }
 
+
 strat S1 { Try ( Iter ( preceding_subject ) ) }
 """
 
