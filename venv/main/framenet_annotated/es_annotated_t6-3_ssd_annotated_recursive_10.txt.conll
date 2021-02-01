@@ -1,0 +1,13 @@
+{   ('Age', 'viejas'): [('Entity', 'calle , la calzada empedrada')],
+    ('Architectural_part', 'muralla'): [('Whole', 'de paneles metálicos')],
+    ('Existence', 'existencia'): [],
+    ('Likelihood', 'improbable'): [('Hypothetical_event', 'existencia de un recinto prodigioso')],
+    ('Locative_relation', 'en'): [   ('Figure', 'calle , la calzada empedrada , las viejas aceras de perfil curvo , piedra blanda , lamida por el tiempo , y se detuvo en la frágil'),
+                                     ('Ground', 'la frágil muralla de paneles metálicos que reforzaba la improbable existencia de un recinto prodigioso')],
+    ('Perception_active', 'blanda'): [('Purpose', 'atravesó la calle')],
+    ('Preventing_or_letting', 'detuvo'): [('Event', 'en la frágil muralla de paneles metálicos que reforzaba la improbable existencia de un recinto prodigioso')],
+    ('Progression', 'progreso'): [],
+    ('Reason', 'de la razón'): [],
+    ('Roadways', 'calle'): [],
+    ('Shapes', 'curvo'): [],
+    ('Traversing', 'calle'): [('Theme', 'Su mirada'), ('Path', 'la calle')]}

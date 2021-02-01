@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!DOCTYPE text [
+	<!ELEMENT text (sentence+)>
+	    <!ATTLIST text id CDATA #REQUIRED>
+	<!ELEMENT sentence (theme, rheme, semantic_roles)>
+		<!ELEMENT theme (token*)>
+		<!ELEMENT rheme (token*)>
+		<!ELEMENT token (#PCDATA)>
+		    <!ATTLIST token pos CDATA #REQUIRED>
+		<!ELEMENT semantic_roles (frame*)>
+		<!ELEMENT frame (argument*)>
+            <!ATTLIST frame type CDATA #REQUIRED>
+            <!ATTLIST frame head CDATA #REQUIRED>
+		<!ELEMENT argument EMPTY>
+            <!ATTLIST argument type CDATA #REQUIRED>
+            <!ATTLIST argument dependent CDATA #REQUIRED>
+]>
+
+
+<text id="t4-3_ssd_annotated_recursive">
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0mp0">los</token><token pos="ncmp000">románticos</token><token pos="aq0mp0">españoles</token>
+		</theme>
+		<rheme>
+			<token pos="vmis3p0">inventaron</token><token pos="da0ms0">el</token><token pos="ncms000">liberalismo</token><token pos="aq0ms0">político</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Coming_up_with" head="inventaron">
+				<argument type="Time" dependent="En 1812"/>
+				<argument type="Cognizer" dependent="románticos españoles"/>
+				<argument type="Idea" dependent="liberalismo político"/>
+				<argument type="Place" dependent="en las Cortes de"/></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">El</token><token pos="ncms000">liberalismo</token>
+		</theme>
+		<rheme>
+			<token pos="vmis3s0">tuvo</token><token pos="di0fs0">cierta</token><token pos="ncfs000">influencia</token><token pos="aq0cs0">idealista</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">El</token><token pos="aq0ms0">verdadero</token><token pos="ncms000">blasfemo</token>
+		</theme>
+		<rheme>
+			<token pos="vsip3s0">es</token><token pos="da0ms0">el</token><token pos="ncms000">agnóstico</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">El</token><token pos="ncms000">perro</token>
+		</theme>
+		<rheme>
+			<token pos="vsip3s0">es</token><token pos="rg">hipócritamente</token><token pos="aq0cs0">clerical</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">El</token><token pos="ncms000">gato</token>
+		</theme>
+		<rheme>
+			<token pos="vsip3s0">es</token><token pos="aq0ms0">ateo</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0mp0">Los</token><token pos="ncmp000">mejicanos</token><token pos="pr0cn000">que</token><token pos="vmip3p0">entran</token><token pos="rg">ilegalmente</token><token pos="sps00">en</token><token pos="np0000l">California</token>
+		</theme>
+		<rheme>
+			<token pos="vmip3p0">tienen</token><token pos="cs">que</token><token pos="vmn0000">vérselas</token><token pos="sps00">con</token><token pos="da0fs0">la</token><token pos="ncfs000">policía</token><token pos="sps00">de</token><token pos="ncfs000">emigración</token><token pos="sps00">a</token><token pos="da0fs0">la</token><token pos="pr0cn000">que</token><token pos="vmip3p0">nombran</token><token pos="sps00">con</token><token pos="di0fs0">una</token><token pos="ncfs000">palabra</token><token pos="fd">:</token><token pos="da0fs0">la</token><token pos="ncfs000">migra</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Activity_start" head="entran">
+				<argument type="Agent" dependent="Los mejicanos que"/></frame>
+			<frame type="Appointing" head="nombran">
+				<argument type="Official" dependent="que nombran"/>
+				<argument type="Role" dependent="con una palabra que tiene su dosis de magia : la migra"/></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="np0000o">Es</token><token pos="sps00">con</token><token pos="ncfs000">mayúscula</token><token pos="da0fs0">La</token><token pos="np0000o">Mi</token>
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="pi0ms000">uno</token>
+		</theme>
+		<rheme>
+			<token pos="vssp1s0">sea</token><token pos="aq0cs0">mejor</token><token pos="cs">que</token><token pos="da0ms0">el</token><token pos="ncms000">vecino</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+</text>

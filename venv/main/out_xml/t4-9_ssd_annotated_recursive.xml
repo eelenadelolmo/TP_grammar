@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!DOCTYPE text [
+	<!ELEMENT text (sentence+)>
+	    <!ATTLIST text id CDATA #REQUIRED>
+	<!ELEMENT sentence (theme, rheme, semantic_roles)>
+		<!ELEMENT theme (token*)>
+		<!ELEMENT rheme (token*)>
+		<!ELEMENT token (#PCDATA)>
+		    <!ATTLIST token pos CDATA #REQUIRED>
+		<!ELEMENT semantic_roles (frame*)>
+		<!ELEMENT frame (argument*)>
+            <!ATTLIST frame type CDATA #REQUIRED>
+            <!ATTLIST frame head CDATA #REQUIRED>
+		<!ELEMENT argument EMPTY>
+            <!ATTLIST argument type CDATA #REQUIRED>
+            <!ATTLIST argument dependent CDATA #REQUIRED>
+]>
+
+
+<text id="t4-9_ssd_annotated_recursive">
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="pr0cn000">que</token>
+		</theme>
+		<rheme>
+			<token pos="vmip3p0">pasan</token><token pos="da0ms0">el</token><token pos="ncms000">día</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">El</token><token pos="ncms000">sexo</token>
+		</theme>
+		<rheme>
+			<token pos="pp3cpd00">les</token><token pos="vmip3s0">da</token><token pos="ncfs000">calidad</token><token pos="cc">y</token><token pos="ncfs000">dimensión</token><token pos="aq0fs0">lírica</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="np0000l">España</token>
+		</theme>
+		<rheme>
+			<token pos="vsip3s0">es</token><token pos="di0ms0">un</token><token pos="ncms000">país</token><token pos="sps00">de</token><token pos="ncmp000">oradores</token><token pos="aq0cp0">fúnebres</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0mp0">Los</token><token pos="ncmp000">boxeadores</token>
+		</theme>
+		<rheme>
+			<token pos="vsip3p0">son</token><token pos="da0mp0">los</token><token pos="aq0mp0">únicos</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+</text>

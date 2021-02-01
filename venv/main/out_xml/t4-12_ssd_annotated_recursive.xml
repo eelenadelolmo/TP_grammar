@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!DOCTYPE text [
+	<!ELEMENT text (sentence+)>
+	    <!ATTLIST text id CDATA #REQUIRED>
+	<!ELEMENT sentence (theme, rheme, semantic_roles)>
+		<!ELEMENT theme (token*)>
+		<!ELEMENT rheme (token*)>
+		<!ELEMENT token (#PCDATA)>
+		    <!ATTLIST token pos CDATA #REQUIRED>
+		<!ELEMENT semantic_roles (frame*)>
+		<!ELEMENT frame (argument*)>
+            <!ATTLIST frame type CDATA #REQUIRED>
+            <!ATTLIST frame head CDATA #REQUIRED>
+		<!ELEMENT argument EMPTY>
+            <!ATTLIST argument type CDATA #REQUIRED>
+            <!ATTLIST argument dependent CDATA #REQUIRED>
+]>
+
+
+<text id="t4-12_ssd_annotated_recursive">
+
+
+	<sentence>
+		<theme>
+			<token pos="da0mp0">los</token><token pos="aq0cp0">mejores</token><token pos="ncmp000">guerreros</token><token pos="spcms">del</token><token pos="ncms000">mundo</token><token pos="fc">,</token><token pos="da0mp0">los</token><token pos="ncmp000">hunos</token>
+		</theme>
+		<rheme>
+			<token pos="sps00">con</token><token pos="dn0cp0">dos</token><token pos="ncmp000">cuernos</token><token pos="vmii3p0">tenían</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="pi0mp000">Pocos</token>
+		</theme>
+		<rheme>
+			<token pos="p0300000">se</token><token pos="vaic3p0">habrían</token><token pos="vmp00sm">atrevido</token><token pos="sps00">con</token><token pos="di0ms0">un</token><token pos="ncms000">tema</token><token pos="rg">tan</token><token pos="rg">metafísicamente</token><token pos="aq0cs0">imposible</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Daring" head="atrevido">
+				<argument type="Action" dependent="con un tema tan metafísicamente imposible"/></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0fs0">La</token><token pos="ncfs000">monarquía</token><token pos="sps00">de</token><token pos="np0000l">Alfonso</token><token pos="np0000l">XIII</token><token pos="sps00">a</token><token pos="pr0cs000">quien</token><token pos="pi0mp000">todos</token><token pos="vmii3p0">consideraban</token><token pos="aq0cs0">gafe</token><token pos="sps00">por</token><token pos="da0ms0">el</token><token pos="aq0cs0">numeral</token><token pos="fg">-</token><token pos="fg">-</token><token pos="sps00">de</token><token pos="da0mp0">los</token><token pos="ncmn000">idus</token><token pos="aq0mp0">romanos</token><token pos="fg">-</token><token pos="fg">-</token>
+		</theme>
+		<rheme>
+			<token pos="p0300000">se</token><token pos="vmis3s0">hundió</token><token pos="sps00">por</token><token pos="van0000">haberse</token><token pos="vmp00sm">atrevido</token><token pos="sps00">a</token><token pos="vmn0000">meter</token><token pos="sps00">en</token><token pos="da0fs0">la</token><token pos="ncfs000">cárcel</token><token pos="sps00">a</token><token pos="ncfp000">personas</token><token pos="rg">tan</token><token pos="rg">inocentemente</token><token pos="aq0cp0">nobles</token><token pos="cs">como</token><token pos="np00000">Fernando</token><token pos="sps00">de</token><token pos="da0fs0">los</token><token pos="np00000">Ríos</token><token pos="fc">,</token><token pos="rg">tan</token><token pos="rg">genialmente</token><token pos="aq0fp0">líricas</token><token pos="cs">como</token><token pos="ncms000">Valle</token><token pos="np00000">Inclán</token><token pos="cc">y</token><token pos="rg">tan</token><token pos="rg">poco</token><token pos="aq0fp0">peligrosas</token><token pos="cs">como</token><token pos="pp1csn00">yo</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Categorization" head="consideraban"></frame>
+			<frame type="Causation" head="por haberse">
+				<argument type="Effect" dependent="monarquía de Alfonso XIII a quien todos consideraban"/>
+				<argument type="Cause" dependent="numeral - - de los idus romanos - - se hundió por haberse atrevido a meter en la cárcel a personas tan inocentemente"/></frame>
+			<frame type="Daring" head="atrevido">
+				<argument type="Action" dependent="a meter en la cárcel a personas tan inocentemente nobles como"/></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="di0mp0">Todos</token><token pos="da0mp0">los</token><token pos="ncmp000">primitos</token><token pos="sps00">de</token><token pos="da0fp0">las</token><token pos="ncfp000">niñas</token>
+		</theme>
+		<rheme>
+			<token pos="vmip3p0">orinan</token><token pos="sps00">por</token><token pos="di0ms0">un</token><token pos="ncms000">dedo</token><token pos="aq0cs0">meñique</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Modality_Reporter" head="ellos "></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0fs0">La</token><token pos="aq0fs0">buena</token><token pos="ncfs000">ciudadanía</token>
+		</theme>
+		<rheme>
+			<token pos="vmip3s0">consiste</token><token pos="sps00">en</token><token pos="vmn0000">cultivar</token><token pos="da0fs0">la</token><token pos="ncfs000">prudencia</token><token pos="cc">y</token><token pos="vmn0000">preferirla</token><token pos="sps00">a</token><token pos="da0fs0">la</token><token pos="ncfs000">aventura</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Agriculture" head="cultivar"></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">El</token><token pos="ncms000">camaleón</token>
+		</theme>
+		<rheme>
+			<token pos="rn">no</token><token pos="vmip3s0">tiene</token><token pos="ncms000">color</token><token pos="cc">ni</token><token pos="ncfs000">actividad</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0fs0">La</token><token pos="np0000a">Tierra</token>
+		</theme>
+		<rheme>
+			<token pos="p0300000">se</token><token pos="vmip3s0">hace</token><token pos="aq0fs0">vieja</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+</text>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!DOCTYPE text [
+	<!ELEMENT text (sentence+)>
+	    <!ATTLIST text id CDATA #REQUIRED>
+	<!ELEMENT sentence (theme, rheme, semantic_roles)>
+		<!ELEMENT theme (token*)>
+		<!ELEMENT rheme (token*)>
+		<!ELEMENT token (#PCDATA)>
+		    <!ATTLIST token pos CDATA #REQUIRED>
+		<!ELEMENT semantic_roles (frame*)>
+		<!ELEMENT frame (argument*)>
+            <!ATTLIST frame type CDATA #REQUIRED>
+            <!ATTLIST frame head CDATA #REQUIRED>
+		<!ELEMENT argument EMPTY>
+            <!ATTLIST argument type CDATA #REQUIRED>
+            <!ATTLIST argument dependent CDATA #REQUIRED>
+]>
+
+
+<text id="t4-0_ssd_annotated_recursive">
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="pr0cn000">que</token>
+		</theme>
+		<rheme>
+			<token pos="vsip3s0">es</token><token pos="da0fs0">la</token><token pos="ncfs000">vida</token><token pos="sps00">de</token><token pos="di0cs0">cada</token><token pos="pr0cs000">cual</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0fs0">la</token><token pos="ncfs000">gente</token>
+		</theme>
+		<rheme>
+			<token pos="p0300000">se</token><token pos="vmip3s0">recoge</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Coming_to_believe" head="recoge"></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0fs0">la</token><token pos="ncfs000">naturaleza</token>
+		</theme>
+		<rheme>
+			<token pos="pp1cp000">nos</token><token pos="vmip3s0">adiestra</token><token pos="dd0mp0">trescientas</token><token pos="dn0cp0">sesenta</token><token pos="cc">y</token><token pos="dn0cp0">cinco</token><token pos="ncfp000">veces</token><token pos="di0cs0">cada</token><token pos="ncms000">año</token><token pos="cc">y</token><token pos="dn0cp0">sesenta</token><token pos="cc">u</token><token pos="dn0cp0">ochenta</token><token pos="ncmp000">años</token><token pos="fc">,</token><token pos="pi0ms000">uno</token><token pos="sps00">tras</token><token pos="pi0ms000">otro</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0fs0">La</token><token pos="ncfs000">verdad</token>
+		</theme>
+		<rheme>
+			<token pos="vsip3s0">es</token><token pos="cs">que</token><token pos="pi0cs000">nadie</token><token pos="vmip3s0">aprende</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Becoming_aware" head="aprende">
+				<argument type="Cognizer" dependent="nadie"/></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="pp1csn00">Yo</token>
+		</theme>
+		<rheme>
+			<token pos="rg">tampoco</token><token pos="vmip1s0">suelo</token><token pos="vmn0000">decírmelo</token><token pos="sps00">a</token><token pos="pp1cso00">mí</token><token pos="di0ms0">mismo</token><token pos="da0fs0">la</token><token pos="ncfs000">verdad</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Telling" head="decírmelo">
+				<argument type="Message" dependent="mí mismo"/></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="di0fs0">Una</token><token pos="ncfs000">convicción</token><token pos="aq0fs0">axiomática</token>
+		</theme>
+		<rheme>
+			<token pos="rn">no</token><token pos="vsip3s0">es</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+</text>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!DOCTYPE text [
+	<!ELEMENT text (sentence+)>
+	    <!ATTLIST text id CDATA #REQUIRED>
+	<!ELEMENT sentence (theme, rheme, semantic_roles)>
+		<!ELEMENT theme (token*)>
+		<!ELEMENT rheme (token*)>
+		<!ELEMENT token (#PCDATA)>
+		    <!ATTLIST token pos CDATA #REQUIRED>
+		<!ELEMENT semantic_roles (frame*)>
+		<!ELEMENT frame (argument*)>
+            <!ATTLIST frame type CDATA #REQUIRED>
+            <!ATTLIST frame head CDATA #REQUIRED>
+		<!ELEMENT argument EMPTY>
+            <!ATTLIST argument type CDATA #REQUIRED>
+            <!ATTLIST argument dependent CDATA #REQUIRED>
+]>
+
+
+<text id="t4-2_ssd_annotated_recursive">
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">el</token><token pos="ncms000">nacer</token>
+		</theme>
+		<rheme>
+			<token pos="vsii3s0">era</token><token pos="di0fs0">una</token><token pos="ncfs000">evasión</token><token pos="fpa">(</token><token pos="fg">-</token><token pos="sps00">de</token><token pos="pt0cs000">qué</token><token pos="fit">?</token><token pos="fpt">)</token><token pos="da0ms0">el</token><token pos="ncms000">morir</token><token pos="di0fs0">una</token><token pos="ncfs000">emigración</token><token pos="fpa">(</token><token pos="fg">-</token><token pos="sps00">a</token><token pos="pt000000">dónde</token><token pos="fit">?</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Modality_Reporter" head="Eso "></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">El</token><token pos="ncms000">amor</token>
+		</theme>
+		<rheme>
+			<token pos="p0000000">se</token><token pos="vmip3s0">cuenta</token><token pos="sps00">por</token><token pos="da0fs0">la</token><token pos="ncfs000">frecuencia</token><token pos="sps00">de</token><token pos="da0mp0">los</token><token pos="ncmp000">besos</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">el</token><token pos="ncfs000">agua</token><token pos="cc">y</token><token pos="da0ms0">el</token><token pos="ncms000">fuego</token>
+		</theme>
+		<rheme>
+			<token pos="vsip3p0">son</token><token pos="ncmp000">dioses</token><token pos="da0ms0">el</token><token pos="ncms000">rayo</token><token pos="dp3cs0">su</token><token pos="rg">más</token><token pos="aq0cs0">elocuente</token><token pos="cc">y</token><token pos="aq0cs0">eficaz</token><token pos="nccs000">agente</token><token pos="sps00">de</token><token pos="ncfp000">relaciones</token><token pos="aq0fp0">públicas</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Modality_Reporter" head="Los mayas "></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="pr0cn000">que</token>
+		</theme>
+		<rheme>
+			<token pos="vmip3s0">tiene</token><token pos="dn0ms0">un</token><token pos="aq0ms0">sólo</token><token pos="nccs000">militante</token><token pos="pp1csn00">Yo</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Possession" head="tiene">
+				<argument type="Possession" dependent="partido que tiene un sólo"/></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">El</token><token pos="ncms000">león</token>
+		</theme>
+		<rheme>
+			<token pos="vmip3s0">tiene</token><token pos="ncfs000">fama</token><token pos="sps00">de</token><token pos="aq0cs0">noble</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+</text>

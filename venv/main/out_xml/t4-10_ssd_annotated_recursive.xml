@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!DOCTYPE text [
+	<!ELEMENT text (sentence+)>
+	    <!ATTLIST text id CDATA #REQUIRED>
+	<!ELEMENT sentence (theme, rheme, semantic_roles)>
+		<!ELEMENT theme (token*)>
+		<!ELEMENT rheme (token*)>
+		<!ELEMENT token (#PCDATA)>
+		    <!ATTLIST token pos CDATA #REQUIRED>
+		<!ELEMENT semantic_roles (frame*)>
+		<!ELEMENT frame (argument*)>
+            <!ATTLIST frame type CDATA #REQUIRED>
+            <!ATTLIST frame head CDATA #REQUIRED>
+		<!ELEMENT argument EMPTY>
+            <!ATTLIST argument type CDATA #REQUIRED>
+            <!ATTLIST argument dependent CDATA #REQUIRED>
+]>
+
+
+<text id="t4-10_ssd_annotated_recursive">
+
+
+	<sentence>
+		<theme>
+			<token pos="da0fs0">La</token><token pos="ncfs000">inteligencia</token><token pos="sps00">de</token><token pos="da0mp0">los</token><token pos="ncmp000">robots</token><token pos="pr0cn000">que</token><token pos="vmip3p0">responden</token><token pos="rg">lógicamente</token>
+		</theme>
+		<rheme>
+			<token pos="pp1cp000">nos</token><token pos="vmip3s0">causa</token><token pos="ncfs000">risa</token><token pos="cc">y</token><token pos="ncms000">miedo</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Causation" head="causa"></frame>
+			<frame type="Response" head="responden">
+				<argument type="Agent" dependent="inteligencia de los robots que"/>
+				<argument type="Trigger" dependent="lógicamente nos causa al mismo tiempo risa y miedo"/></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">El</token><token pos="ncms000">murciélago</token><token pos="aq0ms0">nocturno</token><token pos="cc">y</token><token pos="da0fs0">la</token><token pos="ncfs000">golondrina</token><token pos="aq0fs0">diurna</token>
+		</theme>
+		<rheme>
+			<token pos="p0300000">se</token><token pos="vmip3p0">alimentan</token><token pos="sps00">de</token><token pos="da0mp0">los</token><token pos="ncmp000">insectos</token><token pos="aq0cp0">volantes</token><token pos="fg">-</token><token pos="fg">-</token><token pos="ncmp000">mosquitos</token><token pos="sps00">de</token><token pos="di0cp0">diferentes</token><token pos="ncfp000">clases</token><token pos="fg">-</token><token pos="fg">-</token><token pos="cc">y</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="pr0cn000">que</token>
+		</theme>
+		<rheme>
+			<token pos="pp3mpa00">los</token><token pos="vmip3s0">diferencia</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="pi0cs000">Algo</token><token pos="aq0msp">parecido</token>
+		</theme>
+		<rheme>
+			<token pos="pp1cp000">nos</token><token pos="vmip3s0">sucede</token><token pos="sps00">a</token><token pos="da0mp0">los</token><token pos="ncmp000">hombres</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0mp0">Los</token><token pos="ncmp000">franceses</token>
+		</theme>
+		<rheme>
+			<token pos="vmip3p0">usan</token><token pos="da0fs0">la</token><token pos="ncfs000">palabra</token><token pos="fg">-</token><token pos="nc00000">toucher</token><token pos="fg">-</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Using" head="usan"></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="pp1mp000">Nosotros</token>
+		</theme>
+		<rheme>
+			<token pos="vsip1p0">somos</token><token pos="rg">menos</token><token pos="aq0mp0">delicados</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0fs0">La</token><token pos="ncfs000">nación</token><token pos="aq0fs0">española</token>
+		</theme>
+		<rheme>
+			<token pos="vmip3s0">comienza</token><token pos="sps00">en</token><token pos="np0000l">Cervere</token><token pos="fpa">(</token><token pos="ncms000">can</token><token pos="np00000">Cerbero</token><token pos="sps00">de</token><token pos="da0fp0">las</token><token pos="dn0cp0">tres</token><token pos="ncfp000">cabezas</token><token pos="fpt">)</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Activity_start" head="comienza">
+				<argument type="Agent" dependent="nación española"/>
+				<argument type="Activity" dependent="en la"/>
+				<argument type="Activity" dependent="Cerbero de las"/></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="pp1csn00">yo</token>
+		</theme>
+		<rheme>
+			<token pos="sps00">Con</token><token pos="pd0ns000">esto</token><token pos="rn">no</token><token pos="vmip1s0">quiero</token><token pos="vmn0000">decir</token><token pos="pi0cs000">nada</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0mp0">Los</token><token pos="ncmp000">políticos</token>
+		</theme>
+		<rheme>
+			<token pos="pp1cp000">nos</token><token pos="vmip3p0">hacen</token><token pos="vmn0000">reír</token><token pos="sps00">por</token><token pos="dp3cs0">su</token><token pos="ncfs000">frivolidad</token><token pos="sps00">de</token><token pos="aq0cp0">secuaces</token><token pos="sps00">de</token><token pos="di0ms0">un</token><token pos="ncms000">partido</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Make_noise" head="reír">
+				<argument type="Sound_source" dependent="su frivolidad de secuaces de un partido ,"/></frame>
+			<frame type="Manufacturing" head="hacen"></frame>
+		</semantic_roles>
+	</sentence>
+
+
+</text>

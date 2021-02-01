@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!DOCTYPE text [
+	<!ELEMENT text (sentence+)>
+	    <!ATTLIST text id CDATA #REQUIRED>
+	<!ELEMENT sentence (theme, rheme, semantic_roles)>
+		<!ELEMENT theme (token*)>
+		<!ELEMENT rheme (token*)>
+		<!ELEMENT token (#PCDATA)>
+		    <!ATTLIST token pos CDATA #REQUIRED>
+		<!ELEMENT semantic_roles (frame*)>
+		<!ELEMENT frame (argument*)>
+            <!ATTLIST frame type CDATA #REQUIRED>
+            <!ATTLIST frame head CDATA #REQUIRED>
+		<!ELEMENT argument EMPTY>
+            <!ATTLIST argument type CDATA #REQUIRED>
+            <!ATTLIST argument dependent CDATA #REQUIRED>
+]>
+
+
+<text id="t5-3_ssd_annotated_recursive">
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">El</token><token pos="ncms000">sol</token>
+		</theme>
+		<rheme>
+			<token pos="p0300000">se</token><token pos="vmii3s0">colaba</token><token pos="sps00">por</token><token pos="sps00">entre</token><token pos="da0fp0">las</token><token pos="ncfp000">rendijas</token><token pos="sps00">de</token><token pos="da0fs0">la</token><token pos="ncfs000">persiana</token><token pos="aq0fs0">metálica</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="np0000p">Antonia</token>
+		</theme>
+		<rheme>
+			<token pos="vmis3s0">colocó</token><token pos="da0fs0">la</token><token pos="ncfs000">mano</token><token pos="sps00">a</token><token pos="nccs000">contraluz</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+			<frame type="Modality_Reporter" head="Antonio "></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="pp3fs000">ella</token>
+		</theme>
+		<rheme>
+			<token pos="rg">nunca</token><token pos="pp3msa00">lo</token><token pos="vmis3s0">vio</token><token pos="aq0ms0">claro</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Removing" head="vio claro"></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="pp3fs000">ella</token>
+		</theme>
+		<rheme>
+			<token pos="p0300000">se</token><token pos="vmii3s0">remiraba</token><token pos="da0fs0">la</token><token pos="ncfs000">manita</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="pd0ns000">Eso</token>
+		</theme>
+		<rheme>
+			<token pos="vsii3s0">era</token><token pos="sps00">en</token><token pos="da0mp0">los</token><token pos="ncmp000">veranos</token><token pos="sps00">a</token><token pos="da0fs0">la</token><token pos="ncfs000">hora</token><token pos="sps00">de</token><token pos="da0fs0">la</token><token pos="ncfs000">siesta</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Calendric_unit" head="veranos"></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">El</token><token pos="ncms000">establo</token>
+		</theme>
+		<rheme>
+			<token pos="vmii3s0">olía</token><token pos="sps00">a</token><token pos="ncms000">sudor</token><token pos="sps00">de</token><token pos="ncms000">ganado</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+</text>

@@ -1,0 +1,13 @@
+{   ('Activity_start', 'entrar'): [('Activity', 'el portal')],
+    ('Attempt', 'esfuerzo'): [('Goal', 'al que recordaba haber derrochado nunca')],
+    ('Concessive', 'aunque'): [   ('Main_assertion', 'Antes de entrar en el portal , quiso mirar a su alrededor y no advirtió cambio alguno ,'),
+                                  ('Conceded_state_of_affairs', 'subir las escaleras le exigió un esfuerzo superior al que recordaba haber derrochado nunca')],
+    ('Desiring', 'exigió'): [('Event', 'mirar a')],
+    ('Have_as_requirement', 'exigió'): [('Requirement', 'un esfuerzo superior al que recordaba haber derrochado nunca')],
+    ('Locative_relation', 'alrededor'): [],
+    ('Perception_active', 'mirar'): [],
+    ('Possession', 'advirtió'): [],
+    ('Remembering_experience', 'recordaba'): [('Experience', 'haber derrochado nunca')],
+    ('Time_vector', 'Antes'): [   ('Landmark_event', 'entrar en el portal'),
+                                  ('Event', 'quiso mirar a su alrededor y no advirtió cambio alguno , aunque subir las escaleras le exigió un esfuerzo superior al que recordaba haber')],
+    ('Undergo_change', 'cambio'): []}

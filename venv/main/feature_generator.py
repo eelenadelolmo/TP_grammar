@@ -5,6 +5,7 @@ import shutil
 import operator
 import webbrowser
 from conllu import parse
+from conllu import parse_tree
 import pyconll as pc
 from ast import literal_eval
 from itertools import tee, islice, chain
@@ -201,6 +202,20 @@ def pos_theme_rheme(sent):
 
 
 # Given a sentence
+# Returns the list of the forms of the verbs contained in the main proposition
+def get_main_verb_forms(sent):
+
+    lines = sent.split('\n')
+    main_verb_forms = list()
+
+    for line in lines:
+        line_fields = line.split('\t')
+        if len(line_fields)>=5 and ("m=yes" in line_fields[5]) and (line_fields[3][0] == 'v'):
+            main_verb_forms.append(line_fields[1])
+    return main_verb_forms
+
+
+# Given a sentence
 # Returns a tuple with a boolean True value if a reported speech subject if annotated and its string; or a boolean False value and an empty string otherwise
 def get_modalitySpeaker(sent):
 
@@ -386,11 +401,14 @@ def coord_to_sentence(sent):
     sentence = sentences[0]
 
     while "coord_fixed" in sentence.serialize():
+        # print(file_grew)
         hijos = [sentence.to_tree()]
+        found = False
 
         # Getting the head token of a coord_fixed dependency
-        while len(hijos) > 0:
+        while len(hijos) > 0 and not(found):
             for hijo in hijos:
+                print(hijo.token['form'])
                 deps = hijo.children
 
                 # Explore the tree until finding a coord_fixed dependency
@@ -400,6 +418,7 @@ def coord_to_sentence(sent):
 
                         # Getting the node which is head of the coordinated dependencies
                         heads.append(hijo)
+                        found = True
                         break
 
             # Searching in the sons of every son in case immediate sons aren't the head of the selected main clause
@@ -642,11 +661,15 @@ for file_grew in files_grew:
                     break
                 sentence_main = sent_clean
 
+            # Coordination module off
+            """
             if len(sentence_main) > 1:
+                # Apparently fails (infinite loop) when "coord_fixed" is near the root
                 # Transforming every coordinate to a sentence
                 sentence_main_coords = coord_to_sentence(sentence_main)
             else:
                 print("No se ha podido extraer el tema y el rema de la oración", txt_transformer_str(sentence.serialize()))
+            """
 
             fm_anns = FN_annotated_list[n_sentence]
             n_sentence += 1
@@ -663,6 +686,8 @@ for file_grew in files_grew:
             pos_rheme = pos_theme_rheme(sentence_main)[1]
             tokens_pos_theme = zip(tokens_theme, pos_theme)
             tokens_pos_rheme = zip(tokens_rheme, pos_rheme)
+
+            verbs = get_main_verb_forms(sentence_main)
 
             xml_sentence += '\t\t<theme>\n\t\t\t'
             for token_pos in tokens_pos_theme:
@@ -691,30 +716,35 @@ for file_grew in files_grew:
                 # --> List of the ids (ordered) of the tokens corresponding to the head of the arguments
                 h_ids = search_id(frame_tokens, sentence_main)
 
-                xml_sentence += '\t\t\t<frame type="' + frame + '" head="' + frame_tokens + '">'
+                print(verbs)
 
-                for dep_ann in fm_anns[frame_head]:
+                for verb in verbs:
+                    if verb in frame_tokens:
 
-                    # --> The type of argument
-                    argument_type = dep_ann[0]
+                        xml_sentence += '\t\t\t<frame type="' + frame + '" head="' + frame_tokens + '">'
 
-                    # --> The tokens representing the argument
-                    argument_tokens = dep_ann[1]
+                        for dep_ann in fm_anns[frame_head]:
 
-                    # --> List of the ids (ordered) of the tokens correponding to the argument
-                    h_dep_ids = search_id(argument_tokens, sentence_main)
-                    # print(argument_tokens, h_dep_ids, '\n' + sentence_main)
+                            # --> The type of argument
+                            argument_type = dep_ann[0]
 
-                    # sentence_main_compressed = compress(h_dep_ids, sentence_main)
+                            # --> The tokens representing the argument
+                            argument_tokens = dep_ann[1]
 
-                    """
-                    # Making the tokens of a dependency depend on its first token
-                    for h_dep_id in h_dep_ids[1:]:
-                        sentence_main = rewrite_dep(h_dep_ids[0], h_dep_id, argument_type, parse(sentence_main))
-                    """
+                            # --> List of the ids (ordered) of the tokens correponding to the argument
+                            h_dep_ids = search_id(argument_tokens, sentence_main)
+                            # print(argument_tokens, h_dep_ids, '\n' + sentence_main)
 
-                    xml_sentence += '\n\t\t\t\t<argument type="' + argument_type + '" dependent="' + argument_tokens + '"/>'
-                xml_sentence += '</frame>\n'
+                            # sentence_main_compressed = compress(h_dep_ids, sentence_main)
+
+                            """
+                            # Making the tokens of a dependency depend on its first token
+                            for h_dep_id in h_dep_ids[1:]:
+                                sentence_main = rewrite_dep(h_dep_ids[0], h_dep_id, argument_type, parse(sentence_main))
+                            """
+
+                            xml_sentence += '\n\t\t\t\t<argument type="' + argument_type + '" dependent="' + argument_tokens + '"/>'
+                        xml_sentence += '</frame>\n'
             xml_sentence += '\t\t</semantic_roles>\n'
             xml_sentence += '\t</sentence>\n\n\n'
 

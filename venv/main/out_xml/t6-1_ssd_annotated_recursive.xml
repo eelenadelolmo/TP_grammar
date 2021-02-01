@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!DOCTYPE text [
+	<!ELEMENT text (sentence+)>
+	    <!ATTLIST text id CDATA #REQUIRED>
+	<!ELEMENT sentence (theme, rheme, semantic_roles)>
+		<!ELEMENT theme (token*)>
+		<!ELEMENT rheme (token*)>
+		<!ELEMENT token (#PCDATA)>
+		    <!ATTLIST token pos CDATA #REQUIRED>
+		<!ELEMENT semantic_roles (frame*)>
+		<!ELEMENT frame (argument*)>
+            <!ATTLIST frame type CDATA #REQUIRED>
+            <!ATTLIST frame head CDATA #REQUIRED>
+		<!ELEMENT argument EMPTY>
+            <!ATTLIST argument type CDATA #REQUIRED>
+            <!ATTLIST argument dependent CDATA #REQUIRED>
+]>
+
+
+<text id="t6-1_ssd_annotated_recursive">
+
+
+	<sentence>
+		<theme>
+			<token pos="pr0cn000">que</token>
+		</theme>
+		<rheme>
+			<token pos="vmii3s0">proyectaba</token><token pos="sps00">sobre</token><token pos="dp3cs0">su</token><token pos="ncfs000">piel</token><token pos="da0fs0">la</token><token pos="ncfs000">huella</token><token pos="sps00">de</token><token pos="di0ms0">un</token><token pos="ncms000">esternón</token><token pos="aq0cs0">deforme</token><token pos="sps00">como</token><token pos="di0ms0">un</token><token pos="ncfs000">arma</token><token pos="aq0fs0">agresiva</token><token pos="cc">e</token><token pos="aq0cs0">hiriente</token><token pos="fc">,</token><token pos="pi0fs000">una</token><token pos="sps00">de</token><token pos="da0fp0">las</token><token pos="ncfp000">carcajadas</token><token pos="sps00">de</token><token pos="dp3cs0">su</token><token pos="ncms000">cuerpo</token><token pos="fc">,</token><token pos="dd0ms0">aquel</token><token pos="ncms000">hueso</token><token pos="aq0ms0">burlón</token><token pos="cc">y</token><token pos="aq0msp">desmadrado</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Project" head="proyectaba">
+				<argument type="Goal" dependent="su piel la huella de un esternón deforme como un arma agresiva e hiriente"/></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="pp3ms000">Él</token>
+		</theme>
+		<rheme>
+			<token pos="rn">no</token><token pos="vmii3s0">podía</token><token pos="vmn0000">permitirse</token><token pos="da0ms0">el</token><token pos="ncms000">lujo</token><token pos="sps00">de</token><token pos="da0fs0">la</token><token pos="ncfn000">halitosis</token><token pos="aq0fs0">matutina</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Possibility" head="podía">
+				<argument type="Possible_event" dependent="la halitosis matutina"/></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0fp0">las</token><token pos="ncfp000">paredes</token><token pos="sps00">de</token><token pos="dp3cp0">sus</token><token pos="ncmp000">pulmones</token>
+		</theme>
+		<rheme>
+			<token pos="p0300000">se</token><token pos="vmii3p0">soldaban</token><token pos="fc">,</token><token pos="vmg0000">cerrándose</token><token pos="spcms">al</token><token pos="ncms000">aire</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Building" head="soldaban">
+				<argument type="Place" dependent="al aire"/></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="dp3cp0">sus</token><token pos="ncmp000">brazos</token>
+		</theme>
+		<rheme>
+			<token pos="rn">no</token><token pos="vsii3p0">eran</token><token pos="aq0mp0">paralelos</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="pr0cn000">que</token>
+		</theme>
+		<rheme>
+			<token pos="vmii3p0">parecían</token><token pos="sps00">a</token><token pos="ncfs000">punto</token><token pos="sps00">de</token><token pos="vmn0000">horadar</token><token pos="da0fs0">la</token><token pos="ncfs000">formica</token><token pos="sps00">con</token><token pos="dp3cp0">sus</token><token pos="aq0fp0">inofensivas</token><token pos="ncfp000">yemas</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Give_impression" head="parecían">
+				<argument type="Phenomenon" dependent="confiado su peso a las manos que"/>
+				<argument type="Inference" dependent="de horadar la formica con sus inofensivas yemas"/></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0mp0">Los</token><token pos="dn0cp0">diez</token><token pos="ncmp000">dedos</token><token pos="fc">,</token><token pos="aq0mpp">extendidos</token><token pos="fc">,</token>
+		</theme>
+		<rheme>
+			<token pos="vmii3p0">dibujaban</token><token pos="di0ms0">un</token><token pos="ncms000">diagrama</token><token pos="aq0cs0">familiar</token><token pos="fc">,</token><token pos="sps00">de</token><token pos="aq0cs0">reconfortante</token><token pos="ncfs000">simetría</token><token pos="fc">,</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+</text>
