@@ -719,8 +719,6 @@ for file_grew in files_grew:
                 # --> List of the ids (ordered) of the tokens corresponding to the head of the arguments
                 h_ids = search_id(frame_tokens, sentence_main)
 
-                print(verbs)
-
                 for verb in verbs:
                     if verb in frame_tokens:
                         xml_sentence += '\t\t\t<main_frame type="' + frame + '" head="' + frame_tokens + '">'
