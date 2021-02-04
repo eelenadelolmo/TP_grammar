@@ -604,10 +604,13 @@ xml = '''<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 		<!ELEMENT rheme (token*)>
 		<!ELEMENT token (#PCDATA)>
 		    <!ATTLIST token pos CDATA #REQUIRED>
-		<!ELEMENT semantic_roles (frame*)>
+		<!ELEMENT semantic_roles (frame|main_frame)*>
 		<!ELEMENT frame (argument*)>
             <!ATTLIST frame type CDATA #REQUIRED>
             <!ATTLIST frame head CDATA #REQUIRED>
+		<!ELEMENT main_frame (argument*)>
+            <!ATTLIST main_frame type CDATA #REQUIRED>
+            <!ATTLIST main_frame head CDATA #REQUIRED>
 		<!ELEMENT argument EMPTY>
             <!ATTLIST argument type CDATA #REQUIRED>
             <!ATTLIST argument dependent CDATA #REQUIRED>
@@ -720,31 +723,35 @@ for file_grew in files_grew:
 
                 for verb in verbs:
                     if verb in frame_tokens:
+                        xml_sentence += '\t\t\t<main_frame type="' + frame + '" head="' + frame_tokens + '">'
+                        final = '</main_frame>\n'
 
+                    else:
                         xml_sentence += '\t\t\t<frame type="' + frame + '" head="' + frame_tokens + '">'
+                        final = '</frame>\n'
 
-                        for dep_ann in fm_anns[frame_head]:
+                    for dep_ann in fm_anns[frame_head]:
 
-                            # --> The type of argument
-                            argument_type = dep_ann[0]
+                        # --> The type of argument
+                        argument_type = dep_ann[0]
 
-                            # --> The tokens representing the argument
-                            argument_tokens = dep_ann[1]
+                        # --> The tokens representing the argument
+                        argument_tokens = dep_ann[1]
 
-                            # --> List of the ids (ordered) of the tokens correponding to the argument
-                            h_dep_ids = search_id(argument_tokens, sentence_main)
-                            # print(argument_tokens, h_dep_ids, '\n' + sentence_main)
+                        # --> List of the ids (ordered) of the tokens correponding to the argument
+                        h_dep_ids = search_id(argument_tokens, sentence_main)
+                        # print(argument_tokens, h_dep_ids, '\n' + sentence_main)
 
-                            # sentence_main_compressed = compress(h_dep_ids, sentence_main)
+                        # sentence_main_compressed = compress(h_dep_ids, sentence_main)
 
-                            """
-                            # Making the tokens of a dependency depend on its first token
-                            for h_dep_id in h_dep_ids[1:]:
-                                sentence_main = rewrite_dep(h_dep_ids[0], h_dep_id, argument_type, parse(sentence_main))
-                            """
+                        """
+                        # Making the tokens of a dependency depend on its first token
+                        for h_dep_id in h_dep_ids[1:]:
+                            sentence_main = rewrite_dep(h_dep_ids[0], h_dep_id, argument_type, parse(sentence_main))
+                        """
 
-                            xml_sentence += '\n\t\t\t\t<argument type="' + argument_type + '" dependent="' + argument_tokens + '"/>'
-                        xml_sentence += '</frame>\n'
+                        xml_sentence += '\n\t\t\t\t<argument type="' + argument_type + '" dependent="' + argument_tokens + '"/>'
+                    xml_sentence += final
             xml_sentence += '\t\t</semantic_roles>\n'
             xml_sentence += '\t</sentence>\n\n\n'
 

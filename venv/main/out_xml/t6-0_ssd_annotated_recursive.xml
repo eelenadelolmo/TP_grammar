@@ -8,10 +8,13 @@
 		<!ELEMENT rheme (token*)>
 		<!ELEMENT token (#PCDATA)>
 		    <!ATTLIST token pos CDATA #REQUIRED>
-		<!ELEMENT semantic_roles (frame*)>
+		<!ELEMENT semantic_roles (frame|main_frame)*>
 		<!ELEMENT frame (argument*)>
             <!ATTLIST frame type CDATA #REQUIRED>
             <!ATTLIST frame head CDATA #REQUIRED>
+		<!ELEMENT main_frame (argument*)>
+            <!ATTLIST main_frame type CDATA #REQUIRED>
+            <!ATTLIST main_frame head CDATA #REQUIRED>
 		<!ELEMENT argument EMPTY>
             <!ATTLIST argument type CDATA #REQUIRED>
             <!ATTLIST argument dependent CDATA #REQUIRED>
@@ -53,6 +56,10 @@
 			<token pos="vmis3s0">rebotó</token><token pos="sps00">en</token><token pos="dp3cs0">su</token><token pos="ncfs000">piel</token>
 		</rheme>
 		<semantic_roles>
+			<frame type="Body_parts" head="piel"></frame>
+			<frame type="Change_position_on_a_scale" head="podrido">
+				<argument type="Path" dependent="a través de su nariz"/></frame>
+			<frame type="Sensation" head="olor"></frame>
 		</semantic_roles>
 	</sentence>
 
@@ -139,8 +146,24 @@
 		<semantic_roles>
 			<frame type="Aggregate" head="propiciar">
 				<argument type="Individuals" dependent="burda trampa"/></frame>
+			<main_frame type="Aggregate" head="propiciar">
+				<argument type="Individuals" dependent="burda trampa"/></main_frame>
+			<frame type="Calendric_unit" head="mañana"></frame>
+			<frame type="Calendric_unit" head="mañana"></frame>
+			<frame type="Custom" head="ritual"></frame>
+			<frame type="Custom" head="ritual"></frame>
+			<frame type="Facial_expression" head="sonrisa">
+				<argument type="Conveyed_emotion" dependent="ritual"/></frame>
+			<frame type="Facial_expression" head="sonrisa">
+				<argument type="Conveyed_emotion" dependent="ritual"/></frame>
 			<frame type="Gizmo" head="propiciar"></frame>
+			<main_frame type="Gizmo" head="propiciar"></main_frame>
+			<frame type="Increment" head="otros">
+				<argument type="Class" dependent="improbables presagios favorables"/></frame>
+			<frame type="Increment" head="otros">
+				<argument type="Class" dependent="improbables presagios favorables"/></frame>
 			<frame type="Jury_deliberation" head="propiciar"></frame>
+			<main_frame type="Jury_deliberation" head="propiciar"></main_frame>
 		</semantic_roles>
 	</sentence>
 

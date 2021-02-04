@@ -8,10 +8,13 @@
 		<!ELEMENT rheme (token*)>
 		<!ELEMENT token (#PCDATA)>
 		    <!ATTLIST token pos CDATA #REQUIRED>
-		<!ELEMENT semantic_roles (frame*)>
+		<!ELEMENT semantic_roles (frame|main_frame)*>
 		<!ELEMENT frame (argument*)>
             <!ATTLIST frame type CDATA #REQUIRED>
             <!ATTLIST frame head CDATA #REQUIRED>
+		<!ELEMENT main_frame (argument*)>
+            <!ATTLIST main_frame type CDATA #REQUIRED>
+            <!ATTLIST main_frame head CDATA #REQUIRED>
 		<!ELEMENT argument EMPTY>
             <!ATTLIST argument type CDATA #REQUIRED>
             <!ATTLIST argument dependent CDATA #REQUIRED>
@@ -65,6 +68,8 @@
 			<token pos="vmip1p0">preferimos</token><token pos="dd0mp0">esos</token><token pos="ncmp000">silencios</token><token pos="aq0mp0">absolutos</token><token pos="sps00">durante</token><token pos="da0mp0">los</token><token pos="pr0cp000">cuales</token><token pos="np0000p">Dios</token><token pos="pp1cp000">nos</token><token pos="vmip3s0">habla</token>
 		</rheme>
 		<semantic_roles>
+			<frame type="Becoming_silent" head="silencios"></frame>
+			<frame type="Becoming_silent" head="silencios"></frame>
 		</semantic_roles>
 	</sentence>
 
@@ -77,6 +82,12 @@
 			<token pos="pp3msa00">lo</token><token pos="vmip3p0">oyen</token>
 		</rheme>
 		<semantic_roles>
+			<frame type="People" head="Los"></frame>
+			<frame type="Perception_experience" head="sordos lo">
+				<argument type="Perceiver_passive" dependent="sordos"/>
+				<argument type="Phenomenon" dependent="lo oyen mejor que nosotros"/></frame>
+			<frame type="Required_event" head="mejor">
+				<argument type="Required_situation" dependent="que nosotros"/></frame>
 		</semantic_roles>
 	</sentence>
 
@@ -89,8 +100,9 @@
 			<token pos="p0300000">se</token><token pos="vmip3s0">llama</token><token pos="np0000p">Danaida</token>
 		</rheme>
 		<semantic_roles>
-			<frame type="Appointing" head="se llama">
-				<argument type="Official" dependent="una amiga"/></frame>
+			<main_frame type="Appointing" head="se llama">
+				<argument type="Official" dependent="una amiga"/></main_frame>
+			<frame type="Personal_relationship" head="amiga"></frame>
 		</semantic_roles>
 	</sentence>
 
@@ -103,6 +115,9 @@
 			<token pos="vsip3s0">es</token><token pos="np0000p">Náyade</token>
 		</rheme>
 		<semantic_roles>
+			<frame type="Being_named" head="del nombre"></frame>
+			<frame type="Origin" head="origen">
+				<argument type="Entity" dependent="nombre es Náyade"/></frame>
 		</semantic_roles>
 	</sentence>
 
@@ -129,6 +144,10 @@
 		<semantic_roles>
 			<frame type="Filling" head="llenarlo">
 				<argument type="Cause" dependent="Su misión"/></frame>
+			<main_frame type="Filling" head="llenarlo">
+				<argument type="Cause" dependent="Su misión"/></main_frame>
+			<frame type="Success_or_failure" head="conseguían"></frame>
+			<frame type="Success_or_failure" head="conseguían"></frame>
 		</semantic_roles>
 	</sentence>
 
@@ -141,6 +160,12 @@
 			<token pos="pp3msa00">lo</token><token pos="vmip3s0">comprende</token><token pos="pd0ns000">eso</token><token pos="sps00">a</token><token pos="dp3cs0">su</token><token pos="ncfs000">manera</token><token pos="cc">y</token><token pos="sps00">según</token><token pos="dp3cs0">su</token><token pos="ncms000">caso</token><token pos="aq0cs0">personal</token>
 		</rheme>
 		<semantic_roles>
+			<frame type="Be_in_agreement_on_action" head="según">
+				<argument type="Obligation" dependent="su caso personal"/></frame>
+			<frame type="Cardinal_numbers" head="cual"></frame>
+			<frame type="Goal" head="lo">
+				<argument type="Landmark" dependent="su caso personal"/></frame>
+			<frame type="Means" head="manera"></frame>
 		</semantic_roles>
 	</sentence>
 
@@ -189,6 +214,9 @@
 			<token pos="vsip3s0">es</token><token pos="ncfs000">existencia</token><token pos="fc">,</token><token pos="ncms000">simulacro</token><token pos="aq0ms0">transitorio</token><token pos="cc">y</token><token pos="aq0cs0">mudable</token>
 		</rheme>
 		<semantic_roles>
+			<frame type="Existence" head="existencia"></frame>
+			<frame type="Rest" head="demás"></frame>
+			<frame type="Undergo_change" head="mudable"></frame>
 		</semantic_roles>
 	</sentence>
 

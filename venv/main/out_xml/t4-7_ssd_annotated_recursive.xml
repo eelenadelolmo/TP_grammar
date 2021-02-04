@@ -8,10 +8,13 @@
 		<!ELEMENT rheme (token*)>
 		<!ELEMENT token (#PCDATA)>
 		    <!ATTLIST token pos CDATA #REQUIRED>
-		<!ELEMENT semantic_roles (frame*)>
+		<!ELEMENT semantic_roles (frame|main_frame)*>
 		<!ELEMENT frame (argument*)>
             <!ATTLIST frame type CDATA #REQUIRED>
             <!ATTLIST frame head CDATA #REQUIRED>
+		<!ELEMENT main_frame (argument*)>
+            <!ATTLIST main_frame type CDATA #REQUIRED>
+            <!ATTLIST main_frame head CDATA #REQUIRED>
 		<!ELEMENT argument EMPTY>
             <!ATTLIST argument type CDATA #REQUIRED>
             <!ATTLIST argument dependent CDATA #REQUIRED>
@@ -29,9 +32,9 @@
 			<token pos="p0300000">se</token><token pos="vmip3s0">equivoca</token>
 		</rheme>
 		<semantic_roles>
-			<frame type="Correctness" head="equivoca">
+			<main_frame type="Correctness" head="equivoca">
 				<argument type="Communicative_act" dependent="En mi caso"/>
-				<argument type="Information" dependent="Manrique"/></frame>
+				<argument type="Information" dependent="Manrique"/></main_frame>
 		</semantic_roles>
 	</sentence>
 
@@ -44,6 +47,13 @@
 			<token pos="pp1cp000">nos</token><token pos="vmip3s0">habla</token>
 		</rheme>
 		<semantic_roles>
+			<frame type="Causation" head="porque">
+				<argument type="Effect" dependent="no la escuchamos"/>
+				<argument type="Cause" dependent="suele decirnos impertinencias"/></frame>
+			<frame type="Perception_active" head="escuchamos">
+				<argument type="Phenomenon" dependent="la"/></frame>
+			<frame type="Telling" head="decirnos">
+				<argument type="Message" dependent="decirnos impertinencias"/></frame>
 		</semantic_roles>
 	</sentence>
 
@@ -56,8 +66,15 @@
 			<token pos="vsip3s0">es</token><token pos="rg">más</token><token pos="aq0cs0">importante</token><token pos="cs">que</token><token pos="sps00">en</token><token pos="da0ms0">el</token><token pos="ncms000">bien</token>
 		</rheme>
 		<semantic_roles>
-			<frame type="Buildings" head="iglesia"></frame>
-			<frame type="Locale_by_use" head="escuela"></frame>
+			<main_frame type="Buildings" head="iglesia"></main_frame>
+			<frame type="Desirability" head="bien"></frame>
+			<frame type="Importance" head="importante"></frame>
+			<frame type="Interior_profile_relation" head="en"></frame>
+			<main_frame type="Locale_by_use" head="escuela"></main_frame>
+			<frame type="Locative_relation" head="hay">
+				<argument type="Ground" dependent="no hay mejor escuela"/></frame>
+			<frame type="Morality_evaluation" head="el mal"></frame>
+			<frame type="Required_event" head="mejor"></frame>
 		</semantic_roles>
 	</sentence>
 
@@ -94,9 +111,17 @@
 			<token pos="vmip3p0">nacen</token><token pos="spcms">del</token><token pos="ncms000">odio</token><token pos="cc">y</token><token pos="da0fs0">la</token><token pos="ncfs000">codicia</token>
 		</rheme>
 		<semantic_roles>
-			<frame type="Bringing" head="nacen">
+			<main_frame type="Bringing" head="nacen">
 				<argument type="Theme" dependent="guerras destructoras"/>
-				<argument type="Theme" dependent="odio y la codicia"/></frame>
+				<argument type="Theme" dependent="odio y la codicia"/></main_frame>
+			<frame type="Competition" head="rivalidad"></frame>
+			<frame type="Emergency" head="emergencias">
+				<argument type="Entity" dependent="de rivalidad doctrinaria social y política"/></frame>
+			<frame type="Experiencer_focus" head="odio"></frame>
+			<frame type="Hostile_encounter" head="guerras"></frame>
+			<frame type="Thriving" head="codicia">
+				<argument type="Entity" dependent="guerras destructoras"/>
+				<argument type="Entity" dependent="aburrimiento y las emergencias de rivalidad doctrinaria social y política entre lo propio y"/></frame>
 		</semantic_roles>
 	</sentence>
 
@@ -111,8 +136,20 @@
 		<semantic_roles>
 			<frame type="Capability" head="pueden">
 				<argument type="Event" dependent="vencer fácilmente la gravedad"/></frame>
+			<main_frame type="Capability" head="pueden">
+				<argument type="Event" dependent="vencer fácilmente la gravedad"/></main_frame>
+			<frame type="Capability" head="pueden">
+				<argument type="Event" dependent="vencer fácilmente la gravedad"/></frame>
+			<frame type="Capability" head="pueden">
+				<argument type="Event" dependent="vencer fácilmente la gravedad"/></frame>
 			<frame type="Residence" head="viven">
 				<argument type="Location" dependent="entre la tierra y el cielo"/></frame>
+			<frame type="Residence" head="viven">
+				<argument type="Location" dependent="entre la tierra y el cielo"/></frame>
+			<frame type="Residence" head="viven">
+				<argument type="Location" dependent="entre la tierra y el cielo"/></frame>
+			<main_frame type="Residence" head="viven">
+				<argument type="Location" dependent="entre la tierra y el cielo"/></main_frame>
 		</semantic_roles>
 	</sentence>
 

@@ -8,10 +8,13 @@
 		<!ELEMENT rheme (token*)>
 		<!ELEMENT token (#PCDATA)>
 		    <!ATTLIST token pos CDATA #REQUIRED>
-		<!ELEMENT semantic_roles (frame*)>
+		<!ELEMENT semantic_roles (frame|main_frame)*>
 		<!ELEMENT frame (argument*)>
             <!ATTLIST frame type CDATA #REQUIRED>
             <!ATTLIST frame head CDATA #REQUIRED>
+		<!ELEMENT main_frame (argument*)>
+            <!ATTLIST main_frame type CDATA #REQUIRED>
+            <!ATTLIST main_frame head CDATA #REQUIRED>
 		<!ELEMENT argument EMPTY>
             <!ATTLIST argument type CDATA #REQUIRED>
             <!ATTLIST argument dependent CDATA #REQUIRED>
@@ -41,8 +44,22 @@
 			<token pos="vmii3s0">contenía</token><token pos="da0mp0">los</token><token pos="ncmp000">tesoros</token><token pos="sps00">de</token><token pos="da0mp0">los</token><token pos="ao0mp0">últimos</token><token pos="dn0cp0">cinco</token><token pos="ncmp000">años</token>
 		</rheme>
 		<semantic_roles>
-			<frame type="Containing" head="que contenía">
-				<argument type="Contents" dependent="tesoros de los últimos cinco años"/></frame>
+			<frame type="Calendric_unit" head="años"></frame>
+			<frame type="Cardinal_numbers" head="aquel"></frame>
+			<frame type="Cardinal_numbers" head="cinco"></frame>
+			<main_frame type="Containing" head="que contenía">
+				<argument type="Contents" dependent="tesoros de los últimos cinco años"/></main_frame>
+			<frame type="Deciding" head="decidió">
+				<argument type="Time" dependent="de los últimos"/>
+				<argument type="Manner" dependent="el de arriba"/></frame>
+			<frame type="Locative_relation" head="se"></frame>
+			<frame type="Occupy_rank" head="arriba"></frame>
+			<frame type="Relative_time" head="reciente"></frame>
+			<frame type="Relative_time" head="últimos">
+				<argument type="Focal_occasion" dependent="cinco años"/></frame>
+			<frame type="Spatial_contact" head="se">
+				<argument type="Time" dependent="de los últimos"/>
+				<argument type="Ground" dependent="el de arriba, el más"/></frame>
 		</semantic_roles>
 	</sentence>
 
@@ -127,6 +144,11 @@
 			<token pos="p0300000">se</token><token pos="vmis3s0">chupó</token><token pos="da0ms0">el</token><token pos="ncms000">dedo</token><token pos="ncms000">índice</token>
 		</rheme>
 		<semantic_roles>
+			<frame type="Attempt" head="se">
+				<argument type="Goal" dependent="pegar las hojas exteriores en su sitio"/></frame>
+			<frame type="Body_parts" head="dedo">
+				<argument type="Possessor" dependent="índice"/></frame>
+			<frame type="Locale" head="sitio"></frame>
 		</semantic_roles>
 	</sentence>
 
@@ -139,6 +161,16 @@
 			<token pos="p0300000">se</token><token pos="vmii3s0">mezclaba</token><token pos="sps00">con</token><token pos="da0fs0">la</token><token pos="sps00">de</token><token pos="np0000p">Rafael</token><token pos="fc">,</token><token pos="sps00">con</token><token pos="da0fs0">la</token><token pos="ncfs000">huella</token><token pos="rg">ahora</token><token pos="aq0fs0">seca</token><token pos="sps00">de</token><token pos="dp3cp0">sus</token><token pos="ncmp000">labios</token><token pos="fc">,</token>
 		</rheme>
 		<semantic_roles>
+			<frame type="Awareness" head="pensamiento">
+				<argument type="Content" dependent="sus labios"/>
+				<argument type="Content" dependent="sofoquina y un mareo como de dentro, como en las"/></frame>
+			<frame type="Becoming_dry" head="seca"></frame>
+			<frame type="Event" head="ocurrió">
+				<argument type="Event" dependent="que su saliva se mezclaba así con la de Rafael, con la huella ahora seca de sus labios ,"/></frame>
+			<frame type="Goal" head="en"></frame>
+			<frame type="Manufacturing" head="ocurrió">
+				<argument type="Product" dependent="sofoquina y un mareo como de dentro, como en las"/></frame>
+			<frame type="Opinion" head="se"></frame>
 		</semantic_roles>
 	</sentence>
 
@@ -151,9 +183,14 @@
 			<token pos="vmii3s0">aguardaba</token><token pos="di0cs0">cada</token><token pos="ncms000">día</token><token pos="da0ms0">el</token><token pos="ncms000">ruido</token><token pos="sps00">de</token><token pos="da0fp0">las</token><token pos="ncfp000">llaves</token><token pos="spcms">del</token><token pos="ncms000">vecino</token>
 		</rheme>
 		<semantic_roles>
-			<frame type="Waiting" head="aguardaba">
+			<frame type="Calendric_unit" head="años"></frame>
+			<frame type="Calendric_unit" head="día"></frame>
+			<frame type="Cardinal_numbers" head="dos"></frame>
+			<frame type="Importance" head="llaves"></frame>
+			<frame type="People_by_residence" head="vecino"></frame>
+			<main_frame type="Waiting" head="aguardaba">
 				<argument type="Manner" dependent="cada día"/>
-				<argument type="Purpose" dependent="ruido de las llaves del vecino"/></frame>
+				<argument type="Purpose" dependent="ruido de las llaves del vecino"/></main_frame>
 		</semantic_roles>
 	</sentence>
 
