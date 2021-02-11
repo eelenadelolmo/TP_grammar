@@ -1,7 +1,0 @@
-{   ('Activity_start', 'empezar'): [('Agent', 'la discusión'), ('Activity', 'cerrar')],
-    ('Causation', 'porque'): [('Effect', 'la discusión debió empezar en'), ('Cause', 'olvidaron cerrar la puerta')],
-    ('Closure', 'cerrar'): [('Container_portal', 'la puerta')],
-    ('Connecting_architecture', 'puerta'): [],
-    ('Discussion', 'discusión'): [],
-    ('Remembering_experience', 'olvidaron'): [('Experience', 'cerrar la puerta')],
-    ('Required_event', 'debió'): [('Required_situation', 'la discusión'), ('Required_situation', 'debió empezar')]}

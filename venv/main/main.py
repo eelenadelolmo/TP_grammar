@@ -27,8 +27,8 @@ grew.init()
 
 # Input directory
 # dir_original = 'in/AnCora_Surface_Syntax_Dependencies/conllu'
-# dir_original = 'in_short'
-dir_original = 'in_en'
+dir_original = 'in_short'
+# dir_original = 'in_en'
 
 # Output directory
 # Deleting previous output directory (subfolder creation inside loop)
@@ -111,7 +111,7 @@ grs_main = """
 
 rule subordinate_dobj_clause {
   pattern {
-    N0 -[SBJ]-> S;
+    N0 -[SBJ|nsubj|suj]-> S;
     N0 -[OBJ]-> N1;
     N1 -[SUB]-> N2;
   }
@@ -125,7 +125,7 @@ rule subordinate_dobj_clause {
 
 rule main_root {
   pattern {
-    X -[ROOT]-> R;
+    X -[sentence|root|ROOT]-> R;
   }
   commands {
     R.main=yes;
@@ -141,18 +141,18 @@ grs_nsubj_ellision_rep = """
 
 rule nsubj_ellision_rep {
   pattern {
-    X -[ROOT]-> N0;
-    N0 -[SBJ]-> S;
+    X -[sentence|root|ROOT]-> N0;
+    N0 -[SBJ|nsubj|suj]-> S;
     N0 -[OBJ]-> N1;
     N1 -[SUB]-> N2;
     N2.upos = re"V.+";
   }
   without {
-    N2 -[SBJ]-> S2;
+    N2 -[SBJ|nsubj|suj]-> S2;
   }
   commands {
-    del_edge N0 -[SBJ]-> S;
-    add_edge N2 -[SBJ]-> S;
+    del_edge N0 -[SBJ|nsubj|suj]-> S;
+    add_edge N2 -[nsubj]-> S;
     N2.main=yes;
     N2.recursive=yes;
   }
@@ -168,7 +168,7 @@ rule preceding_subject {
   pattern {
     R [ main="yes" ];
     S [ main="yes" ];
-    R -[SBJ]-> S;
+    R -[SBJ|nsubj|suj]-> S;
     S << R;
   }
   commands {
@@ -188,10 +188,10 @@ rule preceding_subject_first {
   pattern {
     R1 [ theme="no" ];
     T1 [ theme="yes" ];
-    R1 -[SBJ]-> T1;
+    R1 -[SBJ|nsubj|suj]-> T1;
     R2 [ theme="no" ];
     T2 [ theme="yes" ];
-    R2 -[SBJ]-> T2;
+    R2 -[SBJ|nsubj|suj]-> T2;
     T1 << T2;
   }
   commands {
@@ -233,7 +233,7 @@ rule ignore_satellites_root_advcl {
 
 rule ignore_satellites_root_prepv {
   pattern {
-    X -[ROOT]-> R;
+    X -[sentence|root|ROOT]-> R;
     R [ main="yes" ];
     R -[prepv]-> C;
   }
@@ -923,7 +923,13 @@ for nombre in nombres_textos:
 
 # Opening a new tab in browser with the results for selected texts
 texts_to_show_after_execution = [
-    'scientific_freeling'
+    'texto_prueba',
+    '4_20020601_a_ssd',
+    '5_20000903_ssd',
+    '6_20010501_ssd',
+    '7_19990701_ssd',
+    '9_20010601_a_ssd',
+    '10_20010601_ssd'
 ]
 for text in texts_to_show_after_execution:
     webbrowser.open(dir_html + '/' + text + '.html', new=1, autoraise=True)

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!DOCTYPE text [
+	<!ELEMENT text (sentence+)>
+	    <!ATTLIST text id CDATA #REQUIRED>
+	<!ELEMENT sentence (theme, rheme, semantic_roles)>
+		<!ELEMENT theme (token*)>
+		<!ELEMENT rheme (token*)>
+		<!ELEMENT token (#PCDATA)>
+		    <!ATTLIST token pos CDATA #REQUIRED>
+		<!ELEMENT semantic_roles (frame|main_frame)*>
+		<!ELEMENT frame (argument*)>
+            <!ATTLIST frame type CDATA #REQUIRED>
+            <!ATTLIST frame head CDATA #REQUIRED>
+		<!ELEMENT main_frame (argument*)>
+            <!ATTLIST main_frame type CDATA #REQUIRED>
+            <!ATTLIST main_frame head CDATA #REQUIRED>
+		<!ELEMENT argument EMPTY>
+            <!ATTLIST argument type CDATA #REQUIRED>
+            <!ATTLIST argument dependent CDATA #REQUIRED>
+]>
+
+
+<text id="9_20010601_b_ssd_annotated_recursive">
+
+
+	<sentence>
+		<theme>
+			<token pos="da0fs0">la</token><token pos="di0fs0">propia</token><token pos="ncfs000">competencia</token><token pos="cc">y</token><token pos="da0fs0">la</token><token pos="ncfs000">ley</token><token pos="sps00">de</token><token pos="ncms000">mercado</token>
+		</theme>
+		<rheme>
+			<token pos="vmif3s0">acabará</token><token pos="vmg0000">derivando</token><token pos="sps00">en</token><token pos="di0fs0">una</token><token pos="ncfs000">rebaja</token><token pos="sps00">de</token><token pos="da0mp0">los</token><token pos="ncmp000">precios</token><token pos="cc">o</token><token pos="sps00">en</token><token pos="di0ms0">un</token><token pos="ncms000">sistema</token><token pos="rg">más</token><token pos="aq0ms0">justo</token><token pos="sps00">para</token><token pos="cs">que</token><token pos="rn">no</token><token pos="vmsp3p0">paguen</token><token pos="aq0mp0">justos</token><token pos="sps00">por</token><token pos="ncmp000">pecadores</token><token pos="fp">.</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="People" head="un"></frame>
+			<frame type="People" head="un"></frame>
+			<frame type="People" head="un"></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0fs0">La</token><token pos="ncfs000">política</token><token pos="aq0cs0">exterior</token><token pos="spcms">del</token><token pos="np00000">Gobierno</token><token pos="sps00">de</token><token pos="np00000">Aznar</token>
+		</theme>
+		<rheme>
+			<token pos="vaip3s0">ha</token><token pos="vmp00sm">oscilado</token><token pos="sps00">entre</token><token pos="da0fs0">la</token><token pos="ncfs000">prepotencia</token><token pos="cc">y</token><token pos="da0fs0">la</token><token pos="ncfs000">impotencia</token><token pos="fp">.</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="di0fs0">una</token><token pos="ncfs000">retirada</token><token pos="sps00">a</token><token pos="ncmp000">tiempo</token>
+		</theme>
+		<rheme>
+			<token pos="rn">no</token><token pos="vsip3s0">es</token><token pos="di0fs0">una</token><token pos="ncfs000">victoria</token><token pos="fc">,</token><token pos="fp">.</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">El</token><token pos="np00000">Gobierno</token><token pos="aq0ms0">español</token>
+		</theme>
+		<rheme>
+			<token pos="rn">no</token><token pos="vaip3s0">ha</token><token pos="vmp00sm">tenido</token><token pos="rg">más</token><token pos="ncms000">remedio</token><token pos="cs">que</token><token pos="vmn0000">rendirse</token><token pos="sps00">a</token><token pos="da0fs0">la</token><token pos="ncfs000">evidencia</token><token pos="cc">y</token><token pos="vmn0000">cancelar</token><token pos="da0fs0">la</token><token pos="ncfs000">batalla</token><token pos="pr0cn000">que</token><token pos="pp3csd00">le</token><token pos="vmii3s0">enfrentaba</token><token pos="sps00">a</token><token pos="rg">casi</token><token pos="di0mp0">todos</token><token pos="da0mp0">los</token><token pos="ncmp000">países</token><token pos="sps00">de</token><token pos="da0fs0">la</token><token pos="np00000">Unión</token><token pos="aq0ms0">Europea</token><token pos="fc">,</token><token pos="ncfs000">excepción</token><token pos="aq0fsp">hecha</token><token pos="sps00">de</token><token pos="np00000">Grecia</token><token pos="cc">y</token><token pos="np00000">Portugal</token><token pos="fc">,</token><token pos="sps00">por</token><token pos="di0ms0">un</token><token pos="ncms000">asunto</token><token pos="pr0cn000">que</token><token pos="pi0cs000">nadie</token><token pos="vmii3s0">deseaba</token><token pos="vmn0000">plantear</token><token pos="sps00">con</token><token pos="ncfs000">antelación</token><token pos="cc">y</token><token pos="pr0cn000">que</token><token pos="rg">tampoco</token><token pos="p0000000">se</token><token pos="vmii3s0">sabía</token><token pos="rg">muy</token><token pos="rg">bien</token><token pos="sps00">por</token><token pos="pt0cs000">qué</token><token pos="vaic3s0">habría</token><token pos="sps00">de</token><token pos="vmn0000">resolverse</token><token pos="rg">ahora</token><token pos="cc">y</token><token pos="rn">no</token><token pos="rg">dentro</token><token pos="sps00">de</token><token pos="dn0cp0">cuatro</token><token pos="ncmp000">años</token><token pos="fp">.</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">El</token><token pos="ncms000">problema</token>
+		</theme>
+		<rheme>
+			<token pos="rn">no</token><token pos="vsii3s0">era</token><token pos="sps00">de</token><token pos="ncmp000">fondos</token>
+		</rheme>
+		<semantic_roles>
+			<main_frame type="Calendric_unit" head="era"></main_frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">El</token><token pos="np00000">Gobierno</token><token pos="aq0ms0">español</token>
+		</theme>
+		<rheme>
+			<token pos="vmii3s0">tenía</token><token pos="ncfs000">razón</token><token pos="sps00">en</token><token pos="vmn0000">exigir</token><token pos="cs">que</token><token pos="fc">,</token><token pos="sps00">por</token><token pos="aq0cs0">simple</token><token pos="ncfs000">ingeniería</token><token pos="aq0fs0">estadística</token><token pos="aq0fsp">derivada</token><token pos="sps00">de</token><token pos="da0fs0">la</token><token pos="ncfs000">ampliación</token><token pos="fc">,</token><token pos="di0fp0">varias</token><token pos="ncfp000">regiones</token><token pos="fpa">(</token><token pos="np00000">Andalucía</token><token pos="fc">,</token><token pos="np00000">Galicia</token><token pos="fc">,</token><token pos="np00000">Extremadura</token><token pos="fpt">)</token><token pos="rn">no</token><token pos="p0300000">se</token><token pos="vmsi3p0">quedaran</token><token pos="sps00">sin</token><token pos="da0mp0">los</token><token pos="aq0mp0">dichosos</token><token pos="ncmp000">fondos</token><token pos="fpa">(</token><token pos="rg">casi</token><token pos="di0ms0">un</token><token pos="ncms000">billón</token><token pos="sps00">de</token><token pos="zm">pesetas</token><token pos="aq0cp0">anuales</token><token pos="fpt">)</token><token pos="fp">.</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Misdeed" head="sin"></frame>
+			<frame type="Misdeed" head="sin"></frame>
+			<frame type="Misdeed" head="sin"></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ns0">Lo</token><token pos="pr0cn000">que</token>
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">El</token><token pos="ncms000">tono</token><token pos="aq0cs0">prepotente</token><token pos="fc">,</token><token pos="sps00">a</token><token pos="ncmp000">veces</token><token pos="aq0ms0">agresivo</token><token pos="sps00">con</token><token pos="pr0cn000">que</token><token pos="p0000000">se</token><token pos="vmis3p0">gestionaron</token><token pos="da0fp0">las</token><token pos="ncfp000">ambiciones</token><token pos="aq0fp0">españolas</token><token pos="cc">y</token><token pos="da0fs0">la</token><token pos="ncfs000">exigencia</token><token pos="aq0fsp">abierta</token><token pos="sps00">de</token><token pos="di0ms0">un</token><token pos="ncms000">cambalache</token><token pos="sps00">por</token><token pos="da0fs0">la</token><token pos="ncfs000">moratoria</token><token pos="sps00">de</token><token pos="dn0cp0">siete</token><token pos="ncmp000">años</token><token pos="pr0cn000">que</token><token pos="np00000">Alemania</token><token pos="vmii3s0">exigía</token><token pos="sps00">en</token><token pos="da0fs0">la</token><token pos="ncfs000">circulación</token><token pos="sps00">de</token><token pos="ncfp000">personas</token>
+		</theme>
+		<rheme>
+			<token pos="vmis3s0">envenenó</token><token pos="da0ms0">el</token><token pos="ncms000">asunto</token><token pos="fp">.</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">el</token><token pos="np0000o">Gobierno</token><token pos="sps00">de</token><token pos="np0000l">Madrid</token><token pos="np00000">Francia</token><token pos="da0fp0">las</token><token pos="di0fp0">otras</token><token pos="ncfp000">puertas</token><token pos="fc">,</token><token pos="da0fp0">las</token><token pos="aq0fp0">ajenas</token><token pos="fc">,</token>
+		</theme>
+		<rheme>
+			<token pos="sps00">en</token><token pos="ncfp000">puertas</token><token pos="rg">supuestamente</token><token pos="aq0fp0">amigas</token><token pos="fpa">(</token><token pos="vsis3s0">fue</token><token pos="di0ms0">un</token><token pos="ncms000">caso</token><token pos="aq0ms0">paradigmático</token><token pos="fpt">)</token><token pos="p0000000">se</token><token pos="vmii3p0">iban</token><token pos="vmg0000">cerrando</token><token pos="fp">.</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="np00000">España</token>
+		</theme>
+		<rheme>
+			<token pos="p0300000">se</token><token pos="vmis3s0">quedó</token><token pos="rg">orgullosamente</token><token pos="aq0fs0">sola</token><token pos="rg">apenas</token><token pos="aq0fsp">respaldada</token><token pos="sps00">por</token><token pos="di0ms0">un</token><token pos="np0000l">Silvio</token><token pos="np0000l">Berlusconi</token><token pos="rg">recién</token><token pos="aq0msp">llegado</token><token pos="spcms">al</token><token pos="ncms000">cotarro</token><token pos="aq0ms0">europeo</token><token pos="cc">y</token><token pos="pr0cn000">que</token><token pos="vmip3s0">hace</token><token pos="aq0fs0">buena</token><token pos="dd0fs0">aquella</token><token pos="ncfs000">frase</token><token pos="spcms">del</token><token pos="ncms000">gitano</token><token pos="fd">:</token><token pos="fe">&quot;</token><token pos="rn">No</token><token pos="pp1cs000">me</token><token pos="vmsp2s0">defiendas</token><token pos="fc">,</token><token pos="ncms000">compadre</token><token pos="fe">&quot;</token><token pos="fp">.</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="pr0cn000">que</token>
+		</theme>
+		<rheme>
+			<token pos="vmip3s0">oscila</token><token pos="sps00">entre</token><token pos="da0fs0">la</token><token pos="ncfs000">prepotencia</token><token pos="cc">y</token><token pos="da0fs0">la</token><token pos="ncfs000">impotencia</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="dp1mpp">Nuestros</token><token pos="ncmp000">heraldos</token><token pos="aq0mp0">diplomáticos</token>
+		</theme>
+		<rheme>
+			<token pos="vmip3p0">hinchan</token><token pos="ncms000">pecho</token><token pos="sps00">ante</token><token pos="da0mp0">los</token><token pos="ncmp000">asuntos</token><token pos="rg">más</token><token pos="aq0mp0">arduos</token><token pos="sps00">de</token><token pos="da0fs0">la</token><token pos="ncfs000">vida</token><token pos="aq0cs0">internacional</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">el</token><token pos="ncms000">ministro</token><token pos="spcms">del</token><token pos="ncms000">ramo</token><token pos="fc">,</token><token pos="np0000l">Josep</token><token pos="np0000l">Piqué</token><token pos="fc">,</token><token pos="da0ms0">el</token><token pos="np00000">Ejército</token><token pos="aq0ms0">argelino</token>
+		</theme>
+		<rheme>
+			<token pos="vmip3s0">saluda</token><token pos="da0mp0">los</token><token pos="ncmp000">esfuerzos</token><token pos="spcms">del</token><token pos="np00000">Gobierno</token><token pos="aq0ms0">argelino</token><token pos="sps00">en</token><token pos="da0ms0">el</token><token pos="ncms000">respeto</token><token pos="sps00">a</token><token pos="da0mp0">los</token><token pos="ncms000">derechos</token><token pos="aq0ms0">humanos</token><token pos="cc">y</token><token pos="da0fs0">la</token><token pos="ncfs000">democracia</token><token pos="dn0cp0">tres</token><token pos="ncmp000">días</token><token pos="rg">antes</token><token pos="vaip3s0">ha</token><token pos="vmp00sm">disparado</token><token pos="sps00">contra</token><token pos="di0fs0">una</token><token pos="ncfs000">manifestación</token><token pos="sps00">en</token><token pos="np0000l">Tizi</token><token pos="np0000l">Uzú</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Time_vector" head="antes">
+				<argument type="Event" dependent="Uzú y deja un balance de un centenar"/></frame>
+			<frame type="Time_vector" head="antes">
+				<argument type="Event" dependent="Uzú y deja un balance de un centenar"/></frame>
+			<frame type="Time_vector" head="antes">
+				<argument type="Event" dependent="Uzú y deja un balance de un centenar"/></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="pr0cn000">que</token>
+		</theme>
+		<rheme>
+			<token pos="vsif3s0">será</token><token pos="da0ms0">el</token><token pos="ncms000">asombro</token><token pos="sps00">de</token><token pos="np00000">Damasco</token><token pos="cc">o</token><token pos="sps00">de</token><token pos="np00000">Shanghái</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Purpose" head="plan"></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">el</token><token pos="ncms000">factor</token><token pos="aq0ms0">humano</token>
+		</theme>
+		<rheme>
+			<token pos="rn">no</token><token pos="vmsp3s0">falte</token><token pos="fd">:</token><token pos="fc">,</token><token pos="ncfp000">excursiones</token><token pos="aq0fp0">mesetarias</token><token pos="sps00">con</token><token pos="np00000">Lionel</token><token pos="fpa">(</token><token pos="np00000">Jospin</token><token pos="fpt">)</token><token pos="cc">y</token><token pos="np00000">António</token><token pos="fpa">(</token><token pos="np00000">Guterres</token><token pos="fpt">)</token><token pos="fp">.</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Emotion_directed" head="fines"></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="pr0cs000">quien</token><token pos="da0ms0">el</token><token pos="ncms000">gazpacho</token><token pos="cc">y</token><token pos="da0ms0">el</token><token pos="ncfs000">Ribera</token><token pos="sps00">del</token><token pos="np00000">Duero</token>
+		</theme>
+		<rheme>
+			<token pos="vmsp3s0">pesque</token><token pos="di0fs0">una</token><token pos="ncfs000">sardina</token><token pos="sps00">en</token><token pos="dp3cp0">sus</token><token pos="ncfp000">aguas</token><token pos="aq0fp0">turbias</token><token pos="vmip3p0">tienen</token><token pos="di0fs0">una</token><token pos="ncfs000">virtualidad</token><token pos="aq0fsp">limitada</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="People" head="un"></frame>
+			<frame type="People" head="un"></frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="pt0cs000">Qué</token>
+		</theme>
+		<rheme>
+			<token pos="p0000000">se</token><token pos="vmis3p0">hicieron</token><token pos="fit">?</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="pi0ms000">Todo</token>
+		</theme>
+		<rheme>
+			<token pos="vmip3s0">recuerda</token><token pos="dd0ms0">aquel</token><token pos="aq0ms0">histórico</token><token pos="ncms000">intercambio</token><token pos="sps00">de</token><token pos="ncfp000">corbatas</token><token pos="sps00">con</token><token pos="da0ms0">el</token><token pos="ncms000">dinosaurio</token><token pos="aq0ms0">cubano</token><token pos="sps00">con</token><token pos="ncmp000">resultados</token><token pos="rg">tan</token><token pos="aq0cp0">brillantes</token><token pos="cc">y</token><token pos="aq0cp0">espectaculares</token><token pos="fd">:</token><token pos="pp1csn00">yo</token><token pos="vmip1s0">muevo</token><token pos="ncfs000">ficha</token><token pos="cs">si</token><token pos="pp2csn00">tú</token><token pos="vmip2s0">mueves</token><token pos="ncfs000">ficha</token><token pos="fp">.</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0mp0">los</token><token pos="ncmp000">señores</token><token pos="ao0mp0">primeros</token><token pos="ncmp000">ministros</token>
+		</theme>
+		<rheme>
+			<token pos="vmip3p0">sucumben</token><token pos="sps00">a</token><token pos="da0fs0">la</token><token pos="ncfs000">tentación</token><token pos="sps00">de</token><token pos="fe">&quot;</token><token pos="vmn0000">hacer</token><token pos="da0ms0">el</token><token pos="np00000">Kissinger</token><token pos="fe">&quot;</token><token pos="fc">,</token><token pos="di0fs0">una</token><token pos="ncfs000">figura</token><token pos="aq0fs0">taurina</token><token pos="sps00">de</token><token pos="aq0fsp">reconocida</token><token pos="ncfs000">eficacia</token><token pos="cc">y</token><token pos="ncfs000">diversión</token><token pos="fp">.</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="da0ms0">El</token><token pos="ncms000">mundo</token>
+		</theme>
+		<rheme>
+			<token pos="rn">no</token><token pos="vsip3s0">es</token><token pos="aq0ms0">ajeno</token><token pos="fp">.</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="di0fp0">todas</token><token pos="da0fp0">las</token><token pos="ncfp000">miradas</token>
+		</theme>
+		<rheme>
+			<token pos="vmip3p0">convergen</token><token pos="sps00">en</token><token pos="da0fs0">la</token><token pos="ncfs000">lucecita</token><token pos="sps00">de</token><token pos="da0fs0">la</token><token pos="np00000">Moncloa</token><token pos="fp">.</token>
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			<token pos="ncfp000">rogativas</token><token pos="cc">y</token><token pos="ncmp000">festejos</token>
+		</theme>
+		<rheme>
+			<token pos="vsip3p0">son</token><token pos="sps00">de</token><token pos="ncms000">rigor</token>
+		</rheme>
+		<semantic_roles>
+			<frame type="Cause_to_end" head="lifting">
+				<argument type="State" dependent="de"/></frame>
+			<main_frame type="Kinship" head="son"></main_frame>
+		</semantic_roles>
+	</sentence>
+
+
+	<sentence>
+		<theme>
+			
+		</theme>
+		<rheme>
+			
+		</rheme>
+		<semantic_roles>
+		</semantic_roles>
+	</sentence>
+
+
+</text>
