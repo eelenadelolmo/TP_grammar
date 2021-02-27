@@ -8,9 +8,25 @@
           box-sizing:border-box;
         }
 
-        .fieldset {
+        .fieldset_download {
           border: solid;
-          color: #353fff;
+          color: #000000;
+          border-radius: 1em;
+          margin: 2em 1em 1em;
+          padding:0 1em 1em;
+        }
+
+        .fieldset_back {
+          border: solid;
+          color: #cc0000;
+          border-radius: 1em;
+          margin: 2em 1em 1em;
+          padding:0 1em 1em;
+        }
+
+        .fieldset_continue {
+          border: solid;
+          color: #669900;
           border-radius: 1em;
           margin: 2em 1em 1em;
           padding:0 1em 1em;
@@ -28,14 +44,27 @@
         }
         </style>
     </head>
-<body class="body">
 
+    <body class="body">
 
-    <div class="fieldset">
-      <h1 class="legend">Download annotated corpora</h1>
+    <div style="background-color: #4d4d4d;">
+        <br/><br/>
+        <h1 style="text-align:center; color: #ffffff; font-size: 77px">Grew grammars module</h1>
+        <br/><br/>
+    </div>
+
+    <br/><br/><br/>
+    <div class="fieldset_download">
+      <h1 class="legend">Download</h1>
       <ul>
-         <div class="container" align="left">
-          <a href="/return-files-grew-ann/{{value}}" target="blank"><button class='btn btn-default'>Download ConLL-U annotated files and HTML visualizations</button></a>
+          <h2>Click the button to download the output of this pipeline, consisting of: </h2>
+          <br/>
+          <p> - ConLL-U annotated texts (conllu folder)</p>
+          <p> - HTML visual representation of the annotated texts (html folder)</p>
+          <p> - SVG files for every sentence (svg folder)</p>
+          <br/><br/>
+          <div class="container" align="left">
+          <a href="/return-files-grew-ann/{{value}}" target="blank"><button class='btn btn-default'>Download files</button></a>
          </div>
       </ul>
     </div>
@@ -43,8 +72,36 @@
 
     <br/><br/>
 
-     <div class="container" align="left">
-      <a href="http://0.0.0.0:5001/upload-frame-ann-en"><button class='btn btn-default'>Continue to semantic role labelling pipeline</button></a>
-     </div>
+
+
+
+    <div class="fieldset_back">
+      <h1 class="legend">Go back</h1>
+      <ul>
+          <h2 style="color:black">Press the button to go back to the Grew annotation pipeline.</h2>
+          <br/><br/>
+          <div class="container" align="left">
+          <a href="http://0.0.0.0:5000/upload-grew-ann"><button class='btn btn-default'>Go back</button></a>
+         </div>
+      </ul>
+    </div>
+
+
+    <br/><br/>
+
+
+
+
+    <div class="fieldset_continue">
+      <h1 class="legend">Continue</h1>
+      <ul>
+          <h2 style="color:black">Press the button to continue to the semantic role labelling pipeline.</h2>
+          <br/><br/>
+          <div class="container" align="left">
+          <a href="http://0.0.0.0:5001"><button class='btn btn-default'>Continue</button></a>
+         </div>
+      </ul>
+    </div>
+
 
   </body>
