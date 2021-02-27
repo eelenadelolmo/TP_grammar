@@ -120,13 +120,13 @@ def add_header(response):
     response.headers['Cache-Control'] = 'public, max-age=600'
   return response
 
-@app.route('/upload-frame-ann-en')
+@app.route('/upload-grew-ann')
 def upload_form():
     shutil.rmtree(UPLOAD_FOLDER + '/', ignore_errors=True)
     os.makedirs(UPLOAD_FOLDER + '/')
-    return render_template('upload_frame_ann_en.html')
+    return render_template('upload_grew_ann.html')
 
-@app.route('/upload-frame-ann-en', methods=['POST'])
+@app.route('/upload-grew-ann', methods=['POST'])
 def upload_file():
     if request.method == 'POST':
 
@@ -151,7 +151,7 @@ def upload_file():
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             file.stream.seek(0)
 
-    return render_template('upload_frame_ann_en.html')
+    return render_template('upload_grew_ann.html')
 
 
 @app.route('/mapping_SRL', methods=['POST'])
@@ -326,33 +326,24 @@ def mappingsrl():
         for_copy = dir_output + '/' + nombre + '/' + nombre + '_annotated_recursive.conllu'
         shutil.copyfile(for_copy, for_zip + '/' + nombre + '.conllu')
 
-    make_archive(for_zip, DOWNLOAD_FOLDER + '/' + 'es_annotated.zip')
-    return redirect(url_for('download_file_frame_ann_en', filename='es_annotated.zip'))
+    make_archive(for_zip, DOWNLOAD_FOLDER + '/' + 'grew_annotated.zip')
+    return redirect(url_for('download_file_grew_ann', filename='grew_annotated.zip'))
 
 
-@app.route("/downloadfile/<filename>", methods = ['GET'])
-def download_file(filename):
-    return render_template('download.html', value=filename)
+@app.route("/downloadfile-grew-ann/<filename>", methods = ['GET'])
+def download_file_grew_ann(filename):
+    return render_template('download_grew_ann.html', value=filename)
 
-@app.route("/downloadfile-frame-ann-en/<filename>", methods = ['GET'])
-def download_file_frame_ann_en(filename):
-    return render_template('download_frame_ann_en.html', value=filename)
-
-@app.route('/return-files/<filename>')
-def return_files_tut(filename):
-    file_path = DOWNLOAD_FOLDER + '/en_' + filename
-    return send_file(file_path, as_attachment=True, attachment_filename='en_' + filename, cache_timeout=0)
-
-@app.route('/return-files-frame-ann-en/<filename>', methods = ['GET'])
+@app.route('/return-files-grew-ann/<filename>', methods = ['GET'])
 def return_files_tut_2(filename):
-    file_path = DOWNLOAD_FOLDER + '/es_annotated.zip'
+    file_path = DOWNLOAD_FOLDER + '/grew_annotated.zip'
     return send_file(file_path, as_attachment=True, cache_timeout=0)
 
 
 if __name__ == "__main__":
     secret = secrets.token_urlsafe(32)
     app.secret_key = secret
-    app.run(host='0.0.0.0', port="5003")
+    app.run(host='0.0.0.0', port="5000")
 
 
 
