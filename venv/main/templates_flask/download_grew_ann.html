@@ -1,10 +1,50 @@
 <!doctype html>
-  <title>Download annotated corpora</title>
-  <h1>Download annotated corpora</h1>
-  <body class="body">
+    <head>
+        <title>Download annotated corpora</title>
+        <style>
+            * {
+          margin: 0;
+          padding:0;
+          box-sizing:border-box;
+        }
+
+        .fieldset {
+          border: solid;
+          color: #353fff;
+          border-radius: 1em;
+          margin: 2em 1em 1em;
+          padding:0 1em 1em;
+        }
+
+        .legend {
+          transform: translatey(-50%);
+          width: max-content;
+          background: white;
+          padding: 0 0.15em;
+        }
+
+        .fieldset li {
+          list-style-type: " - ";
+        }
+        </style>
+    </head>
+<body class="body">
+
+
+    <div class="fieldset">
+      <h1 class="legend">Download annotated corpora</h1>
+      <ul>
+         <div class="container" align="left">
+          <a href="/return-files-grew-ann/{{value}}" target="blank"><button class='btn btn-default'>Download ConLL-U annotated files and HTML visualizations</button></a>
+         </div>
+      </ul>
+    </div>
+
+
+    <br/><br/>
 
      <div class="container" align="left">
-      <a href="/return-files-grew-ann/{{value}}" target="blank"><button class='btn btn-default'>Download</button></a>
+      <a href="http://0.0.0.0:5001/upload-frame-ann-en"><button class='btn btn-default'>Continue to semantic role labelling pipeline</button></a>
      </div>
 
   </body>
