@@ -318,8 +318,8 @@ def annotate():
     os.remove(tmp_file)
 
 
-    for_zip = '/home/elena/PycharmProjects/TP_grammar/venv/main/out_download'
-    for_zip_grew_conllu = '/home/elena/PycharmProjects/TP_grammar/venv/main/out_download/conllu'
+    for_zip = '/home/elena/PycharmProjects/TP_grammar/venv/main/out'
+    for_zip_grew_conllu = '/home/elena/PycharmProjects/TP_grammar/venv/main/out/conllu'
     shutil.rmtree(for_zip, ignore_errors=True)
     os.makedirs(for_zip)
     os.makedirs(for_zip_grew_conllu)
@@ -341,7 +341,7 @@ def annotate():
     os.chdir("/home/elena/PycharmProjects/TP_grammar/venv/main")
 
     nombres_textos = os.listdir(DOWNLOAD_FOLDER)
-    for_zip_grew_svg = '/home/elena/PycharmProjects/TP_grammar/venv/main/out_download/svg'
+    for_zip_grew_svg = '/home/elena/PycharmProjects/TP_grammar/venv/main/out/svg'
     os.makedirs(for_zip_grew_svg)
 
     for nombre in nombres_textos:
@@ -455,7 +455,7 @@ def annotate():
 
     ## Generating one HTML file with the original and rewriten trees of every text
 
-    for_zip_grew_html = '/home/elena/PycharmProjects/TP_grammar/venv/main/out_download/html'
+    for_zip_grew_html = '/home/elena/PycharmProjects/TP_grammar/venv/main/out/html'
     os.makedirs(for_zip_grew_html)
 
     nombres_archivos = os.listdir(DOWNLOAD_FOLDER)
