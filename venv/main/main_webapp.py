@@ -318,20 +318,6 @@ def annotate():
     os.remove(tmp_file)
 
 
-    for_zip = '/home/elena/PycharmProjects/TP_grammar/venv/main/out'
-    for_zip_grew_conllu = '/home/elena/PycharmProjects/TP_grammar/venv/main/out/conllu'
-    shutil.rmtree(for_zip, ignore_errors=True)
-    os.makedirs(for_zip)
-    os.makedirs(for_zip_grew_conllu)
-
-    nombres_textos = os.listdir(DOWNLOAD_FOLDER)
-    for nombre in nombres_textos:
-        for_copy = dir_output + '/' + nombre + '/' + nombre + '_annotated_recursive.conllu'
-        shutil.copyfile(for_copy, for_zip_grew_conllu + '/' + nombre + '.conllu')
-
-
-
-
     ## Creating one folder for every text containing the SVG files os their sentences trees:
     # - the original,
     # - the rewriten one and
@@ -341,6 +327,9 @@ def annotate():
     os.chdir("/home/elena/PycharmProjects/TP_grammar/venv/main")
 
     nombres_textos = os.listdir(DOWNLOAD_FOLDER)
+    for_zip = '/home/elena/PycharmProjects/TP_grammar/venv/main/out'
+    shutil.rmtree(for_zip, ignore_errors=True)
+    os.makedirs(for_zip)
     for_zip_grew_svg = '/home/elena/PycharmProjects/TP_grammar/venv/main/out/svg'
     os.makedirs(for_zip_grew_svg)
 
@@ -457,6 +446,17 @@ def annotate():
 
     for_zip_grew_html = '/home/elena/PycharmProjects/TP_grammar/venv/main/out/html'
     os.makedirs(for_zip_grew_html)
+
+
+    for_zip_grew_conllu = '/home/elena/PycharmProjects/TP_grammar/venv/main/out/conllu'
+    os.makedirs(for_zip_grew_conllu)
+
+    nombres_textos = os.listdir(DOWNLOAD_FOLDER)
+    for nombre in nombres_textos:
+        for_copy = dir_output + '/' + nombre + '/' + nombre + '_annotated_recursive.conllu'
+        shutil.copyfile(for_copy, for_zip_grew_conllu + '/' + nombre + '.conllu')
+
+
 
     nombres_archivos = os.listdir(DOWNLOAD_FOLDER)
     for nombre in nombres_archivos:
