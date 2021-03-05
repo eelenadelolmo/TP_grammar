@@ -31,32 +31,25 @@ grew.init()
 ## Directories paths
 
 # Input directory
-# dir_original = 'in/AnCora_Surface_Syntax_Dependencies/conllu'
-dir_original = 'in_short'
+dir_original = 'in'
 
 # Output directory
-# Deleting previous output directory (subfolder creation inside loop)
-# dir_output = 'out'
-dir_output = 'out_short'
+dir_output = 'out'
 shutil.rmtree(dir_output, ignore_errors=True)
 os.makedirs(dir_output)
 
 # Temporary file with the text of each sentence
 tmp_file = dir_output + '/tmp_sentence.txt'
 
-# SVG directory
-# Deleting previous output SVG directory (subfolder creation inside loop)
+# SVG directory for showing after execution
 # dir_svg = 'svg'
-dir_svg = 'svg_short'
-shutil.rmtree(dir_svg, ignore_errors=True, onerror=None)
-os.makedirs(dir_svg)
+# shutil.rmtree(dir_svg, ignore_errors=True, onerror=None)
+# os.makedirs(dir_svg)
 
-# HTML directory
-# Deleting previous output HTML directory
-# dir_html = 'templates'
-dir_html = 'templates_short'
-shutil.rmtree(dir_html, ignore_errors=True)
-os.makedirs(dir_html)
+# HTML directory for showing after execution
+# dir_html = 'html_trees'
+# shutil.rmtree(dir_html, ignore_errors=True)
+# os.makedirs(dir_html)
 
 # Transforms a conllu sentence into the string with its forms
 def txt_transformer(file_conllu):
@@ -108,7 +101,7 @@ def allowed_file(filename, extension):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in extension
 
-app = Flask(__name__, template_folder='templates_flask')
+app = Flask(__name__, template_folder='templates')
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 
@@ -327,10 +320,10 @@ def annotate():
     # os.chdir("venv/main")
 
     nombres_textos = os.listdir(DOWNLOAD_FOLDER)
-    for_zip = 'venv/main/out'
+    for_zip = 'out_zip/out'
     shutil.rmtree(for_zip, ignore_errors=True)
     os.makedirs(for_zip)
-    for_zip_grew_svg = 'venv/main/out/svg'
+    for_zip_grew_svg = 'out_zip/out/svg'
     os.makedirs(for_zip_grew_svg)
 
     for nombre in nombres_textos:
@@ -444,11 +437,11 @@ def annotate():
 
     ## Generating one HTML file with the original and rewriten trees of every text
 
-    for_zip_grew_html = 'venv/main/out/html'
+    for_zip_grew_html = 'out_zip/out/html'
     os.makedirs(for_zip_grew_html)
 
 
-    for_zip_grew_conllu = 'venv/main/out/conllu'
+    for_zip_grew_conllu = 'out_zip/out/conllu'
     os.makedirs(for_zip_grew_conllu)
 
     nombres_textos = os.listdir(DOWNLOAD_FOLDER)
