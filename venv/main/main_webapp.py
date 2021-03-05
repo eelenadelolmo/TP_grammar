@@ -324,13 +324,13 @@ def annotate():
     # - the rewriten one containing additional features)
 
     # For relative commands execution
-    os.chdir("/home/elena/PycharmProjects/TP_grammar/venv/main")
+    # os.chdir("venv/main")
 
     nombres_textos = os.listdir(DOWNLOAD_FOLDER)
-    for_zip = '/home/elena/PycharmProjects/TP_grammar/venv/main/out'
+    for_zip = 'venv/main/out'
     shutil.rmtree(for_zip, ignore_errors=True)
     os.makedirs(for_zip)
-    for_zip_grew_svg = '/home/elena/PycharmProjects/TP_grammar/venv/main/out/svg'
+    for_zip_grew_svg = 'venv/main/out/svg'
     os.makedirs(for_zip_grew_svg)
 
     for nombre in nombres_textos:
@@ -444,11 +444,11 @@ def annotate():
 
     ## Generating one HTML file with the original and rewriten trees of every text
 
-    for_zip_grew_html = '/home/elena/PycharmProjects/TP_grammar/venv/main/out/html'
+    for_zip_grew_html = 'venv/main/out/html'
     os.makedirs(for_zip_grew_html)
 
 
-    for_zip_grew_conllu = '/home/elena/PycharmProjects/TP_grammar/venv/main/out/conllu'
+    for_zip_grew_conllu = 'venv/main/out/conllu'
     os.makedirs(for_zip_grew_conllu)
 
     nombres_textos = os.listdir(DOWNLOAD_FOLDER)
