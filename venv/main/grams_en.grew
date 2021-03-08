@@ -1,0 +1,202 @@
+rule subordinate_dobj_clause {
+  pattern {
+    N0 -[SBJ]-> S;
+    N0 -[OBJ]-> N1;
+    N1 -[SUB]-> N2;
+  }
+  commands {
+    S.rep=yes;
+    S.recursive=yes;
+    N2.main=yes;
+    N2.recursive=yes;
+  }
+}
+rule main_root {
+  pattern {
+    X -[ROOT]-> R;
+  }
+  commands {
+    R.main=yes;
+    R.recursive=yes;
+  }
+}
+strat S1 { Try ( If ( subordinate_dobj_clause, Iter ( subordinate_dobj_clause ), main_root ) ) }
+
+
+####
+
+
+rule nsubj_ellision_rep {
+  pattern {
+    X -[ROOT]-> N0;
+    N0 -[SBJ]-> S;
+    N0 -[OBJ]-> N1;
+    N1 -[SUB]-> N2;
+    N2.upos = re"V.+";
+  }
+  without {
+    N2 -[SBJ]-> S2;
+  }
+  commands {
+    del_edge N0 -[SBJ]-> S;
+    add_edge N2 -[SBJ]-> S;
+    N2.main=yes;
+    N2.recursive=yes;
+  }
+}
+strat S1 { Onf ( nsubj_ellision_rep ) }
+
+
+####
+
+
+rule preceding_subject {
+  pattern {
+    R [ main="yes" ];
+    S [ main="yes" ];
+    R -[SBJ]-> S;
+    S << R;
+  }
+  commands {
+    S.theme=yes;
+    S.recursive=yes;
+  }
+}
+strat S1 { Try ( Iter ( preceding_subject ) ) }
+
+
+####
+
+
+rule preceding_subject_first {
+  pattern {
+    R1 [ theme="no" ];
+    T1 [ theme="yes" ];
+    R1 -[SBJ]-> T1;
+    R2 [ theme="no" ];
+    T2 [ theme="yes" ];
+    R2 -[SBJ]-> T2;
+    T1 << T2;
+  }
+  commands {
+    T2.theme=no;
+    T2.recursive=yes;
+  }
+}
+strat S1 { Try ( Iter ( preceding_subject_first ) ) }
+
+
+####
+
+
+rule ignore_satellites_root_advmod {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[ADV]-> C;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+rule ignore_satellites_root_advcl {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[ADV]-> C;
+    C -[SUB]-> D;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+rule ignore_satellites_root_prepv {
+  pattern {
+    X -[ROOT]-> R;
+    R [ main="yes" ];
+    R -[prepv]-> C;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+rule ignore_satellites_root_prep {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[prep]-> C;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+rule ignore_satellites_root_cc {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[cc]-> C;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+rule ignore_satellites_root_rcmod {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[rcmod]-> C;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+rule ignore_satellites_root_punct {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[punct]-> C;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+rule ignore_satellites_root_coord_fixed {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[coord_fixed]-> C;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+strat S1 { Try ( Iter ( Alt ( ignore_satellites_root_advmod, ignore_satellites_root_advcl, ignore_satellites_root_prepv, ignore_satellites_root_prep, ignore_satellites_root_cc, ignore_satellites_root_rcmod, ignore_satellites_root_punct, ignore_satellites_root_coord_fixed ) ) ) }
+
+
+####
+
+
+rule rheme {
+  pattern {
+    T [ theme="yes" ];
+    V -> T;
+    V [ theme="no", main="yes" ];
+    C [ main=yes, theme="no" ];
+    V -[^advcl|advmod|coord_fixed]-> C;
+    T << C;
+  }
+  commands {
+    V.rheme=yes;
+    C.rheme=yes;
+    C.recursive=yes;
+  }
+}
+strat S1 { Iter ( Try ( rheme ) ) }
