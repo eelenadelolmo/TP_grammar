@@ -117,7 +117,7 @@ def add_header(response):
 def upload_form():
     shutil.rmtree(UPLOAD_FOLDER + '/', ignore_errors=True)
     os.makedirs(UPLOAD_FOLDER + '/')
-    return render_template('upload_grew_ann.html')
+    return render_template('upload_grew_ann_en.html')
 
 @app.route('/upload-grew-ann', methods=['POST'])
 def upload_file():
@@ -144,7 +144,7 @@ def upload_file():
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             file.stream.seek(0)
 
-    return render_template('upload_grew_ann.html')
+    return render_template('upload_grew_ann_en.html')
 
 
 @app.route('/annotate', methods=['POST'])
@@ -569,7 +569,7 @@ def annotate():
 
 @app.route("/downloadfile-grew-ann/<filename>", methods = ['GET'])
 def download_file_grew_ann(filename):
-    return render_template('download_grew_ann.html', value=filename)
+    return render_template('download_grew_ann_en.html', value=filename)
 
 @app.route('/return-files-grew-ann/<filename>', methods = ['GET'])
 def return_files_tut_2(filename):
