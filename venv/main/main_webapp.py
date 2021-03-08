@@ -69,6 +69,11 @@ def txt_transformer(file_conllu):
         for word in s[:-1]:
             s_txt = s_txt + " " + word.form
         s_txt = s_txt + ".\n"
+        s_txt = re.sub(r" ([.,:?!])", r"\1", s_txt)
+        s_txt = re.sub(r" ([)])", r"\1", s_txt)
+        s_txt = re.sub(r"([(]) ", r"\1", s_txt)
+        s_txt = re.sub(r"([¿]) ", r"\1", s_txt)
+        s_txt = re.sub(r"&quot; (.+?) &quot;", r'"\1"', s_txt)
         s_list.append(s_txt)
     return s_list
 

@@ -69,6 +69,11 @@ def txt_transformer(file_conllu):
         for word in s[:-1]:
             s_txt = s_txt + " " + word.form
         s_txt = s_txt + ".\n"
+        s_txt = re.sub(r" ([.,:?!])", r"\1", s_txt)
+        s_txt = re.sub(r" ([)])", r"\1", s_txt)
+        s_txt = re.sub(r"([(]) ", r"\1", s_txt)
+        s_txt = re.sub(r"([¿]) ", r"\1", s_txt)
+        s_txt = re.sub(r"&quot; (.+?) &quot;", r'"\1"', s_txt)
         s_list.append(s_txt)
     return s_list
 
@@ -436,9 +441,13 @@ def annotate():
 
 
     ## Generating one HTML file with the original and rewriten trees of every text
+    ## Generating one txt file for every sentence of every text
 
     for_zip_grew_html = 'out_zip/out/html'
     os.makedirs(for_zip_grew_html)
+
+    for_zip_grew_txt = 'out_zip/out/txt'
+    os.makedirs(for_zip_grew_txt)
 
 
     for_zip_grew_conllu = 'out_zip/out/conllu'
@@ -559,6 +568,15 @@ def annotate():
         # Creating the HTML file in the template folder
         with open(for_zip_grew_html + '/' + nombre + '.html', "w") as h:
             h.write(html)
+
+        # Creating the txt file in the txt folder
+        n_sentences = 0
+        for text_sentence in text_sentences:
+            if len(text_sentence) > 1:
+                n_sentences += 1
+                with io.open(for_zip_grew_txt + '/' + nombre + '_' + str(n_sentences) + '.txt', 'w', encoding='utf8') as f_new:
+                    f_new.write(text_sentence)
+                    f_new.close()
 
 
 
