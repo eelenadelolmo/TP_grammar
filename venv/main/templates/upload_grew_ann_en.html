@@ -1,14 +1,16 @@
+
 <!doctype html>
     <head>
-        <title>Download annotated corpora</title>
+        <title>Annotating theme and rheme</title>
         <style>
-            * {
+
+        * {
           margin: 0;
           padding:0;
           box-sizing:border-box;
         }
 
-        .fieldset_download {
+        .fieldset_upload {
           border: solid;
           color: #000000;
           border-radius: 1em;
@@ -16,15 +18,7 @@
           padding:0 1em 1em;
         }
 
-        .fieldset_back {
-          border: solid;
-          color: #EC7063 ;
-          border-radius: 1em;
-          margin: 2em 1em 1em;
-          padding:0 1em 1em;
-        }
-
-        .fieldset_continue {
+        .fieldset_process {
           border: solid;
           color: #669900;
           border-radius: 1em;
@@ -42,6 +36,8 @@
         .fieldset li {
           list-style-type: " - ";
         }
+
+
 
         ul.breadcrumb {
           padding: 10px 16px;
@@ -69,7 +65,6 @@
           color: #01447e;
           text-decoration: underline;
         }
-
         </style>
     </head>
 
@@ -77,9 +72,10 @@
 
     <div style="background-color: #4d4d4d;">
         <br/><br/>
-        <h1 style="text-align:center; color: #ffffff; font-size: 77px">Grew grammars module</h1>
+        <h1 style="text-align:center; color: #ffffff; font-size: 77px">Grew grammars</h1>
         <br/><br/>
     </div>
+
     <ul class="breadcrumb" style="text-align:center;">
       <li style="list-style-position:inside; border: 3px solid #AEB6BF; border-radius: 5px; padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px;">Grammars module</li>
       <li><a href="http://0.0.0.0:5002/">SRL module</a></li>
@@ -87,19 +83,28 @@
     </ul>
 
     <br/><br/>
-    <div class="fieldset_download">
-      <h1 class="legend">Download</h1>
+    <div class="fieldset_upload">
+      <h1 class="legend">Upload</h1>
       <ul>
-          <h2>Click the button to download the output of this pipeline, consisting of: </h2>
+          <h2 style="color:black">Upload your text files (conllu extension required) and your grammar file (grew extension required).</h2>
           <br/>
-          <p> - ConLL-U annotated texts (conllu folder)</p>
-          <p> - HTML visual representation of the annotated texts (html folder)</p>
-          <p> - SVG files for every sentence (svg folder)</p>
-          <p> - txt files for every sentence (txt folder)</p>
+		  <h2 style="color:black">Press the submit button after selecting every group of files.</h2>
           <br/><br/>
-          <div class="container" align="left">
-          <a href="/return-files-grew-ann/{{value}}" target="blank"><button class='btn btn-default'>Download files</button></a>
-         </div>
+
+			<form method="POST" action="upload-grew-ann" enctype="multipart/form-data">
+				<dl>
+					<p>
+						<input type="file" name="files[]" multiple="true" autocomplete="off" required>
+					</p>
+				</dl>
+				<br/>
+				<p>
+					<input type="submit" value="Submit">
+				</p>
+			</form>
+
+
+
       </ul>
     </div>
 
@@ -107,31 +112,20 @@
     <br/><br/>
 
 
-    <div class="fieldset_continue">
-      <h1 class="legend">Continue</h1>
+
+
+    <div class="fieldset_process">
+      <h1 class="legend">Annotate</h1>
       <ul>
-          <h2 style="color:black">Press the button to continue to the semantic role labelling pipeline:</h2>
-          <br/><br/>
-          <div class="container" align="left">
-          <a href="http://0.0.0.0:5002/"><button class='btn btn-default'>Continue</button></a>
-         </div>
+		  <h2 style="color:black">When you are done, press this button to annotate the uploaded texts according to the grammar:</h2>
+		  <br/><br/>
+
+		  <form action="/annotate" method="post">
+			<button name="forwardBtn" type="submit">Annotate!</button>
+		  </form>
+
       </ul>
     </div>
 
+    </body>
 
-    <br/><br/>
-
-
-    <div class="fieldset_back">
-      <h1 class="legend">Go back</h1>
-      <ul>
-          <h2 style="color:black">Press the button to go back to the Grew annotation pipeline:</h2>
-          <br/><br/>
-          <div class="container" align="left">
-          <a href="http://0.0.0.0:5000/upload-grew-ann"><button class='btn btn-default'>Go back</button></a>
-         </div>
-      </ul>
-    </div>
-
-
-  </body>
