@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Drawing the trees for the sentences in the text</title>
+
+            <script>
+                function SyncScroll(page) {
+                  var div1 = document.getElementById("left");
+                  var div2 = document.getElementById("right");
+                  if (page=="left") {
+                    div2.scrollTop = div1.scrollTop;
+                  }
+                  else {
+                    div1.scrollTop = div2.scrollTop;
+                  }
+                }
+            </script>
+
+            <style>
+
+                .split {
+                  height: 100%;
+                  width: 50%;
+                  position: fixed;
+                  z-index: 1;
+                  top: 0;
+                  overflow-x: auto;
+                  padding-top: 20px;
+                }
+
+                /* Control the left side */
+                .original {
+                  left: 0;
+                }
+
+                /* Control the right side */
+                .rewriten {
+                  right: 0;
+                }
+
+            </style>
+
+        </head>
+
+        <body>
+
+            <div class="split original" id="left" onscroll="SyncScroll('left')">
+        
+			<p> Gil presenta una querella contra Almunia y Jáuregui.
+</p>
+			<a href="../svg/38_19990902_c_ssd_left/38_19990902_c_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/38_19990902_c_ssd_left/38_19990902_c_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> El presidente del GIL y alcalde de Marbella acusa a los dos dirigentes socialistas de los delitos de injurias y calumnias por referirse a su partido utilizando los términos de "organización mafiosa" y "organización de métodos gansteriles".
+</p>
+			<a href="../svg/38_19990902_c_ssd_left/38_19990902_c_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/38_19990902_c_ssd_left/38_19990902_c_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> Gil también considera ofensivas las acusaciones de malversación de caudales públicos, prevaricación y cohecho que los socialistas hicieron contra los miembros del GIL.
+</p>
+			<a href="../svg/38_19990902_c_ssd_left/38_19990902_c_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/38_19990902_c_ssd_left/38_19990902_c_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+			<p> La querella, que se presentó ayer ante el Supremo por la condición de aforado del secretario general del PSOE, viene firmada por los cuatro alcaldes del GIL y sus 90 concejales.
+</p>
+			<a href="../svg/38_19990902_c_ssd_left/38_19990902_c_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/38_19990902_c_ssd_left/38_19990902_c_ssd_rewriten_complete-004.svg" border="1" width="100%"></a>
+
+            </div>
+
+            <div class="split rewriten" id="right" onscroll="SyncScroll('right')">
+        
+			<p> Gil presenta una querella contra Almunia y Jáuregui.
+</p>
+			<a href="../svg/38_19990902_c_ssd_right/38_19990902_c_ssd_rewriten_complete-001.svg" target="_blank"><img src="../svg/38_19990902_c_ssd_right/38_19990902_c_ssd_rewriten_complete-001.svg" border="1" width="100%"></a>
+			<p> El presidente del GIL y alcalde de Marbella acusa a los dos dirigentes socialistas de los delitos de injurias y calumnias por referirse a su partido utilizando los términos de "organización mafiosa" y "organización de métodos gansteriles".
+</p>
+			<a href="../svg/38_19990902_c_ssd_right/38_19990902_c_ssd_rewriten_complete-002.svg" target="_blank"><img src="../svg/38_19990902_c_ssd_right/38_19990902_c_ssd_rewriten_complete-002.svg" border="1" width="100%"></a>
+			<p> Gil también considera ofensivas las acusaciones de malversación de caudales públicos, prevaricación y cohecho que los socialistas hicieron contra los miembros del GIL.
+</p>
+			<a href="../svg/38_19990902_c_ssd_right/38_19990902_c_ssd_rewriten_complete-003.svg" target="_blank"><img src="../svg/38_19990902_c_ssd_right/38_19990902_c_ssd_rewriten_complete-003.svg" border="1" width="100%"></a>
+			<p> La querella, que se presentó ayer ante el Supremo por la condición de aforado del secretario general del PSOE, viene firmada por los cuatro alcaldes del GIL y sus 90 concejales.
+</p>
+			<a href="../svg/38_19990902_c_ssd_right/38_19990902_c_ssd_rewriten_complete-004.svg" target="_blank"><img src="../svg/38_19990902_c_ssd_right/38_19990902_c_ssd_rewriten_complete-004.svg" border="1" width="100%"></a>
+
+            </div>
+
+        </body>
+    </html>
+        
