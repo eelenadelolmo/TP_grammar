@@ -64,7 +64,7 @@ def to_conllu(graph):
 
     graph_ordered = collections.OrderedDict(sorted(graph_int.items()))
     for key in graph_ordered.keys():
-        if not key == 'ROOT':
+        if not key == 'ROOT' and not key == 0:
             conllu_str += str(key)
             conllu_str += '\t'
             morph = graph_ordered[key][0]

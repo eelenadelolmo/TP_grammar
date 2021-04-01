@@ -39,7 +39,7 @@ shutil.rmtree(dir_output, ignore_errors=True)
 os.makedirs(dir_output)
 
 # Temporary file with the text of each sentence
-tmp_file = dir_output + '/tmp_sentence.txt'
+tmp_file = dir_output + '/tmp_sentence.conllu'
 
 # SVG directory for showing after execution
 # dir_svg = 'svg'
