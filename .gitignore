@@ -2,11 +2,14 @@
 venv/bin/*
 venv/lib/*
 venv/lib64/*
+venv/lib64
+venv/bin/python3
+venv/bin/python
 venv/main/corpus/*
 venv/main/in/*
 venv/main/out/*
 venv/main/out_zip/*
 venv/main/templates/*
-venv/pyenv.cfg
+venv/pyvenv.cfg
 venv/main/__pycache__
 análisis.txt
