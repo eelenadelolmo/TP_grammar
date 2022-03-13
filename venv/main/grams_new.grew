@@ -1,0 +1,489 @@
+main
+grs_after_comma
+
+rule after_c {
+  pattern {
+    C [upos="fc"];
+    X [];
+    C < X;
+  }
+  commands {
+    X.comma=yes;
+  }
+}
+strat S1 { Try ( Iter ( after_c ) ) }
+
+
+
+####
+
+
+
+
+main
+grs_main
+
+rule subordinate_dobj_clause {
+  pattern {
+    N0 -[nsubj]-> S;
+    N0 -[dobj]-> N1;
+    N1 -[cobj]-> N2;
+  }
+  commands {
+    S.rep=yes;
+    S.recursive=yes;
+    N2.main=yes;
+    N2.recursive=yes;
+  }
+}
+
+
+rule subordinate_direct_speech {
+  pattern {
+    X -[root]-> R;
+    R -[dobj]-> O;
+    O -[punct]-> P1;
+    O -[punct]-> P2;
+    P1 [ upos=fe ];
+    P2 [ upos=fe ];
+  }
+  commands {
+    O.main=yes;
+    O.recursive=yes;
+  }
+}
+
+rule main_root {
+  pattern {
+    X -[root]-> R;
+  }
+  commands {
+    R.main=yes;
+    R.recursive=yes;
+  }
+}
+
+strat S1 { Try ( If ( subordinate_dobj_clause, Iter ( subordinate_dobj_clause ), If ( subordinate_direct_speech, Iter ( subordinate_direct_speech ), main_root ) ) ) }
+
+
+####
+
+
+main
+grs_nsubj_ellision_rep
+
+rule nsubj_ellision_rep {
+  pattern {
+    X -[root]-> N0;
+    N0 -[nsubj]-> S;
+    N0 -[dobj]-> N1;
+    N1 -[cobj]-> N2;
+    N2.upos = re"v.+";
+  }
+  without {
+    N2 -[nsubj]-> S2;
+  }
+  commands {
+    del_edge N0 -[nsubj]-> S;
+    add_edge N2 -[nsubj]-> S;
+    N2.main=yes;
+    N2.recursive=yes;
+  }
+}
+
+strat S1 { Onf ( nsubj_ellision_rep ) }
+
+
+
+####
+
+
+
+in_main
+grs_preceding_subjects
+
+rule preceding_subject {
+  pattern {
+    R [ main="yes" ];
+    S [ main="yes" ];
+    R -[nsubj]-> S;
+    S << R;
+  } without {
+    S [form="que"];
+  }
+  commands {
+    S.theme=yes;
+    S.recursive=yes;
+  }
+}
+
+
+strat S1 { Try ( Iter ( preceding_subject ) ) }
+
+
+
+
+####
+
+
+in_main
+grs_preceding_subject_first
+
+rule preceding_subject_first {
+  pattern {
+    R1 [ theme="no" ];
+    T1 [ theme="yes" ];
+    R1 -[nsubj]-> T1;
+    R2 [ theme="no" ];
+    T2 [ theme="yes" ];
+    R2 -[nsubj]-> T2;
+    T1 << T2;
+  }
+  commands {
+    T2.theme=no;
+    T2.recursive=yes;
+  }
+}
+
+strat S1 { Try ( Iter ( preceding_subject_first ) ) }
+
+
+
+####
+
+
+
+main
+grs_main_satellites_out
+
+rule deleted_ignore_satellites_root_advmod {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[advmod]-> C;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+
+rule ignore_satellites_root_advcl {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[advcl]-> C;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+
+rule ignore_satellites_root_prepv {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[prepv]-> C;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+
+rule deleted_ignore_satellites_root_prep {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[prep]-> C;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+
+rule ignore_satellites_comma {
+  pattern {
+    N [ main="yes" ];
+    N -[rcmod|advmod|prepa]-> C;
+    C -> P;
+    P [ comma=yes ];
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+
+rule deleted_ignore_satellites_root_punct {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[punct]-> C;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+
+rule ignore_satellites_root_coord_fixed {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[coord_fixed]-> C;
+  }
+  commands {
+    C.main=no;
+    C.recursive=yes;
+  }
+}
+
+rule ignore_dep_cobj {
+  pattern {
+    R [ main="yes" ];
+    R -[dep]-> D;
+    D -[cobj]-> C;
+  }
+  commands {
+    D.main=no;
+    D.recursive=yes;
+  }
+}
+
+strat S1 { Try ( Iter ( Alt ( ignore_satellites_root_advcl, ignore_satellites_root_prepv, ignore_satellites_comma, ignore_satellites_root_coord_fixed, ignore_dep_cobj ) ) ) }
+
+
+
+
+####
+
+
+
+main
+grs_main_extra_in
+
+rule ignore_only_prepvs_satellites {
+  pattern {
+    X -[root]-> R;
+    R [ main="yes" ];
+    R -[prepv]-> C;
+  }
+  without {
+    R -[dobj]-> *;
+  }
+  commands {
+    C.main=yes;
+    C.recursive=yes;
+  }
+}
+
+strat S1 { Try ( Iter ( ignore_only_prepvs_satellites ) ) }
+
+
+
+
+####
+
+
+
+main
+grs_main_extra_in_sub
+
+rule ignore_only_preps_satellites_sub {
+  pattern {
+    X -[^root]-> R;
+    R [ main="yes" ];
+    R -[prep|prepv]-> C;
+  }
+  without {
+    R -[dobj]-> *;
+  }
+  commands {
+    C.main=yes;
+    C.recursive=yes;
+  }
+}
+
+strat S1 { Try ( Iter ( ignore_only_preps_satellites_sub ) ) }
+
+
+
+
+####
+
+
+
+in_main
+grs_rheme
+
+  rule rheme {
+  pattern {
+    V [ theme="no", main="yes" ];
+    V -> T;
+    T [ theme="yes" ];
+    V -[^advcl|advmod|coord_fixed]-> C;
+    C [ main=yes, theme="no" ];
+    T << C;
+  }
+  commands {
+    V.rheme=yes;
+    C.rheme=yes;
+    C.recursive=yes;
+  }
+}
+
+rule all_rheme_root {
+  pattern {
+    R -[root]-> M;
+    M [ main="yes" ];
+  }
+  without {
+    T [ theme="yes" ];
+  }
+  commands {
+    M.rheme=yes;
+    M.recursive=yes;
+  }
+}
+
+rule all_rheme_not_root {
+  pattern {
+    R -[^root]-> M;
+    R [ main="no" ];
+    M [ main="yes" ];
+  }
+  without {
+    T [ theme="yes" ];
+  }
+  commands {
+    M.rheme=yes;
+    M.recursive=yes;
+  }
+}
+
+strat S1 { Iter ( Try ( Alt ( rheme, all_rheme_root, all_rheme_not_root ) ) ) }
+
+
+
+
+####
+
+
+
+main
+grs_rep
+
+rule annotated_reported_ellided_nsubj {
+  pattern {
+    V -[nsubj]-> S;
+    X -[cobj]-> V;
+  }
+  commands {
+    S.rep=yes;
+    S.recursive=yes;
+  }
+}
+
+rule annotated_reported_nsubj_post {
+  pattern {
+    X -[root]-> R;
+    R -[dobj]-> O;
+    O -[punct]-> P1;
+    O -[punct]-> P2;
+    P1 [ upos=fe ];
+    P2 [ upos=fe ];
+    R -[nsubj]-> SP;
+    R << SP;
+  }
+  commands {
+    SP.rep=yes;
+    SP.recursive=yes;
+  }
+}
+
+
+rule annotated_reported_ellided_subj_post {
+  pattern {
+    X -[root]-> R;
+    R -[dobj]-> O;
+    O -[punct]-> P1;
+    O -[punct]-> P2;
+    P1 [ upos=fe ];
+    P2 [ upos=fe ];
+  }
+  commands {
+    R.rep=yes;
+  }
+}
+
+rule annotated_reported_advcl {
+  pattern {
+    X -[advcl]-> R;
+    R -[cobj]-> O;
+    O -[nsubj]-> S;
+    R [form="según"];
+  }
+  commands {
+    S.rep=yes;
+    S.recursive=yes;
+  }
+}
+
+rule annotated_reported_advcl_bareN {
+  pattern {
+    X -[advcl]-> R;
+    R -[pobj]-> S;
+    R.form = re"[Ss]egún";
+  }
+  commands {
+    S.rep=yes;
+    S.recursive=yes;
+  }
+}
+
+rule annotated_reported_advcl_weirdAnn {
+  pattern {
+    X -[advcl]-> R;
+    R -[cobj]-> O;
+    O -[cobj]-> S;
+    O << S;
+    R [ form="según"];
+  }
+  commands {
+    S.rep=yes;
+    S.recursive=yes;
+  }
+}
+
+strat S1 { Try ( Iter ( Alt ( If (annotated_reported_nsubj_post, annotated_reported_nsubj_post, annotated_reported_ellided_subj_post), annotated_reported_advcl, annotated_reported_advcl_bareN, annotated_reported_advcl_weirdAnn) ) ) }
+
+
+
+
+####
+
+
+
+main
+ignore_comma_rep
+
+
+rule ignore_comma_rep {
+  pattern {
+    N [ rep="yes" ];
+    N -> C;
+    N -> P;
+    C [ comma=yes ];
+    P [ upos=fc ];
+  }
+  commands {
+    P.rep=no;
+    C.rep=no;
+    C.recursive=yes;
+  }
+}
+
+strat S1 { Try ( Iter ( ignore_comma_rep ) ) }

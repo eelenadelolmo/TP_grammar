@@ -1,4 +1,4 @@
-from utils import order_graphs, disorder_graphs, to_conllu, annotator_recursive
+from utils import order_graphs, disorder_graphs, to_conllu, annotator_recursive_main, annotator_recursive_in_main
 from conllu import parse
 import pyconll as pc
 import grew
@@ -85,7 +85,27 @@ def copytree(src, dst, symlinks=False, ignore=None):
             shutil.copy2(s, d)
 
 ## Creating different simpler subgrammars (in order to avoid GrewError: 'More than 10000 rewriting steps: ckeck for loops or increase max_rules value')
-grs_list = list()
+
+# Dictionary of rules, with rules as keys an a value indicating if they select the main clause or apply within the selectec main clausefor selecting the main clause
+grs_list = dict()
+
+
+
+grs_after_comma = """
+
+rule after_c {
+  pattern {
+    C [upos="fc"];
+    X [];
+    C < X;
+  }
+  commands {
+    X.comma=yes;
+  }
+}
+strat S1 { Try ( Iter ( after_c ) ) }
+"""
+
 
 
 grs_solving_weirdAnn = """
@@ -122,6 +142,22 @@ rule subordinate_dobj_clause {
   }
 }
 
+
+rule subordinate_direct_speech {
+  pattern {
+    X -[root]-> R;
+    R -[dobj]-> O; 
+    O -[punct]-> P1;
+    O -[punct]-> P2;
+    P1 [ upos=fe ];
+    P2 [ upos=fe ];
+  }
+  commands {
+    O.main=yes;
+    O.recursive=yes;
+  }
+}
+
 rule main_root {
   pattern {
     X -[root]-> R;
@@ -132,7 +168,7 @@ rule main_root {
   }
 }
 
-strat S1 { Try ( If ( subordinate_dobj_clause, Iter ( subordinate_dobj_clause ), main_root ) ) }
+strat S1 { Try ( If ( subordinate_dobj_clause, Iter ( subordinate_dobj_clause ), If ( subordinate_direct_speech, Iter ( subordinate_direct_speech ), main_root ) ) ) }
 """
 
 
@@ -169,6 +205,8 @@ rule preceding_subject {
     S [ main="yes" ];
     R -[nsubj]-> S;
     S << R;
+  } without {
+    S [form="que"];
   }
   commands {
     S.theme=yes;
@@ -205,7 +243,7 @@ strat S1 { Try ( Iter ( preceding_subject_first ) ) }
 
 grs_main_satellites_out = """
 
-rule ignore_satellites_root_advmod {
+rule deleted_ignore_satellites_root_advmod {
   pattern {
     X -[root]-> R;
     R [ main="yes" ];
@@ -241,7 +279,7 @@ rule ignore_satellites_root_prepv {
   }
 }
 
-rule ignore_satellites_root_prep {
+rule deleted_ignore_satellites_root_prep {
   pattern {
     X -[root]-> R;
     R [ main="yes" ];
@@ -253,11 +291,12 @@ rule ignore_satellites_root_prep {
   }
 }
 
-rule ignore_satellites_root_cc {
+rule ignore_satellites_comma {
   pattern {
-    X -[root]-> R;
-    R [ main="yes" ];
-    R -[cc]-> C;
+    N [ main="yes" ];
+    N -[rcmod|advmod|prepa]-> C;
+    C -> P;
+    P [ comma=yes ];
   }
   commands {
     C.main=no;
@@ -265,19 +304,7 @@ rule ignore_satellites_root_cc {
   }
 }
 
-rule ignore_satellites_root_rcmod {
-  pattern {
-    X -[root]-> R;
-    R [ main="yes" ];
-    R -[rcmod]-> C;
-  }
-  commands {
-    C.main=no;
-    C.recursive=yes;
-  }
-}
-
-rule ignore_satellites_root_punct {
+rule deleted_ignore_satellites_root_punct {
   pattern {
     X -[root]-> R;
     R [ main="yes" ];
@@ -301,17 +328,29 @@ rule ignore_satellites_root_coord_fixed {
   }
 }
 
-strat S1 { Try ( Iter ( Alt ( ignore_satellites_root_advmod, ignore_satellites_root_advcl, ignore_satellites_root_prepv, ignore_satellites_root_prep, ignore_satellites_root_cc, ignore_satellites_root_rcmod, ignore_satellites_root_punct, ignore_satellites_root_coord_fixed ) ) ) }
+rule ignore_dep_cobj {
+  pattern {
+    R [ main="yes" ];
+    R -[dep]-> D;
+    D -[cobj]-> C;
+  }
+  commands {
+    D.main=no;
+    D.recursive=yes;
+  }
+}
+
+strat S1 { Try ( Iter ( Alt ( ignore_satellites_root_advcl, ignore_satellites_root_prepv, ignore_satellites_comma, ignore_satellites_root_coord_fixed, ignore_dep_cobj ) ) ) }
 """
 
 
 grs_main_extra_in = """
 
-rule ignore_only_preps_satellites {
+rule ignore_only_prepvs_satellites {
   pattern {
     X -[root]-> R;
     R [ main="yes" ];
-    R -[prep|prepv]-> C;
+    R -[prepv]-> C;
   }
   without {
     R -[dobj]-> *;
@@ -322,7 +361,7 @@ rule ignore_only_preps_satellites {
   }
 }
 
-strat S1 { Try ( Iter ( ignore_only_preps_satellites ) ) }
+strat S1 { Try ( Iter ( ignore_only_prepvs_satellites ) ) }
 """
 
 
@@ -349,13 +388,13 @@ strat S1 { Try ( Iter ( ignore_only_preps_satellites_sub ) ) }
 
 grs_rheme = """
 
-rule rheme {
+  rule rheme {
   pattern {
-    T [ theme="yes" ];
-    V -> T;
     V [ theme="no", main="yes" ];
-    C [ main=yes, theme="no" ];
+    V -> T;
+    T [ theme="yes" ];
     V -[^advcl|advmod|coord_fixed]-> C;
+    C [ main=yes, theme="no" ];
     T << C;
   }
   commands {
@@ -365,7 +404,36 @@ rule rheme {
   }
 }
 
-strat S1 { Iter ( Try ( rheme ) ) }
+rule all_rheme_root {
+  pattern {
+    R -[root]-> M;
+    M [ main="yes" ];
+  }
+  without {
+    T [ theme="yes" ];
+  }
+  commands {
+    M.rheme=yes;
+    M.recursive=yes;
+  }
+}
+
+rule all_rheme_not_root {
+  pattern {
+    R -[^root]-> M;
+    R [ main="no" ];
+    M [ main="yes" ];
+  }
+  without {
+    T [ theme="yes" ];
+  }
+  commands {
+    M.rheme=yes;
+    M.recursive=yes;
+  }
+}
+
+strat S1 { Iter ( Try ( Alt ( rheme, all_rheme_root, all_rheme_not_root ) ) ) }
 """
 
 
@@ -428,12 +496,27 @@ rule annotated_reported_nsubj_post {
   }
 }
 
+
+rule annotated_reported_ellided_subj_post {
+  pattern {
+    X -[root]-> R;
+    R -[dobj]-> O; 
+    O -[punct]-> P1;
+    O -[punct]-> P2;
+    P1 [ upos=fe ];
+    P2 [ upos=fe ];
+  }
+  commands {
+    R.rep=yes;
+  }
+}
+
 rule annotated_reported_advcl {
   pattern {
     X -[advcl]-> R;
     R -[cobj]-> O;
     O -[nsubj]-> S;
-    R [ form="según"];
+    R [form="según"];
   }
   commands {
     S.rep=yes;
@@ -445,7 +528,7 @@ rule annotated_reported_advcl_bareN {
   pattern {
     X -[advcl]-> R;
     R -[pobj]-> S;
-    R [ form="según"];
+    R.form = re"[Ss]egún";
   }
   commands {
     S.rep=yes;
@@ -467,28 +550,31 @@ rule annotated_reported_advcl_weirdAnn {
   }
 }
 
-strat S1 { Try ( Iter ( Alt ( annotated_reported_nsubj_post, annotated_reported_advcl, annotated_reported_advcl_bareN, annotated_reported_advcl_weirdAnn ) ) ) }
+strat S1 { Try ( Iter ( Alt ( If (annotated_reported_nsubj_post, annotated_reported_nsubj_post, annotated_reported_ellided_subj_post), annotated_reported_advcl, annotated_reported_advcl_bareN, annotated_reported_advcl_weirdAnn) ) ) }
 """
 
 
-grs_dealingWith_coordination = """
+ignore_comma_rep = """
 
-rule coordinated {
+
+rule ignore_comma_rep {
   pattern {
-    A -[root]-> R;
-    C -[coord]-> C1;
-    e: X -> C;
+    N [ rep="yes" ];
+    N -> C;
+    N -> P;
+    C [ comma=yes ];
+    P [ upos=fc ];
   }
   commands {
-    del_edge C -[coord]-> C1;
-    add_edge e: X -> C1;
-    C1.coord=yes;
+    P.rep=no;
+    C.rep=no;
+    C.recursive=yes;
   }
 }
 
-strat S1 { Onf ( Iter ( coordinated ) ) }
-"""
+strat S1 { Try ( Iter ( ignore_comma_rep ) ) }
 
+"""
 
 grs_dealingWith_coordination_root = """
 
@@ -529,20 +615,35 @@ strat S1 { Onf ( Iter ( coordinated_ignore_cc ) ) }
 
 # Ordering matters:
 # the features generated by the previous rule strategies are available for the subsequent ones no matter the strategies defined
-grs_list.append(grs_solving_weirdAnn)
-grs_list.append(grs_main)
-grs_list.append(grs_nsubj_ellision_rep)
-grs_list.append(grs_preceding_subjects)
-grs_list.append(grs_preceding_subject_first)
-grs_list.append(grs_main_satellites_out)
-grs_list.append(grs_main_extra_in)
-grs_list.append(grs_main_extra_in_sub)
-grs_list.append(grs_rheme)
-grs_list.append(grs_rheme_cleaning)
-grs_list.append(grs_rep)
-grs_list.append(grs_dealingWith_coordination)
-grs_list.append(grs_dealingWith_coordination_root)
-grs_list.append(grs_dealingWith_coordination_ignore_cc)
+
+
+# ----------------------------------------------------------------
+# Rules selecting the main clause and rewriting the graph
+
+# grs_list[grs_solving_weirdAnn] = 'in_main'
+
+grs_list[grs_main] = 'main'
+grs_list[grs_nsubj_ellision_rep] = 'main'
+
+grs_list[grs_after_comma] = 'main'
+grs_list[grs_main_satellites_out] = 'main'
+grs_list[grs_main_extra_in] = 'main'
+grs_list[grs_main_extra_in_sub] = 'main'
+
+grs_list[grs_rep] = 'main'
+grs_list[ignore_comma_rep] = 'main'
+
+
+# ----------------------------------------------------------------
+# Rules matching in the main clause with the rewriting rules applied
+
+grs_list[grs_preceding_subjects] = 'in_main'
+grs_list[grs_preceding_subject_first] = 'in_main'
+grs_list[grs_rheme] = 'in_main'
+# grs_list[grs_rheme_cleaning] = 'in_main'
+
+# grs_list[grs_dealingWith_coordination_root] = 'in_main'
+# grs_list[grs_dealingWith_coordination_ignore_cc] = 'in_main'
 
 
 
@@ -616,7 +717,10 @@ for grs in grs_list:
 
             # Recursive subtree annotation for recursive=yes featured nodes
             with open(ruta + f_noExt + '_annotated_recursive.conllu', "w") as output:
-                output.write(annotator_recursive(dir_output + '/' + f_noExt + '/' + f_noExt + '_annotated.conllu') + '\n')
+                if grs_list[grs] == 'main':
+                    output.write(annotator_recursive_main(dir_output + '/' + f_noExt + '/' + f_noExt + '_annotated.conllu') + '\n')
+                if grs_list[grs] == 'in_main':
+                    output.write(annotator_recursive_in_main(dir_output + '/' + f_noExt + '/' + f_noExt + '_annotated.conllu') + '\n')
 
 
     else:
@@ -659,8 +763,12 @@ for grs in grs_list:
 
             # Recursive subtree annotation for recursive=yes featured nodes
             with open(ruta + f_noExt + '_annotated_recursive.conllu', "w") as output:
-                output.write(
-                    annotator_recursive(dir_output + '/' + f_noExt + '/' + f_noExt + '_annotated.conllu') + '\n')
+                if grs_list[grs] == 'main':
+                    output.write(
+                        annotator_recursive_main(dir_output + '/' + f_noExt + '/' + f_noExt + '_annotated.conllu') + '\n')
+                if grs_list[grs] == 'in_main':
+                    output.write(
+                        annotator_recursive_in_main(dir_output + '/' + f_noExt + '/' + f_noExt + '_annotated.conllu') + '\n')
 
             # Appending the unordered output of the GRS application to every ordered Grew graph sentence
             for g in ordered_graphs:
@@ -684,7 +792,10 @@ for grs in grs_list:
 
             # Recursive subtree annotation for recursive=yes featured nodes
             with open(ruta + f_noExt + '_annotated_recursive.conllu', "w") as output:
-                output.write(annotator_recursive(dir_output + '/' + f_noExt + '/' + f_noExt + '_annotated.conllu') + '\n')
+                if grs_list[grs] == 'main':
+                    output.write(annotator_recursive_main(dir_output + '/' + f_noExt + '/' + f_noExt + '_annotated.conllu') + '\n')
+                if grs_list[grs] == 'in_main':
+                    output.write(annotator_recursive_in_main(dir_output + '/' + f_noExt + '/' + f_noExt + '_annotated.conllu') + '\n')
 
 print('--------------------------------------------------------------------------------')
 print('Numero de estrategias aplicadas correctamente: ' + str(n_processed))
@@ -714,6 +825,7 @@ for nombre in nombres_textos:
         raw = re.sub('\|theme=','|t=', raw)
         raw = re.sub('\|rheme=','|r=', raw)
         raw = re.sub('\|coord=','|c=', raw)
+        raw = re.sub('\|comma=','|p=', raw)
         raw = re.sub('recursive=(yes|no)\|','', raw)
         f.close()
     with open(ruta_input, 'w') as f:
@@ -745,7 +857,7 @@ for d in os.listdir(dir_svg):
 # colors_right = {'theme': '#BEDA48', 'rheme': '#DA8D48'}           # Definitive
 
 colors_left = {'m': '#98D2A5'}
-colors_right = {'t': '#BEDA48', 'r': '#DA79E8'}
+colors_right = {'t': '#BEDA48', 'rm': '#DA79E8'}
 
 # Selecting the SVG files to color
 for nombre in nombres_textos:
@@ -778,7 +890,11 @@ for nombre in nombres_textos:
                 g_objects = original_xml.split('-->')
                 g_objects_colored = list()
                 for g_object in g_objects:
-                    if key + '=yes' in g_object:
+                    found = True
+                    for k in key:
+                        if not k + '=yes' in g_object:
+                            found = False
+                    if found:
                         g_object = re.sub('fill="none', 'fill="' + color, g_object)
                         g_objects_colored.append(g_object)
                     else:
@@ -800,7 +916,11 @@ for nombre in nombres_textos:
                 g_objects = original_xml.split('-->')
                 g_objects_colored = list()
                 for g_object in g_objects:
-                    if key + '=yes' in g_object:
+                    found = True
+                    for k in key:
+                        if not k + '=yes' in g_object:
+                            found = False
+                    if found:
                         g_object = re.sub('fill="none', 'fill="' + color, g_object)
                         g_objects_colored.append(g_object)
                     else:
@@ -921,9 +1041,19 @@ for nombre in nombres_textos:
 
 # Opening a new tab in browser with the results for selected texts
 texts_to_show_after_execution = [
-    '3_19991101_ssd',
-    '1_20000702_ssd',
-    '10_20020102_ssd'
+    # '1_20000702_ssd',
+    # '1_20020202_ssd',
+    # '1_20020901_ssd',
+    # '2_19981101_ssd',
+    # '2_19991102_ssd',
+    # '2_20010501_ssd',
+    # '2_20010702_ssd',
+    # '2_20020302_ssd',
+    # '3_19991101_ssd',
+    '3_19990102_ssd'
 ]
+
+
+
 for text in texts_to_show_after_execution:
     webbrowser.open(dir_html + '/' + text + '.html', new=1, autoraise=True)

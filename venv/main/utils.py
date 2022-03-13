@@ -76,7 +76,7 @@ def to_conllu(graph):
             conllu_str += '\t'
             conllu_str += morph['xpos']
             conllu_str += '\t'
-            conllu_str = conllu_str + 'recursive=' + morph['recursive'] + '|rep=' + morph['rep'] + '|theme=' + morph['theme'] + '|rheme=' + morph['rheme'] + '|main=' + morph['main'] + '|coord=' + morph['coord']
+            conllu_str = conllu_str + 'recursive=' + morph['recursive'] + '|rep=' + morph['rep'] + '|theme=' + morph['theme'] + '|rheme=' + morph['rheme'] + '|main=' + morph['main'] + '|coord=' + morph['coord'] + '|comma=' + morph['comma']
             conllu_str += '\t'
             conllu_str += str(heads[key][0]) if len(heads[key]) == 2 else '0'
             conllu_str += '\t'
@@ -88,7 +88,7 @@ def to_conllu(graph):
 
 # Annotates the subtree dependency nodes of a node in a conllu formatted file
 # The annotation is performed when a node contains the feature recursive with the value yes
-def annotator_recursive(conllu_file):
+def annotator_recursive_main(conllu_file):
     input = open(conllu_file, "r", encoding="utf-8")
     sentences = parse(input.read())
     resultado = ""
@@ -111,7 +111,9 @@ def annotator_recursive(conllu_file):
                     if hijo.token['feats']['recursive'] == 'yes':
 
                         # Save its =yes features in order to expand them over its sons
-                        for feature in hijo.token['feats']:
+                        # for feature in hijo.token['feats']:
+                        # Only for specific features
+                        for feature in ['main', 'rep', 'theme', 'rheme']:
                             if hijo.token['feats'][feature] == 'yes':
                                 features_to_add.append(feature)
                             if hijo.token['feats'][feature] == 'no':
@@ -134,11 +136,82 @@ def annotator_recursive(conllu_file):
 
             # Annotating all children
             while len(hijos) > 0:
-                for hijo in hijos:
-                    for feature_to_add in features_to_add:
+                for feature_to_add in features_to_add:
+                    for hijo in hijos:
                         hijo.token['feats'][feature_to_add] = 'yes'
-                    for feature_to_remove in features_to_remove:
+                for feature_to_remove in features_to_remove:
+                    for hijo in hijos:
                         hijo.token['feats'][feature_to_remove] = 'no'
+                nietos = []
+                for hijo in hijos:
+                    nietos.extend(hijo.children)
+                hijos = nietos
+
+        resultado = resultado + re.sub("\|recursive=no", "", sentence.serialize())
+    return resultado
+
+
+
+
+# Annotates the subtree dependency nodes of a node in a conllu formatted file
+# The annotation is performed when a node contains the feature recursive with the value yes
+def annotator_recursive_in_main(conllu_file):
+    input = open(conllu_file, "r", encoding="utf-8")
+    sentences = parse(input.read())
+    resultado = ""
+
+
+    for sentence in sentences:
+
+        while "recursive=yes" in sentence.serialize():
+
+            hijos = [sentence.to_tree()]
+            padre = None
+
+            # Getting the recursive:yes token as a subtree
+            while len(hijos) > 0 and padre is None:
+                for hijo in hijos:
+                    features_to_add = list()
+                    features_to_remove = list()
+
+                    # Explore the tree until finding a recursive=yes annotated node
+                    if hijo.token['feats']['recursive'] == 'yes':
+
+                        # Save its =yes features in order to expand them over its sons
+                        # for feature in hijo.token['feats']:
+                        # Only for specific features
+                        for feature in ['main', 'rep', 'theme', 'rheme']:
+                            if hijo.token['feats'][feature] == 'yes':
+                                features_to_add.append(feature)
+                            if hijo.token['feats'][feature] == 'no':
+                                features_to_remove.append(feature)
+
+
+                        # Stop the loop and delete the recursive=yes feature
+                        # Now padre == the node to recursively propagate
+                        padre = hijo
+                        padre.token['feats']['recursive'] = 'no'
+                        break
+
+                nietos = []
+                for hijo in hijos:
+                    nietos.extend(hijo.children)
+                hijos = nietos
+
+            if padre is not None:
+                hijos = padre.children
+
+            # Annotating all children
+            while len(hijos) > 0:
+                for feature_to_add in features_to_add:
+                    for hijo in hijos:
+                        # Only propagating features to tokens within the main clause
+                        if hijo.token['feats']['main'] == 'yes':
+                            hijo.token['feats'][feature_to_add] = 'yes'
+                for feature_to_remove in features_to_remove:
+                    for hijo in hijos:
+                        if hijo.token['feats']['main'] == 'yes':
+                            hijo.token['feats'][feature_to_remove] = 'no'
                 nietos = []
                 for hijo in hijos:
                     nietos.extend(hijo.children)
