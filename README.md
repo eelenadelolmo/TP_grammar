@@ -9,6 +9,7 @@ Requires the Grew backend program grewpy (OCaml, installed with opam; see https:
 Clone the repo and execute the installation command:
 `pip install -r requirements.txt`
 
+The folder `venv/main/conll_viewer/` contains dependency2tree (https://github.com/boberle/dependency2tree), distributed under the Mozilla Public License 2.0 (see its own LICENSE file).
 
 ### Usage
 
