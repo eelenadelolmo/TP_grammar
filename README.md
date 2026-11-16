@@ -4,6 +4,7 @@
 ### Installation
 
 Requires Python 3.8
+Requires the Grew backend program grewpy (OCaml, installed with opam; see https://grew.fr)
 
 Clone the repo and execute the installation command:
 `pip install -r requirements.txt`
