@@ -1,6 +1,6 @@
 # Sintaxis de las reglas de Grew
 
-Descripción de la sintaxis de reglas de Grew del prototipo de anotación del capítulo 6 de tesis (apartado 6.3.1). 
+Descripción de la sintaxis de reglas de Grew del prototipo de anotación del capítulo 6 de la tesis (apartado 6.6.1). 
 
 Documentación oficial de Grew: https://grew.fr/doc/rule.
 
