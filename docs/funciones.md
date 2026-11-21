@@ -1,6 +1,6 @@
 # Funciones del módulo de anotación temática
 
-Documentación de las funciones de `venv/main/utils.py`, que usan `main.py` y `main_webapp.py` (apartado 6.5.1 de la tesis).
+Documentación de las funciones de `venv/main/utils.py`, que usan `main.py` y `main_webapp.py` (apartado 6.8.1 de la tesis).
 
 ## Directorios de trabajo
 
